@@ -1,0 +1,30 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sanskritutf"
+version = "1.0.0"
+description = "Sanskrit to Utf converter"
+readme = "README.md"
+authors = [{ name = "agi", email = "agi9feb99@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["sanskrit", "utf", "dictionary"]
+dependencies = [
+    'tomli; python_version < "3.11"',
+]
+requires-python = ">=3.7"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/agi9feb99/sanskritutf"
+

@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+sanskritutf/__init__.py
+sanskritutf/sanskritutf.py
+sanskritutf.egg-info/PKG-INFO
+sanskritutf.egg-info/SOURCES.txt
+sanskritutf.egg-info/dependency_links.txt
+sanskritutf.egg-info/requires.txt
+sanskritutf.egg-info/top_level.txt
+tests/__init__.py
+tests/test_sanskritutf.py
