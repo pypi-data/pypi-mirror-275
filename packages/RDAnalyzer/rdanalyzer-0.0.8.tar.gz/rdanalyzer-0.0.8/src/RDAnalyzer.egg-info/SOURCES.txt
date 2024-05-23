@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/RDAnalyzer/__init__.py
+src/RDAnalyzer/analyzer.py
+src/RDAnalyzer/set.py
+src/RDAnalyzer/species.py
+src/RDAnalyzer/tools.py
+src/RDAnalyzer.egg-info/PKG-INFO
+src/RDAnalyzer.egg-info/SOURCES.txt
+src/RDAnalyzer.egg-info/dependency_links.txt
+src/RDAnalyzer.egg-info/top_level.txt
+src/rdanalyzer.egg-info/PKG-INFO
+src/rdanalyzer.egg-info/SOURCES.txt
+src/rdanalyzer.egg-info/dependency_links.txt
+src/rdanalyzer.egg-info/top_level.txt
