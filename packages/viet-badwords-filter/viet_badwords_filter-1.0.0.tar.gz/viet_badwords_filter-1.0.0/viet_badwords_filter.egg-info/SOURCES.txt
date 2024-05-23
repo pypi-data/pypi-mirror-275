@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+tests/__init__.py
+tests/test_filter.py
+viet_badwords_filter/__init__.py
+viet_badwords_filter/badwords_list.py
+viet_badwords_filter/filter.py
+viet_badwords_filter.egg-info/PKG-INFO
+viet_badwords_filter.egg-info/SOURCES.txt
+viet_badwords_filter.egg-info/dependency_links.txt
+viet_badwords_filter.egg-info/top_level.txt

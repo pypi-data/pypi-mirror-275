@@ -1,0 +1,2 @@
+tests
+viet_badwords_filter
