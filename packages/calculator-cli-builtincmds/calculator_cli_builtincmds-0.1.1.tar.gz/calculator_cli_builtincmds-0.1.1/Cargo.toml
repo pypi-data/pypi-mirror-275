@@ -1,0 +1,16 @@
+[package]
+name = "calculator_cli_builtincmds"
+version = "0.1.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "calculator_cli_builtincmds"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.21.2"
+minus = { version = "5.6.1", features = [
+  "dynamic_output",
+  "search",
+] }
