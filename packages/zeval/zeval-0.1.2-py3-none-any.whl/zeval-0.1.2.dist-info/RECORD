@@ -1,0 +1,16 @@
+zeval/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zeval/evaluation.py,sha256=hhv0ChvGhFJWRWhzwNnah7kSZ_owhfe0Pet8TqgLNGs,492
+zeval/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zeval/config/model_config.py,sha256=zl70YKIkHOuTxXr56XIptY1KU4JmzvviwHTzc6HsIC8,180
+zeval/evaluators/__init__.py,sha256=_86tm8BmVHzzD1Cm5DC5iPMD9OSx3JBsaHRwrVllh3s,211
+zeval/evaluators/answer_relevancy.py,sha256=2CXWV3ZqNMMkRgQ6LkwV4UaasWqvfo9k6rKXbLTjotg,6948
+zeval/evaluators/context_precision.py,sha256=i5UupUuxYOle2T9Hq5dDGtBdVPoG_WexQU8QWUUIwIg,4210
+zeval/evaluators/context_recall.py,sha256=vtiszIh0LNSkqa5tOQ470TU2VbUW9c9ksF6h3VPv4vE,8173
+zeval/evaluators/faithfulness.py,sha256=tl_-gP-8elxA8vG0xGBBg9MX9z0osyqYBO0bdMc_EJM,9640
+zeval/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zeval/utils/model.py,sha256=r0Vxx4Soq3ughaOY6v7Ndm0GH6ukkc_uclbCwQ6MQ-Y,1245
+zeval/utils/model_caller.py,sha256=c004Dwti3HmNL8PERf8mYCZ73VKJWWLnOplli-4wZrQ,757
+zeval-0.1.2.dist-info/METADATA,sha256=lUcEb4WenhQO7FVm6Q6M1Zz6-WvrVPDcn5TOpMNaltI,652
+zeval-0.1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+zeval-0.1.2.dist-info/top_level.txt,sha256=LGuYrW-f1CmtfFTf0QwInyFyIsadMbe5a7XA5jcOlQM,6
+zeval-0.1.2.dist-info/RECORD,,
