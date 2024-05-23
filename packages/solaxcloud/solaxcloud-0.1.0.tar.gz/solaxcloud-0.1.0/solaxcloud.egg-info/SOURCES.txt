@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+solaxcloud/__init__.py
+solaxcloud/solaxcloud.py
+solaxcloud.egg-info/PKG-INFO
+solaxcloud.egg-info/SOURCES.txt
+solaxcloud.egg-info/dependency_links.txt
+solaxcloud.egg-info/top_level.txt
