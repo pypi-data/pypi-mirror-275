@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+season_detector/__init__.py
+season_detector/app.py
+season_detector.egg-info/PKG-INFO
+season_detector.egg-info/SOURCES.txt
+season_detector.egg-info/dependency_links.txt
+season_detector.egg-info/entry_points.txt
+season_detector.egg-info/requires.txt
+season_detector.egg-info/top_level.txt
+season_detector/static/script.js
+season_detector/static/styles.css
+season_detector/templates/index.html

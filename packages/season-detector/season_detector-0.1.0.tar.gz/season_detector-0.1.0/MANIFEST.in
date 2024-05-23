@@ -1,0 +1,3 @@
+include season_detector/templates/*.html
+include season_detector/static/*.css
+include season_detector/static/*.js
