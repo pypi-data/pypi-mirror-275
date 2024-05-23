@@ -1,0 +1,2 @@
+[console_scripts]
+github-project-automation = github_project_automation.cli.main:main
