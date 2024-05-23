@@ -1,0 +1,2 @@
+[console_scripts]
+mask-key-setup = mask_key.main:main
