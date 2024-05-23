@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: kaliyuga
+Version: 1.0.0
+Summary: Kaliyuga: The Hindu-inspired hacking marvel. Unleash its potent arsenal for advanced cybersecurity. Exploit vulnerabilities, crack passwords, and analyze networks with divine precision. Harness its forensic prowess and generate impactful reports. Empowering defenders in the digital age.
+Home-page: https://github.com/mr-fidal/kaliyuga
+Author: Fidal
+Author-email: mrfidal@proton.me
+Keywords: mrfidal,kaliyuga,cybersecurity,hacking,network analysis,password cracking,forensics,exploitation,security,python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: scapy
+Requires-Dist: paramiko
+
+# Kali Yuga
