@@ -1,0 +1,2 @@
+[console_scripts]
+kaliyuga = kaliyuga.cli:main

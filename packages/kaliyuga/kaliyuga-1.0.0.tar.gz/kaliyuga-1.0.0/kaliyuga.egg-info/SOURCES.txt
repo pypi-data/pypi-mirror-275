@@ -1,0 +1,8 @@
+README.md
+setup.py
+kaliyuga.egg-info/PKG-INFO
+kaliyuga.egg-info/SOURCES.txt
+kaliyuga.egg-info/dependency_links.txt
+kaliyuga.egg-info/entry_points.txt
+kaliyuga.egg-info/requires.txt
+kaliyuga.egg-info/top_level.txt
