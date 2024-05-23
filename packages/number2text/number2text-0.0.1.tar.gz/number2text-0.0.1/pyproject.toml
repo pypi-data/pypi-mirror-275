@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling","hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "number2text"
+version = "0.0.1"
+authors = [
+  { name="daswer123", email="daswerq123@gmail.com" },
+]
+description = "Convert any number to string. Support ~100 langs"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/daswer123/number2text"
+"Bug Tracker" = "https://github.com/daswer123/number2text/issues"
+
+[tool.hatch.build.targets.wheel]
+only-include = ["number2text"]
