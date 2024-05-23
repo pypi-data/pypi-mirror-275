@@ -1,0 +1,8 @@
+admin_auth0/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+admin_auth0/auth0.py,sha256=YGQhYFZ5H5KsFDwPRNKudUEfojkkU8EsanL4lpkXaus,632
+admin_auth0/authentication.py,sha256=anQ3SP_4dOsSo7x8hKKPtC5tRAFWd1Wdpgw654f6Z_M,2130
+admin_auth0/urls.py,sha256=hd_8SPSwGwGufUquj3gbcH8aFoCXEfVR1sRr7GcNliM,236
+admin_auth0/views.py,sha256=TtxbsNMkQ4Azy5qyJJVGT4Ef-4FikgdoPOKdmATyFLc,1344
+admin_auth0-0.2.10.dist-info/METADATA,sha256=FPBl1MUxsDNVe-_ppF0CgWfwAY4jAhdgCEjFoc4YwcU,906
+admin_auth0-0.2.10.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+admin_auth0-0.2.10.dist-info/RECORD,,
