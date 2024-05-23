@@ -1,0 +1,11 @@
+mask2bbox/__init__.py,sha256=F6XSdWXnOLbpexL_PFhs6_1bdzAym-pq1CxMuL2dUCw,92
+mask2bbox/__main__.py,sha256=TyMJMGp8EjBD-30zVpGbEBtPMj49Samm6DkyYX_c7hk,10456
+mask2bbox/_bboxes.py,sha256=9oiFPrCHktIw6TxxeIr5HhqprQRku4rNZ-9oXrgcGas,25077
+mask2bbox/logger.py,sha256=pVPzQpIi2l9iIcOtnYO3rE25QeFvUx20EozN73qK820,1413
+mask2bbox/version.py,sha256=wQP0zPwrPeGkZ12uVa4mTM7oYoqji6PECSRd7QD_QXE,23
+mask2bbox-0.0.20.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+mask2bbox-0.0.20.dist-info/METADATA,sha256=_F55vVeudcKZrl5Guq0AMQPu_42IdAkGCNEzdkpzvLQ,2841
+mask2bbox-0.0.20.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mask2bbox-0.0.20.dist-info/entry_points.txt,sha256=0nMwWbdWZuT6lNY5AC6-bc6_nvAtRXbABQ63xS0RngI,201
+mask2bbox-0.0.20.dist-info/top_level.txt,sha256=WJ04_7r1a-BQskGt-swOJNAmVXcrR3ALuo0Yjk3NVzY,10
+mask2bbox-0.0.20.dist-info/RECORD,,
