@@ -1,0 +1,6 @@
+networkx
+tqdm
+petdatasetreader
+matplotlib
+mplcursors
+pygraphviz
