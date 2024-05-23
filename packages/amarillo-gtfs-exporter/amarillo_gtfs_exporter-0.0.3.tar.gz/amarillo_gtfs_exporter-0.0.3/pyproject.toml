@@ -1,0 +1,9 @@
+[project]
+name = "amarillo-gtfs-exporter"
+version = "0.0.3"
+dependencies = [
+    "amarillo"
+]
+
+[tool.setuptools.packages]
+find = {}

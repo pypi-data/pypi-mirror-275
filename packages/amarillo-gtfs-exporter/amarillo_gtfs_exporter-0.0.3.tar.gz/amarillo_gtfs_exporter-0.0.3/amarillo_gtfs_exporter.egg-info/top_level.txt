@@ -1,0 +1,7 @@
+amarillo
+build
+conf
+data
+dist
+static
+templates
