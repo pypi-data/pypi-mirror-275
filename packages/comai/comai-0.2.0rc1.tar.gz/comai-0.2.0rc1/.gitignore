@@ -1,0 +1,8 @@
+__pycache__
+.pytest_cache
+.python-version
+dist
+.env
+.DS_Store
+.ipynb_checkpoints
+experiments
