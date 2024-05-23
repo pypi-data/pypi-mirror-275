@@ -1,0 +1,5 @@
+setup.py
+fredmathy.egg-info/PKG-INFO
+fredmathy.egg-info/SOURCES.txt
+fredmathy.egg-info/dependency_links.txt
+fredmathy.egg-info/top_level.txt
