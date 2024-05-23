@@ -1,0 +1,8 @@
+nazrin-0.3.0.dist-info/METADATA,sha256=QBKSpeFVDxQVLHhn_g3TC-jnA7z-nTtMyt0QJt2-3D8,4834
+nazrin-0.3.0.dist-info/WHEEL,sha256=5HyBAIXy6w_lmX9AQnFspp6An6SPZJwRKkYM1H8iHP0,95
+nazrin-0.3.0.dist-info/license_files/LICENSE,sha256=tDQuqKXJ9p6iLF_iRTTKqkM7sxK1Tmcdet6MkNU7dLY,1084
+nazrin/__init__.py,sha256=foUGWuEqJOw0HbeXqghB9qzFI45ycJmSoCOOzOfHtP4,107
+nazrin/__init__.pyi,sha256=9Wg5i3UgTBKhYPFO1_v50loT2fSt-xYld0VOwhXtyu0,3551
+nazrin/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nazrin/nazrin.cp310-win_amd64.pyd,sha256=lpMHJTtkIg_QbOGNKihPIdT0tI67Ubt_BLykpjnoeek,14458880
+nazrin-0.3.0.dist-info/RECORD,,
