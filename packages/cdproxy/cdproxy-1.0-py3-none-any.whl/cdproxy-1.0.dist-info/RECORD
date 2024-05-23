@@ -1,0 +1,10 @@
+cdprox/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cdprox/config.py,sha256=xXnULiCbOHS2BeVslC6RGHZuWmSzlhoP8u8yzHkhlR4,443
+cdprox/main.py,sha256=skNPuZuk3M_lKxUurt9w4BbW3k8WbcTDKpSl1V4BwS8,1926
+cdprox/utils.py,sha256=B46ziFojotjiZHWQ03XNPRIGEZl00uvJ9g8t2DztFDc,3434
+cdproxy-1.0.dist-info/LICENSE,sha256=5dz_6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x-o7c,3
+cdproxy-1.0.dist-info/METADATA,sha256=xWCciYh-xskSkFYCwOxykBBJXcKdZuAE0aOIy5uSa6s,821
+cdproxy-1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cdproxy-1.0.dist-info/entry_points.txt,sha256=yeID4HBpxVJHYTDJplbPzyBZYTVt213LcJicdoxFpfg,44
+cdproxy-1.0.dist-info/top_level.txt,sha256=T0DMuAyzD8tRqP0v9hwjFCWOFpeYmSyIfmWb_AD8vyY,7
+cdproxy-1.0.dist-info/RECORD,,
