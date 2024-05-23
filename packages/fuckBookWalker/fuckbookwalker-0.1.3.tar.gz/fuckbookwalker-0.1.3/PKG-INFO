@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: fuckBookWalker
+Version: 0.1.3
+Summary: Download books from bookwalker.jp
+Home-page: https://github.com/VermiIIi0n/fuckBookWalker
+License: MIT
+Keywords: utilities,bookwalker,automation,novel,webnovel,lightnovel,manga
+Author: VermiIIi0n
+Author-email: dungeon.behind0t@icloud.com
+Requires-Python: >=3.12,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: beautifulsoup4 (>=4.12.3,<5.0.0)
+Requires-Dist: ebooklib (>=0.18,<0.19)
+Requires-Dist: lxml (>=5.1.0,<6.0.0)
+Requires-Dist: pillow (>=10.2.0,<11.0.0)
+Requires-Dist: platformdirs (>=4.2.0,<5.0.0)
+Requires-Dist: pydantic (>=2.6.1,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Requires-Dist: selenium (>=4.18.1,<5.0.0)
+Requires-Dist: semantic-version (>=2.10.0,<3.0.0)
+Requires-Dist: setuptools (>=69.1.1,<70.0.0)
+Requires-Dist: types-ujson (>=5.9.0.0,<6.0.0.0)
+Requires-Dist: ujson (>=5.9.0,<6.0.0)
+Requires-Dist: undetected-chromedriver (>=3.5.5,<4.0.0)
+Requires-Dist: webdriver-manager (>=4.0.1,<5.0.0)
+Project-URL: Issues, https://github.com/VermiIIi0n/fuckBookWalker/issues
+Description-Content-Type: text/markdown
+
+# Unpolished bookwalker scraper
+
+> It just works. -- Todd Howard
+
+## TODO List
+
+- [ ] Image `EPUB` export
+- [ ] `OCR` integration
+  - [ ] OCR text `EPUB` export
+  - [ ] OCR to database
+
+## Usage
+
+### Installation
+
+Requires Chrome/Chromium to be installed. For Chromium, you need to modify `"browser"` in `config.json` to `"chromium"`.
+
+```bash
+pip install -U poetry
+cd fuckBookWalker
+poetry install
+```
+
+### Running
+
+```bash
+poetry run python bookphucker <url or uuid of books>
+```
+
+You should see something like this.
+![sample](./imgs/sample.png)
+
+### Configuration
+
+wip...
+
+By default, `bookphucker` will try to reuse previous `cookies`, using `--no-cache` to clear `cookies`.
+
+## Common Issues
+
+### Cannot log in
+
+You may encounter CAPTCHA during the login process.
+
+`bookphucker` will ask you to use non-headless mode to pass the captcha if your config sets `headless` to `true`.
+
