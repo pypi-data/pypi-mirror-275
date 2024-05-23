@@ -1,0 +1,16 @@
+comai/__init__.py,sha256=gGKr3UAfvIu0Cpyxtf0yTWLdtxXacADDK7PvpxshNiI,25
+comai/__main__.py,sha256=EvBSGxYPehrR5m0j0avg3A07dWODk0RyT8bHAlCX0No,64
+comai/animations.py,sha256=pR92jS_mdXpPBOuqVHyqzaO3afQXgnkwF_af962QJiY,2078
+comai/chain.py,sha256=RlTmQ8KV0WfUELnsmNZLeweFmADwo2XbcEWfhhCr8v8,4573
+comai/cli.py,sha256=WKLtC2afkX_cRyGwgSy0h2QSXDESPy7uu_vYatefoJA,5158
+comai/context.py,sha256=M4SkFZdRXiXEwsc0ULMElwpn_p9IaJRnD0V4Dm1WWy0,679
+comai/history.py,sha256=rfNQYg-qz8KdjY2uT50brejlbBtBD9GBDUogqQeBwIw,730
+comai/ollama.py,sha256=84tQmOW0zZT8GPoHdY9UjlICDF_Awg-tjaJcqt0yLjM,261
+comai/openai.py,sha256=Us5kPaEzFqlm6eyIv1kvmaPSXKDexeTa0l9zr0mPEPQ,424
+comai/prompt.py,sha256=VqzLJJIrEnmKNnClg7ZwegH2vzeyhYwrsavkrX-Waws,1377
+comai/settings.py,sha256=uMrw5liBZp1xEyZCRwP8S36ATelY_802OLJ0MzOhQ7w,1053
+comai-0.2.0rc1.dist-info/METADATA,sha256=piiUQlGvAhHYwY17H90aJ1IZLv8BI1J7pmjHsYZTq1Q,46052
+comai-0.2.0rc1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+comai-0.2.0rc1.dist-info/entry_points.txt,sha256=cT9ngcc2VEebJ1xsLK2c9SlPYVru6w8hcMOSr2Pfen0,40
+comai-0.2.0rc1.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+comai-0.2.0rc1.dist-info/RECORD,,
