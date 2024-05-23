@@ -1,0 +1,7 @@
+README.md
+setup.py
+tf-nightly-gpu-2-0-preview/__init__.py
+tf_nightly_gpu_2_0_preview.egg-info/PKG-INFO
+tf_nightly_gpu_2_0_preview.egg-info/SOURCES.txt
+tf_nightly_gpu_2_0_preview.egg-info/dependency_links.txt
+tf_nightly_gpu_2_0_preview.egg-info/top_level.txt
