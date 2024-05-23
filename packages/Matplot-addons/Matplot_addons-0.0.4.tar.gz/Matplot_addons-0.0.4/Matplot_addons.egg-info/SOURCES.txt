@@ -1,0 +1,8 @@
+setup.py
+Matplot_addons/Addons.py
+Matplot_addons/__init__.py
+Matplot_addons.egg-info/PKG-INFO
+Matplot_addons.egg-info/SOURCES.txt
+Matplot_addons.egg-info/dependency_links.txt
+Matplot_addons.egg-info/requires.txt
+Matplot_addons.egg-info/top_level.txt

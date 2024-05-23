@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Matplot_addons
+Version: 0.0.4
+Summary: Matplotlib addons for simplify life
+Home-page: https://github.com/Sergiodeavilac
+Author: Sergio de Avila
+Author-email: sergiodeavilacabral@gmail.com
+License: GPL-3.0
+Description-Content-Type: text/markdown
+
+# Matplot addons
+
+This library is intended to facilitate certain matplotlib commands.
