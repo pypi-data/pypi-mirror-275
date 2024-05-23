@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+audio_searcher/__init__.py
+audio_searcher/audio_search.py
+audio_searcher.egg-info/PKG-INFO
+audio_searcher.egg-info/SOURCES.txt
+audio_searcher.egg-info/dependency_links.txt
+audio_searcher.egg-info/entry_points.txt
+audio_searcher.egg-info/requires.txt
+audio_searcher.egg-info/top_level.txt
