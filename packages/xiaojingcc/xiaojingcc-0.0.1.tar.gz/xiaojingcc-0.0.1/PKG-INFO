@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: xiaojingcc
+Version: 0.0.1
+Summary: 皛鲸的工具箱
+Home-page: https://xiaojing.cc/python
+Author: liuxiaojing
+Author-email: lqxnjk@qq.com
+License: MIT
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+python .\setup.py sdist
+
+pip install .\dist\xiaojingcc-2.0.0.tar.gz
+
+python -m build
+twine check dist/*  
+twine upload dist/*    

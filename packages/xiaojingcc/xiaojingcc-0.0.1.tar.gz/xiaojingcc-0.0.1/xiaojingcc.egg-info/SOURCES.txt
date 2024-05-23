@@ -1,0 +1,7 @@
+README.md
+setup.py
+xiaojingcc.egg-info/PKG-INFO
+xiaojingcc.egg-info/SOURCES.txt
+xiaojingcc.egg-info/dependency_links.txt
+xiaojingcc.egg-info/requires.txt
+xiaojingcc.egg-info/top_level.txt
