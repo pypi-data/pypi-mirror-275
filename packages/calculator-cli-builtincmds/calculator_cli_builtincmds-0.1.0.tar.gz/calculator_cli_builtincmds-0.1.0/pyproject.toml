@@ -1,0 +1,26 @@
+[project]
+name = "calculator_cli_builtincmds"
+version = "0.1.0"
+requires-python = ">=3.10"
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry]
+name = "calculator_cli_builtincmds"
+version = "0.1.0"
+description = ""
+authors = ["salam99823 <salamatbekboev2008@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+maturin = "^1.5.1"
+
+[tool.maturin]
+python-source = "python"
+features = ["pyo3/extension-module"]
+
+[build-system]
+requires = ["maturin>=1.5,<2.0"]
+build-backend = "maturin"
