@@ -1,0 +1,7 @@
+README.md
+setup.py
+fxcmpy/__init__.py
+fxcmpy.egg-info/PKG-INFO
+fxcmpy.egg-info/SOURCES.txt
+fxcmpy.egg-info/dependency_links.txt
+fxcmpy.egg-info/top_level.txt
