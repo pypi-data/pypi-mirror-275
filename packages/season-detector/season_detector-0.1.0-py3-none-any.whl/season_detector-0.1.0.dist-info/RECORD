@@ -1,0 +1,10 @@
+season_detector/__init__.py,sha256=8G-rLhbTJsxt8QMNfYPDILcn9K1Psojh3Vq-lntPyS4,21
+season_detector/app.py,sha256=pNJifHnTvo83v-Ku7f30ybsBxNJORq0gEMf55xfPpZg,1616
+season_detector/static/script.js,sha256=-MojlHadhF-upqPk2HclVJHsFzyjSxuoFfo5sxu_CtE,860
+season_detector/static/styles.css,sha256=LpoH9G17sydej6dOCIxGQWOWcNL4mmXPaTdL8ZEwUAQ,254
+season_detector/templates/index.html,sha256=0GEisQO336kKflLLhsMXidJhKZqDOqd1uFGcYz-ptXs,578
+season_detector-0.1.0.dist-info/METADATA,sha256=Bmx62DgNNW1Epsb3dw0j1riozbJCUY6L2JoiR3KJCJU,689
+season_detector-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+season_detector-0.1.0.dist-info/entry_points.txt,sha256=NbVIAOvJBExiS0bWqYSZq5s2xHcu4FufVXpcFHXmuT0,64
+season_detector-0.1.0.dist-info/top_level.txt,sha256=EHWsd2QGw0ut-4R_X41vppwG-mBM9rWuEq9SQ96_Qu0,16
+season_detector-0.1.0.dist-info/RECORD,,

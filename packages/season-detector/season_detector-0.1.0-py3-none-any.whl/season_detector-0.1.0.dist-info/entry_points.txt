@@ -1,0 +1,2 @@
+[console_scripts]
+season_detector = season_detector.app:app.run
