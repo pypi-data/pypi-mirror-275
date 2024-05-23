@@ -1,0 +1,2 @@
+[console_scripts]
+pywdpa = pywdpa.pywdpa:main
