@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ndpprep"
+version = "0.0.8"
+authors = [
+    { name="Mohd Zaid Waqiyuddin Mohd Zulkifli", email="zaidwaqi@gmail.com" }
+]
+description = "A command line tool to prepare high-quality data in Parquet"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "pyarrow>=14.0.0",
+  "Click",
+  "pandas",
+  "geopandas",
+  "paramiko"
+]
+
+[project.urls]
+Homepage = "https://github.com/zaidwaqi/ndpprep"
+Issues = "https://github.com/pypa/zaidwaqi/ndpprep/issues"
+
+[project.scripts]
+ndpprep = "ndpprep.cli.main:main"

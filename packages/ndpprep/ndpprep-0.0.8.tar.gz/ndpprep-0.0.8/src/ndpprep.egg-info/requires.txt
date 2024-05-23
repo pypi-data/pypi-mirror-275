@@ -1,0 +1,5 @@
+pyarrow>=14.0.0
+Click
+pandas
+geopandas
+paramiko
