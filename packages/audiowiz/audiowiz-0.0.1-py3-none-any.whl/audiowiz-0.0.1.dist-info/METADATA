@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: audiowiz
+Version: 0.0.1
+Summary: Audio and voice package
+Author: P.Ghaywat)
+Author-email: <Pratham.Ghaywat@outlook.com>
+Keywords: python,audio,voice,recording,voice command,text-to-speech
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: opencv-python
+Requires-Dist: pyautogui
+Requires-Dist: pyaudio
+
+A package that uses famous audio and voice packages to make it easier to code
