@@ -1,0 +1,10 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_filter.py,sha256=eucBNvt7B325FGgeXTEUZRdzbHGnCNMO86NNkk53ipQ,475
+viet_badwords_filter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+viet_badwords_filter/badwords_list.py,sha256=T83d3aJjw1yebj_XdPa_Odd1ee6EF-7_qEwc6mIFPLk,7134
+viet_badwords_filter/filter.py,sha256=OsBgzt9i09E2p331tZt0T3U4reo_3Ml_T_5q5zWAmY4,525
+viet_badwords_filter-1.0.1.dist-info/LICENSE,sha256=J2DYk1GTb8XHFUCH50BQDdbj4keTGgj9Bdf8PpB7HY0,432
+viet_badwords_filter-1.0.1.dist-info/METADATA,sha256=z6xp6yMa5aWRYzEDH6ffY95Mg3NA1RwHlDpunHHYbjY,1349
+viet_badwords_filter-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+viet_badwords_filter-1.0.1.dist-info/top_level.txt,sha256=jWLB24jxAF1VIfXyCTL4cOpgJCw8gnb-jHMC1Z6GPSA,27
+viet_badwords_filter-1.0.1.dist-info/RECORD,,
