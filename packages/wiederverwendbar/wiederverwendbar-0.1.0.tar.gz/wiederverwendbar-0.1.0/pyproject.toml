@@ -1,0 +1,22 @@
+[project]
+name = "wiederverwendbar"
+version = "0.1.0"
+description = "A collection of skripts, classes and tools they are \"wiederverwendbar\"."
+authors = [
+    { name = "Julius König", email = "info@bastelquartier.de" },
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+
+[project.license]
+text = "GPL-3.0"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
