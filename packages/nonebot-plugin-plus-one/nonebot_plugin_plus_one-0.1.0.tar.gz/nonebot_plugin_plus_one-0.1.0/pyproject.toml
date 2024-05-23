@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nonebot-plugin-plus-one"
+version = "0.1.0"
+description = "全新复读姬，任意群聊触发 +1，姬就 +1。轻巧、专注，不使用任何数据库，不使用任何文件存储"
+authors = ["yejue <1145331931@qq.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.urls]
+homepage = "https://github.com/yejue/nonebot-plugin-plus-one"
+repository = "https://github.com/yejue/nonebot-plugin-plus-one"
