@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+htrfnwe/HTC_v4.c
+htrfnwe/NWE_v5.c
+htrfnwe/VS_v4.c
+htrfnwe/__init__.py
+htrfnwe.egg-info/PKG-INFO
+htrfnwe.egg-info/SOURCES.txt
+htrfnwe.egg-info/dependency_links.txt
+htrfnwe.egg-info/requires.txt
+htrfnwe.egg-info/top_level.txt
