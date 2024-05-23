@@ -1,0 +1,10 @@
+RDAnalyzer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+RDAnalyzer/analyzer.py,sha256=3Z0JF8nF8tG1ozxkUiuy1vOhpgKn4a-7uVHo4ktdsVg,80221
+RDAnalyzer/set.py,sha256=cpe_R_jnOzKUA-6gTx3EnORE3kcycsV7keZVpQ7a49k,3037
+RDAnalyzer/species.py,sha256=rPpyckrHhhaTONfuRIB5HbiEypDON-GUJY-8d1K8rlA,31027
+RDAnalyzer/tools.py,sha256=NGYIFW9LMGY-5JWgsySDK1bNi9xTcxlf50M3zGHpdyI,23000
+RDAnalyzer-0.0.4.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+RDAnalyzer-0.0.4.dist-info/METADATA,sha256=--a914S6BGqT9iKIYXkERU6Knsw5jvgc5tg3uPnQ7e0,1331
+RDAnalyzer-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+RDAnalyzer-0.0.4.dist-info/top_level.txt,sha256=tSLLwIqfkAVhnBZ4spPaYBfMMIOwdPD42out9jpKHKU,11
+RDAnalyzer-0.0.4.dist-info/RECORD,,
