@@ -1,0 +1,2 @@
+[console_scripts]
+number-of-terms-inside-a-square-root = your_package.module:main_function
