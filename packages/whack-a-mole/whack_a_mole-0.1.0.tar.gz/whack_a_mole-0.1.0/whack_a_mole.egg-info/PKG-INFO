@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: whack-a-mole
+Version: 0.1.0
+Summary: A simple Whack-a-Mole game using Pygame
+Home-page: https://github.com/harutosaisai/whack_a_mole
+Author: saito_haruto
+Author-email: s2222016@stu.musashino-u.ac.jp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pygame
+
+# Whack-a-Mole
+
+A simple Whack-a-Mole game using Pygame.
+
+## Installation
+
+```bash
+pip install whack_a_mole

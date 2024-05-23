@@ -1,0 +1,2 @@
+[console_scripts]
+whack-a-mole = whack_a_mole.game:run_game
