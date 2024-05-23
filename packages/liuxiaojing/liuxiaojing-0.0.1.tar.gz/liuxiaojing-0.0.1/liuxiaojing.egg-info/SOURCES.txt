@@ -1,0 +1,7 @@
+README.md
+setup.py
+liuxiaojing.egg-info/PKG-INFO
+liuxiaojing.egg-info/SOURCES.txt
+liuxiaojing.egg-info/dependency_links.txt
+liuxiaojing.egg-info/requires.txt
+liuxiaojing.egg-info/top_level.txt
