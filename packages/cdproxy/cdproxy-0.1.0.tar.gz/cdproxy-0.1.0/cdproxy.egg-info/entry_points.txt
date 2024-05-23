@@ -1,0 +1,2 @@
+[console_scripts]
+cdprox = cdproxy.main:main
