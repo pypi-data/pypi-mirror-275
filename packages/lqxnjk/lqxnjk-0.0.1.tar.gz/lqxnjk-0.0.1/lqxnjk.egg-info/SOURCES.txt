@@ -1,0 +1,7 @@
+README.md
+setup.py
+lqxnjk.egg-info/PKG-INFO
+lqxnjk.egg-info/SOURCES.txt
+lqxnjk.egg-info/dependency_links.txt
+lqxnjk.egg-info/requires.txt
+lqxnjk.egg-info/top_level.txt
