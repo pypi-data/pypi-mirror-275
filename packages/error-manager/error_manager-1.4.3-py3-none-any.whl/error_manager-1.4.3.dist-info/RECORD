@@ -1,0 +1,11 @@
+errors/__init__.py,sha256=zA_0n5HKAHtbPxdotwe4D51vX9ydueoKeZPiJgY1qdw,510
+errors/base.py,sha256=fkMKubSSnzjn4_1BuU9VD6AprRUvZfJ-zg9mi08JLrE,3023
+errors/data_classes.py,sha256=jmFsKGr5oZZSNIcgtxmXY4gS34vHXfasvFPrjhvdjgE,1627
+errors/error.py,sha256=lWHjkOIBljIhH0hCGgXnkugqB53YB9RaaN8fodeDhHk,1965
+errors/mixin.py,sha256=TlcKaoXylpqAfO1wlgen4JN6KnBPskMvpqxihYLd0kU,2033
+errors/settings.py,sha256=1dayoYSe-fkp5WAXuTUjN_hiZ-0xbOTjRpeywa_AsYU,163
+error_manager-1.4.3.dist-info/LICENSE,sha256=q88uRrC18XK55YsLjWs-_hbXeiHhj4hU-sukryF9vwY,43710
+error_manager-1.4.3.dist-info/METADATA,sha256=xADmLn1qEFTO90le63Ekt0XB2MCEeh_zrVVevCt1SdU,5325
+error_manager-1.4.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+error_manager-1.4.3.dist-info/top_level.txt,sha256=-faFb0nzS6Z57ipYdQq5ZNGvg1JQqD5XUIharWfpR7g,7
+error_manager-1.4.3.dist-info/RECORD,,
