@@ -1,0 +1,5 @@
+setup.py
+genoodww.egg-info/PKG-INFO
+genoodww.egg-info/SOURCES.txt
+genoodww.egg-info/dependency_links.txt
+genoodww.egg-info/top_level.txt
