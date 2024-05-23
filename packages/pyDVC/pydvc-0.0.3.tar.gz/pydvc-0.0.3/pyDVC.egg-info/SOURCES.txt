@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyDVC.py
+setup.py
+pyDVC.egg-info/PKG-INFO
+pyDVC.egg-info/SOURCES.txt
+pyDVC.egg-info/dependency_links.txt
+pyDVC.egg-info/requires.txt
+pyDVC.egg-info/top_level.txt

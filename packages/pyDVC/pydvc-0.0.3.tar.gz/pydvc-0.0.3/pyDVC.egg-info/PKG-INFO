@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyDVC
+Version: 0.0.3
+Summary: Python implementation of Discrete Voronoi Chain algorithm by Mirko Velić, Dave May & Louis Moresi (2009).
+Home-page: https://github.com/jadball/pyDVC
+Author: James Ball
+Author-email: jadball@gmail.com
+License: BSD 3-Clause
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: numba
+
+Python implementation of Discrete Voronoi Chain algorithm.
+    First described by Velić, Mirko & May, Dave & Moresi, Louis. (2009). A Fast Robust Algorithm for Computing Discrete Voronoi Diagrams. J Math Model Algor. 8. 343-355. 10.1007/s10852-008-9097-6.
+    http://dx.doi.org/10.1007/s10852-008-9097-6
