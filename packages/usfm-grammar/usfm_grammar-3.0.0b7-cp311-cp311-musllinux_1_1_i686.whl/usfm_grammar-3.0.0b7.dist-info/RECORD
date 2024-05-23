@@ -1,0 +1,16 @@
+grammar_rebuild.py,sha256=9Vexc475HIgRbhKp-ssxkAQM5cc34I_Cd4QNTmF4mCM,648
+usfm_grammar-3.0.0b7.dist-info/WHEEL,sha256=96RtyvHDjZ_Pwdf-yba9grkbFedWeWnoj2z7uR7atnQ,111
+usfm_grammar-3.0.0b7.dist-info/top_level.txt,sha256=YC5n05QjjZlG6fS0pXSq9qVU83CnzMKgK_itjkKBNgw,29
+usfm_grammar-3.0.0b7.dist-info/entry_points.txt,sha256=4cmMtPgfaaRylQQz4_97G-ORYOr7StOuMP1QsTFeCWM,60
+usfm_grammar-3.0.0b7.dist-info/RECORD,,
+usfm_grammar-3.0.0b7.dist-info/METADATA,sha256=9A5dx80LKd7FN4ALJUxkP0d3UPjMAjpJzEXpgvf8Fx4,11546
+usfm_grammar-3.0.0b7.dist-info/LICENSE,sha256=n89EsxLlGypQjtflM_4CbbfFodzxsQbGxYHggUjRNg8,1068
+usfm_grammar/__init__.py,sha256=lOxrMJJawbuqFA85WgtJhNytZ2dKJEKAPMgrV8DWMHU,257
+usfm_grammar/usx_generator.py,sha256=ozWeDAxr0G7JlE_Br2lQDcqvg7tXAnhCPah1fjQq06Q,18860
+usfm_grammar/filters.py,sha256=kD5vDSPg-TlRT6KBey77bQLp0RGLpMq38WI2Hvq4QOw,5539
+usfm_grammar/usfm_parser.py,sha256=Ci7q8-OAiWkvxfRCfLQNeYWHQRxsP2lLJ1Mri_JATgk,10532
+usfm_grammar/usj_generator.py,sha256=GdCp-7OWshLMM2FP18opjPaFBLPKZiujQOnONoZOkiY,17210
+usfm_grammar/list_generator.py,sha256=0R-553gHyv5R2kh3qqqaSxvi-YEY5aQVeuzR28q1ilY,1619
+usfm_grammar/usfm_generator.py,sha256=iNPCI_RSaeZP7I2Eaa1CNV7Xjqekgl9IgNnMoH8mj34,7988
+usfm_grammar/my-languages.so,sha256=0jo8fmrELMKmfieAvhJdsWvTbsa6I77UOL9yfjtKtmo,3828264
+usfm_grammar/__main__.py,sha256=ZfXrOuZY70dlj_pUI60G8tI66I_YOtPHxpDJKrJ7p0c,6015
