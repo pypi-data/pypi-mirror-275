@@ -1,0 +1,2 @@
+interactions.py<6.0.0,>=5.0.0
+lavalink<6.0.0,>=5.0.0
