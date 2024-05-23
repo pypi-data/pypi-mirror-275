@@ -1,0 +1,4 @@
+include FSV/lib/ONIOM_Cscale.txt
+include FSV/lib/ONIOM_Hscale.txt
+include FSV/lib/ONIOM_Nscale.txt
+include FSV/lib/ONIOM_Oscale.txt
