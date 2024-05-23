@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-plus-one
+Version: 0.1.1
+Summary: 全新复读姬，任意群聊触发 +1，姬就 +1。轻巧、专注，不使用任何数据库，不使用任何文件存储
+License: MIT
+Author: yejue
+Author-email: 1145331931@qq.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: nonebot2 (>=2.0,<3.0)
+Project-URL: homepage, https://github.com/yejue/nonebot-plugin-plus-one
+Project-URL: repository, https://github.com/yejue/nonebot-plugin-plus-one
+Description-Content-Type: text/markdown
+
+
+<h1 align="center">🐣🐤只是一个复读姬 ✨</h1>
+<p align="center">
+_✨ 只是一个复读姬 ✨_
+</p>
+<p align="center">
+  <a href="https://raw.githubusercontent.com/cscs181/QQ-Github-Bot/master/LICENSE">
+    <img src="https://img.shields.io/github/license/cscs181/QQ-Github-Bot.svg" alt="license">
+  </a>
+  <a href="https://pypi.python.org/pypi/nonebot-plugin-analysis-bilibili">
+    <img src="https://img.shields.io/pypi/v/nonebot-plugin-analysis-bilibili.svg" alt="pypi">
+  </a>
+  <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="python">
+</p>
+
+
+## 快速安装
+
+第一步：右上角 ↗ 点个不要钱的 star 吧，这是不断维护更新的动力。
+
+### nb-cli
+
+```shell
+nb plugin install nonebot-plugin-plus-one
+```
+### pip
+
+```shell
+pip install nonebot-plugin-plus-one
+```
+
+### git
+
+```shell
+cd /your-nonebot-project-home/plugins/
+git clone https://github.com/yejue/nonebot-plugin-plus-one.git
+```
+
+## 示例
+```text
+[群1]: 你好
+[群1]: 你好
+[机器人]: 你好
+
+[群2]: 表情
+[群2]: 表情
+[机器人]: 表情
+```
+
+## 配置
+```text
+# 匹配优先级
+PLUS_ONE_PRIORITY = 10
+```
+
