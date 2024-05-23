@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+evalRagPk.egg-info/PKG-INFO
+evalRagPk.egg-info/SOURCES.txt
+evalRagPk.egg-info/dependency_links.txt
+evalRagPk.egg-info/requires.txt
+evalRagPk.egg-info/top_level.txt
