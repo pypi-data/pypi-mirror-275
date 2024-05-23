@@ -1,0 +1,8 @@
+from audio_searcher import AudioSearcher
+
+searcher = AudioSearcher(language='en-US')
+transcribed_text = searcher.transcribe('path/to/your/audiofile.mp3')
+occurrences = searcher.search_keyword(transcribed_text, 'your_keyword')
+
+print(f"Occurrences of 'your_keyword': {occurrences}")
+

@@ -1,0 +1,2 @@
+[console_scripts]
+audio-searcher = audio_searcher.audio_searcher:main
