@@ -1,0 +1,9 @@
+Metadata-Version: 1.2
+Name: ovhai
+Version: 0.1a1
+Summary: A client library for accessing OVHcloud's AI Solutions
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8, <4
