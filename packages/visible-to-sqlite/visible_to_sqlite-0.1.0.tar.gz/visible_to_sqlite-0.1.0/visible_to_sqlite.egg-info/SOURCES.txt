@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+visible_to_sqlite/__init__.py
+visible_to_sqlite/cli.py
+visible_to_sqlite.egg-info/PKG-INFO
+visible_to_sqlite.egg-info/SOURCES.txt
+visible_to_sqlite.egg-info/dependency_links.txt
+visible_to_sqlite.egg-info/entry_points.txt
+visible_to_sqlite.egg-info/requires.txt
+visible_to_sqlite.egg-info/top_level.txt
