@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name='libMyCarrier'
+version='v0.0.1'
+readme='README.md'
+description=''
+license = {file = "LICENSE"}
+dependencies= [
+    'hvac',
+    'pyodbc',
+]
+authors = [
+  { name="MyCarrier-DevOps", email="sre@mycarrier.io" },
+]
+
+[project.urls]
+Repository = "https://github.com/MyCarrier-DevOps/libMyCarrier.git"
