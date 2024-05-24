@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: universal_common_configuration
+Version: 1.0.1
+Summary: A configuration management library inspired by Microsoft.Extensions.Configuration.
+Author-email: Andrew Ong <ong.andrew@gmail.com>
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: userpaths
+Description-Content-Type: text/markdown
+
+# universal_common_configuration
+A library inspired by Microsoft.Extensions.Configuration which provides configuration from JSON, environment variables, and user secrets.
