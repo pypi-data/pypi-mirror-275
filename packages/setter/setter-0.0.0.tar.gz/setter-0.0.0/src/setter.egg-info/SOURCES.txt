@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/setter/__init__.py
+src/setter.egg-info/PKG-INFO
+src/setter.egg-info/SOURCES.txt
+src/setter.egg-info/dependency_links.txt
+src/setter.egg-info/top_level.txt
