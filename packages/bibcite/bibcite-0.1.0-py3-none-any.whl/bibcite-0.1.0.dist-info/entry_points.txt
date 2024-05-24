@@ -1,0 +1,2 @@
+[console_scripts]
+bibcite = bibcite.cli:main
