@@ -1,0 +1,14 @@
+{
+    "0" : {
+        "rowsHigh" : ["SDWN","VBSO_S","VBAT_S","SW_S","BIAS_S","BIAS_F","BSO_F","SW_F_PIN"],
+        "rowsLow"  : ["GND_S","GND_S","GND_S","GND_S","GND_S","GND_S","GND_S","GND_S"],
+        "colsHigh" : ["Battery Emulator (BE)","Voltmeter (VM)","SUPPLY 5V->12V","SUPPLY 3.6V ->11V ->19V","Supply 1.8V"],
+        "colsLow"  : ["GND (BE-)","GND (VM-)","GND","GND","GND"]
+    },
+    "1":{
+        "rowsHigh" : ["BCLK","FSYN","SDA"	,"SCL"	,"BCLK","SDI"	,"VDD"	,"SW_F"], 
+        "rowsLow"  : ["SDI","GND","GND","GND","GND","GND","GND","GND"],
+        "colsHigh" : ["FSYN AP","BCLK AP","PDMCLK AP","ANA OUT N AP","ANA OUT N AP","VDD_EXT","VBAT_PWR_EXT","Voltmeter"	],
+        "colsLow"  : ["GND","SDOAP","PDM DATA AP","ANA OUTP AP AC","ANA OUTP AP DC","GND","GND","GND"]
+    }
+}

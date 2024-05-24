@@ -1,0 +1,14 @@
+{
+  "0": {
+    "{'Source': {'High': 'signal1', 'Low': 'gnd'}, 'Destination': {'High': 'vm-', 'Low': 'vm+'}}": {
+      "deviceAddr": "0x20",
+      "relay": { "row": 1, "col": 1 }
+    }
+  },
+  "1": {
+    "{'Source': {'High': 'signal2', 'Low': 'gnd'}, 'Destination': {'High': 'vm-', 'Low': 'vm+'}}": {
+      "deviceAddr": "0x24",
+      "relay": { "row": 2, "col": 1 }
+    }
+  }
+}

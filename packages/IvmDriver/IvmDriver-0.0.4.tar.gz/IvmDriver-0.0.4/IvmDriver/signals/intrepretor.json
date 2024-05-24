@@ -1,0 +1,21 @@
+{
+
+    "BST_RON_BYP":{
+        "VBSO":"VBSO_S"
+    },
+    "BST_NORMAL_OPERATION_BSO (DA RIVEDERE)":{
+        "VBSO":"VBSO_S"
+    },
+    "BST_NORMAL_OPERATION_BIAS (DA RIVEDERE)":{
+        "VBIAS":"VBIAS_S"
+    },
+    "BST_RON_LS":{
+        "SW":"SW_F_PIN"
+    },
+    "BST_RON_HS":{
+        "SW":"SW_F_PIN"
+    },
+    "BST_ZC":{
+        "SW":"SW_F_PIN"
+    }
+}

@@ -1,0 +1,424 @@
+{
+  "0": {
+    "{'Source': {'High': 'SDWN', 'Low': 'GND_S'}, 'Destination': {'High': 'BE+', 'Low': 'BE-'}}": {
+      "deviceAddr": "0x20",
+      "relay": { "row": 1, "col": 1 }
+    },
+    "{'Source': {'High': 'SDWN', 'Low': 'GND_S'}, 'Destination': {'High': 'VM+', 'Low': 'VM-'}}": {
+      "deviceAddr": "0x20",
+      "relay": { "row": 1, "col": 2 }
+    },
+    "{'Source': {'High': 'SDWN', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY1', 'Low': 'GND'}}": {
+      "deviceAddr": "0x20",
+      "relay": { "row": 1, "col": 3 }
+    },
+    "{'Source': {'High': 'SDWN', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY2', 'Low': 'GND'}}": {
+      "deviceAddr": "0x20",
+      "relay": { "row": 1, "col": 4 }
+    },
+    "{'Source': {'High': 'SDWN', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY3', 'Low': 'GND'}}": {
+      "deviceAddr": "0x20",
+      "relay": { "row": 1, "col": 5 }
+    },
+    "{'Source': {'High': 'VBSO_S', 'Low': 'GND_S'}, 'Destination': {'High': 'BE+', 'Low': 'BE-'}}": {
+      "deviceAddr": "0x20",
+      "relay": { "row": 2, "col": 1 }
+    },
+    "{'Source': {'High': 'VBSO_S', 'Low': 'GND_S'}, 'Destination': {'High': 'VM+', 'Low': 'VM-'}}": {
+      "deviceAddr": "0x20",
+      "relay": { "row": 2, "col": 2 }
+    },
+    "{'Source': {'High': 'VBSO_S', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY1', 'Low': 'GND'}}": {
+      "deviceAddr": "0x20",
+      "relay": { "row": 2, "col": 3 }
+    },
+    "{'Source': {'High': 'VBSO_S', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY2', 'Low': 'GND'}}": {
+      "deviceAddr": "0x20",
+      "relay": { "row": 2, "col": 4 }
+    },
+    "{'Source': {'High': 'VBSO_S', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY3', 'Low': 'GND'}}": {
+      "deviceAddr": "0x20",
+      "relay": { "row": 2, "col": 5 }
+    },
+    "{'Source': {'High': 'VBAT_S', 'Low': 'GND_S'}, 'Destination': {'High': 'BE+', 'Low': 'BE-'}}": {
+      "deviceAddr": "0x21",
+      "relay": { "row": 3, "col": 1 }
+    },
+    "{'Source': {'High': 'VBAT_S', 'Low': 'GND_S'}, 'Destination': {'High': 'VM+', 'Low': 'VM-'}}": {
+      "deviceAddr": "0x21",
+      "relay": { "row": 3, "col": 2 }
+    },
+    "{'Source': {'High': 'VBAT_S', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY1', 'Low': 'GND'}}": {
+      "deviceAddr": "0x21",
+      "relay": { "row": 3, "col": 3 }
+    },
+    "{'Source': {'High': 'VBAT_S', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY2', 'Low': 'GND'}}": {
+      "deviceAddr": "0x21",
+      "relay": { "row": 3, "col": 4 }
+    },
+    "{'Source': {'High': 'VBAT_S', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY3', 'Low': 'GND'}}": {
+      "deviceAddr": "0x21",
+      "relay": { "row": 3, "col": 5 }
+    },
+    "{'Source': {'High': 'SW_S', 'Low': 'GND_S'}, 'Destination': {'High': 'BE+', 'Low': 'BE-'}}": {
+      "deviceAddr": "0x21",
+      "relay": { "row": 4, "col": 1 }
+    },
+    "{'Source': {'High': 'SW_S', 'Low': 'GND_S'}, 'Destination': {'High': 'VM+', 'Low': 'VM-'}}": {
+      "deviceAddr": "0x21",
+      "relay": { "row": 4, "col": 2 }
+    },
+    "{'Source': {'High': 'SW_S', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY1', 'Low': 'GND'}}": {
+      "deviceAddr": "0x21",
+      "relay": { "row": 4, "col": 3 }
+    },
+    "{'Source': {'High': 'SW_S', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY2', 'Low': 'GND'}}": {
+      "deviceAddr": "0x21",
+      "relay": { "row": 4, "col": 4 }
+    },
+    "{'Source': {'High': 'SW_S', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY3', 'Low': 'GND'}}": {
+      "deviceAddr": "0x21",
+      "relay": { "row": 4, "col": 5 }
+    },
+    "{'Source': {'High': 'VBIAS_S', 'Low': 'GND_S'}, 'Destination': {'High': 'BE+', 'Low': 'BE-'}}": {
+      "deviceAddr": "0x22",
+      "relay": { "row": 5, "col": 1 }
+    },
+    "{'Source': {'High': 'VBIAS_S', 'Low': 'GND_S'}, 'Destination': {'High': 'VM+', 'Low': 'VM-'}}": {
+      "deviceAddr": "0x22",
+      "relay": { "row": 5, "col": 2 }
+    },
+    "{'Source': {'High': 'VBIAS_S', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY1', 'Low': 'GND'}}": {
+      "deviceAddr": "0x22",
+      "relay": { "row": 5, "col": 3 }
+    },
+    "{'Source': {'High': 'VBIAS_S', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY2', 'Low': 'GND'}}": {
+      "deviceAddr": "0x22",
+      "relay": { "row": 5, "col": 4 }
+    },
+    "{'Source': {'High': 'VBIAS_S', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY3', 'Low': 'GND'}}": {
+      "deviceAddr": "0x22",
+      "relay": { "row": 5, "col": 5 }
+    },
+    "{'Source': {'High': 'VBIAS_F', 'Low': 'GND_S'}, 'Destination': {'High': 'BE+', 'Low': 'BE-'}}": {
+      "deviceAddr": "0x22",
+      "relay": { "row": 6, "col": 1 }
+    },
+    "{'Source': {'High': 'VBIAS_F', 'Low': 'GND_S'}, 'Destination': {'High': 'VM+', 'Low': 'VM-'}}": {
+      "deviceAddr": "0x22",
+      "relay": { "row": 6, "col": 2 }
+    },
+    "{'Source': {'High': 'VBIAS_F', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY1', 'Low': 'GND'}}": {
+      "deviceAddr": "0x22",
+      "relay": { "row": 6, "col": 3 }
+    },
+    "{'Source': {'High': 'VBIAS_F', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY2', 'Low': 'GND'}}": {
+      "deviceAddr": "0x22",
+      "relay": { "row": 6, "col": 4 }
+    },
+    "{'Source': {'High': 'VBIAS_F', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY3', 'Low': 'GND'}}": {
+      "deviceAddr": "0x22",
+      "relay": { "row": 6, "col": 5 }
+    },
+    "{'Source': {'High': 'VBSO_F', 'Low': 'GND_S'}, 'Destination': {'High': 'BE+', 'Low': 'BE-'}}": {
+      "deviceAddr": "0x23",
+      "relay": { "row": 7, "col": 1 }
+    },
+    "{'Source': {'High': 'VBSO_F', 'Low': 'GND_S'}, 'Destination': {'High': 'VM+', 'Low': 'VM-'}}": {
+      "deviceAddr": "0x23",
+      "relay": { "row": 7, "col": 2 }
+    },
+    "{'Source': {'High': 'VBSO_F', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY1', 'Low': 'GND'}}": {
+      "deviceAddr": "0x23",
+      "relay": { "row": 7, "col": 3 }
+    },
+    "{'Source': {'High': 'VBSO_F', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY2', 'Low': 'GND'}}": {
+      "deviceAddr": "0x23",
+      "relay": { "row": 7, "col": 4 }
+    },
+    "{'Source': {'High': 'VBSO_F', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY3', 'Low': 'GND'}}": {
+      "deviceAddr": "0x23",
+      "relay": { "row": 7, "col": 5 }
+    },
+    "{'Source': {'High': 'SW_F_PIN', 'Low': 'GND_S'}, 'Destination': {'High': 'BE+', 'Low': 'BE-'}}": {
+      "deviceAddr": "0x23",
+      "relay": { "row": 8, "col": 1 }
+    },
+    "{'Source': {'High': 'SW_F_PIN', 'Low': 'GND_S'}, 'Destination': {'High': 'VM+', 'Low': 'VM-'}}": {
+      "deviceAddr": "0x23",
+      "relay": { "row": 8, "col": 2 }
+    },
+    "{'Source': {'High': 'SW_F_PIN', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY1', 'Low': 'GND'}}": {
+      "deviceAddr": "0x23",
+      "relay": { "row": 8, "col": 3 }
+    },
+    "{'Source': {'High': 'SW_F_PIN', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY2', 'Low': 'GND'}}": {
+      "deviceAddr": "0x23",
+      "relay": { "row": 8, "col": 4 }
+    },
+    "{'Source': {'High': 'SW_F_PIN', 'Low': 'GND_S'}, 'Destination': {'High': 'SUPPLY3', 'Low': 'GND'}}": {
+      "deviceAddr": "0x23",
+      "relay": { "row": 8, "col": 5 }
+    }
+  },
+  "1": {
+    "{'Source': {'High': 'BCLK', 'Low': 'SDI'}, 'Destination': {'High': 'FSYN_AP', 'Low': 'GND'}}": {
+      "deviceAddr": "0x24",
+      "relay": { "row": 1, "col": 1 }
+    },
+    "{'Source': {'High': 'BCLK', 'Low': 'SDI'}, 'Destination': {'High': 'BCLK_AP', 'Low': 'SDOAP'}}": {
+      "deviceAddr": "0x24",
+      "relay": { "row": 1, "col": 2 }
+    },
+    "{'Source': {'High': 'BCLK', 'Low': 'SDI'}, 'Destination': {'High': 'PDMCLK_AP', 'Low': 'PDM_DATA_AP'}}": {
+      "deviceAddr": "0x24",
+      "relay": { "row": 1, "col": 3 }
+    },
+    "{'Source': {'High': 'BCLK', 'Low': 'SDI'}, 'Destination': {'High': 'ANA_OUT_N_AP', 'Low': 'ANA_OUTP_AP_AC'}}": {
+      "deviceAddr": "0x24",
+      "relay": { "row": 1, "col": 4 }
+    },
+    "{'Source': {'High': 'BCLK', 'Low': 'SDI'}, 'Destination': {'High': 'ANA_OUT_N_AP', 'Low': 'ANA_OUTP_AP_DC'}}": {
+      "deviceAddr": "0x24",
+      "relay": { "row": 1, "col": 5 }
+    },
+    "{'Source': {'High': 'BCLK', 'Low': 'SDI'}, 'Destination': {'High': 'VDD_EXT', 'Low': 'GND'}}": {
+      "deviceAddr": "0x24",
+      "relay": { "row": 1, "col": 6 }
+    },
+    "{'Source': {'High': 'BCLK', 'Low': 'SDI'}, 'Destination': {'High': 'VBAT_PWR_EXT', 'Low': 'GND'}}": {
+      "deviceAddr": "0x24",
+      "relay": { "row": 1, "col": 7 }
+    },
+    "{'Source': {'High': 'BCLK', 'Low': 'SDI'}, 'Destination': {'High': 'VM+', 'Low': 'VM-'}}": {
+      "deviceAddr": "0x24",
+      "relay": { "row": 1, "col": 8 }
+    },
+    "{'Source': {'High': 'FSYN', 'Low': 'GND'}, 'Destination': {'High': 'FSYN_AP', 'Low': 'GND'}}": {
+      "deviceAddr": "0x24",
+      "relay": { "row": 2, "col": 1 }
+    },
+    "{'Source': {'High': 'FSYN', 'Low': 'GND'}, 'Destination': {'High': 'BCLK_AP', 'Low': 'SDOAP'}}": {
+      "deviceAddr": "0x24",
+      "relay": { "row": 2, "col": 2 }
+    },
+    "{'Source': {'High': 'FSYN', 'Low': 'GND'}, 'Destination': {'High': 'PDMCLK_AP', 'Low': 'PDM_DATA_AP'}}": {
+      "deviceAddr": "0x24",
+      "relay": { "row": 2, "col": 3 }
+    },
+    "{'Source': {'High': 'FSYN', 'Low': 'GND'}, 'Destination': {'High': 'ANA_OUT_N_AP', 'Low': 'ANA_OUTP_AP_AC'}}": {
+      "deviceAddr": "0x24",
+      "relay": { "row": 2, "col": 4 }
+    },
+    "{'Source': {'High': 'FSYN', 'Low': 'GND'}, 'Destination': {'High': 'ANA_OUT_N_AP', 'Low': 'ANA_OUTP_AP_DC'}}": {
+      "deviceAddr": "0x24",
+      "relay": { "row": 2, "col": 5 }
+    },
+    "{'Source': {'High': 'FSYN', 'Low': 'GND'}, 'Destination': {'High': 'VDD_EXT', 'Low': 'GND'}}": {
+      "deviceAddr": "0x24",
+      "relay": { "row": 2, "col": 6 }
+    },
+    "{'Source': {'High': 'FSYN', 'Low': 'GND'}, 'Destination': {'High': 'VBAT_PWR_EXT', 'Low': 'GND'}}": {
+      "deviceAddr": "0x24",
+      "relay": { "row": 2, "col": 7 }
+    },
+    "{'Source': {'High': 'FSYN', 'Low': 'GND'}, 'Destination': {'High': 'VM+', 'Low': 'VM-'}}": {
+      "deviceAddr": "0x24",
+      "relay": { "row": 2, "col": 8 }
+    },
+    "{'Source': {'High': 'SDA', 'Low': 'GND'}, 'Destination': {'High': 'FSYN_AP', 'Low': 'GND'}}": {
+      "deviceAddr": "0x25",
+      "relay": { "row": 3, "col": 1 }
+    },
+    "{'Source': {'High': 'SDA', 'Low': 'GND'}, 'Destination': {'High': 'BCLK_AP', 'Low': 'SDOAP'}}": {
+      "deviceAddr": "0x25",
+      "relay": { "row": 3, "col": 2 }
+    },
+    "{'Source': {'High': 'SDA', 'Low': 'GND'}, 'Destination': {'High': 'PDMCLK_AP', 'Low': 'PDM_DATA_AP'}}": {
+      "deviceAddr": "0x25",
+      "relay": { "row": 3, "col": 3 }
+    },
+    "{'Source': {'High': 'SDA', 'Low': 'GND'}, 'Destination': {'High': 'ANA_OUT_N_AP', 'Low': 'ANA_OUTP_AP_AC'}}": {
+      "deviceAddr": "0x25",
+      "relay": { "row": 3, "col": 4 }
+    },
+    "{'Source': {'High': 'SDA', 'Low': 'GND'}, 'Destination': {'High': 'ANA_OUT_N_AP', 'Low': 'ANA_OUTP_AP_DC'}}": {
+      "deviceAddr": "0x25",
+      "relay": { "row": 3, "col": 5 }
+    },
+    "{'Source': {'High': 'SDA', 'Low': 'GND'}, 'Destination': {'High': 'VDD_EXT', 'Low': 'GND'}}": {
+      "deviceAddr": "0x25",
+      "relay": { "row": 3, "col": 6 }
+    },
+    "{'Source': {'High': 'SDA', 'Low': 'GND'}, 'Destination': {'High': 'VBAT_PWR_EXT', 'Low': 'GND'}}": {
+      "deviceAddr": "0x25",
+      "relay": { "row": 3, "col": 7 }
+    },
+    "{'Source': {'High': 'SDA', 'Low': 'GND'}, 'Destination': {'High': 'VM+', 'Low': 'VM-'}}": {
+      "deviceAddr": "0x25",
+      "relay": { "row": 3, "col": 8 }
+    },
+    "{'Source': {'High': 'SCL', 'Low': 'GND'}, 'Destination': {'High': 'FSYN_AP', 'Low': 'GND'}}": {
+      "deviceAddr": "0x25",
+      "relay": { "row": 4, "col": 1 }
+    },
+    "{'Source': {'High': 'SCL', 'Low': 'GND'}, 'Destination': {'High': 'BCLK_AP', 'Low': 'SDOAP'}}": {
+      "deviceAddr": "0x25",
+      "relay": { "row": 4, "col": 2 }
+    },
+    "{'Source': {'High': 'SCL', 'Low': 'GND'}, 'Destination': {'High': 'PDMCLK_AP', 'Low': 'PDM_DATA_AP'}}": {
+      "deviceAddr": "0x25",
+      "relay": { "row": 4, "col": 3 }
+    },
+    "{'Source': {'High': 'SCL', 'Low': 'GND'}, 'Destination': {'High': 'ANA_OUT_N_AP', 'Low': 'ANA_OUTP_AP_AC'}}": {
+      "deviceAddr": "0x25",
+      "relay": { "row": 4, "col": 4 }
+    },
+    "{'Source': {'High': 'SCL', 'Low': 'GND'}, 'Destination': {'High': 'ANA_OUT_N_AP', 'Low': 'ANA_OUTP_AP_DC'}}": {
+      "deviceAddr": "0x25",
+      "relay": { "row": 4, "col": 5 }
+    },
+    "{'Source': {'High': 'SCL', 'Low': 'GND'}, 'Destination': {'High': 'VDD_EXT', 'Low': 'GND'}}": {
+      "deviceAddr": "0x25",
+      "relay": { "row": 4, "col": 6 }
+    },
+    "{'Source': {'High': 'SCL', 'Low': 'GND'}, 'Destination': {'High': 'VBAT_PWR_EXT', 'Low': 'GND'}}": {
+      "deviceAddr": "0x25",
+      "relay": { "row": 4, "col": 7 }
+    },
+    "{'Source': {'High': 'SCL', 'Low': 'GND'}, 'Destination': {'High': 'VM+', 'Low': 'VM-'}}": {
+      "deviceAddr": "0x25",
+      "relay": { "row": 4, "col": 8 }
+    },
+    "{'Source': {'High': 'BCLK', 'Low': 'GND'}, 'Destination': {'High': 'FSYN_AP', 'Low': 'GND'}}": {
+      "deviceAddr": "0x26",
+      "relay": { "row": 5, "col": 1 }
+    },
+    "{'Source': {'High': 'BCLK', 'Low': 'GND'}, 'Destination': {'High': 'BCLK_AP', 'Low': 'SDOAP'}}": {
+      "deviceAddr": "0x26",
+      "relay": { "row": 5, "col": 2 }
+    },
+    "{'Source': {'High': 'BCLK', 'Low': 'GND'}, 'Destination': {'High': 'PDMCLK_AP', 'Low': 'PDM_DATA_AP'}}": {
+      "deviceAddr": "0x26",
+      "relay": { "row": 5, "col": 3 }
+    },
+    "{'Source': {'High': 'BCLK', 'Low': 'GND'}, 'Destination': {'High': 'ANA_OUT_N_AP', 'Low': 'ANA_OUTP_AP_AC'}}": {
+      "deviceAddr": "0x26",
+      "relay": { "row": 5, "col": 4 }
+    },
+    "{'Source': {'High': 'BCLK', 'Low': 'GND'}, 'Destination': {'High': 'ANA_OUT_N_AP', 'Low': 'ANA_OUTP_AP_DC'}}": {
+      "deviceAddr": "0x26",
+      "relay": { "row": 5, "col": 5 }
+    },
+    "{'Source': {'High': 'BCLK', 'Low': 'GND'}, 'Destination': {'High': 'VDD_EXT', 'Low': 'GND'}}": {
+      "deviceAddr": "0x26",
+      "relay": { "row": 5, "col": 6 }
+    },
+    "{'Source': {'High': 'BCLK', 'Low': 'GND'}, 'Destination': {'High': 'VBAT_PWR_EXT', 'Low': 'GND'}}": {
+      "deviceAddr": "0x26",
+      "relay": { "row": 5, "col": 7 }
+    },
+    "{'Source': {'High': 'BCLK', 'Low': 'GND'}, 'Destination': {'High': 'VM+', 'Low': 'VM-'}}": {
+      "deviceAddr": "0x26",
+      "relay": { "row": 5, "col": 8 }
+    },
+    "{'Source': {'High': 'SDI', 'Low': 'GND'}, 'Destination': {'High': 'FSYN_AP', 'Low': 'GND'}}": {
+      "deviceAddr": "0x26",
+      "relay": { "row": 6, "col": 1 }
+    },
+    "{'Source': {'High': 'SDI', 'Low': 'GND'}, 'Destination': {'High': 'BCLK_AP', 'Low': 'SDOAP'}}": {
+      "deviceAddr": "0x26",
+      "relay": { "row": 6, "col": 2 }
+    },
+    "{'Source': {'High': 'SDI', 'Low': 'GND'}, 'Destination': {'High': 'PDMCLK_AP', 'Low': 'PDM_DATA_AP'}}": {
+      "deviceAddr": "0x26",
+      "relay": { "row": 6, "col": 3 }
+    },
+    "{'Source': {'High': 'SDI', 'Low': 'GND'}, 'Destination': {'High': 'ANA_OUT_N_AP', 'Low': 'ANA_OUTP_AP_AC'}}": {
+      "deviceAddr": "0x26",
+      "relay": { "row": 6, "col": 4 }
+    },
+    "{'Source': {'High': 'SDI', 'Low': 'GND'}, 'Destination': {'High': 'ANA_OUT_N_AP', 'Low': 'ANA_OUTP_AP_DC'}}": {
+      "deviceAddr": "0x26",
+      "relay": { "row": 6, "col": 5 }
+    },
+    "{'Source': {'High': 'SDI', 'Low': 'GND'}, 'Destination': {'High': 'VDD_EXT', 'Low': 'GND'}}": {
+      "deviceAddr": "0x26",
+      "relay": { "row": 6, "col": 6 }
+    },
+    "{'Source': {'High': 'SDI', 'Low': 'GND'}, 'Destination': {'High': 'VBAT_PWR_EXT', 'Low': 'GND'}}": {
+      "deviceAddr": "0x26",
+      "relay": { "row": 6, "col": 7 }
+    },
+    "{'Source': {'High': 'SDI', 'Low': 'GND'}, 'Destination': {'High': 'VM+', 'Low': 'VM-'}}": {
+      "deviceAddr": "0x26",
+      "relay": { "row": 6, "col": 8 }
+    },
+    "{'Source': {'High': 'VDD', 'Low': 'GND'}, 'Destination': {'High': 'FSYN_AP', 'Low': 'GND'}}": {
+      "deviceAddr": "0x27",
+      "relay": { "row": 7, "col": 1 }
+    },
+    "{'Source': {'High': 'VDD', 'Low': 'GND'}, 'Destination': {'High': 'BCLK_AP', 'Low': 'SDOAP'}}": {
+      "deviceAddr": "0x27",
+      "relay": { "row": 7, "col": 2 }
+    },
+    "{'Source': {'High': 'VDD', 'Low': 'GND'}, 'Destination': {'High': 'PDMCLK_AP', 'Low': 'PDM_DATA_AP'}}": {
+      "deviceAddr": "0x27",
+      "relay": { "row": 7, "col": 3 }
+    },
+    "{'Source': {'High': 'VDD', 'Low': 'GND'}, 'Destination': {'High': 'ANA_OUT_N_AP', 'Low': 'ANA_OUTP_AP_AC'}}": {
+      "deviceAddr": "0x27",
+      "relay": { "row": 7, "col": 4 }
+    },
+    "{'Source': {'High': 'VDD', 'Low': 'GND'}, 'Destination': {'High': 'ANA_OUT_N_AP', 'Low': 'ANA_OUTP_AP_DC'}}": {
+      "deviceAddr": "0x27",
+      "relay": { "row": 7, "col": 5 }
+    },
+    "{'Source': {'High': 'VDD', 'Low': 'GND'}, 'Destination': {'High': 'VDD_EXT', 'Low': 'GND'}}": {
+      "deviceAddr": "0x27",
+      "relay": { "row": 7, "col": 6 }
+    },
+    "{'Source': {'High': 'VDD', 'Low': 'GND'}, 'Destination': {'High': 'VBAT_PWR_EXT', 'Low': 'GND'}}": {
+      "deviceAddr": "0x27",
+      "relay": { "row": 7, "col": 7 }
+    },
+    "{'Source': {'High': 'VDD', 'Low': 'GND'}, 'Destination': {'High': 'VM+', 'Low': 'VM-'}}": {
+      "deviceAddr": "0x27",
+      "relay": { "row": 7, "col": 8 }
+    },
+    "{'Source': {'High': 'SW_F', 'Low': 'GND'}, 'Destination': {'High': 'FSYN_AP', 'Low': 'GND'}}": {
+      "deviceAddr": "0x27",
+      "relay": { "row": 8, "col": 1 }
+    },
+    "{'Source': {'High': 'SW_F', 'Low': 'GND'}, 'Destination': {'High': 'BCLK_AP', 'Low': 'SDOAP'}}": {
+      "deviceAddr": "0x27",
+      "relay": { "row": 8, "col": 2 }
+    },
+    "{'Source': {'High': 'SW_F', 'Low': 'GND'}, 'Destination': {'High': 'PDMCLK_AP', 'Low': 'PDM_DATA_AP'}}": {
+      "deviceAddr": "0x27",
+      "relay": { "row": 8, "col": 3 }
+    },
+    "{'Source': {'High': 'SW_F', 'Low': 'GND'}, 'Destination': {'High': 'ANA_OUT_N_AP', 'Low': 'ANA_OUTP_AP_AC'}}": {
+      "deviceAddr": "0x27",
+      "relay": { "row": 8, "col": 4 }
+    },
+    "{'Source': {'High': 'SW_F', 'Low': 'GND'}, 'Destination': {'High': 'ANA_OUT_N_AP', 'Low': 'ANA_OUTP_AP_DC'}}": {
+      "deviceAddr": "0x27",
+      "relay": { "row": 8, "col": 5 }
+    },
+    "{'Source': {'High': 'SW_F', 'Low': 'GND'}, 'Destination': {'High': 'VDD_EXT', 'Low': 'GND'}}": {
+      "deviceAddr": "0x27",
+      "relay": { "row": 8, "col": 6 }
+    },
+    "{'Source': {'High': 'SW_F', 'Low': 'GND'}, 'Destination': {'High': 'VBAT_PWR_EXT', 'Low': 'GND'}}": {
+      "deviceAddr": "0x27",
+      "relay": { "row": 8, "col": 7 }
+    },
+    "{'Source': {'High': 'SW_F', 'Low': 'GND'}, 'Destination': {'High': 'VM+', 'Low': 'VM-'}}": {
+      "deviceAddr": "0x27",
+      "relay": { "row": 8, "col": 8 }
+    }
+  },
+  "2": {},
+  "3": {}
+}
