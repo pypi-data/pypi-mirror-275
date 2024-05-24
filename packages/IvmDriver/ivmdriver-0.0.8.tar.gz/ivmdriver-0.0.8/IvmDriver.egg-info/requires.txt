@@ -1,0 +1,6 @@
+pymcp2221a
+pyqt5
+setuptools
+pathlib
+PyVISA
+rich
