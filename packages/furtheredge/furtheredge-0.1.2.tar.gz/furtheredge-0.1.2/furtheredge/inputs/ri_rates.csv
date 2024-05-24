@@ -1,0 +1,811 @@
+﻿RI_RATES_ID;AGE;COVER;RATE
+1;0;Death;0,21
+1;1;Death;0,21
+1;2;Death;0,21
+1;3;Death;0,21
+1;4;Death;0,21
+1;5;Death;0,21
+1;6;Death;0,21
+1;7;Death;0,21
+1;8;Death;0,21
+1;9;Death;0,21
+1;10;Death;0,21
+1;11;Death;0,21
+1;12;Death;0,21
+1;13;Death;0,21
+1;14;Death;0,21
+1;15;Death;0,21
+1;16;Death;0,21
+1;17;Death;0,21
+1;18;Death;0,21
+1;19;Death;0,21
+1;20;Death;0,21
+1;21;Death;0,21
+1;22;Death;0,21
+1;23;Death;0,21
+1;24;Death;0,21
+1;25;Death;0,22
+1;26;Death;0,22
+1;27;Death;0,23
+1;28;Death;0,25
+1;29;Death;0,26
+1;30;Death;0,28
+1;31;Death;0,31
+1;32;Death;0,34
+1;33;Death;0,37
+1;34;Death;0,41
+1;35;Death;0,45
+1;36;Death;0,47
+1;37;Death;0,49
+1;38;Death;0,55
+1;39;Death;0,6
+1;40;Death;0,67
+1;41;Death;0,75
+1;42;Death;0,8
+1;43;Death;0,83
+1;44;Death;0,92
+1;45;Death;1,01
+1;46;Death;1,11
+1;47;Death;1,26
+1;48;Death;1,39
+1;49;Death;1,56
+1;50;Death;1,74
+1;51;Death;2,17
+1;52;Death;2,42
+1;53;Death;2,7
+1;54;Death;3
+1;55;Death;3,35
+1;56;Death;3,72
+1;57;Death;4,15
+1;58;Death;4,61
+1;59;Death;5,12
+1;60;Death;5,7
+1;61;Death;6,29
+1;62;Death;6,98
+1;63;Death;7,74
+1;64;Death;8,55
+1;65;Death;9,48
+1;66;Death;10,54
+1;67;Death;11,65
+1;68;Death;12,89
+1;69;Death;14,25
+1;70;Death;15,74
+1;71;Death;15,74
+1;72;Death;15,74
+1;73;Death;15,74
+1;74;Death;15,74
+1;75;Death;15,74
+1;76;Death;15,74
+1;77;Death;15,74
+1;78;Death;15,74
+1;79;Death;15,74
+1;80;Death;15,74
+1;0;TPD Accelerator Any;0,08
+1;1;TPD Accelerator Any;0,08
+1;2;TPD Accelerator Any;0,08
+1;3;TPD Accelerator Any;0,08
+1;4;TPD Accelerator Any;0,08
+1;5;TPD Accelerator Any;0,08
+1;6;TPD Accelerator Any;0,08
+1;7;TPD Accelerator Any;0,08
+1;8;TPD Accelerator Any;0,08
+1;9;TPD Accelerator Any;0,08
+1;10;TPD Accelerator Any;0,08
+1;11;TPD Accelerator Any;0,08
+1;12;TPD Accelerator Any;0,08
+1;13;TPD Accelerator Any;0,08
+1;14;TPD Accelerator Any;0,08
+1;15;TPD Accelerator Any;0,08
+1;16;TPD Accelerator Any;0,08
+1;17;TPD Accelerator Any;0,08
+1;18;TPD Accelerator Any;0,08
+1;19;TPD Accelerator Any;0,08
+1;20;TPD Accelerator Any;0,08
+1;21;TPD Accelerator Any;0,08
+1;22;TPD Accelerator Any;0,08
+1;23;TPD Accelerator Any;0,08
+1;24;TPD Accelerator Any;0,08
+1;25;TPD Accelerator Any;0,08
+1;26;TPD Accelerator Any;0,08
+1;27;TPD Accelerator Any;0,08
+1;28;TPD Accelerator Any;0,08
+1;29;TPD Accelerator Any;0,08
+1;30;TPD Accelerator Any;0,08
+1;31;TPD Accelerator Any;0,08
+1;32;TPD Accelerator Any;0,08
+1;33;TPD Accelerator Any;0,08
+1;34;TPD Accelerator Any;0,08
+1;35;TPD Accelerator Any;0,08
+1;36;TPD Accelerator Any;0,08
+1;37;TPD Accelerator Any;0,09
+1;38;TPD Accelerator Any;0,1
+1;39;TPD Accelerator Any;0,12
+1;40;TPD Accelerator Any;0,13
+1;41;TPD Accelerator Any;0,14
+1;42;TPD Accelerator Any;0,16
+1;43;TPD Accelerator Any;0,18
+1;44;TPD Accelerator Any;0,2
+1;45;TPD Accelerator Any;0,22
+1;46;TPD Accelerator Any;0,25
+1;47;TPD Accelerator Any;0,29
+1;48;TPD Accelerator Any;0,32
+1;49;TPD Accelerator Any;0,37
+1;50;TPD Accelerator Any;0,41
+1;51;TPD Accelerator Any;0,47
+1;52;TPD Accelerator Any;0,52
+1;53;TPD Accelerator Any;0,59
+1;54;TPD Accelerator Any;0,66
+1;55;TPD Accelerator Any;0,74
+1;56;TPD Accelerator Any;0,83
+1;57;TPD Accelerator Any;0,92
+1;58;TPD Accelerator Any;1,03
+1;59;TPD Accelerator Any;1,14
+1;60;TPD Accelerator Any;1,28
+1;61;TPD Accelerator Any;1,42
+1;62;TPD Accelerator Any;1,58
+1;63;TPD Accelerator Any;1,75
+1;64;TPD Accelerator Any;1,94
+1;65;TPD Accelerator Any;2,15
+1;66;TPD Accelerator Any;2,55
+1;67;TPD Accelerator Any;2,81
+1;68;TPD Accelerator Any;3,11
+1;69;TPD Accelerator Any;3,44
+1;70;TPD Accelerator Any;3,8
+1;71;TPD Accelerator Any;0
+1;72;TPD Accelerator Any;0
+1;73;TPD Accelerator Any;0
+1;74;TPD Accelerator Any;0
+1;75;TPD Accelerator Any;0
+1;76;TPD Accelerator Any;0
+1;77;TPD Accelerator Any;0
+1;78;TPD Accelerator Any;0
+1;79;TPD Accelerator Any;0
+1;80;TPD Accelerator Any;0
+1;0;TPD Additional Any;0,08
+1;1;TPD Additional Any;0,08
+1;2;TPD Additional Any;0,08
+1;3;TPD Additional Any;0,08
+1;4;TPD Additional Any;0,08
+1;5;TPD Additional Any;0,08
+1;6;TPD Additional Any;0,08
+1;7;TPD Additional Any;0,08
+1;8;TPD Additional Any;0,08
+1;9;TPD Additional Any;0,08
+1;10;TPD Additional Any;0,08
+1;11;TPD Additional Any;0,08
+1;12;TPD Additional Any;0,08
+1;13;TPD Additional Any;0,08
+1;14;TPD Additional Any;0,08
+1;15;TPD Additional Any;0,08
+1;16;TPD Additional Any;0,08
+1;17;TPD Additional Any;0,08
+1;18;TPD Additional Any;0,08
+1;19;TPD Additional Any;0,08
+1;20;TPD Additional Any;0,08
+1;21;TPD Additional Any;0,08
+1;22;TPD Additional Any;0,08
+1;23;TPD Additional Any;0,08
+1;24;TPD Additional Any;0,08
+1;25;TPD Additional Any;0,08
+1;26;TPD Additional Any;0,08
+1;27;TPD Additional Any;0,08
+1;28;TPD Additional Any;0,08
+1;29;TPD Additional Any;0,08
+1;30;TPD Additional Any;0,08
+1;31;TPD Additional Any;0,08
+1;32;TPD Additional Any;0,08
+1;33;TPD Additional Any;0,08
+1;34;TPD Additional Any;0,08
+1;35;TPD Additional Any;0,08
+1;36;TPD Additional Any;0,08
+1;37;TPD Additional Any;0,09
+1;38;TPD Additional Any;0,1
+1;39;TPD Additional Any;0,12
+1;40;TPD Additional Any;0,13
+1;41;TPD Additional Any;0,14
+1;42;TPD Additional Any;0,16
+1;43;TPD Additional Any;0,18
+1;44;TPD Additional Any;0,2
+1;45;TPD Additional Any;0,22
+1;46;TPD Additional Any;0,25
+1;47;TPD Additional Any;0,29
+1;48;TPD Additional Any;0,32
+1;49;TPD Additional Any;0,37
+1;50;TPD Additional Any;0,41
+1;51;TPD Additional Any;0,47
+1;52;TPD Additional Any;0,52
+1;53;TPD Additional Any;0,59
+1;54;TPD Additional Any;0,66
+1;55;TPD Additional Any;0,74
+1;56;TPD Additional Any;0,83
+1;57;TPD Additional Any;0,92
+1;58;TPD Additional Any;1,03
+1;59;TPD Additional Any;1,14
+1;60;TPD Additional Any;1,28
+1;61;TPD Additional Any;1,42
+1;62;TPD Additional Any;1,58
+1;63;TPD Additional Any;1,75
+1;64;TPD Additional Any;1,94
+1;65;TPD Additional Any;2,15
+1;66;TPD Additional Any;2,55
+1;67;TPD Additional Any;2,81
+1;68;TPD Additional Any;3,11
+1;69;TPD Additional Any;3,44
+1;70;TPD Additional Any;3,8
+1;71;TPD Additional Any;0
+1;72;TPD Additional Any;0
+1;73;TPD Additional Any;0
+1;74;TPD Additional Any;0
+1;75;TPD Additional Any;0
+1;76;TPD Additional Any;0
+1;77;TPD Additional Any;0
+1;78;TPD Additional Any;0
+1;79;TPD Additional Any;0
+1;80;TPD Additional Any;0
+1;0;CI Accelerator (Male);0,25
+1;1;CI Accelerator (Male);0,25
+1;2;CI Accelerator (Male);0,25
+1;3;CI Accelerator (Male);0,25
+1;4;CI Accelerator (Male);0,25
+1;5;CI Accelerator (Male);0,25
+1;6;CI Accelerator (Male);0,25
+1;7;CI Accelerator (Male);0,25
+1;8;CI Accelerator (Male);0,25
+1;9;CI Accelerator (Male);0,25
+1;10;CI Accelerator (Male);0,25
+1;11;CI Accelerator (Male);0,25
+1;12;CI Accelerator (Male);0,25
+1;13;CI Accelerator (Male);0,25
+1;14;CI Accelerator (Male);0,25
+1;15;CI Accelerator (Male);0,25
+1;16;CI Accelerator (Male);0,25
+1;17;CI Accelerator (Male);0,25
+1;18;CI Accelerator (Male);0,25
+1;19;CI Accelerator (Male);0,26
+1;20;CI Accelerator (Male);0,28
+1;21;CI Accelerator (Male);0,29
+1;22;CI Accelerator (Male);0,31
+1;23;CI Accelerator (Male);0,33
+1;24;CI Accelerator (Male);0,35
+1;25;CI Accelerator (Male);0,37
+1;26;CI Accelerator (Male);0,39
+1;27;CI Accelerator (Male);0,41
+1;28;CI Accelerator (Male);0,44
+1;29;CI Accelerator (Male);0,47
+1;30;CI Accelerator (Male);0,51
+1;31;CI Accelerator (Male);0,54
+1;32;CI Accelerator (Male);0,59
+1;33;CI Accelerator (Male);0,65
+1;34;CI Accelerator (Male);0,72
+1;35;CI Accelerator (Male);0,79
+1;36;CI Accelerator (Male);0,89
+1;37;CI Accelerator (Male);1
+1;38;CI Accelerator (Male);1,14
+1;39;CI Accelerator (Male);1,3
+1;40;CI Accelerator (Male);1,49
+1;41;CI Accelerator (Male);1,72
+1;42;CI Accelerator (Male);1,97
+1;43;CI Accelerator (Male);2,26
+1;44;CI Accelerator (Male);2,58
+1;45;CI Accelerator (Male);2,93
+1;46;CI Accelerator (Male);3,27
+1;47;CI Accelerator (Male);3,62
+1;48;CI Accelerator (Male);3,97
+1;49;CI Accelerator (Male);4,32
+1;50;CI Accelerator (Male);4,65
+1;51;CI Accelerator (Male);5
+1;52;CI Accelerator (Male);5,37
+1;53;CI Accelerator (Male);5,79
+1;54;CI Accelerator (Male);6,25
+1;55;CI Accelerator (Male);6,75
+1;56;CI Accelerator (Male);7,33
+1;57;CI Accelerator (Male);7,99
+1;58;CI Accelerator (Male);8,72
+1;59;CI Accelerator (Male);9,58
+1;60;CI Accelerator (Male);10,53
+1;61;CI Accelerator (Male);11,6
+1;62;CI Accelerator (Male);12,75
+1;63;CI Accelerator (Male);13,94
+1;64;CI Accelerator (Male);15,18
+1;65;CI Accelerator (Male);16,42
+1;66;CI Accelerator (Male);0
+1;67;CI Accelerator (Male);0
+1;68;CI Accelerator (Male);0
+1;69;CI Accelerator (Male);0
+1;70;CI Accelerator (Male);0
+1;71;CI Accelerator (Male);0
+1;72;CI Accelerator (Male);0
+1;73;CI Accelerator (Male);0
+1;74;CI Accelerator (Male);0
+1;75;CI Accelerator (Male);0
+1;76;CI Accelerator (Male);0
+1;77;CI Accelerator (Male);0
+1;78;CI Accelerator (Male);0
+1;79;CI Accelerator (Male);0
+1;80;CI Accelerator (Male);0
+1;0;CI Accelerator (Female);0,15
+1;1;CI Accelerator (Female);0,15
+1;2;CI Accelerator (Female);0,15
+1;3;CI Accelerator (Female);0,15
+1;4;CI Accelerator (Female);0,15
+1;5;CI Accelerator (Female);0,15
+1;6;CI Accelerator (Female);0,15
+1;7;CI Accelerator (Female);0,15
+1;8;CI Accelerator (Female);0,15
+1;9;CI Accelerator (Female);0,15
+1;10;CI Accelerator (Female);0,15
+1;11;CI Accelerator (Female);0,15
+1;12;CI Accelerator (Female);0,15
+1;13;CI Accelerator (Female);0,15
+1;14;CI Accelerator (Female);0,15
+1;15;CI Accelerator (Female);0,15
+1;16;CI Accelerator (Female);0,15
+1;17;CI Accelerator (Female);0,15
+1;18;CI Accelerator (Female);0,15
+1;19;CI Accelerator (Female);0,16
+1;20;CI Accelerator (Female);0,16
+1;21;CI Accelerator (Female);0,19
+1;22;CI Accelerator (Female);0,21
+1;23;CI Accelerator (Female);0,23
+1;24;CI Accelerator (Female);0,26
+1;25;CI Accelerator (Female);0,29
+1;26;CI Accelerator (Female);0,34
+1;27;CI Accelerator (Female);0,39
+1;28;CI Accelerator (Female);0,45
+1;29;CI Accelerator (Female);0,52
+1;30;CI Accelerator (Female);0,6
+1;31;CI Accelerator (Female);0,68
+1;32;CI Accelerator (Female);0,78
+1;33;CI Accelerator (Female);0,89
+1;34;CI Accelerator (Female);1,02
+1;35;CI Accelerator (Female);1,15
+1;36;CI Accelerator (Female);1,28
+1;37;CI Accelerator (Female);1,42
+1;38;CI Accelerator (Female);1,57
+1;39;CI Accelerator (Female);1,72
+1;40;CI Accelerator (Female);1,86
+1;41;CI Accelerator (Female);1,99
+1;42;CI Accelerator (Female);2,13
+1;43;CI Accelerator (Female);2,27
+1;44;CI Accelerator (Female);2,42
+1;45;CI Accelerator (Female);2,56
+1;46;CI Accelerator (Female);2,71
+1;47;CI Accelerator (Female);2,85
+1;48;CI Accelerator (Female);2,98
+1;49;CI Accelerator (Female);3,11
+1;50;CI Accelerator (Female);3,2
+1;51;CI Accelerator (Female);3,31
+1;52;CI Accelerator (Female);3,43
+1;53;CI Accelerator (Female);3,58
+1;54;CI Accelerator (Female);3,76
+1;55;CI Accelerator (Female);4
+1;56;CI Accelerator (Female);4,3
+1;57;CI Accelerator (Female);4,7
+1;58;CI Accelerator (Female);5,13
+1;59;CI Accelerator (Female);5,64
+1;60;CI Accelerator (Female);6,19
+1;61;CI Accelerator (Female);6,78
+1;62;CI Accelerator (Female);7,39
+1;63;CI Accelerator (Female);8
+1;64;CI Accelerator (Female);8,62
+1;65;CI Accelerator (Female);9,21
+1;66;CI Accelerator (Female);0
+1;67;CI Accelerator (Female);0
+1;68;CI Accelerator (Female);0
+1;69;CI Accelerator (Female);0
+1;70;CI Accelerator (Female);0
+1;71;CI Accelerator (Female);0
+1;72;CI Accelerator (Female);0
+1;73;CI Accelerator (Female);0
+1;74;CI Accelerator (Female);0
+1;75;CI Accelerator (Female);0
+1;76;CI Accelerator (Female);0
+1;77;CI Accelerator (Female);0
+1;78;CI Accelerator (Female);0
+1;79;CI Accelerator (Female);0
+1;80;CI Accelerator (Female);0
+1;0;CI Additional (Male);0,29
+1;1;CI Additional (Male);0,29
+1;2;CI Additional (Male);0,29
+1;3;CI Additional (Male);0,29
+1;4;CI Additional (Male);0,29
+1;5;CI Additional (Male);0,29
+1;6;CI Additional (Male);0,29
+1;7;CI Additional (Male);0,29
+1;8;CI Additional (Male);0,29
+1;9;CI Additional (Male);0,29
+1;10;CI Additional (Male);0,29
+1;11;CI Additional (Male);0,29
+1;12;CI Additional (Male);0,29
+1;13;CI Additional (Male);0,29
+1;14;CI Additional (Male);0,29
+1;15;CI Additional (Male);0,29
+1;16;CI Additional (Male);0,29
+1;17;CI Additional (Male);0,29
+1;18;CI Additional (Male);0,29
+1;19;CI Additional (Male);0,3
+1;20;CI Additional (Male);0,32
+1;21;CI Additional (Male);0,34
+1;22;CI Additional (Male);0,36
+1;23;CI Additional (Male);0,38
+1;24;CI Additional (Male);0,4
+1;25;CI Additional (Male);0,42
+1;26;CI Additional (Male);0,45
+1;27;CI Additional (Male);0,47
+1;28;CI Additional (Male);0,5
+1;29;CI Additional (Male);0,54
+1;30;CI Additional (Male);0,58
+1;31;CI Additional (Male);0,62
+1;32;CI Additional (Male);0,68
+1;33;CI Additional (Male);0,74
+1;34;CI Additional (Male);0,81
+1;35;CI Additional (Male);0,9
+1;36;CI Additional (Male);1,02
+1;37;CI Additional (Male);1,15
+1;38;CI Additional (Male);1,31
+1;39;CI Additional (Male);1,5
+1;40;CI Additional (Male);1,73
+1;41;CI Additional (Male);1,99
+1;42;CI Additional (Male);2,92
+1;43;CI Additional (Male);3,37
+1;44;CI Additional (Male);3,86
+1;45;CI Additional (Male);4,41
+1;46;CI Additional (Male);4,96
+1;47;CI Additional (Male);5,53
+1;48;CI Additional (Male);6,11
+1;49;CI Additional (Male);6,69
+1;50;CI Additional (Male);7,25
+1;51;CI Additional (Male);7,85
+1;52;CI Additional (Male);8,47
+1;53;CI Additional (Male);9,15
+1;54;CI Additional (Male);9,88
+1;55;CI Additional (Male);10,67
+1;56;CI Additional (Male);11,56
+1;57;CI Additional (Male);12,56
+1;58;CI Additional (Male);13,68
+1;59;CI Additional (Male);14,95
+1;60;CI Additional (Male);16,42
+1;61;CI Additional (Male);18,05
+1;62;CI Additional (Male);19,82
+1;63;CI Additional (Male);21,7
+1;64;CI Additional (Male);23,72
+1;65;CI Additional (Male);25,75
+1;66;CI Additional (Male);0
+1;67;CI Additional (Male);0
+1;68;CI Additional (Male);0
+1;69;CI Additional (Male);0
+1;70;CI Additional (Male);0
+1;71;CI Additional (Male);0
+1;72;CI Additional (Male);0
+1;73;CI Additional (Male);0
+1;74;CI Additional (Male);0
+1;75;CI Additional (Male);0
+1;76;CI Additional (Male);0
+1;77;CI Additional (Male);0
+1;78;CI Additional (Male);0
+1;79;CI Additional (Male);0
+1;80;CI Additional (Male);0
+1;0;CI Additional (Female);0,23
+1;1;CI Additional (Female);0,23
+1;2;CI Additional (Female);0,23
+1;3;CI Additional (Female);0,23
+1;4;CI Additional (Female);0,23
+1;5;CI Additional (Female);0,23
+1;6;CI Additional (Female);0,23
+1;7;CI Additional (Female);0,23
+1;8;CI Additional (Female);0,23
+1;9;CI Additional (Female);0,23
+1;10;CI Additional (Female);0,23
+1;11;CI Additional (Female);0,23
+1;12;CI Additional (Female);0,23
+1;13;CI Additional (Female);0,23
+1;14;CI Additional (Female);0,23
+1;15;CI Additional (Female);0,23
+1;16;CI Additional (Female);0,23
+1;17;CI Additional (Female);0,23
+1;18;CI Additional (Female);0,23
+1;19;CI Additional (Female);0,24
+1;20;CI Additional (Female);0,25
+1;21;CI Additional (Female);0,28
+1;22;CI Additional (Female);0,3
+1;23;CI Additional (Female);0,32
+1;24;CI Additional (Female);0,35
+1;25;CI Additional (Female);0,39
+1;26;CI Additional (Female);0,43
+1;27;CI Additional (Female);0,49
+1;28;CI Additional (Female);0,55
+1;29;CI Additional (Female);0,62
+1;30;CI Additional (Female);0,7
+1;31;CI Additional (Female);0,79
+1;32;CI Additional (Female);0,89
+1;33;CI Additional (Female);1,01
+1;34;CI Additional (Female);1,15
+1;35;CI Additional (Female);1,28
+1;36;CI Additional (Female);1,42
+1;37;CI Additional (Female);1,57
+1;38;CI Additional (Female);1,72
+1;39;CI Additional (Female);1,9
+1;40;CI Additional (Female);2,06
+1;41;CI Additional (Female);2,23
+1;42;CI Additional (Female);2,57
+1;43;CI Additional (Female);2,78
+1;44;CI Additional (Female);3
+1;45;CI Additional (Female);3,24
+1;46;CI Additional (Female);3,5
+1;47;CI Additional (Female);3,75
+1;48;CI Additional (Female);4,01
+1;49;CI Additional (Female);4,25
+1;50;CI Additional (Female);4,48
+1;51;CI Additional (Female);4,72
+1;52;CI Additional (Female);4,98
+1;53;CI Additional (Female);5,25
+1;54;CI Additional (Female);5,56
+1;55;CI Additional (Female);5,93
+1;56;CI Additional (Female);6,37
+1;57;CI Additional (Female);6,89
+1;58;CI Additional (Female);7,48
+1;59;CI Additional (Female);8,15
+1;60;CI Additional (Female);8,89
+1;61;CI Additional (Female);9,71
+1;62;CI Additional (Female);10,59
+1;63;CI Additional (Female);11,52
+1;64;CI Additional (Female);12,51
+1;65;CI Additional (Female);13,52
+1;66;CI Additional (Female);0
+1;67;CI Additional (Female);0
+1;68;CI Additional (Female);0
+1;69;CI Additional (Female);0
+1;70;CI Additional (Female);0
+1;71;CI Additional (Female);0
+1;72;CI Additional (Female);0
+1;73;CI Additional (Female);0
+1;74;CI Additional (Female);0
+1;75;CI Additional (Female);0
+1;76;CI Additional (Female);0
+1;77;CI Additional (Female);0
+1;78;CI Additional (Female);0
+1;79;CI Additional (Female);0
+1;80;CI Additional (Female);0
+1;0;Accidental Death;0,41
+1;1;Accidental Death;0,41
+1;2;Accidental Death;0,41
+1;3;Accidental Death;0,41
+1;4;Accidental Death;0,41
+1;5;Accidental Death;0,41
+1;6;Accidental Death;0,41
+1;7;Accidental Death;0,41
+1;8;Accidental Death;0,41
+1;9;Accidental Death;0,41
+1;10;Accidental Death;0,41
+1;11;Accidental Death;0,41
+1;12;Accidental Death;0,41
+1;13;Accidental Death;0,41
+1;14;Accidental Death;0,41
+1;15;Accidental Death;0,41
+1;16;Accidental Death;0,41
+1;17;Accidental Death;0,41
+1;18;Accidental Death;0,41
+1;19;Accidental Death;0,41
+1;20;Accidental Death;0,41
+1;21;Accidental Death;0,41
+1;22;Accidental Death;0,41
+1;23;Accidental Death;0,41
+1;24;Accidental Death;0,41
+1;25;Accidental Death;0,41
+1;26;Accidental Death;0,41
+1;27;Accidental Death;0,41
+1;28;Accidental Death;0,41
+1;29;Accidental Death;0,41
+1;30;Accidental Death;0,41
+1;31;Accidental Death;0,41
+1;32;Accidental Death;0,41
+1;33;Accidental Death;0,41
+1;34;Accidental Death;0,41
+1;35;Accidental Death;0,41
+1;36;Accidental Death;0,41
+1;37;Accidental Death;0,41
+1;38;Accidental Death;0,41
+1;39;Accidental Death;0,41
+1;40;Accidental Death;0,41
+1;41;Accidental Death;0,41
+1;42;Accidental Death;0,41
+1;43;Accidental Death;0,41
+1;44;Accidental Death;0,41
+1;45;Accidental Death;0,41
+1;46;Accidental Death;0,41
+1;47;Accidental Death;0,41
+1;48;Accidental Death;0,41
+1;49;Accidental Death;0,41
+1;50;Accidental Death;0,41
+1;51;Accidental Death;0,41
+1;52;Accidental Death;0,41
+1;53;Accidental Death;0,41
+1;54;Accidental Death;0,41
+1;55;Accidental Death;0,41
+1;56;Accidental Death;0,41
+1;57;Accidental Death;0,41
+1;58;Accidental Death;0,41
+1;59;Accidental Death;0,41
+1;60;Accidental Death;0,41
+1;61;Accidental Death;0,41
+1;62;Accidental Death;0,41
+1;63;Accidental Death;0,41
+1;64;Accidental Death;0,41
+1;65;Accidental Death;0,41
+1;66;Accidental Death;0,41
+1;67;Accidental Death;0,41
+1;68;Accidental Death;0,41
+1;69;Accidental Death;0,41
+1;70;Accidental Death;0,41
+1;71;Accidental Death;0,41
+1;72;Accidental Death;0,41
+1;73;Accidental Death;0,41
+1;74;Accidental Death;0,41
+1;75;Accidental Death;0,41
+1;76;Accidental Death;0,41
+1;77;Accidental Death;0,41
+1;78;Accidental Death;0,41
+1;79;Accidental Death;0,41
+1;80;Accidental Death;0,41
+1;0;Accidental PPD;0,17
+1;1;Accidental PPD;0,17
+1;2;Accidental PPD;0,17
+1;3;Accidental PPD;0,17
+1;4;Accidental PPD;0,17
+1;5;Accidental PPD;0,17
+1;6;Accidental PPD;0,17
+1;7;Accidental PPD;0,17
+1;8;Accidental PPD;0,17
+1;9;Accidental PPD;0,17
+1;10;Accidental PPD;0,17
+1;11;Accidental PPD;0,17
+1;12;Accidental PPD;0,17
+1;13;Accidental PPD;0,17
+1;14;Accidental PPD;0,17
+1;15;Accidental PPD;0,17
+1;16;Accidental PPD;0,17
+1;17;Accidental PPD;0,17
+1;18;Accidental PPD;0,17
+1;19;Accidental PPD;0,17
+1;20;Accidental PPD;0,17
+1;21;Accidental PPD;0,17
+1;22;Accidental PPD;0,17
+1;23;Accidental PPD;0,17
+1;24;Accidental PPD;0,17
+1;25;Accidental PPD;0,17
+1;26;Accidental PPD;0,17
+1;27;Accidental PPD;0,17
+1;28;Accidental PPD;0,17
+1;29;Accidental PPD;0,17
+1;30;Accidental PPD;0,17
+1;31;Accidental PPD;0,17
+1;32;Accidental PPD;0,17
+1;33;Accidental PPD;0,17
+1;34;Accidental PPD;0,17
+1;35;Accidental PPD;0,17
+1;36;Accidental PPD;0,17
+1;37;Accidental PPD;0,17
+1;38;Accidental PPD;0,17
+1;39;Accidental PPD;0,17
+1;40;Accidental PPD;0,17
+1;41;Accidental PPD;0,17
+1;42;Accidental PPD;0,17
+1;43;Accidental PPD;0,17
+1;44;Accidental PPD;0,17
+1;45;Accidental PPD;0,17
+1;46;Accidental PPD;0,17
+1;47;Accidental PPD;0,17
+1;48;Accidental PPD;0,17
+1;49;Accidental PPD;0,17
+1;50;Accidental PPD;0,17
+1;51;Accidental PPD;0,17
+1;52;Accidental PPD;0,17
+1;53;Accidental PPD;0,17
+1;54;Accidental PPD;0,17
+1;55;Accidental PPD;0,17
+1;56;Accidental PPD;0,17
+1;57;Accidental PPD;0,17
+1;58;Accidental PPD;0,17
+1;59;Accidental PPD;0,17
+1;60;Accidental PPD;0,17
+1;61;Accidental PPD;0,17
+1;62;Accidental PPD;0,17
+1;63;Accidental PPD;0,17
+1;64;Accidental PPD;0,17
+1;65;Accidental PPD;0,17
+1;66;Accidental PPD;0,17
+1;67;Accidental PPD;0,17
+1;68;Accidental PPD;0,17
+1;69;Accidental PPD;0,17
+1;70;Accidental PPD;0,17
+1;71;Accidental PPD;0,17
+1;72;Accidental PPD;0,17
+1;73;Accidental PPD;0,17
+1;74;Accidental PPD;0,17
+1;75;Accidental PPD;0,17
+1;76;Accidental PPD;0,17
+1;77;Accidental PPD;0,17
+1;78;Accidental PPD;0,17
+1;79;Accidental PPD;0,17
+1;80;Accidental PPD;0,17
+1;0;Critical Illness Juvenile (Male);0
+1;1;Critical Illness Juvenile (Male);0
+1;2;Critical Illness Juvenile (Male);0
+1;3;Critical Illness Juvenile (Male);0,43
+1;4;Critical Illness Juvenile (Male);0,41
+1;5;Critical Illness Juvenile (Male);0,39
+1;6;Critical Illness Juvenile (Male);0,37
+1;7;Critical Illness Juvenile (Male);0,35
+1;8;Critical Illness Juvenile (Male);0,34
+1;9;Critical Illness Juvenile (Male);0,34
+1;10;Critical Illness Juvenile (Male);0,34
+1;11;Critical Illness Juvenile (Male);0,34
+1;12;Critical Illness Juvenile (Male);0,35
+1;13;Critical Illness Juvenile (Male);0,36
+1;14;Critical Illness Juvenile (Male);0,38
+1;15;Critical Illness Juvenile (Male);0,4
+1;16;Critical Illness Juvenile (Male);0,42
+1;17;Critical Illness Juvenile (Male);0,45
+1;18;Critical Illness Juvenile (Male);0,48
+1;19;Critical Illness Juvenile (Male);0
+1;20;Critical Illness Juvenile (Male);0
+1;21;Critical Illness Juvenile (Male);0
+1;22;Critical Illness Juvenile (Male);0
+1;23;Critical Illness Juvenile (Male);0
+1;24;Critical Illness Juvenile (Male);0
+1;25;Critical Illness Juvenile (Male);0
+1;26;Critical Illness Juvenile (Male);0
+1;27;Critical Illness Juvenile (Male);0
+1;28;Critical Illness Juvenile (Male);0
+1;29;Critical Illness Juvenile (Male);0
+1;30;Critical Illness Juvenile (Male);0
+1;31;Critical Illness Juvenile (Male);0
+1;32;Critical Illness Juvenile (Male);0
+1;33;Critical Illness Juvenile (Male);0
+1;34;Critical Illness Juvenile (Male);0
+1;35;Critical Illness Juvenile (Male);0
+1;36;Critical Illness Juvenile (Male);0
+1;37;Critical Illness Juvenile (Male);0
+1;38;Critical Illness Juvenile (Male);0
+1;39;Critical Illness Juvenile (Male);0
+1;40;Critical Illness Juvenile (Male);0
+1;41;Critical Illness Juvenile (Male);0
+1;42;Critical Illness Juvenile (Male);0
+1;43;Critical Illness Juvenile (Male);0
+1;44;Critical Illness Juvenile (Male);0
+1;45;Critical Illness Juvenile (Male);0
+1;46;Critical Illness Juvenile (Male);0
+1;47;Critical Illness Juvenile (Male);0
+1;48;Critical Illness Juvenile (Male);0
+1;49;Critical Illness Juvenile (Male);0
+1;50;Critical Illness Juvenile (Male);0
+1;51;Critical Illness Juvenile (Male);0
+1;52;Critical Illness Juvenile (Male);0
+1;53;Critical Illness Juvenile (Male);0
+1;54;Critical Illness Juvenile (Male);0
+1;55;Critical Illness Juvenile (Male);0
+1;56;Critical Illness Juvenile (Male);0
+1;57;Critical Illness Juvenile (Male);0
+1;58;Critical Illness Juvenile (Male);0
+1;59;Critical Illness Juvenile (Male);0
+1;60;Critical Illness Juvenile (Male);0
+1;61;Critical Illness Juvenile (Male);0
+1;62;Critical Illness Juvenile (Male);0
+1;63;Critical Illness Juvenile (Male);0
+1;64;Critical Illness Juvenile (Male);0
+1;65;Critical Illness Juvenile (Male);0
+1;66;Critical Illness Juvenile (Male);0
+1;67;Critical Illness Juvenile (Male);0
+1;68;Critical Illness Juvenile (Male);0
+1;69;Critical Illness Juvenile (Male);0
+1;70;Critical Illness Juvenile (Male);0
+1;71;Critical Illness Juvenile (Male);0
+1;72;Critical Illness Juvenile (Male);0
+1;73;Critical Illness Juvenile (Male);0
+1;74;Critical Illness Juvenile (Male);0
+1;75;Critical Illness Juvenile (Male);0
+1;76;Critical Illness Juvenile (Male);0
+1;77;Critical Illness Juvenile (Male);0
+1;78;Critical Illness Juvenile (Male);0
+1;79;Critical Illness Juvenile (Male);0
+1;80;Critical Illness Juvenile (Male);0

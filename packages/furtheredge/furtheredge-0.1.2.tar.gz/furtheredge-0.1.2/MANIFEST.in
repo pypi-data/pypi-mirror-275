@@ -1,0 +1,5 @@
+include furtheredge/inputs/model_points2.csv
+include furtheredge/inputs/ri_rates.csv
+include furtheredge/inputs/wop_rates.csv
+include furtheredge/inputs/tech_assumptions.csv
+include furtheredge/inputs/product.csv
