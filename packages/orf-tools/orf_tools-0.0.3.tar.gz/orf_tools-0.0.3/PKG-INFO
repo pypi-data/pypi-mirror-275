@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: orf_tools
+Version: 0.0.3
+Summary: Tools to work with open reading frames (ORFs)
+Home-page: https://github.com/pypa/sampleproject
+Author: Marco Mariotti and Joan Pallares
+Author-email: marco.mariotti@ub.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyfaidx>=0.7.2
+Requires-Dist: pandas>=1.3.5
+Requires-Dist: easyterm>=1.0.0
+Requires-Dist: numpy>=1.17.0
+
+# orf_tools
+
+Package to manipulate open reading frames (ORFs).
+
+Dependent on pandas.
+
+As of today, one function available: extend_orfs()
+See its docstring in the code
+
+## Authors
+Joan Pallares started the extend_orfs.
+Marco Mariotti later optimized it.
+
+## Installation
+conda install -c conda-forge -c bioconda -c mmariotti orf_tools
+
+Or:
+
+pip install orf_tools
