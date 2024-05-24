@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mixing/__init__.py
+mixing.egg-info/PKG-INFO
+mixing.egg-info/SOURCES.txt
+mixing.egg-info/dependency_links.txt
+mixing.egg-info/not-zip-safe
+mixing.egg-info/requires.txt
+mixing.egg-info/top_level.txt
+mixing/video/__init__.py
