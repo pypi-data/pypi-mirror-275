@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+FRScraper/FRScraper.py
+FRScraper/__init__.py
+FRScraper.egg-info/PKG-INFO
+FRScraper.egg-info/SOURCES.txt
+FRScraper.egg-info/dependency_links.txt
+FRScraper.egg-info/requires.txt
+FRScraper.egg-info/top_level.txt
