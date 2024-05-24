@@ -1,0 +1,9 @@
+README.md
+setup.py
+drowzee/__init__.py
+drowzee/courses.py
+drowzee/utils.py
+drowzee.egg-info/PKG-INFO
+drowzee.egg-info/SOURCES.txt
+drowzee.egg-info/dependency_links.txt
+drowzee.egg-info/top_level.txt
