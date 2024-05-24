@@ -1,0 +1,6 @@
+ai_games/__init__.py,sha256=M5EV1dWymELaz3kPyFkoUOQBfrBsOPej0mJqtTGV_OA,81
+ai_games/connect4.py,sha256=JcGy8Pfnz9GiyH0ffYeVBYZq23BzlubPBDqEaPdCbwI,11450
+ai_games-0.1.5.dist-info/METADATA,sha256=eE7X_R4jq_XEhF7fGl6Cq5v94uqUOqSgr9qX2QaSORE,1573
+ai_games-0.1.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ai_games-0.1.5.dist-info/top_level.txt,sha256=l_sWHVRQynp0LlyIXIgD9LE9guqgoi_szuD1a9WbjEw,9
+ai_games-0.1.5.dist-info/RECORD,,
