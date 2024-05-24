@@ -1,0 +1,16 @@
+DEFAULTS = {
+    "boxsize": r"6,4.5",
+    "colors": "black,blue,red,lime,fuschia",
+    "dpi": "1200",
+    "font": "Sans Serif",
+    "fontsize": "14",
+    "legend_loc": "best",
+    "linewidth": "2.25",
+    "savename": "fed.svg",
+    "tick_loc": "out",
+    "tick_dec": "2",
+    "tick_min": "1",
+    "tick_double": "False",
+    "xlabel": "Reaction Coordinate",
+    "ylabel": r"$\Delta$G (eV)",
+}
