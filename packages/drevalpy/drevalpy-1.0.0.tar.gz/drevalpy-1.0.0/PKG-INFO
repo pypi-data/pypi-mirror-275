@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: drevalpy
+Version: 1.0.0
+Summary: Drug Response Evaluation of cancer cell line drug response models in a fair setting.
+Home-page: https://github.com/biomedbigdata/drp_model_suite
+Author:  
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: ray[tune]
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: plotly
+
+todo
