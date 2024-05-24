@@ -1,0 +1,12 @@
+class MessageKeys():
+    QUBO_MATRIX = "quboMatrix"
+    QUBO_EDGE_LIST = "quboEdgeList"
+    SOLUTION = "solution"
+    OBJECTIVE_VALUE = "objval"
+    ALGO_RUN_TIMEOUT = "algoRunTimeout"
+    FLOAT_DATA_AS_INT = "floatDataAsInt"
+    ERROR_KEY = "error"
+    WARNING_KEY = "warning"
+    QUBO_COMMAND_NAME = "SWSolver_QUBOFull"
+    QUBO_INPUT_PATH = "quboInputPath"
+    VAR_COUNT_KEY = "varCount"
