@@ -1,0 +1,12 @@
+clipboard/__init__.py,sha256=IcGnz9aGPdfJ4srHW9ol5XuNCmG7TV8PFxZedpCarsw,1127
+clipboard/_c_interface.py,sha256=cADRngCYI0956TFLkcJ_Kj6hYeEKhapAJMv_pgi7jFQ,2764
+clipboard/clipboard.py,sha256=FTWExgqrvRMuS4evLMA3MEl7yDgm0nAlufj6OBV_Nmo,16998
+clipboard/constants.py,sha256=Y6_USb0OoSNiEJKH54E70Sxq_7b5eOV4-jadmgz4SWg,77
+clipboard/errors.py,sha256=zjq6oMH87hLdX5if-npG7IfFBWE_KghqAcX2gzMe4i8,823
+clipboard/formats.py,sha256=eh566W9-JLNqVUZYaJKAzDKoJRY_zlU4fa_CRfU8Dms,3177
+clipboard/html_clipboard.py,sha256=CeYp3ZLoAr8s2iP2QQvJ50KRyldjtzABO1-eq0CLBUE,7293
+clip_util-0.1.27.dist-info/LICENSE,sha256=iUkeX7oprbjw8QkTugwneinO8Id_V1Y-Fn6G8-9b1Qc,1069
+clip_util-0.1.27.dist-info/METADATA,sha256=Xd8tw0OphuGoIJFsp4CR73KPtR3y5N5h2EQCjPrjyvY,7544
+clip_util-0.1.27.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+clip_util-0.1.27.dist-info/top_level.txt,sha256=vh2IB2f4lBDskUg2DpXCig1CnjCprKm-BbmTGfoozi8,10
+clip_util-0.1.27.dist-info/RECORD,,
