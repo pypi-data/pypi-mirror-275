@@ -1,0 +1,47 @@
+Metadata-Version: 2.3
+Name: request-api-builder
+Version: 2.0.2
+Summary: Request builder for testing API
+Author-email: Kateryna Levashova <voxquietam.md@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10.0
+Description-Content-Type: text/markdown
+
+# request-api-builder
+Request builder for quick testing API
+
+## Use
+ 1. Import RequestBuilder
+```python
+from request_builder import RequestBuilder
+```
+2. Set cookie and base url
+```python
+BuildRequests.set_cookie(cookie)
+BuildRequests.set_base_url(base_url)
+```
+3. Create request
+```python
+# GET
+request_get = RequestBuilder(
+    method='get',
+    url_template='https://test.com/{id}/another/{another_id}',
+    id='123',
+    another_id='456',
+    query_param_1='value1',
+    query_param_2='value2',
+)
+# POST
+request_post = RequestBuilder(
+    method='post',
+    url_template='https://test.com/{id}/another/{another_id}',
+    data={},
+    id='123',
+    another_id='456',
+    query_param_1='value1',
+    query_param_2='value2',
+)
+```
