@@ -1,0 +1,3 @@
+[console_scripts]
+linkedin-analytics-to-sqlite=linkedin_analytics_to_sqlite.cli:cli
+
