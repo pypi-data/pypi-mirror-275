@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+breathcount.egg-info/PKG-INFO
+breathcount.egg-info/SOURCES.txt
+breathcount.egg-info/dependency_links.txt
+breathcount.egg-info/top_level.txt
+project/BreathSense_heartrate_realtime.py
+project/Plot.py
+project/__init__.py
