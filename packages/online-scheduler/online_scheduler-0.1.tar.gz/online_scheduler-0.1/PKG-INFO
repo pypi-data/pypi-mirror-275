@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: online_scheduler
+Version: 0.1
+Summary: Awesome library
+Home-page: https://github.com/2222041
+Author: 2222041
+Author-email: s2222041@stu.musashino-u.ac.jp
+License: MIT
+Keywords: sample setuptools development
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: requests>=2.14.2
