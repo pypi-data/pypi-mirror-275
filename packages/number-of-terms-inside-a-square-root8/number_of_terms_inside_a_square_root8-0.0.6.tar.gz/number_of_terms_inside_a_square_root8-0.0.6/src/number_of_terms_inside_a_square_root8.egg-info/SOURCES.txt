@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/keisannkadai1.py
+src/number_of_terms_inside_a_square_root8.egg-info/PKG-INFO
+src/number_of_terms_inside_a_square_root8.egg-info/SOURCES.txt
+src/number_of_terms_inside_a_square_root8.egg-info/dependency_links.txt
+src/number_of_terms_inside_a_square_root8.egg-info/entry_points.txt
+src/number_of_terms_inside_a_square_root8.egg-info/top_level.txt
