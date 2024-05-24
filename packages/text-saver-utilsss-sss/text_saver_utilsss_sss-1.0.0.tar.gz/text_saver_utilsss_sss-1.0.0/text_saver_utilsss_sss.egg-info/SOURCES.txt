@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+text_saver_utilss_sss/__init__.py
+text_saver_utilss_sss/main.py
+text_saver_utilsss_sss.egg-info/PKG-INFO
+text_saver_utilsss_sss.egg-info/SOURCES.txt
+text_saver_utilsss_sss.egg-info/dependency_links.txt
+text_saver_utilsss_sss.egg-info/requires.txt
+text_saver_utilsss_sss.egg-info/top_level.txt
