@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sprdbclient
+Version: 0.11
+Summary: 用于连接sprdb数据库。
+Home-page: 
+Author: asxe
+Author-email: 2973918177@qq.com
+License-File: LICENSE

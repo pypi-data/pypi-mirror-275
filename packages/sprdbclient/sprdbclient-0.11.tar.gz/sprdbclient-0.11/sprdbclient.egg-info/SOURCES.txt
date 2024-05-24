@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+sprdbclient.egg-info/PKG-INFO
+sprdbclient.egg-info/SOURCES.txt
+sprdbclient.egg-info/dependency_links.txt
+sprdbclient.egg-info/top_level.txt
