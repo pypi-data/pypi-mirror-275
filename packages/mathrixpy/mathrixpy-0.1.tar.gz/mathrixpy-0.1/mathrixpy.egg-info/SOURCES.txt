@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mathrixpy/__init__.py
+mathrixpy.egg-info/PKG-INFO
+mathrixpy.egg-info/SOURCES.txt
+mathrixpy.egg-info/dependency_links.txt
+mathrixpy.egg-info/top_level.txt
+mathrixpy/mathrixpybase/__init__.py
+mathrixpy/mathrixpybase/base.py
+mathrixpy/mathrixpybase/cambios.py
