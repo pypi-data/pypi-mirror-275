@@ -1,0 +1,24 @@
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "vegan_bits_2"
+version = "1.0.0"
+description = ""
+authors = []
+readme = "venues/stages/vegan_bits_2/readme.md"
+packages = [
+    { include = "vegan_bits_2", from = "venues/stages" },
+]
+license = "unsplash, pexels, and pixabay licenses"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+vegan_bits_2 = 'vegan_bits_2:clique'
+
+
+
