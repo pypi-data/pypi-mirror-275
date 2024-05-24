@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/LLIC.egg-info/PKG-INFO
+src/LLIC.egg-info/SOURCES.txt
+src/LLIC.egg-info/dependency_links.txt
+src/LLIC.egg-info/requires.txt
+src/LLIC.egg-info/top_level.txt
+src/llic/LLIC.py
+src/llic/__init__.py

@@ -1,0 +1,3 @@
+compressai
+numpy
+torch
