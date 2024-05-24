@@ -1,0 +1,3 @@
+[console_scripts]
+watch = promplate_compile.api.watch:main
+
