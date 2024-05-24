@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+cdprox/__init__.py
+cdprox/config.py
+cdprox/main.py
+cdprox/utils.py
+cdproxy.egg-info/PKG-INFO
+cdproxy.egg-info/SOURCES.txt
+cdproxy.egg-info/dependency_links.txt
+cdproxy.egg-info/entry_points.txt
+cdproxy.egg-info/requires.txt
+cdproxy.egg-info/top_level.txt
