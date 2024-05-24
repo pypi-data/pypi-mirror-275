@@ -1,0 +1,10 @@
+fulfill-0.0.1.dist-info/METADATA,sha256=oU06a3OuO4aIeNHjaet3lic4lYnIeBuGhFztu9gXyeQ,2213
+fulfill-0.0.1.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+fulfill-0.0.1.dist-info/entry_points.txt,sha256=C-U_x0jD0pR7B118UUGLL_wAwaLmB2NnCisuedEGaMA,46
+fulfill-0.0.1.dist-info/licenses/LICENSE,sha256=nke00CVElTmhjAOYXkupvTNauLNPzBTuASi3u9moZ1U,754
+fulfill/__init__.py,sha256=GX5jdcmxgVrv9Ip9r-u7_1ACIZzAmcqAWMecCIh9MlE,128
+fulfill/__main__.py,sha256=v3NY4PAeDcORiuDr5UAK-F3dja-12eqTa3C2XvtAJbM,339
+fulfill/cli.py,sha256=AMv0y6xaXqCl0MonHR7GKHjG--JHBToFM_wTSTE4SOc,1721
+fulfill/debug.py,sha256=AcTKXi15nZw7KK9Atg7WAiNGJ2HZEUQWjEIaxG8rAjk,2822
+fulfill/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fulfill-0.0.1.dist-info/RECORD,,
