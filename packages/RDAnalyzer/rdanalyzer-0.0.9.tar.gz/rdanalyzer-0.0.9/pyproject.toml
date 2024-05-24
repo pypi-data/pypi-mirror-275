@@ -1,0 +1,25 @@
+[project]
+name = "RDAnalyzer"
+version = "0.0.9"
+
+authors = [
+  { name="Lunliang Ma", email="malunliang@westlake.edu.cn" },
+  { name="Tao Wang", email="twang@westlake.edu.cn"}
+]
+
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/WestlakeUniversity-WangLab/RDAnalyzer"
+
+
+[build-system]
+requires = ["setuptools>=61.0", "numpy", "scipy", "matplotlib", "ase", "networkx"]
+build-backend = "setuptools.build_meta"
