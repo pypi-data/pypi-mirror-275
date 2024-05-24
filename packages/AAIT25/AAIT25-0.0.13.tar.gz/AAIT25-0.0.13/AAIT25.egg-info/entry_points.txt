@@ -1,0 +1,2 @@
+[orange.widgets]
+AAIT25 = orangecontrib.AAIT25.widgets
