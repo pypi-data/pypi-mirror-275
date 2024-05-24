@@ -1,0 +1,2 @@
+[console_scripts]
+run-Chibalotte_Baseball_Predictor-app = Chibalotte_Baseball_Predictor_app.app:main
