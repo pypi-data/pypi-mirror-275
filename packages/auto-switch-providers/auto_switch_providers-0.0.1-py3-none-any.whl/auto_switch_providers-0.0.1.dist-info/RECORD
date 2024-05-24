@@ -1,0 +1,13 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/auto_switch_providers/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+src/auto_switch_providers/auto_switch_providers.py,sha256=VH6sCxCFq8uUlnVap0lqkuLQqLXrrmzms1_baXtnuO4,10535
+src/auto_switch_providers/http_service.py,sha256=O3jOAfQZQXumGH--6_3aNHlQ7ClokT8cuvtUYqUTFw0,3546
+src/auto_switch_providers/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/auto_switch_providers/utils/helpers.py,sha256=Uvu4VDb0Edxkur8Z3croXUGzT-rQrfjok-SQWvAaMSE,392
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_sample.py,sha256=xufdRJ1U66jf3cBGbq4wh6w9hDts_EJIbGGU9ZRQi4w,511
+auto_switch_providers-0.0.1.dist-info/LICENSE,sha256=1kw5uy8sRCf72cSn5MapqCbIZNL6ouMwGTfjfEL8mQ4,1054
+auto_switch_providers-0.0.1.dist-info/METADATA,sha256=Kdg_DNyLlYpdYfCvZb4bD22Is3GKGW7rMUn-bsLyeZw,1233
+auto_switch_providers-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+auto_switch_providers-0.0.1.dist-info/top_level.txt,sha256=KW3xgkz9NLMTcmmzgKvW8RFpCFkRIQ085qzq2diFf68,10
+auto_switch_providers-0.0.1.dist-info/RECORD,,
