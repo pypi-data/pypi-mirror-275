@@ -1,0 +1,12 @@
+webopen/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+webopen/main.py,sha256=yE_Ppglwz6Pp_Vdpon8ywgq1pq_XuNi4io7eZp_0pNI,2986
+webopen/db/__init__.py,sha256=a06ypTBiRfeRE-jpy2pu7cGQFejW4QUCluo4rzQTVx8,188
+webopen/db/config.py,sha256=updv8p_mD2gWh9SvKp0cdVC2_YCVCVwpNzeKCcEEI_I,46
+webopen/db/connection.py,sha256=MPP825TLJSeJyU5XWrYWSA759rr0lJJngsOjyaulSZc,241
+webopen/db/models.py,sha256=ElsgVrDby-zfZZ_fvka6MielGC9Sw_jBP_sSqpvU2TY,452
+webopen-0.0.2.dist-info/LICENSE.txt,sha256=Fc8XkvOFXFKVIvXUhEhaDXVp3RskyQYc2208NzMK9hE,1096
+webopen-0.0.2.dist-info/METADATA,sha256=-eVnRxh9tyQhzcHAML4OySrMeRIPyV6HvDNPa0GiWrc,1657
+webopen-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+webopen-0.0.2.dist-info/entry_points.txt,sha256=Z891pFtVOaWTxh94scyonFNYQuJaP8AayIdqzZftM70,46
+webopen-0.0.2.dist-info/top_level.txt,sha256=PLRpPIn3kvNKqDWXeoACS8MiwRtzdPb2za9FN5ZTSN8,8
+webopen-0.0.2.dist-info/RECORD,,
