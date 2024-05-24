@@ -1,0 +1,16 @@
+hydroponics/Basic_functions.py,sha256=7mzT8fOaU_Gnj-VKriHc3FsNZsk81D9bVzQL8Ha7Hnc,19808
+hydroponics/Generate_Report.py,sha256=zEcYIYeO1g8NAlfOwH2rL_sG4H2775querqmRxVYcmE,10398
+hydroponics/PH_Approximation_0.py,sha256=Y201ccu18O3KrBTpLfTzNWpLbVTXJgZqeX5zt8VC-1E,15980
+hydroponics/Refill_0.py,sha256=336L_yIaAqMs7QaW7f3YktBtffdt4QhCLRWHER8bsoo,2132
+hydroponics/Solutions_Solubility.py,sha256=5rOnuVOV-heUTGXm2xe_JLpRQURliI8HS12lmdhEsSA,11885
+hydroponics/__init__.py,sha256=-Vj8VzMzXcE9lOI2lRTMw_sn3nQUao0BBeTEMdpV6sw,229
+hydroponics/pH_graph_0.py,sha256=p22XQZF18qifmRACqaRVsTSCR9jqn2GvtuX5UZp8auM,5643
+hydroponics/data/README.md,sha256=XQnJrFNV8dbpo0LWtWbvsetRlFvuONe7kVfEkEoBY1Y,38
+hydroponics/data/Solubility_data.csv,sha256=C4ZoZaFi7AioR8e69UPbekKEoR3JIsQ7UxnbVKpZrnE,22994
+hydroponics/data/UserData.xlsx,sha256=vnDepYbxHK2enNdV6RDfl0YQRc99tSLS62TVpMJt91g,16854
+hydroponics/data/molar_mass.csv,sha256=4wsH_m2uaPCbY0iEIrnjSlmlYfxiTUO4F3muoOsEwdM,1304
+better_hydroponics-0.1.3.dist-info/LICENSE,sha256=u-xXoyrnxtBvk5ecinGCN1VNTOaHKhKIo7nRytRW0BU,1114
+better_hydroponics-0.1.3.dist-info/METADATA,sha256=v2XKqrFkAZA0rXDYsm02sBqYuW3oI4IUHLE8hBvUx-Q,8309
+better_hydroponics-0.1.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+better_hydroponics-0.1.3.dist-info/top_level.txt,sha256=E86N2dwtAD9knLioh-8sJ9m33V8BfNZ8kPP--uDGnhA,12
+better_hydroponics-0.1.3.dist-info/RECORD,,
