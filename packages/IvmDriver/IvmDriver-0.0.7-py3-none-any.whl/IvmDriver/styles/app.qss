@@ -1,0 +1,132 @@
+QMainWindow#MainWindow{
+    background-color: rgb(35,35,35);
+}
+QFrame#headerText{
+        font: 75 28pt "Arial";
+        color:rgb(255, 112, 56);
+}
+QFrame#headerText:hover{
+        color:rgb(254, 54, 32);
+}
+
+
+#addMatrixPushButton{
+    height: 50px;
+    color:rgb(35,35,35);
+	background-color:#0FD520;
+    border-radius:6px;
+    font: 75 12pt "Arial";
+}
+#addMatrixPushButton:pressed{
+    border: 2px solid rgb(35,35,35);
+    background-color: #359a41;
+    color: rgb(35,35,35);
+}
+#addMatrixPushButton:hover{
+    background-color: #359a41;
+}
+#loadMatrix{
+    height: 60px;
+    color:rgb(35,35,35);
+	background-color:#0FD520;
+    border-radius:6px;
+    font: 75 12pt "Arial";
+    margin-left: 30px;
+}
+#loadMatrix:pressed{
+    border: 2px solid rgb(35,35,35);
+    background-color: #359a41;
+    color: rgb(35,35,35);
+}
+#loadMatrix:hover{
+    background-color: #359a41;
+}
+#generateConfigPushButton{
+    height: 50px;
+    color:rgb(35,35,35);
+	background-color:#0FD520;
+    border-radius:6px;
+    font: 75 12pt "Arial";
+}
+#generateConfigPushButton:pressed{
+    border: 2px solid rgb(35,35,35);
+    background-color: #359a41;
+    color: rgb(35,35,35);
+}
+#generateConfigPushButton:hover{
+    background-color: #359a41;
+}
+#lockConfigPushButton{
+    height: 40px;
+    color:rgb(35,35,35);
+	background-color:#0FD520;
+    border-radius:6px;
+    font: 75 12pt "Arial";
+}
+#lockConfigPushButton:pressed{
+    border: 2px solid rgb(35,35,35);
+    background-color: #359a41;
+    color: rgb(35,35,35);
+}
+#lockConfigPushButton:hover{
+    background-color: #359a41;
+}
+#lockConfigPushButton:checked{
+    background-color: #359a41;
+}
+
+#scrollAreaFrame{
+    border:1.3px dotted rgb(254, 54, 32);
+}
+
+QPushButton#closeButton{
+    border:2px solid #F44F5A;
+    /* padding: 3px; */
+    margin: 3px;
+    border-radius:10px;
+    min-width: 20px;
+    min-height: 20px;
+    font: 75 14pt "Arial";
+    padding: 3px;
+    color: #F44F5A;
+}
+QPushButton#closeButton:hover{
+    border:rgb(35,35,35);
+    color: rgb(35,35,35);
+    background-color: #F44F5A;
+}
+QPushButton#minimize{
+    border:2px solid #0FD520;
+    /* padding: 3px; */
+    margin: 3px;
+    border-radius:10px;
+    min-width: 20px;
+    min-height: 20px;
+    font: 75 14pt "Arial";
+    padding: 3px;
+    color: #0FD520;
+}
+QPushButton#minimize:hover{
+    border:rgb(35,35,35);
+    color: rgb(35,35,35);
+    background-color: #0FD520;
+}
+QLineEdit#configfileImport{
+    background-color: rgb(35,35,35);
+    border-radius: 2px;
+    padding: 5px 5px 1px 1px;
+    margin-left: 5px;
+    color: rgb(252, 67, 42);
+    font: 75 11pt "Arial";
+    border: 1px dotted rgb(252, 67, 42);
+}
+
+QLineEdit#configfileImport:focus{
+    border: 1px solid rgb(252, 67, 42);
+}
+
+QLineEdit#configfileImport:hover
+{
+    border: 1px solid #0FD520;
+    color: white;
+}
