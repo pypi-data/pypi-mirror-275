@@ -1,0 +1,5 @@
+setup.py
+pypi/DataHandlerForCSV.egg-info/PKG-INFO
+pypi/DataHandlerForCSV.egg-info/SOURCES.txt
+pypi/DataHandlerForCSV.egg-info/dependency_links.txt
+pypi/DataHandlerForCSV.egg-info/top_level.txt

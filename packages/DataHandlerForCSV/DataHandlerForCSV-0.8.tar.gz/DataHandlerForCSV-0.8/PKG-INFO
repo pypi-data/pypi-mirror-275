@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: DataHandlerForCSV
+Version: 0.8
+Summary: data cleaner
+Home-page: https://github.com/CorbeauDistingue/dataHandlerCSV/tree/main
+Author: Burak Nafi Girgin
+Author-email: bnafigrgn@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6, <3.12
+Description-Content-Type: text/markdown
+
+# dataHandler
+A data cleaner package.
