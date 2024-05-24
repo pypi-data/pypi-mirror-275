@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+furinapdf/__init__.py
+furinapdf/pdf2image.py
+furinapdf/pdf2text.py
+furinapdf.egg-info/PKG-INFO
+furinapdf.egg-info/SOURCES.txt
+furinapdf.egg-info/dependency_links.txt
+furinapdf.egg-info/top_level.txt
