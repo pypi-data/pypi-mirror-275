@@ -1,0 +1,13 @@
+versiointi/__init__.py,sha256=3wScvELX2EsrB4xFK_NksGUsbM9qd4PZmQ71Lb8eaBE,4029
+versiointi/egg_info.py,sha256=iib9Zyd8PX-Az9hWF3JTYSWq2HPgylQG1X2oQpDNWq4,566
+versiointi/parametrit.py,sha256=3pNuk_LKYNmezFWDeTOsOGR6NKU6P7wB5ALAv9Kyn3o,1815
+versiointi/repo.py,sha256=o_39RN9MMsorVJE5qwJ_hjbGzt140kl0SW1pbnx4BZY,4762
+versiointi/tiedostot.py,sha256=CKC31eoEF6Td1pbxHW77cbYcDLSaGfw2oFwmtF7xDyc,2530
+versiointi/vaatimukset.py,sha256=RATGE0VHJ32TmoziUmePTc_7JGNGZ_or3l3XIBWEsmo,654
+versiointi/versiointi.py,sha256=bsvikXeTUiNbeeLL20OL5qiZr1ddcmDrhhGCAoX2_SE,7542
+git_versiointi-1.5.3.dist-info/METADATA,sha256=ARzM6SZzRikChBlaHNXFForRZK8Mdz-be6fCHjQrBYk,4615
+git_versiointi-1.5.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+git_versiointi-1.5.3.dist-info/entry_points.txt,sha256=ZzaXE0jKa50HJR8Y5SHI-GWnjVuMifojjEr2HQ6rHew,247
+git_versiointi-1.5.3.dist-info/historia.json,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+git_versiointi-1.5.3.dist-info/top_level.txt,sha256=KSvDehaoBue1yYOFGQu8cp-01uN6u_JJ2jfiDap9jmw,11
+git_versiointi-1.5.3.dist-info/RECORD,,
