@@ -1,0 +1,8 @@
+README.md
+setup.py
+Basic_library/__init__.py
+Basic_library/basic_math.py
+numerix.egg-info/PKG-INFO
+numerix.egg-info/SOURCES.txt
+numerix.egg-info/dependency_links.txt
+numerix.egg-info/top_level.txt
