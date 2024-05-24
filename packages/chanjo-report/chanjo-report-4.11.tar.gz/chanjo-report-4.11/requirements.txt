@@ -1,0 +1,17 @@
+cairocffi
+chanjo>=4.7
+cffi
+Flask
+Flask-Assets
+Flask-Babel>=3
+Flask-DebugToolbar
+Flask-WeasyPrint
+lxml>=3.0
+path.py
+pymysql
+pyscss
+six
+Flask-SQLAlchemy
+tabulate
+toml
+toolz
