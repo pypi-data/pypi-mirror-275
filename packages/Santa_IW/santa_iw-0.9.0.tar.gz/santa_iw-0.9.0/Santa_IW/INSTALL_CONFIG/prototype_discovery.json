@@ -1,0 +1,18 @@
+{
+  "groups": {
+    "HOSTS": {},
+    "IOT": {"propagate_child_status_in_overall": false}
+  },
+  "scan_defaults": {
+    "unknown": "IOT",
+    "Linux": "HOSTS",
+    "Darwin": "HOSTS",
+    "overwrite": true
+  },
+  "scans": [
+    {
+      "first_ip": "auto",
+      "last_ip": "auto"
+    }
+  ]
+}
