@@ -1,0 +1,3 @@
+pygame
+yt_dlp
+ytmusicapi
