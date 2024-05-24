@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+vanitymnem.py
+VanityMnem.egg-info/PKG-INFO
+VanityMnem.egg-info/SOURCES.txt
+VanityMnem.egg-info/dependency_links.txt
+VanityMnem.egg-info/entry_points.txt
+VanityMnem.egg-info/requires.txt
+VanityMnem.egg-info/top_level.txt
