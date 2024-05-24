@@ -1,0 +1,87 @@
+import logging
+logging.basicConfig(level=logging.INFO)
+from .base import Base
+
+class Board(Base):
+	"""
+	Class responsable for documentation boards in Jira
+	"""
+	ERROR = "OS error: {0}"
+
+	def __init__(self, user, apikey, server):
+		Base.__init__(self, user, apikey, server)
+
+	def get_by_project_function(self, project_key,**kwargs):
+		
+		board_list = []
+		
+		try:
+			function = kwargs["function"]
+
+			logging.info("Start function: find_by_project:"+project_key )
+			boards = self.find_by_project(project_key)
+
+			for	board in boards:
+				board = board.asdict()
+
+				function (data=board, topic=kwargs["topic"], extra_data=kwargs["extra_data"])
+
+				board_list.append(board)			
+			
+		except Exception as e: 
+			logging.error("OS error: {0}".format(e))
+			logging.error(e.__dict__) 
+
+		logging.info("Retrieve All Project``s Commits")
+		
+		return board_list
+
+	def find_by_project(self, project_key):
+		"""
+		Responsible for finding all project's boards that user has access
+
+		Arguments:
+
+			project_key {String} -- project_key of Jira
+
+		Returns:
+		
+			List -- List of all boards from the given project
+			
+		"""
+		try:
+			logging.info("Start function: find_by_project")
+			return self.jira.boards(projectKeyOrID=project_key)
+			logging.info("End funcion: find_by_project")
+		except Exception as e:
+			logging.error("OS error: {0}".format(e))
+			logging.error(e.__dict__)
+
+	def find_by_id(self, board_id):
+		"""
+		Responsible for a board with given id
+
+		Arguments:
+
+			board_id {String} -- board_id of Jira
+
+		Returns:
+		
+			Board/None -- Board if found
+			
+		"""
+		try:
+			logging.info("Start function: find_by_id")
+			boards = self.jira.boards()
+			if boards is None:
+				return None
+			for board in boards:
+				if board.id == board_id:
+					return board
+			logging.info("End funcion: find_by_id")
+		except Exception as e:
+			logging.error("OS error: {0}".format(e))
+			logging.error(e.__dict__)
+
+	
+
