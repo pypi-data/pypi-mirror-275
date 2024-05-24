@@ -1,0 +1,21 @@
+[build-system]
+requires = [ "setuptools",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ls-packers"
+version = "0.5.3"
+description = "An internal client python API for accessing LightSolver's capabilities"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [ "numpy>=1.21.5", "msgpack",]
+classifiers = [ "Programming Language :: Python :: 3", "License :: OSI Approved :: Apache Software License", "Operating System :: OS Independent",]
+[[project.authors]]
+name = "Assaf Kalinski"
+email = "assaf@lightsolver.com"
+
+[project.urls]
+Homepage = "https://lightsolver.com"
+
+[tool.setuptools.packages.find]
+include = [ "ls_packers",]
