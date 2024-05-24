@@ -1,0 +1,15 @@
+[package]
+name = "seadragon"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "seadragon"
+crate-type = ["cdylib"]
+
+[dependencies]
+
+[dependencies.pyo3]
+version = "0.21.1"
+features = ["abi3-py38"]
