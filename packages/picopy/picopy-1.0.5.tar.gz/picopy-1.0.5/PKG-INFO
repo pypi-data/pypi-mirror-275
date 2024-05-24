@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: picopy
+Version: 1.0.5
+Summary: convert an image to a watercolor image 🎨
+Author: kiki js
+Author-email: k.jhnshid@gmail.com
+
+# Convert an Image To a Watercolor Image
+
+
+## Installation 
+
+    pip install picopy
+
+
+## How to use 
+Add your image address in below command : 
+
+    from picopy import picopy 
+
+    picopy.convert_image_to_watercolor("test.jpg") 
+
+Your watercolored image will be saved in your file folder .
