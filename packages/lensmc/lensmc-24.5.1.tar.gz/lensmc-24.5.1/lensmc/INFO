@@ -1,0 +1,8 @@
+author: Giuseppe Congedo
+email: giuseppe.congedo@ed.ac.uk
+name: lensmc
+description: Python package for weak lensing shear measurements
+url: https://gitlab.com/gcongedo/LensMC
+version: 24.5.1
+commit: 7c44f41
+license: LGPL - Copyright (C) 2015 Giuseppe Congedo, University of Edinburgh on behalf of the Euclid Science Ground Segment
