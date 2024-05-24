@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+requirements.txt
+securitycheck.py
+setup.py
+MounikaBasicCalculator.egg-info/PKG-INFO
+MounikaBasicCalculator.egg-info/SOURCES.txt
+MounikaBasicCalculator.egg-info/dependency_links.txt
+MounikaBasicCalculator.egg-info/top_level.txt

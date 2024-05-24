@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+requirements.txt
+setup.py
+MounikaBasicCalculator.egg-info/SOURCES.txt
+MounikaBasicCalculator.egg-info/dependency_links.txt
+MounikaBasicCalculator.egg-info/top_level.txt
+R4Calculator.egg-info/PKG-INFO
+R4Calculator.egg-info/SOURCES.txt
+R4Calculator.egg-info/dependency_links.txt
+R4Calculator.egg-info/top_level.txt
