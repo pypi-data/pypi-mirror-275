@@ -1,0 +1,17 @@
+pygenesis_django/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygenesis_django/admin.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygenesis_django/apps.py,sha256=XBbeKtWhewBYHeMqP9MbVBjpP00xx-fSzXINxDvcPVQ,163
+pygenesis_django/info.py,sha256=k9ttdWkE1uK2YALj2YvjBDw3oDypEQa397EtJZu4MRA,279
+pygenesis_django/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygenesis_django/package.py,sha256=qlbAXRtpLwfkI5zSYpxMmeEYa-c3iAmj-rAOuG4-8Is,86
+pygenesis_django/tests.py,sha256=Nt7FO_SoWbq3Yl140DisS9LdjhJ8MhWWmBb6iVRR828,310
+pygenesis_django/views.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygenesis_django/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygenesis_django/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygenesis_django/management/commands/pygenesis_django_info.py,sha256=DUJJcAXj4pZ7DKh3wYVR6Hz_WbpvT3z1si6nWQBw3-Q,311
+pygenesis_django/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygenesis_django-0.1.0.dist-info/LICENSE,sha256=H3aEEuHqbXqNYa_StdKOzeVtr3gX7XrZx_tQNdKHd2U,1071
+pygenesis_django-0.1.0.dist-info/METADATA,sha256=WJ8BN-PpXWTgpe8NOF6PINMuSeunmbtEv2V5BOe4oy0,7964
+pygenesis_django-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pygenesis_django-0.1.0.dist-info/top_level.txt,sha256=ByLZlvJb7cfDfWt64pfE4Dn_lfDoKQP-RrMKDS48Pfw,17
+pygenesis_django-0.1.0.dist-info/RECORD,,
