@@ -1,0 +1,2 @@
+[console_scripts]
+usdt-wallet = usdt_wallet_manager.transactions:main
