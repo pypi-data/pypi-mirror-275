@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/Alert_System.py
+src/Alert_System_for_Face_and_Pose.egg-info/PKG-INFO
+src/Alert_System_for_Face_and_Pose.egg-info/SOURCES.txt
+src/Alert_System_for_Face_and_Pose.egg-info/dependency_links.txt
+src/Alert_System_for_Face_and_Pose.egg-info/entry_points.txt
+src/Alert_System_for_Face_and_Pose.egg-info/top_level.txt
