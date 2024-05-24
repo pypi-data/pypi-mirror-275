@@ -1,0 +1,3 @@
+[console_scripts]
+deng=yuekseltoprak888_de_toolkit.main:cli
+
