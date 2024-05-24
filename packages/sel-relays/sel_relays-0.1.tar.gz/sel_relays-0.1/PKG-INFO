@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sel_relays
+Version: 0.1
+Summary: Library to use Telnet commands in SEL relays
+Home-page: UNKNOWN
+Author: Elisandro Peixoto
+License: UNKNOWN
+Keywords: SEL relays telnet
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# LIBRARY STILL IN DEVELOPMENT
+
