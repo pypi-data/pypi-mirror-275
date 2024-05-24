@@ -1,0 +1,12 @@
+model_resolver/__init__.py,sha256=ZaLMYdZtAjp6Ib0fUXtgX9JfJsW_Lw20xvQbXC9cRJw,36
+model_resolver/__main__.py,sha256=Qd-f8z2Q2vpiEP2x6PBFsJrpACWDVxFKQk820MhFmHo,59
+model_resolver/cli.py,sha256=uS2fMVsg6pNlm2LaXHu7FpCQK2-w3EwX6OJojHBb7K8,1951
+model_resolver/my_glutinit.py,sha256=9KJ1szoyFNcL1JQqHULjhmJF63tTb0L-Hilw-vNrFsk,1474
+model_resolver/plugin.py,sha256=OjqJIrnO_-iz1H4VG74LHJzg2S_CeTdLL3O_-fpmOJw,14567
+model_resolver/render.py,sha256=V7GHfO5p0xI3U1o7ZU2ao-eA17OEJf7dbjcjBYpO6vM,19793
+model_resolver/utils.py,sha256=YX_aovoDkE0a1YbGUdlXbVjOuL6w6HX9pSy43oXFw84,1248
+model_resolver-0.5.0.dist-info/LICENSE,sha256=IceZep_P5cg0cve02RYfE01XRGu_yoWqiRFdSy6xCfQ,1067
+model_resolver-0.5.0.dist-info/METADATA,sha256=lAgWAzrrQHiuKCbJjb9RLlPIO0z9GN9h8sqvscS2Mus,2492
+model_resolver-0.5.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+model_resolver-0.5.0.dist-info/entry_points.txt,sha256=COWyKmRQyXhCHmysK6LJcaNuSLpUFMIrOZnU947RAoo,57
+model_resolver-0.5.0.dist-info/RECORD,,
