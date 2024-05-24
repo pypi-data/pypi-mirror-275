@@ -1,0 +1,12 @@
+pyproject.toml
+readme.md
+requirements.txt
+bibcite/__init__.py
+bibcite/cli.py
+bibcite/work.py
+bibcite.egg-info/PKG-INFO
+bibcite.egg-info/SOURCES.txt
+bibcite.egg-info/dependency_links.txt
+bibcite.egg-info/entry_points.txt
+bibcite.egg-info/requires.txt
+bibcite.egg-info/top_level.txt
