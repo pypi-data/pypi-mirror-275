@@ -1,0 +1,5 @@
+setup.py
+htmltestreport_ably.egg-info/PKG-INFO
+htmltestreport_ably.egg-info/SOURCES.txt
+htmltestreport_ably.egg-info/dependency_links.txt
+htmltestreport_ably.egg-info/top_level.txt
