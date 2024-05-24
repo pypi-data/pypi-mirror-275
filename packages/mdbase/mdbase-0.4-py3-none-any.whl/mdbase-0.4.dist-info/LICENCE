@@ -1,0 +1,30 @@
+Copyright (c) 2018 The Python Packaging Authority
+
+If you use MDBASE package in your research, please cite:
+
+Slouf M, Gajdosova V, Dybal J, Sticha R, Fulin P, Pokorny D,
+Mateo J, Panisello JJ, Canales V, Medel F,
+Bistolfi Alessandro, Bracco Pierangiola:
+European Database of Explanted UHMWPE Liners from Total
+Joint Replacements: Correlations among Polymer
+Modifications, Structure, Oxidation, Mechanical Properties
+and Lifetime In Vivo
+Polymers 15 (2023) 568. https://doi.org/10.3390/polym15030568
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
