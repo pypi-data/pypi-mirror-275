@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Renone
+Version: 0.5.7
+Summary: A library used to save databases (Discontinued)
+Home-page: https://github.com/yourusername/your-repo-name
+Author: PyGaps CEO
+Author-email: soqratiakram33@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+<-------------------------------------------------------------------------------->
+                    THIS LIBRARY IS DISCONTINUED! DO NOT INSTALL IT
+                        ANYMORE
+                        
+<-------------------------------------------------------------------------------->
+
+
+This library has been discontinued due to some database server issues in our
+infrastructure. We are working on new libraries, so do not worry! And we will
+try our best to provide a better service than Renone!
