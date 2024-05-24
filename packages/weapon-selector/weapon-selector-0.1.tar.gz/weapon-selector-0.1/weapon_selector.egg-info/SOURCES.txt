@@ -1,0 +1,7 @@
+README.md
+setup.py
+weapon-selector.py
+weapon_selector.egg-info/PKG-INFO
+weapon_selector.egg-info/SOURCES.txt
+weapon_selector.egg-info/dependency_links.txt
+weapon_selector.egg-info/top_level.txt
