@@ -1,0 +1,13 @@
+latp/__init__.py,sha256=irUHW4Q9EogGZaOeAE51zpiVHmPoi5G9jWWuc-a3Wm0,309
+latp/cli.py,sha256=d8uLKH1XYZTrVAEVhH-ymeJBRkalNutD6q04F4QM3KU,2012
+latp/config.yaml,sha256=xXkrONsvMXudqr_m-IkHhLb57W63Qf55T5n7l5Nk-l8,655
+latp/decorators.py,sha256=2tEWjQCiqkZ-4deCAkpsC_Thr-ZxyZaphmzSPko1wno,1998
+latp/runner.py,sha256=RfYZ5tU-LZAxU53qIeGYwY75QPscf6T-_DinUw6YAUg,6158
+test_case/__init__.py,sha256=ximjpH96rXvAYVQiE3sqvW0UYEG3Xba64h9AajoTQWU,128
+test_case/test_latp1.py,sha256=0yAh5xKk1zkUTnRzW8er4MngsuxfR4aimyvNBn8i5kg,874
+test_case/test_latp2.py,sha256=Vuc2PhjfpwDXHbl8iREXRksx73c8rhGB4IpRLHXAWHo,1037
+latp-0.0.1.dist-info/METADATA,sha256=-_WPMIJvMFLd005kvO8L1PQSKrDXUGqNVzd0LFbqB9w,423
+latp-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+latp-0.0.1.dist-info/entry_points.txt,sha256=Cp-GhNAaT-57j6QLkedoarN29e4toqi4FgoXhdTi8x0,39
+latp-0.0.1.dist-info/top_level.txt,sha256=5GBSzcxZ5ufNs9Y1XlpzWv9gAPJWmnevSZI1UNnIiV0,15
+latp-0.0.1.dist-info/RECORD,,
