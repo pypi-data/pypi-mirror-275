@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: arena-client
+Version: 0.3.1
+Summary: A client to use arena AI
+License: Apache-2
+Author: Nicolas Grislain
+Author-email: ng@sarus.tech
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: anthropic (>=0.21,<0.22)
+Requires-Dist: anyio[trio] (>=4.3.0,<5.0.0)
+Requires-Dist: httpx (>=0.25,<0.26)
+Requires-Dist: mistralai (>=0.1,<0.2)
+Requires-Dist: openai (>=1.23,<2.0)
+Requires-Dist: parquet (>=1.3.1,<2.0.0)
+Requires-Dist: pyarrow (>=16.1.0,<17.0.0)
+Description-Content-Type: text/markdown
+
+# Client
+
+## Run tests
+
+Run `poetry install; poetry shell`
+
+Then (e.g.):
+
+`pytest -s tests/test_client.py::test_user_eval`
+
