@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: MiaoSQL
+Version: 0.0.5
+Summary: 更适合喵喵体质的mysql查询
+Author: LiuWenYu
+Author-email: 1545113791@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

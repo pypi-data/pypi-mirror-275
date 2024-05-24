@@ -1,0 +1,2 @@
+class NoQuiry(Exception):
+    pass
