@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sakura_fm
+Version: 0.0.4
+Summary: A simple scraper package for chatting with bots from sakura.fm
+Author: Aditya
+Author-email: adityaraj6311@gmail.com
+Keywords: sakura,sakura.fm,sakura scraper,sakurai
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: pymongo
