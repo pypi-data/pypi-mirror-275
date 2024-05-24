@@ -1,0 +1,10 @@
+README.md
+setup.py
+epik8spydev/__init__.py
+epik8spydev/motor.py
+epik8spydev/tml_motor.py
+epik8spydev.egg-info/PKG-INFO
+epik8spydev.egg-info/SOURCES.txt
+epik8spydev.egg-info/dependency_links.txt
+epik8spydev.egg-info/requires.txt
+epik8spydev.egg-info/top_level.txt
