@@ -1,0 +1,43 @@
+[package]
+name = "fmtt"
+version = "0.5.0"
+edition = "2021"
+description = "A diff-friendly text formatter that breaks lines on sensible punctuations and words to fit a line width."
+license = "MIT"
+repository = "https://github.com/SichangHe/fmtt"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "fmtt"
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+pyo3 = { version = "0.21", features = [
+    "experimental-declarative-modules",
+], optional = true }
+regex = "1"
+tracing = { version = "0.1", default_features = false }
+tracing-subscriber = { version = "0.3", default_features = false, features = [
+    "env-filter",
+    "fmt",
+    "smallvec",
+] }
+
+[dev-dependencies]
+insta = "1.39"
+
+[features]
+default = []
+py = ["dep:pyo3"]
+
+[profile.release]
+opt-level = "s"
+lto = true
+
+# Compile snapshot testing libraries with optimizations.
+[profile.dev.package]
+insta = { opt-level = 3 }
+similar = { opt-level = 3 }
