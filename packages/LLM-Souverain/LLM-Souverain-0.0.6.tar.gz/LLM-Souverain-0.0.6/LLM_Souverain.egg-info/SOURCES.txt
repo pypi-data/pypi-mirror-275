@@ -1,0 +1,15 @@
+License.txt
+README.md
+setup.py
+LLM_Souverain.egg-info/PKG-INFO
+LLM_Souverain.egg-info/SOURCES.txt
+LLM_Souverain.egg-info/dependency_links.txt
+LLM_Souverain.egg-info/entry_points.txt
+LLM_Souverain.egg-info/namespace_packages.txt
+LLM_Souverain.egg-info/requires.txt
+LLM_Souverain.egg-info/top_level.txt
+orangecontrib/__init__.py
+orangecontrib/llm_souverain/__init__.py
+orangecontrib/llm_souverain/execute_thread.py
+orangecontrib/llm_souverain/widgets/__init__.py
+orangecontrib/llm_souverain/widgets/owchatbot.py
