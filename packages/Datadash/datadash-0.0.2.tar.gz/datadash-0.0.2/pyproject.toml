@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Datadash"
+version = "0.0.2"
+authors = [
+  { name="Galen Seilis", email="galen.seilis@seilis.ca" },
+]
+description = "Taking a quick look at data."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/galenseilis/datadash"
+Issues = "https://github.com/galenseilis/datadash/issues"
