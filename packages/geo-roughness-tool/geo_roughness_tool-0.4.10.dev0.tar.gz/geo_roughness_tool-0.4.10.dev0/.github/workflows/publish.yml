@@ -1,0 +1,95 @@
+name: Publish Python Package
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.12'
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install setuptools wheel twine setuptools-scm
+
+      - name: Get version from setuptools-scm
+        id: get_version
+        run: |
+          VERSION=$(python setup.py --version)
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+      - name: Update CITATION.cff
+        run: |
+          VERSION=${{ env.VERSION }}
+          DATE=$(date -u +"%Y-%m-%d")
+          echo "cff-version: 1.2.0" > CITATION.cff
+          echo "message: \"If you use this software in your work, please cite it using the following metadata.\"" >> CITATION.cff
+          echo "title: \"GeoRoughness Tool\"" >> CITATION.cff
+          echo "version: $VERSION" >> CITATION.cff
+          echo "date-released: $DATE" >> CITATION.cff
+          echo "" >> CITATION.cff
+          echo "authors:" >> CITATION.cff
+          echo "  - family-names: \"Batschelet\"" >> CITATION.cff
+          echo "    given-names: \"Lukas\"" >> CITATION.cff
+          echo "    orcid: \"0009-0005-0696-0285\"" >> CITATION.cff
+          echo "    affiliation: \"Institute of Geography, University of Bern, Switzerland\"" >> CITATION.cff
+          echo "    email: \"78535538+lbatschelet@users.noreply.github.com\"" >> CITATION.cff
+          echo "  - family-names: \"Mohaupt\"" >> CITATION.cff
+          echo "    given-names: \"Florian\"" >> CITATION.cff
+          echo "    affiliation: \"Institute of Geography, University of Bern, Switzerland\"" >> CITATION.cff
+          echo "  - family-names: \"Röthlisberger\"" >> CITATION.cff
+          echo "    given-names: \"Stefanie\"" >> CITATION.cff
+          echo "    affiliation: \"Institute of Geography, University of Bern, Switzerland\"" >> CITATION.cff
+          echo "" >> CITATION.cff
+          echo "keywords:" >> CITATION.cff
+          echo "  - \"DEM\"" >> CITATION.cff
+          echo "  - \"Surface Roughness\"" >> CITATION.cff
+          echo "  - \"Geography\"" >> CITATION.cff
+          echo "  - \"Topography\"" >> CITATION.cff
+          echo "  - \"Python\"" >> CITATION.cff
+          echo "  - \"Geospatial\"" >> CITATION.cff
+          echo "  - \"Remote Sensing\"" >> CITATION.cff
+          echo "  - \"Digital Elevation Model\"" >> CITATION.cff
+          echo "  - \"Geocomputation\"" >> CITATION.cff
+          echo "" >> CITATION.cff
+          echo "repository-code: \"https://github.com/lbatschelet/dem-roughness-calculator\"" >> CITATION.cff
+          echo "license: \"MIT License\"" >> CITATION.cff
+
+      - name: Build package
+        run: |
+          python setup.py sdist bdist_wheel
+
+      - name: Check build
+        run: |
+          if [ -z "$(ls -A dist)" ]; then
+            echo "Build failed"
+            exit 1
+          fi
+
+      - name: Publish package
+        env:
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
+        run: |
+          twine upload dist/*
