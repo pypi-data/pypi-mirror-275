@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: makepyz
+Version: 0.0.0
+Summary: a new kind of make tool
+Author-email: Antonio Cavallo <a.cavallo@cavallinux.eu>
+License: MIT
+Project-URL: Issues, https://github.com/cav71/makepyz/issues
+Project-URL: Source, https://github.com/cav71/makepyz
+Keywords: git,scm,version
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: typing-extensions
+Requires-Dist: jinja2
+
+# makepyz - the makefile alternative
+

@@ -1,0 +1,2 @@
+[console_scripts]
+makepyz = makepyz.scripts.makepyzui:main
