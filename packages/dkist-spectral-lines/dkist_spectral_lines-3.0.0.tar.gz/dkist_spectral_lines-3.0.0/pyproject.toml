@@ -1,0 +1,140 @@
+[build-system]
+
+requires = [
+    "setuptools>=62.1",
+    "setuptools_scm[toml]>=6.2",
+]
+
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "dkist-spectral-lines"
+description = "Spectral line metadata for the DKIST suite of instruments."
+readme = "README.rst"
+requires-python = ">=3.11"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+]
+license = { text = "MIT" }
+authors = [
+  { name = "NSO / AURA", email = "dkistdc@nso.edu" },
+]
+
+dependencies = [
+    "pydantic>2.0",
+    "astropy>5.1.0",
+]
+dynamic = ["version"]
+
+# tox is not required to run the tests, but simplifies IDE integration
+# Pygments is solely to support README.rst rendering
+[project.optional-dependencies]
+test = [
+    "tox>=4",
+    "pytest",
+    "pytest-cov",
+    "pytest-mock",
+    "towncrier",
+    "Pygments",
+    "PyPDF4",
+]
+docs = [
+    "sphinx",
+    "sphinx-astropy",
+    "sphinx-changelog",
+    "sphinx-autoapi",
+    "pytest",
+    "towncrier",
+    "dkist-sphinx-theme"
+]
+
+
+[project.urls]
+repository = "https://docs.dkist.nso.edu/projects/spectral-lines"
+documentation = "https://docs.dkist.nso.edu/projects/spectral-lines"
+
+[tool.setuptools]
+zip-safe = false
+include-package-data = true
+
+[tool.setuptools.packages.find]
+
+[tool.setuptools.package-data]
+# include .ttf files from any directory
+"*" = ["*.ttf"]
+
+[tool.setuptools_scm]
+write_to = "dkist_spectral_lines/_version.py"
+
+[tool.pytest.ini_options]
+testpaths = [
+  "dkist_spectral_lines",
+]
+markers = [
+  "development: For tests that can only be  run while developing with a sidecar proxy (as opposed to in bitbucket pipelines)"
+]
+filterwarnings = [
+    "ignore: The wavelength provided does not indicate a unit*"
+]
+
+[tool.coverage.run]
+omit = [
+ "dkist_spectral_lines/__init*",
+ "dkist_spectral_lines/conftest.py",
+ "dkist_spectral_lines/*setup_package*",
+ "dkist_spectral_lines/tests/*",
+ "dkist_spectral_lines/*/tests/*",
+ "dkist_spectral_lines/extern/*",
+ "dkist_spectral_lines/version*",
+ "*/dkist_spectral_lines/__init*",
+ "*/dkist_spectral_lines/conftest.py",
+ "*/dkist_spectral_lines/*setup_package*",
+ "*/dkist_spectral_lines/tests/*",
+ "*/dkist_spectral_lines/*/tests/*",
+ "*/dkist_spectral_lines/extern/*",
+ "*/dkist_spectral_lines/version*",
+ "*/dkist_spectral_lines/_version*",
+]
+
+[tool.sphinx]
+source-dir = "docs"
+build-dir = "docs/_build"
+all_files = true
+
+[tool.upload_docs]
+upload-dir = "docs/_build/html"
+show-response = true
+
+[tool.towncrier]
+    package = "dkist_spectral_lines"
+    filename = "CHANGELOG.rst"
+    directory = "changelog/"
+    issue_format = "`#{issue} <https://bitbucket.org/dkistdc/dkist-spectral-lines/pull-requests/{issue}>`__"
+    title_format = "{version} ({project_date})"
+
+[[tool.towncrier.type]]
+      directory = "feature"
+      name = "Features"
+      showcontent = true
+
+[[tool.towncrier.type]]
+      directory = "bugfix"
+      name = "Bugfixes"
+      showcontent = true
+
+[[tool.towncrier.type]]
+      directory = "removal"
+      name = "Removals"
+      showcontent = true
+
+[[tool.towncrier.type]]
+      directory = "misc"
+      name = "Misc"
+      showcontent = true
+
+[[tool.towncrier.type]]
+      directory = "doc"
+      name = "Documentation"
+      showcontent = true
