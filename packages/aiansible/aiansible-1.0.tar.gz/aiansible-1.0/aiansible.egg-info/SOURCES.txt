@@ -1,0 +1,10 @@
+README.md
+setup.py
+aiansible.egg-info/PKG-INFO
+aiansible.egg-info/SOURCES.txt
+aiansible.egg-info/dependency_links.txt
+aiansible.egg-info/top_level.txt
+plugins/__init__.py
+plugins/aiansible.py
+scripts/__init__.py
+scripts/post_install.py
