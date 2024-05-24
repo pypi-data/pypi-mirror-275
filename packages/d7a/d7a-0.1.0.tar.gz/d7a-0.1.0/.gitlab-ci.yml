@@ -1,0 +1,102 @@
+include:
+  - project: aloxy/ci-templates
+    file:
+      - /all.yaml
+    ref: 4.2.1
+
+variables:
+  GIT_STRATEGY: clone
+  GIT_SUBMODULE_STRATEGY: recursive
+  GIT_DEPTH: 1
+  GIT_SUBMODULE_DEPTH: 1
+
+stages:
+  - init
+  - test
+  - publish
+
+cache:
+  key: $CI_COMMIT_REF_SLUG
+  paths:
+    - .pytest_cache
+    - .ruff_cache
+    - .venv
+
+init:
+   stage: init
+   extends:
+     - .embedded
+   before_script:
+     - mise install
+     - rye sync --no-lock
+   script:
+     # Can not be empty
+     - echo
+
+lint:renovate:
+  stage: test
+  extends:
+    - .lint:renovate
+
+lint:
+  stage: test
+  extends:
+    - init
+  script:
+    - rye lint -- --respect-gitignore --force-exclude
+    - rye format --check -- --respect-gitignore --force-exclude
+  allow_failure:
+    exit_codes:
+      - 1
+
+test:
+  stage: test
+  extends:
+    - init
+  script:
+    - rye run cov
+  coverage: '/(?i)total.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/'
+  artifacts:
+    when: always
+    paths:
+      - test-report.xml
+      - test-report.html
+      - coverage.xml
+      - coverage
+    expose_as: coverage
+    reports:
+      junit: test-report.xml
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
+
+test:type-check:
+  extends:
+    - init
+  stage: test
+  script:
+   - rye run pyright --outputjson > report_raw.json
+  after_script:
+   - pyright-to-gitlab-ci --src report_raw.json --output report.json --base_path .
+  artifacts:
+    paths:
+      - report.json
+    reports:
+      codequality: report.json
+  allow_failure:
+    exit_codes:
+      - 1
+      - 4
+
+publish:
+  stage: publish
+  extends:
+    - init
+  when: on_success
+  script:
+    - rye build
+    - rye publish --yes --repository gitlab --repository-url ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi --username gitlab-ci-token --token ${CI_JOB_TOKEN}
+  only:
+    - tags
+  except:
+    - branches
