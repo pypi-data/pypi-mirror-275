@@ -1,0 +1,251 @@
+Index: LICENSE
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>MIT License\r\n\r\nCopyright (c) 2024 Vox Quietam\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/LICENSE b/LICENSE
+--- a/LICENSE	(revision 0187c7bf7fda89cf7bbb437d49660a71bf6d7650)
++++ b/LICENSE	(date 1716478415729)
+@@ -1,6 +1,6 @@
+ MIT License
+ 
+-Copyright (c) 2024 Vox Quietam
++Copyright (c) 2024 Kateryna Levashova
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+new file mode 100644
+--- /dev/null	(date 1716479081724)
++++ b/README.md	(date 1716479081724)
+@@ -0,0 +1,35 @@
++# request-api-builder
++Request builder for quick testing API
++
++## Use
++ 1. Import RequestBuilder
++```python
++from request_builder import RequestBuilder
++```
++2. Set cookie and base url
++```python
++BuildRequests.set_cookie(cookie)
++BuildRequests.set_base_url(base_url)
++```
++3. Create request
++```python
++# GET
++request_get = RequestBuilder(
++    method='get',
++    url_template='https://test.com/{id}/another/{another_id}',
++    id='123',
++    another_id='456',
++    query_param_1='value1',
++    query_param_2='value2',
++)
++# POST
++request_post = RequestBuilder(
++    method='post',
++    url_template='https://test.com/{id}/another/{another_id}',
++    data={},
++    id='123',
++    another_id='456',
++    query_param_1='value1',
++    query_param_2='value2',
++)
++```
+\ No newline at end of file
+Index: src/request-api-builder/main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/request-api-builder/main.py b/src/request-api-builder/main.py
+new file mode 100644
+--- /dev/null	(date 1716480754734)
++++ b/src/request-api-builder/main.py	(date 1716480754734)
+@@ -0,0 +1,47 @@
++import requests
++
++
++class BuildRequests:
++    cookie = None
++    base_url = None
++
++    @classmethod
++    def set_cookie(cls, cookie):
++        cls.cookie = cookie
++
++    @classmethod
++    def set_base_url(cls, base_url):
++        cls.base_url = base_url
++
++    @classmethod
++    def get_request(cls, url_template, params=None,  **url_params):
++        url = cls.base_url + url_template.format(**url_params)
++        response = requests.get(
++            url,
++            headers={"Cookie": cls.cookie},
++            params=params,
++        )
++        return response
++
++    @classmethod
++    def post_request(cls, url_template, data=None, **url_params):
++        url = cls.base_url + url_template.format(**url_params)
++        response = requests.post(
++            url,
++            headers={"Cookie": cls.cookie},
++            data=data,
++        )
++        return response
++
++
++def build_request(method, url_template, data=None, **kwargs):
++    br = BuildRequests()
++    url_params = {k: v for k, v in kwargs.items() if '{' + k + '}' in url_template}
++    query_params = {k: v for k, v in kwargs.items() if '{' + k + '}' not in url_template}
++
++    if method.lower() == 'get':
++        return br.get_request(url_template, params=query_params, **url_params)
++    elif method.lower() == 'post':
++        return br.post_request(url_template, data=data, **url_params)
++    else:
++        raise ValueError("Invalid method. Use 'get' or 'post'.")
+Index: setup.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/setup.py b/setup.py
+new file mode 100644
+--- /dev/null	(date 1716480760161)
++++ b/setup.py	(date 1716480760161)
+@@ -0,0 +1,8 @@
++from setuptools import setup
++
++__version__ = "0.0.0"
++
++setup(
++    name="request-api-builder",
++    version=__version__,
++)
+Index: pyproject.toml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pyproject.toml b/pyproject.toml
+new file mode 100644
+--- /dev/null	(date 1716480760167)
++++ b/pyproject.toml	(date 1716480760167)
+@@ -0,0 +1,53 @@
++[project]
++name = "request-api-builder"
++version = "0.0.0"
++authors = [
++ { name="Kateryna Levashova", email="voxquietam.md@gmail.com" },
++]
++description = "Request API builder for testing API"
++readme = "README.md"
++requires-python = ">=3.10.0"
++classifiers = [
++   "Programming Language :: Python :: 3",
++   "License :: OSI Approved :: MIT License",
++   "Operating System :: OS Independent",
++]
++
++
++[tool.black]
++line-length = 80
++multi_line_output = 3
++include-trailing-comma = true
++target-version = ['py311']
++extend-exclude = '''
++/(
++    \.git
++  | \.github
++  | \.idea
++  | \.venv
++)/
++'''
++[tool.isort]
++profile = "black"
++line_length = 80
++force_sort_within_sections = true
++atomic = true
++
++[tool.semantic_release]
++changelog_file = "CHANGELOG.md"
++match = "(master)"
++prerelease = false
++version_variables = ["setup.py:__version__"]
++commit_subject = "chore(release): bump request-api-builder to version {version}"
++commit_author = "Kateryna Levashova <voxquietam.md@gmail.com>"
++
++[tool.mypy]
++python_version = "3.12"
++show_error_codes = true
++warn_return_any = false
++pretty = true
++follow_imports = 'silent'
++
++[build-system]
++requires = ["hatchling"]
++build-backend = "hatchling.build"
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Byte-compiled / optimized / DLL files\r\n__pycache__/\r\n*.py[cod]\r\n*$py.class\r\n\r\n# C extensions\r\n*.so\r\n\r\n# Distribution / packaging\r\n.Python\r\nbuild/\r\ndevelop-eggs/\r\ndist/\r\ndownloads/\r\neggs/\r\n.eggs/\r\nlib/\r\nlib64/\r\nparts/\r\nsdist/\r\nvar/\r\nwheels/\r\nshare/python-wheels/\r\n*.egg-info/\r\n.installed.cfg\r\n*.egg\r\nMANIFEST\r\n\r\n# PyInstaller\r\n#  Usually these files are written by a python script from a template\r\n#  before PyInstaller builds the exe, so as to inject date/other infos into it.\r\n*.manifest\r\n*.spec\r\n\r\n# Installer logs\r\npip-log.txt\r\npip-delete-this-directory.txt\r\n\r\n# Unit test / coverage reports\r\nhtmlcov/\r\n.tox/\r\n.nox/\r\n.coverage\r\n.coverage.*\r\n.cache\r\nnosetests.xml\r\ncoverage.xml\r\n*.cover\r\n*.py,cover\r\n.hypothesis/\r\n.pytest_cache/\r\ncover/\r\n\r\n# Translations\r\n*.mo\r\n*.pot\r\n\r\n# Django stuff:\r\n*.log\r\nlocal_settings.py\r\ndb.sqlite3\r\ndb.sqlite3-journal\r\n\r\n# Flask stuff:\r\ninstance/\r\n.webassets-cache\r\n\r\n# Scrapy stuff:\r\n.scrapy\r\n\r\n# Sphinx documentation\r\ndocs/_build/\r\n\r\n# PyBuilder\r\n.pybuilder/\r\ntarget/\r\n\r\n# Jupyter Notebook\r\n.ipynb_checkpoints\r\n\r\n# IPython\r\nprofile_default/\r\nipython_config.py\r\n\r\n# pyenv\r\n#   For a library or package, you might want to ignore these files since the code is\r\n#   intended to run in multiple environments; otherwise, check them in:\r\n# .python-version\r\n\r\n# pipenv\r\n#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.\r\n#   However, in case of collaboration, if having platform-specific dependencies or dependencies\r\n#   having no cross-platform support, pipenv may install dependencies that don't work, or not\r\n#   install all needed dependencies.\r\n#Pipfile.lock\r\n\r\n# poetry\r\n#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.\r\n#   This is especially recommended for binary packages to ensure reproducibility, and is more\r\n#   commonly ignored for libraries.\r\n#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control\r\n#poetry.lock\r\n\r\n# pdm\r\n#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.\r\n#pdm.lock\r\n#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it\r\n#   in version control.\r\n#   https://pdm.fming.dev/#use-with-ide\r\n.pdm.toml\r\n\r\n# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm\r\n__pypackages__/\r\n\r\n# Celery stuff\r\ncelerybeat-schedule\r\ncelerybeat.pid\r\n\r\n# SageMath parsed files\r\n*.sage.py\r\n\r\n# Environments\r\n.env\r\n.venv\r\nenv/\r\nvenv/\r\nENV/\r\nenv.bak/\r\nvenv.bak/\r\n\r\n# Spyder project settings\r\n.spyderproject\r\n.spyproject\r\n\r\n# Rope project settings\r\n.ropeproject\r\n\r\n# mkdocs documentation\r\n/site\r\n\r\n# mypy\r\n.mypy_cache/\r\n.dmypy.json\r\ndmypy.json\r\n\r\n# Pyre type checker\r\n.pyre/\r\n\r\n# pytype static type analyzer\r\n.pytype/\r\n\r\n# Cython debug symbols\r\ncython_debug/\r\n\r\n# PyCharm\r\n#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can\r\n#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore\r\n#  and can be added to the global gitignore or merged into this file.  For a more nuclear\r\n#  option (not recommended) you can uncomment the following to ignore the entire idea folder.\r\n#.idea/\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	(revision 0187c7bf7fda89cf7bbb437d49660a71bf6d7650)
++++ b/.gitignore	(date 1716478685650)
+@@ -1,3 +1,5 @@
++.idea/
++
+ # Byte-compiled / optimized / DLL files
+ __pycache__/
+ *.py[cod]
+Index: CHANGELOG.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+new file mode 100644
+--- /dev/null	(date 1716480754733)
++++ b/CHANGELOG.md	(date 1716480754733)
+@@ -0,0 +1,21 @@
++# CHANGELOG
++
++
++
++## v0.1.0 (2024-05-23)
++
++### Feature
++
++* feat(readme): add README.md ([`d5f36c9`](https://github.com/EkaterinaLevashova/request-api-builder/commit/d5f36c905e9175367e4042a8e558c7b0b98abf0c))
++
++* feat(conf): add setup.py ([`244ff50`](https://github.com/EkaterinaLevashova/request-api-builder/commit/244ff50d2ea43df701bacf4e1f83ff3ac69fbe67))
++
++* feat(conf): add pyproject.toml ([`533f574`](https://github.com/EkaterinaLevashova/request-api-builder/commit/533f5745dca0d2f0e48a3a71668ee9ce235d6e88))
++
++### Unknown
++
++* update(license): change Copyright name ([`7e679b1`](https://github.com/EkaterinaLevashova/request-api-builder/commit/7e679b19a0c7a5e73c57c4f979ab423208dc8118))
++
++* update(git): add idea to .gitignore ([`1ba392d`](https://github.com/EkaterinaLevashova/request-api-builder/commit/1ba392dd472dbd6249817ecf0a0e984117ae348a))
++
++* Initial commit ([`0187c7b`](https://github.com/EkaterinaLevashova/request-api-builder/commit/0187c7bf7fda89cf7bbb437d49660a71bf6d7650))
+diff --git a/src/request-api-builder/__init__.py b/src/request-api-builder/__init__.py
+new file mode 100644

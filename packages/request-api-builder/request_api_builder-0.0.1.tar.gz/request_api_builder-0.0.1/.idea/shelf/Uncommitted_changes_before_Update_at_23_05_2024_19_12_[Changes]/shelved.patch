@@ -1,0 +1,135 @@
+Index: setup.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from setuptools import setup\r\n\r\n__version__ = \"0.2.0\"\r\n\r\nsetup(\r\n    name=\"request-api-builder\",\r\n    version=__version__,\r\n)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/setup.py b/setup.py
+--- a/setup.py	(revision d5f36c905e9175367e4042a8e558c7b0b98abf0c)
++++ b/setup.py	(date 1716479144866)
+@@ -1,6 +1,6 @@
+ from setuptools import setup
+ 
+-__version__ = "0.2.0"
++__version__ = "0.0.0"
+ 
+ setup(
+     name="request-api-builder",
+Index: pyproject.toml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[project]\r\nname = \"request-api-builder\"\r\nversion = \"0.0.1\"\r\nauthors = [\r\n { name=\"Kateryna Levashova\", email=\"voxquietam.md@gmail.com\" },\r\n]\r\ndescription = \"Request API builder for testing API\"\r\nreadme = \"README.md\"\r\nrequires-python = \">=3.10.0\"\r\nclassifiers = [\r\n   \"Programming Language :: Python :: 3\",\r\n   \"License :: OSI Approved :: MIT License\",\r\n   \"Operating System :: OS Independent\",\r\n]\r\n\r\n\r\n[tool.black]\r\nline-length = 80\r\nmulti_line_output = 3\r\ninclude-trailing-comma = true\r\ntarget-version = ['py311']\r\nextend-exclude = '''\r\n/(\r\n    \\.git\r\n  | \\.github\r\n  | \\.idea\r\n  | \\.venv\r\n)/\r\n'''\r\n[tool.isort]\r\nprofile = \"black\"\r\nline_length = 80\r\nforce_sort_within_sections = true\r\natomic = true\r\n\r\n[tool.semantic_release]\r\nchangelog_file = \"CHANGELOG.md\"\r\nmatch = \"(master)\"\r\nprerelease = false\r\nversion_variable = \"setup.py:__version__\"\r\ncommit_subject = \"chore(release): bump request-api-builder to version {version}\"\r\ncommit_author = \"Kateryna Levashova <voxquietam.md@gmail.com>\"\r\n\r\n[tool.mypy]\r\npython_version = \"3.12\"\r\nshow_error_codes = true\r\nwarn_return_any = false\r\npretty = true\r\nfollow_imports = 'silent'\r\n\r\n[build-system]\r\nrequires = [\"hatchling\"]\r\nbuild-backend = \"hatchling.build\"\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pyproject.toml b/pyproject.toml
+--- a/pyproject.toml	(revision d5f36c905e9175367e4042a8e558c7b0b98abf0c)
++++ b/pyproject.toml	(date 1716480594021)
+@@ -1,6 +1,6 @@
+ [project]
+ name = "request-api-builder"
+-version = "0.0.1"
++version = "0.0.0"
+ authors = [
+  { name="Kateryna Levashova", email="voxquietam.md@gmail.com" },
+ ]
+@@ -37,7 +37,7 @@
+ changelog_file = "CHANGELOG.md"
+ match = "(master)"
+ prerelease = false
+-version_variable = "setup.py:__version__"
++version_variables = ["setup.py:__version__"]
+ commit_subject = "chore(release): bump request-api-builder to version {version}"
+ commit_author = "Kateryna Levashova <voxquietam.md@gmail.com>"
+ 
+Index: src/request-api-builder/main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/request-api-builder/main.py b/src/request-api-builder/main.py
+new file mode 100644
+--- /dev/null	(date 1716479090132)
++++ b/src/request-api-builder/main.py	(date 1716479090132)
+@@ -0,0 +1,47 @@
++import requests
++
++
++class BuildRequests:
++    cookie = None
++    base_url = None
++
++    @classmethod
++    def set_cookie(cls, cookie):
++        cls.cookie = cookie
++
++    @classmethod
++    def set_base_url(cls, base_url):
++        cls.base_url = base_url
++
++    @classmethod
++    def get_request(cls, url_template, params=None,  **url_params):
++        url = cls.base_url + url_template.format(**url_params)
++        response = requests.get(
++            url,
++            headers={"Cookie": cls.cookie},
++            params=params,
++        )
++        return response
++
++    @classmethod
++    def post_request(cls, url_template, data=None, **url_params):
++        url = cls.base_url + url_template.format(**url_params)
++        response = requests.post(
++            url,
++            headers={"Cookie": cls.cookie},
++            data=data,
++        )
++        return response
++
++
++def build_request(method, url_template, data=None, **kwargs):
++    br = BuildRequests()
++    url_params = {k: v for k, v in kwargs.items() if '{' + k + '}' in url_template}
++    query_params = {k: v for k, v in kwargs.items() if '{' + k + '}' not in url_template}
++
++    if method.lower() == 'get':
++        return br.get_request(url_template, params=query_params, **url_params)
++    elif method.lower() == 'post':
++        return br.post_request(url_template, data=data, **url_params)
++    else:
++        raise ValueError("Invalid method. Use 'get' or 'post'.")
+Index: CHANGELOG.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+new file mode 100644
+--- /dev/null	(date 1716480149754)
++++ b/CHANGELOG.md	(date 1716480149754)
+@@ -0,0 +1,21 @@
++# CHANGELOG
++
++
++
++## v0.1.0 (2024-05-23)
++
++### Feature
++
++* feat(readme): add README.md ([`d5f36c9`](https://github.com/EkaterinaLevashova/request-api-builder/commit/d5f36c905e9175367e4042a8e558c7b0b98abf0c))
++
++* feat(conf): add setup.py ([`244ff50`](https://github.com/EkaterinaLevashova/request-api-builder/commit/244ff50d2ea43df701bacf4e1f83ff3ac69fbe67))
++
++* feat(conf): add pyproject.toml ([`533f574`](https://github.com/EkaterinaLevashova/request-api-builder/commit/533f5745dca0d2f0e48a3a71668ee9ce235d6e88))
++
++### Unknown
++
++* update(license): change Copyright name ([`7e679b1`](https://github.com/EkaterinaLevashova/request-api-builder/commit/7e679b19a0c7a5e73c57c4f979ab423208dc8118))
++
++* update(git): add idea to .gitignore ([`1ba392d`](https://github.com/EkaterinaLevashova/request-api-builder/commit/1ba392dd472dbd6249817ecf0a0e984117ae348a))
++
++* Initial commit ([`0187c7b`](https://github.com/EkaterinaLevashova/request-api-builder/commit/0187c7bf7fda89cf7bbb437d49660a71bf6d7650))
+diff --git a/src/request-api-builder/__init__.py b/src/request-api-builder/__init__.py
+new file mode 100644
