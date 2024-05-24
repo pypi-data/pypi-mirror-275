@@ -1,0 +1,10 @@
+openai
+pyyaml
+numpy
+flask
+pyaudio
+opencv-python-headless
+SpeechRecognition
+jiwer
+moviepy
+libem
