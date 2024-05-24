@@ -1,0 +1,132 @@
+[project]
+name = "addemongo"
+description = "Private mongo repository for Addebitare company"
+dependencies = [
+    "pymongo>=4.7.1",
+    "motor>=3.4.0",
+    "pydantic>=2.0.0",
+    "motor-types>=1.0.0b4",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+authors = [
+    { name = "Gabriel Silva", email = "gabrieltkdnobrega63@gmail.com" },
+    { name = "Victor Gabriel", email = "victordeonroyale@gmail.com" },
+]
+maintainers = [
+    { name = "Gabriel Silva", email = "gabrieltkdnobrega63@gmail.com" },
+    { name = "Victor Gabriel", email = "victordeonroyale@gmail.com" },
+]
+dynamic = []
+version = "0.0.17"
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+Company = "https://addebitare.com.br"
+Repository = "https://github.com/biellSilva/addemongo.git"
+Changelog = "https://github.com/biellSilva/addemongo/blob/main/CHANGELOG.md"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.version]
+source = "file"
+path = "src/addemongo/__version__.py"
+
+[tool.pdm.scripts]
+test = "pytest"
+test-watch = "ptw"
+ruff = "ruff check"
+fragment = "python scripts/fragment"
+release = "python scripts/release"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest-watch>=4.2.0",
+    "pytest>=8.2.0",
+    "motor-types>=1.0.0b4",
+    "pytest-asyncio>=0.23.6",
+    "python-dotenv>=1.0.1",
+    "mypy>=1.10.0",
+    "pre-commit>=3.7.0",
+    "towncrier>=23.11.0",
+    "autoflake>=2.3.1",
+    "flake8>=7.0.0",
+    "ruff>=0.4.3",
+    "isort>=5.13.2",
+    "rich>=13.7.1",
+    "parver>=0.5",
+    "twine>=5.0.0",
+]
+
+[tool.towncrier]
+package = "addemongo"
+filename = "CHANGELOG.md"
+directory = "news/"
+title_format = "## Release v{version} ({project_date})"
+type = [
+    { directory = "perf", name = "Performance Changes", showcontent = true },
+    { directory = "feat", name = "Features & Improvements", showcontent = true },
+    { directory = "fix", name = "Bug Fixes", showcontent = true },
+    { directory = "docs", name = "Documentation", showcontent = true },
+    { directory = "chore", name = "Dependencies", showcontent = true },
+    { directory = "style", name = "Miscellany", showcontent = true },
+    { directory = "refactor", name = "Refactorings", showcontent = true },
+    { directory = "revert", name = "Reverts", showcontent = true },
+    { directory = "test", name = "Tests", showcontent = true },
+]
+
+[tool.pytest.ini_options]
+console_output_style = "progress"
+testpaths = [
+    "tests",
+]
+python_classes = [
+    "*Suite",
+]
+python_files = [
+    "test_*.py",
+]
+python_functions = [
+    "test_*",
+]
+
+[tool.ruff]
+src = [
+    "src",
+]
+fix = true
+show-fixes = true
+line-length = 88
+indent-width = 4
+exclude = [
+    "__pycache__",
+    "__pypackages__",
+]
+
+[tool.ruff.lint]
+fixable = [
+    "ALL",
+]
+
+[tool.ruff.lint.isort]
+length-sort = true
+no-lines-before = [
+    "future",
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = true
+line-ending = "auto"
+docstring-code-format = true
+docstring-code-line-length = 88
