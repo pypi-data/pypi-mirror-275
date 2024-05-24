@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: curelyai
+Version: 0.1.0
+Summary: A Python client for Curely AI API
+Home-page: https://github.com/curelyai/curelyai_python_package
+Author: Curely Ai
+Author-email: curelyai@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# CurelyAI
+
+A Python client for Curely AI API.
+
+## Installation
+
+```bash
+pip install curelyai
+
+from curelyai.chat import CurelyAIChat
+
+# Initialize the chat client with your bot key
+chat_client = CurelyAIChat(bot_key="your_bot_key")
+
+# Send a message and print the response
+response = chat_client.chat("Hello, how are you?")
+print(response)

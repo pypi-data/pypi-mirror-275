@@ -1,0 +1,9 @@
+curelyai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+curelyai/chat.py,sha256=9DGhvIEK-xvAIepw4rxLPngpxbOyN8sdxxgV6dIT5Rw,957
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_chat.py,sha256=J5r1eJK5ICvTy3s_fD8fMhUGxtHth00u_ficjD1mVrQ,442
+curelyai-0.1.0.dist-info/LICENSE,sha256=_PeoOf0tIw9OjivCODKX8KakKPKeEkVEfm8dmkJZM2w,1087
+curelyai-0.1.0.dist-info/METADATA,sha256=AYBTUkbBpsFcYvxVrz7y6KVkDKflxYxF_Sjdl6hv1yY,838
+curelyai-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+curelyai-0.1.0.dist-info/top_level.txt,sha256=yC3BdFVifi5tagzw_bE11hpDpO2HHl0jUl-XmfA5Og0,15
+curelyai-0.1.0.dist-info/RECORD,,
