@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+autodistill_distilbert/__init__.py
+autodistill_distilbert/model.py
+autodistill_distilbert.egg-info/PKG-INFO
+autodistill_distilbert.egg-info/SOURCES.txt
+autodistill_distilbert.egg-info/dependency_links.txt
+autodistill_distilbert.egg-info/requires.txt
+autodistill_distilbert.egg-info/top_level.txt
