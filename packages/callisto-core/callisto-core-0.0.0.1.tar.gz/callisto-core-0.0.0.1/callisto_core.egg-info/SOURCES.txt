@@ -1,0 +1,7 @@
+README.md
+setup.py
+callisto-core/__init__.py
+callisto_core.egg-info/PKG-INFO
+callisto_core.egg-info/SOURCES.txt
+callisto_core.egg-info/dependency_links.txt
+callisto_core.egg-info/top_level.txt
