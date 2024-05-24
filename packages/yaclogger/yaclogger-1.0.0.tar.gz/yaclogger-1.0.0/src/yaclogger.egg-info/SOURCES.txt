@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+src/yaclogger/__init__.py
+src/yaclogger/yaclogger.py
+src/yaclogger.egg-info/PKG-INFO
+src/yaclogger.egg-info/SOURCES.txt
+src/yaclogger.egg-info/dependency_links.txt
+src/yaclogger.egg-info/requires.txt
+src/yaclogger.egg-info/top_level.txt
+tests/test_yetanothercolorfullogger.py

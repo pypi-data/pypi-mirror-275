@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yaclogger"
+version = "1.0.0"
+description = "Yet Another Colorful Logger is just another logging utility that adds color to your console log messages."
+license = {file = "LICENSE"}
+dynamic = ["dependencies"]
+readme = "README.md"
+authors = [
+  { name="Wagner Cotta", email="waacotta@gmail.com" },
+]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/wagnercotta/yaclogger"
+Issues = "https://github.com/wagnercotta/yaclogger/issues"
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
