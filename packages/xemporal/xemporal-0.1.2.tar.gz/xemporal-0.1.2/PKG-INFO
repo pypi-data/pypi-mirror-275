@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: xemporal
+Version: 0.1.2
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Xemporal
+
+1. wget https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
+
+## Setting up the runtime environment
+
+```bash
+brew install pipx
+sudo pipx --global ensurepath
+pipx install poetry
+pipx install -U pip setuptools
+poetry config virtualenvs.in-project true
+poetry config virtualenvs.prefer-active-python true
+```
+
+## Setting up the project
+
+```bash
+virtualenv .venv --python=python3.12
+poetry shell
+poetry install
+poetry build
+poetry run pytest
+```
