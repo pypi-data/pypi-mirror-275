@@ -1,0 +1,2 @@
+[console_scripts]
+oktmo-parser = oktmo_parser:main
