@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: aapp-runner
+Version: 0.11.0
+Summary: Pytroll runner for AAPP
+Home-page: https://github.com/pytroll/pytroll-aapp-runner
+Author: The Pytroll Team
+Author-email: pytroll@googlegroups.com
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+License-File: LICENSE
+
+pytroll-aapp-runner
+===================
+
+[![Build status](https://github.com/pytroll/pytroll-aapp-runner/workflows/CI/badge.svg?branch=main)](https://github.com/pytroll/pytroll-aapp-runner/workflows/CI/badge.svg?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/pytroll/pytroll-aapp-runner/badge.svg?branch=main)](https://coveralls.io/github/pytroll/pytroll-aapp-runner?branch=main)
+
+
+A pytroll runner supporting real-time processing of Direct Readout or regional
+(RARS type) AVHRR and ATOVS data from level-0 to level-1 using the NWPSAF/AAPP
+package.
+

@@ -1,0 +1,12 @@
+language: python
+python:
+- '3.8'
+before_install:
+ - sudo apt-get install libhdf5-serial-dev
+install:
+- pip install .
+- pip install mock
+- pip install coveralls
+script:
+- pytest --cov=aapp_runner aapp_runner/tests
+after_success: coveralls
