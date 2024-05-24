@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: codee
+Version: 0.0.1
+Summary: Basic Utilities for Encoding and Decoding
+Home-page: https://github.com/Ezharjan/codee
+Author: Alexander Ezharjan
+Author-email: mysoft@111.com
+License: MIT
+Platform: linux
+Platform: windows
+Platform: macos
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# codee
+
+This is a very simple tool for encoding and decoding.
+
+Use it via commands inside the terminal.
+
+Use `pip install codee` to install this tool.
+
+Use `codee -h` to see the utilities of this tool.
