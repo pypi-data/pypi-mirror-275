@@ -1,0 +1,7 @@
+README.md
+setup.py
+bdrk/__init__.py
+bdrk.egg-info/PKG-INFO
+bdrk.egg-info/SOURCES.txt
+bdrk.egg-info/dependency_links.txt
+bdrk.egg-info/top_level.txt
