@@ -1,0 +1,2 @@
+[console_scripts]
+dcontrs = dcontrs.__main__:main
