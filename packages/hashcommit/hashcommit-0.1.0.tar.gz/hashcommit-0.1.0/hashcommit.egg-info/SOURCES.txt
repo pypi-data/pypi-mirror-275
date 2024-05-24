@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+hashcommit/__init__.py
+hashcommit/main.py
+hashcommit.egg-info/PKG-INFO
+hashcommit.egg-info/SOURCES.txt
+hashcommit.egg-info/dependency_links.txt
+hashcommit.egg-info/entry_points.txt
+hashcommit.egg-info/top_level.txt
