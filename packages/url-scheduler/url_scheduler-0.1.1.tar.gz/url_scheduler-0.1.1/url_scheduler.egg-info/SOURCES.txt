@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+url_scheduler.egg-info/PKG-INFO
+url_scheduler.egg-info/SOURCES.txt
+url_scheduler.egg-info/dependency_links.txt
+url_scheduler.egg-info/entry_points.txt
+url_scheduler.egg-info/top_level.txt
