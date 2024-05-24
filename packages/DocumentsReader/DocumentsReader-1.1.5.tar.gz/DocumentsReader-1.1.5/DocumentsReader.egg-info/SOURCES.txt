@@ -1,0 +1,11 @@
+README.md
+setup.py
+DocumentsReader/DocumentReader.py
+DocumentsReader/__init__.py
+DocumentsReader/helper.py
+DocumentsReader.egg-info/PKG-INFO
+DocumentsReader.egg-info/SOURCES.txt
+DocumentsReader.egg-info/dependency_links.txt
+DocumentsReader.egg-info/requires.txt
+DocumentsReader.egg-info/top_level.txt
+DocumentsReader/data/DejaVuSans.ttf
