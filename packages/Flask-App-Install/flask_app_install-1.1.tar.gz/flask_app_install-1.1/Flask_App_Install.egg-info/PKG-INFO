@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: Flask_App_Install
+Version: 1.1
+Summary: Sets up a basic Flask App with Javascipt Functionality
+Author: kunaalg
+Author-email: <kunaal@runcode.in>
+Keywords: python,Flask,App,Javascript,Function,math
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: datetime
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: numpy
+Requires-Dist: flask
+Requires-Dist: virtualenv
+
+
+Install the Package:
+
+Create a file called start.py
+
+from src.app import app
+import app
+
+Call the create_app() function
+
+Add and update the HTML files in templates folder & JS files in static folders as required
+
+Add links to other HTML pages and access them...
+
