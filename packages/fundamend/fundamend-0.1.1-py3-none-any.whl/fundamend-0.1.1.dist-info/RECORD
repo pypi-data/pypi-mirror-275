@@ -1,0 +1,11 @@
+_fundamend_version.py,sha256=I4WU5JcKZjfggPiNIoGDFxUDB05Ym1xFhbC3J_MjilA,18
+fundamend/__init__.py,sha256=2zSvWoIXtVJqA4LYsMTWySTpvSnjK4ZsfXEKLcVzajs,254
+fundamend/py.typed,sha256=ZvYa-_QF7Xg7F6Dow8m1zHvSP6kNHuhh3BEBVxjAdUQ,168
+fundamend/models/__init__.py,sha256=k8012p5xjAdJgnzlfobKJJq726CvTXPF3Xzp1UPxqKU,166
+fundamend/models/messageimplementationguide.py,sha256=fPTYYL_6cTHyWEicLnO7AZ9IYA0vNYoSauS4e7rDKOw,7599
+fundamend/reader/__init__.py,sha256=X-Zb__09cqYXm1JOyASRIwpnEXkm_fFcR-hgRlUK27c,99
+fundamend/reader/migreader.py,sha256=R7nBV7s_hYa7sjSq2-082_8cHXYjxIYUWtAWS4Pmcpc,7492
+fundamend-0.1.1.dist-info/METADATA,sha256=NKrTjk6DiHgDkzFpf0hHgy9goPs0P6N792g4vRTl96A,3600
+fundamend-0.1.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+fundamend-0.1.1.dist-info/licenses/LICENSE,sha256=04B920e2sAO59yFAclMRa8PIsOMJYVRH9L2vWBFyoFc,1095
+fundamend-0.1.1.dist-info/RECORD,,
