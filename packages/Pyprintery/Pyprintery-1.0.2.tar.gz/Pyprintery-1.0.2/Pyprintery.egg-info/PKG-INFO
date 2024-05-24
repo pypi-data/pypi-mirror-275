@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Pyprintery
+Version: 1.0.2
+Summary: Simulates a game window built by the terminal console, Simple word games can be developed, Third-party libraries that are more entertaining than useful, Suitable for Python beginners
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: 【Pyprinter】基于turtle库开发的 搭建模拟终端控制台窗口游戏库
+        【虚拟领域】游戏工作室开发   调整测试中【暂无详细说明文档】
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

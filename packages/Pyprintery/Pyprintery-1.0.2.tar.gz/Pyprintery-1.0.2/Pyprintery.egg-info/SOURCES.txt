@@ -1,0 +1,8 @@
+README.txt
+setup.py
+Pyprinter/Myprinter.py
+Pyprinter/__init__.py
+Pyprintery.egg-info/PKG-INFO
+Pyprintery.egg-info/SOURCES.txt
+Pyprintery.egg-info/dependency_links.txt
+Pyprintery.egg-info/top_level.txt
