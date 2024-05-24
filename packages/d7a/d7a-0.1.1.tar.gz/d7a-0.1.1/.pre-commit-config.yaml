@@ -1,0 +1,33 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+      - id: check-toml
+      - id: check-yaml
+  - repo: https://github.com/RobertCraigie/pyright-python
+    rev: v1.1.351
+    hooks:
+    - id: pyright
+      name: Type checks
+  - repo: local
+    hooks:
+    - id: rye-lint
+      name: Rye lint
+      description: "Run linter via Rye"
+      entry: rye lint --fix -- --unsafe-fixes --respect-gitignore --force-exclude
+      language: python
+      types_or: [python, pyi]
+      args: []
+      require_serial: true
+      additional_dependencies: []
+      minimum_pre_commit_version: "2.9.2"
+    - id: rye-format
+      name: Rye format
+      description: "Run formatter via Rye"
+      entry: rye format -- --respect-gitignore --force-exclude
+      language: python
+      types_or: [python, pyi]
+      args: []
+      require_serial: true
+      additional_dependencies: []
+      minimum_pre_commit_version: "2.9.2"

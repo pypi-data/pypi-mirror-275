@@ -1,0 +1,162 @@
+Metadata-Version: 2.3
+Name: d7a
+Version: 0.1.1
+Summary: Python Dash7 ALP library
+Author-email: Glenn Ergeerts <glenn.ergeerts@aloxy.io>, Liam Oorts <liam.oorts@aloxy.io>, Kwinten Schram <kwinten.schram@aloxy.io>, Dirk Van Haerenborgh <dirk.vanhaerenborgh@aloxy.io>, Bart Jonkers <bart.jonkers@aloxy.io>, Jolanta Tadla <jolanta.tadla@aloxy.io>
+License: Apache-2.0
+License-File: LICENSE
+Requires-Python: <4.0,>=3.8
+Requires-Dist: bitstring<4.0.0,>=3.1.7
+Requires-Dist: cerberus<2.0.0,>=1.3.5
+Requires-Dist: crcmod<2.0,>=1.7
+Requires-Dist: jsonpickle<4.0,>=3.0
+Provides-Extra: examples
+Requires-Dist: paho-mqtt<2.0.0,>=1.6.1; extra == 'examples'
+Requires-Dist: pyserial<4.0.0,>=3.5.0; extra == 'examples'
+Requires-Dist: traceback2<2.0.0,>=1.4.0; extra == 'examples'
+Description-Content-Type: text/markdown
+
+<!--
+Copyright (c) 2015-2021 University of Antwerp, Aloxy NV.
+
+This file is part of pyd7a.
+See https://github.com/Sub-IoT/pyd7a for further info.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+# DASH7 Python Support
+
+A collection of Python modules, supporting the DASH7 Alliance Protocol in general,
+and [Sub-IoT](https://github.com/Sub-Iot/Sub-IoT-Stack) in particular.
+
+## Introduction
+
+This repository contains a collection of Python modules that can help when working with the Dash7 Alliance Wireless Sensor and Actuator Network Protocol.
+
+## Usage
+
+Just `pip install d7a`, but we do recommend [Rye](https://rye-up.com)
+
+You can also manually clone this repo:
+
+```bash
+git clone https://github.com/Sub-IoT/pyd7a.git
+cd pyd7a
+rye sync --no-lock
+```
+
+## Modules
+
+### ALP Parser
+
+A parser/generator for Application Layer Protocol commands. From the specification:
+
+> ALP is the D7A Data Elements API. It is a generic API, optimized for usage with the D7A Session Protocol.
+> It can be encapsulated in any other communication protocol. ALP defines a standard method to manage the Data Elements by the Application.
+> Any application action, data exchange method or protocol is mapped into manipulation of D7A Data Elements and their properties by means of ALP Commands.
+
+### DLL Parser
+
+A parser for D7AP frames as transmitted over the air.
+
+### Sub-Iot Serial console interface parser
+
+A parser for frames used by the serial console interface by Sub-IoT-Stack nodes
+
+### Sub-IoT Modem interface
+
+Allows to use a serial connected Sub-IoT-Stack node as a modem. By sending ALP commands you can access the node's filesystem, or use the node's DASH7 interface to access the filesystem of nodes in the network.
+
+## Examples
+
+Can be found in 'examples' and 'tools' directories.
+
+### Gateway_hass
+
+A gateway script for connecting a dash7 gateway to a running Home Assistant instance using MQTT.
+
+## Contributing
+
+PyD7A uses [Rye](https://rye-up.com) for dependency management.
+
+### Setting up Rye
+
+Please refer to the [Rye installation instructions](https://rye-up.com/guide/installation/).
+
+<details>
+  <summary>You can also use [mise](https://mise.jdx.dev/)</summary>
+
+```bash
+mise plugin add rye https://github.com/Azuki-bar/asdf-rye.git
+mise install rye
+mise use rye
+RYE_INSTALL_OPTION=--yes RYE_TOOLCHAIN=/usr/bin/python rye
+```
+
+</details>
+
+Followed by:
+
+```bash
+source "$HOME/.rye/env"
+```
+
+<details>
+  <summary>Optionally add this your shell's profile</summary>
+
+```bash
+# bash
+echo 'source "$HOME/.rye/env"' >> ~/.bashrc
+
+# zsh
+echo 'source "$HOME/.rye/env"' >> ~/.zprofile
+```
+
+</details>
+
+Now, install the dependencies defined in pyproject.toml
+
+```bash
+rye sync
+```
+
+For more information, refer to the [Rye guide](https://rye-up.com/guide/)
+
+You can verify that the installation succeeded by running the unit tests:
+
+```bash
+rye test
+```
+
+If all tests ran without any errors, you're good to go.
+
+### Setting up your environment
+
+PyD7A employs [Ruff](https://docs.astral.sh/ruff/) for code linting and formatting.
+
+#### VSCode
+
+The IDE of choice is VSCode. It has direct support for virtualenvs and an official
+[extension for Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff).
+In `.vscode/settings.json`, you fill find that autoformatting is done on save.
+
+`.vscode/extensions.json` has a list of recommended extensions, but also one
+that is known to be problematic.
+
+#### Pre-commit hooks
+
+We also employ some pre-commit hooks to detect issues early on.
+
+```bash
+rye run pre-commit install
+```

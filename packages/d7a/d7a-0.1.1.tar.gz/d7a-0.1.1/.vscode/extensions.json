@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    // general
+    "dangmai.workspace-default-settings",
+
+    // python
+    "ms-python.python",
+    "ms-python.debugpy",
+    "njpwerner.autodocstring",
+    "charliermarsh.ruff",
+    "ms-python.vscode-pylance"
+  ],
+  "unwantedRecommendations": [
+    // Causes issues, see:
+    // - https://github.com/microsoft/vscode-isort/issues/240
+    // - https://github.com/microsoft/vscode/issues/174295
+    "ms-python.isort"
+  ]
+}

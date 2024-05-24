@@ -1,0 +1,21 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+
+  extends: ["config:recommended", ":semanticCommitTypeAll(chore)"],
+
+  prHourlyLimit: 2,
+  prConcurrentLimit: 20,
+  branchConcurrentLimit: 20,
+  addLabels: ["dependencies"],
+
+  rebaseWhen: "conflicted",
+
+  dependencyDashboard: false,
+
+  gitlabci: {
+    fileMatch: [".*\\.ya?ml$"],
+    registryAliases: {
+      $CI_REGISTRY: "registry.gitlab.com",
+    },
+  },
+}
