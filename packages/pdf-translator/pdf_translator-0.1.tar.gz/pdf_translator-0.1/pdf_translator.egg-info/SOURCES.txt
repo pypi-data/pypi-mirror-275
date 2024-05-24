@@ -1,0 +1,7 @@
+setup.py
+pdf_translator.egg-info/PKG-INFO
+pdf_translator.egg-info/SOURCES.txt
+pdf_translator.egg-info/dependency_links.txt
+pdf_translator.egg-info/entry_points.txt
+pdf_translator.egg-info/requires.txt
+pdf_translator.egg-info/top_level.txt
