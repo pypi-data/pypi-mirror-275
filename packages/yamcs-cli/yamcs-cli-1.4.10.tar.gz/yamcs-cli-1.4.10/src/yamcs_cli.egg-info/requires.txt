@@ -1,0 +1,6 @@
+argcomplete
+python-dateutil
+yamcs-client>=1.9.8
+
+[kerberos]
+yamcs-client-kerberos>=1.2.2
