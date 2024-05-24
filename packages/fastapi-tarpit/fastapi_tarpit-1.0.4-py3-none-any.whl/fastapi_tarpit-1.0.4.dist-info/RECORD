@@ -1,0 +1,9 @@
+fastapi_tarpit/__init__.py,sha256=FyUL1Zv6K2nXC63AEIDU-o1juArneXFjCTzlc603wjk,87
+fastapi_tarpit/client.py,sha256=nRkc74ifnVWDfWzoBpWDEE_40YSqUan5WivKnXkIiDc,4506
+fastapi_tarpit/config.py,sha256=qWDVgo9a_qwjCze2rfnBVyimTu7uQ8ynxRsTQW3Vha4,702
+fastapi_tarpit/middleware.py,sha256=_FRnr3M8bblG7wLrUU6NzNqfoL9uwDhibzYDBcC22qE,2186
+fastapi_tarpit-1.0.4.dist-info/LICENSE,sha256=Ff15gt6FVKZoyftE32rtUI5D7JreqPlbpj93X1UZYow,1071
+fastapi_tarpit-1.0.4.dist-info/METADATA,sha256=d4OS3Rf3X4PZ7sq72dTb7wPzeFYbjzmlZ-7-TlTY17k,1704
+fastapi_tarpit-1.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fastapi_tarpit-1.0.4.dist-info/top_level.txt,sha256=myX-3aIQxxB-oX3mzSoNttpmpfQuTOoCIXecVuRVEkE,15
+fastapi_tarpit-1.0.4.dist-info/RECORD,,
