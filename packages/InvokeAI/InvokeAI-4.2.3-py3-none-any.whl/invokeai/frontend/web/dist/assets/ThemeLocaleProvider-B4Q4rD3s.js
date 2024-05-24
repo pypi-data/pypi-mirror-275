@@ -1,0 +1,1 @@
+import{r as s,H as a,nz as i,nA as c,I as o,nB as d,nC as u,nD as m}from"./index-Cilgq8Ke.js";function x({children:t}){const{i18n:n}=a(),e=n.dir(),r=s.useMemo(()=>i({...c,direction:e}),[e]);return s.useEffect(()=>{document.body.dir=e},[e]),o.jsx(d,{theme:r,toastOptions:u,children:o.jsx(m,{children:t})})}const f=s.memo(x);export{f as default};
