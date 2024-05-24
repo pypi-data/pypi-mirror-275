@@ -1,0 +1,8 @@
+digrdf/__init__.py,sha256=hWtV7IY_CrJhvo1P7OPC0ahZJSgKS9HsEFkUiLN6n-E,32
+digrdf/__main__.py,sha256=cE_KYZgo6D_ZCWTOmZpZnAfhWcIyoJ4TUlSzK147tTU,9250
+digrdf/instance_query.sparql,sha256=3AJ5GOOe5nXkaPb3ASk_0QqnMekyTRJeKnuajHrKSQ4,187
+digrdf/prefixes.py,sha256=LBfIAPx8jmZ7t5kwqwZDeUKa4y7MNjmrvgmBgRwhrVU,703
+digrdf/schema_query.sparql,sha256=DeYxy31fZrGqZM1sE3_muOleVJstLSkA1IzGjuaAu5A,316
+digrdf-0.1.6.dist-info/METADATA,sha256=Fr8tuokM2wyehcyIJ1JiNBn1zcnGRkkX1GlVywC-IoI,1587
+digrdf-0.1.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+digrdf-0.1.6.dist-info/RECORD,,
