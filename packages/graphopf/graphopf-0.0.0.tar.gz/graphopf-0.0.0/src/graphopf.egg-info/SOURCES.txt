@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/graphopf.egg-info/PKG-INFO
+src/graphopf.egg-info/SOURCES.txt
+src/graphopf.egg-info/dependency_links.txt
+src/graphopf.egg-info/requires.txt
+src/graphopf.egg-info/top_level.txt

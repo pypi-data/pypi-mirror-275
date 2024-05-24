@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: graphopf
+Version: 0.0.0
+Summary: A geometric deep learning solver for Optimal Power Flow problems
+Home-page: https://www.mit.edu/~arsam/
+Author: Arsam Aryandoust
+Author-email: arsam@mit.edu
+License: UNKNOWN
+Project-URL: Source Code, https://github.com/ArsamAryandoust/GraphOPF
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# GraphOPF: A geometric deep learning solver for Optimal Power Flow with hard constraints
+
+
