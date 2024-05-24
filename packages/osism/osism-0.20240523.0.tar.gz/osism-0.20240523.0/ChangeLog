@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.20240523.0
+-------------
+
+* chore(deps): update dependency docker to v7.1.0 (#902)
