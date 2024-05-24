@@ -1,0 +1,14 @@
+summarize_gutenberg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+summarize_gutenberg/__main__.py,sha256=gYzULNmna8d2Sa6ncHEqmBekFXrM8qd4YcQbiBZZjXs,46
+summarize_gutenberg/api.py,sha256=QTN0e6EOha516TEzg7G-XMvFqv4bOPpMgw2gOq-227w,1940
+summarize_gutenberg/cli.py,sha256=MRlhfwZm8EIaL9ALlp6QeY25D71SZUjWFmIi7IDLqcQ,3863
+summarize_gutenberg/db.py,sha256=v0Qrb3tIXYbiyD02YTsgz_sZB5KnJiRB7PiEVs9Xwh0,823
+summarize_gutenberg/demo.py,sha256=CrcPLnb0yzDYTn0yKbYp38IFVnFDqziYKmKdSjBUr3Q,12311
+summarize_gutenberg/get_books.py,sha256=WP7SXqPq4Haa8DcQ0RFBCgfUTwoHRUbPuMuADx60BlM,4521
+summarize_gutenberg/get_text.py,sha256=dSF85gB3LNAiJAOeNdUcKxtiFCNj4dxHzOD_gw8agco,6407
+summarize_gutenberg/make_summary.py,sha256=KKqeKm8Kbz2vdz-Al4tmOiX1LVQjFeCTya1fDDr7XH8,1291
+summarize_gutenberg-0.0.3.dist-info/METADATA,sha256=pXaUrx4ZftGrAyx1hSQbh8tImAtQY6ezYnd4-vAkAD8,47604
+summarize_gutenberg-0.0.3.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+summarize_gutenberg-0.0.3.dist-info/entry_points.txt,sha256=iCIMaJQeYPXiyguYRDf4VUWQo86pnZLdsbOSwSattc4,58
+summarize_gutenberg-0.0.3.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+summarize_gutenberg-0.0.3.dist-info/RECORD,,
