@@ -1,0 +1,11 @@
+License.txt
+README.md
+setup.py
+AAIT25.egg-info/PKG-INFO
+AAIT25.egg-info/SOURCES.txt
+AAIT25.egg-info/dependency_links.txt
+AAIT25.egg-info/entry_points.txt
+AAIT25.egg-info/namespace_packages.txt
+AAIT25.egg-info/requires.txt
+AAIT25.egg-info/top_level.txt
+orangecontrib/__init__.py
