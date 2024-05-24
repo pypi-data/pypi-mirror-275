@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: cela
+Version: 0.0.1b0
+Summary: A databases migration tools for all stacks.
+Author: celaraze
+Author-email: celaraze@qq.com
+License: MIT
+Keywords: database,migration,sql
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: pymysql
+
+# 介绍
+
+> [!IMPORTANT]
+>
+> 本项目仍在开发中，暂未发布正式版本。
+
+<p align="center">
+    <img src="https://img.shields.io/badge/Python-3.9+-blue?logo=python" />
+    <img src="https://img.shields.io/badge/License-MIT-blueviolet" />
+</p>
+
+cela 是一个高效的数据库迁移工具，目前仅支持 MySQL 数据库，后续会追加支持其它多种流行的数据库引擎。
+
+cela 可以简化你应用中的数据库结构迁移流程，只需要简单的配置和命令，即可完成数据库表结构的变更，并包含版本控制，方便回滚。让你从繁琐的
+SQL 脚本中解放出来，专注于业务逻辑的开发。如果你使用过 Laravel 的迁移工具，cela 会让你感觉非常熟悉。但与之不同的是，cela
+是一个独立于任何程序框架的工具，也意味着你可以在任何项目中使用它，轻松地管理你项目的数据库结构。
+
+cela 由 Python 语言编写，使用简单，易于上手。如果你是一个 Python 开发者，cela 会是一个不错的选择。
+
+> [!NOTE]
+>
+> 以下文档在正式发布前，可能会有较大变动。
+
+## 安装
+
+```shell
+pip install cela
+```
+
+## 使用
+
+在您的项目目录中，执行 `cela init` 初始化结构，之后会自动生成 `migrations` 目录，用于存放迁移文件。
+
+### 创建迁移文件
+
+执行以下命令后，会在 `migrations` 目录下生成一个迁移文件，文件名类似 `00000001_create_users_table.yaml`。
+
+```shell
+# 例如 cela create --name create_users_table
+# 意为创建一个名为 create_users_table 的迁移文件
+# 这个迁移文件用于创建一个名为 users 的表
+cela create --name <migration_name>
+```
+
+接着修改迁移文件为您的数据库表结构：
+
+```yaml
+# 数据库名称
+database: "test"
+# 迁移脚本
+up:
+  # 表名
+  - name: "users"
+    columns:
+      - name: "id"
+        type: "int"
+        primary_key: true
+        auto_increment: true
+        comment: "ID of the user."
+
+      - name: "name"
+        type: "string"
+        length: 255
+
+      - name: "email"
+        type: "string"
+        unique: true
+
+      - name: "age"
+        type: "int"
+        default: 18
+# 回滚脚本
+down:
+  - name: "users"
+    # 删除表
+    drop: true
+```
+
+### 执行迁移
+
+执行以下命令，即可将迁移文件中的数据库表结构应用到数据库中。
+
+```shell
+cela migrate
+```
+
+执行以下命令，即可回滚迁移文件中的数据库表结构。
+
+```shell
+cela rollback
+```
+
+执行以下命令，即可重置迁移版本和数据库表结构。
+
+```shell
+cela reset
+```
+
+## RoadMap
+
+- [ **done** ] 数据库结构的正向、逆向迁移。
+- [ **done** ] 支持 MySQL 数据库。
+- [ todo ] 支持 SQLite 数据库。
+- [ todo ] 支持 PostgreSQL 数据库。
+- [ todo ] 支持 SQL Server 数据库。
+- [ todo ] 支持 MongoDB 数据库。
+- [ todo ] 支持多数据库。
+
+## 开源协议
+
+cela 采用 MIT 开源协议，详情请查看 [LICENSE](./LICENSE) 文件。任何人都可以免费使用 cela，无需支付任何费用。并且可以自由修改源码。
