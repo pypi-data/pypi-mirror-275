@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+tf_idf/__init__.py
+tf_idf/_modidx.py
+tf_idf/core.py
+tf_idf_cosimm.egg-info/PKG-INFO
+tf_idf_cosimm.egg-info/SOURCES.txt
+tf_idf_cosimm.egg-info/dependency_links.txt
+tf_idf_cosimm.egg-info/entry_points.txt
+tf_idf_cosimm.egg-info/not-zip-safe
+tf_idf_cosimm.egg-info/requires.txt
+tf_idf_cosimm.egg-info/top_level.txt
