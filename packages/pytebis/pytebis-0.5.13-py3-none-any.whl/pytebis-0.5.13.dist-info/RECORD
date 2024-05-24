@@ -1,0 +1,8 @@
+pytebis/__init__.py,sha256=7y2Hh1BoHtg6V_8SQ7ABLoucdJWUUN12V5oneIn94rI,33
+pytebis/lazyloader.py,sha256=f0XblV7ogfAqWDcHFE0hzFw9diiGc1gEAOtxlmIIPA8,1468
+pytebis/tebis.py,sha256=blckuJmIp2hi73oUyr4Pf5Ab0p0bIEFJorCvOQvWiqo,46232
+pytebis-0.5.13.dist-info/LICENSE,sha256=01OagdKGBeBvlB_vpRtr9SVhVHtq3mheL5lUpR_n_ck,1085
+pytebis-0.5.13.dist-info/METADATA,sha256=80vG7gq329bB--_2WSDOEkLEDdQ-YRGBJFXVEPD0QsE,7415
+pytebis-0.5.13.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pytebis-0.5.13.dist-info/top_level.txt,sha256=m0X91XaoDq7mmEdN-TB5IlqG1cIhb5CLHh_4j9HDOIs,8
+pytebis-0.5.13.dist-info/RECORD,,
