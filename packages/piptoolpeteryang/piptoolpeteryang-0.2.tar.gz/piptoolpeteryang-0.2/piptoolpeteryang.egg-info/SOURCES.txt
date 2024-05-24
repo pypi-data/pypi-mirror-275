@@ -1,0 +1,8 @@
+setup.py
+piptool/__init__.py
+piptool/main.py
+piptoolpeteryang.egg-info/PKG-INFO
+piptoolpeteryang.egg-info/SOURCES.txt
+piptoolpeteryang.egg-info/dependency_links.txt
+piptoolpeteryang.egg-info/entry_points.txt
+piptoolpeteryang.egg-info/top_level.txt
