@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: kyoto_sightseeing
+Version: 0.1
+Summary: Kyoto sightseeing route planner
+Home-page: https://github.com/OkadaDaichi/kyoto_sightseeing_APP
+Author: Daichi Okada
+Author-email: s2222043@stu.musashino-u.ac.jp
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+

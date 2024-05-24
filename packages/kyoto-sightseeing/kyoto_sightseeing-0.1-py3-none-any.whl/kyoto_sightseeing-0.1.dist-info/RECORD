@@ -1,0 +1,9 @@
+kyoto_sightseeing/__init__.py,sha256=tD3JLZrP-tb85LRzvEeCBYCPZlTHcfSHvp7gqtLjnB4,54
+kyoto_sightseeing/coordinates.py,sha256=NWFJiWtfLPCaZrOGmTcIWENctM_s3GeBIQUBU3eyVaA,5099
+kyoto_sightseeing/gui.py,sha256=WKze_Ybsxdx21Ex6dOIVPCd2Ov-RVGBqqRqxz7e1ZgQ,6169
+kyoto_sightseeing/route_planner.py,sha256=26xopqzCkgPkJ2DUUfGKFdzGxNIjrTOwjI6P-_o_vCY,2074
+kyoto_sightseeing-0.1.dist-info/METADATA,sha256=OqV3mLtO8CPQ4SYoTL3cggvWOVIex_b00aQLsd77cyM,517
+kyoto_sightseeing-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+kyoto_sightseeing-0.1.dist-info/entry_points.txt,sha256=vjC7HCtdqQicfHFhgGE59XRbVy49e_Q91CTAwZIIAic,65
+kyoto_sightseeing-0.1.dist-info/top_level.txt,sha256=5DpIQl4c0JYFjcYyvu735w3CDmzWCTHQWfMIB-85Sy4,18
+kyoto_sightseeing-0.1.dist-info/RECORD,,
