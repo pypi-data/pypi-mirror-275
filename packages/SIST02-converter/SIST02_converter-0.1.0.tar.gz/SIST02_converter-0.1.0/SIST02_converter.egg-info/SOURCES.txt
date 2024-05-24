@@ -1,0 +1,8 @@
+README.md
+setup.py
+SIST02_converter/__init__.py
+SIST02_converter/module.py
+SIST02_converter.egg-info/PKG-INFO
+SIST02_converter.egg-info/SOURCES.txt
+SIST02_converter.egg-info/dependency_links.txt
+SIST02_converter.egg-info/top_level.txt
