@@ -1,0 +1,8 @@
+slimevr_tracker_emulator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slimevr_tracker_emulator/async_tracker_emulator.py,sha256=b9pUc0iGthJ54RlKLxIFYb4w6ZtbyVUbMT6BVY_DSKk,8203
+slimevr_tracker_emulator/tracker_packet.py,sha256=x1b_gSwZ3YTm51IJEZkBoYTzldNK58_O5JHPSQhf-q8,4430
+slimevr_tracker_emulator/tracker_types.py,sha256=jP9UP1Jr_RH4o8ZMLWUOkT3Bw3HgZzx_DfyGUjaDopQ,2826
+slimevr_tracker_emulator-0.0.1.dist-info/METADATA,sha256=ykFX-Vebufmky1OUf1rwFqGtn8pPzIz7zlWNC30t6xo,648
+slimevr_tracker_emulator-0.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+slimevr_tracker_emulator-0.0.1.dist-info/licenses/LICENSE,sha256=yUn0zqsBpT79V-N2mTdA_4a5MDO3YXBqKJaR4QAvFWY,1063
+slimevr_tracker_emulator-0.0.1.dist-info/RECORD,,
