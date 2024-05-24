@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+main/oauth2_client/__init__.py
+main/oauth2_client/credentials_manager.py
+main/oauth2_client/http_server.py
+sd_oauth2_client.egg-info/PKG-INFO
+sd_oauth2_client.egg-info/SOURCES.txt
+sd_oauth2_client.egg-info/dependency_links.txt
+sd_oauth2_client.egg-info/not-zip-safe
+sd_oauth2_client.egg-info/requires.txt
+sd_oauth2_client.egg-info/top_level.txt
