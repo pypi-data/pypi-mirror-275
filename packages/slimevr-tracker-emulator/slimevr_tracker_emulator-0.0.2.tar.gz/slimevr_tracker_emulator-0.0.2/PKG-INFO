@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: slimevr_tracker_emulator
+Version: 0.0.2
+Summary: A small example package
+Project-URL: Homepage, https://github.com/ameharoo/PythonSlimeVRTracker
+Project-URL: Issues, https://github.com/ameharoo/PythonSlimeVRTracker/issues
+Author-email: Ameharu <me@ameha.ru>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Description-Content-Type: text/markdown
+
+[![PyPI - latest](https://img.shields.io/pypi/v/slimevr-tracker-emulator?label=latest&logo=pypi)](https://pypi.org/project/slimevr-tracker-emulator/)
+[![PyPI - Python](https://img.shields.io/pypi/pyversions/slimevr-tracker-emulator?logo=pypi)](https://pypi.org/project/slimevr-tracker-emulator/)
+
+# SlimeVR Tracker Emulator
+
+Simple **async lib** for [SlimeVR](https://github.com/SlimeVR) tracker emulation
+
+> See [srv.py](https://github.com/ameharoo/PythonSlimeVRTracker/blob/master/srv.py) for examples
