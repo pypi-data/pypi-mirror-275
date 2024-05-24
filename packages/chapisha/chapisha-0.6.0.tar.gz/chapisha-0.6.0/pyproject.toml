@@ -1,0 +1,59 @@
+[tool.poetry]
+name = "chapisha"
+version = "0.6.0"
+description = "Chapisha: docx to standards-compliant epub3 conversion"
+authors = ["Gavin Chait <gchait@whythawk.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+homepage = "https://github.com/whythawk/chapisha"
+repository = "https://github.com/whythawk/chapisha"
+documentation = "https://chapisha.readthedocs.io/"
+keywords = ["python3", "epub-generation", "epub3", "docx-to-epub"]
+classifiers = [
+    "Topic :: Text Processing",
+    "Topic :: Text Processing :: General"
+]
+include = [
+    "chapisha/helpers/data/css/*",
+    "chapisha/helpers/data/fonts/*",
+    "chapisha/helpers/data/images/*",
+    "chapisha/helpers/data/json/*",
+    "chapisha/helpers/data/templates/*",
+    "tests/data/*"
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.12.3"
+pypandoc = "^1.13"
+epubcheck = "^4.2.6"
+tomlkit = "^0.12.5"
+pydantic = "^2.7.1"
+regex = "^2024.5.10"
+filetype = "^1.2.0"
+lxml = "^5.2.2"
+Pillow = "^10.3.0"
+
+[tool.poetry.group.dev.dependencies]
+black = ">=24.4.2"
+flake8 = ">=7.0.0"
+pytest = ">=8.2.0"
+jupyterlab = ">=4.2.0"
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = ">=1.6.0"
+mkdocs-exclude = ">=1.0.2"
+mkdocstrings-python = ">=1.10.2"
+mkdocs-redirects = ">=1.2.1"
+mkdocs-material = ">=9.5.23"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+target-version = ["py312"]
+
+[tool.poetry.extras]
+docs = ["MKDocs"]
