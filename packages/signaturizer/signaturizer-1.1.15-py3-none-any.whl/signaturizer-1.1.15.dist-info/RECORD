@@ -1,0 +1,12 @@
+signaturizer/__init__.py,sha256=M3jo0kER9yom91Oi0EnxTNKSJENPwMydHMiqUvJpHrg,165
+signaturizer/exporter.py,sha256=UwVasPcPnkO611eWIz5H4vEMm-tcP3WFKbHkAw41nOU,3652
+signaturizer/signaturizer.py,sha256=zS77Dwc29Mu1bZxACPCf42DIwwM-9seTGTfzauo-d0A,16776
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/helper.py,sha256=1XsyCtQCzB-XBRVCLHAnHGfxSu1M0pHcHfZwqqmXM6Y,1962
+tests/test_exporter.py,sha256=u3kzwZk4k2pnFr324wn24lcwrMt_DZnl8m7Okuvg27g,5207
+tests/test_signaturizer.py,sha256=Ttq5x8LACeNd2yKpGR0nh0VXncARHb52xCZmplCNX0s,6241
+signaturizer-1.1.15.dist-info/LICENSE,sha256=ybue0NoEBLiahtQZ8dX0W5qbEPbpv5T2MOm0BfNJDRw,1065
+signaturizer-1.1.15.dist-info/METADATA,sha256=KCqLr2MLpPs-cgpWSSPY6ysD46SuyX68JLY6GMuicbw,7824
+signaturizer-1.1.15.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+signaturizer-1.1.15.dist-info/top_level.txt,sha256=O1K_7966-lILWyJi5Da8D3OhUIggFbSiPOlZqSLNcX0,19
+signaturizer-1.1.15.dist-info/RECORD,,
