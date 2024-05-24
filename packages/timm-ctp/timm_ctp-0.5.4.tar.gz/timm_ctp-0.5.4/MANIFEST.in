@@ -1,0 +1,2 @@
+include timm_ctp/models/pruned/*.txt
+
