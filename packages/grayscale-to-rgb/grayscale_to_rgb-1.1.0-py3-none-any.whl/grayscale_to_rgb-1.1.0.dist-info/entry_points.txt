@@ -1,0 +1,2 @@
+[console_scripts]
+grayscale_to_rgb = src:grayscale_to_rgb
