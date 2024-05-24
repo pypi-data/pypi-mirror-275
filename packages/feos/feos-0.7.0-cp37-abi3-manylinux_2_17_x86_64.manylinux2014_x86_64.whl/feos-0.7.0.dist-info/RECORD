@@ -1,0 +1,5 @@
+feos-0.7.0.dist-info/METADATA,sha256=VoFFzteKvFLgyQoC6Le78HNr0e5ZZgjx5LMq7Xm863Y,8884
+feos-0.7.0.dist-info/WHEEL,sha256=bkoQHDeaiW1SaVuDVW6_fa10tDMfaU9Ez_AzJasf2aw,127
+feos/__init__.py,sha256=FB8jkr3YE2Vge9SLXgZCY3jhVY4PnMGuBo5w1Qxd_m4,99
+feos/feos.abi3.so,sha256=DUYtEE4-4VjZvyzfXWGn6Baf9_YdY-j8Nn2GSHBd5lM,39620240
+feos-0.7.0.dist-info/RECORD,,
