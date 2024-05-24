@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Anas_Ahmed_Project
+Version: 0.1.0
+Summary: A package for data preprocessing
+Author: ANAS I. A. ALHATTI and AHMD ALYOSEF
+Author-email: your.email@example.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: nltk
+
