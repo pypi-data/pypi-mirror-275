@@ -1,0 +1,2 @@
+[console_scripts]
+sqlite2duckdb = sqlite2duckdb.__main__:main_cli

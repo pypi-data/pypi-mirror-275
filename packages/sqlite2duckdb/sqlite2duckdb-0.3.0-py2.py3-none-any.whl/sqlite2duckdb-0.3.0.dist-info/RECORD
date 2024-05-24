@@ -1,0 +1,8 @@
+sqlite2duckdb/__init__.py,sha256=yfL1mfUusmrQf6xSngO_QhMzitfYr2GzQNxyBpeiq84,145
+sqlite2duckdb/__main__.py,sha256=U-H_NR_Qp-OSA_rFb4bxQ4Rp0CuyHdyxl7p8-fPjXWs,1075
+sqlite2duckdb/sqlite_to_duckdb.py,sha256=NC6sMiGuYQ0I4cWsqIeqDiotI3S4blx_iyUO4NW6E30,1235
+sqlite2duckdb-0.3.0.dist-info/METADATA,sha256=6pBs_g6HjQcGrtwvBRYqTP9cCYcwlwnrIMtG7BuD5q4,1890
+sqlite2duckdb-0.3.0.dist-info/WHEEL,sha256=cDcbFFSNXOE-241I5PFuLkIYfR_FM7WTlPEi33njInY,105
+sqlite2duckdb-0.3.0.dist-info/entry_points.txt,sha256=HXDOw1q3RRjrTvb8pZ9cfwp41b0AQXaSwCF7CQPlgQA,66
+sqlite2duckdb-0.3.0.dist-info/licenses/LICENSE,sha256=m02ByVVkLjRHEV9sN02uVqtLRTfaO74CBS_s8eA_UII,1069
+sqlite2duckdb-0.3.0.dist-info/RECORD,,
