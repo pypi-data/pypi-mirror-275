@@ -1,0 +1,7 @@
+README.md
+setup.py
+datapreprocessorcihanfatmanur.egg-info/PKG-INFO
+datapreprocessorcihanfatmanur.egg-info/SOURCES.txt
+datapreprocessorcihanfatmanur.egg-info/dependency_links.txt
+datapreprocessorcihanfatmanur.egg-info/requires.txt
+datapreprocessorcihanfatmanur.egg-info/top_level.txt
