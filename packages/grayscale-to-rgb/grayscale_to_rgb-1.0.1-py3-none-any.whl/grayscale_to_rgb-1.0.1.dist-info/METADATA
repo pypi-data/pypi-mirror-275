@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: grayscale-to-rgb
+Version: 1.0.1
+Summary: Mapping grayscale images to RGB
+Home-page: https://gitlab.bfabric.org/jens/grayscale-to-rgb
+Author: Elina Jansone
+Author-email: hertaelina@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Requires-Dist: matplotlib (>=3.9.0)
+Requires-Dist: argparse (>=1.4.0)
+Provides-Extra: dev
+Requires-Dist: twine (>=5.0.0) ; extra == 'dev'
+
+# Grayscale to RGB Python script
+
+Maps grayscale images to RGB based on a custom `jet`-like colormap. Outputs an images of the same size as the input file. Output image type can be defined by user, outputs png by default.
+
+## How to use
+
+### Dependencies
+
+`argparse 1.4.0`
+
+`matplotlib 3.8.x`
+
+### Windows example using cmd
+`python .\grayscale_to_rgb.py --input-picture-path .\images_input\grayscale_example.tif --output-picture-path \images_output\grayscale_example_colormapped.png`
+
+### Linux
+
+Replace every `\`  with `/`.
+
+## Colormap
+
+
+| Normalized Quantile | Mapped color name | Mapped color HEX code
+| ------ | ------ | ------ |
+|    `0`    |    `black`    | `#000000`   |
+|    `0.03`    |    `blue`    | `#0000FF`   |
+|    `0.25`   |    `cyan`    | `#00FFFF`   |
+|    `0.50`    |    `lime`    | `#00FF00`   |
+|    `0.75`   |    `yellow`    | `#FFFF00`   |
+|    `0.97`    |   `red`     | `#FF0000`   |
+|    `1`      |      `white`     | `#FFFFFF`   |
+
+## Example Grayscale to RGB image
+
+Based on the example command
+
+![Grayscale original](https://gitlab.bfabric.org/jens/grayscale-to-rgb/-/blob/main/input_images/grayscale_example.tif)
+
+![Grayscale colormapped](https://gitlab.bfabric.org/jens/grayscale-to-rgb/-/blob/main/output_images/grayscale_example_colormapped.png)
+
+![Original colormapped](https://gitlab.bfabric.org/jens/grayscale-to-rgb/-/blob/main/output_images/rgb_original.jpg)
