@@ -1,0 +1,13 @@
+trickkiste/__init__.py,sha256=f9NemaR7t3X14i-lSbGuIg8QN0amSi6TofFtt1jpPc4,88
+trickkiste/base_tui_app.css,sha256=NlhRFhH5y1_azmUAf7AIU21Ic_W7PqPXlIeMkZUc6cc,42
+trickkiste/base_tui_app.py,sha256=SGRcuwv2tENLIu3EBI1LDbgV0lbRE-EmxBj5weAE33s,4055
+trickkiste/examples/fancylogging.py,sha256=eyvkN9B2Q6bu5j89l09KiiSBOoRnHLsPU2DFzSVM4Ng,978
+trickkiste/examples/fancytui.py,sha256=Kf2Ksk2sctFHT0bSsKRPg2rd9d-y70SVuNiDlaKX3OI,1785
+trickkiste/logging_helper.py,sha256=qiA08c16F70WnLQ4Q09cAX4Kw3jkydsFEDNQ7Rqr5XU,3588
+trickkiste/misc.py,sha256=Mcd7tD0xLL5xjgXcoeWMivf31Le0g4KKu9WHpk59AcI,6848
+trickkiste/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trickkiste/std_suppress.py,sha256=FD4RT-RNbygLs2SbJlpFQXS9ciA8nkd8LXc72cx9m7I,2293
+trickkiste-0.0.11.dist-info/METADATA,sha256=rNdp281MsygUI4ZOePUOdJkekLm-Xw4emjF6ciLeLEc,1254
+trickkiste-0.0.11.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+trickkiste-0.0.11.dist-info/entry_points.txt,sha256=b3Sk3RNoxapChs3Lm79lQdCBE3MxwdxB2Z3_NyXLbQQ,57
+trickkiste-0.0.11.dist-info/RECORD,,
