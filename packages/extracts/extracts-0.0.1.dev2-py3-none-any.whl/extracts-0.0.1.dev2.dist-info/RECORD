@@ -1,0 +1,10 @@
+extracts/__init__.py,sha256=KqEN3TEZplpUpOJ8B4IpoOsN8jM7W7InL2qlb9Npfbg,59
+extracts/_fetchers.py,sha256=Ukc08WuQZCNXXLfF48fP8Me8-tV0XCHiNx9jU0TiGXw,13556
+extracts/_version.py,sha256=z4lLnxe0MW77v7dPZGo3IGUKzewdCRhwM0Y3cOTiTfo,440
+extracts/data/registry.txt,sha256=BI-7PgBg56EuJgCLGyxM-tgIRP3EO9r_d6mxw62SMiM,1411
+extracts/data/barrett2020/table1.tsv,sha256=AgJsOXn3lv7w5bYMZ_wM7YO3rUcLo9mALMKEOQ8L3Rc,693
+extracts/data/barrett2020/table2.tsv,sha256=qvgChFCUG5BBRpL1dGfwnyNOD7SWllf46XAICC4qWro,692
+extracts-0.0.1.dev2.dist-info/METADATA,sha256=-rDXWz3VRSaRM7iM-up--2OVfthPM1hKrVptKGt6pU4,1368
+extracts-0.0.1.dev2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+extracts-0.0.1.dev2.dist-info/top_level.txt,sha256=ZSpBF-0jWyu7j-OGpcVXlBV4aE-d7wLwOLgVVPLyasI,9
+extracts-0.0.1.dev2.dist-info/RECORD,,
