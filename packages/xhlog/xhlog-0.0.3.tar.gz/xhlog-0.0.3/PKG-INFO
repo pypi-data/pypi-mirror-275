@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: xhlog
+Version: 0.0.3
+Summary: [XhLog]一个轻量，简易的Python日志记录模块。
+Author: Yeying-Xingchen
+Author-email: yeyingxingchen@yeah.net
+Requires-Python: >=3,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# xhlog
+## 介绍
+一个轻量，简易的Python日志记录模块。
+
+## 使用
+```python
+import xhlog as log
+# 信息日志
+log.info("Hello World!")
+# 警告日志
+log.warning("Hello World!")
+# 错误日志
+log.error("Hello World!")
+```
