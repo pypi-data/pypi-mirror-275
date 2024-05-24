@@ -1,0 +1,28 @@
+{
+  "input_data": {
+    "right_hand": [
+      42
+    ],
+    "left_hand": [
+      7
+    ]
+  },
+  "used_input_data": {
+    "right_hand": [
+      42
+    ],
+    "left_hand": [
+      7
+    ]
+  },
+  "original_input_data": {
+    "right_hand": [
+      42
+    ],
+    "left_hand": [
+      7
+    ]
+  },
+  "tool": "AddInt:1.0",
+  "version": "1.0"
+}
