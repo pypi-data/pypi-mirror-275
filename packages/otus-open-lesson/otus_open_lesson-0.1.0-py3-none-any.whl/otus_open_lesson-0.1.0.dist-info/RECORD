@@ -1,0 +1,13 @@
+otus_open_lesson/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+otus_open_lesson/admin.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+otus_open_lesson/apps.py,sha256=6v7RbibyX8KArKHI2Uvz105rfpQ9yqPrqu1OAgr4gjY,163
+otus_open_lesson/models.py,sha256=03tRirwEFdLWCwzQGRia6SPmbOU3shP_z1nvY_vOa0U,39
+otus_open_lesson/package.py,sha256=VFOfFu06zd8if6QLxVK5iIoYKG3Ze7kL6aAxq_jL6Qg,86
+otus_open_lesson/tests.py,sha256=-uyrTXYAmkMaaMMIc9gqVR9FrW8EkZQbOcEYI0OEEYU,122
+otus_open_lesson/views.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+otus_open_lesson/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+otus_open_lesson-0.1.0.dist-info/LICENSE,sha256=H3aEEuHqbXqNYa_StdKOzeVtr3gX7XrZx_tQNdKHd2U,1071
+otus_open_lesson-0.1.0.dist-info/METADATA,sha256=h-AVOtGAnCzNnrvVUApBwUnYcPgFfnl2YVZsrFsK98A,2057
+otus_open_lesson-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+otus_open_lesson-0.1.0.dist-info/top_level.txt,sha256=7DCpJlJcBABICEyoHXnHnkNq72l_56FsbO9NRBMAwkA,17
+otus_open_lesson-0.1.0.dist-info/RECORD,,
