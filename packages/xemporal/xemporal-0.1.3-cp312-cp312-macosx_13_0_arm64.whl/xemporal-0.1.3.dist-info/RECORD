@@ -1,0 +1,7 @@
+xemporal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xemporal/ext.abi3.so,sha256=2xOEER9dT2L-dwsiev01rd_T-1mMIqmknPT0NacLa3A,444176
+xemporal/src/main.zig,sha256=wLFqTos1H2Y5n-QuqegGsrwlDDCCeF-b0Qc4hwFd1J8,1053
+xemporal/src/utils.zig,sha256=vxyljFWdZmw8yEObwigacw8fIaEgpSjKHL-TVJ0hTZE,775
+xemporal-0.1.3.dist-info/METADATA,sha256=4SkU7xkdWANPawiJ-vhA3UZnNG45TTJPt8xgpNgUy-o,975
+xemporal-0.1.3.dist-info/WHEEL,sha256=cyxZ3HWNYKjAbIfy9gkEjmxnOvjQTeV-DV6UJnXd7jo,106
+xemporal-0.1.3.dist-info/RECORD,,
