@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: ephysworking
+Version: 0.0.2
+Summary: Joe Ziminski general ephys scripts and utils.
+Author-email: Joe Ziminski <j.ziminski@ucl.ac.uk>
+License: BSD-3-Clause
+Project-URL: Bug Tracker, https://github.com/JoeZiminski/ephysworkingissues
+Project-URL: Source Code, https://github.com/JoeZiminski/ephysworking
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: spikeinterface
+Requires-Dist: scipy
+Requires-Dist: numba
+Requires-Dist: probeinterface
+Requires-Dist: scikit-learn
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Requires-Dist: setuptools-scm ; extra == 'dev'
+
+# ephysworking
+
+This repository contains a selection of general scripts by Joe Ziminski
+for working on ephys at the SWC. Once useful features here are
+develloped enough they will be proposed as additions to
+[SpikeInterface](https://github.com/SpikeInterface).
+
+Contact Joe Ziminski on Slack (SWC Users) or at j.ziminski@ucl.ac.uk
