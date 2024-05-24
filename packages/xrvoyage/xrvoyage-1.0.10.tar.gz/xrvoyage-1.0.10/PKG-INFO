@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: xrvoyage
+Version: 1.0.10
+Summary: XR Voyage Python Package
+Author: Peter Styk
+Author-email: peter@neux.io
+Requires-Python: >=3.11.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
