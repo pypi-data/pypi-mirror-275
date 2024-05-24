@@ -1,0 +1,24 @@
+.. -*- coding: UTF-8 -*-
+
+TO DO - New
+=====
+- Update readme.md with new info
+- Establish a project workflow and support model
+- Update todo stuff
+
+
+TO DO - Old
+=====
+
+- document release steps for PyPi
+- images in the column headers
+- hidden columns, selectable on right click on header
+- copy selection to clipboard (text and HTML format)
+- secondary sort column
+- optionally preserve selection on RepopulateList
+- get rid of scrollbar when editing label in icon view
+
+DONE
+====
+
+- find on sort column on keypress (1.0.1)
