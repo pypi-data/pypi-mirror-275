@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: auto-switch-providers
+Version: 0.0.1
+Summary: Auto Switch Providers.
+Home-page: https://github.com/fuongz/auto_switch_providers
+Author: fuongz
+Author-email: hi@phuongphung.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/fuongz/auto_switch_providers/issues
+Project-URL: Source, https://github.com/fuongz/auto_switch_providers
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: certifi==2024.2.2
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: idna==3.7
+Requires-Dist: Jinja2==3.1.4
+Requires-Dist: MarkupSafe==2.1.5
+Requires-Dist: marshmallow==3.21.2
+Requires-Dist: packaging==24.0
+Requires-Dist: PyYAML==6.0.1
+Requires-Dist: requests==2.32.2
+Requires-Dist: urllib3==2.2.1
+
+# Auto Switch Providers
+
+## ©️ License
+
+- [MIT](/LICENSE)
