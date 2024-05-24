@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Chibalotte_Baseball_Predictor_app.egg-info/PKG-INFO
+Chibalotte_Baseball_Predictor_app.egg-info/SOURCES.txt
+Chibalotte_Baseball_Predictor_app.egg-info/dependency_links.txt
+Chibalotte_Baseball_Predictor_app.egg-info/entry_points.txt
+Chibalotte_Baseball_Predictor_app.egg-info/requires.txt
+Chibalotte_Baseball_Predictor_app.egg-info/top_level.txt
