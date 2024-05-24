@@ -1,0 +1,2 @@
+[console_scripts]
+url_scheduler = url_scheduler.scheduler:main
