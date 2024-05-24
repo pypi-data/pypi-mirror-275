@@ -1,0 +1,1 @@
+from .hassa import InstagramSession
