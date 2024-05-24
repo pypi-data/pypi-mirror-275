@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: usdt-wallet-manager
+Version: 0.1
+Summary: A package to fetch and calculate USDT transactions from Etherscan.
+Home-page: https://github.com/pygabo/usdt_wallet_manager
+Author: Jose gabriel guzman
+Author-email: pygabo@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+Requires-Dist: tabulate
+
+# USDT Wallet Manager
+
+A Python package to fetch and calculate USDT transactions from Etherscan.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install usdt_wallet_manager.
+
+```
+pip install usdt_wallet_manager
+```
+
+```
+usdt-wallet --wallet your_wallet_address_here --api_key your_api_key_here
+```
