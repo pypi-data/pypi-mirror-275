@@ -1,0 +1,6 @@
+requests
+typing-extensions
+openai
+
+[openai]
+openai
