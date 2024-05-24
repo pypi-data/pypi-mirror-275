@@ -1,0 +1,15 @@
+spikeinterface
+scipy
+numba
+probeinterface
+scikit-learn
+
+[dev]
+pytest
+pytest-cov
+coverage
+black
+mypy
+pre-commit
+ruff
+setuptools_scm
