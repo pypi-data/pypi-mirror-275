@@ -1,0 +1,2 @@
+[console_scripts]
+deepfacesnap = deepfacesnap.DeepFace:cli
