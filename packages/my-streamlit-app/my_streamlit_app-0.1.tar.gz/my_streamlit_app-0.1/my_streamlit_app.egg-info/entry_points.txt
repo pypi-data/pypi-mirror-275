@@ -1,0 +1,2 @@
+[console_scripts]
+run-my-streamlit-app = my_streamlit_app.app:main
