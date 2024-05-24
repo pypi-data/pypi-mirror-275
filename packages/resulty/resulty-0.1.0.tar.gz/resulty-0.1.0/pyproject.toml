@@ -1,0 +1,83 @@
+[project]
+name = "resulty"
+version = "0.1.0"
+description = "A rust like Result type for Python"
+authors = [{ name = "Rémi Kalbe", email = "me@remi.boo" }]
+requires-python = ">=3.12,<3.13"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Typing :: Typed",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+#
+# Hatch configuration
+#
+
+[tool.hatch.envs.publish]
+detached = true
+dependencies = ["keyring>=25.2.1, <25.3", "keyrings.alt>=5.0.1, <5.1"]
+
+[tool.hatch.envs.hatch-test]
+extra-args = ["--tb=long", "-vv"]
+extra-dependencies = ["pytest-asyncio>=0.23.6, <0.24"]
+
+[tool.hatch.envs.hatch-static-analysis]
+dependencies = ["ruff>=0.4.4, <0.5"]
+
+[[tool.hatch.envs.hatch-test.matrix]]
+python = ["3.12"]
+
+[tool.hatch.envs.hatch-test.scripts]
+run = "pytest{env:HATCH_TEST_ARGS:} {args}"
+run-cov = "coverage run -m pytest{env:HATCH_TEST_ARGS:} {args}"
+cov-combine = "coverage combine && coverage html && coverage xml"
+cov-report = "coverage report"
+
+#
+# Ruff configuration
+#
+
+[tool.ruff]
+line-length = 100
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pixi",
+    ".pyenv",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages",
+    "venv",
+]
+
+[tool.ruff.format]
+docstring-code-format = true
+docstring-code-line-length = 30
