@@ -1,0 +1,29 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyyield"
+version = "0.1.0"
+license = { file = "LICENSE" }
+description = "Simple C++ ::std::this_thread::yield() call for Python, when sleep() calls have unknown effects."
+authors = [{name = "Rasmus Larsson"}]
+readme = "README.md"
+classifiers = [
+    'Intended Audience :: Developers',
+    'Programming Language :: C++',
+    'Topic :: Software Development',
+    'Operating System :: Unix',
+    'Operating System :: POSIX',
+    'Operating System :: Microsoft :: Windows',
+    'Operating System :: MacOS',
+]
+
+[project.urls]
+homepage = "https://github.com/Tirine/pyyield"
+documentation = "https://github.com/Tirine/pyyield"
+source = "https://github.com/Tirine/pyyield"
+download = "https://github.com/Tirine/pyyield"
+tracker = "https://github.com/Tirine/pyyield/issues"
+"release notes" = "https://github.com/Tirine/pyyield/releases"
