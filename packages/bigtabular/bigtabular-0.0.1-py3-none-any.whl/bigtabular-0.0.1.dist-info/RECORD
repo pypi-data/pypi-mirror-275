@@ -1,0 +1,11 @@
+bigtabular/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+bigtabular/_modidx.py,sha256=bjbp_WXhbxYad-wOqhhK36QUBQH-xrobyqQC5bM8g2Q,11929
+bigtabular/core.py,sha256=Pzb70E7b-lg9QydbC-R11gSsCjyKVvCEZUzNietwlAM,20630
+bigtabular/data.py,sha256=__FD0RFA8yZ-pDv2wtvY5ucVDpEl1WWqzXOhDjFxLWw,2890
+bigtabular/learner.py,sha256=9M55ME_Z6_eJ6qMp_47Qb7MIyLm517pb3u5UR0xLn84,3348
+bigtabular-0.0.1.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+bigtabular-0.0.1.dist-info/METADATA,sha256=MsKPz3Rl7J1Egviv6XaicJRfPMOK92gObsbZqZxSuRM,7162
+bigtabular-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bigtabular-0.0.1.dist-info/entry_points.txt,sha256=IUEPCh1CGFFSZt3umUDeo0_8ZsGjcoku5y2k475pRqQ,42
+bigtabular-0.0.1.dist-info/top_level.txt,sha256=FVqoqDrVE2qa6JrG6v53Gfsmqc4DUrT74koX6gYT5go,11
+bigtabular-0.0.1.dist-info/RECORD,,
