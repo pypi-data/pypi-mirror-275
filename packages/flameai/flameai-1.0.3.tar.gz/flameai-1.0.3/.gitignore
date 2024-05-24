@@ -1,0 +1,3 @@
+.DS_Store
+/dist/*
+/src/flameai/__pycache__/*
