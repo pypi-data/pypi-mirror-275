@@ -1,0 +1,7 @@
+boto3
+pandas
+python-dotenv
+requests
+pyarrow
+typing-extensions
+s3fs>=2023.3.0
