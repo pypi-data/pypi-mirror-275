@@ -1,0 +1,16 @@
+micro_manager/__init__.py,sha256=ScmKD0-xrl0lIQhdfnDfhdGk1rcSWOAVXAf3mebhxCk,67
+micro_manager/config.py,sha256=IDGImR0VW7O5T7hJs3DKXFc7qhKuLJXzNvZhmZTVVIY,15755
+micro_manager/domain_decomposition.py,sha256=XHl168lK_J52S5BsSjY9Y6burNSvLFSbIGkVeadgk0g,3723
+micro_manager/interpolation.py,sha256=BAPvxH4Jry8owost9TXIgNOhsW4xXozHBtHK5b5Ood4,2860
+micro_manager/micro_manager.py,sha256=KDZRhoey7btWuCq-NUBlvyvWJbhP51CVwTxVkyX56Ao,39490
+micro_manager/micro_simulation.py,sha256=QF9r1opvoUqXZCaz5LJzdmhhYC8dCWCa5P92d-5Qw-k,966
+micro_manager/adaptivity/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+micro_manager/adaptivity/adaptivity.py,sha256=TJD7cKO7_Edw3g9PyZty7jq_9FRX2J1nJ2l7ywg4vDQ,11784
+micro_manager/adaptivity/global_adaptivity.py,sha256=_7Kxsc2DTf6LaWtX6ynPlcNWsmQ7Tn7oLk4a_89LGLs,15809
+micro_manager/adaptivity/local_adaptivity.py,sha256=ujWfd2skfdyP6UUQBxRDZLd7g7WmCW2PFM_-uuO-2Zg,5559
+micro_manager_precice-0.5.0rc5.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+micro_manager_precice-0.5.0rc5.dist-info/METADATA,sha256=jASd9qUAY4tMsDpKkiVhqIb7zijPdu0rv04rWPkb2fA,2367
+micro_manager_precice-0.5.0rc5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+micro_manager_precice-0.5.0rc5.dist-info/entry_points.txt,sha256=9zA1m8ymPWV6QbW1t3pnOTcnXdcZhdWra85fsUDlwPs,75
+micro_manager_precice-0.5.0rc5.dist-info/top_level.txt,sha256=0AI0WYz7RZDEuhr3X-qCei8EE9UqRVYmdE_CwHbU12E,14
+micro_manager_precice-0.5.0rc5.dist-info/RECORD,,
