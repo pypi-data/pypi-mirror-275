@@ -1,0 +1,12 @@
+autodistill
+openai
+tqdm
+torch
+
+[dev]
+flake8
+black==22.3.0
+isort
+twine
+pytest
+wheel
