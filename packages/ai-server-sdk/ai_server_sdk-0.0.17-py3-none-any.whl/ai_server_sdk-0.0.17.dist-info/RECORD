@@ -1,0 +1,15 @@
+setup.py,sha256=x3MssWjfxACQhIGCltXHmmLcVz2Gyq6BV7oy2-OvoDQ,689
+ai_server/__init__.py,sha256=DF-ZPHowibnH_c9hdWsPiB7mHrdkD3_RLcVeCDM8f3o,1615
+ai_server/py_client/gaas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ai_server/py_client/gaas/database.py,sha256=4qQg_g9GjEr2ZvrL7Cjw1WCNE4TAXHfNkKuQiFvUc4E,5938
+ai_server/py_client/gaas/function.py,sha256=FW0hIUO9RXjWDgX4ZaNBivvU6nhnvBIxCFRwsm6cHG4,1368
+ai_server/py_client/gaas/model.py,sha256=wYaX5CaVslSjjWOfAVTdSXVuP3qrbzO8kap86DJYM34,11537
+ai_server/py_client/gaas/storage.py,sha256=B7JmiNadcLGgzJUIWL9HqAAH16llUf11hpFKxO8P8BM,3809
+ai_server/py_client/gaas/vector.py,sha256=SrbnaBzyJ0GJKZB7r-tdeHRU58Rm-msM21ZPTWc_iJo,6751
+ai_server/server_resources/server_client.py,sha256=ADFx5ug4ZPjYrLpk0gzjlj3OFPc2OvV4T3DxMoLNgpc,16584
+ai_server/server_resources/server_proxy.py,sha256=wLNrNegZD3IIowQhOliRZUirh6kvxmfZXMif7uuimTw,9505
+ai_server_sdk-0.0.17.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+ai_server_sdk-0.0.17.dist-info/METADATA,sha256=p0uROek8Wm6YvEhuEh9R-aI9V5jdlYs6FbF1pYsRFhA,8553
+ai_server_sdk-0.0.17.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ai_server_sdk-0.0.17.dist-info/top_level.txt,sha256=wEtAqUGttRPjkqivLt3C0OcL0d-sk88O8kHGKiSed4w,16
+ai_server_sdk-0.0.17.dist-info/RECORD,,
