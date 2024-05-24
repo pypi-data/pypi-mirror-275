@@ -1,0 +1,2 @@
+[console_scripts]
+mpb = matplotboard.__main__:main
