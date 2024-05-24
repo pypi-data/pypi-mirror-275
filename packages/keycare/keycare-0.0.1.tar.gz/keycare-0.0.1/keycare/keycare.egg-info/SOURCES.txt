@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+keycare/keycare.egg-info/PKG-INFO
+keycare/keycare.egg-info/SOURCES.txt
+keycare/keycare.egg-info/dependency_links.txt
+keycare/keycare.egg-info/requires.txt
+keycare/keycare.egg-info/top_level.txt
