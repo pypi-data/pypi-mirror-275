@@ -1,0 +1,5 @@
+py_eigentrust/__init__.py,sha256=b7zufefX78GNXZFFNt0zKnlo6YD0uOdjYLCfXzHXqjo,42
+py_eigentrust/eigentrust_client.py,sha256=FzrlQbd2y-Sx7MwhIUFMsJ86b-hjXgsN5UflKMgd_bs,5476
+py_eigentrust-0.0.1.dist-info/METADATA,sha256=OYpOKFhp-gysZ6Hu877BiuuOKX36Qn-GpeZbDg2IheI,3530
+py_eigentrust-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+py_eigentrust-0.0.1.dist-info/RECORD,,
