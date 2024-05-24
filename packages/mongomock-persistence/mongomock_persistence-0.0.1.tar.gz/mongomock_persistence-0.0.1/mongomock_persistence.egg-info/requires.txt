@@ -1,0 +1,6 @@
+pymongo
+mongomock
+
+[test]
+flake8
+pytest
