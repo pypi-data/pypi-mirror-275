@@ -1,0 +1,9 @@
+jinja2
+click
+
+[dev]
+pytest
+isort
+pytest-cov
+sphinx-rtd-theme-github-versions
+importlib-metadata
