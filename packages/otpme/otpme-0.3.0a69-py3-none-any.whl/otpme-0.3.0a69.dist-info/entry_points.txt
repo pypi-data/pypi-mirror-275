@@ -1,0 +1,2 @@
+[console_scripts]
+otpme-agent = otpme.command:otpme_commands
