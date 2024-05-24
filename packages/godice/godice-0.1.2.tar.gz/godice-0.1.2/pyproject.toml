@@ -1,0 +1,27 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "godice"
+version = "0.1.2"
+description = "A Python API for GoDice"
+authors = [
+    {name = "Guy Levi", email = "guyguylevi60@gmail.com"},
+    {name = "Anton Ptashnik", email = "iavtomator@gmail.com"},
+]
+license = {file = "LICENSE.md"}
+classifiers = [
+    "Framework :: AsyncIO",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+]
+readme = "README.md"
+dependencies = [
+    "bleak >=0.20.2",
+]
+requires-python = ">=3.6"
+
+[project.urls]
+Home = "https://github.com/ParticulaCode/GoDicePythonAPI"
