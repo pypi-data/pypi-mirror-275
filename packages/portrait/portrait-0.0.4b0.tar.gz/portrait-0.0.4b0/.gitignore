@@ -1,0 +1,6 @@
+
+.DS_Store
+__pychache__
+_build
+*.pyc
+dev.ipynb
