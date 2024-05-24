@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: data_preprocessing_library_sevvalcucuk_asudesozcu
+Version: 1.1.6
+Summary: A comprehensive toolkit for data processing including handling dates, encoding categorical variables, handling missing values, outliers, and text cleaning.
+Home-page: https://github.com/clavves/data_preprocessing_library_sevvalcucuk_asudesozcu
+Author: Şevval Cücük, Asude Sözcü
+Author-email: sevcck@gmail.com sozcuasude@gmail.com
+Keywords: data processing,data cleaning,date handling,encoding,imputation,outlier handling,text cleaning
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.7
+Requires-Dist: pandas>=1.1.0
+Requires-Dist: numpy>=1.19.0
+Requires-Dist: python-dateutil>=2.8.0
+Requires-Dist: scikit-learn>=0.24.0
+Requires-Dist: nltk>=3.5
