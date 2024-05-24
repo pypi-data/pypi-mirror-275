@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: watch-run
+Version: 0.0.5
+Summary: watch_run project
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# My watch_run Project
+
+This is a plugin only for Python that enables easy monitoring of parameter changes without needing to modify the source code.
+
+What is particularly noteworthy is that it allows for monitoring of parameter changes through class objects in a production environment without affecting the runtime speed(just like print). 
+
+It is especially useful for streamlining the execution process and monitoring for bugs in a production environment.
+
+Run 'watch_run main.py' in the same place where you previously run 'python3 main.py'. This is the only command.
+
+## Installation
+
+```sh
+pip install watch_run
+```
+
+## Usage
+
+```sh
+watch_run main.py
+```
+
+## Features
+
+Monitor Ordinary Variables: Free of charge. Provides monitoring at 10-15 times the normal runtime speed.
+
+Monitor through Class Objects: Paid feature. Enables monitoring in a production environment without impacting performance.
+You can purchase this feature through the application interface.
+
+It prints the call stack.
+
+
+
+
+
+
