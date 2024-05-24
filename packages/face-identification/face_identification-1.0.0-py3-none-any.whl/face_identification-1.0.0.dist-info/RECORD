@@ -1,0 +1,7 @@
+face_identification/__init__.py,sha256=aALMZdXBrQllwUVJuypPpIqoSoscIwjoxgznBvZCWIw,141
+face_identification/create_face_bank.py,sha256=_ftNgX3DyWO5N9vx8YpfTtbKxSpOQdjy4Va0Pv25IJI,1147
+face_identification/face_identification.py,sha256=fbMsKmCMoY6XYDINOQH-HM2-DItEIekfZuKmB8IDrXQ,3378
+face_identification-1.0.0.dist-info/METADATA,sha256=S9BO_8XJ1P-uSO6rB2izs3TUKP9hgzItJhZAtoi7diA,312
+face_identification-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+face_identification-1.0.0.dist-info/top_level.txt,sha256=cDAaleDHgCMBBeO7rhn-eQR8iRw-ImbYu7k2IKd9riw,20
+face_identification-1.0.0.dist-info/RECORD,,
