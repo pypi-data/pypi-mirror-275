@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: wwpdb.apps.content_ws_server
+Version: 0.9.2
+Summary: wwPDB remote Content WS server
+Home-page: https://github.com/wwPDB/py-wwpdb_apps_content_ws_server
+Author: Ezra Peisach
+Author-email: ezra.peisach@rcsb.org
+License: Apache 2.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.4
+License-File: LICENSE
+Requires-Dist: mmcif
+Requires-Dist: wwpdb.io
+Requires-Dist: wwpdb.utils.config
+Requires-Dist: wwpdb.utils.db
+Requires-Dist: wwpdb.utils.detach
+Requires-Dist: wwpdb.utils.message_queue
+Requires-Dist: wwpdb.utils.ws_utils
+Requires-Dist: onedep-biocuration-api
+Requires-Dist: oslo.concurrency
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == "dev"
+Provides-Extra: test
+Requires-Dist: coverage; extra == "test"
+Provides-Extra: server
+Requires-Dist: webob; extra == "server"
+
+See:  README.md
