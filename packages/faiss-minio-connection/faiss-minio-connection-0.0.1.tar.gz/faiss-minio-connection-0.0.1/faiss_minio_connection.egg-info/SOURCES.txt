@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+faiss_minio/__init__.py
+faiss_minio/faiss_minio.py
+faiss_minio_connection.egg-info/PKG-INFO
+faiss_minio_connection.egg-info/SOURCES.txt
+faiss_minio_connection.egg-info/dependency_links.txt
+faiss_minio_connection.egg-info/requires.txt
+faiss_minio_connection.egg-info/top_level.txt
