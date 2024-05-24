@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: fulfill
+Version: 0.0.1
+Summary: Manage your project. Fulfill your duties.
+Author-Email: =?utf-8?q?Timoth=C3=A9e_Mazzucotelli?= <dev@pawamoy.fr>
+License: ISC
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Project-URL: Homepage, https://pawamoy.github.io/fulfill
+Project-URL: Documentation, https://pawamoy.github.io/fulfill
+Project-URL: Changelog, https://pawamoy.github.io/fulfill/changelog
+Project-URL: Repository, https://github.com/pawamoy/fulfill
+Project-URL: Issues, https://github.com/pawamoy/fulfill/issues
+Project-URL: Discussions, https://github.com/pawamoy/fulfill/discussions
+Project-URL: Gitter, https://gitter.im/fulfill/community
+Project-URL: Funding, https://github.com/sponsors/pawamoy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# fulfill
+
+[![ci](https://github.com/pawamoy/fulfill/workflows/ci/badge.svg)](https://github.com/pawamoy/fulfill/actions?query=workflow%3Aci)
+[![documentation](https://img.shields.io/badge/docs-mkdocs-708FCC.svg?style=flat)](https://pawamoy.github.io/fulfill/)
+[![pypi version](https://img.shields.io/pypi/v/fulfill.svg)](https://pypi.org/project/fulfill/)
+[![gitpod](https://img.shields.io/badge/gitpod-workspace-708FCC.svg?style=flat)](https://gitpod.io/#https://github.com/pawamoy/fulfill)
+[![gitter](https://badges.gitter.im/join%20chat.svg)](https://app.gitter.im/#/room/#fulfill:gitter.im)
+
+Manage your project. Fulfill your duties.
+
+## Installation
+
+With `pip`:
+
+```bash
+pip install fulfill
+```
+
+With [`pipx`](https://github.com/pipxproject/pipx):
+
+```bash
+python3.8 -m pip install --user pipx
+pipx install fulfill
+```
