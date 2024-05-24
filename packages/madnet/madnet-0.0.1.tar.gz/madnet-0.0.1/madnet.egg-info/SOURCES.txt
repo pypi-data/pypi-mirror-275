@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+madnet/__init__.py
+madnet/nn.py
+madnet/tensor.py
+madnet.egg-info/PKG-INFO
+madnet.egg-info/SOURCES.txt
+madnet.egg-info/dependency_links.txt
+madnet.egg-info/requires.txt
+madnet.egg-info/top_level.txt
