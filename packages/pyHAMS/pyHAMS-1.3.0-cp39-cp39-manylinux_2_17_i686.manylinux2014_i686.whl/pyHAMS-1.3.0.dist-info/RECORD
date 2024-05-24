@@ -1,0 +1,17 @@
+pyHAMS-1.3.0.dist-info/WHEEL,sha256=ZHzm9oHdYvMy7ktFtELwJx317aaqMTiLr3TEniwVHtg,144
+pyHAMS-1.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyHAMS-1.3.0.dist-info/top_level.txt,sha256=s8fiiFg3J61-1ZrHFLhgv6ZwROhRxc9J2EZkbmiGARU,41
+pyHAMS-1.3.0.dist-info/RECORD,,
+pyHAMS-1.3.0.dist-info/METADATA,sha256=fzdTF_0oF8BLzhzGmCbxecQxXnZRRH519nOmjNWZJdE,3517
+pyHAMS.libs/libquadmath-e2ac3af2.so.0.0.0,sha256=jfMFeZZPrFzTE93qT655xOMT-94XAlANEB1aTfOvv18,362301
+pyHAMS.libs/libgfortran-a8535147.so.5.0.0,sha256=Q2DWESDD9Zo_A8duz8t6a0c2x-UZkTMzR_ThvJVtG7k,2491809
+pyHAMS.libs/libgomp-65f46eca.so.1.0.0,sha256=Zagab9rFQS08rPfVDR82oGJr9kuKwgrJok-GGlFBdCo,172293
+pyhams/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyhams/pyhams.py,sha256=7xWLe1xk5gkZqr3O7kaJNAyiQEBPU-UxJjLO_NRTF5M,13980
+pyhams/_hams.cpython-39-i386-linux-gnu.so,sha256=2yBlnQlstBtoblj-HtNR0XZu5FthYHOepfj7eh3TIdI,598721
+meson_build/meson-private/pycompile.py,sha256=luoDgLqyncSpqFbsBC5fRSTrm8oJlZaAGvWOl1_trqc,1813
+meson_build/meson-private/sanitycheckf.exe,sha256=VEjVQqwkmCDUgrk88ORQW63gL8VzG9OjFcZCs4jP5sA,19672
+meson_build/meson-private/sanitycheckc.exe,sha256=KgWARPjXbBCxVf3FtE7EJs_FoXAf1AH6-RlPVnzIL70,15244
+meson_build/meson-private/cmd_line.txt,sha256=hX-Tiwu5LGeDNDu5gdk8r7OdD2vrluE6f3MTkc0uesI,99
+meson_build/pyhams/_hams.cpython-39-i386-linux-gnu.so,sha256=zIMHgGqHDNKVyQhGOXBbNAjLfFWnii-DcIQylHRxEbY,598721
+meson_build/meson-logs/meson-log.txt,sha256=JJ18MMo0f34C9jgeJqjsVvsSmGLVo7iYj35LM2GsJ6E,12899
