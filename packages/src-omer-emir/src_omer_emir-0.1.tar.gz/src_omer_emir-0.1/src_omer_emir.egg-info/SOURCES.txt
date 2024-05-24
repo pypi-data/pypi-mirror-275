@@ -1,0 +1,6 @@
+setup.py
+src_omer_emir.egg-info/PKG-INFO
+src_omer_emir.egg-info/SOURCES.txt
+src_omer_emir.egg-info/dependency_links.txt
+src_omer_emir.egg-info/requires.txt
+src_omer_emir.egg-info/top_level.txt
