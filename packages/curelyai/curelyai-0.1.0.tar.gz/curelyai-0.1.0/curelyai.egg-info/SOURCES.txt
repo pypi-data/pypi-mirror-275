@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+curelyai/__init__.py
+curelyai/chat.py
+curelyai.egg-info/PKG-INFO
+curelyai.egg-info/SOURCES.txt
+curelyai.egg-info/dependency_links.txt
+curelyai.egg-info/requires.txt
+curelyai.egg-info/top_level.txt
+tests/__init__.py
+tests/test_chat.py
