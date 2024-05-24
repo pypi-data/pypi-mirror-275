@@ -1,0 +1,9 @@
+muko/__init__.py,sha256=CCRGa1csLmHKI_CslhtoPnqhEJA3mszIsRjACQuz5iE,20
+muko/cmuko.cp38-win_amd64.pyd,sha256=OTYWDFS_569McrskqwJazL6-26zfdbKnaoBimvOCklU,989696
+muko/cmuko.cpython-38-darwin.so,sha256=KTsTCi-Aa4Qr33W1jhnY1NlbbNzw3n9mnt7Mx4d3zyg,1533192
+muko/font/default.otf,sha256=ZMqD7VMsbmTwwTRN4d72gVQLIekvjl5SSCvxs8-O4GA,2082964
+muko-2.53.dist-info/LICENSE,sha256=RwagnXR-4KxFgkvsh5PWaPhlca1CH_BNf-ozi5vp0fw,1074
+muko-2.53.dist-info/METADATA,sha256=FvHb0x8IaYPfwhDh1ybN5sZOQja0gcpymbaSfBCY3Qc,1355
+muko-2.53.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+muko-2.53.dist-info/top_level.txt,sha256=fp2J4q9iyOPhu1UrXQqzVFSagtatDPDXHXAFWfVJk2M,5
+muko-2.53.dist-info/RECORD,,
