@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: commute_agci
+Version: 0.6.2
+Summary: commute_agci is a Python package for analyzing commute data.
+Home-page: https://github.com/2222012kishimoto/dstokuron/tree/main
+Download-URL: https://github.com/2222012kishimoto/dstokuron/tree/main
+Author: Udai kishimoto
+Author-email: s2222012@stu.musashino-u.ac.jp
+Maintainer: Udai kishimoto
+Maintainer-email: s2222012@stu.musashino-u.ac.jp
+License: MIT
+Keywords: commute_agci commute analysis data visualization
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+
+## プロジェクト概要
+
+このプロジェクトは、「commute_agci.py」という名前で、通勤時間と距離を記録、分析、可視化するためのPythonライブラリです。
+
+**主な機能**
+
+* 通勤時間と距離の記録 (移動手段、時間、距離などを記録)
+* 通勤時間の分析 (平均通勤時間、移動手段ごとの平均時間など)
+* 通勤時間の可視化 (グラフ、図表など)
+* 距離分析 (移動手段ごとの平均距離など) (**オプション機能**)
+
+**利点**
+
+* 通勤時間のパターンを理解し、時間管理を改善するのに役立ちます。
+* 異なる移動手段の効率を比較し、最適な移動手段を選択するのに役立ちます。
+* 通勤データに基づいて、交通インフラや政策の改善に役立ちます。
+
+**対象ユーザー**
+
+* 通勤時間と距離を記録したい個人
+* 通勤データを分析したい企業や自治体
+* 通勤データに基づいた研究を行う研究者
+
+**技術スタック**
+
+* Python
+* Pandas
+* Matplotlib
+* Geopy (**オプション機能**)
+
+**今後の予定**
+
+* 機能の追加 (移動経路の可視化、CO2排出量の計算など)
+* モバイルアプリの開発
+* APIの提供
+
+## 利用方法
+
+このライブラリを使用するには、以下の手順に従ってください。
+
+1. ライブラリをインストールする:
+
+```bash
+pip install commute_agci
+```
+
+2. 以下のコードを実行して、ライブラリをインポートします。
+
+```python
+import commute_agci as ca
+```
+
+3. ライブラリの機能を使用します。
+
+```python
+# 通勤時間の記録
+ca.record_commute_data('08:00', '08:45', 'car')
+
+# 通勤時間の分析
+avg_duration, grouped_data = ca.analyze_commute_data()
+print(f"平均通勤時間: {avg_duration:.2f} 分")
+print(f"移動手段ごとの平均通勤時間:")
+print(grouped_data)
+
+# 通勤時間の可視化
+ca.plot_commute_data(data=grouped_data, x_axis='移動手段', y_axis='時間', title='移動手段ごとの平均通勤時間')
+
+# 距離分析 (オプション機能)
+ca.analyze_commute_distance_and_plot()
+```
+
+## ライセンス
+
+このライブラリは、MITライセンスでライセンスされています。
+
+## 関連資料
+なし
+## 謝辞
+
+このプロジェクトは、以下のオープンソースプロジェクトの貢献者に感謝しています。
+
+* Pandas
+* Matplotlib
+* Geopy
+
+## 連絡先
+
+このプロジェクトに関するご質問やご意見は、以下のメールアドレスまでお送りください。
+
