@@ -1,0 +1,13 @@
+stactask/__init__.py,sha256=v9j4Hn0C7IdYIQ8Ilm6Nm8xXDY0kl27EBqm3hgKZt9M,271
+stactask/asset_io.py,sha256=c7VLe2sSGALr2LDAApPatPIf-da3455yXG9O-nZFNac,4262
+stactask/config.py,sha256=BRTD_ISas0fW6ZMvLhWNlY5JW3SLJC2vNrtAyVLviN4,133
+stactask/exceptions.py,sha256=DZZNfzsNE2NjzCHEnWB-nv639odfEPfTEklro8ZDY2c,289
+stactask/logging.py,sha256=PYy_x7Wf8F8pHc5VDZEyAbRjcOP4JWtK5WmXR2cHRPc,633
+stactask/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stactask/task.py,sha256=eANtAErtt1FxcOAxt-lKu6Z_uNNjHsvj825N_xwlyU8,20745
+stactask/utils.py,sha256=apd0-WT_FqpIpy9_cOAVhOLJkaHNiHf6vSzCe6KzrTk,1352
+stactask-0.5.1.dist-info/LICENSE,sha256=Vlih-f7XPg3ufmUbvdrh8Hf3swIUDQdW4c-QZvwB2AM,11341
+stactask-0.5.1.dist-info/METADATA,sha256=T6uxQmwNZLcC5qUKB85D8pKKX_ZkdbJwCS0xFi4x4zQ,12610
+stactask-0.5.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+stactask-0.5.1.dist-info/top_level.txt,sha256=hVs8gaW_ujQcjSHvMKEpDyt1fp_Hl5S58rgHUhnvSuY,9
+stactask-0.5.1.dist-info/RECORD,,
