@@ -1,0 +1,14 @@
+torchanalyzer/__init__.py,sha256=lsbOVUCW7qHPJC2bmhTIc7vUHSOEPqX0NhDu1VxLhgI,176
+torchanalyzer/base.py,sha256=fGaOpbFrScaRpjHk7lIZVO1GcZEMZhN4T7Ayc7-fd4I,1521
+torchanalyzer/flops.py,sha256=dpql3GC2CwvRRSDtZQ9TTsmYkfqmAbYg3W50g5-6FBY,3414
+torchanalyzer/flops_kernel.py,sha256=BOfWh4RKQ13qP5V3_RGBTEZs-zVdms5USqRm-ceQ99Q,9481
+torchanalyzer/in_out.py,sha256=pZ5odyDUuVar7f6ZYloGnp-PXmySeHdj_wVSffHYu1w,3252
+torchanalyzer/memops_kernel.py,sha256=U9Tj-aCCp-DvEl1fhth9CRoNRyJi52NeIrmrHnZ2pMo,1676
+torchanalyzer/time_mem.py,sha256=TlAkOWwlgL87qcEb9m01vc2RR9ukKNd7PrqWEFRo2Ss,7955
+torchanalyzer/utils.py,sha256=H98YttWzhPOBnJ3ZBwpCCYyY4OL1rTTIxBrP0CR6rpg,1336
+torchanalyzer/viser.py,sha256=tDnsr6mnTWgJqa7x3GIj3qKWL1H43rj1QinAJrmvppo,5683
+torch_analyzer-1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+torch_analyzer-1.3.dist-info/METADATA,sha256=-wZsWHAQccyjyPxdLWSBvJUs4XHb9ltfSrma9RRI8qI,2813
+torch_analyzer-1.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+torch_analyzer-1.3.dist-info/top_level.txt,sha256=lDxu_G842m0zoy_FN2zoLKN44Av_PSdxQY9M3DSEg9E,29
+torch_analyzer-1.3.dist-info/RECORD,,
