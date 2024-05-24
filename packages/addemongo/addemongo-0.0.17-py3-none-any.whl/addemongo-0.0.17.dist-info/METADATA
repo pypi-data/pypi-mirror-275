@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: addemongo
+Version: 0.0.17
+Summary: Private mongo repository for Addebitare company
+Author-Email: Gabriel Silva <gabrieltkdnobrega63@gmail.com>, Victor Gabriel <victordeonroyale@gmail.com>
+Maintainer-Email: Gabriel Silva <gabrieltkdnobrega63@gmail.com>, Victor Gabriel <victordeonroyale@gmail.com>
+License: All Rights Reserved.
+        
+        (c) Copyright 2024 Gabriel Nobrega, Victor Gabriel and Addebitare Team, all rights reserved.
+Project-URL: Company, https://addebitare.com.br
+Project-URL: Repository, https://github.com/biellSilva/addemongo.git
+Project-URL: Changelog, https://github.com/biellSilva/addemongo/blob/main/CHANGELOG.md
+Requires-Python: >=3.11
+Requires-Dist: pymongo>=4.7.1
+Requires-Dist: motor>=3.4.0
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: motor-types>=1.0.0b4
+Description-Content-Type: text/markdown
+
+# addemongo
+
+# Authors 
+
+- [Gabriel Nobrega](gabrieltkdnobrega63@gmail.com)
+- [Victor Gabriel Deon](victordeonroyale@gmail.com)
