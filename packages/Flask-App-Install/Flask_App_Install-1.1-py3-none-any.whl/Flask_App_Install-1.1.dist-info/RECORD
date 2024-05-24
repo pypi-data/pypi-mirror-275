@@ -1,0 +1,12 @@
+Flask_App_Install-1.1.data/data/src/app.py/app.py,sha256=zMpH8oNOR_qWbYv8epR3CVlOGfCSS1TEwXGDQm4DTO8,2576
+Flask_App_Install-1.1.data/data/src/writefile_app.py/writefile_app.py,sha256=dxESVqjKn1JRwcSUDzfa27nJnrTPrZ89t57OAdxvEKs,337
+Flask_App_Install-1.1.data/scripts/run.sh,sha256=A17vypiI1-MGzuG9K0zbxl5mfLio-97InsrnhM_q83Y,378
+Flask_App_Install-1.1.data/scripts/setup.sh,sha256=86uY7wz4lAjlqzt9EDKmBR8bdJ_VyqukoQFvOu9UuYQ,209
+src/__init__.py,sha256=NJ5uNIWItJUHCy-FkX49uXmq8lmpe64QT0rG31vL7Gg,116
+src/app.py,sha256=zMpH8oNOR_qWbYv8epR3CVlOGfCSS1TEwXGDQm4DTO8,2576
+src/writefile_app.py,sha256=dxESVqjKn1JRwcSUDzfa27nJnrTPrZ89t57OAdxvEKs,337
+Flask_App_Install-1.1.dist-info/LICENCE,sha256=XWS4SkiORFuzv5b5eWM6RERQj1DikLNnOr95lWU5Alo,1083
+Flask_App_Install-1.1.dist-info/METADATA,sha256=-KIrShOewXwbTnpA-NaG0d0-47wfJOybnYP583QEiH8,1026
+Flask_App_Install-1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+Flask_App_Install-1.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+Flask_App_Install-1.1.dist-info/RECORD,,
