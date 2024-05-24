@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+picopy/__init__.py
+picopy/picopy.py
+picopy.egg-info/PKG-INFO
+picopy.egg-info/SOURCES.txt
+picopy.egg-info/dependency_links.txt
+picopy.egg-info/requires.txt
+picopy.egg-info/top_level.txt
+tests/test_package.py
