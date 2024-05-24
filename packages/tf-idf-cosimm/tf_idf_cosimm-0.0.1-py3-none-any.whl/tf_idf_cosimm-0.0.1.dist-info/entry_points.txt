@@ -1,0 +1,2 @@
+[nbdev]
+tf_idf = tf_idf._modidx:d
