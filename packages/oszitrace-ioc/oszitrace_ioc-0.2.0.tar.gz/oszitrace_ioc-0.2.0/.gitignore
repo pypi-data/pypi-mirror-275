@@ -1,0 +1,9 @@
+*~
+\#*
+.\#*
+*.pyc
+*.egg-info
+src/oszitrace/_version.py
+__pycache__
+*.orig
+.coverage

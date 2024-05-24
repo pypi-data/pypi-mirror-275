@@ -1,0 +1,282 @@
+OsziTrace -- EPICS IOC for Retrieving Oscilloscope Traces
+=========================================================
+
+[[_TOC_]]
+
+Overview
+--------
+
+Oszitrace exposes the data traces (i.e. digitized signals) of an attached
+oscilloscope. For a [supported device](#supported-devices) access to the
+main data is offered for each channel, as well as a device-wide trigger
+arming functionality.
+
+The IOC is deliberately kept simple and does not go into details about
+oscilloscope configuration. The generat strategy if you require specific
+setup and behavior control to pass an experiment-specific 
+[initialization talk](#initialization-talk) routine to the IOC on startup.
+
+We advise you to consider keeping a number of those in stock for your most
+common usage patterns.
+
+Quick Start
+-----------
+
+
+### Obtaining
+-------------
+
+There are three ways how you can get Oszitrace up & running at your site:
+
+ - You can download it straigt off PyPI and run it from the command line:
+   ```
+   $ pip install oszitrace-ioc
+   $ oszitrace-ioc [...]
+   ```
+
+ - You can download it off Gitlab and install it locally:
+   ```
+   $ git clone oszitrace
+   $ pip install -e ./oszitrace
+   $ oszitrace-ioc [...]
+   ```
+   
+ - ...or you can use the pre-built image off Gitlab with Docker or Podman:
+   ```
+   $ podman run -ti --rm registry.gitlab.com/kmc3-xpp/oszitrace:latest [...]
+   ```
+   
+### Running & Customizing
+
+Most of Oszitrace's behavior customized through environment variables.
+Currently there are no command line parameters.
+
+Here is a list of variables that Oszitrace currently reacts to:
+
+- `OSZI_EPICS_PREFIX` the EPICS prefix the IOC will use
+- `OSZI_NAME` the "name" of the oscilloscope device; Oszitrace is, in
+  principle, designed to run many different instances within the same
+  network, if you have the need for it. By default, the EPICS
+  prefix of each instance will be of the form `{prefix}:{name}`,
+  with `{prefix}` being used from `OSZI_EPICS_PREFIX` (see above),
+  and `{name}` being the last component of the module providing
+  the [dialogue object](#supported-devices). Sometimes this is not
+  enough, though -- e.g. when you have several devices of the same
+  kind that you want to use. `OSZI_NAME` allows you to override
+  the `{name}` component of the prefix.
+- `OSZI_INIT_TALK` this should contain the path of an
+  [init-talk](#initialization-talk) file that will be fed to the 
+  device upon IOC startup.
+- `OSZI_DIALOGUE` this should contain a module / class specification
+  of the form `[oszitrace.]{module}[:{class}]`. Here, the `{module}`
+  part refers to a Python module available within the system
+  for Oszitrace to use. If `{module}` is a single-name (i.e. contains
+  no dot `.`), and is not found, `oszitrace.{module}` is also tried
+  (e.g. `oszitrace.lecroy` instead of just `lecroy`).
+  The dialogue object within that module is expected to be called
+  `Dialogue`, and be compatible with the
+  [`Dialogue` device access API](#device-access-api). This can
+  be overridden by the `{class}` part of the dialogue specification.
+  For example: `OSZI_DIALOGUE=oszitrace.lecroy:LecroyDialogue`.
+- `OSZI_LOG_LEVEL` one of `"ERROR"`, `"WARNING"`, `"INFO"` or
+  `"DEBUG"`.
+  
+There are also variables intended for specific dialogue types
+(e.g. for the [built-in simulator](#built-in-simulator).
+
+
+The EPICS IOC Interface
+-----------------------
+
+Oszitrace exports the following EPICS variables:
+
+- `{prefix}:{name}:arm` if anything is written here, and the device
+  is in any kind of triggered-mode, the trigger is armed and ready
+  for a new measurement.
+- `{prefix}:{name}:{channel}:signal` the oscilloscope sampling data
+  (a floating-point array)
+- `{prefix}:{name}:{channel}:xaxis` the axis that corresponds to the dataw
+  (also as a floating-point array)
+- `{prefix}:{name}:{channel}:xoffset` (...also available: `...:xdelta` and `...:xreach`):
+  these are the essential values that make up the X-axis data (`xoffset` being
+  the starting point, `xdelta` the axis increment, and `xreach`, as a courtesy,
+  the last point on the axis i.e. `xoffset+xdelta*<num_pts>`).
+  
+The `{}` format variables above have the following meaning:
+- `{prefix}` the IOC base prefix, specified as `OSZI_EPICS_PREFIX`
+- `{name}` the IOC device name (see above)
+- `{channel}` the name of the device channel; this is highly implementation
+  specific, but we encourage, and indeed most built-in devices have,
+  a scheme akin to `ch{N}`, where `{N}` is a channel index.
+  Note that some devices may (or not) export additional data, e.g. 
+  an FFT array, with a different designation (e.g. `ch1` and `ch1fft`).
+  
+
+Diving Deeper
+-------------
+
+### The Built-in Simulator
+
+For testing and the-fun-of-things purposes, Oszitrace has 
+a built-in signal simulator. It will enable the IOC to be run
+without an attached device, and will provide a number of
+channels with the exact same functionality as a "real"
+oscislloscipe, the only difference being that the signal will
+be a simulated, running `sin()` wave.
+
+Specific environment variables for the built-in simulator:
+
+- `OSZI_SIM_TRIGGERED` if set to `"yes"`, the simulator will only
+  deliver a signal after it has been triggered.
+
+### Initialization Talk
+
+Generically, independently of the device type, an "initalization talk"
+object can be specified. This should be a YAML-compatible file, essentially
+like this:
+
+```yaml
+type: oszitrace-ioc/ascii-talk
+version: 0.1
+init:
+- q: "*IDN?"
+  r: "{}Agilent Version {version}{}"
+- q: ":WAV:FORM ASC"
+- q: ":WAV:STR  ON"
+```
+
+In words: the object must be a list (`[]`) which contains
+dictionaries, and each dictionary MUST contain a `q` element,
+and MAY contain a `r` element -- each as strings.
+
+The `q` element will be sent verbatim to the device over whichever
+means of communication is employed (e.g. PyVISA or something different).
+
+If an `r` element exists, then an answer is expected, and the answer
+is parsed against `r` as a format string. The usual Python formats
+(`{}`, `{name}`, ...) are accepted. If the format parameter is named,
+it will be stored in an internal dictionary for later reference
+(see `.parameters` in the [device access API](#device-access-api)).
+
+If the `r` element does not exist, then the devices MUST NOT answer,
+otherwise this will be treated as an error.
+
+
+### Device Access API
+
+Device access is facilitated by a Python object (a "dialogue" object),
+which is expected to meet the following API; you can use this as
+a stub to get started from, if you intend to support your own hardware:
+
+```python
+class Dialogue:
+
+    def __init__(self, env=None, ...):
+	    ...
+		
+	async def init(self, init_chat=None):
+	    ...
+	
+	async def retr_channel(self, channel, timeout=0.0):
+	    ...
+	
+	async def arm_trigger(self):
+	    ...
+		
+	@property
+	def channels(self):
+	    ...
+		
+	@property
+	def parameters(self):
+	    ...
+	
+```
+
+- `.__init__()`: initialization should work without parameters. This
+  function must not block or hesitate, i.e. please move all device
+  communication either in a working thread, or use the rest of the
+  async API elements. However, `.__init__()` will receive a list of
+  environment variables to use via the `env={...}` parameter.
+  The class is free to use other environment variable sources (e.g.
+  `os.environ`), but is discouraged from doing so. The `env=...`
+  parameter will actually contain the system env-vars from `os.environ`
+  if the circumstances didn't explicitly ask for a different set.
+
+- `async def init(...)`: this is called once, after the asyncio loop has
+  been etablished, to give the Dialogue class occasion to perform
+  initial device communication and setup.
+  If `init_chat` is specified, it's expected to be an
+  [init-talk](#initializaion-talk) list object.
+  
+- `async def retr_channel(...)`: this waits until either data
+  for the specified channel is available, or `timeout` seconds
+  have elapsed. If there is no data for whatever reason
+  (either because timeout has occurred, or because oscilloscopes
+  are generally tricky and sometimes unreliable), then a
+  `DialogueRetry` exception must be raised -- either a
+  `DialogueTimeoutRetry` or a `DialogueEmptyRetry`, depending
+  on the reason. The rest of Oszitrace is designed to deal
+  with that gracefully, without going into failure mode.
+  
+  If the intention is to fail (i.e. exit the IOC because a more
+  serious reason is at play, e.g. loss of connectivity), then
+  a different exception must be raised (e.g. `RuntimeError`,
+  a `DialogueError`, or whatever the underlying communication
+  mechanism raises).
+  
+  The data must be returned as an `xarray.DataArray`, with built-in
+  scaling, both axis and signal as floating-point data type.
+  
+- `async def arm_trigger()`: this function is supposed to arm the
+  trigger for a new signal acquisition *if* the device is any kind
+  of triggered mode.
+
+- property `channels`: this is a list of strings, each string
+  representing the name of one device data channel. These are to
+  be used as parameters, for instance, to `.retr_channel()` calls.
+  
+- property `parameters`: this is provided as a courtesy to the user,
+  and is expected to be a dictionary where the keys are named
+  parse parameters from the init-talk `r` sections (see above), 
+  and the data is the data that has been extracted.
+  
+  Oszitrace (currently) does not use any of this information, and
+  there aren't any specific keys that are expected or treated
+  in a particular way -- everything we care about in terms
+  of signal information (scaling, offsets, axis, ...) is expected
+  to already be baked into the `xarray` that `.retr_channel()` 
+  is returning.
+  
+  But as Oszitrace API is still young, this may change in the
+  future (though at this point it isn't clear how this would be
+  beneficial, and how this could -- generically -- reach the IOC
+  interface.)
+  
+
+Supported Devices
+-----------------
+
+Here's a list of devices that Oszitrace supports our of the box
+(you can use any of these as a value for the  `OSZI_DIALOGUE` env-var):
+
+ - **sim** -- see [above](#the-built-in-simulator), a simulated
+   device which delivers sine waves for testing.
+
+ - **lecroy** -- tested on (?), but generally Lecroy devices have
+   a fairly sophisticated discovery langauge built-in which describe
+   essential parts of their internal workings and formats. Oszitrace
+   goes a long way in automatically interpreting that language and
+   adapting to the specific model, so chances are that a wide range
+   of models are able to function out-of-the-box.
+   
+   Binary readout is enabled, so Oszitrace is able to rapidly
+   read large amounts of data (4 channels, > 1 mio data points
+   each, readout time in the range of a fraction of a second).
+   
+ - **agilent** -- tested on (?). Only ASCII readout supported
+   via the `:WAV:DATA?` SCPI command. 4-channel, 150k-ish points
+   readout performed within ~1 second.
+   
+Adding support for additional devices should be
+[fairly easy](#device-access-api).

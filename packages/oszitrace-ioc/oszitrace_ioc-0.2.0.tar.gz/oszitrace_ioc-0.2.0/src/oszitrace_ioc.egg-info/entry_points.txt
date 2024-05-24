@@ -1,0 +1,3 @@
+[console_scripts]
+oszitrace-ioc = oszitrace.iocmain:run_ioc
+oszitrace-live = oszitrace.app:main
