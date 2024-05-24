@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: burrow-cli
+Version: 0.1.0
+Summary: Burrow command line app
+Author: Vurtne Saerdna
+Author-email: vurtnesaerdna@gmail.com
+Requires-Python: >=3.9.0,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: docker (>=7.0.0,<8.0.0)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: typer[all] (>=0.12.3,<0.13.0)
+Description-Content-Type: text/markdown
+
+# Share GPU with your friends
+* supported python version 3.9.0 to 3.12.3
+* eval "$(genv shell --init)"
