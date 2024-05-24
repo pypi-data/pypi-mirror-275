@@ -1,0 +1,96 @@
+name: ci
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+
+  tests:
+    strategy:
+      matrix:
+        container: [py3.11.0]
+        aiida: [2.4.0, 2.4.1, 2.4.2, 2.5.0]
+        gmx: [2023.1=nompi_h76c6bb2_100,
+              2022.4=nompi_hca75aac_100]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    container:
+        image: harbor.stfc.ac.uk/biosimulation-cloud/aiida-testbase:${{ matrix.container }}
+    name: container = ${{ matrix.container }}, aiida = ${{ matrix.aiida }}, gmx = ${{ matrix.gmx }}
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install conda packages
+      shell: bash
+      run: mamba install gromacs=${{ matrix.gmx }} aiida-core=${{ matrix.aiida }} aiida-core.services=${{ matrix.aiida }} -c conda-forge -yq
+
+    - name: Initialise PostGRES DB
+      shell: bash
+      run: initdb -D /home/aiida/.aiida/aiida_db
+
+    - name: Start PostGRES DB
+      shell: bash
+      run: pg_ctl -D /home/aiida/.aiida/aiida_db -l /home/aiida/.aiida/logfile start
+
+    - name: Start RabbitMQ
+      shell: bash
+      run: rabbitmq-server -detached
+
+    - name: Setup AiiDA profile
+      shell: bash
+      run: printf '%s\n' testing test@test.com testy tester testorg | verdi quicksetup
+
+    - name: Start AiiDA Daemon set
+      shell: bash
+      run: verdi daemon start 2
+
+    - name: Check Daemons are running
+      shell: bash
+      run: verdi status
+
+    - name: Install aiida-gromacs and its testing dependencies
+      shell: bash
+      run: pip install -e .[testing]
+
+    - name: Run test suite
+      shell: bash
+      run: pytest --cov aiida_gromacs --cov-report term-missing --cov-append .
+
+    - name: Report Coverage
+      uses: coverallsapp/github-action@v2
+
+  docs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.11
+    - name: Install python dependencies
+      run: |
+        pip install --upgrade pip
+        pip install -e .[docs]
+    - name: Build docs
+      run: cd docs && make
+
+  pre-commit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.11
+    - name: Install python dependencies
+      run: |
+        pip install --upgrade pip
+        pip install -e .[pre-commit,docs,testing]
+    - name: Run pre-commit
+      run: |
+        pre-commit install
+        pre-commit run --all-files || ( git status --short ; git diff ; exit 1 )
