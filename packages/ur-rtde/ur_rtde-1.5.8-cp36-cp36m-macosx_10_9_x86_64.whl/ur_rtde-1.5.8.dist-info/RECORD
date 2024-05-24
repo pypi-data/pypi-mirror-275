@@ -1,0 +1,15 @@
+librtde.1.5.dylib,sha256=zXXnIxzXkX5SLQJcRhQv0ZND5AD8xFNa0G3upFkhbDY,1549472
+dashboard_client.cpython-36m-darwin.so,sha256=ScrdN02cwVta18nxTJIi4PEwWzufbpp8ueCJxAH5RjU,1671296
+rtde_io.cpython-36m-darwin.so,sha256=6GgSWW6d7y3oAx2cOmHKMxXmD97r5yoU4f4tWh0FFI4,1671280
+librtde.1.5.8.dylib,sha256=zXXnIxzXkX5SLQJcRhQv0ZND5AD8xFNa0G3upFkhbDY,1549472
+rtde_control.cpython-36m-darwin.so,sha256=Mi-U7KYfb-C6K8NeWhUKjoJ7LiICAjEXZBQV7zBVnvw,1671280
+rtde_receive.cpython-36m-darwin.so,sha256=RXG5Xc_4fl0BeLb1VIzHubbdQbEVeJ6aQxL3Atit7X8,1671280
+script_client.cpython-36m-darwin.so,sha256=zqZ-RbtgbCvhQ60nfKXyD9eOEiu1cSTtiCL0JkYyf98,1671280
+librtde.dylib,sha256=8jy7-GtsEv3eNydoJPkY-vj489ebb9jU8HFAQQULnLQ,1549552
+ur_rtde-1.5.8.dist-info/RECORD,,
+ur_rtde-1.5.8.dist-info/LICENSE,sha256=gooae8StnqJIk9OJp5hScHYblseeg9IFDRiAVN3N8jc,1092
+ur_rtde-1.5.8.dist-info/WHEEL,sha256=ye8A2lA8pjGNe7-ueOpggarJAhczq3EZGqnLZzzfQYQ,110
+ur_rtde-1.5.8.dist-info/top_level.txt,sha256=cQHKhzqRqcreja5_610bk4zuPL8gRTlbyD9EqDEkiy8,8
+ur_rtde-1.5.8.dist-info/METADATA,sha256=32B2xuUeEtz-97oTY67JpAWpWOUJQXOIIwzjuZxkp7I,5641
+ur_rtde.dylibs/libboost_thread-mt.dylib,sha256=IxmZuj0lnSQcb4kORI2ieGGpyGPsJ3pdzteA-qX3a94,181360
+ur_rtde.dylibs/libboost_system-mt.dylib,sha256=4afmxxgVyQUQiTz-OtyD9pRX1Eipy037hvfeJKi6llQ,35472
