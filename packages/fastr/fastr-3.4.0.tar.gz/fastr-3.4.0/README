@@ -1,0 +1,26 @@
+=====
+FASTR
+=====
+
+FASTR is a framework that helps creating workflows of different
+tools. The workflows created in FASTR are automatically enhanced
+with flexible data input/output, execution options (local, cluster,
+etc) and solid provenance.
+
+We chose to create tools by creating wrappers around executables
+and connecting everything with Python.
+
+Fastr is open-source (licensed under the Apache 2.0 license) and hosted on
+gitlab at https://gitlab.com/radiology/infrastructure/fastr
+
+For getting support, go to https://groups.google.com/d/forum/fastr-users
+
+To get yourself a copy:
+
+    git clone https://gitlab.com/radiology/infrastructure/fastr.git
+
+or if you have a ssh key pair:
+
+    git clone git@gitlab.com:radiology/infrastructure/fastr.git
+
+The official documentation can be found at http://fastr.readthedocs.io

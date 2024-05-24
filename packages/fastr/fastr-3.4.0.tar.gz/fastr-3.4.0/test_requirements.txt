@@ -1,0 +1,4 @@
+pylint
+sphinx
+pytest>=4.3.0,<8.0
+pytest-cov>=2.6.1
