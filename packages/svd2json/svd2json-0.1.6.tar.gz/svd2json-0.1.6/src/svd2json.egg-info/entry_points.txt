@@ -1,0 +1,2 @@
+[console_scripts]
+svd2json = svd2json:run

@@ -1,0 +1,63 @@
+# SPDX-FileCopyrightText: 2023 - 2024 Ledger SAS
+# SPDX-License-Identifier: Apache-2.0
+
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "svd2json"
+description = "Convert SVD file to json"
+dynamic = ["version"]
+requires-python = ">= 3.10"
+readme = "README.md"
+authors = [
+  {email = "Ledger SAS <firmware@ledger.fr>"},
+]
+license = {file = "LICENSES/Apache-2.0.txt"}
+dependencies = []
+classifiers = [
+    "Development Status :: 4 - Beta",
+
+    "Intended Audience :: Developers",
+
+    "Topic :: Software Development :: Build Tools",
+
+    "License :: OSI Approved :: Apache Software License",
+
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.scripts]
+svd2json = "svd2json:run"
+
+[project.optional-dependencies]
+devel = [
+    "coverage>=0.4",
+    "pytest>=4.6",
+    "cachetools>=5.3",
+]
+lint = [
+    "black>=24.2,<25.0",
+    "flake8>=7.0,<8.0",
+    "flake8-html>=0.4.3",
+]
+type = [
+    "mypy>=1.8.0",
+    "lxml>=4.8.0",
+]
+doc = [
+    "Sphinx>=7.2.0",
+    "sphinx-rtd-theme>=2.0.0",
+    "sphinx-simplepdf>=1.6.0",
+    # "sphinx-autoapi",
+]
+license = [
+    "reuse>=3.0.0",
+]
+
+[tool.setuptools_scm]
