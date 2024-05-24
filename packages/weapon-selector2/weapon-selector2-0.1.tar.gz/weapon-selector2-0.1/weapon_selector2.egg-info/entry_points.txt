@@ -1,0 +1,2 @@
+[console_scripts]
+weapon-selector2 = weapon_selector2.main:main
