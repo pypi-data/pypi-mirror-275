@@ -1,0 +1,8 @@
+madnet/__init__.py,sha256=B1apX-4RK1j2RrqLfzvlFRY6Zc9_Xb41gcxbrpH-LjM,32
+madnet/nn.py,sha256=1xA1cXoEKHkHsth8WHdaLclIMojXB_AhoUP0hBhsIzA,3107
+madnet/tensor.py,sha256=d_Jla9aBNdGH9HzGszeA-wFKWVxW-Agmvbfvn1pizZg,8208
+madnet-0.0.1.dist-info/LICENSE,sha256=IhPbdIMiA5kQHQaIC6u86isid0d742qKscXFhtpb6Hg,1070
+madnet-0.0.1.dist-info/METADATA,sha256=OfP3iTxq2OnnplYPswDjiBvs9tqi77DsiE2Otq0m6nQ,957
+madnet-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+madnet-0.0.1.dist-info/top_level.txt,sha256=pDIP1w5Y76VOfXN7a8Vb8XDCNPefdvsF4QXKF29HDIE,7
+madnet-0.0.1.dist-info/RECORD,,
