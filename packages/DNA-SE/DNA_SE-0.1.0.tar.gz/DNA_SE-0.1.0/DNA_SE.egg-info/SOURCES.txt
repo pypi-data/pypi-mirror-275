@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+DNA_SE/DNA_SE.py
+DNA_SE/__init__.py
+DNA_SE/image.py
+DNA_SE.egg-info/PKG-INFO
+DNA_SE.egg-info/SOURCES.txt
+DNA_SE.egg-info/dependency_links.txt
+DNA_SE.egg-info/top_level.txt
