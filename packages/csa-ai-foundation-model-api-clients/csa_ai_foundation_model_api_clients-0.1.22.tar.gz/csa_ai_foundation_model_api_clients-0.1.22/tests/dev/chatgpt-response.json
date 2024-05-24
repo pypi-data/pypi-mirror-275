@@ -1,0 +1,33 @@
+{
+  "api_response": {
+    "ai_query_time": "2024-05-23T19:00:17.383959",
+    "ai_response_data": "The capital of France, as you may know,\nIs Paris, where the Seine does flow.",
+    "ai_response_http_status_code": null,
+    "ai_response_stop_reason": "stop",
+    "ai_response_time": "2024-05-23T19:00:18.476355",
+    "ai_runtime": 1.092396,
+    "model_name": "gpt-4o",
+    "status": "success",
+    "temperature": 1,
+    "tokens_input": 29,
+    "tokens_output": 19,
+    "tokens_total": 48
+  },
+  "arguments": {
+    "max_tokens": 100,
+    "model": "gpt-4o",
+    "output_file": "chatgpt-response.json",
+    "output_file_absolute": "/Users/kurt/GitHub/csa-ai-foundation-model-api-clients/tests/dev/chatgpt-response.json",
+    "system_prompt": "You are a helpful assistant who answers in rhyme.",
+    "system_prompt_absolute": "/Users/kurt/GitHub/csa-ai-foundation-model-api-clients/tests/dev/You are a helpful assistant who answers in rhyme.",
+    "temperature": 0.7,
+    "user_data_file": "France?",
+    "user_data_file_absolute": "/Users/kurt/GitHub/csa-ai-foundation-model-api-clients/tests/dev/France?",
+    "user_prompt": "What is the capital of ",
+    "user_prompt_absolute": "/Users/kurt/GitHub/csa-ai-foundation-model-api-clients/tests/dev/What is the capital of "
+  },
+  "csa-ai-foundation-model-api-clients-version": "0.1.21",
+  "dataType": "csa-ai-foundation-model-api-clients-JSON-output",
+  "dataVersion": "0.2",
+  "uuid": "024d6dbf-b179-42d7-ad25-f4e689b33a6f"
+}
