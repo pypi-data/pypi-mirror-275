@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Alert_System_for_Face_and_Pose
+Version: 0.1.0
+Summary: Alert_System_for_Face_and_Pose
+Home-page: https://github.com/yuta0726/Alert_System_for_Face_and_Pose
+Author: yuta morimoto
+Author-email: s2222081@stu.musashino-u.ac.jp
+Requires-Python: >=3.12.3
+Description-Content-Type: text/markdown
+
+This is a small example package.
