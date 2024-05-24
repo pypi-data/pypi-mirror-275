@@ -1,0 +1,21 @@
+[project]
+name = "ift4aixpath"
+authors = [{name = "Lea Tonejca"}, {email = "julian.zulehner@gmail.com"}]
+description = "API that uses the NXOpen API to retrieve important CAD-CAM Data from Siemens NX"
+readme = "README.md"
+requires-python = "==3.10.*"
+keywords = ["IFT","CAM","CAD","Data","NXOpen"]
+version = "0.0.3"
+dependencies = [
+    "pymongo",
+    "numpy",
+    "matplotlib"
+    ]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["IFT*"]
+namespaces = true
