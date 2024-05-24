@@ -1,0 +1,32 @@
+Metadata-Version: 2.3
+Name: aPrioriDNS
+Version: 1.0.3
+Summary: A package to process Direct Numerical Simulations of reacting and non reacting flows
+Project-URL: Homepage, https://github.com/LorenzoPiu/aPriori
+Project-URL: Issues, https://github.com/LorenzoPiu/aPriori/issues
+Project-URL: Documentation, https://apriori.gitbook.io
+Author-email: Lorenzo Piu <lorenzo.piu@ulb.be>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <img src="https://github.com/LorenzoPiu/Images/blob/main/Logo-0.0.8.png" width="35%">
+</p>
+
+#
+
+A Python package to process combustion DNS.
+
+## Installation
+
+Run the following command to install:
+
+```python
+pip install -i https://test.pypi.org/simple/ aPriori
+```
+
+
