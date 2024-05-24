@@ -1,0 +1,8 @@
+oauth2_client/__init__.py,sha256=Gom1_ABKKkZoIghfDiYvSntLG2OKXC64sJD2Xm8bUKc,22
+oauth2_client/credentials_manager.py,sha256=natxBvXjVOyqfqylebzoXWEzlL4ZfuV4dzFPShGa9vU,13403
+oauth2_client/http_server.py,sha256=OYUhM6rQJDWnIqxFCuGtB7cOPBabyXT4GPo5936ehsc,2324
+sd_oauth2_client-1.4.2.dist-info/LICENSE,sha256=ua2rQbTfyoxjcdc6WBfEKnGWlWzvi7SutFxcE_YYu60,11347
+sd_oauth2_client-1.4.2.dist-info/METADATA,sha256=4k5cr_AvGZFfSwfwkhtJJ4SHVUtaJ9iN0H240-T6jsg,8178
+sd_oauth2_client-1.4.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sd_oauth2_client-1.4.2.dist-info/top_level.txt,sha256=Cq08QkoonC4gDnND3FuHZPqdzwgKiLxyu3NAR_lKeqk,14
+sd_oauth2_client-1.4.2.dist-info/RECORD,,
