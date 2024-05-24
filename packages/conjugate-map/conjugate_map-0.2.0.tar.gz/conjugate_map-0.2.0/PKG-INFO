@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: conjugate_map
+Version: 0.2.0
+Summary: Library for computing geomagnetic conjugate points.
+Maintainer-email: "Kristina V. Collins" <kvcollins@spacescience.org>
+License: MIT License
+        
+        Copyright (c) 2023 Kristina Collins
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: source, https://github.com/KCollins/conjugate_map
+Project-URL: download, https://github.com/KCollins/conjugate_map/releases
+Keywords: coordinates,ionosphere,atmosphere,thermosphere,magnetosphere,heliosphere,observations,models,analysis,conjugate,geomagnetic,instruments,mapping,visualization,plotting,Antarctica
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aacgmv2
+Requires-Dist: geopack
+Requires-Dist: gpxpy
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: plotly
+
+# conjugate_map
+Files and scripts relating to geomagnetic conjugate map. Please cite via Zenodo: [![DOI](https://zenodo.org/badge/651410906.svg)](https://zenodo.org/doi/10.5281/zenodo.10056623)
+
+Run in Binder here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KCollins/conjugate-map/HEAD?labpath=ConjugateMap.ipynb)
+
+There are two example notebooks available:
+ - `MWE.ipynb`: Minimal working example demonstrating conjugate calculations.
+ - `ConjugateMap.ipynb`: More in-depth examples using COMNAP, Madrigal and other databases to produce animated maps with plotly express.
+
+The following functions are imported from `conjCalcFunctions.py`:
+ - `findconj()` : function to compute conjugate points for a given location at a given time and date. 
+ - `conjcalc()` : function to take in a dataframe and add columns for all stages of calculating conjugate points.
+ - `calc_mlat_rings()` : function to calculate magnetic graticules for a given latitude and datetime.
+ 
+ You can read the documentation for each function by running, e.g., `help(calc_mlat_rings)`.

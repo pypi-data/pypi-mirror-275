@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+conjugate_map/__init__.py
+conjugate_map/conjCalcFunctions.py
+conjugate_map.egg-info/PKG-INFO
+conjugate_map.egg-info/SOURCES.txt
+conjugate_map.egg-info/dependency_links.txt
+conjugate_map.egg-info/requires.txt
+conjugate_map.egg-info/top_level.txt

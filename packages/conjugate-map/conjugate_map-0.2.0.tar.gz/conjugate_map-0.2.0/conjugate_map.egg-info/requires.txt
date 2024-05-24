@@ -1,0 +1,6 @@
+aacgmv2
+geopack
+gpxpy
+numpy
+pandas
+plotly
