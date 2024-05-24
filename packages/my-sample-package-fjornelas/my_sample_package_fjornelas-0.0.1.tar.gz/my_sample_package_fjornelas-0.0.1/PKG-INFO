@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: my_sample_package_fjornelas
+Version: 0.0.1
+Summary: simple test package
+Home-page: UNKNOWN
+Author: Javier Ornelas
+Author-email: jornela1@g.ucla.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<built-in method read of _io.TextIOWrapper object at 0x000001745ED1E860>
+
