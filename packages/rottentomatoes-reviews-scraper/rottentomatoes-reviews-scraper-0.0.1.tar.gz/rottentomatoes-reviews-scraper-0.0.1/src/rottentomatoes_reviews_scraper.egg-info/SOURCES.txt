@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/rottentomatoes_reviews_scraper.egg-info/PKG-INFO
+src/rottentomatoes_reviews_scraper.egg-info/SOURCES.txt
+src/rottentomatoes_reviews_scraper.egg-info/dependency_links.txt
+src/rottentomatoes_reviews_scraper.egg-info/entry_points.txt
+src/rottentomatoes_reviews_scraper.egg-info/requires.txt
+src/rottentomatoes_reviews_scraper.egg-info/top_level.txt
