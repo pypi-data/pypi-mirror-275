@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: echo-assigner
+Version: 0.1.0
+Summary: EchoAssiger: Automatically composes accompaniment to a melody midi consisting of a single note
+Home-page: https://github.com/pdmuds4/EchoAssigner.git
+Author: Ryosuke Saiki
+Author-email: ryosuke3191@gmail.com
+Maintainer: Ryosuke Saiki
+Maintainer-email: ryosuke3191@gmail.com
+License: Creative Commons Legal Code
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: midi2audio
+Requires-Dist: mido
+Requires-Dist: music21
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: keras
+Requires-Dist: keras-metrics
+Requires-Dist: tensorflow
+Requires-Dist: tqdm
+Requires-Dist: samplings
+
