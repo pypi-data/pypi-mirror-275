@@ -1,0 +1,10 @@
+version = "6.7.1"
+version_info = (6, 7, 1, "", "")
+
+__build_date__ = '2024-05-22T08:34:03+00:00'
+
+
+
+
+__setup_py_package_version__ = '6.7.1'
+__qt_macos_min_deployment_target__ = '11.0'
