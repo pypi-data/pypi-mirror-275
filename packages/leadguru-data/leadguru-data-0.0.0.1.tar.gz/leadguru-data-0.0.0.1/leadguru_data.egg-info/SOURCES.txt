@@ -1,0 +1,7 @@
+README.md
+setup.py
+leadguru-data/__init__.py
+leadguru_data.egg-info/PKG-INFO
+leadguru_data.egg-info/SOURCES.txt
+leadguru_data.egg-info/dependency_links.txt
+leadguru_data.egg-info/top_level.txt
