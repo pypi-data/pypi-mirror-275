@@ -1,0 +1,11 @@
+horama/__init__.py,sha256=WlpM6u7D5cJN_PWzeBN4OuQmitLQl6CeYz8jdfblgO8,457
+horama/common.py,sha256=WqaEsjGUNfTOba-FvFc5wRTihUeQqYSWV6piT-SrzvM,2410
+horama/fourier_fv.py,sha256=1RpYr-4eFhnVqzhUQ6SWQnc1CC_3MOllgq6qAd0PGTk,2911
+horama/losses.py,sha256=FaTvh9lJCSX51IlwdSlad74o9V_KsTR3U9b-f5JzGSo,614
+horama/maco_fv.py,sha256=86vlsl_m2MBY2iSW12Uigx2hJf71lrsFg7-6Az7sUzo,3286
+horama/plots.py,sha256=HyHX5_K0dblCuVBDIlJTzP1PEb3yG7VDT3aHQ_0CeLk,1643
+Horama-0.0.3.dist-info/LICENSE,sha256=8JCWvAI-Rwu558hQQHZz_Rd0Czi6rzsxgOr8QQYj4XA,1065
+Horama-0.0.3.dist-info/METADATA,sha256=tzJULiZMFXfWG3i_J4qviJherbtDu_iDpy6ZjJuwj4U,4637
+Horama-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+Horama-0.0.3.dist-info/top_level.txt,sha256=eGZjbRpgGKI7cWmzzXZGVyxCUPPlzzbh9noVz1gkOi4,7
+Horama-0.0.3.dist-info/RECORD,,
