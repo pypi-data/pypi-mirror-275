@@ -1,0 +1,2 @@
+[console_scripts]
+sql_to_lnh = sql_to_lnh.cli:main
