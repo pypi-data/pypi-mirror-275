@@ -1,0 +1,15 @@
+bencode_c-0.0.12.dist-info/RECORD,,
+bencode_c-0.0.12.dist-info/WHEEL,sha256=VRbKcSl-nASKPo7myXU_5TUlzFB9tHwwgdpcFgZx6qo,108
+bencode_c-0.0.12.dist-info/top_level.txt,sha256=6WH9oUHpNMJqzsKzpS0-ufBqUp7u3YIwKzjTDhk7iWA,10
+bencode_c-0.0.12.dist-info/METADATA,sha256=uai2M1PnPbuXGbQS-LnAwrHrTIRvG9mjrI_QyLpXMy0,1037
+bencode_c/__init__.pyi,sha256=alv-9mdrA1otzxyj_nu9lzgfaq0yDnLodYwvGg91s80,181
+bencode_c/decode.c,sha256=jBwVANrG3IREYTQsjsO0sI9OjwF73OAUO1ye0mu8trM,7886
+bencode_c/__init__.py,sha256=8ZvONC70SokH1wInuzF7xkIR9NsQuigg1N8lYmbiV6M,206
+bencode_c/encode.c,sha256=v3UFsongR3bDrZFlWExq1HwywZiQVT58moElJKT5Hcc,8010
+bencode_c/buffer.h,sha256=CoIo5qX_Xtnmlk5liRPEkRqcnEGuRLA9t3ALfmgWbLI,2198
+bencode_c/_bencode.abi3.so,sha256=27CpYEstUvdNSg4KRVP_SK3Yc2rFU2SXXeEFJAucwPQ,55229
+bencode_c/common.h,sha256=pOXqsloNIfL8cRXTEpiisd-wo9urn11swgcmCBdc-Tg,461
+bencode_c/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bencode_c/overflow.h,sha256=1_cVcV4qG_hBb559ubzmG0JYWcEU18KSRKmcAytLjsk,1038
+bencode_c/str.h,sha256=TcAsQmw_8L1EwR7UtdohjASjTq50jlz0ABh3pBO-h1E,787
+bencode_c/bencode.c,sha256=vnHEgVNPOOBQCdE1hYZuT_TPRncVs4iQwHkJXBmT5nw,1432
