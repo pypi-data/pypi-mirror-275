@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "onstats"
+version = "0.9.4"
+description = "Online stats in python, based in generators with send"
+authors = ["Pablo Ruiz <pablo.r.c@live.com>"]
+readme = "README.md"
+repository = "https://github.com/PabloRuizCuevas/onstats"
+packages = [
+    { include = "onstats" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.26.4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.0"
+black = "^24.2.0"
+pytest-cov = "^5.0.0"
+pandas = "^2.2.2"
+mypy = "^1.10.0"
+genbadge = {extras = ["all"], version = "^1.1.1"}
+pytest-html = "^4.1.1"
+pre-commit = "^3.7.0"
+
+[tool.black]
+line-length = 120
+
+[tool.pytest.ini_options]
+addopts = ["--import-mode=importlib",
+     "--cov=src"]
+minversion = 7.0
+pythonpath = './'
+testpaths =['tests']
+
+
+[tool.mypy]
+exclude = [
+    '^onstats/tests/.',
+]
+ignore_missing_imports = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
