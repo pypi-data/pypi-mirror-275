@@ -1,0 +1,8 @@
+import os
+
+OPENAI_KEY=os.environ.get("OPENAI_API_KEY")
+LOG_LEVEL="INFO"
+MODEL="gpt-4-turbo"
+TEMPERATURE=0.4
+MAX_TOKENS=4096
+TOP_P=0.9

@@ -1,0 +1,6 @@
+openai
+nltk
+scikit-learn
+pandas
+spacy
+transformers

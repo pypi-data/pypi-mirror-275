@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyNovelist
+Version: 0.1.0
+Summary: Comprehensive tool designed to assist in generating and refining novel content.e
+Author: David Condrey
+Author-email: davidcondrey@protonmail.com
+Requires-Dist: openai
+Requires-Dist: nltk
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: spacy
+Requires-Dist: transformers
