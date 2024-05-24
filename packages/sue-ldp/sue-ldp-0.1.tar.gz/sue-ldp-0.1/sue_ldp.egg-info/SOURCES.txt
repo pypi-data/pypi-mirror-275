@@ -1,0 +1,6 @@
+setup.py
+sue_ldp.egg-info/PKG-INFO
+sue_ldp.egg-info/SOURCES.txt
+sue_ldp.egg-info/dependency_links.txt
+sue_ldp.egg-info/requires.txt
+sue_ldp.egg-info/top_level.txt
