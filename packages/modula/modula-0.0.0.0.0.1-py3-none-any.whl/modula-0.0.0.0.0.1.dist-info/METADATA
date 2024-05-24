@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: modula
+Version: 0.0.0.0.0.1
+Summary: Automatically normalize NN training in the modular norm.
+Home-page: https://github.com/jxbz/modula
+Author: Jeremy Bernstein
+Author-email: jbernstein@mit.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: torch >=2.0.0
+
