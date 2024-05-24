@@ -1,0 +1,6 @@
+
+[dev]
+Sphinx>=1.2.2
+
+[test]
+coverage>=3.7.1

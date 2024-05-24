@@ -1,0 +1,35 @@
+[build-system]
+requires = [
+    "setuptools",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "otpme"
+description = "OTPme: A flexible One-Time-Password system"
+authors = [
+  {name = "The2nd", email = "the2nd@otpme.org"},
+]
+maintainers = [
+  {name = "The2nd", email = "the2nd@otpme.org"},
+]
+readme = {file = "README.md", content-type = "text/markdown"}
+license = {file = "LICENSE"}
+keywords = ['OTP, U2F, fido2, two factor authentication, PAM, LDAP']
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python"
+]
+version = "0.3.0a68"
+#dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://www.otpme.org/redmine"
+#Documentation = "https://readthedocs.org"
+Repository = "https://github.com/the2nd/otpme.git"
+Issues = "https://github.com/the2nd/otpme/issues"
+#Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+
+#[tool.setuptools.dynamic]
+#version = {attr = "otpme.__version__"}
+#readme = {file = ["README.md"]}
