@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+EcoStat/EcoStat.py
+EcoStat/__init__.py
+EcoStat.egg-info/PKG-INFO
+EcoStat.egg-info/SOURCES.txt
+EcoStat.egg-info/dependency_links.txt
+EcoStat.egg-info/top_level.txt
