@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: georecl
+Version: 0.1.1
+Summary: A geoserver rest client supporting authkey and basic auth(user,pass)
+Author: Mukesh
+Author-email: mkpandey.irs@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.32.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+## Geoserver rest client
+#### This client accepts both basic username, password and authkey credentials. Once client is setup , you can all the methods provided by python request module.
+
+## NEXT Updates
+
+#### 1. Provide basic rest endpoints call, like get_status,get_layers etc. 2. Provide workflow like publishing vector layer, raster layer, cached layer etc. 3. Update tests
