@@ -1,0 +1,73 @@
+[tool.poetry]
+name = "ifg"
+version = "2.2.3"
+description = "Calculator of Ideal Fermi gas properties"
+license = "MIT"
+authors = [
+    "Aleksei Kozharin <1alekseik1@gmail.com>",
+    "Pavel Levashov <pasha@jiht.ru>"
+]
+maintainers = ["Aleksei Kozharin <1alekseik1@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/alekseik1/ifg-py"
+documentation = "https://ifg-py.readthedocs.io/en/latest/"
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License"
+]
+
+[tool.poetry.dependencies]
+python = "~2.7 || ^3.5.2"
+numpy = [
+    {version = ">=1.8.2,<=1.16", python = ">=2.7, <3.5"},
+    {version = ">=1.13.3,<=1.17.3", python = "~3.5"},
+    {version = ">=1.14.5,<=1.19.3", python = "~3.6"},
+    {version = ">=1.16.5,<=1.20", python = "~3.7"},
+    {version = ">=1.17.3,<1.24.0", python = "~3.8"},
+    {version = ">=1.22.4,<2.0.0", python = "^3.9"},
+]
+fdint_py3 = "^2.0.2"
+
+[tool.poetry.dev-dependencies]
+# Used only for example plots
+# matplotlib = "2.2.5"
+# matplotlib = [
+#     {version = "2.2.5", python = "~2.7"},
+#     {version = "3.0.3", python = "~3.5.2"},
+#     {version = "3.3.4", python = "~3.6"},
+#     {version = "3.5.3", python = "~3.7"},
+#     {version = "3.7.5", python = "~3.8"},
+#     {version = "3.9.0", python = "^3.9"},
+# ]
+pytest = [
+    # TODO
+    {version = "4.6.11", python = "~2.7"},
+    {version = "6.1.2", python = "~3.5"},
+    {version = "7.0.1", python = "~3.6"},
+    {version = "7.4.4", python = "~3.7"},
+    {version = "8.2.1", python = "^3.8"},
+]
+hypothesis = [
+    {version = "4.57.1", python = "~2.7"},
+    {version = "5.33.2", python = "~3.5"},
+    {version = "6.31.6", python = "~3.6"},
+    {version = "6.79.4", python = "~3.7"},
+    {version = "6.102.5", python = "^3.8"},
+]
+# typed-ast = [
+#     {version = "^1.4.3", python = "<3.6"},
+#     {version = "^1.5.5", python = ">=3.6"},
+# ]
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "numpy", "cython"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.semantic_release]
+version_variable = [
+    "ifg/metadata.py:__version__"
+]
+version_toml = [
+    "pyproject.toml:tool.poetry.version"
+]
+build_command = "pip install poetry && poetry build"
