@@ -1,0 +1,27 @@
+# Memory Game
+
+A simple console-based memory game where players match pairs of cards.
+
+## Features
+
+- Randomized board generation
+- Turn counter
+- Simple text-based interface
+
+ Installation
+
+You can install the package from PyPI:
+    ```bash
+    pip install memory_game
+
+## Usage
+To start the game, simply run the following command in your terminal:
+    ```bash
+    memory_game
+
+## How to play
+- The game board will be displayed with all cards hidden.
+- Enter the position of the first card to flip (e.g., 0 1 for the card at row 0, column 1).
+- Enter the position of the second card to flip.
+- If the cards match, they will stay revealed. If not, they will be hidden again.
+- The game ends when all pairs are matched.
