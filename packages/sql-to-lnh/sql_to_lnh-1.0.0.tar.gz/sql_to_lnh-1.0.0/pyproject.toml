@@ -1,0 +1,35 @@
+[project]
+name = "sql_to_lnh"
+version = "1.0.0"
+description = "SQL to LNH allows to generate LNH structures and functions from SQL queries."
+authors = [
+    { name = "Mikhail Geine", email = "mike.geine@gmail.com" },
+    { name = "Kirill Dremin", email = "missl.wipiece@gmail.com"},
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.10",
+]
+readme = "README.md"
+dependencies = ["antlr4-python3-runtime==4.13.0",
+                "cogapp"]
+
+[project.urls]
+Repository = "https://latex.bmstu.ru/gitlab/teragraph/leonhard_euler/sql_to_lnh"
+Issues = "https://latex.bmstu.ru/gitlab/teragraph/leonhard_euler/sql_to_lnh/issues"
+
+
+
+[project.scripts]
+sql_to_lnh = "sql_to_lnh.cli:main"
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
