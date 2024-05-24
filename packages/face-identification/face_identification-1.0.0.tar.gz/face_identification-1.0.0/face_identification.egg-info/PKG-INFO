@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: face_identification
+Version: 1.0.0
+Summary: A package to identify faces on an image
+Author: Parisa Bagherzadeh
+Author-email: parisa.baqerzade@gmail.com
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: insightface
+
+face identification package
