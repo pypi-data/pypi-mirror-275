@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: face_cursor
+Version: 0.1.0
+Summary: This is an app that allows you to move the cursor using your facial movements.
+Home-page: https://github.com/suzuchoco/face_cursor
+Author: Sn
+Author-email: s2222051@stu.musashino-u.ac.jp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+This is an app that allows you to move the cursor using your facial movements.
