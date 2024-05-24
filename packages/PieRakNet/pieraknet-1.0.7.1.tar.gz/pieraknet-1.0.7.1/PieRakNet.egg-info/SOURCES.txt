@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+PieRakNet.egg-info/PKG-INFO
+PieRakNet.egg-info/SOURCES.txt
+PieRakNet.egg-info/dependency_links.txt
+PieRakNet.egg-info/top_level.txt
