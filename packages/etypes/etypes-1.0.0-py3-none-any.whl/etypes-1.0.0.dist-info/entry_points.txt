@@ -1,0 +1,3 @@
+[console_scripts]
+etypes=etypes.cli.etypes:main
+

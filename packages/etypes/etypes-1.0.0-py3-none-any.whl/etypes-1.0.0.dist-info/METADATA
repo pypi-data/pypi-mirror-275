@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: etypes
+Version: 1.0.0
+Summary: A python module to store, encrypt and decrypt type hinted strings in a python file
+Author: Dan Brosnan
+Author-email: dpjbrosnan@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: ansible
+Requires-Dist: click (>=8.0,<9.0)
