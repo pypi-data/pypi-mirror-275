@@ -1,0 +1,2 @@
+[console_scripts]
+cadproxdk = app.main:main
