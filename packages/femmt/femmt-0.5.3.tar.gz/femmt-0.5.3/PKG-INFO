@@ -1,0 +1,416 @@
+Metadata-Version: 2.1
+Name: femmt
+Version: 0.5.3
+Summary: FEM Magnetics Toolbox
+Home-page: https://github.com/upb-lea/FEM_Magnetics_Toolbox
+Author: LEA - Uni Paderborn
+Author-email: upblea@mail.upb.de
+License: GNU General Public License v3
+Project-URL: Documentation, https://upb-lea.github.io/FEM_Magnetics_Toolbox/main/intro.html
+Project-URL: Source Code, https://github.com/upb-lea/FEM_Magnetics_Toolbox
+Keywords: femmt
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: MacOS X
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=1.2.1
+Requires-Dist: numpy>=1.20.3
+Requires-Dist: matplotlib>=3.3.4
+Requires-Dist: gmsh>=4.9.5
+Requires-Dist: onelab>=1.0
+Requires-Dist: scipy>=1.7.2
+Requires-Dist: pytest
+Requires-Dist: pycodestyle
+Requires-Dist: PyQt5>=5.15.6
+Requires-Dist: mplcursors>=0.5.1
+Requires-Dist: deepdiff>=6.2.1
+Requires-Dist: materialdatabase==0.2.0
+Requires-Dist: optuna
+Requires-Dist: plotly
+
+FEM Magnetics Toolbox (FEMMT)
+=============================
+
+This README only provides a short overview. For more information please have a look at the detailed documentation `here <https://upb-lea.github.io/FEM_Magnetics_Toolbox/intro.html>`__.
+
+Python toolbox to generate preconfigured figures for FEM simulation tools in power electronics.
+
+The toolbox is accessible via python code or a graphical user interface
+(GUI), which current development status is experimental.
+
+All core shapes are simulated as 2D symmetric cores, as shown in the figure.
+
+|geometry_translated|
+
+
+
+Overview features
+-------------------
+
+Stable features
+~~~~~~~~~~~~~~~~~
+
+* Component features:
+    * 2D axi-symmetric cylindrical simplification
+    * `Inductor </femmt/examples/basic_inductor.py>`__, `2-winding transformer </femmt/examples/basic_transformer.py>`__, `n-winding transformer </femmt/examples/basic_transformer_6_windings.py>`__
+    * Arbitrary (distributed) air gap positioning in center leg
+    * Variety of winding interleaving schemes
+    * Special geometries:
+        * `Center tapped transformer </femmt/examples/basic_transformer_center_tapped.py>`__
+        * `Magnetic shunt </femmt/examples/basic_transformer_integrated.py>`__ (transformer with integrated inductor)
+        * `Stacked core </femmt/examples/basic_transformer_stacked.py>`__ (transformer with integrated inductor)
+    * Round litz wire, implemented according to `Niyomsatian et al.: Frequency-domain homogenization for litz-wire bundles in finite element calculations <https://ieeexplore.ieee.org/document/9007233>`__
+    * Round and rectangular solid wires
+    * Different winding schemes (hexagonal, left/right, top/down, ...)
+    * Parallel connection of solid wires
+    * Insulation distances (winding2core, winding2winding)
+    * Many `examples </femmt/examples/>`__ to learn and understand FEMMT
+    * Databases
+         * Litz wire database
+         * Core geometry database
+         * Conductor materials: temperature curves
+         * Ferrit materials: permeability / permittivity `material database <https://github.com/upb-lea/materialdatabase>`__ (datasheets and own measurements)
+
+* Solver features:
+    * Implemented using `ONELAB <https://onelab.info/>`__
+    * Current excitation
+    * Frequency domain solver
+    * Litz wire loss model for proximity and skin effect (`Niyomsatian et al.: Frequency-domain homogenization for impedance characterization of litz-wire transformers in 2-D finite element models <https://ieeexplore.ieee.org/document/7695378>`__)
+    * Core loss calculation for real materials (data from material database)
+        * Amplitude dependent loss angle (Local resolution of complex permeability)
+        * Equivalent permittivity data for eddy current calculations
+        * Effect of dimensional resonance is considered
+    * Thermal solver
+        * Thermal conduction (Poisson equation)
+        * Fixed temperature and isolation boundary conditions
+        * Verified model for potted core
+
+* Pre/Post processing:
+    * Linear eddy current analysis via input current based FFT
+    * Pre-visualization of ferrite material (measurement) data interpolation
+    * Field visualization in gmsh GUI (magnetic flux density, eddy current losses, ...)
+    * Inductance matrix for n-winding transformer
+    * Transformer equivalent diagrams for 2- and 3-winding transformer
+
+* Optimization:
+    * Parallel computing to speed up simulations (no cpu core limitation)
+    * Examples for Pareto optimization to adapt to your own optimization problem
+
+
+Experimental features (under development)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Component features:
+    * Reluctance module is currently working for a single optimization example and not fully implemented yet.
+* Solver features:
+    * Time domain solver
+* Optimization:
+    * Advanced optimization algorithms by connecting to `optuna <https://github.com/optuna/optuna>`__
+* GUI:
+    * Experimental in general
+
+Planned features (Roadmap for 202x)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* Solver features:
+    * Core loss calculation from non-sinusoidal flux
+    * Local temperature dependency (currently only lumped temperature assignment, e.g. general temperature for all windings)
+
+Not supported features
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* Not supported component features:
+    * Toroidal core
+
+* Not supported solver features:
+    * Voltage excitation
+
+
+Documentation
+-------------------
+Please have a look at the `documentation <https://upb-lea.github.io/FEM_Magnetics_Toolbox/intro.html>`__. You will find tutorials and a function description.
+
+Literature
+-------------------
+
+* `An Open-Source FEM Magnetics Toolbox for Power Electronic Magnetic Components <https://ieeexplore.ieee.org/document/9862128>`__
+
+* `An Open-Source FEM Magnetic Toolbox for Calculating Electric and Thermal Behavior of Power Electronic Magnetic Components <https://ieeexplore.ieee.org/document/9907554>`__
+
+Installation
+---------------
+
+To run FEMMT python (version 3.10 or above) and onelab is needed.
+
+ONELAB installation
+~~~~~~~~~~~~~~~~~~~~~~~
+
+-  Go to https://onelab.info/
+-  Download the Desktop Version for your OS (Windows, Linux or macOS)
+-  Unpack the software and remember the file path. This will be needed
+   later when installing FEMMT.
+
+Further steps for macOS(ARM)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  Go to https://onelab.info/
+-  Download the Desktop Version for Windows
+-  Copy the "conveks.py" and "Onelab.py" files and paste them into the "onelab" folder
+-  Go to http://getdp.info/
+-  Download the macOS(ARM) Version
+-  Open the downloaded folder, navigate to "bin" and copy the "getdp" application file
+-  Paste the copied file into your "onelab" folder
+
+Install FEMMT
+~~~~~~~~~~~~~~~~~
+
+FEMMT can be installed using the python pip package manager.
+This is the stable release version (recommended).
+
+::
+
+   pip install femmt
+
+For working with the latest version, refer to the `documentation <https://upb-lea.github.io/FEM_Magnetics_Toolbox/intro.html>`__.
+
+Minimal example
+------------------
+
+This toolbox is able to build a complete FEM simulation from simple
+Python code. The following figure shows the Python code on the left and
+the corresponding FEM simulation on the right. |FEMMT_Screenshot|
+
+To run a minimal example please have a look at the `examples </femmt/examples/>`__.
+
+GUI (Experimental)
+-------------------
+
+There is a first preview for a GUI. Installing this is a bit cumbersome
+at first, but will be simplified in the future:
+
+* Download the complete repository via ``Code`` -> ``Download ZIP`` and unpack it.
+* Or clone the repository
+* Install the development version of femmt using ``pip install -e .``
+* Run python ``.../path-to_femmt/femmt/gui/femmt_gui.py``
+
+Please note, the GUI is experimental.
+
+|femmt_gui_definition|
+
+Troubleshooting
+-------------------
+If the working directory is within OneDrive, there are problems writing .dat files, which are basic for FEMMT. The following error messages appear:
+
+::
+
+    The system cannot find the file specified: your_directory/femmt/electro_magnetic/Strands_Coefficients/coeff/pB_RS_la0.6_4layer.dat
+    FileNotFoundError: [Errno 2] No such file or directory: your_directory/results/values/j2F_1.dat
+
+
+
+The solution is to place the working directory of FEMMT including the Python virtual environment outside the OneDrive folder.
+
+
+
+Bug Reports
+--------------
+
+Please use the issues report button within github to report bugs.
+
+Contributing
+---------------
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change. For contributing, please refer
+to this `section <Contributing.rst>`__.
+
+Changelog
+------------
+
+Find the changelog `here <CHANGELOG.md>`__.
+
+License
+----------
+
+`GPLv3 <https://choosealicense.com/licenses/gpl-3.0/>`__
+
+History and project status
+------------------------------
+
+This project was initially written in matlab using FEMM simulation tool.
+It became clear that the project was no longer a small project. The
+project should be completely rewritten, because many new complex levels
+have been added. To place the project in the open source world, the
+programming language python is used.
+
+.. |geometry_translated| image:: docs/images/geometry_translated.png
+.. |FEMMT_Screenshot| image:: docs/images/FEMMT_Screenshot.png
+.. |femmt_gui_definition| image:: docs/images/femmt_gui_definition.png
+.. |counting_arrow_system| image:: docs/images/counting_arrow_system.png
+
+
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+
+## [Unreleased]
+## [0.5.3] - 2024-05-23
+### Added 
+- Conductor placing strategies
+
+## [0.5.2] - 2024-04-30
+### Added 
+- log_material.json output for material logging information 
+### Fixed
+- Improved non-linear solver, as there were some one-shot results without any iteration
+- Wrong displayed currents when using excitation_sweep() with complex currents
+- Fixed incomplete python package in version 0.5.1
+
+## [0.5.1] - 2024-02-06
+### Fixed
+- Fix documentation issues
+- Fix material database dependency issues
+
+## [0.5.0] - 2024-02-06
+### Added
+- various integration tests, unit tests for materialdatabase
+- three winding transformer
+- center-tapped transformer drawing schemes
+- stacked transformer
+- parallel connection of solid turns
+
+### Changed
+- API has lots of changes. Check out the examples and the documentation.
+
+### Updated
+- materialdatabase: material loading and interpolation of operation point
+
+## [0.4.0] - 2022-12-19
+### Added
+- updated and improved syntax
+- cost functions for core and wire material according to IEEE paper 'Component cost models for multi-objective optimizations of switched-mode power converters'
+- connect femmt to the new pip package for the material database
+- add optimization routine for automated design process
+- Update GUI according to material database connection and optimization routine
+
+
+## [0.3.0] - 2022-09-01
+### Added
+- Add color dictionaries for individual geometry visualization
+- Added output json file for thermal simulation
+- Add Parser to read and visualize the result.json-files
+- Add first version of reluctance model including an example file
+- Added dynamic mesh density algorithm for the winding window
+- Simulation settings are now stored in the log file. A simulation can be started using given log-file.
+- Added a new interface for femmt
+
+### Fixed
+- fix #13: improve reading the onelab filepath 
+- fix #16: Wrong Mesh is simulated when changing the number of turns
+- fix #17: Error with integrated_transformer mesh
+- fix #19: Scale update in result plots
+- fix #22: Fix bug for air-gap positions 0 and 100 percent
+
+## [0.2.1] - 2022-04-28
+### Updated
+- possibility to assign fixed magnetic loss angle and conductivity in update_core function 
+- new isolation scheme (looking from core to all windings): core_cond_isolation=[top, bottom, inner, outer] instead of core_cond_isolation=[prim2core, sec2core]
+- gmsh 4.9.5 as minimum requirement
+
+### Added
+- example for foil winding inductor
+- conductor material can be chosen from a small material database, used in update_conductors(), e.g. conductivity_sigma=["copper"]
+- isolations for thermal simulation
+
+### Fixed
+- fix #15: Secondary to Core isolation thickness not working
+
+## [0.2.0] - 2022-02-14
+### Updated
+- updated the winding generation
+- updated the femm reference model
+- updated project structure
+- updated meshing to hybrid mesh
+- updated class structure
+### Added
+- add file Analytical_Core_Data.py
+- add example files DAB_Input_Data.py, DAB_trafo_optimization.py
+- add file mu_imag.pro
+- add folder femmt/thermal
+- add result_log_electro_magnetic
+- add horizontal interleaved winding scheme
+- add method write_log() to femmt.py
+- add thermal simulation with onelab
+- add femm heat flow validation with femm
+### Fixed
+- fix #5: changed typo to L_h_conc = self.M**2 / self.L_22
+- fix #11: rename femmt.py to femmt_classes.py due to package problems
+
+## [0.1.2] - 2021-08-08
+### Updated
+- updated strand approximation
+### Added
+- add option for dedicated stray path
+- add complex permeability and permitivity for core materials for Core Loss estimation
+- add iGSE and GSE for Core Loss estimation
+
+## [0.1.1] - 2021-08-11
+### Updated
+- updated inductance calculations
+- code clean up
+
+### Fixed
+- fix #2: config.json was not read correct
+- fix #3: Install pyfemm on windows machines in case of not installed pyfemm
+
+## [0.1.0] - 2021-07-28
+### Added
+#### Structure
+- add README.md
+- add CHANGELOG.md
+- add femmt/__init__.py
+
+#### Essentials
+- add femmt/FEMMT.py
+- add femmt/functions.py
+- add femmt/ind_axi_python_controlled.pro
+- add femmt/solver.pro
+- add femmt/BH.pro
+
+#### Examples
+- add femmt/FEMMT_geometric.py
+- add femmt/basic_example.py
+
+#### Additional/Experimental Code
+- add femmt/pandas_json.py
+- add femmt/femm_test.py
+- add femmt/SimComparison.py
+- add femmt/SolidComp.py
+- add femmt/CompRes.py
+
+[Unreleased]: https://github.com/upb-lea/transistordatabase/compare/0.5.3...HEAD
+[0.5.3]: https://github.com/upb-lea/transistordatabase/compare/0.5.3...0.5.2
+[0.5.2]: https://github.com/upb-lea/transistordatabase/compare/0.5.2...0.5.1
+[0.5.1]: https://github.com/upb-lea/transistordatabase/compare/0.5.1...0.5.0
+[0.5.0]: https://github.com/upb-lea/transistordatabase/compare/0.5.0...0.4.0
+[0.4.0]: https://github.com/upb-lea/transistordatabase/compare/0.4.0...0.3.0
+[0.3.0]: https://github.com/upb-lea/transistordatabase/compare/0.3.0...0.2.1
+[0.2.1]: https://github.com/upb-lea/transistordatabase/compare/0.2.0...0.2.1
+[0.2.0]: https://github.com/upb-lea/transistordatabase/compare/0.1.2...0.2.0
+[0.1.2]: https://github.com/upb-lea/transistordatabase/compare/0.1.1...0.1.2
+[0.1.1]: https://github.com/upb-lea/transistordatabase/compare/0.1.0...0.1.1
+[0.1.0]: https://github.com/upb-lea/transistordatabase/compare/0.1.0...0.1.0
+
+
