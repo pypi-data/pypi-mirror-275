@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: text-saver-utilsss
+Version: 1.0.0
+Summary: This is my first module
+Keywords: example python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.25.1
+Requires-Dist: pytelegrambotapi >=4.18.1
+
+Omg
