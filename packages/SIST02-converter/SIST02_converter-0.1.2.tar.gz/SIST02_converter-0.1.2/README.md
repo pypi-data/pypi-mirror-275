@@ -1,0 +1,32 @@
+### パッケージについて
+
+ようこそ、**SIST02_converter** へ！
+
+**SIST02_converter** は、参考文献として使用したWebサイトをSIST02スタイルに変換する作業を簡略化することを目的とした Python ライブラリです。初心者から経験豊富な開発者まで、**SIST02_converter** は直感的なツールとユーティリティを提供し、Python プロジェクトのワークフローを支援します。
+
+### 主な特徴
+
+- [入力されたURLからSIST02スタイルに変換したテキストを出力します]
+
+### インストール
+
+pip を使用して **SIST02_converter** をインストールできます:
+
+```bash
+pip install SIST02_converter
+```
+
+### 使用法
+
+ここでは、**SIST02_converter** の使用方法の簡単な例を示します:
+
+```python
+from SIST02_converter import Convert_URL
+
+text = Convert_URL('url')
+print(text)
+```
+
+### ライセンス
+
+**SIST02_converter** は [MIT ライセンス] の下でライセンスされています。これは、個人および商用のプロジェクトの両方で自由に使用できることを意味します。
