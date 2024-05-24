@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: sd-frost-sta-client
+Version: 1.1.45
+Summary: An improved version of the client library originally developed by Fraunhofer to facilitate interaction with a SensorThings API v1.1 Server
+Home-page: https://github.com/securedimensions/STA-Python-Client
+Author: Andreas Matheus
+Author-email: andreas.matheus@secure-dimensions.de
+License: LGPL3
+Keywords: sta,ogc,frost,sensorthingsapi,IoT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: demjson3 >=3.0.5
+Requires-Dist: furl >=2.1.3
+Requires-Dist: geojson >=2.5.0
+Requires-Dist: jsonpickle >=2.0.0
+Requires-Dist: requests >=2.26.0
+Requires-Dist: jsonpatch
+Requires-Dist: python-dateutil
+
+# SensorThings API v1.1 Python Client
+
+This open source implementation is an improved version of the he **FR**aunhofer **O**pensource **S**ensor**T**hings API Python Client available at [SensorThingsAPI](https://github.com/FraunhoferIOSB/FROST-Python-Client).
+
+This implementation is the base for the Python client [STAplus SensorThings API v1.1](https://github.com/securedimensions/STAplus-Python-Client.git) which implements the OGC Standard [STAplus](https://docs.ogc.org/is/22-022r1/22-022r1.html).
+
+## Features
+* This implementation includes bugfixes for reported issues [SensorThingsAPI/Issues](https://github.com/FraunhoferIOSB/FROST-Python-Client/issues) 
+
+## Installation via PyPi
+Installation via pip: `pip install sd-frost-sta-client`
