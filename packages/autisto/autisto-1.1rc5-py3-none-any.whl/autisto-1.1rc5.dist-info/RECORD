@@ -1,0 +1,12 @@
+autisto/daemons.py,sha256=VPjlBtpNI4o4-ydsVKRuD1UUaQb40JxTWoTMIJn47iI,6348
+autisto/database.py,sha256=bK2Ye69680Hw0XI2GhM-trDsPUgWtZenU6zElgBDxJA,6174
+autisto/finances.py,sha256=XODOLG9WrK8UgHdwiHcqnHLym30ezao-XLwxDCH-KfU,3852
+autisto/server.py,sha256=W8c91CDD80-18IZTb-ic_qQa1hn5EZ9p9wEuqb640ss,1219
+autisto/spreadsheet.py,sha256=J9WSWaf3SBSRsnPhRbxJNKwaxcSCgSrUuYni5Rw72PY,18561
+autisto/utils.py,sha256=DSVOExn0WgYwD0IRLYWpiu_daIfCrmuedv3BBCRlOyY,3655
+autisto-1.1rc5.dist-info/LICENSE,sha256=yDltQPjYRy5tjwGWcyX0mLcRrNCztCuqntCTMeWLppY,1068
+autisto-1.1rc5.dist-info/METADATA,sha256=zLqitKVcEw7c07C8yvFOAt73R2EDTXXliHDusLdNH2U,1540
+autisto-1.1rc5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+autisto-1.1rc5.dist-info/entry_points.txt,sha256=eYjflaTlOdqnRwvzK3d0YUzMR2W8XTXsaun_THG5Zos,54
+autisto-1.1rc5.dist-info/top_level.txt,sha256=zAbrYRvCQgwCamJCUmju95jY8glw8S1vXGU2Pl_j378,8
+autisto-1.1rc5.dist-info/RECORD,,
