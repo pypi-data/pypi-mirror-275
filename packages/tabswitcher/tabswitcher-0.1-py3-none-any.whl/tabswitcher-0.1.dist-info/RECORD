@@ -1,0 +1,17 @@
+src/NetworkImage.py,sha256=-awXQg9zVQg6Qay1sRhvsL6OK6V0qIdjZC3JE92Q-EY,760
+src/SearchInput.py,sha256=HUlZDMb24icsTJ6kpZrzykoT-16CobLEcyFByd36k38,1778
+src/Settings.py,sha256=-v115wvRe8HBg1Ippm40cXBbR-uhhJ5jfVz1UTvl0ws,1652
+src/Tab.py,sha256=ZupH_5zzYs0kCSTB3PbcyaddgNkfl5ACOIyGknxSqQQ,920
+src/TabList.py,sha256=vEEL0HDo5y82-x1cKdfgv-W8ItvQ3wf9ARcInXBCyrQ,1095
+src/__init__.py,sha256=ynY6yDG1qDI_48YgUVt6dp-I-u9GnOEBkmPEynNV_7k,8122
+src/brotab.py,sha256=p2WXC04NQ4wkis5jG9tScw1XXGadH_mPYsOuo14nqhw,1851
+src/colors.py,sha256=BAKG5b4qTHo2Gy6OCt33SYhINHUO7W0NCpIlNgknsvM,555
+src/fuzzySearch.py,sha256=aggdoa1ZoW51TvK_w4TrWKGkj0X4JhuGGpWBqTzdPl0,910
+src/loadBookmarks.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/logTabs.py,sha256=y9ble49qm8xhzj6jR5XjI9o9pTrbLgq9Ek0XwpdlsKk,1669
+tabswitcher-0.1.dist-info/LICENCE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+tabswitcher-0.1.dist-info/METADATA,sha256=fygbgLu2QoejUlB0EUuT5MRzbDBL1TebHO3ODPEa0LU,953
+tabswitcher-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tabswitcher-0.1.dist-info/entry_points.txt,sha256=ydR9Ua0s8EEp5focDpRFGdry1rOo52GLqqGcNsHGayc,50
+tabswitcher-0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+tabswitcher-0.1.dist-info/RECORD,,

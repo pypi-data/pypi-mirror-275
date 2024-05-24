@@ -1,0 +1,2 @@
+[console_scripts]
+tabswitcher = src.__init__:main
