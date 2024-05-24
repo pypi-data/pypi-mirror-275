@@ -1,0 +1,15 @@
+License.txt
+README.md
+setup.py
+AAIT.egg-info/PKG-INFO
+AAIT.egg-info/SOURCES.txt
+AAIT.egg-info/dependency_links.txt
+AAIT.egg-info/entry_points.txt
+AAIT.egg-info/namespace_packages.txt
+AAIT.egg-info/requires.txt
+AAIT.egg-info/top_level.txt
+orangecontrib/__init__.py
+orangecontrib/AAIT/__init__.py
+orangecontrib/AAIT/llm/embeddings.py
+orangecontrib/AAIT/widgets/__init__.py
+orangecontrib/AAIT/widgets/category.svg
