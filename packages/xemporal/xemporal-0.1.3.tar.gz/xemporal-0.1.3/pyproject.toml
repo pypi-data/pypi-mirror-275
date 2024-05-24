@@ -1,0 +1,30 @@
+[build-system]
+requires = ["poetry-core", "ziggy-pydust==0.23.2"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "xemporal"
+version = "0.1.3"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{ include = "xemporal" }]
+include = [
+    { path = "xemporal/src/", format = "sdist" },
+    { path = "xemporal/*.so", format = "wheel" },
+    "xemporal/*.pyi"
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.build]
+script = "scripts/build.py"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+ziggy-pydust = "^0.23.2"
+
+[[tool.pydust.ext_module]]
+name = "xemporal.ext"
+root = "xemporal/src/main.zig"
