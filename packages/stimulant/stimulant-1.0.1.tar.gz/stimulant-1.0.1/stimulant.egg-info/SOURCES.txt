@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+stimulant/__init__.py
+stimulant/_cli.py
+stimulant/_stimulant.py
+stimulant.egg-info/PKG-INFO
+stimulant.egg-info/SOURCES.txt
+stimulant.egg-info/dependency_links.txt
+stimulant.egg-info/entry_points.txt
+stimulant.egg-info/requires.txt
+stimulant.egg-info/top_level.txt
