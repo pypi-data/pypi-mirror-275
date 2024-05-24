@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: aiohttp-oauth2-client
+Version: 0.1.0
+Author-email: Stijn Caerts <stijn.caerts@vito.be>
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: aiohttp~=3.8.4
+Requires-Dist: pydantic~=2.7.1
+Requires-Dist: rich
+Provides-Extra: dev
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
+Requires-Dist: pytest-mock; extra == "dev"
+Requires-Dist: nest-asyncio; extra == "dev"
+Requires-Dist: aioresponses; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: sphinx~=7.3.7; extra == "docs"
+Requires-Dist: furo; extra == "docs"
+Requires-Dist: autodoc_pydantic; extra == "docs"
