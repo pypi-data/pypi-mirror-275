@@ -1,0 +1,12 @@
+diffusers==0.8.1
+fschat
+gradio
+huggingface_hub
+markdown2
+nh3
+openai
+pip
+pydantic==1.10.13
+requests
+torch==2.3.0
+transformers
