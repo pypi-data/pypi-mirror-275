@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pylonparser
+Version: 0.1.0
+Summary: A tool to parse football game stats.
+Home-page: https://github.com/traxxo/pylonparser
+License: MIT
+Keywords: parser,football,stats,nfl,pro-football-by-reference
+Author: Your Name
+Author-email: your.email@example.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beautifulsoup4 (>=4.12.3,<5.0.0)
+Requires-Dist: requests (>=2.32.2,<3.0.0)
+Requires-Dist: selectolax (>=0.3.21,<0.4.0)
+Project-URL: Documentation, https://github.com/traxxo/pylonparser/wiki
+Project-URL: Repository, https://github.com/traxxo/pylonparser
+Description-Content-Type: text/markdown
+
+# PylonParser
+
+A tool to parse football game stats.
+
+## Installation
+
+This project uses [Poetry](https://python-poetry.org/) for dependency management. To install the project and its dependencies, run:
+
+```sh
+poetry install
+```
+
+Usage
+Provide instructions on how to use your project. Include code examples if possible.
+
+Testing
+This project uses pytest for testing. To run the tests, use:
+
+Contributing
+Contributions are welcome! Please read the contributing guidelines first.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
