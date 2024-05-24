@@ -1,0 +1,3 @@
+[console_scripts]
+flatten-tei-folder = flattentei.scripts.flatten_tei_folder:main
+
