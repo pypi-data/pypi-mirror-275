@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+{% block title %}{{title}}{% endblock %}
+{% block body %}
+<div class= "container">
+    <div class="row">
+        <div class="col-12 col-lg-6">
+            <div class="d-flex justify-content-between align-items-center">
+
+                <h2>Functions </h2>
+                <button id="abort" class="btn btn-danger ">Abort Pending Actions</button>
+            </div>
+            <div class="scroll-column">
+                <div class="accordion accordion-flush mt-3" id="accordionActions" >{% for function in functions %}
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#{{function}}" aria-expanded="false" aria-controls="collapseExample">
+                                {{function}}
+                            </button>
+                        </h2>
+                        <div id="{{function}}" class="accordion-collapse collapse" data-bs-parent="#accordionActions">
+                            <div class="accordion-body">
+                                <div class="form-group">
+                                    <form role="form" method='POST' name="{{function}}" action='/{{instrument}}'>
+                                        {% if functions[function].__class__.__name__ == "dict" %}
+                                        {% for arg in functions[function] %}
+                                        <div class="input-group mb-3">
+                                            <label class="input-group-text" for="{{arg}}">{{arg}} = </label>
+                                            <input class="form-control" type="text" id="{{arg}}" name="{{arg}}" placeholder="{{functions[function][arg].__name__}}" value="">
+                                        </div>
+                                        {% endfor %}
+                                        {% else %}
+                                        {% for parameter in functions[function].parameters.keys() %}
+                                        {% set var = functions[function].parameters[parameter] %}
+                                        <div class="input-group mb-3">
+                                            <label class="input-group-text" for="{{parameter}}">{{parameter}} ({{'optional' if not var.default.__name__ == '_empty' else 'required'}}):</label>
+                                            {% if var.annotation.__name__ == 'bool' %}
+                                            <div class="btn-group">
+                                                <input class="btn-check" type="radio" id="{{parameter}}_true" name="{{parameter}}" value="True" {{"checked" if var.default==True else ''}} {{"required" if var.default.__name__ == '_empty' else ''}}>
+                                                <label class="btn btn-default" for="{{parameter}}_true">True</label>
+                                                <input class="btn-check" type="radio" id="{{parameter}}_false" name="{{parameter}}" value="False" {{"checked" if var.default==False else ''}}>
+                                                <label class="btn btn-default" for="{{parameter}}_false">False</label>
+                                            </div>
+                                            {% else %}
+                                            <input class="form-control" type="text" id="{{parameter}}" name="{{parameter}}"
+                                                   placeholder="{{var.annotation.__name__ if not var.annotation.__name__ == '_empty' else ''}}"
+                                                   value="{{'' if var.default.__name__ == '_empty' or var.default == None else var.default }}"
+                                                   {{"required" if var.default.__name__ == '_empty' else ''}}>
+                                            {% endif %}
+                                        </div>
+                                        {% endfor %}
+                                        {% endif %}
+                                        <button type="submit" class="btn btn-dark" name="action" value="{{ function }}" >Start</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6">
+            <h2>Logging</h2>
+            <div id="log" class="rounded p-3"></div>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.js"></script>
+<script type="text/javascript">
+    var socket = io();
+    socket.on('connect', function() {
+        console.log('Connected to server.');
+    });
+    socket.on('log_update', function(data) {
+        var logElement = document.getElementById('log');
+        logElement.innerHTML += `<div class="text-monospace">${data.message}</div>`;
+        logElement.scrollTop = logElement.scrollHeight;
+    });
+    document.getElementById('abort').addEventListener('click', function() {
+        socket.emit('abort_action');
+        console.log('Abort action sent to server.');
+    });
+</script>
+{% endblock %}

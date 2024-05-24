@@ -1,0 +1,116 @@
+.login {
+  width: 500px;
+  padding: 8% 0 0;
+  margin: auto;
+    align-content: center;
+}
+.card{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-nav {
+    font-size: larger;
+}
+.navbar-nav li{
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.function-column {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+body {
+  padding-top: 100px;
+}
+
+.scroll-column{
+    height: 80vh;
+    -webkit-overflow-scrolling: touch; /* enables momentum-scrolling on iOS */
+    overflow: hidden;
+    overflow-y: auto;
+}
+.scroll-column::-webkit-scrollbar {
+    display: none;
+}
+label {
+    display:block
+}
+* {
+  -ms-overflow-style: none !important;
+}
+.bottom-button {
+    position: absolute;
+    bottom: 20px;
+}
+hr.vertical {
+    width: 5px;
+    height: 100%;
+    display: inline-block;
+  /* or height in PX */
+}
+.list-group a {
+    text-align: left;
+}
+
+.tray input[type="checkbox"]:checked + label{
+    background: radial-gradient(circle, white 40%, midnightblue, dodgerblue 43%);
+}
+
+.btn-vial{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: lightgray;
+    margin-right: 10px;
+    margin-top: 10px;
+    /*text-align: center;*/
+
+}
+
+.tray {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background: darkgrey;
+    /*text-align:center;*/
+    vertical-align: middle;
+}
+
+.disabled-link {
+  pointer-events: none;
+    color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+#log {
+    height: 66vh;  /* 2/3 of the viewport height */
+    overflow: hidden;
+    overflow-y: scroll; /* Ensures scroll bar appears when needed */
+    background-color: rgba(243, 252, 252, 0.35); /* Bootstrap light grey background */
+    border: 1px solid #dee2e6; /* Bootstrap styled border */
+
+    font-family: monospace; /* For better readability of logs */
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
