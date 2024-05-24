@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+tests/test_convert_size.py
+wolfsoftware.convert_size.egg-info/PKG-INFO
+wolfsoftware.convert_size.egg-info/SOURCES.txt
+wolfsoftware.convert_size.egg-info/dependency_links.txt
+wolfsoftware.convert_size.egg-info/requires.txt
+wolfsoftware.convert_size.egg-info/top_level.txt
+wolfsoftware/convert_size/__init__.py
+wolfsoftware/convert_size/convert_size.py
