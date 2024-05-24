@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: sqlite2duckdb
+Version: 0.1.0
+Summary: A tool to convert sqlite database to duckdb database
+Project-URL: Homepage, https://github.com/dridk/sqlite2duckdb
+Project-URL: Issues, https://github.com/dridk/sqlite2duckdb/issues
+Author-email: Sacha Schutz <sacha.schutz@pm.me>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# sqlite2duckdb
+convert sqlite database to duckdb database
+
