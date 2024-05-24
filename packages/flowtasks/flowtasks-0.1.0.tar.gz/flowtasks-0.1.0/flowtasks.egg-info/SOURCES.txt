@@ -1,0 +1,6 @@
+README.md
+setup.py
+flowtasks.egg-info/PKG-INFO
+flowtasks.egg-info/SOURCES.txt
+flowtasks.egg-info/dependency_links.txt
+flowtasks.egg-info/top_level.txt
