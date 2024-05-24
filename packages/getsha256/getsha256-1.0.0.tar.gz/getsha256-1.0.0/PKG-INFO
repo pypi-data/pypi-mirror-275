@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: getsha256
+Version: 1.0.0
+Summary: A simple tool to compute SHA-256 hashes for files.
+Author: surendra
+Keywords: sha256 hash file
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
