@@ -1,0 +1,3 @@
+[console_scripts]
+rottentomatoes-reviews-scraper = main:main
+
