@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/c8utils/__init__.py
+src/c8utils/fgcolors.py
+src/c8utils/messages.py
+src/c8utils.egg-info/PKG-INFO
+src/c8utils.egg-info/SOURCES.txt
+src/c8utils.egg-info/dependency_links.txt
+src/c8utils.egg-info/top_level.txt

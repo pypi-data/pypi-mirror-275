@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: c8utils
+Version: 0.0.1
+Summary: add some colour to text
+Author-email: "(AA)" <adam@a6n.net>
+Project-URL: Homepage, http://not.available.yet
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+a simple class to change text colors in a terminal
+only works on supported terminals eg. xterm-256color
+usage: fgcolors.WARNING + "some text" + fgcolors.ENDC
+ 
+
