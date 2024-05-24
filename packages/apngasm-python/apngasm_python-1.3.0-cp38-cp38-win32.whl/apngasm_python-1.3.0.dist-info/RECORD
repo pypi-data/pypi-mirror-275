@@ -1,0 +1,10 @@
+apngasm_python/__init__.py,sha256=uBtK-IOSRvCnkPtsAwxgiOHTnNLUt4PyG30XGEOFZbE,71
+apngasm_python/_apngasm_python.cp38-win32.pyd,sha256=JI0rzFDG-WKSB3r2-IJm56knfRiU76M_QFwPsml2Hxc,1028096
+apngasm_python/_apngasm_python.pyi,sha256=vhAhgsfiWO9pLtZ0eo9qPidHn6XxeeNBYe220TUqKHs,18207
+apngasm_python/apngasm.py,sha256=115o7ERNdI6meG7o5l0DByLwYscQ9zh6UmiW7-j7dCY,21243
+apngasm_python/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apngasm_python-1.3.0.dist-info/LICENSE,sha256=f_4ZVFh8d9-6HPjrmy6nQ2cfpuY_nnovJYEZ1C4U7v4,27030
+apngasm_python-1.3.0.dist-info/METADATA,sha256=vgNdTLZoVKi328o7W9Ge1WEv9VLyxmCOT44oL0q4uI4,37908
+apngasm_python-1.3.0.dist-info/WHEEL,sha256=0bVXrY0Z-9Gq-8S_N5ggaAROZTkCKn6I5KyRdrtz7zE,90
+apngasm_python-1.3.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apngasm_python-1.3.0.dist-info/RECORD,,
