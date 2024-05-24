@@ -1,0 +1,2 @@
+[console_scripts]
+sbcli-adr = simplyblock_cli.cli:main
