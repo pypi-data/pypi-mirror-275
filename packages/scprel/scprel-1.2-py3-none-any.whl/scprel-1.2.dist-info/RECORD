@@ -1,0 +1,10 @@
+libname/__init__.py,sha256=bcPDjhQx5JuS_pZU0LrNibbYH_Plcr528TaGC4tiq2M,32
+libname/scprel.py,sha256=pnHMb2UdZKRxKLi78xhG7pMc4ABCvfHAUKtj0y0gu2c,10213
+libname/scprell.py,sha256=ECXLVnvEo-Y94P39UPEPpeZJrxwthb3DI3DQNlohBRA,10212
+scprel/__init__.py,sha256=pnYUi7ClKaq-JLTZIC84wqAXz8oqayFCFkzjEcejwqc,36
+scprel/functions.py,sha256=l-_9Hl5l-Rcqh4Wqni96mrjVENAEkmDGSZvi4OQE0To,12305
+scprel-1.2.dist-info/LICENSE.txt,sha256=7af7UqxTH26AW3tn4WRES27et84LGoMOn-2BpL4KRXI,1084
+scprel-1.2.dist-info/METADATA,sha256=hAYM47TeEXszrZYTiFy4pQi5KHkkDe92vqo6s8y0nag,3029
+scprel-1.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+scprel-1.2.dist-info/top_level.txt,sha256=3aEtygOhE73uBCix7-aSux5VRctIBYsbUY_g0NIr6BY,7
+scprel-1.2.dist-info/RECORD,,
