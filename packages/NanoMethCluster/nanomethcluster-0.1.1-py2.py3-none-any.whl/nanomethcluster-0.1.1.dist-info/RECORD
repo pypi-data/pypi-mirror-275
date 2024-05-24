@@ -1,0 +1,11 @@
+NanoMethCluster/BAMReadAnalyzer.py,sha256=8gOdoqy8c1uS3Hz_YIMuySC5VTRowIw1VWzJpBTx9sU,8473
+NanoMethCluster/DataAnalyzer.py,sha256=LYNhd7JzODDZRUsVVE-NV-DchL9y6i02FXUXUknnC6o,9489
+NanoMethCluster/KmerDataProcessor.py,sha256=VhSHOXnhiiUZpnfJ7Q6wnc90FkDlkcx3qZXdiF8w3Ao,4459
+NanoMethCluster/PlotGenerator.py,sha256=4VbFAwe67gXQGUBnSzH_IgicQLWTWLxl3jtL9Rv4vjE,15134
+NanoMethCluster/__init__.py,sha256=PbIg7Srj4PE0h9V9dVIl684PbPeMufL8mD72-d2lklA,281
+NanoMethCluster/cli.py,sha256=YvomMIKR2ywFv82XbdqfcedOqncgvkCzGXzvNxjUsfQ,5884
+nanomethcluster-0.1.1.dist-info/METADATA,sha256=tbhZIVqcZXTtKfalgxdkfM7JqtIrSV2NZJPZfOEwz6w,6524
+nanomethcluster-0.1.1.dist-info/WHEEL,sha256=cDcbFFSNXOE-241I5PFuLkIYfR_FM7WTlPEi33njInY,105
+nanomethcluster-0.1.1.dist-info/entry_points.txt,sha256=U6KaQmw8z5wFyw3eZBTCYE6frC6GgzjoWCvqyRo2CLY,61
+nanomethcluster-0.1.1.dist-info/licenses/LICENSE,sha256=zIdmooUR0BxSDlffZr-U0n45V2eGhkWocBMexnfRpLE,1114
+nanomethcluster-0.1.1.dist-info/RECORD,,
