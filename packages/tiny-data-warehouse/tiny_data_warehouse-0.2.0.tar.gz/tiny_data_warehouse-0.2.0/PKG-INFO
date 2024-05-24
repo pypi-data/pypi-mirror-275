@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: tiny-data-warehouse
+Version: 0.2.0
+Summary: 
+Author: Jean Carlo Machado
+Author-email: jean.machado@getyourguide.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fire (>=0.6.0,<0.7.0)
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: matplotlib (>=3.9.0,<4.0.0)
+Requires-Dist: pandas (>=2.2.1,<3.0.0)
+Requires-Dist: pyarrow (>=16.1.0,<17.0.0)
+Requires-Dist: pypdf2 (>=3.0.1,<4.0.0)
+Description-Content-Type: text/markdown
+
+# Installation
+
+```
+pip install tiny-data-warehouse
+```
+
+
+## Minimal usage
+
+
+```py
+
+from tiny_data_warehouse import DataWarehouse
+import pandas as pd
+
+# write event
+tdw = DataWarehouse()
+tdw.write_event('person', {'name': 'Foo', 'age': 30})
+
+
+# read events
+df : pd.DataFrame = tdw.event('person')
+df.head()
+
+```
+
+
