@@ -1,0 +1,6 @@
+README.md
+setup.py
+pokemon_calculator_ver.2.egg-info/PKG-INFO
+pokemon_calculator_ver.2.egg-info/SOURCES.txt
+pokemon_calculator_ver.2.egg-info/dependency_links.txt
+pokemon_calculator_ver.2.egg-info/top_level.txt
