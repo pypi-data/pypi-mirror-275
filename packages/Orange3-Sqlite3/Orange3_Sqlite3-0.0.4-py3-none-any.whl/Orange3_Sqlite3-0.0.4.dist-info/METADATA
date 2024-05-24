@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: Orange3-Sqlite3
+Version: 0.0.4
+Summary: Simple widget to load a table from an SQL query against an SQLite3 database
+Home-page: https://github.com/chrislee35/orange3-sqlite3
+Author: Chris Lee
+Author-email: github@chrislee.dhs.org
+License: GPL3+
+Keywords: orange3 add-on
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+Requires-Dist: AnyQt
+Requires-Dist: numpy >=1.26
+Requires-Dist: Orange3 >=3.34.0
+Requires-Dist: orange-canvas-core >=0.1.28
+Requires-Dist: orange-widget-base >=4.20.0
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: recommonmark ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+# Orange3-Sqlite3
+
+This queries an Sqlite3 database.
+
+Within the Add-ons installer, click on "Add more..." and type in Orange3-Sqlite3
+
+## Setting the Target and Creating Categorical Variables
+
+You can set the target using the Select Columns widget and make a Categorical variable using Edit Domain.
+
+![Example Orange3 Workflow using SQLite3 and setting the target and categorical variable](https://github.com/chrislee35/orange3-sqlite3/blob/main/img/example.png?raw=true)

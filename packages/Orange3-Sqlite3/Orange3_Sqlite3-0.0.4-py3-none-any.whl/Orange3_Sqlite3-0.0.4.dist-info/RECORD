@@ -1,0 +1,11 @@
+Orange3_Sqlite3-0.0.4-py3.11-nspkg.pth,sha256=UYCZtLWueceGiAlmXKRJUZ0TWQEubpPoQ1pVnAAsME0,502
+orangecontrib/sqlite3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orangecontrib/sqlite3/widgets/__init__.py,sha256=kycV-PHOcMkbbvQVtE7v4A-X2LRmXTDkyaLx-xmt7UM,938
+orangecontrib/sqlite3/widgets/owsqlite3.py,sha256=ug3BqVnhkCSs9s-q6K4iN3cZ7bEoJPaQ7pktJkR9W4M,6369
+orangecontrib/sqlite3/widgets/icons/sqlite3.svg,sha256=NFubpcGp_9i9XZwFh8rPjX3ajqjQ4vNnQ_IeWiFRi7A,1822
+Orange3_Sqlite3-0.0.4.dist-info/METADATA,sha256=JhZsGojqSt_ZYt0KJZAr8atVtQxOvWAPYBWvUZxQe54,1477
+Orange3_Sqlite3-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+Orange3_Sqlite3-0.0.4.dist-info/entry_points.txt,sha256=-5RDIaRzU-GnkGxWO7WEwSoSVGhmZC7ttexuRn0esEk,196
+Orange3_Sqlite3-0.0.4.dist-info/namespace_packages.txt,sha256=Iut-JTfT11SZHHm77_ZeszD7pZDWXcTweCbvrJpqDyQ,14
+Orange3_Sqlite3-0.0.4.dist-info/top_level.txt,sha256=Iut-JTfT11SZHHm77_ZeszD7pZDWXcTweCbvrJpqDyQ,14
+Orange3_Sqlite3-0.0.4.dist-info/RECORD,,

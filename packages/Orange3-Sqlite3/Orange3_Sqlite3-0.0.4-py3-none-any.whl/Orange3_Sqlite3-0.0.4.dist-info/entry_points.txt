@@ -1,0 +1,8 @@
+[orange.canvas.help]
+html-index = orangecontrib.sqlite3.widgets:WIDGET_HELP_PATH
+
+[orange.widgets]
+Sqlite3 = orangecontrib.sqlite3.widgets
+
+[orange3.addon]
+Orange3-Sqlite3 = orangecontrib.sqlite3
