@@ -1,0 +1,2 @@
+[console_scripts]
+picopy = picopy.picopy:convert_image_to_watercolor
