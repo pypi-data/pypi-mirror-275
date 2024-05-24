@@ -1,0 +1,2 @@
+[console_scripts]
+cadprox = app.main:main
