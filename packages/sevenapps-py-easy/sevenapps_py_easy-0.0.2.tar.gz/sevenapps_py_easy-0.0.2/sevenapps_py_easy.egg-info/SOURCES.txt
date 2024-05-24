@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sevenapps_py_easy.egg-info/PKG-INFO
+sevenapps_py_easy.egg-info/SOURCES.txt
+sevenapps_py_easy.egg-info/dependency_links.txt
+sevenapps_py_easy.egg-info/top_level.txt
+utils/__init__.py
+utils/file_manager.py
