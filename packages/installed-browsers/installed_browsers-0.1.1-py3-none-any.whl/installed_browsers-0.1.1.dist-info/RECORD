@@ -1,0 +1,9 @@
+installed_browsers/__init__.py,sha256=c5uu9-DhDX_MtdRQecpT5KAGcs1Ro0SGodT3fd5VSG8,6053
+installed_browsers/common.py,sha256=kmoKk9GBR9xPrJDUSbgj3j-TN1Zvl9uUgfTHaR-YeNQ,285
+installed_browsers/linux.py,sha256=nF5LCvQxmCnkT6nWcuBUM5NJvjN4MPcOQRImuWSV2UQ,5756
+installed_browsers/mac.py,sha256=GU77nYnqFbMpn3ZlLekwI69-3-5TvjZnScAkQktRY-Y,6818
+installed_browsers/windows.py,sha256=QWKmnzeqhTRd-y-JEtiJF4O0HWuKdgbW0xy3nKyaF7g,14130
+installed_browsers-0.1.1.dist-info/LICENSE,sha256=wyobmYjpsVn5A-sqQD3WZYic7fvi_dMeTW_zRp1q5E0,1070
+installed_browsers-0.1.1.dist-info/METADATA,sha256=NYaMo_4PeWpInnD1VinZW54AUHyThu14z2DUDl-iJt8,4192
+installed_browsers-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+installed_browsers-0.1.1.dist-info/RECORD,,
