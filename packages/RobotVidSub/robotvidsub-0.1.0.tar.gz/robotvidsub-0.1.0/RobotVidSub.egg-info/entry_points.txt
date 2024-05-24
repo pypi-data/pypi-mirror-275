@@ -1,0 +1,2 @@
+[robotframework_listener]
+default = robotvidsub.listener:RobotVidSubListener

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+RobotVidSub/__init__.py
+RobotVidSub/listener.py
+RobotVidSub.egg-info/PKG-INFO
+RobotVidSub.egg-info/SOURCES.txt
+RobotVidSub.egg-info/dependency_links.txt
+RobotVidSub.egg-info/entry_points.txt
+RobotVidSub.egg-info/requires.txt
+RobotVidSub.egg-info/top_level.txt
