@@ -1,0 +1,2 @@
+[console_scripts]
+kyoto-sightseeing = kyoto_sightseeing.gui:main
