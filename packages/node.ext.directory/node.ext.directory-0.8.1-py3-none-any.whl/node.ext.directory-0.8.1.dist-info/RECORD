@@ -1,0 +1,13 @@
+node.ext.directory-0.8.1-py3.9-nspkg.pth,sha256=22kepNRraFOySU0aBc4XElck9mtA9vf__xXzdpK8JIs,981
+node/ext/directory/__init__.py,sha256=8AeBRoRU47x1MYePF-pzBidVzPmiDDuq4Lhd46-VvvU,370
+node/ext/directory/directory.py,sha256=w4tfd_YsqizO8aB9aKfrEpZK0JotsBWWaNqGsIHJ-3w,10237
+node/ext/directory/events.py,sha256=qnAwYYVzBn37SDaAAfLqFuEhuTxD6NcQUU2y1g0M4S8,288
+node/ext/directory/interfaces.py,sha256=IXmmQoxMfyT_IB7g4YLs8vM3WjWfr3GlLIIXz0bqOlo,1639
+node/ext/directory/tests.py,sha256=TDpCUn8Gn47XflmqvEoNcm9qS9j9dsAuaq-8Z7w7Umc,19599
+node.ext.directory-0.8.1.dist-info/LICENSE.rst,sha256=5It_6Kuuij9CAlcT7lBRmwhD2tcLz-8Nx8KPvMZMyT4,1378
+node.ext.directory-0.8.1.dist-info/METADATA,sha256=SwSLzmQLMNcW6dntZwziCVAUqXmSqgkvW0kpUKO48Us,8583
+node.ext.directory-0.8.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+node.ext.directory-0.8.1.dist-info/namespace_packages.txt,sha256=uhxsfV4otbiU8wWTd9fCwrpB5uZeLpNnCVctg9p35uY,14
+node.ext.directory-0.8.1.dist-info/top_level.txt,sha256=OJtG8ERXOPa1F97xZcPkkO-i64glxpW4rIIhVl545Po,5
+node.ext.directory-0.8.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+node.ext.directory-0.8.1.dist-info/RECORD,,
