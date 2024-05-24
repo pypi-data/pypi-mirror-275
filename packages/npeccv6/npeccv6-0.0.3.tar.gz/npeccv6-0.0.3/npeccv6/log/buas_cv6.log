@@ -1,0 +1,88 @@
+2024-05-23 10:19:52,786 - utils - INFO - Exploring ['../data/test/masks', '../data/test/test', '../data/test/train'] for images and masks folders
+2024-05-23 10:19:52,786 - utils - INFO - Exploring ['../data/test/masks', '../data/test/test', '../data/test/train'] for images and masks folders
+2024-05-23 10:19:52,787 - utils - INFO - Processing pre-split dataset
+2024-05-23 10:19:52,787 - utils - INFO - Processing pre-split dataset
+2024-05-23 10:19:52,787 - utils - INFO - Cleaining folders
+2024-05-23 10:19:52,787 - utils - INFO - Cleaining folders
+2024-05-23 10:19:52,787 - utils - INFO - png_files lenght: 88
+2024-05-23 10:19:52,787 - utils - INFO - png_files lenght: 88
+2024-05-23 10:19:52,787 - utils - INFO - tif_files lenght: 460
+2024-05-23 10:19:52,787 - utils - INFO - tif_files lenght: 460
+2024-05-23 10:19:52,787 - utils - INFO - Lenght files_to_remove: 0
+Files to remove: set()
+2024-05-23 10:19:52,787 - utils - INFO - Lenght files_to_remove: 0
+Files to remove: set()
+2024-05-23 10:19:52,787 - utils - INFO - png_files lenght: 27
+2024-05-23 10:19:52,787 - utils - INFO - png_files lenght: 27
+2024-05-23 10:19:52,788 - utils - INFO - tif_files lenght: 460
+2024-05-23 10:19:52,788 - utils - INFO - tif_files lenght: 460
+2024-05-23 10:19:52,788 - utils - INFO - Lenght files_to_remove: 0
+Files to remove: set()
+2024-05-23 10:19:52,788 - utils - INFO - Lenght files_to_remove: 0
+Files to remove: set()
+2024-05-23 10:19:52,788 - utils - INFO - Folders cleaned
+2024-05-23 10:19:52,788 - utils - INFO - Folders cleaned
+2024-05-23 10:19:52,788 - utils - INFO - Processing train
+2024-05-23 10:19:52,788 - utils - INFO - Processing train
+2024-05-23 10:19:53,003 - utils - INFO - Image size X: 2816 Y: 2816
+2024-05-23 10:19:53,003 - utils - INFO - Image size X: 2816 Y: 2816
+2024-05-23 10:19:53,003 - utils - INFO - expected number of files: 10648.0
+2024-05-23 10:19:53,003 - utils - INFO - expected number of files: 10648.0
+2024-05-23 10:19:53,008 - utils - INFO - Clearing destination folder
+2024-05-23 10:19:53,008 - utils - INFO - Clearing destination folder
+2024-05-23 10:19:53,386 - utils - INFO - Clearing destination folder
+2024-05-23 10:19:53,386 - utils - INFO - Clearing destination folder
+2024-05-23 10:20:19,202 - utils - INFO - Processing test
+2024-05-23 10:20:19,202 - utils - INFO - Processing test
+2024-05-23 10:20:19,407 - utils - INFO - Image size X: 2816 Y: 2816
+2024-05-23 10:20:19,407 - utils - INFO - Image size X: 2816 Y: 2816
+2024-05-23 10:20:19,407 - utils - INFO - expected number of files: 10648.0
+2024-05-23 10:20:19,407 - utils - INFO - expected number of files: 10648.0
+2024-05-23 10:20:19,409 - utils - INFO - Clearing destination folder
+2024-05-23 10:20:19,409 - utils - INFO - Clearing destination folder
+2024-05-23 10:20:19,578 - utils - INFO - Clearing destination folder
+2024-05-23 10:20:19,578 - utils - INFO - Clearing destination folder
+2024-05-23 10:22:52,399 - utils - INFO - Exploring ['../data/test/masks', '../data/test/test', '../data/test/train'] for images and masks folders
+2024-05-23 10:22:52,399 - utils - INFO - Exploring ['../data/test/masks', '../data/test/test', '../data/test/train'] for images and masks folders
+2024-05-23 10:22:52,399 - utils - INFO - Processing pre-split dataset
+2024-05-23 10:22:52,399 - utils - INFO - Processing pre-split dataset
+2024-05-23 10:22:52,399 - utils - INFO - Cleaining folders
+2024-05-23 10:22:52,399 - utils - INFO - Cleaining folders
+2024-05-23 10:22:52,399 - utils - INFO - png_files lenght: 88
+2024-05-23 10:22:52,399 - utils - INFO - png_files lenght: 88
+2024-05-23 10:22:52,400 - utils - INFO - tif_files lenght: 460
+2024-05-23 10:22:52,400 - utils - INFO - tif_files lenght: 460
+2024-05-23 10:22:52,400 - utils - INFO - Lenght files_to_remove: 0
+Files to remove: set()
+2024-05-23 10:22:52,400 - utils - INFO - Lenght files_to_remove: 0
+Files to remove: set()
+2024-05-23 10:22:52,400 - utils - INFO - png_files lenght: 27
+2024-05-23 10:22:52,400 - utils - INFO - png_files lenght: 27
+2024-05-23 10:22:52,400 - utils - INFO - tif_files lenght: 460
+2024-05-23 10:22:52,400 - utils - INFO - tif_files lenght: 460
+2024-05-23 10:22:52,400 - utils - INFO - Lenght files_to_remove: 0
+Files to remove: set()
+2024-05-23 10:22:52,400 - utils - INFO - Lenght files_to_remove: 0
+Files to remove: set()
+2024-05-23 10:22:52,400 - utils - INFO - Folders cleaned
+2024-05-23 10:22:52,400 - utils - INFO - Folders cleaned
+2024-05-23 10:22:52,401 - utils - INFO - Processing train
+2024-05-23 10:22:52,401 - utils - INFO - Processing train
+2024-05-23 10:22:52,598 - utils - INFO - Image size X: 2816 Y: 2816
+2024-05-23 10:22:52,598 - utils - INFO - Image size X: 2816 Y: 2816
+2024-05-23 10:22:52,598 - utils - INFO - expected number of files: 10648.0
+2024-05-23 10:22:52,598 - utils - INFO - expected number of files: 10648.0
+2024-05-23 10:22:52,601 - utils - INFO - Clearing destination folder
+2024-05-23 10:22:52,601 - utils - INFO - Clearing destination folder
+2024-05-23 10:22:52,973 - utils - INFO - Clearing destination folder
+2024-05-23 10:22:52,973 - utils - INFO - Clearing destination folder
+2024-05-23 10:23:18,764 - utils - INFO - Processing test
+2024-05-23 10:23:18,764 - utils - INFO - Processing test
+2024-05-23 10:23:18,974 - utils - INFO - Image size X: 2816 Y: 2816
+2024-05-23 10:23:18,974 - utils - INFO - Image size X: 2816 Y: 2816
+2024-05-23 10:23:18,974 - utils - INFO - expected number of files: 10648.0
+2024-05-23 10:23:18,974 - utils - INFO - expected number of files: 10648.0
+2024-05-23 10:23:18,976 - utils - INFO - Clearing destination folder
+2024-05-23 10:23:18,976 - utils - INFO - Clearing destination folder
+2024-05-23 10:23:19,142 - utils - INFO - Clearing destination folder
+2024-05-23 10:23:19,142 - utils - INFO - Clearing destination folder
