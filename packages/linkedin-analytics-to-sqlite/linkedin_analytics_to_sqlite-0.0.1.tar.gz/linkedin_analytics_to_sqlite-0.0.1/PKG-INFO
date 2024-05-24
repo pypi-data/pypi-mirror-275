@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: linkedin-analytics-to-sqlite
+Version: 0.0.1
+Summary: Parse the LinkedIn analytics exports into a Sqlite DB
+Home-page: https://github.com/phildini/linkedin-analytics-to-sqlite
+License: Apache 2.0
+Keywords: linkedin,analytics,sqlite
+Author: Philip James
+Author-email: phildini@phildini.net
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: openpyxl (>=3.1.2,<4.0.0)
+Requires-Dist: sqlite-utils (>=3.36,<4.0)
+Project-URL: Repository, https://github.com/phildini/linkedin-analytics-to-sqlite
+Description-Content-Type: text/markdown
+
+# linkedin-analytics-to-sqlite
+
+Parse the LinkedIn analytics exports into a Sqlite DB.
+
+There's not a great API for getting analytics on a personal account on LinkedIn.
+There is, however, an ability to download an Excel spreadsheet of your
+post statistics from the [Content Analytics Page](https://www.linkedin.com/analytics/creator/content/).
+
+## Install
+
+```console
+me@home:~$ pip install linkedin-analytics-to-sqlite
+```
+
+## Usage
+
+```console
+me@home:~$ linkedin-analytics-to-sqlite process Content_StartDate_EndDate_ProfileName.xlsx
+me@home:~$ datasette serve linkedin_analytics.db
+```
+
+
