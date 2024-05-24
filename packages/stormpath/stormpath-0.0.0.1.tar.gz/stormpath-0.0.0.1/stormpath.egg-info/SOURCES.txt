@@ -1,0 +1,7 @@
+README.md
+setup.py
+stormpath/__init__.py
+stormpath.egg-info/PKG-INFO
+stormpath.egg-info/SOURCES.txt
+stormpath.egg-info/dependency_links.txt
+stormpath.egg-info/top_level.txt
