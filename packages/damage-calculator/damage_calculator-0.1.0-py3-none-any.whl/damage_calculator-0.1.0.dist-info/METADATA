@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: damage_calculator
+Version: 0.1.0
+Summary: A simple Pokemon damage calculator
+Home-page: https://github.com/siro-rai/pokemon_damade_ver.2.git
+Author: siro_rai
+Author-email: s2222013@stu.musashino-u.ac.jp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pokemon Damage Calculator
+
+This is a simple Python package for calculating damage in Pokemon battles based on user input.
+
+## Installation
+
