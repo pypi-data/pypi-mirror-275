@@ -1,0 +1,10 @@
+clore_pynvml/__init__.py,sha256=p_wxUcw6iBwOzRhcBinGAaRv9m5XsGinHdGvd-_81VA,113
+clore_pynvml/_version.py,sha256=E-L6HEEaUuPWAnNE6XFdN_iM_axG3P8qG8zpfkz641Q,498
+clore_pynvml/nvml.py,sha256=9RyYdXosBWjsexseBH_Xtm0NrN11xXqq5QilApZnCSQ,170467
+clore_pynvml/setup.py,sha256=k1kU0fk2MTXEm5PIA_Be1U30B9Q-kQOjiXeOLHxmJ3o,1582
+clore_pynvml/smi.py,sha256=9fDyk_llotj2O3K2rhkHBSj59vd-YcTwDfGLJg56OMk,137578
+clore_pynvml-11.5.4.dist-info/LICENSE.txt,sha256=5AzAoGtclmNYvZlq9qGHrXLKd6niBcA7rqxfb_JWFCo,1496
+clore_pynvml-11.5.4.dist-info/METADATA,sha256=KszmLRGpNVDLuYwgeHLg-5ncmzcoHphJMy8TlXOCqRI,7999
+clore_pynvml-11.5.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+clore_pynvml-11.5.4.dist-info/top_level.txt,sha256=Z8WyvGJaA8z32lgHnrcXwMgLphNMPc8baGiq-U72oyI,13
+clore_pynvml-11.5.4.dist-info/RECORD,,
