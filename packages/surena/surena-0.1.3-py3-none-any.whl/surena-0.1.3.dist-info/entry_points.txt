@@ -1,0 +1,3 @@
+[console_scripts]
+surena=surena.__main__:cli
+
