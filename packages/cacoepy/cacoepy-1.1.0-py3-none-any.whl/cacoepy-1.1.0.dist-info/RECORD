@@ -1,0 +1,13 @@
+cacoepy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cacoepy/aligner.py,sha256=g7d5mp7DQG08hgh0L_GCYOCCKhfJemmG7vbK7NcZ1GA,5350
+cacoepy/metric.py,sha256=bEVpO4ZtI93LGjCZd71seZUgYhwjHuZhDQdtbx2vXNw,3837
+cacoepy/core/ARPAbet_similarity_matrix.py,sha256=cJSQ-pCN100EXJO26ZgbuTFPmk4_AeQHW4uWovtByhU,3629
+cacoepy/core/Needleman_Wunsch.py,sha256=1plnKsJfb5mJ1GJ7xAj4R38Lxc96Ji7NpHUUiskBYlg,12613
+cacoepy/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cacoepy/core/aligner_tools.py,sha256=C2SshAvN6k7nJljd-a5BqMkhBEzfAv0651GPvQzTcqs,2583
+cacoepy/core/exceptions.py,sha256=xGChOsqaom2rK0de4Qeon_MSTcuiYZ7WDYsNCP_Hbck,952
+cacoepy/core/utils.py,sha256=FyXcZaOqNqh6DezSXaObICO2l1eFBp3kOyksYf2ewsY,1515
+cacoepy-1.1.0.dist-info/METADATA,sha256=c-dOQMfEVX74oZ0HP-SWkaQZn3ToQ2EOOloEXlF4Kfs,3566
+cacoepy-1.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cacoepy-1.1.0.dist-info/top_level.txt,sha256=r8c7S7-nChYPdyXSdGYxmmYT0oxlGi1EDP_SZ5sVhuQ,8
+cacoepy-1.1.0.dist-info/RECORD,,
