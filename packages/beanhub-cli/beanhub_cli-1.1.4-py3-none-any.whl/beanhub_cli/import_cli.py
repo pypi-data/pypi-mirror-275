@@ -1,0 +1,200 @@
+import pathlib
+import sys
+
+import click
+import rich
+import yaml
+from beancount_black.formatter import Formatter
+from beancount_parser.parser import make_parser
+from beanhub_extract.data_types import Transaction
+from beanhub_extract.utils import strip_base_path
+from beanhub_import.data_types import GeneratedTransaction
+from beanhub_import.data_types import ImportDoc
+from beanhub_import.post_processor import apply_change_set
+from beanhub_import.post_processor import compute_changes
+from beanhub_import.post_processor import extract_existing_transactions
+from beanhub_import.post_processor import txn_to_text
+from beanhub_import.processor import process_imports
+from rich import box
+from rich.markup import escape
+from rich.padding import Padding
+from rich.table import Table
+
+from .cli import cli
+from .environment import Environment
+from .environment import pass_env
+
+IMPORT_DOC_FILE = pathlib.Path(".beanhub") / "imports.yaml"
+TABLE_HEADER_STYLE = "yellow"
+TABLE_COLUMN_STYLE = "cyan"
+
+
+@cli.command(
+    name="import",
+    help="Import data into Beancount files based on the beanhub-import config file",
+)
+@click.option(
+    "-c",
+    "--config",
+    type=click.Path(exists=True, dir_okay=False),
+    default=".beanhub/imports.yaml",
+    help="The path to import config file",
+)
+@click.option(
+    "-w",
+    "--workdir",
+    type=click.Path(exists=True, dir_okay=True, file_okay=False),
+    default=str(pathlib.Path.cwd()),
+    help="The beanhub project path to work on",
+)
+@click.option(
+    "-b",
+    "--beanfile",
+    type=click.Path(exists=True, dir_okay=False, file_okay=True),
+    default="main.bean",
+    help="The path to main entry beancount file",
+)
+@pass_env
+def main(env: Environment, config: str, workdir: str, beanfile: str):
+    config_path = pathlib.Path(config)
+    with config_path.open("rt") as fo:
+        doc_payload = yaml.safe_load(fo)
+    import_doc = ImportDoc.model_validate(doc_payload)
+    workdir_path = pathlib.Path(workdir)
+    env.logger.info(
+        "Loaded import doc from [green]%s[/]",
+        config,
+        extra={"markup": True, "highlighter": None},
+    )
+
+    generated_txns: list[GeneratedTransaction] = []
+    unprocessed_txns: list[Transaction] = []
+    for txn in process_imports(import_doc=import_doc, input_dir=workdir_path):
+        if isinstance(txn, GeneratedTransaction):
+            generated_file_path = (workdir_path / txn.file).resolve()
+            env.logger.info(
+                "Generated transaction [green]%s[/] to file [green]%s[/]",
+                txn.id,
+                strip_base_path(workdir_path.resolve(), generated_file_path),
+                extra={"markup": True, "highlighter": None},
+            )
+            generated_txns.append(txn)
+        elif isinstance(txn, Transaction):
+            env.logger.info(
+                "Skipped input transaction at [green]%s[/]:[blue]%s[/]",
+                txn.file,
+                txn.lineno,
+                extra={"markup": True, "highlighter": None},
+            )
+            unprocessed_txns.append(txn)
+        else:
+            raise ValueError(f"Unexpected type {type(txn)}")
+    env.logger.info("Generated %s transactions", len(generated_txns))
+    env.logger.info("Skipped %s transactions", len(unprocessed_txns))
+
+    beanfile_path = (workdir_path / pathlib.Path(beanfile)).resolve()
+    if workdir_path.resolve().absolute() not in beanfile_path.absolute().parents:
+        env.logger.error(
+            "The provided beanfile path %s is not a sub-path of workdir %s",
+            beanfile_path,
+            workdir_path,
+        )
+        sys.exit(-1)
+
+    env.logger.info(
+        "Collecting existing imported transactions from Beancount books ..."
+    )
+    parser = make_parser()
+    existing_txns = list(
+        extract_existing_transactions(
+            parser=parser,
+            bean_file=beanfile_path,
+            root_dir=workdir_path,
+        )
+    )
+    env.logger.info(
+        "Found %s existing imported transactions in Beancount books", len(existing_txns)
+    )
+
+    formatter = Formatter()
+    change_sets = compute_changes(
+        generated_txns=generated_txns,
+        imported_txns=existing_txns,
+        work_dir=workdir_path,
+    )
+    for target_file, change_set in change_sets.items():
+        if not target_file.exists():
+            if change_set.remove or change_set.update:
+                raise ValueError("Expect new transactions to add only")
+            env.logger.info(
+                "Create new bean file %s with %s transactions",
+                target_file,
+                len(change_set.add),
+            )
+
+            bean_content = "\n\n".join(map(txn_to_text, change_set.add))
+            new_tree = parser.parse(bean_content)
+        else:
+            env.logger.info(
+                "Applying change sets (add=%s, update=%s, remove=%s) to %s",
+                len(change_set.add),
+                len(change_set.update),
+                len(change_set.remove),
+                target_file,
+            )
+            tree = parser.parse(target_file.read_text())
+            new_tree = apply_change_set(tree=tree, change_set=change_set)
+
+        with target_file.open("wt") as fo:
+            formatter.format(new_tree, fo)
+
+    table = Table(
+        title="Generated transactions",
+        box=box.SIMPLE,
+        header_style=TABLE_HEADER_STYLE,
+        expand=True,
+    )
+    # TODO: add src info
+    table.add_column("File", style=TABLE_COLUMN_STYLE)
+    table.add_column("Id", style=TABLE_COLUMN_STYLE)
+    table.add_column("Source", style=TABLE_COLUMN_STYLE)
+    table.add_column("Date", style=TABLE_COLUMN_STYLE)
+    table.add_column("Narration", style=TABLE_COLUMN_STYLE)
+    for txn in generated_txns:
+        table.add_row(
+            escape(str(txn.file)),
+            str(txn.id),
+            escape(str(":".join(txn.sources))),
+            escape(str(txn.date)),
+            escape(txn.narration),
+        )
+    rich.print(Padding(table, (1, 0, 0, 4)))
+
+    table = Table(
+        title="Unprocessed transactions",
+        box=box.SIMPLE,
+        header_style=TABLE_HEADER_STYLE,
+        expand=True,
+    )
+    table.add_column("File", style=TABLE_COLUMN_STYLE)
+    table.add_column("Line", style=TABLE_COLUMN_STYLE)
+    table.add_column("Extractor", style=TABLE_COLUMN_STYLE)
+    table.add_column("Date", style=TABLE_COLUMN_STYLE)
+    table.add_column("Desc", style=TABLE_COLUMN_STYLE)
+    table.add_column("Bank Desc", style=TABLE_COLUMN_STYLE)
+    table.add_column("Amount", style=TABLE_COLUMN_STYLE, justify="right")
+    table.add_column("Currency", style=TABLE_COLUMN_STYLE)
+    for txn in unprocessed_txns:
+        table.add_row(
+            escape(txn.file),
+            str(txn.lineno),
+            escape(str(txn.extractor)),
+            escape(str(txn.date)),
+            escape(txn.desc),
+            escape(txn.bank_desc),
+            escape(str(txn.amount)),
+            escape(txn.currency),
+        )
+    rich.print(Padding(table, (1, 0, 0, 4)))
+
+    env.logger.info("done")
