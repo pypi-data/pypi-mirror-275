@@ -1,0 +1,7 @@
+README.md
+setup.py
+rsscrawler/__init__.py
+rsscrawler.egg-info/PKG-INFO
+rsscrawler.egg-info/SOURCES.txt
+rsscrawler.egg-info/dependency_links.txt
+rsscrawler.egg-info/top_level.txt
