@@ -1,0 +1,113 @@
+# mdtidy
+
+mdtidy is a Python library designed to clean and format markdown content into Jupyter Notebooks (.ipynb) and count code errors within the content. It's an intuitive tool for transforming raw markdown and code blocks into well-structured Jupyter notebooks.
+
+## Features
+
+- **Markdown to Jupyter Notebook**: Convert markdown content with embedded Python code blocks into a Jupyter Notebook file.
+- **Error Counting**: Identify and count common Python error types within the content.
+
+## Installation
+
+You can install mdtidy via pip:
+
+```sh
+pip install mdtidy
+```
+
+## Usage
+
+### Convert Markdown to Jupyter Notebook
+
+```python
+from mdtidy.cleaner import process_contents_to_ipynb
+
+# Example input strings
+input_string = 
+    """
+```python?code_reference&code_event_index=1
+import pandas as pd
+
+# Read the CSV file into a DataFrame
+df = pd.read_csv('data.csv')
+
+# Display the first 5 rows
+print(df.head())
+```
+```text?code_stdout&code_event_index=1
+   col1  col2  col3
+0     1     4     7
+1     2     5     8
+2     3     6     9
+```
+"""
+
+input_string_2 = 
+    """
+```python?code_reference&code_event_index=2
+import matplotlib.pyplot as plt
+
+# Sample data
+x = [1, 2, 3, 4, 5]
+y = [10, 20, 25, 30, 40]
+
+# Create a simple line plot
+plt.plot(x, y)
+plt.title('Sample Line Plot')
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.show()
+```
+```text?code_stdout&code_event_index=2
+<Figure size 432x288 with 1 Axes>
+```
+"""
+
+input_string_3 = 
+    """
+```python?code_reference&code_event_index=3
+import numpy as np
+
+# Generate an array of 10 random numbers
+random_numbers = np.random.rand(10)
+
+# Print the array
+print(random_numbers)
+```
+```text?code_stdout&code_event_index=3
+[0.37454012 0.95071431 0.73199394 0.59865848 0.15601864 0.15599452
+ 0.05808361 0.86617615 0.60111501 0.70807258]
+"""
+
+
+# Convert the content to a Jupyter Notebook file
+input_strings = [input_string, input_string_2, input_string_3]
+process_contents_to_ipynb(input_strings, "cleaned_output.ipynb")
+```
+
+### Count Code Errors
+
+```python
+from mdtidy.cleaner import count_code_errors
+
+# Example input strings with errors
+input_strings_with_errors = [
+    """
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'variable' is not defined
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+"""
+]
+
+# Count the code errors
+error_counts = count_code_errors(input_strings_with_errors)
+print(error_counts)
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
