@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/tipyverse/__init__.py
+src/tipyverse.egg-info/PKG-INFO
+src/tipyverse.egg-info/SOURCES.txt
+src/tipyverse.egg-info/dependency_links.txt
+src/tipyverse.egg-info/requires.txt
+src/tipyverse.egg-info/top_level.txt
