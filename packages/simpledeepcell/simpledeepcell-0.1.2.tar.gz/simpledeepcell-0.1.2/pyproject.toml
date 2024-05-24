@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "simpledeepcell"
+version = "0.1.2"
+description = "Mesmer only code from deepcell-tf and deepcell-toolbox. simplifies import"
+authors = ["Ben Caiello <caiello@musc.edu>"]
+license = "modified Apache 2.0"
+readme = "README.md"
+repository = "https://github.com/BenCaiello/simpledeepcell"
+
+[tool.poetry.dependencies]
+python = ">3.9, <3.11"
+numpy = ">=1.16.6"
+scipy = ">=1.2.3,<2"
+scikit-image = ">=0.19.3"
+tensorflow = ">=2.8.0,<2.9.0"
+tensorflow-addons = ">=0.16.1,<0.17.0"
+opencv-python-headless = ">=4.9.0.80,<4.10.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
