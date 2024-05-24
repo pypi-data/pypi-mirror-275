@@ -1,0 +1,7 @@
+chardet
+fuzzywuzzy
+psutil
+PyQt5
+schedule
+brotab
+werkzeug<3.0

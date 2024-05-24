@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: tabswitcher
+Version: 0.0.1
+Summary: A tool for efficient browser tab switching outside the browser
+Home-page: https://github.com/YukiGasai/tabswitcher
+Author: YukiGasai
+Author-email: r.lindede@googlemail.com
+License: AGPL-3.0
+Keywords: tabswitcher,browsertool,tool
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: chardet
+Requires-Dist: fuzzywuzzy
+Requires-Dist: psutil
+Requires-Dist: PyQt5
+Requires-Dist: schedule
+Requires-Dist: brotab
+Requires-Dist: werkzeug<3.0
+
+# TabSwitcher
+
+A simple window for switching between tabs in a browser. Using the `brotab` extension and cli tool as a base.
+
+## Requirements
+
+- Python
+- BroTab Extension in Browser
+  - [Firefox](https://addons.mozilla.org/de/firefox/addon/brotab/)
+  - [Chrome](https://chromewebstore.google.com/detail/brotab/mhpeahbikehnfkfnmopaigggliclhmnc)
+
+## Install
+
+```bash
+pip install tabswitcher
+```
+
+## Problems
+
+- Tested only on windows
