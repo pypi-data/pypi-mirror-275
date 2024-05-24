@@ -1,0 +1,9 @@
+select distinct ?s ?p ?o (isliteral(?o) as ?isliteral) (isblank(?o) as ?isblank) ?bp ?bo
+where {
+  bind(<{}> as ?s)
+  ?s ?p ?o .
+  optional {
+    ?o ?bp ?bo
+    filter(isblank(?o))
+  }
+}
