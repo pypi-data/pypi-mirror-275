@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: FRScraper
+Version: 0.1.3
+Summary: Python module for Football Reference scraping and easy access to football data from various leagues
+Home-page: https://github.com/GabrielPastorello/FRScraper
+Author: Gabriel Speranza Pastorello
+Author-email: gabriel.pastorello01@gmail.com
+License: MIT
+Keywords: football reference,scraper,premier league,la liga,ligue 1,serie a,bundesliga,eredivisie,football data
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas >=2.2.2
+Requires-Dist: numpy >=1.26.4
+Requires-Dist: python-dateutil >=2.8.2
+Requires-Dist: pytz >=2024.1
+
+![fbref_logo](https://github.com/GabrielPastorello/FRScraper/assets/57769272/2c097739-f0af-4cb2-8c6e-eafc9d2fdf3e)<p align="center">
+</p>
+<p align="center">
+    <a href="https://pypi.org/project/FRScraper/">
+        <img src="https://img.shields.io/pypi/v/FRScraper" alt="pypi" />
+    </a>
+    <a href="https://pypi.org/project/FRScraper/">
+        <img src="https://img.shields.io/pypi/pyversions/FRScraper" alt="python version" />
+    </a>
+    <a href="https://pypi.org/project/FRScraper/">
+        <img src="https://img.shields.io/pypi/l/FRScraper" alt="license" />
+    </a>
+</p>
+
+# FRScraper
+
+Python package for easy access to football data through scraping of [Football Reference](https://fbref.com/en/) website.
+
+This allows users to obtain statistics, standings, and scores of the following tournaments:
+- **Premier League** (England)
+- **La Liga** (Spain)
+- **Bundesliga** (Germany)
+- **Ligue 1** (France)
+- **Serie A** (Italy)
+- **Eredivisie** (Netherlands)
+- **Liga Portuguesa** (Portugal)
+- **Campeonato Brasileiro** (Brazil)
+- **Primera Division Argentina** (Argentina)
+- **Ekstraklasa** (Poland)
+- **Russian Premier League** (Russia)
+- **Saudi Pro League** (Saudi Arabia)
+
+## Installing
+### Via `pip`
+Install with the following command:
+
+```
+pip install FRScraper
+```
+
+## Documentation
+For documentation about the API methods refer to [the documentation](https://github.com/GabrielPastorello/FRScraper/blob/main/API.md).
+
+## Example of use
+```
+from FRScraper import FRScraper
+```
+
+```
+# League table
+df = FRScraper.get_rankings('ENG').head()
+```
+Output:
+|    | Rk | Squad           | MP | W  | D  | L  | ... | xGD  | xGD/90 | Attendance | Top Scorer Goals  |
+| -- | -- | --------------- | -- | -- | -- | -- | --- | ---- | ------ | ---------- | ----------------- |
+| 0  | 1  | Manchester City | 38 | 28 | 7  | 3  | ... | 44.9 | 1.18   | 50112      | 27                |
+| 1  | 2  | Arsenal         | 38 | 28 | 5  | 5  | ... | 48.2 | 1.27   | 60236      | 16                |
+| 2  | 3  | Liverpool       | 38 | 24 | 10 | 4  | ... | 42.0 | 1.11   | 55979      | 18                |
+| 3  | 4  | Aston Villa     | 38 | 20 | 8  | 10 | ... | 3.4  | 0.09   | 41858      | 19                |
+| 4  | 5  | Tottenham       | 38 | 20 | 6  | 12 | ... | 4.8  | 0.13   | 61482      | 17                |
+
+More examples in the files.
+
+Use it wisely!
