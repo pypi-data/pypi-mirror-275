@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: dataMnp
+Version: 0.1.0
+Summary: A comprehensive library for data preprocessing tasks
+Home-page: https://github.com/mudar123t/DataAnalyse
+Author: Mudar Shawakh
+Author-email: shawakhmudar@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: nltk
+
+DataAnalyse is a comprehensive Python library for data preprocessing tasks. 
+It provides a set of functions and classes for handling missing values, outliers,
+text manipulation, feature engineering, data type conversion, categorical encoding,
+date and time manipulation, and more.
+
+## Features
+
+- **Data Cleaning:** Handle missing values, outliers, and text data.
+- **String Manipulation:** Remove stopwords, lowercase text, remove punctuation, and lemmatize text.
+- **Data Transformation:** Convert data types, encode categorical variables, create new features, and handle date and time data.
+- **Date and Time Manipulation:** Extract date components.
+- **Scalable:** Works efficiently with large datasets.
+- **Easy to Use:** Simple and intuitive API.
+
+## Installation
+
+You can install DataAnalyse from PyPI using pip:
+
+## Usage
+
+```python
+import DataAnalyse
+
+
+# Example usage of DataAnalyse module
+import DataAnalyse
+
+# Example usage of specific modules within DataAnalyse
+from DataAnalyse import OutlierHandler, StringManipulation
+
+# Use cases
+# Handle outliers
+data = pd.read_csv('data.csv')
+cleaned_data = OutlierHandler.remove_outliers_iqr(data, threshold=1.5)
+
+# Text preprocessing
+processed_text = StringManipulation.remove_stopwords(data, column='text_column')
