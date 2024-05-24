@@ -1,0 +1,6 @@
+mgzip>=0.2.1,
+numpy>=1.26.4,
+pandas>=2.2.2,
+pyOghma>=0.1,
+tqdm>=4.66.2,
+ujson>=5.9.0,
