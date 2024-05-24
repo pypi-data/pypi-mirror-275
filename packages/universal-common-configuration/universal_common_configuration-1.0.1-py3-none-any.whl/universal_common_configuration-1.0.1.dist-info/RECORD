@@ -1,0 +1,9 @@
+universal_common_configuration/__init__.py,sha256=OJHokEgvyJVm655uKskPKVIX9Dn1lP4-ljauyRnaM3c,12187
+universal_common_configuration/abstractions.py,sha256=q8rTU24uugv1mBm4TGfjrRtZpDgl7F_rRTmNtR3jD4M,6240
+universal_common_configuration/environment_variables.py,sha256=UW0BRTu9AYQ__Y1GRglZUJTEUwDuydmhhyarJqNt8xE,4594
+universal_common_configuration/json.py,sha256=dQBgvNHbQgD4xhfQiZqYkg1hdRix4bCh8vBt2GQ0N6o,3608
+universal_common_configuration/user_secrets.py,sha256=V5ouwNgqjgQE-2aI-wQ6vCIRR61aamOv9dRfsFb5xA8,2678
+universal_common_configuration-1.0.1.dist-info/METADATA,sha256=5B624wBQOuYfubeVF17gwqJo42r6_ONzgIRcx3M_zuA,710
+universal_common_configuration-1.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+universal_common_configuration-1.0.1.dist-info/licenses/LICENSE,sha256=oZ1YqqsVxNABnladHAc9G1KG_dN9vu56WKfRrnYEWuE,7167
+universal_common_configuration-1.0.1.dist-info/RECORD,,
