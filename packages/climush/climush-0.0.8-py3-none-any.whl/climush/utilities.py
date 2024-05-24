@@ -1,0 +1,1399 @@
+import subprocess, re, sys, pathlib, shutil, json, tomlkit, gzip
+from pathlib import Path
+from datetime import datetime
+from functools import wraps
+import pandas as pd
+from climush.constants import *
+
+# tried to order by category but some required specific order due to dependencies on other functions
+
+#######################
+# MISC UTILITIES ######
+#######################
+
+# check if the provided file path is a pathlib Path object
+def is_pathclass(file_path, exit_if_false=True):
+    '''
+    Checks if the input is a Path class.
+
+    :param file_path: path in question
+    :param exit_if_false: whether to exit the script if the
+    file path is found to not be a valid Path object; defaults
+    to true, as it tends to mess up downstream processes.
+    :return: True/error message
+    '''
+    if isinstance(file_path, pathlib.PurePath):
+        return True
+    else:
+        if exit_if_false:
+            msg = f'The provided path, {file_path}, is not a valid Path object.\n'
+            return exit_process(message=msg)
+        else:
+            return False
+
+# alert if multiple files matching the search pattern in the file path are returned
+# prompt for user input if multiple or no files matching the pattern are returned
+# moved here because used in continue_to_next()
+def flag_multiple_files(file_path, search_for, auto_respond=False):
+    assert is_pathclass(file_path, exit_if_false=False)
+
+    result = list(file_path.glob(search_for))
+
+    if len(result) == 1:
+        return result[0]
+    elif len(result) == 0:
+        all_files = file_path.glob('*')
+        print(f'No files matching the pattern \'{search_for}\' were detected in the file path: {file_path}. Do '
+              f'you mean any of these files in this directory?')
+        which_file = prompt_print_options([all_files, 'none of these (exit)'], auto_respond=auto_respond)
+        if which_file in all_files:
+            return which_file
+        else:
+            return exit_process(message=f'The response \'none of these\' was chosen when searching for the correct'
+                                        f'file matching the pattern: {search_for}')
+    else:
+        print(f'{len(result)} files matching the pattern \'{search_for}\' were detected in the file path: '
+              f'{file_path}. Please type the number corresponding to the correct file to use:')
+        which_file = prompt_print_options([result, 'none of these (exit)'], auto_respond=auto_respond)
+        if which_file == 'none of these (exit)':
+            return exit_process(message=f'The response \'none of these\' was chosen when searching for the correct'
+                                        f'file matching the pattern: {search_for}.')
+        else:
+            return which_file
+
+def check_dir_exists(dir_path, auto_respond = False):
+    '''
+    Creates a Path object and checks if the directory exists.
+
+    Takes the input path and checks whether the path is a Path object. If it is not,
+    it converts it to a Path object. Then checks whether the input path is an existing
+    directory. If it is not, it will prompt the user for a different file path. This
+    function is recursive, in that it will rerun the function if a new file path is
+    provided via the command line prompt.
+    :param dir_path: path to the directory to check; can be a Path object or a string
+    :param auto_respond: if set to True, and the provided path does not exist, then the
+    function will cause the script it is used within to exit if the dir_path is not an
+    existing file path
+    :return: a Path object of an existing file path
+    '''
+
+    # create a path object from the input, if not already a Path object
+    if isinstance(dir_path, pathlib.PurePath):
+        if dir_path.is_absolute():  # check if absolute; needs to be to get full name of parent, etc.
+            pass
+        else:
+            dir_path = dir_path.resolve()
+    else:
+        dir_path = Path(dir_path).resolve()  # also check if absolute here
+
+    # check if the path exists, which is required for this script
+    if dir_path.is_dir():  # if the input path is an existing directory...
+        return dir_path  # return the Path as is
+
+    else:  # if the input path is NOT an existing directory...
+
+        # trigger yes/no/quit prompt for adding a different path
+        msg = f'The provided input path is not an existing directory:\n '\
+              f'\t{dir_path}\n'\
+              f'Would you like to provide a different directory?'  # do not include last line break, prompt_ will add
+
+        if auto_respond:
+            print(f'\tauto response: quit\n')
+            sys.exit()
+        else:
+            prompt_yes_no_quit(message=msg)  # will exit here if no/quit is selected, continue to next line if 'yes'
+
+            # if yes, then prompt for updated path
+            print(f'Please provide the new file path to use below:\n')
+            new_path = input('>  ')
+
+            # recursively run function to ensure that this new path exists
+            return check_dir_exists(dir_path)
+
+# log progress of bioinformatics pipeline
+def log_progress(file_map, run_name):
+    log_file = file_map['pipeline-output']['summary'] / f'log_{run_name}.json'
+
+    log_dict = {'run_name': run_name,
+                'error': {'script':'04_quality-filtering',
+                          'function':''}
+                }
+
+    with open(log_file, 'at') as log_out:
+        log_out.write(json.dumps(log_dict))
+
+# exit current script due to error, save script and timestamp of where error occurred
+def exit_process(message, config_section='error.message'):
+    script_name = sys.argv[0]  # unsure if will get name of script it is executed in or the one it is compiled in
+    exit_time = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
+    # write_to_config(config_section=config_section, script=script_name, timestamp=exit_time, details=message)
+    print(f'Exiting {script_name}...\n')
+    return sys.exit()
+
+# recursive function that will seek out yes/no/quit response continuously until achieved
+def prompt_yes_no_quit(message, auto_respond=False):
+    '''
+    User prompt accepting specific responses.
+
+    Takes the input of a print message that shows just prior to a user prompt. The message
+    should specify the potential responses of yes/y, no/n, or quit/exit (case insensitive).
+    If the user inputs a response that is not one of these potential responses, it will provide
+    a notification that the input response was not recognize, and relist the acceptable responses.
+    It then will immediately reprint the initial prompt to allow the user another chance to enter
+    and acceptable input string.
+    :param message: any message describing what is wanted from the user; see the return for how
+    to set up the message so that the desired output is achieved
+    :return: if response is yes/y, it will return nothing and then next line of code in the
+    script will be run; if response is no/n/quit/exit, then it will exit the current script; if the
+    response is unfamiliar, it will print an alert for invalid input, and restart the prompt
+    again until an acceptable answer is received.
+    '''
+
+    print(f'{message} [yes/no/quit]\n')
+
+    if auto_respond:
+        return print(f'\tauto response: yes\n')
+
+    response = input()
+
+    if re.search(YES_RE, response, re.I):
+        return None
+    elif re.search(NO_RE, response, re.I) or re.search(QUIT_RE, response, re.I):
+        print(f'Exiting...\n')
+        return sys.exit()
+    else:
+        print(f'Your response was not recognized out of the list of potential responses. Please respond with '
+              f'\'yes\', \'no\', or \'quit\'.\n')
+        return prompt_yes_no_quit(message)
+
+# print out list of options for option-based prompts
+def prompt_print_options(option_list, auto_respond=False):
+
+    option_list.sort()  # sort option list for easier user experience
+    option_list.append('quit')  # add option to quit, listed last
+
+    if auto_respond:
+        print(f'options: {option_list}\n')
+        print(f'\tauto response: quit\n')
+        return sys.exit()
+
+    for o,opt in enumerate(option_list):
+        if (o+1) < len(option_list):
+            print(f'\t[{o+1}]: {opt}')  # print out all options from option list, excluding final option
+        else:
+            selected_opt = input(f'\t[{o+1}]: {opt}\n')  # print out last option from option list as prompt
+
+    result = option_list[int(selected_opt)-1]  # return the item from option list matching the user input
+
+    if result == 'quit':
+        return sys.exit()
+    else:
+        return result
+
+# print a CLI prompt when multiple files are detected when only one is expected
+def prompt_multiple_files(file_path, auto_respond=False):
+    print(f'\nWARNING: Multiple files were detected in the '
+          f'{file_path.stem} folder. Please type the number '
+          f'corresponding to the correct file to use:')
+    file_list = [file.stem for file in file_path.glob('*') if not re.search(HIDDEN_FILE_REGEX, file.stem)]
+    return prompt_print_options(file_list, auto_respond=auto_respond)
+
+# provide options for the sequencing platform if it cannot be otherwise detected
+def prompt_sequencing_platform(sample_id, auto_respond=False):
+    print(f'\nWARNING: The sequencing platform could not be inferred from the sample: {sample_id}. Please type '
+          f'the number corresponding to the correct sequencing platform from the options below. ')
+    platform = prompt_print_options([SEQ_PLATFORM_OPTS, 'multiple'],
+                                    auto_respond=auto_respond)
+    if platform == 'multiple':
+        print(f'If you have a combination of sequences from multiple platforms, you will need to either:\n'
+              f'(1) manually sort the files into their sequencing platform directories\n'
+              f'(2) use the file renaming script, rename_sequence_files.py, to rename the files to match '
+              f'the file naming convention.\n')
+        return
+
+# print indented list
+def print_indented_list(print_list):
+    print_list[0] = '\t' + print_list[0] # add leading tab for first item printed from list, otherwise adds after line break
+    formatted_list = '\n\t'.join(print_list)
+    return print(formatted_list)
+
+# run shell command and save stdout and stderr to file
+def run_subprocess(cli_command_list, dest_dir, auto_respond=False):
+    '''
+    Run a subprocess, saving the output and error to a log file.
+
+    Takes the command line (CL) argument assembled as a list, and runs
+    the subprocess, saving the standard in (stdin), standard out (stdout),
+    and standard error (stderr) from the process. The output of stderr and
+    stdout are written to a log file in the destination directory
+    :param cli_command_list: the list of the components of the command line
+    argument to run through subprocess; each argument should be separated
+    out into a list, rather than a single string.
+    :param dest_path: directory to write the file to; should be a Path
+    object
+    :return: None
+    '''
+    assert is_pathclass(dest_dir)
+
+    assert isinstance(cli_command_list, list) and len(cli_command_list) > 1, print(f'Command line process to run '
+                                                                             f'should be in a list of its components. '
+                                                                             f'Try shlex.split() if unsure how to '
+                                                                             f'compose the list. ')
+
+    # run_cmd = subprocess.run(cli_command_list, stdin=PIPE, stdout=PIPE, stderr=PIPE)
+    # out, err = run_cmd.communicate()
+    program = cli_command_list[0]
+
+    if re.search(r'.\..', program):
+        program = program.split('.')[0]
+
+    run_cmd = subprocess.run(cli_command_list, capture_output=True)
+
+    out_path = dest_dir / f'{program}.out'
+    with open(out_path, 'at') as fout:
+        out_as_str = run_cmd.stdout.decode('utf-8')
+        if not int(out_path.stat().st_size) == 0:
+            fout.write(f'-----------------------------\n')
+        if len(out_as_str) > 0:
+            fout.write(f'{out_as_str}\n')
+
+    err_path = dest_dir / f'{program}.err'
+    with open(err_path, 'at') as fout:
+        err_as_str = run_cmd.stderr.decode('utf-8')
+        if not int(err_path.stat().st_size) == 0:
+            fout.write(f'-----------------------------\n')
+        if len(err_as_str) > 0:
+            fout.write(f'{err_as_str}\n')
+
+    temp_file = dest_dir / f'{program}.temp'
+
+    if len(run_cmd.stderr) == 0:
+        pass
+    else:
+        if not temp_file.is_file():  # if the temp_file does not exist (i.e., prompt already responded to)
+            print(f'Running {program} produced an error. Please review the output in {err_path.name}. '
+                  f'Would like to continue despite this error? [yes/no]')
+            if auto_respond:
+                print(f'\tauto response: yes\n')
+                with open(temp_file, 'wt') as fout:  # still want to write to this file so it stops asking
+                    fout.write('stop_prompt')
+            else:
+                continue_ok = input()
+                if re.search(continue_ok, AFFIRM_REGEX, re.I):
+                    with open(temp_file, 'wt') as fout:
+                        fout.write('stop_prompt')
+                else:
+                    return exit_process(message=f'Running {program} produced an error. See {err_path.name} for details.')
+
+    return None
+
+def func_timer(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        start_time = datetime.now()
+        func_output = func(*args, **kwargs)
+        end_time = datetime.now()
+        runtime = str(end_time - start_time).split('.')[0]  # round seconds down
+        print(f"{func.__name__} was executed in {runtime}.\n")
+        return func_output
+    return wrapper()
+
+def get_seq_platform(fastx_file, delim='_'):
+    if isinstance(fastx_file, str):
+        sample_id = fastx_file
+    elif is_pathclass(fastx_file, exit_if_false=False):
+        sample_id = fastx_file.name
+    else:
+        print(f'ERROR. Could not read the file name when trying to detect the sequencing platform '
+              f'from the file name: {fastx_file}\n')
+        return None
+
+    # check the file name components for any of the expected platforms: pacbio, illumina, sanger
+    platform = []
+    for v in sample_id.split(delim):
+        if re.search(PLATFORM_ANYWHERE_RE, v, re.I):
+            platform.append(v)
+        else:
+            continue
+
+    # confirm that only one platform was encountered in the file name
+    if len(platform) == 1:
+        return platform[0]
+    elif len(platform) > 1:
+        print(f'There were multiple sequencing platforms detected:\n'
+              f'\tfile name: {sample_id}\n'
+              f'\tplatforms detected: {platform}\n')
+    else:
+        print(f'No sequence platforms were detected:\n'
+              f'\tfile name: {sample_id}\n')
+
+    print(f'May not be able to continue without a clear sequencing platform.\n'
+          f'Exiting...\n')
+    return None
+
+def import_mapping_df(df_path, auto_respond=False):
+    '''
+    Import .csv, .txt, or .xlsx table as a dictionary.
+
+    Read in a mapping file for demultiplexing. Can accomodate the file formats
+    .xlsx, .csv, and .txt. Will output a dictionary, where the key is the name
+    of the tab in the dataframe and the value is the dataframe in that tab. Will
+    always return a dictionary, although only .xlsx files will have tabs. Formats
+    the name of the keys in the output dictionary to be 'pool1' or 'pool2'; the
+    number of the pool is inferred from the name of the tab (.xlsx) or the name
+    of the file (.csv, .txt). Returned as dictionary so that the output can be
+    handled in the same way, regardless of file type (e.g., loop through tabs
+    even if a .csv, which will have a single tab).
+    :param df_path: path to the dataframe
+    :param auto_respond: True/False; whether to automatically respond to the prompt
+    within or not; this value should be provided from the settings read in from the
+    configuration file, within ['automate']['auto_respond']
+    :return: dictionary, where the key is 'pool1' or 'pool2', and the value is the
+    dataframe belonging to that tab, or in the case of a .csv or .txt file, the
+    entirety of that dataframe file.
+    '''
+
+    # if the mapping file is an excel file...
+    if re.search(r'^\.x', df_path.suffix):
+
+        # read in all tabs from the table
+        mapping_tabs = pd.read_excel(df_path, sheet_name=None)  # need to set sheet_name to None to get all tabs
+        old_tab_names = list(mapping_tabs.keys())  # make list of old names, otherwise cannot update key names in loop
+
+        # create a set to add pool numbers to when they are found from tabs in .xlsx file
+        # if there are multiple tabs, some of which are unrelated to pools, will need to reference this
+        found_pools = {'pool01':'',
+                       'pool02':''}
+        miscell_tabs = []
+
+        for tab in old_tab_names:
+
+            try:  # format the name of the tab to be uniform across all tabs/dataframes
+                pool_num = re.search(POOL_NUM_RE, tab, re.I).group(0)
+
+                # add the found pool number to the found_pools set
+                if re.search(r'1', pool_num):
+                    found_pools['pool1'] = tab
+                elif re.search(r'2', pool_num):
+                    found_pools['pool2'] = tab
+                else:
+                    print(f'ERROR. A pool number was detected in the tab {tab} in the mapping file {df_path.name}, '
+                          f'but it could not be determined whether this was the number for pool 01 or pool 02.\n')
+                    return sys.exit()
+
+            except AttributeError:  # if this tab does not contain pool information, or at least not detected as such...
+
+                # add this tab name to the miscell_tabs list to check at end whether might be a pool tab or not
+                miscell_tabs.append(tab)
+
+            for pool_num, pool_tab in found_pools.items():
+
+                # if no tab was found matching this pool...
+                if pool_tab == '':
+
+                    # print a warning and prompt user to chose the tab that corresponds to this pool
+                    print(f'WARNING. The pool number for {pool_num} could not be inferred from tabs in the '
+                          f'mapping file {df_path.name}. Please enter the number of the tab that corresponds to '
+                          f'{pool_num}')
+
+                    # will return the name of the tab to use, so update var pool_tab to match
+                    pool_tab = prompt_print_options(miscell_tabs, auto_respond=auto_respond)
+
+                mapping_tabs[pool_num] = mapping_tabs.pop(pool_tab)  # replace old tab (key) with reformatted one
+
+
+
+    # if the mapping file is a .csv or .txt file...
+    elif re.search(r'^\.c|^\.txt$', df_path.suffix):  # I think you can read in .txt and .csv files the same way?
+
+        try:  # try to get the pool number from the file name
+
+            pool_num = re.search(POOL_NUM_RE, df_path.name, re.I).group(0)
+
+        except AttributeError:  # if there's no detected pool number in the name, prompt user to specify one
+
+            print(f'The pool number could not be inferred from the file name of the mapping file {df_path.name}. '
+                  f'Please type the correct pool number for this file: ')
+            pool_num = prompt_print_options(['1', '2'], auto_respond=auto_respond)  # choose from 1 or 2 (or quit, built into function)
+
+        mapping_tabs = {f'pool{pool_num}': pd.read_csv(df_path)}  # make dict to match format from .xlsx
+
+    # if the mapping file doesn't appear to be .xlsx, .csv, or .txt...
+    else:
+
+        # can't use this file with the current version of the pipeline functions
+        print(f'ERROR. The file format {df_path.suffix} of the mapping file {df_path.name} is not a recognized '
+              f'file type. Accepted file types are: \'.xlsx\', \'.csv\', and \'.txt\'.\n')
+        sys.exit()
+
+    return mapping_tabs
+
+# activate next script in python
+def continue_to_next(this_script, config_dict):
+    '''
+    Continue to the next step of the pipeline.
+
+    Will activate the script from the CLI with default
+    parameters. If you do not want to use the default
+    parameters, opt out of automated continuation by
+    responding to the CLI prompt that precedes the use
+    of this function.
+    :param this_script: use __file__ always
+    :return: None, assembles and runs a shell command.
+    '''
+
+    # if the input is not a Path class, make it a Path class
+    if is_pathclass(this_script, exit_if_false=False):
+        pass
+    else:
+        this_script = Path(this_script)
+
+    # read in automation details from the configuration file
+    automate_dict = config_dict['automate']
+    auto = automate_dict['run_all']
+    to_run = automate_dict['run_some']
+
+    # get the number of the current script from its prefix, cast as int for comparison
+    current_num = int(this_script.name.split('_')[0])
+
+    # using the current script's number, create search string for next script to run
+    def format_num_for_search(current_script_number, consecutive=True):
+
+        # get int of next script based on configuration settings
+        if consecutive:  # if automate = True, run the next consecutive script
+            next_int = current_script_number + 1
+        else:  # if automate = False and len(run_sum) > 0, determine next script to run
+            if len(to_run) > 0:
+                # get the index of this current script in the to_run list
+                current_script_runlist_i = to_run.index(current_script_number)
+                # if it is the last int in this list...
+                if current_script_runlist_i == (len(to_run) - 1):
+                    # return None, which will trigger a print/exit in the parent function
+                    return None
+                # if there are more items in the scripts to run...
+                else:
+                    # next_int will be the next number in that list
+                    next_int = to_run[current_script_runlist_i + 1]
+
+        # format the next script int as a string, w/ (0-9) or w/o (10+) leading zero
+        if next_int >= 10:  # if in double-digits, don't add a leading zero
+            next_num_search = str(next_int)
+        else:  # if single digit, add leading zero
+            next_num_search = '0' + str(next_int)
+
+        return next_num_search
+
+    # give priority to numbered scripts to run, even if auto left on True
+    if len(to_run) > 0:  # if there are entries in to_run...
+
+        # find the next value in this list (*not* consecutive, but based on to_run settings)
+        next_num_search = format_num_for_search(current_num, consecutive=False)
+
+        # if there are none (i.e., current script is last one in this list)
+        if next_num_search is None:
+            # print that steps are completed, and exit
+            print(f'\nThe pipeline has run all steps designated in the run_some section of the configuration '
+                  f'settings. Exiting the pipeline...\n')
+            return sys.exit()
+
+        # if there are scripts after this current one to run
+        else:
+            # find the file of the next script, based on format_num_for_search output
+            next_script = flag_multiple_files(file_path=this_script.parent, search_for=f'{next_num_search}*',
+                                              auto_respond=config_dict['automate']['auto_respond'])
+
+    # if no specific scripts specified...
+    else:
+
+        # find the next consecutive script
+        next_num_search = format_num_for_search(current_num, consecutive=True)
+        next_script = flag_multiple_files(file_path=this_script.parent, search_for=f'{next_num_search}*',
+                                          auto_respond=config_dict['automate']['auto_respond'])
+
+        # if set to automatically run, then continue to last print/return statement
+        if auto:
+            pass
+
+        # if not set to auto-run, prompt user to determine whether to continue
+        else:
+            msg = f'The script {this_script} has completed. Would you like to continue '\
+                  f'to the next step in the pipeline, {next_script.stem}?'
+            prompt_yes_no_quit(msg, auto_respond=config_dict['automate']['auto_respond'])  # if response is yes, it will continue to next line; if no, will exit here
+
+    print(f'\n\nRunning next step, {next_script.name}...\n')
+    return subprocess.run(['python3', next_script])
+
+#######################
+# FILE PATHS ##########
+#######################
+
+
+def import_filepath(arg_value, must_exist, make_absolute=True):
+    '''
+    Import a file path from parsed command line options as a Path object.
+
+    Takes the value returned from a parsed argparse argument, typically as
+    a dictionary element. Should also accept an argparse Namespace class as
+    long as it has already been indexed into a string (makes no difference).
+    :param arg_value: value from the parsed command line argument that expects
+    a path-like string or Path object (e.g., for default values from config files)
+    :param
+    :param make_absolute: whether to convert the Path object to an absolute
+    file path if a relative file path is provided
+    :return: the input path as a Path object
+    '''
+
+    # convert input to a Path class object
+    if is_pathclass(arg_value, exit_if_false=False):
+        input_path = arg_value
+    else:
+        input_path = Path(arg_value)
+
+    # check through the rest of the settings for the path (must_exist, make_absolute)
+
+    # if the path must exist and want to make it absolute...
+    if make_absolute and must_exist:  # [T/T]
+        try:  # using strict=True will both check that the path exists and make it absolute
+            return input_path.resolve(strict=True)
+        except FileNotFoundError:  # if it doesn't exist, then FileNotFoundError will be triggered
+            # in this case, print an error message with the error-causing path, and exit function
+            # because there is one other section with same error message, just pass and will print error + exit at end
+            pass
+
+    # if only want to make the path absolute...
+    elif make_absolute:  # [T/F] if it were both, it would have already execute first if statement
+        return input_path.resolve(strict=False)
+
+    # if I only want to ensure that the path exists...
+    elif must_exist:  # [F/T] if make_absolute were true, it would have executed by now
+        if input_path.is_dir() or input_path.is_file():  # accept either directories or files
+            return input_path
+        else:
+            # because there is one other section with same error message, just pass and will print error + exit at end
+            pass
+
+    # if I don't want either setting; I don't want to require that path exists nor that the path be absolute
+    else:
+        return input_path
+
+    # print collected ERROR message, if any, and exit script if this point is reached
+    # only errors will not have returned anything by now
+    msg = (f'ERROR. The following path provided does not exist: \n'
+           f' {input_path} \n'
+           f'A path to an existing file or directory is required for this function. '
+           f'Please check this path and then rerun.\n')
+    print(msg)
+    return sys.exit()
+
+def filter_empty_files(dir_path, keep_empty=True):
+    empty_files = 0
+    empty_folders = 0
+    for file in dir_path.glob('*'):
+        if file.stat().st_size == 0:
+            empty_files += 1
+            if keep_empty:
+                # REPLACE W/ MKDIR EXIST OKAY
+                dest_dir = dir_path / 'empty-files'
+                dest_dir.mkdir(exist_ok=True)
+                dest_path = dest_dir / file.name
+                file.rename(dest_path)
+                fate = f'moved to the directory {dest_dir}'
+            else:
+                file.unlink()
+                fate = 'deleted'
+        elif file.is_dir():
+            try:  # empty dirs not always size 0 (hidden files); this will only rm dir if it is empty (but not 0)
+                file.rmdir()
+                fate = 'deleted'
+                empty_folders += 1
+            except:
+                fate = ''
+                continue
+        else:
+            fate = ''
+            continue
+
+    return print(f'{empty_files} files and {empty_folders} folders were {fate}.\n')
+
+# check whether a path exists; return path if it does or raise error if it does not
+def flag_if_not_path_exists(file_path, absolute=True, exit_if_false=True):
+    '''
+    Create a Path class using the provided filepath string.
+
+    If the filepath does not exist, send an error message,
+    and will exit the script.
+    :param filepath: string of absolute or relative path.
+    :param absolute: default True; if True, will return the
+    Path as an absolute path; otherwise will remain relative
+    (which may cause issues when joining paths later on)
+    :param exit_if_false: whether to exit the Python script if
+    the provided path does not exist; defaults to True
+    :return: filepath as PosixPath if it exists, otherwise
+    an error will exit the script.
+    '''
+    try_path = Path(file_path)
+
+    if try_path.exists():
+        if absolute:
+            return try_path.resolve()
+        else:
+            return try_path
+    else:
+        msg = f'Cannot locate the filepath {file_path}. Please '\
+              f'make sure that either the original file structure '\
+              f'of the container is unchanged, or use the --seq-path/-sp '\
+              f'flags while running this script.\n'
+        print(msg)
+        if exit_if_false:
+            return exit_process(message=msg)
+        else:
+            return None
+
+# create a log file to write details of pipeline step to
+def make_log_file(file_name, dest_path, log_suffix=LOG_SUFFIX):
+    '''
+    Create file path for a log file.
+
+    Files with multiple file extensions (e.g., fastq.gz) are
+    not easily manipulated with most standard libraries like
+    pathlib. Only '.gz' will be recognized as the file suffix/
+    extension. This function deals with the different approaches
+    required when the file extension is complex (.fastq.gz) and
+    when it is simple (.fasta)
+    :param file_name: name of the file to use to base
+    the log file name off of
+    :param log_suffix: the suffix/file extension to use for the log
+    file; defaults to '.log'
+    :param dest_path: directory to create the file
+    :return: path to log file
+    '''
+    assert is_pathclass(file_name)
+    assert is_pathclass(dest_path)
+
+    if not log_suffix.startswith('.'):  # for user-provided suffix, check there is a '.'
+        log_suffix = '.' + log_suffix
+
+    if re.search(GZIP_REGEX, file_name.name):
+        log_file_name = re.sub(GZIP_REGEX, log_suffix, file_name.name)
+    else:
+        log_file_name = file_name.with_suffix(log_suffix)
+
+    return Path(dest_path / log_file_name)
+
+# create directory if it doesn't exist and return path, or return the directory path if it already exists
+def mkdir_exist_ok(new_dir, parent_dir=None):
+    '''
+    Make a new directory if one does not exist. Bypass making
+    the directory if it does exist.
+    :param new_dir: name of new directory as string
+    :param parent_dir: path object to new directory; if none
+    is specified, the new directory must be an absolute path.
+    :return: Path object of directory path
+    '''
+    if not (isinstance(new_dir, str)) and (new_dir.is_absolute()):
+        new_dir.mkdir(exist_ok=True)
+        return new_dir
+    elif (parent_dir is None):
+        return print(f'\nThe provided file path of the new directory is not absolute. Please '
+                           f'provide a parent_dir to specify the path of the new directory, and '
+                           f'retry.\n')
+    else:
+        new_path = Path(parent_dir / new_dir)
+        new_path.mkdir(exist_ok=True)
+        return new_path
+
+# move files from current location (source_path) to new location (dest_path)
+def move_file(source_path, dest_path):
+    assert isinstance(source_path, pathlib.PurePath), f'The provided source path is not a Path object: {source_path}'
+    assert isinstance(dest_path, pathlib.PurePath), f'The provided destination path is not a Path object: {dest_path}'
+
+    full_dest_path = dest_path / source_path.name
+
+    source_path.rename(full_dest_path)
+
+    if full_dest_path.is_file():
+        return None
+    else:
+        return print(f'The file {source_path.name} was not properly copied to its new destination: {dest_path}.')
+
+# count the number of files in a directory
+def count_files(file_path, search_for='*'):
+    '''
+    Counts the number of files in a file path, and returns as int.
+
+    :param file_path: path to directory to count files in.
+    :param search_for: the .glob string that describes the file types
+    to search for; default is '*', which is all files
+    :return: int of the number of files in directory
+    '''
+    # check if it is a file path that exists
+    flag_if_not_path_exists(file_path, absolute=False, exit_if_false=False)
+
+    return len(list(file_path.glob(search_for)))
+
+def check_for_input(file_dir, seq_platform=None, file_ext=SEQ_FILE_GLOB):
+    '''
+    Checks if there are input files for the process.
+
+    :param file_dir: the directory path to check for files and to check
+    whether the path exists
+    :param seq_platform: the type of sequencing files to look for ['illumina',
+    'sanger', 'pacbio']; defaults to None, meaning it will return True if any
+    non-empty directory or file is located
+    :param file_ext: the expected file extension of the files to search for,
+    using asterisk '*' for wildcard (used in glob)
+    :return: two items; [1] Boolean T/F, whether there is a directory in this
+    path that contains sequencing files; [2] a list of the files matching the
+    file extension in the directory, if present
+    '''
+    assert is_pathclass(file_dir)  # must be Path class or .is_dir() won't work, and it will say dir doesn't exist
+
+    # I decided to leave this out so you could put any regex in (i.e., multiplexed pacbio files will start with \d{4}
+    # accepted_seq_input = [None, 'illumina', 'sanger', 'pacbio']
+    # if not seq_platform in accepted_seq_input:
+    #     print(f'The provided sequencing platform, {seq_platform}, is not one of the accepted '
+    #           f'values: {accepted_seq_input}. Please retry with one input value from this list '
+    #           f'as a string, or multiple values as a list of strings.\n')
+    #     return sys.exit()
+
+    if seq_platform is None:
+        seq_re = r'.+?'  # will return all files in directory
+    elif isinstance(seq_platform, list):
+        seq_re = '|'.join(seq_platform)  # returns only those in provided list
+    else:
+        seq_re = seq_platform  # returns only those of the provided platform
+
+    if file_dir.is_dir():  # check that input is a directory
+        if count_files(file_path=file_dir, search_for=file_ext) > 0:  # confirm it is not empty
+            file_list = [f for f in file_dir.glob(file_ext) if re.search(seq_re, f.name, re.I)]  # check for specific files
+            if len(file_list) > 0:
+                return True, file_list  # return true if files matching criteria are found
+            else:
+                print(f'The directory {file_dir} contains files, but none that match the platform-specific search '
+                      f'criteria: {seq_platform}.')
+                return False, file_list  # return false if not
+        else:
+            file_list = []  # if input is a directory, but it is empty...
+            print(f'The directory {file_dir} exists, but is empty.\n')
+            return False, file_list  # return false and empty list
+    else:
+        file_list = []  # if input is not a directory
+        print(f'The directory {file_dir} does not exist.\n')
+        return False, file_list  # return false and empty list
+
+# get name of previous script
+
+# compress a fastq file to .fastq.gzip format
+# DOES NOT WORK, WILL NOT COMPRESS A .FASTQ FORMAT BECAUSE IT CAN'T DETECT BYTES
+def gzip_compress(uncompressed_path, delete_uncompressed=True, **kwargs):
+    '''
+    Compress an input file to the gzip compression format.
+
+    :param uncompressed_path: Path object describing path to the uncompressed
+    file that requires compression
+    :param delete_uncompressed: True (default), False; whether to remove the
+    uncompressed version of the file after successfully compressing it
+    :param kwargs: compressed_path may be provided, which should be a Path object
+    that is used as the output path for the compressed version of the input file; if
+    one is not provided, then the input uncompressed Path is used as the basis for
+    the compressed file name
+    :return: None; saves the gzip version
+    '''
+
+    # confirm that the input uncompressed file is a Path object
+    if is_pathclass(uncompressed_path):
+        pass
+    else:
+        try:  # try to create a Path object from the input
+            uncompressed_path = Path(uncompressed_path)
+        except:  # if it can't be converted to a Path object, then print error and exit
+            msg = (f'The path provided, {uncompressed_path}, was not originally a Path object, and could not be '
+                   f'automatically converted to a Path object. Please provide a Path object to '
+                   f'the parameter \'uncompressed_path\' to continue.\n')
+            return exit_process(message=msg)
+
+    # if the compressed path is provided as a keyword argument...
+    if 'compressed_path' in kwargs.keys():
+        # confirm that it is a Path object
+        if is_pathclass(kwargs['compressed_path']):
+            # write in to variable
+            compressed_path = kwargs['compressed_path']
+        # if it is not a Path object...
+        else:
+            try:  # try to create a Path object from the input
+                compressed_path = Path(kwargs['compressed_path'])
+            except:  # if it can't be converted to a Path object, then print error and exit
+                msg = (f'The path provided, {kwargs["compressed_path"]}, was not originally a Path object, '
+                       f'and could not be automatically converted to a Path object. Please provide a Path '
+                       f'object to the keyword \'compressed_path\' to continue.\n')
+                return exit_process(message=msg)
+    # if no keyword argument for compressed path is included...
+    else:
+        # create compressed path by adding .gz to input uncompressed path
+        compressed_path = uncompressed_path.with_suffix('.'.join([uncompressed_path.suffix, 'gz']))
+
+    # first open the uncompressed file to read content
+    with open(uncompressed_path, 'rb') as uncomp_in:
+        # then open the compressed file to write uncompressed content to
+        with gzip.open(compressed_path, 'wb') as comp_out:
+            # read uncompressed content and write to the gzip output file
+            shutil.copyfileobj(uncomp_in, comp_out)
+
+    # check that the compressed file isn't empty
+    if compressed_path.stat().st_size == 0:
+        msg = (f'ERROR. The uncompressed file, {uncompressed_path.name}, was not successfully written to the '
+               f'compressed file {compressed_path.name}, as the compressed file size is zero (0).\n')
+        return exit_process(message=msg)
+
+    # check that the compressed file is properly compressed
+    with open(compressed_path, 'r') as comp_in:
+        try:
+            comp_in.read(1)
+        except gzip.BadGzipFile:
+            msg = (f'ERROR. The uncompressed file, {uncompressed_path.name}, was not successfully written to the '
+                   f'compressed file {compressed_path.name}, as the compressed filee was flagged as BadGzipFile '
+                   f'by the gzip Python library.\n')
+            return exit_process(message=msg)
+
+    # remove uncompressed file, if delete_uncompressed set to True (default)
+    if delete_uncompressed:
+        uncompressed_path.unlink()
+
+    return None
+
+#######################
+# TEXT MANIPULATION ###
+#######################
+
+# add prefix to file name
+def add_prefix(file_path, prefix, dest_dir, action='rename', f_delim='_'):
+    '''
+    Add prefix to file name.
+
+    Adds a prefix to the file name that indicates which step of the
+    pipeline the given file is produced from. Typically, will use one
+    of the constants for the prefix, but any string can be provided.
+    Prefix constants only exist for the files that persist to the
+    next step of the pipeline. To create prefixes for the non-persistent
+    files (e.g., reads/samples that are filtered out), use the flip_prefix
+    function from the textmanip module.
+    :param file_path: either a directory containing files to add a prefix to
+    or a single file to add a prefix to
+    :param prefix: prefix to add to the file
+    :param f_delim: file name separator to use between the prefix and the rest
+    of the file name; defaults to an underscore
+    :return: Path object with new file name
+    '''
+
+    assert is_pathclass(file_path, exit_if_false=False)
+
+    def prefix_single(file_name):
+        old_name = file_name.name
+        platform_present = re.search(r'illumina|pacbio|sanger', old_name, re.I)
+        try:
+            # if there's a match, put prefix before the platform, remove all else
+            location = platform_present.span()[0]
+            new_name = prefix + f_delim + old_name[location:]
+        except:
+            # if there's no match, just add prefix to start of file name
+            new_name = prefix + f_delim + old_name
+
+        # replace old name with new name
+        if action == 'rename':
+            new_path = file_name.rename(dest_dir / new_name)
+        elif action == 'copy':
+            new_path = dest_dir / new_name
+            shutil.copy(file_path, new_path)
+        else:
+            new_path = dest_dir / new_name
+
+        return new_path
+
+
+    if file_path.is_dir():
+        new_path_list = []
+        for file in file_path.glob('*'):
+            new_path_list.append(prefix_single(file))
+        return new_path_list
+    elif file_path.is_file():
+        return prefix_single(file_path)
+    else:
+        msg = (f'FAILURE. Unrecognized '
+               f' file; cannot recognize as either a directory or file.\n')
+        return exit_process(msg)
+
+    # filename_start = file_name.name.split('_')[0]
+    # if re.search(ANY_PLATFORM_REGEX, filename_start, re.I):
+    #     return dest_path / f'{prefix}_{file_name.name}'
+    # elif re.search(ANY_PLATFORM_REGEX, file_name.name.split('_')[1], re.I):
+    #     return dest_path / file_name.name.replace(filename_start, prefix)
+    # else:
+    #     msg = f'\nERROR: Cannot locate start of the original filename to add prefix to for '\
+    #           f'file: {file_name}. Please make sure that the file name either starts with one '\
+    #           f'of the prefixes expected given the naming convention (i.e., sanger, illumina, pacbio), '\
+    #           f'or one of these expected prefixes is the second component of the filename.\n'
+    #     print(msg)
+    #     return exit_process(message=msg)
+    #     return exit_process(message=msg)
+
+def script_name_as_dir(script_name, parent, remove_num=False, suffix=None):
+    '''
+    Create a directory matching the name of the script from which it is executed.
+
+    :param script_name: typically can just use __file__, but if I were to write that
+    into the function, it would be the name of the module script for the climush
+    Python package, not the file the function was used in
+    :param suffix: suffix to add to end of directory name; may be useful
+    to reflect the user-settings for that file
+    :param parent: the parent directory under which to nest the directory; will
+    default to the output directory of the pipeline, as that's what this function
+    tends to be used for.
+    :return: Path object to resulting directory
+    '''
+    assert is_pathclass(parent)
+
+    if not parent.is_dir():
+        parent = mkdir_exist_ok(new_dir=parent)
+
+    script_num = Path(script_name).stem.split('_')[0]
+    script_name_nonum = re.sub(r'^\d+_(?=\w)',r'', Path(script_name).stem)
+    completed_name_nonum = OUTPUT_DIRS[script_name_nonum]
+    completed_name = f'{script_num}_{completed_name_nonum}'
+
+    if remove_num:
+        completed_name = re.sub(r'^\d+_(?=\w)',r'', completed_name)
+
+    if suffix:
+        out_path = parent / f'{completed_name}_{suffix}'
+    else:
+        out_path = parent / completed_name
+
+    out_path.mkdir(exist_ok=True)
+
+    return out_path
+
+def flip_prefix(prefix_const):
+    # not sure why I would check if the prefix was a path? I don't think I ever use a path, just a constant string?
+    # was throwing error when checking for PhiX in prefilter step, though was creating directory, error creating file
+    # if is_pathclass(prefix_const, exit_if_false=False):
+    #     prefix_const = prefix_const.stem
+    # else:
+    #     pass
+
+    if re.search(r'^no-', prefix_const, re.I):  # if provided prefix starts with no, remove no
+        return re.sub(r'^no-', r'', prefix_const, re.I)
+    else:  # if it does not start with no, add no
+        return 'no-' + prefix_const
+
+def rename_read_header(fasta_file, header_delim=';'):
+
+    # fasta_file = next(post_itsx.glob('*.fast*'))
+    parent_dir = fasta_file.parent.name
+
+    # get the sequence platform, to use when searching for the sample_id from the file name
+    seq_platform = get_seq_platform(fasta_file)
+
+    if re.search(r'itsx', parent_dir, re.I):  # if they are post-itsx reads...
+
+        sample_id = get_sample_id(file_path=fasta_file, platform=seq_platform)
+
+        updated_records = []
+        no_update_count = 0
+        for record in SeqIO.parse(fasta_file, 'fasta'):
+            header = record.description
+            try:
+                read_id = re.search(READ_ID_OG_RE, header).group(0)
+                region = re.search(READ_REGION_OG_RE, header).group(0)
+                read_count = re.search(READ_COUNT_OG_RE, header).group(0)
+                read_length = re.search(READ_LEN_OG_RE, header).group(0)
+
+                updated_header = header_delim.join([f'{sample_id}_{read_id}', region, f'region_len={read_length}bp',
+                                                    f'full-len_copies={read_count}'])
+
+                record.id = updated_header
+                record.name = f'{sample_id}_{read_id}'
+                record.description = ''
+                updated_records.append(record)
+            except:
+                no_update_count += 1
+                updated_records.append(record)
+
+
+        SeqIO.write(updated_records, fasta_file, 'fasta')
+
+        if no_update_count == 0:
+            return print(f'SUCCESS. All reads ({len(updated_records)}) were renamed '
+                         f'in {fasta_file.name}.\n')
+        elif no_update_count == len(updated_records):
+            return print(f'FAILURE. None of the reads were renamed in {fasta_file.name}. This can '
+                         f'happen if the fasta file has already been renamed by this function, '
+                         f'so open the fasta file to check.\n')
+        else:  # if some reads were renamed, but not all
+            return print(f'FAILURE. {no_update_count} sequence headers could not be renamed due to '
+                         f'a missing data field for reads in {fasta_file.name}.\n')
+    else:
+        return print(f'UNDER CONSTRUCTION. I haven\'t yet updated this function to work with any other '
+                     f'fasta files than those produced after ITSx.\n')
+
+def escape_path_special(file_path):
+    if is_pathclass(file_path):
+        file_path = str(file_path)
+
+    if re.search(r'\(', file_path):
+        file_path = re.sub(r'\(', r'\(', file_path)
+
+    if re.search(r'\)', file_path):
+        file_path = re.sub(r'\)', r'\)', file_path)
+
+    return file_path
+
+def get_sample_id(file_path, platform=None):
+    '''
+    Return the sample ID as a string from a file path.
+
+    :param file_path: Path object, whose .name attribute contains
+    the sample ID
+    :param platform: illumina, pacbio, sanger, or a custom platform
+    prefix used in the file name
+    :return: the sample ID of the input file, as a string
+    '''
+
+    # if at start, the platform is not provided...
+    if platform is None:
+        # try to get it from the file name
+        platform = get_seq_platform(file_path)
+        # if it is still None...
+        if platform is None:
+            platform_re = SAMPLE_ID_RE  # search for sample ID for any of the seq platforms
+        else:  # if it did find a platform, then use in regex
+            platform_re = r'(?<=_' + f'{platform.lower()}' + r'_).+?_0[1-9]'
+    else:  # if a platform was provided, then use this in the regex
+        platform_re = r'(?<=_' + f'{platform.lower()}' + r'_).+?_0[1-9]'
+
+    try:
+        sample_id = re.search(platform_re, file_path.name, re.I).group(0)
+        return sample_id
+    except AttributeError:
+        msg = (f'ERROR. The provided file name, {file_path.name}, does not follow the expected '
+               f'naming convention, so the sample ID cannot be inferred from the file name. '
+               f'This will affect the logging of summary data to output files.\n')
+        return exit_process(message=msg)
+
+def get_read_orient(file_path):
+    '''
+    Return the read orientation in file name as string (R1/R2).
+
+    :param file_path: Path object, whose .name attribute contains
+    the read orientation (R1 or R2)
+    :return: the sample ID of the input file, as a string
+    '''
+
+    try:
+        read_orient = re.search(ORIENT_RE, file_path.name, re.I).group(0)
+        return read_orient
+    except AttributeError:
+        msg = (f'ERROR. The provided file name, {file_path.name}, does not follow the expected '
+               f'naming convention, so the read direction cannot be inferred from the file name. '
+               f'This will affect the logging of summary data to output files.\n')
+        return exit_process(message=msg)
+
+#######################
+# CONFIGURATION #######
+#######################
+
+# define function to simplify import of configuration files
+def get_settings(file_map, default_only=True, config_section='all'):
+    '''
+    ***TEMPORARILY ONLY ACCEPTS THE DEFAULT CONFIG FILE.***
+
+    Imports user and default settings from .toml to a dictionary.
+
+    Looks for a default and a user configuration file in the config directory of
+    the bioinformatics pipeline. Reads in the information from the user configuration
+    file with priority. If a given field is empty in the user configuration, indicating
+    no user preference was provided for that setting, then the value for that field will
+    be searched for in the default configuration file.
+    :param file_map: file map describing the file organization of directories and
+    subdirectories in the pipeline; this file map is contained within the
+    mapping.py script and is typically the first item loaded into each pipeline
+    script
+    :param default_only: True; inserted this *TEMPORARY* parameter so that it will
+    only read in the default configuration file, rather than compiling the user
+    and default configuration
+    :param config_section: option to output only one section of the configuration
+    file.
+    :return: dictionary of settings, with keys as configuration file settings and
+    values as parameters chosen by the user (priority) or default settings.
+    '''
+
+    ##########################
+    # REMOVE AFTER TESTING ###
+    ##########################
+    # import tomlkit
+    # from mapping import filepath_map as file_map
+    # default_only = True
+    # config_section = 'all'
+    # ACTIVATE RETURN STATEMENTS (done)
+    ##########################
+
+    if default_only:
+        config_path_default = list(file_map['config']['main'].glob('*default-settings.toml'))
+
+        # confirm that only one of each type exists in the config directory
+        if len(config_path_default) > 1:
+            msg = f'\nERROR. Multiple default configuration files were located '\
+                  f'in the /config directory:\n'\
+                  f'\t{[file.name for file in config_path_default]}\n'\
+                  f'Please remove any extraneous default configuration files, then retry.\n'
+            return exit_process(message=msg)
+        else:  # update dict so that path is single path and not in list form
+            config_path = config_path_default[0]
+
+        # read in the config files as a new dict, with primary keys being user or default
+        with open(config_path, 'rt') as fin:
+            compiled_config = tomlkit.parse(fin.read())
+
+        # add the date to the default run name
+        # NO THIS CREATES A MESS, FIGURE OUT SOMETHING ELSE AT SOME POINT
+        # date_obj = datetime.today()
+        # date_tag = date_obj.strftime('%y%m%d')  # format is YYMMDD
+        # compiled_config['run_details']['run_name'] = (compiled_config['run_details']['run_name'] + date_tag)
+
+    else:
+        print(f'ERROR. Compilation of pipeline settings from both the user and default configuration files is '
+              f'still under construction. If you see message, ensure that default_only=True for the function '
+              f'get_settings().\n')
+        # get path to the configuration files (/config) from the mapping.py file input
+        config_path_user = list(file_map['config']['main'].glob('*user-settings.toml'))
+        config_path_default = list(file_map['config']['main'].glob('*default-settings.toml'))
+
+        # create a dictionary for a config file description (i.e., user/default) and its file path
+        config_paths = {k:v for k,v in zip(['user', 'default'], [config_path_user, config_path_default])}
+
+        # confirm that only one of each type exists in the config directory
+        for t in config_paths:
+            if len(config_paths[t]) > 1:
+                msg = f'\nERROR. Multiple {t} configuration files were located '\
+                      f'in the /config directory:\n'\
+                      f'\t{[file.name for file in config_paths[t]]}\n'\
+                      f'Please remove any extraneous {t} configuration files, then retry.\n'
+                return exit_process(message=msg)
+            else:  # update dict so that path is single path and not in list form
+                config_paths[t] = config_paths[t][0]
+
+        # read in the config files as a new dict, with primary keys being user or default
+        configs = {k:{} for k in config_paths}
+        for p in config_paths:
+            with open(config_paths[p], 'rt') as fin:
+                configs[p] = tomlkit.parse(fin.read())
+
+        # get a set of config dictionary keys for each type
+
+        # generator that produces all keys, even nested ones
+        def find_config_keys(type_dict):
+            '''
+            Find primary and nested sections of a .toml file.
+
+            :param type_dict: sectioned dictionary containing configuration values only
+            for the default or only for the user settings, e.g., configs['user']
+            :return: a set of unique keys in the given config
+            file
+            '''
+
+            for key,val in type_dict.items():
+                # if section is nested...
+                if isinstance(val, dict):
+                    # check this nested portion for more keys
+                    yield from find_config_keys(val)
+                # if section is not nested...
+                else:
+                    # return key
+                    yield key
+
+        # go through each dict and create a set of keys for each, save into another dict
+        unique_keys = {k:{} for k in configs}
+        for t in configs:
+            unique_keys[t] = set(k for k in find_config_keys(configs[t]))
+
+        # using the set of keys, compile settings from user (priority) then default
+        shared_keys = unique_keys['default'].union(unique_keys['user'])
+        default_keys = unique_keys['default'].difference(unique_keys['user'])
+        user_keys = unique_keys['user'].difference(unique_keys['default'])
+
+        compiled_config = {}
+        for s in shared_keys:
+            # if the entry in the user config is not empty...
+            if not configs['user'][s] == '':
+                # add this setting to the final config dict
+                compiled_config[s] = configs['user'][s]
+            # if the entry is empty in the user config, then use the default
+            else:
+                compiled_config[s] = configs['default'][s]
+
+
+
+    # return the compiled dictionary; return only specific section, if specified in function args
+    if config_section == 'all':
+        return compiled_config
+    else:
+        if config_section in compiled_config.keys():
+            return compiled_config[config_section]
+        else:
+            msg = f'The provided configuration file section header, {config_section}, is not a valid header for ' \
+                  f'the configuration file. Please enter the number of the correct header that you ' \
+                  f'want:'
+            print(msg)
+            correct_header = prompt_print_options(list(compiled_config.keys()),
+                                                  auto_respond=compiled_config['automate']['auto_respond'])
+            return compiled_config[correct_header]
+
+# sort the sequences provided in the 'sequences' input directory
+def sort_input_files(filepath_dict, to_sort='main'):
+    '''
+    Sort the input sequencing files in their respective sequence
+    platform subdirectories, or into subdirectories for required
+    pre-processing.
+    :param input_file_path: Path object to the directory containing
+    the input sequences.
+    :return: will print a count of how many files were sorted and
+    into which folders, and then prompt to next steps if in
+    interactive, or automatically carry out next steps if in
+    automated.
+    '''
+
+    # UPDATE TO CHECK FOR ALL POSSIBLE DELIMITERS?
+    def follows_naming_convention(filepath):
+        if re.search(ANY_PLATFORM_REGEX, filepath.stem, re.I):
+            return True
+        else:
+            return False
+
+    def is_demultiplexed(filepath):
+        if follows_naming_convention(filepath) or re.search(r'^[A-Z]+', filepath.stem):
+            return True
+        else:
+            return False
+
+    def is_pacbio(filepath):
+        if re.search(r'^pacbio|^\d{4}', filepath.stem):
+            return True
+        else:
+            return False
+
+    def is_illumina(filepath):
+        if re.search(r'^illumina|^[A-Z]+', filepath.stem):
+            return True
+        else:
+            return False
+
+    def is_sanger(filepath):
+        if re.search(r'^sanger', filepath.stem):
+            return True
+        else:
+            return False
+
+    # I guess converting a generator to a list (like in print statement below) exhausts it? so then loop won't work
+    files_to_sort = list(filepath_dict['sequences'][to_sort].glob('*.fast*'))
+
+    print(f'Sorting {len(files_to_sort)} sequences files...\n')
+
+    for file in files_to_sort:
+        if is_pacbio(file):
+            if is_demultiplexed(file):
+                if follows_naming_convention(file):
+                    move_file(source_path=file, dest_path=mkdir_exist_ok(new_dir=filepath_dict['sequences']['pacbio']))
+                else:
+                    move_file(source_path=file, dest_path=mkdir_exist_ok(new_dir=filepath_dict['sequences']['rename']))
+            else:
+                move_file(source_path=file, dest_path=mkdir_exist_ok(new_dir=filepath_dict['sequences']['demux']))
+        elif is_illumina(file):
+            if is_demultiplexed(file):
+                if follows_naming_convention(file):
+                    move_file(source_path=file, dest_path=mkdir_exist_ok(new_dir=filepath_dict['sequences']['illumina']))
+                else:
+                    move_file(source_path=file, dest_path=mkdir_exist_ok(new_dir=filepath_dict['sequences']['rename']))
+            else:
+                move_file(source_path=file, dest_path=mkdir_exist_ok(new_dir=filepath_dict['sequences']['demux']))
+        elif is_sanger(file):
+            if is_demultiplexed(file):
+                if follows_naming_convention(file):
+                    move_file(source_path=file, dest_path=mkdir_exist_ok(new_dir=filepath_dict['sequences']['sanger']))
+                else:
+                    move_file(source_path=file, dest_path=mkdir_exist_ok(new_dir=filepath_dict['sequences']['rename']))
+            else:
+                move_file(source_path=file, dest_path=mkdir_exist_ok(new_dir=filepath_dict['sequences']['demux']))
+        else:
+            move_file(source_path=file, dest_path=mkdir_exist_ok(new_dir=filepath_dict['sequences']['unclear']))
+
+    return None
+
+# locate relevant mapping file for demultiplexing
+# moved down because it requires the import_config_as_dict function
+# def find_mapping_file(path_to_mapping, path_to_plex, path_to_config, **kwargs):
+#     '''
+#     Locate the barcode mapping file(s) for demultiplexing.
+#
+#     Attempts to automatically detect the location of the mapping file
+#     corresponding to the multiplexed files located in the sorted
+#     directory of sequences to demultiplex. It inspects the name of the files
+#     that were sorted into the needs_demux folder of the sequences folder, and
+#     identifies the name of the sequencing run. It then will go into the mapping
+#     file directory in the config folder, mapping-files, and looks for the mapping
+#     file that shares that same sequencing run name. If multiple mapping files
+#     are detected for a single sequencing run, the user will be prompted to select
+#     the file that should be used. If no matching mapping file is detected, it
+#     will throw an error and exit the pipeline.
+#     :param path_to_mapping: defaults to expected location within structured
+#     file directories; otherwise can specify the path as a Path object
+#     :param path_to_plex: defaults to expected location within structured
+#     file directories; otherwise can specify the path to the mapping file(s) as
+#     a Path object
+#     :param kwargs: specify the bioinfo-settings configuration file dictionary
+#     if one is already loaded into the environment; if none is provided, the
+#     function will open the configuration file to create a new instance of the
+#     dictionary; adding a dictionary, if available, will likely be quicker so it
+#     is recommended to do so if possible
+#     :return: if found, returns mapping file(s) as a list
+#     '''
+#     assert is_pathclass(path_to_mapping)
+#     assert is_pathclass(path_to_plex)
+#
+#     # get the multiplexed file's queue ID, which the UO sequencing core uses as the seq run identifier in the filename
+#     multiplex_ids = [file.stem.split('.')[0] for file in path_to_plex.glob('*.fast*')]
+#
+#     # look up the multiplex IDs in the bioinfo-settings configuration file for its corresponding CliMush run name
+#     kwargs_keys = list(kwargs.keys())
+#     if kwargs_keys > 0:
+#         if kwargs_keys > 1:
+#             msg = f'ERROR: Too many keyword arguments (**kwargs) used. Only one kwarg is accepted and should have the '\
+#                   f'name of the configuration dictionary as the value to a key with any name.\n'
+#             print(msg)
+#             return exit_process(message=msg)
+#         else:
+#             config_multiplex_dict = kwargs[kwargs_keys[0]]['pacbio-multiplex-ids']
+#     else:
+#         config_multiplex_dict = get_settings(file_handle=path_to_config)['pacbio-multiplex-ids']
+#
+#     # get the CliMush run name(s) and create regex to search for any of these at start of mapping file name
+#     climush_ids = [config_multiplex_dict[q] for q in multiplex_ids]
+#
+#     # find the corresponding barcode mapping files for the run name(s) in the barcode-mapping dir in config
+#     mapping_file_names = []
+#     for id in climush_ids:
+#         match = list(path_to_mapping.glob(f'*{id}*'))
+#         if len(match) == 1:
+#             mapping_file_names.append(match[0])
+#         elif len(match) == 0:
+#             msg = f'ERROR: No mapping files matching the CliMush run name {id} were located in {path_to_mapping}. ' \
+#                   f'Check the mapping-files directory in the config folder, then retry.\n'
+#             print(msg)
+#             return exit_process(message=msg)
+#         else:
+#             msg = f'ERROR: {len(match)} mapping files were located for CliMush run name {id}. Please select the number ' \
+#                   f'of the correctly corresponding barcode mapping file for this sample:\n'
+#             print(msg)
+#             mapping_file_names.append(prompt_print_options(match))
+#
+#     return mapping_file_names
+
+
