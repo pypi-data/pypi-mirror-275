@@ -1,0 +1,10 @@
+AutoCellDetect/CellDetection.py,sha256=ELUld503skzY928RFxKqdztIfligMVm-6nUSlO-JyPQ,10584
+AutoCellDetect/DetectionWInterface.py,sha256=76LQ4Rh_ZnhC8cUbi3lOKLG11ogZ7hr1sNmu7IXIeAs,6157
+AutoCellDetect/ResizeFactor.py,sha256=fe7vaK5yJYd7CfZDX-yOxvD4W1_G0jwoFw4QM7Dgtfc,2159
+AutoCellDetect/SelectRegion.py,sha256=zDlzciD29lbRIRxVx4OKsUhTNEsgYkXbwxRNQHmxQ60,3030
+AutoCellDetect/__init__.py,sha256=jJT1hd36wtL9Jjx0UImcMZtnfdxFv593fNpjj_9NdtE,129
+AutoCellDetect-0.1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+AutoCellDetect-0.1.0.dist-info/METADATA,sha256=51c8cckh6vuaQi_vhqMZ5lpf2_m-9v39eO8iJ8B9o9U,905
+AutoCellDetect-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+AutoCellDetect-0.1.0.dist-info/top_level.txt,sha256=64lo1N9SUcmd0qAFDj5R51bC-1rSGepBsichG4D1wE0,15
+AutoCellDetect-0.1.0.dist-info/RECORD,,
