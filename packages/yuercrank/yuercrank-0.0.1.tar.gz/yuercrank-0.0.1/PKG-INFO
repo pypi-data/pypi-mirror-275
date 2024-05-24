@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: yuercrank
+Version: 0.0.1
+Summary: Simple package
+Author: The Urban Penguin
+Author-email: crank3729@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: telebot
+
+# This project was created for educational purposes
