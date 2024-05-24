@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: src-omer-emir
+Version: 0.1
+Summary: A comprehensive Python library for data preprocessing tasks Omer Faruk Dislitas ,Emir Kaan Ogsarim
+Author: Ömer Faruk Dişlitaş
+Author-email: omerfaruk.dislitas@stu.fsm.edu.tr
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: nltk
+
