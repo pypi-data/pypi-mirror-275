@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+techsparo/__init__.py
+techsparo/techsparo.py
+techsparo.egg-info/PKG-INFO
+techsparo.egg-info/SOURCES.txt
+techsparo.egg-info/dependency_links.txt
+techsparo.egg-info/top_level.txt
