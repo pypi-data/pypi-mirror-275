@@ -1,0 +1,9 @@
+google-cloud-ndb
+google-cloud-logging
+pygit2>=1.14.0
+PyYAML
+semver>=3.0.0
+attrs
+jsonschema
+grpcio
+packaging<22.0
