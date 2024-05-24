@@ -1,0 +1,10 @@
+tree_sitter_make/__init__.py,sha256=q2QkCrhqaM1CotBwz00rk1Zxx5K4bFUpdXwtG_3E6kY,87
+tree_sitter_make/__init__.pyi,sha256=8xf7bY1szgDY9HRJ7FJ326So4SFgMiSRfCB4LADkTpU,27
+tree_sitter_make/_binding.abi3.so,sha256=H7Cu32_ZEx12Yu9I6IvzZ0mmQ2XwAmAZAneQN-LzVzw,265872
+tree_sitter_make/binding.c,sha256=ANs2y4ROOAmlheDOPX9NN4O8eYGLBRYSj2E8lBVpzEI,632
+tree_sitter_make/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_make-0.0.1.dist-info/LICENSE,sha256=KO7Nt1tt4tkCBgNTFGFES_VNuCfuL7NFqPz02-58KtE,1076
+tree_sitter_make-0.0.1.dist-info/METADATA,sha256=pKvHWNiwDlNECuviDicwd1kBXubESdYcQfllXgPXXkU,1157
+tree_sitter_make-0.0.1.dist-info/WHEEL,sha256=hdWZbWHR-a3AN7ftaAgLqt3U-IpxzB6zh0p6xv6AIIM,103
+tree_sitter_make-0.0.1.dist-info/top_level.txt,sha256=9ERJXPLfte47qVMSRcE0XKm16Gh-ID9zNB1GqzJ5MM4,26
+tree_sitter_make-0.0.1.dist-info/RECORD,,
