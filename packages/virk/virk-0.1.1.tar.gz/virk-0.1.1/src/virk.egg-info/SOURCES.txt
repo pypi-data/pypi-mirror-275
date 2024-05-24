@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/virk/__init__.py
+src/virk/__main__.py
+src/virk.egg-info/PKG-INFO
+src/virk.egg-info/SOURCES.txt
+src/virk.egg-info/dependency_links.txt
+src/virk.egg-info/requires.txt
+src/virk.egg-info/top_level.txt
