@@ -1,0 +1,7 @@
+README.md
+setup.py
+dataprecf/dataprecf.egg-info/PKG-INFO
+dataprecf/dataprecf.egg-info/SOURCES.txt
+dataprecf/dataprecf.egg-info/dependency_links.txt
+dataprecf/dataprecf.egg-info/requires.txt
+dataprecf/dataprecf.egg-info/top_level.txt
