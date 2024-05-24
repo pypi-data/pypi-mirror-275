@@ -1,0 +1,6 @@
+
+[dev]
+pre-commit
+pytest==8.2.1
+pytest-github-actions-annotate-failures==0.2.0
+abi3audit

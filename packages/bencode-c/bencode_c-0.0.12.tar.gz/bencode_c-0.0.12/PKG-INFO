@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: bencode-c
+Version: 0.0.12
+Summary: A fast and correct bencode serialize/deserialize library
+Author-email: trim21 <trim21me@gmail.com>
+License: MIT
+Keywords: bencode,bittorrent,bit-torrent,serialize,deserialize,p2p
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: <4.0,>=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pytest==8.2.1; extra == "dev"
+Requires-Dist: pytest-github-actions-annotate-failures==0.2.0; extra == "dev"
+Requires-Dist: abi3audit; extra == "dev"
+
+bencode serialize/deserialize written in native c extension.
+
+```shell
+pip install bencode-c
+```
+
+```python
+import bencode_c
+
+assert bencode_c.bdecode(b'...') == ...
+
+assert bencode_c.bencode(...) == b'...'
+```
