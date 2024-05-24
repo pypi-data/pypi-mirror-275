@@ -1,0 +1,13 @@
+numpy==1.24.0
+pathlib
+pandas
+xarray
+scipy
+premise
+pyyaml
+bw_processing
+bw2calc==2.0.DEV16
+datapackage
+pyprind
+platformdirs
+statsmodels
