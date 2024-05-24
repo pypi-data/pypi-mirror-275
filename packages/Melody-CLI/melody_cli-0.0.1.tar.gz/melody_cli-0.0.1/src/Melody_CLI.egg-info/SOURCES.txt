@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/Melody_CLI.py
+src/Melody_CLI.egg-info/PKG-INFO
+src/Melody_CLI.egg-info/SOURCES.txt
+src/Melody_CLI.egg-info/dependency_links.txt
+src/Melody_CLI.egg-info/requires.txt
+src/Melody_CLI.egg-info/top_level.txt
