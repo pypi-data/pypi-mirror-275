@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alert-lvm"
+version = "1.0.0"
+description = "A client library to call the LVM API with some helpful functions"
+readme = "README.md"
+authors = [{ name = "intellicloud.ai", email = "xbrain_lvm@intellicloud.ai" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+keywords = []
+dependencies = [
+    "requests",
+    "opencv-python"
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://intellicloudai.com"
