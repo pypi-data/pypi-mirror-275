@@ -1,0 +1,6 @@
+os
+comtypes
+docx
+xlsxwriter.workbook
+pptx
+subprocess

@@ -1,0 +1,9 @@
+README.md
+setup.py
+Imap2Dict_kiyoshirou/__init__.py
+Imap2Dict_kiyoshirou/file_converter.py
+Imap2Dict_kiyoshirou.egg-info/PKG-INFO
+Imap2Dict_kiyoshirou.egg-info/SOURCES.txt
+Imap2Dict_kiyoshirou.egg-info/dependency_links.txt
+Imap2Dict_kiyoshirou.egg-info/requires.txt
+Imap2Dict_kiyoshirou.egg-info/top_level.txt
