@@ -1,0 +1,9 @@
+mfprocess/__init__.py,sha256=UQHfOaUcmBwFm4BrFNz43YVOh98azEea9s_mklHcHm0,49
+mfprocess/functions.py,sha256=uNBDHjDA0R329rgT7Euil1lVe0vXbHjBYhj9y84_NyQ,4520
+mfprocess/mes/__init__.py,sha256=1oypPL8mKLv_pgnydXTv6tgqCxqDozuRT1NQbn72I1w,13
+mfprocess/mes/tests.py,sha256=cA7LpSj-rcy9oIkpK3TTkjw93QRfVWo4AsGd5wS0T1c,1081
+mfprocess-1.0.24.dist-info/LICENCE,sha256=y4auNMzT0FY28aD_7QKuBzrVGUXNyQLvs_vKigjYck4,1077
+mfprocess-1.0.24.dist-info/METADATA,sha256=y5ol3cc4LrE3K080tsNDmQtQqKFZBTrSDosid3m0X7M,777
+mfprocess-1.0.24.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mfprocess-1.0.24.dist-info/top_level.txt,sha256=nWDNvY6ZqG1T47ma-6Ios8z8XjLB7pI5yZY4kCWfyzM,10
+mfprocess-1.0.24.dist-info/RECORD,,
