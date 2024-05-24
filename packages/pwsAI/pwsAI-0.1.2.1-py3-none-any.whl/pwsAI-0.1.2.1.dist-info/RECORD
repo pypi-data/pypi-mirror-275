@@ -1,0 +1,15 @@
+pwsAI/NIS_Naming_Script.py,sha256=yWFSps9x_QDtYyaN32lOnV0dYtrelFMawJEC6bpmG2s,3018
+pwsAI/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pwsAI/__main__.py,sha256=2APP1397RoN8STPM5J3ra1buNRLMV9wLSluq56GK7M4,7058
+pwsAI/autoSegCube.py,sha256=sflX871aJqFtYenqEdtzqBRtQ2Ad2rR4hkaC735JFX8,13708
+pwsAI/convertNuc.py,sha256=H1VEEc_VYrWzzmY9swJuvfqqIczHV-TagScxNTjClwY,3802
+pwsAI/convertRMS.py,sha256=T-WJCsvWOU0gCo-oiSMYUuqlGJweqyYxHvd-xLzGFwg,1914
+pwsAI/regular_unet.py,sha256=wbtetp88jED3mvJWeUjjYE_OO4F4NAO1hbSoh7OpGT0,3318
+pwsAI/selectFolder.py,sha256=SJh-T37EgiUSlHQgijE9xESZW8tFo6swBvjTy321X3Y,922
+pwsAI/t.py,sha256=3AC1IwIg5j6wGlBijYD_1zUL-u3uqhG3TZ7i1zXUmBQ,389
+pwsAI/_resources/PWS_with_augmentation_weights_minmax_norm_ali_roi_updated_522_images_bf_rms_sw_patch512_100_epoches.hdf5,sha256=k5LU2j77fLHJ53oo5i1uOfhHKWev2_t500tBfqp39Gc,7852496
+pwsAI-0.1.2.1.dist-info/METADATA,sha256=LpXO4qPjemauvM1yyPv9zsHdelVZI-L7fjX31K1lkI0,3272
+pwsAI-0.1.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pwsAI-0.1.2.1.dist-info/entry_points.txt,sha256=I1gATDgsg8CWev0EF63nO2xCsMQa8BTUVutJ9mgZ92U,45
+pwsAI-0.1.2.1.dist-info/top_level.txt,sha256=Vx9FqWoGGuruAEULEmmYnsh3Pp2jhjkDKScCItviuPE,6
+pwsAI-0.1.2.1.dist-info/RECORD,,
