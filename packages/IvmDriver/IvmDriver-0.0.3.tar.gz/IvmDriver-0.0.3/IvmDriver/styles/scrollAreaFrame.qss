@@ -1,0 +1,38 @@
+QPushButton{
+    height: 50px;
+    color:rgb(35,35,35);
+	background-color:#74e87e;
+    border-radius:6px;
+    font: 75 12pt "Arial";
+}
+QPushButton:pressed{
+    border: 2px solid rgb(35,35,35);
+    background-color: #069316;
+    color: rgb(35,35,35);
+}
+QPushButton:hover{
+    background-color: #069316;
+}
+
+QPushButton:checked{
+    background-color: #069316;
+}
+QLineEdit{
+    background-color: rgb(35,35,35);
+    border-radius: 2px;
+    padding: 5px 5px 1px 1px;
+    margin-left: 5px;
+    color: rgb(252, 67, 42);
+    font: 75 11pt "Arial";
+}
+
+QLineEdit:focus{
+    border: 1px dotted rgb(252, 67, 42);
+}
+
+QLineEdit:hover
+{
+    border: 1px solid #0FD520;
+    color: white;
+}
+
