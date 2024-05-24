@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+clore_pynvml/__init__.py
+clore_pynvml/_version.py
+clore_pynvml/nvml.py
+clore_pynvml/setup.py
+clore_pynvml/smi.py
+clore_pynvml.egg-info/PKG-INFO
+clore_pynvml.egg-info/SOURCES.txt
+clore_pynvml.egg-info/dependency_links.txt
+clore_pynvml.egg-info/top_level.txt
