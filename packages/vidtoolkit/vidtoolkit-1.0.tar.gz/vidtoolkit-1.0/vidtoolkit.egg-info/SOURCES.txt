@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+vidtoolkit.egg-info/PKG-INFO
+vidtoolkit.egg-info/SOURCES.txt
+vidtoolkit.egg-info/dependency_links.txt
+vidtoolkit.egg-info/requires.txt
+vidtoolkit.egg-info/top_level.txt
