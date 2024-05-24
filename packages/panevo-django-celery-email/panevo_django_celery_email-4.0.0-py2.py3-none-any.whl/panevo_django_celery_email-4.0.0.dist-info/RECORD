@@ -1,0 +1,12 @@
+djcelery_email/__about__.py,sha256=aJv123cLk8ljZ817rDEguTudnem0LtLQxhnnAKy-XN8,468
+djcelery_email/__init__.py,sha256=M_78MNIPTxCgbMih1JxN1ScbASbyZepnSLbSH1BeIK4,33
+djcelery_email/backends.py,sha256=HJfprc0mfbBjoTloGhta3i03e7AJDZXastsPFFUIHUU,726
+djcelery_email/conf.py,sha256=OSUF3mAuQtvhvFXaBdgn3bZz4kftERNvU2AjE5RC5zQ,257
+djcelery_email/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djcelery_email/tasks.py,sha256=4jTldGG5rYdORlkwx7dSAjw-fOcN1Gpkj-0WOpTz4is,2491
+djcelery_email/utils.py,sha256=Mu_dnYaPp1GwUIs0JKdQkJXKbN7_gfoZaFmycr0-6V8,4004
+panevo_django_celery_email-4.0.0.dist-info/LICENSE,sha256=-F69AWKJ_J7698mvPRZ2_jL1iIU84kdoRrZKCMDK_g0,1515
+panevo_django_celery_email-4.0.0.dist-info/METADATA,sha256=-V2dSXvQ7PwYEtkbvNzdp68g1lkYk0D9AhNyPjGmdKU,9212
+panevo_django_celery_email-4.0.0.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+panevo_django_celery_email-4.0.0.dist-info/top_level.txt,sha256=E6YCQX-Xog_Bz7AbUUcACWRD94z94V0IAACCCRNPjhA,15
+panevo_django_celery_email-4.0.0.dist-info/RECORD,,
