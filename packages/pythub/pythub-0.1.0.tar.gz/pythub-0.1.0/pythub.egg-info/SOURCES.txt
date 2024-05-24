@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pythub.egg-info/PKG-INFO
+pythub.egg-info/SOURCES.txt
+pythub.egg-info/dependency_links.txt
+pythub.egg-info/requires.txt
+pythub.egg-info/top_level.txt
