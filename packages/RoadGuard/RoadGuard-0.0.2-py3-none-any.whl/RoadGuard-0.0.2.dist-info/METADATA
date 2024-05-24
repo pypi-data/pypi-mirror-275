@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: RoadGuard
+Version: 0.0.2
+Summary: RoadGuard library
+Home-page: UNKNOWN
+Author: RoadGuard Team
+Author-email: silveryfu@gmail.com
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: pyyaml
+Requires-Dist: numpy
+Requires-Dist: flask
+Requires-Dist: pyaudio
+Requires-Dist: opencv-python-headless
+Requires-Dist: SpeechRecognition
+Requires-Dist: pocketsphinx
+Requires-Dist: jiwer
+Requires-Dist: moviepy
+Requires-Dist: libem
+
+UNKNOWN
+
