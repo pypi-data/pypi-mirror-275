@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: IvmDriver
+Version: 0.0.6
+Home-page: https://github.com/HarishKumarSedu/matrix
+Author: HarishKumarSedu
+Author-email: harishkumarsedu@gmail.com
+Project-URL: Bug Tracker, https://github.com/HarishKumarSedu/matrix/issues
+Description-Content-Type: ['text/plain', 'text/x-rst', 'text/markdown']
+Requires-Dist: pymcp2221a
+Requires-Dist: pyqt5
+Requires-Dist: setuptools
+Requires-Dist: pathlib
+Requires-Dist: PyVISA
+
+# Driver 
+
+- Install py-chill package to freeze python local packages without versioning 
+
+``` pip install py-chill
+    pip-chill --no-version > requirements.txt 
+```
+- Build the package 
+```
+    python .\setup.py build
+```
+
+- Install the pacage locally 
+```
+    python .\setup.py install 
+```
