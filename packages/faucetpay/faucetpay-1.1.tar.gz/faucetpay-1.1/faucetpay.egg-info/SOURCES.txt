@@ -1,0 +1,9 @@
+setup.py
+faucetpay/__init__.py
+faucetpay/faucetpay.py
+faucetpay.egg-info/PKG-INFO
+faucetpay.egg-info/SOURCES.txt
+faucetpay.egg-info/dependency_links.txt
+faucetpay.egg-info/not-zip-safe
+faucetpay.egg-info/requires.txt
+faucetpay.egg-info/top_level.txt
