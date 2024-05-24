@@ -1,0 +1,14 @@
+numpy
+matplotlib
+PySimpleGUI==4.50.0
+pwspy
+pillow
+scikit-image
+scikit-learn
+tifffile
+opencv-python
+patchify
+h5py
+rasterio
+tensorflow==2.6.2
+protobuf<=3.19.6
