@@ -1,0 +1,12 @@
+pydeps2env/__init__.py,sha256=MRZbpHZY4i-yspxsVIjpgWY5LA0gQOjg1RqG1Tr3HZI,485
+pydeps2env/_version.py,sha256=mLrG-mC5i2vs5IEM3ZgT5S9ZdaqM1wQHESPk1-Rj79o,427
+pydeps2env/environment.py,sha256=qESptE13FMfOJ5-UMW05V65O59oH9UvNiv7Z0ndfFC4,10476
+pydeps2env/generate_environment.py,sha256=yUX1AAmFuvXUSqY6dWYNakO2_hawI-fJpD29z7q9PCc,4987
+test/test_package/pyproject.toml,sha256=ggOfc5mVPbbbR3Ob2sucCc7foht7T-HQb1DSU5ILbdA,892
+test/test_package/testproject/__init__.py,sha256=VYJkJsBtOYbsf8D4lqMYC4y6c7bjC0OwX18YXdpnd-U,85
+pydeps2env-1.1.0.dist-info/LICENSE,sha256=TLmRipXLSI7aHLqNoN7fD53q3qv0Oy0rTq8WNLNnOv4,1549
+pydeps2env-1.1.0.dist-info/METADATA,sha256=zDZJf1mJk0f7lmwvABJv5SZ6s5mnF4v0fFKDdyBvaAU,8652
+pydeps2env-1.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pydeps2env-1.1.0.dist-info/entry_points.txt,sha256=uAw1kPXZoENNQ-C5bnOoC6w0pDfgWrglb51SjZZizaI,68
+pydeps2env-1.1.0.dist-info/top_level.txt,sha256=GLcBPEJQokouJ2CvPYLLCyo2rU5J7SEVbkwrc9rBmwo,16
+pydeps2env-1.1.0.dist-info/RECORD,,
