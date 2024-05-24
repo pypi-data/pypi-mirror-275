@@ -1,0 +1,2 @@
+[console_scripts]
+baseline-package = wolfsoftware.baseline_package.main:main
