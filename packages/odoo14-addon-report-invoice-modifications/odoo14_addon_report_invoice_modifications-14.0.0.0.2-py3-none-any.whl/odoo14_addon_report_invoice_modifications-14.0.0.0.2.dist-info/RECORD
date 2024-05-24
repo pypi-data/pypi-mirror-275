@@ -1,0 +1,9 @@
+odoo/addons/report_invoice_modifications/.gitignore,sha256=wr2C57usQtFcImuR9-t3v3uoMXX0avEd52gWNPQlpGM,67
+odoo/addons/report_invoice_modifications/CODE_OF_CONDUCT.md,sha256=ty0NoJxPpHrLOlJ9aoZh1JU0MZn3vgNQe6ZVOa_nkm4,3864
+odoo/addons/report_invoice_modifications/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/report_invoice_modifications/__manifest__.py,sha256=bAKJtBiNzBuIPV1e6kHDCjPw0nKdKegdGumtA5hbwfw,358
+odoo/addons/report_invoice_modifications/views/report_invoice.xml,sha256=CSoI7yf2XaJb3Mx1zfHY4WbX6KUO5XyQOAmDPeyGidY,259
+odoo14_addon_report_invoice_modifications-14.0.0.0.2.dist-info/METADATA,sha256=p9uKxNjjTqDYs-0Fxe_S5SOhlO_TOUoHMEIwHjk4ePk,505
+odoo14_addon_report_invoice_modifications-14.0.0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo14_addon_report_invoice_modifications-14.0.0.0.2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_report_invoice_modifications-14.0.0.0.2.dist-info/RECORD,,
