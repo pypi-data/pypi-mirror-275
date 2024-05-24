@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: otus-open-lesson
+Version: 0.1.2
+Summary: Django test package
+Home-page: https://github.com/danteonline/otus-open-lesson
+Author: DanteOnline
+Author-email: iamdanteonline@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/danteonline/otus-open-lesson
+Project-URL: Tracker, https://github.com/danteonline/otus-open-lesson/issues
+Project-URL: Release notes, https://github.com/danteonline/otus-open-lesson/releases
+Project-URL: Changelog, https://github.com/danteonline/otus-open-lesson/releases
+Project-URL: Download, https://pypi.org/project/otus-open-lesson
+Keywords: python,django,package,test
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# otus-open-lesson
+
+DRF Testing package
+
+## Menu
+
+- [Mission](#mission)
+- [Open Source Project](#open-source-project)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Development Status](#development-status)
+- [Install](#install)
+- [Quickstart](#quickstart)
+
+## Mission
+
+To demonstrate how to create python-django package with test cases
+
+## Features
+
+- Demo project
+- Demo package
+- Workflows
+
+## Requirements
+
+- django, djangorestframework, markdown, django-filter
+
+## Development Status
+
+- Package already available on [PyPi](https://pypi.org/project/otus-open-lesson/)
+
+## Install
+
+### with pip
+
+```commandline
+pip install otus-open-lesson
+```
+
+## Quickstart
+
+Add package to `INSTALLED_APPS`
+
+```python
+INSTALLED_APPS = [
+    ...,
+    'otus_open_lesson',
+]
+```
+
+Run tests
+
+```commandline
+python manage.py test
+```
