@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+oktmo-parser/__init__.py
+oktmo-parser/oktmo.py
+oktmoparser.egg-info/PKG-INFO
+oktmoparser.egg-info/SOURCES.txt
+oktmoparser.egg-info/dependency_links.txt
+oktmoparser.egg-info/requires.txt
+oktmoparser.egg-info/top_level.txt

@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: oktmoparser
+Version: 1.2
+Summary: Simple and useful parser that helps you get actual All-Russian Classifier of Municipal Territories (OKTMO)
+Home-page: https://github.com/letimvkocmoc/oktmo-parser
+Author: letimvkocmoc
+Author-email: letimvkocmoc@gmail.com
+Project-URL: GitGub, https://github.com/letimvkocmoc
+Keywords: oktmo parser municipal territory classifier
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# All-Russian Classifier of Municipal Territories (OKTMO) Parser #
+
+## What is this? ##
+Simple and useful parser that helps you get actual All-Russian Classifier of Municipal Territories (OKTMO).
+
+## Quick Guide ##
+The parser is based on the following structure:
+
+    parser = OktmoParser()
+    start_keyword = ''
+    end_keyword = ''
+    parser.parse_oktmo(start_keyword, end_keyword)
+    
+Parser returns .json file with actual OKTMO from [Federal State Statistics Service](https://rosstat.gov.ru/).
+
+
+----------
+
+
+### Using ###
+
+
+Using the library is as simple and convenient as possible:
+
+1. Import:
+
+`from OktmoParser import OktmoParser`
+
+2. Create object:
+
+`parser = OktmoParser()`
+
+3. Set `start_keyword` value and `end_keyword` value.
+
+*Notice:* for the first usage set it empty to get full .json file to see the structure and then you can set your values.
+
+Examples:
+
+    start_keyword = 'РњСѓРЅРёС†РёРїР°Р»СЊРЅС‹Рµ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ РџСЂРёРјРѕСЂСЃРєРѕРіРѕ РєСЂР°СЏ'
+    end_keyword = 'РњСѓРЅРёС†РёРїР°Р»СЊРЅС‹Рµ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ РЎС‚Р°РІСЂРѕРїРѕР»СЊСЃРєРѕРіРѕ РєСЂР°СЏ'
+
+You will get all rows between this municipal territories.
+
+4. Parse and get .json file:
+
+`parser.parse_oktmo(start_keyword, end_keyword)`
+
+5. That's it.
+
+
+----------
+
+
+## Developer ##
+[@letimvkocmoc](https://github.com/letimvkocmoc/) 
