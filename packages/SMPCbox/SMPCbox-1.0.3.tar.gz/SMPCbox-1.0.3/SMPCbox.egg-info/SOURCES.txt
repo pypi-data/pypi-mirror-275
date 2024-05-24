@@ -1,0 +1,13 @@
+LICENCE
+README.md
+setup.py
+SMPCbox/AbstractProtocol.py
+SMPCbox/ProtocolParty.py
+SMPCbox/ProtocolStep.py
+SMPCbox/SMPCSocket.py
+SMPCbox/__init__.py
+SMPCbox/dynamic_loading.py
+SMPCbox.egg-info/PKG-INFO
+SMPCbox.egg-info/SOURCES.txt
+SMPCbox.egg-info/dependency_links.txt
+SMPCbox.egg-info/top_level.txt
