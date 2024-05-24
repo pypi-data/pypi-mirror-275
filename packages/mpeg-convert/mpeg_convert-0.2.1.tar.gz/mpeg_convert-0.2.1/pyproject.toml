@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "mpeg-convert"
+version = "0.2.1"
+requires-python = ">=3.7"
+description = "A python wrapper that enhances the user experience and productivity when using ffmpeg"
+authors = [{ name = "Zichen" }]
+readme = "README.md"
+license = { text = "MIT" }
+keywords = ["transcode", "ffmpeg", "convert", "media", "mp4", "mp3"]
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python",
+    "Topic :: Multimedia",
+    "Topic :: Utilities",
+    "Environment :: Console",
+]
+
+dependencies = [
+    "rich>=13.7.0", 
+    "pyyaml>=6.0.1",
+    "python-ffmpeg>=2.0.10"
+]
+
+[project.urls]
+Homepage = "https://github.com/SomedudeX/mpeg-convert"
+Issues = "https://github.com/SomedudeX/mpeg-convert/issues"
+
+
+[project.scripts]
+mpeg-convert = "mpeg_convert.__main__:main"
