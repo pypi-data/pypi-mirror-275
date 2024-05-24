@@ -1,0 +1,5 @@
+pyproject.toml
+autogen_next.egg-info/PKG-INFO
+autogen_next.egg-info/SOURCES.txt
+autogen_next.egg-info/dependency_links.txt
+autogen_next.egg-info/top_level.txt
