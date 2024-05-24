@@ -1,0 +1,6 @@
+datetime
+pandas
+requests
+numpy
+flask
+virtualenv
