@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: nuclia.plone
+Version: 1.0b1
+Summary: Integrate Nuclia search in Plone
+Home-page: https://github.com/nuclia/nuclia.plone
+Author: Eric BREHAULT
+Author-email: ebrehault@gmail.com
+License: GPL version 2
+Project-URL: PyPI, https://pypi.python.org/pypi/nuclia.plone
+Project-URL: Source, https://github.com/nuclia/nuclia.plone
+Project-URL: Tracker, https://github.com/nuclia/nuclia.plone/issues
+Keywords: Python Plone CMS
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: Addon
+Classifier: Framework :: Plone :: 5.1
+Classifier: Framework :: Plone :: 6.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Requires-Python: >=3.7
+License-File: LICENSE.GPL
+License-File: LICENSE.rst
+Requires-Dist: setuptools
+Requires-Dist: z3c.jbot
+Requires-Dist: plone.api (>=1.8.2)
+Requires-Dist: plone.app.dexterity
+Provides-Extra: test
+Requires-Dist: plone.app.testing ; extra == 'test'
+Requires-Dist: plone.testing (>=5.0.0) ; extra == 'test'
+Requires-Dist: plone.app.contenttypes ; extra == 'test'
+Requires-Dist: plone.app.robotframework[debug] ; extra == 'test'
+
+# nuclia.plone
+
+![Nuclia logo](https://nuclia.cloud/assets/logos/logo_text.svg)
+
+This Plone add-on allows to index Plone contents in [Nuclia](https://nuclia.com/).
+
+## Create a Nuclia knowledge box
+
+[Create a Nuclia account](https://docs.nuclia.dev/docs/quick-start/create)
+
+## Install the add-on
+
+Add `nuclia.plone` in your buildout in the `eggs` section and run buildout.
+
+Restart Plone.
+
+Go to Site Setup / Add-ons and install `nuclia.plone`.
+
+Go to Nuclia settings, and enter the following:
+
+- Knowledge box ID: you have a default knowledge box created with your Nuclia account, go to [Nuclia dashboard](https://nuclia.cloud/), the knowledge box ID is indicated on the home page in the **Nuclia APi endpoint**.
+- API key: see [how to get an API key](https://docs.nuclia.dev/docs/guides/getting-started/quick-start/push#get-an-api-key).
+- Region: this the geographical region your knowledge box is attached to.
+- Widget snippet: see [how to create a widget](https://docs.nuclia.dev/docs/guides/getting-started/quick-start/search#add-a-search-widget-to-your-website).
+- File attribute: the attribute of the content that contains the file to index. Default is `file`.
+- Metadata mapping: Nuclia allows to store the following metadata: `title`, `summary`, `tags`, `contributors`, `created`, `modified`. You can map Plone content fields to these metadata fields. If the field belongs to the parent node, use the following format: `parent/field_name`.
+- Workflow states: you can choose which workflow states trigger indexing in Nuclia. Default is `published`.
+
+## Usage
+
+Everytime a content having a file is created or modified (and if it is in the appropriate workflow state).
+
+The Nuclia search widget is visible on the `/@@nuclia-search` view.
+
+
+Contributors
+============
+
+- Eric BREHAULT, ebrehault@gmail.com
+
+
+Changelog
+=========
+
+1.0b1 (2024-05-24)
+------------------
+
+- Allow to re-index all files
+  [ebrehault]
+
+- Support different field name for the file content, and allow to map metadata fields
+  [ebrehault]
+
+- Compliancy with Plone 5.1
+  [ebrehault]
+
+- Allow to re-index all files
+  [ebrehault]
+
+
+1.0a3 (2022-10-10)
+------------------
+
+- Fix project metadata.
+  [ebrehault]
+
+1.0a2 (2022-10-03)
+------------------
+
+- Fix project metadata.
+  [ebrehault]
+
+
+1.0a1 (2022-10-03)
+------------------
+
+- Initial release.
+  [ebrehault]

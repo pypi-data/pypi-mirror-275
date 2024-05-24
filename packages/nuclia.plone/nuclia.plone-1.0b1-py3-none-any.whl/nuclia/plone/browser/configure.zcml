@@ -1,0 +1,20 @@
+<configure
+      xmlns="http://namespaces.zope.org/zope"
+      xmlns:browser="http://namespaces.zope.org/browser"
+      >
+
+    <browser:page
+          for="*"
+          name="nuclia-search"
+          permission="zope2.Public"
+          class=".search.SearchWidget"
+          />
+
+    <browser:page
+          for="*"
+          name="nuclia-reindex"
+          permission="cmf.ModifyPortalContent"
+          class=".reindex.ReIndex"
+          />
+
+</configure>
