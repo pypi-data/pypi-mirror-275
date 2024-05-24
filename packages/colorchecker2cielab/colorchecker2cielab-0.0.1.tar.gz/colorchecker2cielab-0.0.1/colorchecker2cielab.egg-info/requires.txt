@@ -1,0 +1,7 @@
+scikit-image
+matplotlib
+colour-science
+scipy
+pandas
+
+[dev]
