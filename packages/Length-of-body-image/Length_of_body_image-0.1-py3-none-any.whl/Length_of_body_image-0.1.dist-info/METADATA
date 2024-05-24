@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Length-of-body-image
+Version: 0.1
+Summary: Package to measure length up and down at the waist
+Home-page: https://github.com/hosson-aka/body.git
+Author: Akari Hosokawa
+Author-email: s2222057@stu.musashino-u.ac.jp
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: matplotlib
+
+# BodyMeasurements
+
+A module for body measurements calculations and utilities.
+
+
