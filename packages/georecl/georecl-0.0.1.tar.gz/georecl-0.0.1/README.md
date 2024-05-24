@@ -1,0 +1,1 @@
+#Geoserver client provides ability to connect both with user creadential and authkey. Also once set you can directly use client for future requests with supported methods from python requests.
