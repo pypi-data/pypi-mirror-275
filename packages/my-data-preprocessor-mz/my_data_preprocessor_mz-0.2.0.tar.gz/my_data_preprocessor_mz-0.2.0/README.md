@@ -1,0 +1,194 @@
+# My Data Preprocessor
+
+A comprehensive Python library for data preprocessing tasks, designed for data engineering projects.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install My Data Preprocessor.
+
+```bash
+pip install my_data_preprocessor_mz
+```
+## Usage
+
+For CategoricalEncoder
+```bash
+from my_data_preprocessor_mz.categorical_encoder import CategoricalEncoder
+import pandas as pd
+
+df = pd.DataFrame({'Genre': ['Action', 'Comedy', 'Drama', 'Action']})
+
+one_hot_encode_df = CategoricalEncoder.one_hot_encode(df, columns=['Genre'])
+print("DataFrame after one-hot encoding:\n",one_hot_encode_df)
+
+label_encoded_df = CategoricalEncoder.label_encode(df_movies, columns=['Genre'])
+print("\nDataFrame after label encoding:\n", label_encoded_df)
+```
+
+
+For DataTypeConverter
+```bash
+from my_data_preprocessor_mz.data_type_converter import DataFrameConverter
+import pandas as pd
+
+data = {
+    'A': ['1', '2', '3', '4'],
+    'B': ['5', '6', '7', '8'],
+    'C': ['9', '10', '11', '12']
+}
+df = pd.DataFrame(data)
+
+converter = DataFrameConverter(df)
+
+converter.convert_to_numeric(columns=['A', 'B'])
+
+converter.convert_to_categorical(columns=['C'])
+
+print(converter.df)
+```
+
+
+For DateTimeHandler
+```bash
+from my_data_preprocessor_mz.datetime_handler import DateTimeManipulator
+import pandas as pd
+
+data = {
+    'Release Date': ['03/03/2019', '15/06/2020', '23/09/2021', '07/12/2018']
+}
+df = pd.DataFrame(data)
+
+
+df_converted = DateTimeManipulator.convert_to_datetime(df, columns=['Release Date'])
+print("DataFrame after converting to datetime:")
+print(df_converted)
+
+df_date_info = DateTimeManipulator.extract_date_info(df_converted, column='Release Date')
+print("\nDataFrame with extracted date information:")
+print(df_date_info)
+
+```
+
+
+For MissingValueHandler
+```bash
+from my_data_preprocessor_mz.missing_value_handler import Imputer
+import pandas as pd
+import numpy as np
+
+data = {
+    'A': [1, 2, np.nan, 4, 5],
+    'B': [np.nan, 2, 3, 4, np.nan],
+    'C': ['cat', 'dog', 'cat', np.nan, 'dog']
+}
+df = pd.DataFrame(data)
+
+imputer = Imputer()
+
+df_mean_imputed = imputer.impute_missing_values(df.copy(), strategy='mean')
+print("DataFrame after mean imputation:")
+print(df_mean_imputed)
+
+df_median_imputed = imputer.impute_missing_values(df.copy(), strategy='median')
+print("\nDataFrame after median imputation:")
+print(df_median_imputed)
+
+df_constant_imputed = imputer.impute_missing_values(df.copy(), strategy='constant', constant_value=0)
+print("\nDataFrame after constant imputation:")
+print(df_constant_imputed)
+
+df_deleted = imputer.impute_missing_values(df.copy(), strategy='delete')
+print("\nDataFrame after deleting missing values:")
+print(df_deleted)
+
+```
+
+
+For OutlierHandler
+```bash
+from my_data_preprocessor_mz.outlier_handler import OutlierHandler
+import pandas as pd
+import numpy as np
+
+data = {
+    'A': [1, 2, 100, 4, 5, 6, 120, 8, 9, 10],
+    'B': [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+}
+df = pd.DataFrame(data)
+
+outlier_handler = OutlierHandler(df)
+
+outliers_rows, outliers_columns = outlier_handler.identify_and_correct_outliers(column='A', threshold=1.5)
+
+print("DataFrame after handling outliers:")
+print(outlier_handler.df)
+
+print("\nOutlier rows and columns:")
+print(outliers_rows, outliers_columns)
+```
+
+
+For Scaler
+```bash
+from my_data_preprocessor_mz.scaler import DataScaler
+import pandas as pd
+
+data = {
+    'A': [1, 2, 3, 4, 5],
+    'B': [10, 20, 30, 40, 50],
+    'C': ['a', 'b', 'c', 'd', 'e']  # Non-numeric column to demonstrate error handling
+}
+df = pd.DataFrame(data)
+
+scaler = DataScaler()
+
+df_standardized = scaler.standardize_data(df.copy(), columns=['A', 'B'])
+print("DataFrame after standardization:")
+print(df_standardized)
+
+df_normalized = scaler.normalize_data(df.copy(), columns=['A', 'B'])
+print("\nDataFrame after normalization:")
+print(df_normalized)
+```
+
+
+For TextCleaner
+```bash
+from my_data_preprocessor_mz.text_cleaner import TextCleaner
+
+text = ("Hello world! This is a test sentence for the TextCleaner class. It's designed to remove stopwords, "
+        "punctuation, and to perform lemmatization.")
+
+cleaner = TextCleaner()
+
+lowercase_text = cleaner.to_lowercase(text)
+print("Lowercase text:")
+print(lowercase_text)
+
+no_punctuation_text = cleaner.remove_punctuation(lowercase_text)
+print("\nText without punctuation:")
+print(no_punctuation_text)
+
+no_stopwords_text = cleaner.remove_stopwords(no_punctuation_text)
+print("\nText without stopwords:")
+print(no_stopwords_text)
+
+lemmatized_text = cleaner.lemmatize_text(no_stopwords_text)
+print("\nLemmatized text:")
+print(lemmatized_text)
+
+cleaned_text = cleaner.clean_text(text)
+print("\nFully cleaned text:")
+print(cleaned_text)
+
+```
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
