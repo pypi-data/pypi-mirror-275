@@ -1,0 +1,11 @@
+mdformat_gfm_alerts/__init__.py,sha256=pX24QiGxthiOu3xstCsEUC5bNmhAjzKdJPGTwf10SCE,110
+mdformat_gfm_alerts/plugin.py,sha256=fIewrsaZpbW_Xo9fR2BbkItaIHrEUQ2SvMUFrBeyNTU,1300
+mdformat_gfm_alerts/factories/__init__.py,sha256=RybudWxhNZjKax9a4mkTBjnD8RQyTql_TNByfOFepI8,149
+mdformat_gfm_alerts/factories/_gfm_blockquote_factories.py,sha256=-dQaa3ib42QeWfW61GAQtMXybXf-btbGK8ouZMxgPVA,3185
+mdformat_gfm_alerts/mdit_plugins/__init__.py,sha256=3704lGvRhkcrKYpR_q6dW7UkZRkXiXeJOtbbVAXGJPQ,88
+mdformat_gfm_alerts/mdit_plugins/_gfm_alerts.py,sha256=xCbkjfzNBb8PJKUPZYIC-TQqfrYJMB1dzqAWtvob9J0,3030
+mdformat_gfm_alerts-1.0.1.dist-info/entry_points.txt,sha256=jQKzHT_2aI33GY4gP_whib4D3tBRpKvOTPJS189UMUE,60
+mdformat_gfm_alerts-1.0.1.dist-info/LICENSE,sha256=-voxTd2luDRUXIFkSXQRQGL3cHzC9AnnJkv3LJrla3o,1073
+mdformat_gfm_alerts-1.0.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+mdformat_gfm_alerts-1.0.1.dist-info/METADATA,sha256=s9xZvIVqvIrOgQ_KdVPcou6rNqOWdmbRX8ryPNf7eQU,3610
+mdformat_gfm_alerts-1.0.1.dist-info/RECORD,,
