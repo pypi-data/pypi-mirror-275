@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: georecl
+Version: 0.0.1
+Summary: A rest client for geoserver which accepts both basic user and password along with authkey
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Author-email: 1nly1mk <mkpandey.irs@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+#Geoserver client provides ability to connect both with user creadential and authkey. Also once set you can directly use client for future requests with supported methods from python requests.
