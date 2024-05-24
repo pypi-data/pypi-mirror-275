@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: change_font_size
+Version: 0.1.8
+Summary: A simple script to change console font size on Windows
+Home-page: https://github.com/zhenweisi
+Author: zhenweisi
+Author-email: liuyang7900@gmail.com
+Keywords: console font size change windows
