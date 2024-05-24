@@ -1,0 +1,7 @@
+README.md
+setup.py
+automation-rest-server/__init__.py
+automation_rest_server.egg-info/PKG-INFO
+automation_rest_server.egg-info/SOURCES.txt
+automation_rest_server.egg-info/dependency_links.txt
+automation_rest_server.egg-info/top_level.txt
