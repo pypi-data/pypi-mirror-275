@@ -1,0 +1,12 @@
+LICENSE,sha256=o5242_N2TgDsWwFhPn7yr8YJNF7XsJM5NxUMtcT97bc,1100
+mimetype_more/002-mime-all-types.json,sha256=ibQvpPSW_sHUi2Iun-Azv72VBFFWBDAnZnwi9OlwWk0,307688
+mimetype_more/003-mime-extra.json,sha256=49dALIYUaSwfKB3CyGzYKOCcoNzbc6dZu-xequXVPGI,95871
+mimetype_more/_001_http_common_mime_types.py,sha256=m7tcytrSv3a0PSJNg2pg98TilYxjeo1Tj3AQESawBdA,5055
+mimetype_more/_002_mime_all_types.py,sha256=E1HBLA90a1iXL3nXt7MLMxQJOO6656dodS5ZBn85wiI,1575
+mimetype_more/_003_mime_extra.py,sha256=ksihdEG6UAmiDVZaaYrEGqP35WIKCPHYU06dP6hEGpM,1329
+mimetype_more/__init__.py,sha256=ZP9ONmFUWvgq3eZzuPnYE9e0xxXIyLi0elsTe4o1mzA,1738
+mimetype_more/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mimetype_more-0.0.1.dist-info/LICENSE,sha256=o5242_N2TgDsWwFhPn7yr8YJNF7XsJM5NxUMtcT97bc,1100
+mimetype_more-0.0.1.dist-info/METADATA,sha256=Z9KiPT_yjK7hZy_ZZRa4BqConAd_9Nu_f-NPe1Zd1EI,1617
+mimetype_more-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+mimetype_more-0.0.1.dist-info/RECORD,,
