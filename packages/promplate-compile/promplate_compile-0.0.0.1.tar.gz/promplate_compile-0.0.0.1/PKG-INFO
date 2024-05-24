@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: promplate-compile
+Version: 0.0.0.1
+Requires-Python: >=3.10
+Requires-Dist: promplate<0.4,>=0.3.4.4
+Requires-Dist: promplate-inspect~=0.0.2.2
+Description-Content-Type: text/markdown
+
+# Promplate Compile
+
+Compile your template into standalone python file, and you can use it without `promplate` installed.
+
+And the **context** parameter is fully typed, which means you can get auto-completion in your IDE using templates' `render` method.
