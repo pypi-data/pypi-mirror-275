@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+text_saver_utilsss.egg-info/PKG-INFO
+text_saver_utilsss.egg-info/SOURCES.txt
+text_saver_utilsss.egg-info/dependency_links.txt
+text_saver_utilsss.egg-info/requires.txt
+text_saver_utilsss.egg-info/top_level.txt
+venvv-structure-generator/__init__.py
+venvv-structure-generator/main.py
