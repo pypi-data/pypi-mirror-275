@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: flask-logfile
+Version: 0.0.1
+Summary: 一个高可用的Flask日志文件插件
+Home-page: https://github.com/WALL-1/flask-logfile.git
+Author: wall-1
+License: UNKNOWN
+Description: # flask-logfile
+        
+        一个高可用的Flask日志文件插件
+        
+        ## 安装
+        
+        ```
+        pip install flask_logfile
+        ```
+        
+        ## 示例
+        
+        ```
+        from flask import Flask
+        from flask_logfile import LogFile
+        
+        app = Flask(__name__)
+        LogFile().init_app(app)
+        
+        app.logger.debug('debug')
+        app.logger.info('info')
+        app.logger.warning('warning')
+        app.logger.error('error')
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
