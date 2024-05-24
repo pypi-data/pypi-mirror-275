@@ -1,0 +1,16 @@
+soda/contracts/check.py,sha256=ZgrGUGFDUwVbIjJRS1CcpagR976gL_q0xBl1bXHatv8,34525
+soda/contracts/contract.py,sha256=8Vp-qNFkbdawsLQ_ZsIbG13EQPFgqGXvZdYKGbxQo00,24749
+soda/contracts/contract_verification.py,sha256=hz5xhqmS0WcB6vN0Ry_5DgUv3Rrd3slgqf3fBp8wPfA,12454
+soda/contracts/soda_data_contract_json_schema_1_0_0.json,sha256=lDMdENrYiydxf3mf4NFpnWtEcqMYiEjK0_xQ5km2v_A,12961
+soda/contracts/impl/consistent_hash_builder.py,sha256=QJGEKmmI6TgE7IQMbhHkAALLoJyJEhmzuQ3t4Iw108U,1726
+soda/contracts/impl/contract_verification_impl.py,sha256=uVk5PGSGQvI63a0OTA_x8xYrk1DjvA_WMPfT-Xvbclc,2116
+soda/contracts/impl/json_schema_verifier.py,sha256=4JeiBBAQ6K1cROgTJwAzTzQEFfTdv2hT3aUGDBuGB9g,1399
+soda/contracts/impl/logs.py,sha256=YtEM0LAMhhrWQsB4JF32UwmsAuzXTWJsbfgBNy8fq2s,3304
+soda/contracts/impl/soda_cloud.py,sha256=0uVn4_PX740LT9VchbuxV49dzPVG6d_gRSGvTTf_nuE,1624
+soda/contracts/impl/variable_resolver.py,sha256=xqTb7QLcnHbJ2oUMMn590w1nvCq52OgMMHJ9XBkzzdE,1011
+soda/contracts/impl/warehouse.py,sha256=G9W1tdJh5amVZLbjXBDCBgd9HzazBEHYIXqNGled5xo,4844
+soda/contracts/impl/yaml_helper.py,sha256=h6rTLRwYTkHJeauvbtOE9QheDrCMp_4d1GfDVKLeZTA,11188
+soda_core_contracts-3.3.5.dist-info/METADATA,sha256=r7lxo1xoEI2UXEuc1KVvQZ3piDjvVHpbYKQNNU98Em0,132
+soda_core_contracts-3.3.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+soda_core_contracts-3.3.5.dist-info/top_level.txt,sha256=nh9kmM9ZWOtIXfwHLUKLl7m6xAFti83JVa2Rcxm6Zck,5
+soda_core_contracts-3.3.5.dist-info/RECORD,,
