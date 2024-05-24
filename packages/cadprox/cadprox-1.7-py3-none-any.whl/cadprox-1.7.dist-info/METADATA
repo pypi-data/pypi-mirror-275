@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: cadprox
+Version: 1.7
+Summary: A tool to manage Caddy reverse proxy configurations with Cloudflare DNS.
+Home-page: https://github.com/yourusername/cadprox
+Author: Piotr Tamu (Thriveroute)
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: dnspython
+Requires-Dist: boto3
+Requires-Dist: python-dotenv
+
+# cdprox
+
+cdprox is a Python package for adding DNS records to Cloudflare and configuring Caddy reverse proxies.
+
+Install caddy server (no docker)
+
+then 
+
+CLOUDFLARE_API_TOKEN='ibU8C0_AwVW' #use own
+export CLOUDFLARE_ZONE_ID='234234234' #use own
+
+
+## Installation
+
+```bash
+pip install .
