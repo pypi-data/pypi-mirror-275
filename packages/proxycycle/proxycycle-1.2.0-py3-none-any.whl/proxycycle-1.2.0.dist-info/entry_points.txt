@@ -1,0 +1,2 @@
+[console_scripts]
+fetch-proxy = proxycycle.cli.fetch_proxy:fetch_proxy
