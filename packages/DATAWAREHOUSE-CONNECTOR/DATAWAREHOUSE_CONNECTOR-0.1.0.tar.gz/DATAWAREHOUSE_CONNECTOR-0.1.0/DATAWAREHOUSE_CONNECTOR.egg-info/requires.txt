@@ -1,0 +1,7 @@
+psycopg2-binary
+redshift-connector
+snowflake-connector-python
+snowflake-sqlalchemy
+SQLAlchemy
+sqlalchemy-redshift
+urllib3

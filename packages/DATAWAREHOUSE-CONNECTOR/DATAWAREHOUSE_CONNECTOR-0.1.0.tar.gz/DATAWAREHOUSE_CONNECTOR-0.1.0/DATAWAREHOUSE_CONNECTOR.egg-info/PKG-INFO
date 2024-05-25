@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: DATAWAREHOUSE-CONNECTOR
+Version: 0.1.0
+Summary: A package for database session management
+Home-page: https://github.com/Chandani7250/datawarehouse_connector
+Author: Poonam Saroj
+Author-email: poonam@coditation.com
+License: UNKNOWN
+Description: # DATAWAREHOUSE CONNECTOR, a Python package for database session management supporting Snowflake, Redshift, and PostgreSQL.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
