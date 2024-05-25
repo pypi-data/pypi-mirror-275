@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: DeepFuseNMF
+Version: 0.2.0
+Summary: Interpretable super-resolution dimension reduction of spatial transcriptomics data by DeepFuseNMF
+Author: Junjie Tang, Kun Qian
+Author-email: junjie.tang@pku.edu.cn, kunqian@stu.pku.edu.cn
+Maintainer: Kun Qian
+Maintainer-email: kunqian@stu.pku.edu.cn
+License: MIT Licence
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy >=1.21.2
+Requires-Dist: cython >=0.29.24
+Requires-Dist: torch >=1.7.0
+Requires-Dist: scikit-learn >=0.23.2
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: tqdm
+Requires-Dist: h5py
+Requires-Dist: scanpy
+Requires-Dist: pandas
+Requires-Dist: scikit-image
+Requires-Dist: opencv-python
+Requires-Dist: scipy
+
+# Interpretable super-resolution dimension reduction of spatial transcriptomics data by DeepFuseNMF
+
+## Overview
+
+![alt](Overview.jpg)
+
+DeepFuseNMF is based on a multi-modal neural network that takes advantage of the high-dimensionality of transcriptomics
+data and the super-resolution of image data to achieve interpretable super-resolution dimension reduction. 
+The high-dimensional expression data enable refined functional annotations and the super-resolution image data help to
+enhance the spatial resolution.
+
+Based on the super-resolution embedding and the reconstruction of gene expressions, DeepFuseNMF can then perform
+super-resolution downstream analyses, such as spatial domain detection, gene expression recovery, and identification of
+embedding-associated genes as well as super-resolution cluster-associated genes.
+
+## Installation
+Please install `DeepFuseNMF` from pypi with:
+
+```bash
+pip install DeepFuseNMF
+```
+
+Or clone this repository and use
+
+```bash
+pip install -e .
+```
+
+in the root of this repository.
+
+## Quick start
+Prepare your data and run the following command:
+
+```bash
+python run_DeepFuseNMF.py --config config.json --device 0 --verbose
+```
+
+`config.json` is a JSON file that contains the paths to the input data and the output directory. The JSON file should look like this:
+```json
+{
+    "settings": {
+        "root_path": "your_root_path",
+        "project": "your_project_name"
+    },
+    "sections": [
+        {
+            "name": "name of section A",
+            "image_path": "image path of section A",
+            "spot_coord_path": "spot coordinate path of section A",
+            "spot_exp_path": "spot expression path of section A"
+        },
+        {
+            "name": "name of section B",
+            "image_path": "image path of section B",
+            "spot_coord_path": "spot coordinate path of section B",
+            "spot_exp_path": "spot expression path of section B"
+        }
+    ],
+    "paras": {
+        "scale_factor": [scale_factor_A, scale_factor_B],
+        "radius": [radius_A, radius_B],
+        "reference": [null, "name of section A"]
+    }
+}
+```
+All parameters of `run_DeepFuseNMF.py` are optional. The following are the:
+
+- `--config` or `-c`: the path to the configuration file
+- `--rank` or `-r`: the rank / number of components of the NMF model, default is 20
+- `--seed` or `-s`: the random seed, default is 123
+- `--device` or `-d`: the device to run the model, e.g., 0, 1, 2, etc, default is 0
+- `--visualize`: whether to visualize the results, default is True
+- `--save_score`: whether to save the model, use `--save_score` to save all scores
+- `--verbose`: whether to print the log information, use `--verbose` to print the log information
+
+Please refer to the `Tutorial/Tutorial.ipynb` and `configs/README.md` for more details.
