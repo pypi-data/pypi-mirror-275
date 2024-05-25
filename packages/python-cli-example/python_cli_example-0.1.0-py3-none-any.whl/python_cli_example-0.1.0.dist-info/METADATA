@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: python-cli-example
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: Matanya Loewenthal
+Author-email: matanya@loewenthal.net
+Requires-Python: >=3.10,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: authlib (>=1.3.0,<2.0.0)
+Requires-Dist: google-cloud-bigquery (>=3.21.0,<4.0.0)
+Requires-Dist: human-readable (>=1.3.4,<2.0.0)
+Requires-Dist: omegaconf (>=2.3.0,<3.0.0)
+Requires-Dist: pydantic (>=2.7.1,<3.0.0)
+Requires-Dist: pyinstaller (>=6.5.0,<7.0.0)
+Requires-Dist: requests (>=2.32.0,<3.0.0)
+Requires-Dist: requests-toolbelt (==0.10.1)
+Requires-Dist: structlog (>=24.1.0,<25.0.0)
+Requires-Dist: tomli (>=2.0.1,<3.0.0)
+Requires-Dist: tomli-w (>=1.0.0,<2.0.0)
+Requires-Dist: typer[all] (>=0.12.0,<0.13.0)
+Requires-Dist: urllib3 (==1.26.18)
+Description-Content-Type: text/markdown
+
+# python-cli-example
+Example Poetry CLI tool for reference
+

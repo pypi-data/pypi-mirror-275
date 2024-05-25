@@ -1,0 +1,3 @@
+[console_scripts]
+pce=python_cli_example.main:app
+
