@@ -1,0 +1,12 @@
+altstore_proxy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+altstore_proxy/run.py,sha256=yjFTp4vI09x8wKhsLVm1JxUk0YJGrkJUuEQbLDRVEno,10779
+altstore_proxy/providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+altstore_proxy/providers/notifications.py,sha256=87PCbg8hPLZh9nmvy5q9NSl6E4mn52XpteZoPeVkD7o,1900
+altstore_proxy/providers/shared_state.py,sha256=FSQIBjgohTXGFE3FdcUwGsvZyi8tPz6PO4AmDK1rkTA,401
+altstore_proxy/providers/version.py,sha256=yzU5WPwrEsZ_ELxK9-JeCysLlwkIgaYWR5PcmI5fYPc,2221
+altstore_proxy-1.3.0.dist-info/LICENSE.md,sha256=QQFCAfDgt7lSA8oSWDHIZ9aTjFbZaBJdjnGOHkuhK7k,1060
+altstore_proxy-1.3.0.dist-info/METADATA,sha256=xLEXOVDdCCjzZg8dzgbRLvsfr0qSnjpcXIipFoFttVE,1569
+altstore_proxy-1.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+altstore_proxy-1.3.0.dist-info/entry_points.txt,sha256=cq91aOQGO6kwCO9VQAWxX9NWn3eDXahfaaB2sjYFj9E,60
+altstore_proxy-1.3.0.dist-info/top_level.txt,sha256=f62L6Tn_AWr-6n8gsOoR1fTwoSHljim1iZagQ-rlbeg,15
+altstore_proxy-1.3.0.dist-info/RECORD,,
