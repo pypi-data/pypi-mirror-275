@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: topic_modeling_tool
+Version: 0.1.0
+Summary: A simple topic modeling tool using LDA
+Home-page: https://github.com/yourusername/topic_modeling_tool
+Author: Takumi Maruyama
+Author-email: s2222095@stu.musashino-u.ac.jp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+
+# topic_modeling_tool
+
+topic_modeling_toolは、テキストデータのトピックモデリングを行うためのシンプルなツールです。このパッケージを使用すると、与えられたテキストデータからトピックを抽出し、それらのトピックに関連する単語を表示することができます。
+
+## 特徴
+
+- テキストデータからトピックを抽出するための簡潔なインターフェース
+- Latent Dirichlet Allocation（LDA）を使用したトピックモデリングのサポート
+- ユーザーフレンドリーなトピック表示オプション
+
+## インストール
+
+パッケージをインストールするには、次のコマンドを実行します：
+
+```sh
+pip install topic_modeling_tool
