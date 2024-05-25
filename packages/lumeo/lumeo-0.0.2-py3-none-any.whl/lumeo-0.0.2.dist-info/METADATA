@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: lumeo
+Version: 0.0.2
+Summary: Lumeo python package
+Home-page: https://github.com/lumeohq/lumeo-python
+Author: lumeoservices
+Author-email: services@lumeo.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Lumeo Python Package
+
+Lumeo is a complete, open, and flexible platform that offers everything you need to generate actionable insights and alerts using AI-based video analytics.
+
+### Useful Links
+
+- [Lumeo](https://lumeo.com/)
+- [Lumeo Documentation Hub](https://docs.lumeo.com/)
+- [API Reference](https://docs.lumeo.com/reference)
