@@ -1,0 +1,11 @@
+suai_observer/__init__.py,sha256=Qkodslnwzg3fdXiO3PGw06dOIYI2PdBkqurnQtT6S90,42
+suai_observer/cli.py,sha256=w_6CRnZn6xjou69qAU_O32yMePYsIQABK6tj-_XcEm0,1076
+suai_observer/config.py,sha256=Bt1wE7CxGdBoF3zcGd_Gg_aKNaU80oDX5E7KM1j_14E,206
+suai_observer/report.py,sha256=YurrE9fkoyVZjFPP562pqYqfAsKp1khrkDvVRhphbI4,966
+suai_observer/session.py,sha256=MN_gZ-U5KsI7jefZ3z7VocO9lBjKVDv--8r_0I8ZlGk,2196
+suai_observer-0.1.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+suai_observer-0.1.1.dist-info/METADATA,sha256=NaGCg-MVFko0OAqI3E2Iv3YQwVHXZ4OuzpxPkmiBK9I,42057
+suai_observer-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+suai_observer-0.1.1.dist-info/entry_points.txt,sha256=Nfv6Vg_WxKLzXYYYsWhgrQh9WBbaRyueG7SLXCwjh_M,57
+suai_observer-0.1.1.dist-info/top_level.txt,sha256=yy_1OUh_OHzJcfwDMtmUfy56uShPpsyhBJGPKtlUarE,14
+suai_observer-0.1.1.dist-info/RECORD,,
