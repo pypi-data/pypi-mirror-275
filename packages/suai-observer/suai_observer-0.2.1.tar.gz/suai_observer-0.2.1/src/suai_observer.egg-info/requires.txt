@@ -1,0 +1,3 @@
+toml
+beautifulsoup4
+requests

@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/suai_observer/__init__.py
+src/suai_observer/cli.py
+src/suai_observer/config.py
+src/suai_observer/report.py
+src/suai_observer/session.py
+src/suai_observer.egg-info/PKG-INFO
+src/suai_observer.egg-info/SOURCES.txt
+src/suai_observer.egg-info/dependency_links.txt
+src/suai_observer.egg-info/entry_points.txt
+src/suai_observer.egg-info/requires.txt
+src/suai_observer.egg-info/top_level.txt
