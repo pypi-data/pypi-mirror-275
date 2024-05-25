@@ -1,0 +1,1 @@
+import{y as n}from"./entry.DaqPZ0cw.js";import{r as s,a as i}from"./form-methods.CS9pXFl6.js";const c=n();async function m(r,t,e,o){return await $fetch(c.public.apiPath+"/model/"+t+"/version/"+e+"/artifact/"+o,{retry:0,method:"GET",headers:{Authorization:"Bearer "+r},onRequestError(){s()},onResponse({response:a}){return a._data},onResponseError(){i()}})}export{m as f};
