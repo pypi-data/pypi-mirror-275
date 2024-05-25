@@ -1,0 +1,58 @@
+.gitignore
+.travis.yml
+LICENSE.txt
+MANIFEST.in
+README.md
+_config.yml
+packaging.md
+pyproject.toml
+.github/workflows/tests.yml
+conda.recipe/bld.bat
+conda.recipe/meta.yaml
+docs/Build docs.ipynb
+docs/Makefile
+docs/bhreader.rst
+docs/conf.py
+docs/hdf5.rst
+docs/index.rst
+docs/loader.rst
+docs/pqreader.rst
+docs/readthedocs.py
+notebooks/Convert PicoQuant ns-ALEX files to Photon-HDF5.ipynb
+notebooks/Convert ns-ALEX Becker-Hickl files to Photon-HDF5.ipynb
+notebooks/Convert ns-ALEX HT3 files to Photon-HDF5.ipynb
+notebooks/Convert ns-ALEX PT3 files to Photon-HDF5.ipynb
+notebooks/Convert ns-ALEX T3R files to Photon-HDF5.ipynb
+notebooks/Convert us-ALEX SM files to Photon-HDF5 - YAML.ipynb
+notebooks/Convert us-ALEX SM files to Photon-HDF5.ipynb
+notebooks/Example reading PicoQuant PHU files.ipynb
+notebooks/Upload data files.ipynb
+notebooks/Writing Photon-HDF5 files.ipynb
+notebooks/data/0023uLRpitc_NTP_20dT_0.5GndCl.yml
+notebooks/data/0023uLRpitc_NTP_20dT_0.5GndCl_extended.yml
+phconvert/__init__.py
+phconvert/_version.py
+phconvert/bhreader.py
+phconvert/hdf5.py
+phconvert/loader.py
+phconvert/metadata.py
+phconvert/plotter.py
+phconvert/pqreader.py
+phconvert/smreader.py
+phconvert.egg-info/PKG-INFO
+phconvert.egg-info/SOURCES.txt
+phconvert.egg-info/dependency_links.txt
+phconvert.egg-info/requires.txt
+phconvert.egg-info/top_level.txt
+phconvert/specs/photon-hdf5_specs.json
+phconvert/v04/__init__.py
+phconvert/v04/hdf5.py
+phconvert/v04/metadata.py
+phconvert/v04/specs/photon-hdf5_specs.json
+tests/Execute notebooks.ipynb
+tests/nbrun.py
+tests/test_bhreader.py
+tests/test_pqreader.py
+tests/test_files/test_noise.asc
+tests/test_files/test_noise.set
+tests/test_files/test_noise.spc

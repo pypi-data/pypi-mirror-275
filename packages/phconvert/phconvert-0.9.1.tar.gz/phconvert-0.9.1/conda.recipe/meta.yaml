@@ -1,0 +1,33 @@
+package:
+  name: phconvert
+  version: {{ environ['GIT_DESCRIBE_TAG'] }}
+
+source:
+    git_url: https://github.com/Photon-HDF5/phconvert.git
+    #git_tag: dev
+
+build:
+    noarch: python
+    number: {{ environ.get('GIT_DESCRIBE_NUMBER', 0) }}
+    script: python -m pip install --no-deps --ignore-installed .
+
+requirements:
+  host:
+    - pip
+    - python
+    - setuptools
+
+  run:
+    - python
+    - setuptools
+    - numpy >=1.9
+    - pytables
+
+test:
+  imports:
+    - phconvert
+
+about:
+  home: https://photon-hdf5.github.io/phconvert
+  license: MIT
+  summary: 'Reference library to convert and write Photon-HDF5 files.'
