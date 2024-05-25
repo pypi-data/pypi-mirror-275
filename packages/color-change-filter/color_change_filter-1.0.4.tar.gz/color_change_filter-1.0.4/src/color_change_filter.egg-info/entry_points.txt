@@ -1,0 +1,2 @@
+[console_scripts]
+color_change_filter = program6:main
