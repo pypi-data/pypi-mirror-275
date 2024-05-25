@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+detect_dice/__init__.py
+detect_dice/detect_dice.py
+detect_dice.egg-info/PKG-INFO
+detect_dice.egg-info/SOURCES.txt
+detect_dice.egg-info/dependency_links.txt
+detect_dice.egg-info/top_level.txt
+test/test_horse.py
