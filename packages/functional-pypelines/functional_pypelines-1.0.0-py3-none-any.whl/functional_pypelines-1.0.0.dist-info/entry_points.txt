@@ -1,0 +1,2 @@
+[console_scripts]
+functional-pypelines = functional_pypelines.api.cli:cli_run
