@@ -1,0 +1,2 @@
+[console_scripts]
+2024tokuron = 2024tokuron:main

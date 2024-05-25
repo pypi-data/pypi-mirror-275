@@ -1,0 +1,8 @@
+README.md
+setup.py
+2024tokuron.egg-info/PKG-INFO
+2024tokuron.egg-info/SOURCES.txt
+2024tokuron.egg-info/dependency_links.txt
+2024tokuron.egg-info/entry_points.txt
+2024tokuron.egg-info/requires.txt
+2024tokuron.egg-info/top_level.txt

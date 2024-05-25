@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: 2024tokuron
+Version: 0.1
+Summary: Convert audio files to text using speech recognition
+Home-page: https://github.com/yourusername/2024tokuron
+Author: Your Name
+Author-email: your@email.com
+License: MIT
+Keywords: audio text speech-recognition
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: speechrecognition
+Requires-Dist: pydub
+
+# Audio to Text Converter
+
+This tool converts audio files to text using speech recognition.
+
+## Installation
+
+You can install the package using pip:
