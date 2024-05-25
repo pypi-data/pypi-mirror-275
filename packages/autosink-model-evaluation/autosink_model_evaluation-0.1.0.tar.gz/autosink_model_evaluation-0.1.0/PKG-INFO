@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: autosink-model-evaluation
+Version: 0.1.0
+Summary: 
+Author-email: Janghoo Lee <dlwkdgn1@naver.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: PyYAML
+Requires-Dist: flit ; extra == "dev"
+Requires-Dist: pylint ; extra == "dev"
+Requires-Dist: yapf ; extra == "dev"
+Provides-Extra: dev
+
+# Model Evaluation for Autosink Project
+
+[🇬🇧](README.md) | [🇰🇷](README.kr.md) | [🇨🇳](README.zh-CN.md)
+
+The environment is based on MacOS and Linux.
+
+## `Makefile`
+
+The `Makefile` has the following functionalities.
+
+### `make lint`
+
+- To use the `.vscode` settings, install the `pylint` extension.
+- Overrides options specified in the `pyproject.toml` file to lint the code with the default settings of the linter.
+
+### `make format`
+
+- The formatter uses Google's `yapf`.
+- Overrides options specified in the `pyproject.toml` file to format the code with the default settings of the `yapf` formatter.
+- To use the `.vscode` settings, install the `yapf` extension.
+
+### `make test`
+
+- Tests use `unittest`.
+- Supports both `test_*.py` and `*_test.py` patterns.
+- The test files must be connected to `__init__.py` up to the location where the test files exist.
+
+### `make publish`
+
+- Write the `~/.pypirc` file as follows.
+    ```
+    [pypi]
+    username = __token__
+    password = pypi-something # Obtain and write your personal API token.
+    ```
+- Running this command will push the package to the PyPI public registry using `flit`.
+- The package uploaded under the previously specified name `myproject` (alias) will be available for anyone worldwide to install and use with `python3 -m pip install myproject`.
