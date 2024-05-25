@@ -1,0 +1,3 @@
+[console_scripts]
+decoyfree-msfdr = decoyfree_msfdr:decoyfree_msfdr
+decoyfree-xlmsfdr = decoyfree_msfdr:decoyfree_xlmsfdr
