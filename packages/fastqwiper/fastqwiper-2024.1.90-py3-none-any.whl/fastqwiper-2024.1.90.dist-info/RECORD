@@ -1,0 +1,10 @@
+fastq_wiper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastq_wiper/wiper.py,sha256=VW2w-TjE_EZnxF7djWepATjl6-3ll1Iy2dmZSuJ0QiE,9984
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_wiper.py,sha256=SC8gElm6F6E1SXnPHGSznduT7T03E5u5G82btLjMzMc,816
+fastqwiper-2024.1.90.dist-info/LICENSE,sha256=DWt8ibsIVfsr_QsQ8XUkSM5hf5T0TJRHUc350xWkcdM,7601
+fastqwiper-2024.1.90.dist-info/METADATA,sha256=o_-lPokqK-KW92U3-kPbQzBVFqAGXuSU5r1RDzqyFWU,14374
+fastqwiper-2024.1.90.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fastqwiper-2024.1.90.dist-info/entry_points.txt,sha256=4tbn0oF9lACKncVCqCsYTIYqyo0TGQuFv0KCzgdJX4A,60
+fastqwiper-2024.1.90.dist-info/top_level.txt,sha256=PoRVateDzVx-xrn4iraE8TOWCGvtsEwbaM97BHkr6bU,18
+fastqwiper-2024.1.90.dist-info/RECORD,,
