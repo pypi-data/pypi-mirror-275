@@ -1,0 +1,2 @@
+[console_scripts]
+commit-message-validator = commit_message_validator.cli:cli
