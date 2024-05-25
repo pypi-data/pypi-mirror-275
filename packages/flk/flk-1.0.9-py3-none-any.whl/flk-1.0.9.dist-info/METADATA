@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: flk
+Version: 1.0.9
+Summary: FLK - это библиотека для парсинга и работы с файлами в формате FL (File Language).
+Home-page: https://github.com/FlacSy/flk
+Author: FlacSy
+Author-email: flacsy.tw@gmail.com
+License-File: LICENSE
+
