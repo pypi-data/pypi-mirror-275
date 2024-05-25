@@ -1,0 +1,2 @@
+[console_scripts]
+nanika = nanika:main
