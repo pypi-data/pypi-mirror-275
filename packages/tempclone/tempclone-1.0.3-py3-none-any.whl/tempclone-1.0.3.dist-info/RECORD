@@ -1,0 +1,10 @@
+tempclone/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tempclone/cli.py,sha256=puLSz_EVJZqbelzT3P2rKRrX9p5kWBIX-9cP1jj-Gl4,5969
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cli.py,sha256=2ZGVVdEowUvi2Nm_IlALiw9alpuEBQyGWIL8XX0KCww,2617
+tempclone-1.0.3.dist-info/LICENSE,sha256=BuOQz5Eg9Q0dk0qcYLrdnt3rCYKOEdvBaZ98ZYA3MmE,1073
+tempclone-1.0.3.dist-info/METADATA,sha256=l_gR5uLR0PXYuu9BcHKRZ3w2J0cwoL8tXuYv-VIl2yI,1116
+tempclone-1.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tempclone-1.0.3.dist-info/entry_points.txt,sha256=SHENcZYucjIqwJUnr9OXoRnVh9V6hWlAbCuSNHR4NZc,49
+tempclone-1.0.3.dist-info/top_level.txt,sha256=L9LJ4P9rdCYE76l7r5QqrOMKxL1v3vTH5-UGppnhupg,16
+tempclone-1.0.3.dist-info/RECORD,,
