@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: etypes
+Version: 1.0.4
+Summary: A python module to store, encrypt and decrypt type hinted strings in a python file
+Home-page: https://github.com/falsaform/etypes.git
+Keywords: encrypt,secret string,secret,decrypt,env var
+Author: Dan Brosnan
+Author-email: dpjbrosnan@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: ansible
+Requires-Dist: ansible (>=9,<10) ; extra == "ansible"
+Requires-Dist: click (>=8.0,<9.0)
+Project-URL: Repository, https://github.com/falsaform/etypes.git
+Description-Content-Type: text/markdown
+
+## ETYPES
+
+This package allows for encrypting secret strings in python files in a human readable way using type hints. 
+it also supports dynamic loading of python files which contain encrypted strings, providing the password via an environment variable
+ 
+## Installation
+
+`$ pip install etypes`
+
+or
+
+`$ poetry add etypes`
+
+## Example
+Define a variable with the type hint DecryptedSecret
+```
+from etypes import DecryptedSecret
+SECRET_VAR: DecryptedSecret = "some-secret-value"
+```
+
+### encrypt
+To encrypt the file, run the following
+
+`$ etypes encrypt -p PASSWORD ./path/to/python_file.py`
+
+or 
+
+`$ etypes encrypt -pf ./path/to/password_file ./path/to/python_file.py`
+
+results in 
+
+```
+from etypes import EncryptedSecret
+SECRET_VAR: EncryptedSecret = "gAAAAABmT9yA6HQOXF4BM6gvUG_ryKqrXK9BEgRY2W4lNQvDNBVbiCEOz50-viDLEMXA71upgcGgRbqvC-IAltbjE8w5MbSooJN5EV-8sVe1q3LndfBNzEg="
+```
+
+### decrypt
+
+To decrypt the file run 
+
+`$ etypes decrypt -p PASSWORD ./path/to/python_file.py`
+
+or 
+
+`$ etypes v -pf ./path/to/password_file ./path/to/python_file.py`
+
+## Autoloader
+
+To import this python file in your project and have it decrypt itself seamlessly when accessed.
+
+You must import the AutoLoader
+and configure it to accept a password via a environment variable or to look for a file at a path.
+
+```
+# app/settings/secrets.py
+
+from etypes import EncryptedSecret, AutoLoader
+SECRET_VAR: EncryptedSecret = "gAAAAABmT9yA6HQOXF4BM6gvUG_ryKqrXK9BEgRY2W4lNQvDNBVbiCEOz50-viDLEMXA71upgcGgRbqvC-IAltbjE8w5MbSooJN5EV-8sVe1q3LndfBNzEg="
+
+AutoLoader(locals(), password_var_name="SOME_ENV_VAR_WHICH_CONTAINS_PASSWORD")
+# or
+AutoLoader(locals(), password_file="/path/to/your/secret_file")
+
+```
+import your settings/secrets file normally.
+
+```
+# app/main.py
+
+from .settings import secrets
+print(secrets.SECRET_VAR)
+```
+
+Run your application providing the password declaring in your AutoLoader
+`$ SOME_ENV_VAR_WHICH_CONTAINS_PASSWORD="PASSWORD" ./main.py`
+
+
+
+
+> TODO: Add support for the environs package 
+
+## Changelog
+
+1.0.4
+- fix ansible implementation and tests
+
+
+1.0.2, 1.0.3
+- doc updates
+
+
+1.0.1 breaking changes but still initial 1.0 release
+- rename hits EncryptedSecret and DecryptedSecret
+
+
+1.0 release
+- basic functionality
+
