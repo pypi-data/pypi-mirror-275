@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+qonic/__init__.py
+qonic.egg-info/PKG-INFO
+qonic.egg-info/SOURCES.txt
+qonic.egg-info/dependency_links.txt
+qonic.egg-info/requires.txt
+qonic.egg-info/top_level.txt
+qonic/ConstraintSatisfaction/ConstraintSatisfaction.py
+qonic/QProgram/QProgram.py

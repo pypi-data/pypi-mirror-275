@@ -1,0 +1,11 @@
+numpy>=1.22.2
+sympy>=1.12
+PyYAML>=5.4.1
+tequila-basic>=1.8.1
+qiskit>=0.21.2
+forest-benchmarking>=0.8.0
+dimod>=0.11.5
+dwavebinarycsp>=0.2.0
+pillow>=10.3.0
+fonttools>=4.43.0
+setuptools>=65.5.1
