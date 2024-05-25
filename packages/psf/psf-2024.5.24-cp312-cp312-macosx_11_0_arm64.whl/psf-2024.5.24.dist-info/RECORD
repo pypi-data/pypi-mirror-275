@@ -1,0 +1,11 @@
+psf-2024.5.24.dist-info/RECORD,,
+psf-2024.5.24.dist-info/LICENSE,sha256=oJmCjVCNZ3HQMFiW5jYpyrJACbGlIuuDIj1l2J91GXg,1546
+psf-2024.5.24.dist-info/WHEEL,sha256=Vo9YTsjXxZ5SWdH4n69oS5jU3YTIi3eHk0n-aUcTtlw,110
+psf-2024.5.24.dist-info/top_level.txt,sha256=hl58iBs6un3SxETzKo6Ms6vdkMftKZwQ6FaNJhCbiJU,4
+psf-2024.5.24.dist-info/METADATA,sha256=l-8LltVM9VuYUuPCwWpuqgpL3AA9j1xeMHVf-rQRGyQ,4869
+psf/conftest.py,sha256=VveWYAVcs5UpzVZ4t-EUeJsIU0ZbwGXcvcpOsXxixos,263
+psf/__init__.py,sha256=9udw2vL5KVJq1cskaZIaKpGEVtMR_LxVGkeRzrrvMVU,85
+psf/psf.py,sha256=9CpFKm5fSFRYAc9Qrf2iy1XHZJOSbdIp115C0mCcSN0,32215
+psf/_psf.cpython-312-darwin.so,sha256=4L8q8hBqZ5oqozDZgtP7hjArs3lu74n81wtVVRBAarE,73815
+psf/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+psf/examples/psf_example.py,sha256=smn_uILLbn4-N-F3387-PX33NLEdmz5Yu1KqJdfJioc,4349
