@@ -1,0 +1,8 @@
+ift-dbms>=0.0.1
+numpy
+pandas
+fpdf
+matplotlib
+pymongo
+psycop2
+PyYAML
