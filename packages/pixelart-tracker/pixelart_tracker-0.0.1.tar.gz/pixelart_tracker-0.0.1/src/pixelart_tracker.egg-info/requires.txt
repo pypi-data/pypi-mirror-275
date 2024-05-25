@@ -1,0 +1,6 @@
+aiohttp~=3.9
+argparse
+asyncio
+idotmatrix==0.0.4
+pydantic[dotenv]~=1.10.13
+pillow~=10.3

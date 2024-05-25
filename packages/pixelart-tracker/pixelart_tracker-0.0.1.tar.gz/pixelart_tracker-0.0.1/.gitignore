@@ -1,0 +1,8 @@
+# IDE project files
+.idea
+
+# Environment file
+.env
+
+# Python env files
+src/subscribers_viewer.egg-info
