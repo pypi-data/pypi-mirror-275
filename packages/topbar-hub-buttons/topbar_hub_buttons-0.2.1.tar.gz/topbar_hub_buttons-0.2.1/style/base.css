@@ -1,0 +1,22 @@
+/*
+    See the JupyterLab Developer Guide for useful CSS Patterns:
+
+    https://jupyterlab.readthedocs.io/en/stable/developer/css.html
+*/
+
+:root {
+  --jp-additional-toolbar-height: calc(28px - var(--jp-border-width));
+}
+
+.jp-Toolbar-spacer {
+  flex-grow: 1;
+}
+
+.jp-Icon {
+  min-height: auto;
+}
+
+#hub-toolbar {
+  border-bottom: none;
+  min-height: var(--jp-additional-toolbar-height) !important;
+}
