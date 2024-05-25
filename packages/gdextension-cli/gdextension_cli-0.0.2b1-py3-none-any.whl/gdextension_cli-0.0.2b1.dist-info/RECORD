@@ -1,0 +1,10 @@
+gdextension_cli/__init__.py,sha256=yWicEoW-cUh-5OGbjXOvy982u3pjUVT5LhI9d-pVrdY,1265
+gdextension_cli/__version__.py,sha256=cggDRsq7GyQ_LOd1HPJFUA63MYHp6XyB5UIWFG3IZgo,53
+gdextension_cli/command_line_args.py,sha256=JfVHQLmag4-5wzVZHsNunKVJ91ZOVPf8MytEXBL6lQA,2834
+gdextension_cli/template_renderer.py,sha256=z7y5ga_CXvhqlG6OWPwu1E4g_r5YiQqCPCVx6OE8WMM,1478
+gdextension_cli/commands/new_project_from_local.py,sha256=jiMIYXDbzWkACbKrrD8H4reP-zrikN0s3qLxv6_zg8U,5097
+gdextension_cli-0.0.2b1.dist-info/METADATA,sha256=quRxlXYMryZqYY3_LRmNqC0hoIWoqnFVw__InzWngb4,538
+gdextension_cli-0.0.2b1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+gdextension_cli-0.0.2b1.dist-info/entry_points.txt,sha256=twIfNmbkLUoHc30o8vTwdlzAZyXSY3ahGqUd5nqLh3g,61
+gdextension_cli-0.0.2b1.dist-info/licenses/LICENSE,sha256=9hON0nioBOAG45NH3d8ywOIigLZcuuDhFEP6N8HSUlo,1061
+gdextension_cli-0.0.2b1.dist-info/RECORD,,
