@@ -1,0 +1,8 @@
+textual
+platformdirs
+pyperclip
+
+[testing]
+setuptools
+pytest
+pytest-cov
