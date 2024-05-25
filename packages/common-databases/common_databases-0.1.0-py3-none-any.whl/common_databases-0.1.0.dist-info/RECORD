@@ -1,0 +1,11 @@
+common_databases-0.1.0.dist-info/METADATA,sha256=5ZfzsAFbl4cOU2XgKu26ppB9DLqzZIxkvGy3eooRqGo,521
+common_databases-0.1.0.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+common_databases/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+common_databases/elastic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+common_databases/elastic/client.py,sha256=3CbUAbes3lUyQXaM3aB44zVWvZOPK3JEJSPiLYJGxz4,627
+common_databases/elastic/settings.py,sha256=aheb9865l0wZadLN59cPuCBl9vFlHGuNUIYI6tUMpy8,359
+common_databases/postgres/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+common_databases/postgres/client.py,sha256=aMUhKOF7UmPJk4X7MTQKByRbqp32c6JGFANoA9DUzu8,537
+common_databases/postgres/settings.py,sha256=AKlpgQUIffFCzTH57DHhAYwuoCl8luBqntkeWrtB1jI,317
+common_databases/settings.py,sha256=ELg8MUR9KpqyvkXceZt3wpz4ks7lGszvrOsVkVKRjxw,310
+common_databases-0.1.0.dist-info/RECORD,,
