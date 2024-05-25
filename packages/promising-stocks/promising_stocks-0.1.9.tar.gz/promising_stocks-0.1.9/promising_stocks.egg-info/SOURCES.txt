@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+promising_stocks/__init__.py
+promising_stocks/main.py
+promising_stocks.egg-info/PKG-INFO
+promising_stocks.egg-info/SOURCES.txt
+promising_stocks.egg-info/dependency_links.txt
+promising_stocks.egg-info/requires.txt
+promising_stocks.egg-info/top_level.txt
