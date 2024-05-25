@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+systore/__init__.py
+systore/cpu.py
+systore/disk.py
+systore/ram.py
+systore.egg-info/PKG-INFO
+systore.egg-info/SOURCES.txt
+systore.egg-info/dependency_links.txt
+systore.egg-info/top_level.txt
