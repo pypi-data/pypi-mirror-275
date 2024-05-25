@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: auto_ml_models
+Version: 0.1.0
+Summary: A package to find best machine learning model
+Author: Alireza Kiaeipour
+Author-email: a.kiaipoor@gmail.com
+Requires-Dist: scikit-learn==1.5.0
+Requires-Dist: xgboost==2.0.3
+Requires-Dist: catboost==1.2.5
+
+# Auto Machine Learning Models
+
+## Overview
+auto-ml-models is a Python package to find best machine learning model built Based on scikit-learn, catboost and xgboost.
+
+## Features
+### This project include 9 models:
+* KNN
+* Linear
+* SVM
+* DecisionTree
+* RandomForest
+* GBoost
+* AdaBoost
+* XGBoost
+* CatBoost
+
+### This project include 6 scores:
+* Accuracy
+* Precision
+* Recall
+* F1
+* MAE
+* MSE
+
+## Installation
+
+Install the package
+
+  ```
+  pip install auto-ml-models
+  ```
+
+## Usage
+
+  ```
+  pip install auto-ml-models
+  ```

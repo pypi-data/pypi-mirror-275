@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+auto_ml_models/__init__.py
+auto_ml_models/classification.py
+auto_ml_models/regression.py
+auto_ml_models.egg-info/PKG-INFO
+auto_ml_models.egg-info/SOURCES.txt
+auto_ml_models.egg-info/dependency_links.txt
+auto_ml_models.egg-info/requires.txt
+auto_ml_models.egg-info/top_level.txt
+tests/test_ml.py
