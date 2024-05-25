@@ -1,0 +1,12 @@
+comment_scanner/__init__.py,sha256=VAIbPfUK9gzChvZRXnMFR_iCgixkePwpGhyi2ER4IH4,75
+comment_scanner/comment_scanner.py,sha256=7nyOCvaDvSEZS3oLLH649E_9zRcDxv2QhIlgLDmIayA,3458
+comment_scanner/parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+comment_scanner/parsers/c_parser.py,sha256=ilSMF2j8OEy-fhV-qoBPnOaA3KgRYdFaL-8PGJ3kcXQ,2528
+comment_scanner/parsers/common.py,sha256=b-90x1-lYzxENnFqnKaRnFjofTGmYHazfyucZiDaJTs,1542
+comment_scanner/parsers/js_parser.py,sha256=QiBfcS-0n--T5aS04ey_OkMQiEvCe-zt6lkEKF4kTeQ,3643
+comment_scanner/parsers/python_parser.py,sha256=z_knPxBFwYH14h85YBM6D3AtS3VqsfqeM7RQi9U0ZWY,2709
+comment_scanner-0.1.dist-info/METADATA,sha256=__pzkLZ5THugrRk8QAVYt9S4xxefsYkQAaUHjfAvAOU,298
+comment_scanner-0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+comment_scanner-0.1.dist-info/entry_points.txt,sha256=JETEs2MC6VlUqCnIFIKYKPGkgPQwJ4s5620_gNx3iYY,73
+comment_scanner-0.1.dist-info/top_level.txt,sha256=_JBK_GQ0pMKJqFI0xy8L2mnr2qVuC5qfP2QK99kajxk,16
+comment_scanner-0.1.dist-info/RECORD,,

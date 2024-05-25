@@ -1,0 +1,2 @@
+[console_scripts]
+comment_scanner = comment_scanner.comment_scanner:main
