@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: yarf
+Version: 0.1.0
+Summary: Yet Another Raft Framework
+License: MIT
+Author: Ivan Sitkin
+Author-email: alvinera@yandex.ru
+Requires-Python: >=3.10,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# YARF: Yet Another Raft Framework
+
+## Requirements
+
+- [`poetry`](https://python-poetry.org/)
+- [`poem-plugins`](https://github.com/Alviner/poem-plugins) (v1.1 compatible)
+
+## How to develop
+
+- `make develop` - create virtualenv, install develop package
+- `make pytest` - run pytest
+- `make lint` - run ruff check with mypy
+- `make format` - run ruff format
+
