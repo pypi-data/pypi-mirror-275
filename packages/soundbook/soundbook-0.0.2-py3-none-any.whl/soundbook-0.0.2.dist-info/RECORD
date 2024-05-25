@@ -1,0 +1,14 @@
+soundbook/__init__.py,sha256=J3M86ynEBgEUNs7ytGK9tCfP0PUsPf-Fr2B5pPCM1YQ,28
+soundbook/soundbook.py,sha256=kbouIVAVBShRN3qmmeSYKlim7McLw4tEwc689rmJR1k,813
+soundbook/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soundbook/core/handler.py,sha256=Q-geOEXH15sPo6XPY2myK0qv2ByDlF2h4NuCVT5SVR0,168
+soundbook/core/runner.py,sha256=16FdPXw_-cxM0tp-u0YLpYLu-dpFaVaAekQ02JL1bQc,471
+soundbook/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soundbook/modules/get_book.py,sha256=CqC0Ad2Bcmu8bwUyr5N60En8ml_rsXPW2jqjeFpqSS0,331
+soundbook/modules/get_url.py,sha256=oCluVcdw5Fz4ibw774E6AbFD2HnryfGUOgZf9dF9ACk,3047
+soundbook-0.0.2.dist-info/LICENSE,sha256=Dn60o1MIQVYyBimS4YJS5ir30S8zMBhQo1rOMYLd1ew,1074
+soundbook-0.0.2.dist-info/METADATA,sha256=4lHwIug3YC4kjWL44qLhg1HldhwTmYf1SIGsgKIjOxc,1807
+soundbook-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+soundbook-0.0.2.dist-info/entry_points.txt,sha256=11C8U3U0qZbNb6pPV3zzHjLPOvrDUQxTyn2dJldJuEI,45
+soundbook-0.0.2.dist-info/top_level.txt,sha256=9PJm00V_vlGPkbt4ZCCGqsNzuQHDrOY4JzUjU9QNOZU,10
+soundbook-0.0.2.dist-info/RECORD,,
