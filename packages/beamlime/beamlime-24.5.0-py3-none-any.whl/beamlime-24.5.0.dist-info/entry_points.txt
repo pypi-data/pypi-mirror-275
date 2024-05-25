@@ -1,0 +1,5 @@
+[beamlime.stateless]
+dummy = beamlime.stateless_workflow:dummy_workflow
+
+[console_scripts]
+beamlime = beamlime.__main__:main
