@@ -1,0 +1,8 @@
+iftaixpath>=0.0.2
+numpy
+pandas
+fpdf
+matplotlib
+pymongo
+psycopg2
+PyYAML
