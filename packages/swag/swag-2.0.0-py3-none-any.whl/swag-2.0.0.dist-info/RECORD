@@ -1,0 +1,11 @@
+swag/__init__.py,sha256=eAUGdW5jV9lNFEygnlJlkhoQvd_bMOIkrU92X6rXijE,563
+swag/__main__.py,sha256=P-uKohO-MB_fEWBhUZk7r7Caxo4CGw4xlS4l92-xbLI,978
+swag/colors.py,sha256=p0aDCgbUCg0ACqaeKc5IZM88y9rQEsOd7xdK_578Fa0,3402
+swag/install.py,sha256=BIE1YiPinFrYgBGvq_Pbtif7QnBzJMoevDlpFTfayW0,503
+swag/swaggy.py,sha256=158TjQAEL16SlpxGkAmXKQEfcVowNVuhV9hqoct0dvs,2215
+swag-2.0.0.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+swag-2.0.0.dist-info/LICENSE.txt,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+swag-2.0.0.dist-info/METADATA,sha256=lGLCnyMTBQ5ZOfCickbZzVEAHO0soqPdTbYzOv3l_l0,2744
+swag-2.0.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+swag-2.0.0.dist-info/entry_points.txt,sha256=l1LEEECtc8knPmr2MdSA-M-spAwNvtonHGhkoRCN8lc,42
+swag-2.0.0.dist-info/RECORD,,
