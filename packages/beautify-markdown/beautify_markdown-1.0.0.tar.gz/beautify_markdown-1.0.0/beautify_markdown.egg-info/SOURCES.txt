@@ -1,0 +1,10 @@
+README.md
+setup.py
+beautify_markdown/__init__.py
+beautify_markdown/beautify_markdown.py
+beautify_markdown.egg-info/PKG-INFO
+beautify_markdown.egg-info/SOURCES.txt
+beautify_markdown.egg-info/dependency_links.txt
+beautify_markdown.egg-info/entry_points.txt
+beautify_markdown.egg-info/requires.txt
+beautify_markdown.egg-info/top_level.txt
