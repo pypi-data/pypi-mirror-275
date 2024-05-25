@@ -1,0 +1,15 @@
+tree_sitter_starlark/__init__.py,sha256=7o8sVswSooU8OQPJUC9ymFqy62SccJBABiiiJ19TBWw,91
+tree_sitter_starlark/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_starlark/binding.c,sha256=KCd2DE_ilc1IVeIOTPz7njG_cv2_h2CRmFj_dDgQTqY,640
+tree_sitter_starlark/__init__.pyi,sha256=8xf7bY1szgDY9HRJ7FJ326So4SFgMiSRfCB4LADkTpU,27
+tree_sitter_starlark/_binding.abi3.so,sha256=A6Bn2leYA6gv4TPiL43srhQL-7DUu1lKp2JhVBBdfXw,454992
+tree_sitter_starlark/queries/indents.scm,sha256=b1FYmORlEA_7Md9Oi6K4IDF8wNev67yW9Ymwt3IBCrs,785
+tree_sitter_starlark/queries/locals.scm,sha256=mqSdoU11RygZgqCYwneo8a8tkdCoT4l8PkGar1M_W4g,1847
+tree_sitter_starlark/queries/injections.scm,sha256=JDr-zLXN__m4oI5hS06-3odLvlJ1gyPn7vtQ9lVAjbw,170
+tree_sitter_starlark/queries/folds.scm,sha256=SKLF02cMJz_zXKODPEEefIx887a3JCZOasJsEuHMswA,292
+tree_sitter_starlark/queries/highlights.scm,sha256=O_uszvgac3ybEAuYjuF6UyIi3gn_t5ooIFAzyXcE6kQ,6743
+tree_sitter_starlark-1.2.0.dist-info/WHEEL,sha256=SLuAR4EQHH0r-qGFhMuV9c2WCtm9CXjP4961KF3hTEM,111
+tree_sitter_starlark-1.2.0.dist-info/LICENSE,sha256=CZxEJI-M81MSMhExhoDpNGVYfABaSzcwzoy1M03gQ9Y,1101
+tree_sitter_starlark-1.2.0.dist-info/top_level.txt,sha256=bEKrOsMWpAo6Wm_deK6eV0Z-ERMK9TpHv9vtNnX1mhI,30
+tree_sitter_starlark-1.2.0.dist-info/RECORD,,
+tree_sitter_starlark-1.2.0.dist-info/METADATA,sha256=zZ5fuKo-1TwYOy5nbd4PBZrW5Rug5V3GDbLuC4EmuHQ,1227
