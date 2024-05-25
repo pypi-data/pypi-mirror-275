@@ -1,0 +1,8 @@
+README.md
+setup.py
+Basic_library/__init__.py
+Basic_library/main.py
+numerix77.egg-info/PKG-INFO
+numerix77.egg-info/SOURCES.txt
+numerix77.egg-info/dependency_links.txt
+numerix77.egg-info/top_level.txt
