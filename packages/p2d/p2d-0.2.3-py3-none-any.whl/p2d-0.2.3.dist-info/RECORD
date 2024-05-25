@@ -1,0 +1,16 @@
+p2d/__init__.py,sha256=E_1Ba0ZO6l1HqJDNEiPKKb1nwjx7Q4aAoH7AhsFr3wc,42
+p2d/asset/config.toml,sha256=DH2Xg9dNT1QwGAl0qZgPKPy9SSgApYk_TUEbrgAX6mk,911
+p2d/cli.py,sha256=4WFyzQShsuCe0ffZei-itlkmO_c7qer3DczKQQYIbdU,4743
+p2d/p2d.py,sha256=CwwjHhwH6ZJURG5DzN1k1W_wsF8FkJn7zR9bJ0ZV5nw,24768
+p2d/testlib/LICENSE,sha256=7fTksUTyTMTYBwt6GNcA-UKehQ8zU3Nt1iigo8rP9sk,1082
+p2d/testlib/README.md,sha256=b5uYjwvCJMcRtBnzkSMft9-IngpfPNjvgO_zpJ3rnr0,5145
+p2d/testlib/patch/domjudge.patch,sha256=lq0y87rFEZVRghPfjEpArKze7T6jehmpCw2ILsm5Dfo,5396
+p2d/testlib/read.me,sha256=0NRGjMaEUC1sFFAdOyDYPe2E1nFmLjZVddzmz1yMgqM,591
+p2d/testlib/testlib.h,sha256=a-7vegSSfmCt-KyvC0xQ2cww8oL4nXlI4B5L9LZY-KQ,199384
+p2d/typing.py,sha256=IGUkUpACZKiZCixpjCL-cphw2KSqO1MUQAAmq2dIen0,825
+p2d/utils.py,sha256=35HAil-mnQUUvYY4YdeR8Qbc4SF9LYzMLVp5y3lPkf4,1252
+p2d-0.2.3.dist-info/LICENSE,sha256=f2mkZd6hdCnqFzqoCJj-9EHqEjMEgOWeJj-sxhuOCjk,1093
+p2d-0.2.3.dist-info/METADATA,sha256=G7FgPR92kFTFoen388MgrpE2vDNAWS-k6m1NteSDqiQ,9215
+p2d-0.2.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+p2d-0.2.3.dist-info/entry_points.txt,sha256=S2VqNCoVuir1OhiAw-zjLjzyl2lJ2kP2C8fAgxWyZ2k,36
+p2d-0.2.3.dist-info/RECORD,,
