@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+solcast_pvsolar.egg-info/PKG-INFO
+solcast_pvsolar.egg-info/SOURCES.txt
+solcast_pvsolar.egg-info/dependency_links.txt
+solcast_pvsolar.egg-info/top_level.txt
