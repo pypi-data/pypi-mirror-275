@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: SphericalTexture
+Version: 0.0.0
+Summary: Angular projections of 2/3D image objects and subsequent spherical harmonics analysis
+Author: Oane Gros
+Author-email: oane.gros@embl.de
+Requires-Python: >=3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: ducc0
+Requires-Dist: numba
+Requires-Dist: pyshtools (>=4.10)
+Requires-Dist: scikit-image
+Requires-Dist: scipy
+Description-Content-Type: text/markdown
+
+# SphericalTexture
+
+Angular projections of 2/3D image objects and subsequent spherical harmonics analysis
+
