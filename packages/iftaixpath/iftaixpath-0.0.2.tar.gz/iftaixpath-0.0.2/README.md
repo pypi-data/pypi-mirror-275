@@ -1,0 +1,28 @@
+IFT NXOPEN API
+===============
+
+**Beschreibung**
+
+This repository contains an API for the IFT in Siemens NX. The classes in this API use the NXOpen API to get important data from a Siemens NX Session. 
+
+This package was generated for the SurfAlce project, but the functionalities of the different classes can be used 
+in any other project. 
+
+All classes and their methods can be found in the folder `./src/IFT` in the Folder `./scripts`however you can find scripts that can be executed from Siemens NX. 
+
+Before you can use these functionalities, stick to the setup instructions below.
+
+**Setup** 
+
+- [Install Python 3.8](https://www.python.org/) if not already installed and remind the installation directory.
+- Add following system variables to the  `%UGII_BASE_DIR%/UGII/ugii_env.dat` file.
+- `UGII_PYTHON_LIBRARY_DIR = <installation directory>/Python38`
+- `UGII_PYTHONPATH = %UGII_PYTHON_LIBRARY_DIR%;%UGII_PYTHON_LIBRARY_DIR%\DLLs;%UGII_PYTHON_LIBRARY_DIR%\Lib;%UGII_PYTHON_LIBRARY_DIR%\Lib\site-packages;%UGII_BASE_DIR%\nxbin\python`
+- `UGII_CAM_WRITE_MRR = <abitrary directory with writing permisions>`
+- Install the API into the python distribution via pip with the following command `pip install git+https://git.ift.tuwien.ac.at/lab/ift/sis/data-science/nxopen-export.git`
+- Open a Siemens NX CAM-Setup
+- If not already done, enable the Developer tab, by right-click on the blue ribbon at the top of NX and set a tick to "Developer"
+- Press "Play" and search for the `./scripts/nx_data_export.py` file available in the gitlab repository.
+- The script can be executed via the callback-function of a personalized button in the NX Ribbon. 
+
+> NOTE: None of the system variables specified above, expecially `UGII_PYTHONPATH`,  may exceed 256 characters.  
