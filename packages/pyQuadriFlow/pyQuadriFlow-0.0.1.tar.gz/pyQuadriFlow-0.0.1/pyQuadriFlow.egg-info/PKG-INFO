@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyQuadriFlow
+Version: 0.0.1
+Summary: Python QuadriFlow.
+Author: Satabol
+Keywords: quadriflow,quad,remeshing,quadrangulation
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+
+A Python wrapper for the QuadriFlow C++ Library.
