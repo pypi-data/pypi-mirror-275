@@ -1,0 +1,7 @@
+yoli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yoli/main.py,sha256=3Mn7U7NrsckThzes0UyguZvY2tWTnh7SSV-nZBzCS2E,4718
+yoli/weights/yolov10n.pt,sha256=VeFWPVXbCiv4lEbTATHwRiwjpWyHucc6ZML3PLWVk2U,11447983
+yoli-0.0.0.dist-info/METADATA,sha256=4CAfJT3C1xV_UyzXxbthrBUto9bn-ZCsrbXwNLHAcqo,1415
+yoli-0.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+yoli-0.0.0.dist-info/entry_points.txt,sha256=ib-MgGiwvB9m1GVvBG13eAhP-3gCBzGJsYpXl23CJT8,38
+yoli-0.0.0.dist-info/RECORD,,
