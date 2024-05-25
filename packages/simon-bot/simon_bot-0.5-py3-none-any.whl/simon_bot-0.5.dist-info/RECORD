@@ -1,0 +1,12 @@
+project/__init__.py,sha256=wUC3P8Eapc2xTLy-cGcgzzisVmGBzj8hn29dUFKHduo,44
+project/main.py,sha256=Ecey_XajQAXhyVLMHcxGHCcFallecSix6oZzQj0zuGM,6835
+project/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+project/data/address_book_functions.py,sha256=ueQ3S72kleMEv2askEvG0ulBaRUTWy6QDwTwpkRpqTw,13903
+project/data/classes.py,sha256=kUjt4RBPjdnmywvz8znNz57763f2-WppUfhxMj_-5iY,12755
+project/data/global_declarations.py,sha256=v8NYDr2aTwiRpaI0IsfghHRkkKEkRcaBVrExjo07t1o,4161
+project/data/notebook_functions.py,sha256=lz3b0CXhn3IpeY_3qwUGyIjzYoFY-ejoaQ6JuwPie5M,5890
+simon_bot-0.5.dist-info/METADATA,sha256=cR4C8nsbHEmHj2vItei4dUFLMVMHwoV5HtmFpDYVlPs,6794
+simon_bot-0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+simon_bot-0.5.dist-info/entry_points.txt,sha256=veQV16-1QzdIGZzcg07wV3KGL1p1rX_bRmyqnGKo9b0,48
+simon_bot-0.5.dist-info/top_level.txt,sha256=TlF2bnXqjOJKLBaN9-1i4CXAglwTmZ1h474uDQoYzWY,8
+simon_bot-0.5.dist-info/RECORD,,
