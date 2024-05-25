@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pipemake
+Version: 0.7.1
+Summary: Pipemake: A pipeline creation tool using Snakemake
+Home-page: https://github.com/kocherlab/pipemake
+License: MIT
+Project-URL: Documentation, https://pipemake.readthedocs.io/en/latest/
+Project-URL: Code, https://github.com/kocherlab/pipemake
+Project-URL: Issue tracker, https://github.com/kocherlab/pipemake/issues
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: snakemake
+Requires-Dist: pandas
+
+PipeMake
+========
+
+Snakemake-based pipeline platform
