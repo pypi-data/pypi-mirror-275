@@ -1,0 +1,9 @@
+source_babelforce/__init__.py,sha256=0Sm2FDDcrrpDnD-L7ZMGyeTfohhxTo867XlivMkk-Gk,132
+source_babelforce/manifest.yaml,sha256=N656BHBH4g2UgVQABNVWzIhqAeo1YUKFiPnlmR7XO9k,3487
+source_babelforce/run.py,sha256=DWYC4xTGVYcg1fASxIAuzLyHbMsXv2XcUKkddpwwto0,242
+source_babelforce/schemas/calls.json,sha256=tRLzYAnH3Uho_tAPjLs_wGv-jKfvtE7Ga1t62xIN0UQ,3317
+source_babelforce/source.py,sha256=CMGfoDJiNEmw39WSjFiLGXZCZc3rtT3eWO2k47vVhME,479
+airbyte_source_babelforce-0.2.1.dist-info/METADATA,sha256=N2H-GwUwoY0nLQWur6ZAV9ptLd5ttaIoA_J4KJiakxc,5283
+airbyte_source_babelforce-0.2.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_babelforce-0.2.1.dist-info/entry_points.txt,sha256=zKpYi3ubF5gaizoejKECKa5jwVr00X3f2uRCj91kl9w,63
+airbyte_source_babelforce-0.2.1.dist-info/RECORD,,
