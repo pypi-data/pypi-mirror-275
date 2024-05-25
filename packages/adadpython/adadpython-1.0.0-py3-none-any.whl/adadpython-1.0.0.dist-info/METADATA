@@ -1,0 +1,42 @@
+Metadata-Version: 2.3
+Name: adadpython
+Version: 1.0.0
+Summary: A package that contains a Pokémon simulation game.
+Project-URL: Homepage, https://github.com/4ntoined/pokemonpy
+Project-URL: Issues, https://github.com/4ntoined/pokemonpy/issues
+Author: Antoine
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: numpy~=1.26.4
+Description-Content-Type: text/markdown
+
+# Anybody here play Pokémon?
+Just me? That's fine.
+
+## The game:
+
+github.com/4ntoine/pokemonpy
+
+## To play the game:
+
+```
+myterminal$ python3
+python$ import adadpython.pokemon as pk
+python$ game = pk.pokemonpygame()
+python$ game.startgame()
+```
+#### To play with a particular config file:
+
+```
+myterminal$ python3
+python$ import adadpython.pokemon as pk
+python$ cpath = '/configurations/config.txt'
+python$ game = pk.pokemonpygame()
+python$ game.startgame(cpath)
+```
+
+
+
