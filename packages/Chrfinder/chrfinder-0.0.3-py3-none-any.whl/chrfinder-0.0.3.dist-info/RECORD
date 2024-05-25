@@ -1,0 +1,10 @@
+Chrfinder/Chrfinder.py,sha256=Ak2NH6MwDYgq93ndarbqOkSOXNXBTvjiQpc3vcbI2gw,14106
+Chrfinder/__init__.py,sha256=MKpkyMfBH5xqfi1sKBIl7K_LI2M2bCZK4oEKBh9QFQU,624
+Chrfinder/classify.py,sha256=DSxO5sWWXOXft9U33mY9YpOIwnS7jfTUKykvQ3JX1CI,2123
+Chrfinder/pka_lookup.py,sha256=FGRHElKBDfxBbN2c1QM-cQsAqldmzmTUK_Sh02e4Is4,10403
+Chrfinder/pubchemprops.py,sha256=KBzu4fNKo6iqyQphRsQiWkCo26NSGg_wNvXFmopi3RE,8903
+Chrfinder/search_pka.py,sha256=1ZLMmWaaqKhcnAKCUF5j16zls6T9hzIqD-jz0Ljkuy0,6830
+chrfinder-0.0.3.dist-info/METADATA,sha256=BbAmAWNVIjKemjXAO3KNPPxuTYdz0ZOvfZU2GIweOD8,7872
+chrfinder-0.0.3.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+chrfinder-0.0.3.dist-info/licenses/LICENSE,sha256=64MAc931wmm9M4GGtzpCywUbNuNqm1h-8p4AtIgqGNk,1109
+chrfinder-0.0.3.dist-info/RECORD,,
