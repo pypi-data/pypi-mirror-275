@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: simplelogincmd
+Version: 0.1.0
+Summary: SimpleLogin command-line application
+License: MIT
+Author: truthless-dev
+Author-email: truthless.deviant248@simplelogin.fr
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: requests (>=2.32.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# SimpleLogin-CLI
+
+A command-line tool for using [SimpleLogin][1]
+
+## Documentation
+
+Documentation of application usage as well as of the code is available
+[here][2].
+
+[1]: https://simplelogin.io/
+[2]: https://simplelogincmd.readthedocs.io/
+
