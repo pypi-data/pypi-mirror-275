@@ -1,0 +1,6 @@
+README.md
+setup.py
+sleep_detection_app.egg-info/PKG-INFO
+sleep_detection_app.egg-info/SOURCES.txt
+sleep_detection_app.egg-info/dependency_links.txt
+sleep_detection_app.egg-info/top_level.txt
