@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+MusicSeparationYT.egg-info/PKG-INFO
+MusicSeparationYT.egg-info/SOURCES.txt
+MusicSeparationYT.egg-info/dependency_links.txt
+MusicSeparationYT.egg-info/requires.txt
+MusicSeparationYT.egg-info/top_level.txt
