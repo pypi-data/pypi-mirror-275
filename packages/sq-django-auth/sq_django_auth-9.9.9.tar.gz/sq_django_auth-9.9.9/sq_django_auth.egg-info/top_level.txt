@@ -1,0 +1,15 @@
+cash-sameface
+cash-search-openai
+sq-mml-modeling
+sq-nfc-fixture
+sq-prefect-utils
+sq-protos-py
+sq_django_auth
+sq_seller_360
+sqprefect-contrib-cds
+sqprefect-contrib-mlflow
+sqprefect-tasks-dws
+sqtest-esw-functional
+sqtest-qs-payment
+squid-emulator
+squid-rest-api-mocks
