@@ -1,0 +1,16 @@
+NOTICE,sha256=xg2xLrx5McX-T5WM3h-SZ7cG2Yp-6okkfBf0fteCrj8,108
+pgmerge/__init__.py,sha256=jnDup8SFIrIf30Lna3CvgJ-Wke_YaC4AixhSGC3RjZQ,145
+pgmerge/db_config.py,sha256=lhboo-ZdQpg7r-YjxnE7syG46U5-V1VdLQhDGdiKMsU,9933
+pgmerge/db_export.py,sha256=wC51Mlo3FmY0DXZEfKvREc-6XBHprvRyfAXSxG8i3Oc,11691
+pgmerge/db_graph.py,sha256=3SN1pXLOpl4iH6sIoI2xiFyrIo-rdPdt1R-2w9Jdbg8,4878
+pgmerge/db_import.py,sha256=cNqB3MpReN-51JRtqF7EVq-8J7PWL9-Ac-YTuWpTD8s,19048
+pgmerge/db_inspect.py,sha256=V9alHLx4H0KmYpWcnyHCXc831z2sE4txOpy3iJjNbqg,7574
+pgmerge/pg_pass.py,sha256=KQNEwyphZbnBZz2rjunD7EGWCRKj6mUv1J80TSeydHk,2942
+pgmerge/pgmerge.py,sha256=mCePMsPJmlJfMIUScJGPkC-MlPS4VyDq6KLTMlvqE3o,25965
+pgmerge/tables_config_schema.yml,sha256=1H_8E6gDnauqYctdJI4d_64VFhLjO9H18vCGJmG5LAE,2411
+pgmerge/utils.py,sha256=fDSOboZ42s-a_uj07pe83aZmF8_aktRbbhvQVvcBO_o,3373
+pgmerge-1.12.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+pgmerge-1.12.0.dist-info/METADATA,sha256=dK0xONTvPv7k9mZ95BSyQq94NPFAUgF_L0bkHDyjMYk,5868
+pgmerge-1.12.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pgmerge-1.12.0.dist-info/entry_points.txt,sha256=8GK-WE3kL7E2MRy4Vsu5Tv3A9GQT1GwGb9Z6j5noE9M,51
+pgmerge-1.12.0.dist-info/RECORD,,
