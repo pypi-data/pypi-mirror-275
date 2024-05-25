@@ -1,0 +1,10 @@
+autosink_data_preparation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autosink_data_preparation/path/autosink.py,sha256=biZY85qVxCfDZR18bopeH1tbo_1xr1P9Sq4VJCy_nlI,2108
+autosink_data_preparation/path/backends.py,sha256=suPVXw3HqKfJyS-xBdDMmH6I_sdraCCRG_eMiLR55p4,169
+autosink_data_preparation/path/base.py,sha256=Nwnjyh1EbYnFHPivPU9ObdFVajPTMqbGgsVhMF-8jLA,1201
+autosink_data_preparation/subpackage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autosink_data_preparation/subpackage/hello.py,sha256=-rd0vEYpfbEuZ73QkdlVPzkleO9v7BO6uDvxbOiQZCY,112
+autosink_data_preparation/subpackage/test_hello.py,sha256=TYonCLCet9cI3KOVg2ovJ8NF9l6HBx9RJewex6t_w_4,292
+autosink_data_preparation-0.3.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+autosink_data_preparation-0.3.1.dist-info/METADATA,sha256=WWDqnt606eUgFUA_ZzmxuVR6XqOirYRPM-8ETmtU_X8,462
+autosink_data_preparation-0.3.1.dist-info/RECORD,,
