@@ -1,0 +1,11 @@
+apiverve_colorpalettegenerator/__init__.py,sha256=IO8IdpNcjnGUxCYdoaujH_088PU2I7259Y-FI__avbI,44
+apiverve_colorpalettegenerator/apiClient.py,sha256=nmv1I6jpJpUFBqaRUEoOtfGbBzsuLeI-vsA9LPIBTtQ,1218
+apiverve_colorpalettegenerator/exceptions.py,sha256=0Q_qWafJjEXXoVkuY20zxEduN9dG12cawljqwmClzYo,116
+apiverve_colorpalettegenerator/setup.py,sha256=FlIR6tTcUHZkALyMniDm1PQji_BpQl05S2rOLFY2C6A,623
+apiverve_colorpalettegenerator/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_colorpalettegenerator/tests/test_api.py,sha256=9Dg0zDtqHYcLbRJfkLgJHrAv6Nk_y-YqbWNEt6QF8us,629
+apiverve_colorpalettegenerator-1.0.11.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_colorpalettegenerator-1.0.11.dist-info/METADATA,sha256=ezHs1DVYVA5ew5-CpR2G4EgN0bbNxTDiNbW6htyAvWQ,6389
+apiverve_colorpalettegenerator-1.0.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apiverve_colorpalettegenerator-1.0.11.dist-info/top_level.txt,sha256=n2okP1cPUSdamRQA7ns56FuxaEj0b6ca8qvjZZDuR2k,31
+apiverve_colorpalettegenerator-1.0.11.dist-info/RECORD,,
