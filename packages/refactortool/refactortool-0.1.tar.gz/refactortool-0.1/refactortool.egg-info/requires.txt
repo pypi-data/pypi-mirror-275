@@ -1,0 +1,6 @@
+autopep8
+pylint
+black
+isort
+flake8
+pytest
