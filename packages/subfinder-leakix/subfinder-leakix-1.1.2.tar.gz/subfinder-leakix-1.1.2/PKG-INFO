@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: subfinder-leakix
+Version: 1.1.2
+Home-page: https://github.com/Jhonsonwannaa/subfinder-by-leakix
+Author: Jhonson12
+Author-email: wannaajhonson@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Cet outil permet d'extraire les sous-domaines d'un domaine donné. Un sous-domaine est une partie d'un nom de domaine qui se trouve avant le domaine principal. Par exemple, dans le nom de domaine "www.example.com", "www" est un sous-domain

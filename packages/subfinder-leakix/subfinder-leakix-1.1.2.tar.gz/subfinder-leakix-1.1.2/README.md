@@ -1,0 +1,1 @@
+Cet outil permet d'extraire les sous-domaines d'un domaine donné. Un sous-domaine est une partie d'un nom de domaine qui se trouve avant le domaine principal. Par exemple, dans le nom de domaine "www.example.com", "www" est un sous-domain
