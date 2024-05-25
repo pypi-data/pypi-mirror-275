@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: neginver
+Version: 0.0.1
+Summary: A Python project for automatic Negative Film inversion
+Home-page: https://github.com/Flemyng1999/neginver
+Author: flemyng feng
+Author-email: flemyng1999@outlook.com
+Keywords: python,negative,film,windows,mac,linux
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# neginver
+A Python project for automatic Negative Film inversion (color negative film and B+W film).
