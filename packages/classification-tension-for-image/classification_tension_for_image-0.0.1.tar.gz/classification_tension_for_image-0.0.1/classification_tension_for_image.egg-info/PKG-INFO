@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: classification_tension_for_image
+Version: 0.0.1
+Summary: 一言で書けるパッケージ概要
+Keywords: feeling,person face images,classification
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Communications :: Chat
+License-File: LICENSE
+Requires-Dist: packageA
+Requires-Dist: packageB
+
+
+    複数行にわたるパッケージの詳細説明
+    
