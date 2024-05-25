@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sec-form-d"
+version = "0.1.0"
+description = "A package to parse and extract all fields and checkboxes from SEC Form D filings."
+authors = ["galactixx"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.12.3"
+charset-normalizer = "^3.3.2"
+pydantic = "^2.7.1"
+rich = "^13.7.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

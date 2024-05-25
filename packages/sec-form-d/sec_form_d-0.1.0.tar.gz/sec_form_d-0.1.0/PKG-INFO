@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sec-form-d
+Version: 0.1.0
+Summary: A package to parse and extract all fields and checkboxes from SEC Form D filings.
+License: MIT
+Author: galactixx
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beautifulsoup4 (>=4.12.3,<5.0.0)
+Requires-Dist: charset-normalizer (>=3.3.2,<4.0.0)
+Requires-Dist: pydantic (>=2.7.1,<3.0.0)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Description-Content-Type: text/markdown
+
+# sec-form-d
+A package to parse and extract all fields and checkboxes from SEC Form D filings.
+
