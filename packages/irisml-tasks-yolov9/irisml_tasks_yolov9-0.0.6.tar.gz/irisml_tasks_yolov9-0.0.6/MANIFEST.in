@@ -1,0 +1,1 @@
+include irisml/tasks/create_yolov9_detection_model/resources/*.yaml
