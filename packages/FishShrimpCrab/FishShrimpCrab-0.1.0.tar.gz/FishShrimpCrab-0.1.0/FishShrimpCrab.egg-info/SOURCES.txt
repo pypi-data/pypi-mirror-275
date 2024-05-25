@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+FishShrimpCrab.egg-info/PKG-INFO
+FishShrimpCrab.egg-info/SOURCES.txt
+FishShrimpCrab.egg-info/dependency_links.txt
+FishShrimpCrab.egg-info/top_level.txt
+project/__init__.py
+project/fishhacrap.py
