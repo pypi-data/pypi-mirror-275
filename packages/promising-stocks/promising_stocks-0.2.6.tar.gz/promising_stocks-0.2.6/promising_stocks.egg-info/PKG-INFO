@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: promising-stocks
+Version: 0.2.6
+Summary: A brief description of your package
+Home-page: https://github.com/ryotatakasaki226/pr_st.git
+Author: ryotatakasaki226
+Author-email: s2222022@stu.musashino-u.ac.jp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a package that buys stock prices.
