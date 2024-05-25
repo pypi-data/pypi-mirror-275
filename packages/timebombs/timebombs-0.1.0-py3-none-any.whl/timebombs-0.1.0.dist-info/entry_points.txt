@@ -1,0 +1,3 @@
+[console_scripts]
+timebombs=timebombs:__main__
+
