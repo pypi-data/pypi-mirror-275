@@ -1,0 +1,7 @@
+*.cpython*
+*.pyc
+*.coverage
+dist/
+*.xml
+*.png
+*.pdf
