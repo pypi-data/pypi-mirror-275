@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: simple_genetic_package
+Version: 0.0.1
+Summary: A simple package to learn about genetic algorithm and also how to publish python projects
+Author-email: Mahbod Ghadiri Sani <m.ghadirisani2013@gmail.com>, Mehrdad Aramesh <mehrdad.aramesh2002@gmail.com>, Mohammad Jamkarani <stmsmj@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: numpy
+Description-Content-Type: text/markdown
+
+A package for implementing genetic algorithm.
