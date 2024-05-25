@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Jenkins-Transfers-Testing
+Version: 0.0.1
+Summary: Transfers Job b/w Jenkins Servers with relevant Views & Plugins
+Author-email: Joel Thomas Chacko <joeltc071@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-jenkins==1.8.2
+Requires-Dist: lxml==5.1.0
+
+This is supposed to contain more detail regarding to Context-Aware Jenkins Sending...
