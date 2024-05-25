@@ -1,0 +1,15 @@
+refactortool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+refactortool/__main__.py,sha256=WAxeo7Ygf9p3ExUz0jHRRoCMEkwy0T-7QGzDs4K6x6Y,925
+refactortool/analyzer.py,sha256=cWnFKuLt7FMSHA-2eUprhypMmR5fDOkOW5pr3PJKzFc,973
+refactortool/refactor.py,sha256=FGlRO7jfhdrEFxnFdHstdOY5pNyOBg2x6EFrRZb-8jA,659
+refactortool/utils.py,sha256=BX9cgFa8VCqWTaKSGeozugxB3Yp4TMI8PBAGDuf1cSc,185
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_analyzer.py,sha256=PmvMOq-N-x8pctGwQtNURKhxqPdZFygZz9MCswCbidk,347
+tests/test_refactor.py,sha256=9EWRyfWyitZl_Am8xqQyy4mFqap4kImuirvK2LPOP4Q,242
+tests/test_utils.py,sha256=wlfr7-RVFbwWy5Dw8x_pvajGgo_hc38Mk_gIC-Dq7dE,136
+refactortool-0.1.dist-info/LICENCE,sha256=seTmOyOihEtSq9LCp_ffvHLuxgEcmRucTNkzrIoAZWU,42
+refactortool-0.1.dist-info/METADATA,sha256=TVWyjtAF2LdxJ6srlwUjUGqOviYY0At-Er5FDQXmb-o,948
+refactortool-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+refactortool-0.1.dist-info/entry_points.txt,sha256=iWNM-5c5pbWzjdXkEWEW33TC8RkfYlYjViuumb3_1a0,51
+refactortool-0.1.dist-info/top_level.txt,sha256=7IOY3l0Whe53VbyvRBJDiD-FTVZL1rA3D5lKOrT0JbQ,19
+refactortool-0.1.dist-info/RECORD,,
