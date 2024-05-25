@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: asap7-hdl21
+Version: 7.0.0.dev0
+Summary: ASAP7 PDK Package for Hdl21
+Keywords: PDK,EDA,analog,circuit
+Author: Thomas Pluck
+Author-email: Dan Fritchman <dan@fritch.mn>, Curtis Mayberry <Curtisma3@gmail.com>
+Maintainer-email: Dan Fritchman <dan@fritch.mn>
+Requires-Python: >=3.7, <3.13
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)
+Requires-Dist: hdl21>=7.0.0.dev0,<7
+Requires-Dist: pytest==7.1 ; extra == "dev"
+Requires-Dist: coverage ; extra == "dev"
+Requires-Dist: pytest-cov ; extra == "dev"
+Requires-Dist: pre-commit==2.20 ; extra == "dev"
+Requires-Dist: black==22.6 ; extra == "dev"
+Requires-Dist: flit ; extra == "dev"
+Project-URL: Bug Tracker, https://github.com/dan-fritchman/Hdl21/issues
+Project-URL: Documentation, https://github.com/dan-fritchman/Hdl21/blob/main/pdks/Asap7/readme.md
+Project-URL: Homepage, https://github.com/dan-fritchman/Hdl21
+Project-URL: Repository, https://github.com/dan-fritchman/Hdl21
+Provides-Extra: dev
+
+
+# ASAP7 Hdl21 PDK
+
