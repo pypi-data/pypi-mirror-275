@@ -1,0 +1,7 @@
+# Rag-Debugger app dependencies
+fastapi==0.110.1
+jinja2 # For serving client index.html in fastapi
+uvicorn
+lastmile_utils
+email_validator==2.1.1 # fastapi impliclty requires this
+python-aiconfig
