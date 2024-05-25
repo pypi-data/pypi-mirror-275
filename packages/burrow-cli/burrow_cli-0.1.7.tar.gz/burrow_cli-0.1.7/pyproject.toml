@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "burrow-cli"
+version = "0.1.7"
+description = "Burrow command line app, you can launch a fractional GPU contaienr with this app, and share a link of the container to your friends, you and your friends can work colloratively together"
+authors = ["Vurtne Saerdna <vurtnesaerdna@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+burrow = "burrow_cli.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.9.0"
+typer = {extras = ["all"], version = "^0.12.3"}
+docker = "^7.0.0"
+requests = "2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
