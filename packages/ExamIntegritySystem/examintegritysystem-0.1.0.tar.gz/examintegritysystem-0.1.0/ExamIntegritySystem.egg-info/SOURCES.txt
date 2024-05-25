@@ -1,0 +1,6 @@
+README.md
+setup.py
+ExamIntegritySystem.egg-info/PKG-INFO
+ExamIntegritySystem.egg-info/SOURCES.txt
+ExamIntegritySystem.egg-info/dependency_links.txt
+ExamIntegritySystem.egg-info/top_level.txt
