@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: danieldemo
+Version: 0.0.0.1
+Summary: Simple demo package
+Home-page: https://google.com
+Author: Daniel
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Welcome
+
+This is my demo module!
+
+

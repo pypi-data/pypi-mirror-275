@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+danieldemo.egg-info/PKG-INFO
+danieldemo.egg-info/SOURCES.txt
+danieldemo.egg-info/dependency_links.txt
+danieldemo.egg-info/top_level.txt
+demo/__init__.py
+demo/__main__.py
+demo/add.py
+demo/demo.py
+demo/multiply.py
