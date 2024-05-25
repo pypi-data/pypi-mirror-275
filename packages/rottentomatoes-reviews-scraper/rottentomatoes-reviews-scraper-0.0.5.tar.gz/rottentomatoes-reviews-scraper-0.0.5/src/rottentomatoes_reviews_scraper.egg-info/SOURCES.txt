@@ -1,0 +1,16 @@
+README.md
+setup.py
+src/rottentomatoes-reviews-scraper/__init__.py
+src/rottentomatoes-reviews-scraper/click_button.py
+src/rottentomatoes-reviews-scraper/csv_handler.py
+src/rottentomatoes-reviews-scraper/main.py
+src/rottentomatoes-reviews-scraper/maker.py
+src/rottentomatoes-reviews-scraper/reviews_scraper.py
+src/rottentomatoes-reviews-scraper/titles_scraper.py
+src/rottentomatoes-reviews-scraper/webdriver_manger_driver.py
+src/rottentomatoes_reviews_scraper.egg-info/PKG-INFO
+src/rottentomatoes_reviews_scraper.egg-info/SOURCES.txt
+src/rottentomatoes_reviews_scraper.egg-info/dependency_links.txt
+src/rottentomatoes_reviews_scraper.egg-info/entry_points.txt
+src/rottentomatoes_reviews_scraper.egg-info/requires.txt
+src/rottentomatoes_reviews_scraper.egg-info/top_level.txt
