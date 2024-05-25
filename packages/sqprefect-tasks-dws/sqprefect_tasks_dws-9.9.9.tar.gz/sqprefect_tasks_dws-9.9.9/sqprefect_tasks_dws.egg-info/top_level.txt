@@ -1,0 +1,9 @@
+cash-sameface
+cash-search-openai
+sq-mml-modeling
+sq-prefect-utils
+sq-protos-py
+sqprefect-contrib-cds
+sqprefect-contrib-mlflow
+sqprefect-tasks-dws
+sqtest-qs-payment
