@@ -1,0 +1,14 @@
+weld_deps/__init__.py,sha256=5dTUdErB8R5JkYdZqrKWOoXZe91u50nDkfQbZRBClTY,31
+weld_deps/dep.py,sha256=xBem1J5rBk78ZzVMaPSaocxcSxizSEbQJr9fb7pjC-k,6076
+weld_deps/examples/pack1/beet.yaml,sha256=MFNH2j8WzZpIenVZ0EzXLyINpr3pdpT1k_Baq9E-OXY,267
+weld_deps/examples/pack1/src/data/pack1/functions/test.mcfunction,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+weld_deps/examples/pack_no_versions/beet.yaml,sha256=-WZijB0FrgoufIYuZ8LwdN-4fwRwMw1w89BYjwuyhh8,261
+weld_deps/examples/pack_no_versions/src/data/pack_not_found/functions/test.mcfunction,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+weld_deps/examples/pack_not_found/beet.yaml,sha256=bMLEPG9daKCfAOooY4dG_RnLkaQzr19oIpFB4NGoTKE,262
+weld_deps/examples/pack_not_found/src/data/pack_not_found/functions/test.mcfunction,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+weld_deps/main.py,sha256=xKj4cTaT2z5ufhrCxfE6IbEnr8BoyQWfChuPXECiG0E,1858
+weld_deps/utils.py,sha256=Dh_P5QFjx2JTn04JqOLT36L8TLMgKAzvX-Hrozp5T50,5124
+weld_deps-0.7.1.dist-info/LICENSE,sha256=98DjlCmFxq1ChF8eO6sDQpDgdcM0YaVLHKJoIPc4TuY,1067
+weld_deps-0.7.1.dist-info/METADATA,sha256=WOtrqo0Q1H19M6aTn7flPP30X9p8wWGdsRJVtU4xGok,508
+weld_deps-0.7.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+weld_deps-0.7.1.dist-info/RECORD,,
