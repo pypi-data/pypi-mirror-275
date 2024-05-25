@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: comment_scanner
+Version: 0.1
+Summary: Parse comments from various source code files
+Author: Faiz Alam
+Author-email: mohdfaizalam53@gmail.com
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
