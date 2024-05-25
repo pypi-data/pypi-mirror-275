@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: MUSIC_RECOMMENDATION
+Version: 0.1.0
+Summary: A music recommendation system
+Home-page: https://github.com/sayamiyaji/MUSIC_RECOMMENDATION.git
+Author: SayaMiyaji
+Author-email: s2222072@stu.musashino-u.ac.jp
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# MUSIC_RECOMMENDATION
+
+A music recommendation system using Spotify's API and cosine similarity to suggest songs based on a user's chosen track.
+
+## Features
+
+- Fetches top 50 tracks from Spotify Japan Weekly Ranking
+- Analyzes track features such as danceability, energy, loudness, etc.
+- Recommends similar tracks based on cosine similarity
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/sayamiyaji/MUSIC_RECOMMENDATION.git
+    cd MUSIC_RECOMMENDATION
+    ```
+
+2. Create a virtual environment and activate it:
+    ```bash
+    python -m venv music
+    source music/bin/activate
+    ```
+
+3. Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Set up your Spotify API credentials:
+   - Create an application on the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications)
+   - Obtain your `client_id` and `client_secret`
+
+2. Export your Spotify API credentials:
+    ```bash
+    export SPOTIPY_CLIENT_ID='your_client_id'
+    export SPOTIPY_CLIENT_SECRET='your_client_secret'
+    export SPOTIPY_REDIRECT_URI='http://localhost:8080'
+    ```
+
+3. Run the web application:
+    ```bash
+    python -m your_project.app
+    ```
+
+4. Open your web browser and go to `http://localhost:5000`
+
+## Project Structure
+
+music-recommendation/
+├── data/               # データ保存用
+├── notebooks/          # Jupyter Notebooks用
+├── src/                # ソースコード
+│   ├── __init__.py
+│   └── recommender.py
+├── requirements.txt    # 必要なパッケージリスト
+└── README.md           # プロジェクト説明
+
+## Contributing
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-foo`)
+3. Commit your changes (`git commit -am 'Add some foo'`)
+4. Push to the branch (`git push origin feature-foo`)
+5. Create a new Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [Spotipy](https://spotipy.readthedocs.io/) - A lightweight Python library for the Spotify Web API
+- [Flask](https://flask.palletsprojects.com/) - A micro web framework written in Python
+
+

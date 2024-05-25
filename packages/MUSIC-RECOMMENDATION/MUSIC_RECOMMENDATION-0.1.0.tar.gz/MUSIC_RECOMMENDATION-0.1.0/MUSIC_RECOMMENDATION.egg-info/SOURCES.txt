@@ -1,0 +1,12 @@
+README.md
+setup.py
+MUSIC_RECOMMENDATION.egg-info/PKG-INFO
+MUSIC_RECOMMENDATION.egg-info/SOURCES.txt
+MUSIC_RECOMMENDATION.egg-info/dependency_links.txt
+MUSIC_RECOMMENDATION.egg-info/entry_points.txt
+MUSIC_RECOMMENDATION.egg-info/requires.txt
+MUSIC_RECOMMENDATION.egg-info/top_level.txt
+src/__init__.py
+src/add_track_details.py
+src/music_recommend.py
+src/spotify_data.py
