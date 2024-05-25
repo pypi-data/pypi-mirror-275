@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: common-databases
+Version: 0.1.0
+Summary: Default template for PDM package
+Author-Email: mingnh <minh.ncm.201@gmail.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: pydantic-settings>=2.2.1
+Requires-Dist: elasticsearch[async]>=8.13.1; extra == "elastic"
+Requires-Dist: sqlalchemy[asyncio]>=2.0.30; extra == "postgres"
+Requires-Dist: psycopg2-binary>=2.9.9; extra == "postgres"
+Provides-Extra: elastic
+Provides-Extra: postgres
+Description-Content-Type: text/markdown
+
+# common-databases
