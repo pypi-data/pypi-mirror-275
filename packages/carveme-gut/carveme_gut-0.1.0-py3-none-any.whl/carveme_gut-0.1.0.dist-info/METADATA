@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: carveme-gut
+Version: 0.1.0
+Summary: CarveMe-Gut: Automated Metabolic Model Reconstruction for Gut Microbial Species and Communities
+Author: Arianna Basile
+Author-email: basilearianna1@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: cobra (>=0.29.0,<0.30.0)
+Requires-Dist: diamond (>=4.0.515,<5.0.0)
+Requires-Dist: reframed (>=1.5.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+
