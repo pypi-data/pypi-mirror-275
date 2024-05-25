@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "YandexHome"
+version = "0.1.26"
+authors = [
+  { name="ArtyomK"},
+]
+description = "Yandex Умный Home"
+requires-python = ">=3.10"
+dependencies = [
+  'aiohttp',
+  'flask[async]',
+  'asyncio'
+]
