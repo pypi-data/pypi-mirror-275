@@ -1,0 +1,57 @@
+[project]
+name = "test_autochem"
+version = "0.1.0"
+description = "Add a short description here"
+authors = [{ name = "Jermiah Joseph", email = "jermiahjoseph98@gmail.com" }]
+requires-python = ">= 3.11"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pixi.project]
+channels = ["conda-forge"]
+platforms = ["osx-arm64", "osx-64"]
+
+[tool.pixi.pypi-dependencies]
+autochem = { path = ".", editable = true }
+
+# automol = { path = "./src/automol", editable = true }
+# autoreact = { path = "./src/autoreact", editable = true }
+# molsym = { path = "./src/molsym", editable = true }
+# phydat = { path = "./src/phydat", editable = true }
+
+[tool.pixi.tasks]
+
+
+[tool.pixi.environments]
+
+publish = { features = ["build"], solve-group = "default", no-default-feature = true }
+#################################### RELEASE & BUILD ###############################################
+
+[tool.pixi.feature.build.dependencies]
+hatch = "*"
+
+[tool.pixi.feature.build.tasks]
+# Builds the package and publishes it to the test.pypi.org repository
+build = { cmd = "hatch build --clean", inputs = [
+  "src",
+  "config/hatch.toml",
+], outputs = [
+  "dist/*",
+], env = { HATCH_CONFIG = "./hatch.toml" } }
+
+publish-pypi = { cmd = "hatch publish --yes --repo main", inputs = [
+  "dist/*",
+  "config/hatch.toml",
+], depends-on = [
+  "build",
+], env = { HATCH_CONFIG = "./hatch.toml" } }
+
+publish-test = { cmd = "hatch publish --yes --repo test", inputs = [
+  "dist/*",
+  "config/hatch.toml",
+], depends-on = [
+  "build",
+], env = { HATCH_CONFIG = "./hatch.toml" } }
