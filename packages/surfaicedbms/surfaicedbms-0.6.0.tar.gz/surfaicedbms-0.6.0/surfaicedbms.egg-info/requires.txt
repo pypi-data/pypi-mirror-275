@@ -1,0 +1,15 @@
+ift-dbms>=0.0.1
+numpy
+pandas
+logging
+shutil
+datetime
+fpdf
+matplotlib
+csv
+time
+pymongo
+gridfs
+psycop2
+yaml
+gzip
