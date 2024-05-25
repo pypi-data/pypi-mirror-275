@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+torch_timeseries.egg-info/PKG-INFO
+torch_timeseries.egg-info/SOURCES.txt
+torch_timeseries.egg-info/dependency_links.txt
+torch_timeseries.egg-info/requires.txt
+torch_timeseries.egg-info/top_level.txt
