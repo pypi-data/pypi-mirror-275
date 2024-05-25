@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "promptgen"
+version = "0.0.2"
+description = "Python Parser to generate lists of prompts from a line of script(s)"
+readme = "README.md"
+authors = [{ name = "Tony Beeman", email = "beeman@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License (GPL)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["parser"]
+requires-python = ">=3.10"
+dependencies = [
+    "ply >= 3.11",
+]
+
+[project.urls]
+Homepage = "https://github.com/tinybeeman/promptgen"
+
+[tool.setuptools.packages.find]
+include = ["promptgen"]
+namespaces = false
+
