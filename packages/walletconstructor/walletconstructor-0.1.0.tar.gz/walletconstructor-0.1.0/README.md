@@ -1,0 +1,64 @@
+
+# Wallet Constructor
+
+## Importer le Module
+
+Pour utiliser le module `walletconstructor`, importez-le comme suit :
+
+```python
+import walletconstructor as wc
+```
+
+## Initialisation du Wallet
+
+Vous pouvez initialiser le wallet de deux façons :
+
+### 1. Importer la Clé Privée
+
+```python
+kwargs = {'private_key': "your_private_key"}
+wallet = wc.get_wallet(**kwargs)
+```
+
+### 2. Création par Nom et Mot de Passe
+
+```python
+kwargs = {'name': 'your_name', 'password': 'your_password'}
+wallet = wc.get_wallet(**kwargs)
+```
+
+**ATTENTION** : La création par nom et mot de passe peut également servir de connexion. Si le nom existe déjà, il se connectera au compte existant. Il y a une base de données nommée `.key_database` dans le dossier `walletconstructor` du module pour gérer ces informations.
+
+## Classe Principale
+
+### Sécurité
+
+Importez et initialisez la classe `Security` :
+
+```python
+from walletconstructor.security.security import Security
+
+security = Security(**kwargs)
+```
+
+### Wallet
+
+Importez et initialisez la classe `Wallet` en utilisant l'objet `Security` :
+
+```python
+from walletconstructor.wallet.wallet import Wallet
+
+wallet = Wallet(security)
+```
+
+## Licence
+
+Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
+
+## Auteur
+
+- **kikakop** - *Initial work* - [kikakop](https://gitlab.com/kikakopjunior)
+
+## Remerciements
+
+- Remerciements spéciaux à tous ceux qui ont contribué à ce projet.
