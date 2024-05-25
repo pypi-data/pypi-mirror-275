@@ -1,0 +1,9 @@
+logyca_azure_storage_blob/__init__.py,sha256=ljfIV2-1bjLAPK1VuO6edd38bzl1AeRw9ulHkLIZfBA,270
+logyca_azure_storage_blob/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logyca_azure_storage_blob/utils/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logyca_azure_storage_blob/utils/helpers/azure_storage_account_blob_management.py,sha256=Aj35Hp637E5YT59Teyw7KVrI_gMoloUZ83i-G3s4lUo,42586
+logyca_azure_storage_blob-0.0.1rc4.dist-info/LICENSE.txt,sha256=qcoSPZWqFGZj-EtMnDNvzoOKhD3E-3uH7iS7d8zeVFE,1092
+logyca_azure_storage_blob-0.0.1rc4.dist-info/METADATA,sha256=1AxVRVi5iFbGABA-s9kn_d5XlQbDn5Mwi1jcM0vxn_0,8574
+logyca_azure_storage_blob-0.0.1rc4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+logyca_azure_storage_blob-0.0.1rc4.dist-info/top_level.txt,sha256=Kt-i6MHV7M4PjaAUS2TDdziLLIHy_K4KB9rKsPF1frU,26
+logyca_azure_storage_blob-0.0.1rc4.dist-info/RECORD,,
