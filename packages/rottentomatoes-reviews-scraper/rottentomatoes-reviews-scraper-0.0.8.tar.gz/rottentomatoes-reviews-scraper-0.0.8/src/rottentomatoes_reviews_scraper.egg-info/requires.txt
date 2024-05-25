@@ -1,0 +1,4 @@
+requests
+beautifulsoup4
+pandas
+selenium==4.9.0
