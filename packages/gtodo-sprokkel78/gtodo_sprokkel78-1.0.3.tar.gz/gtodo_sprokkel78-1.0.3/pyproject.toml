@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gtodo_sprokkel78"
+version = "1.0.3"
+authors = [
+  { name="Sprokkel78", email="sprokkel78.bart@gmail.com" },
+]
+description = "A graphical user interface in PyGTK4 for performing TODO list items on Ubuntu and other Linux distro's."
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+]
+requires-python = ">=3.10"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gtodo_sprokkel78"]
