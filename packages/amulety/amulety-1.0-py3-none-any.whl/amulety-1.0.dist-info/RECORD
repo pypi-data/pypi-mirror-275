@@ -1,0 +1,12 @@
+amulety/__init__.py,sha256=leulBgQVVuCsj7yk8rXqoRyI4R0ON-98GHgjOgbfoOo,138
+amulety/amulety.py,sha256=vvpeYAj6nYkb86tcke-SzfzRUP-FG2i17tD3l-Q7UxQ,20732
+amulety/utils.py,sha256=anPJynf7iyzgnMEkcZpX7ocJYgRVV3_arZ5CvgdS-w4,7508
+tests/__init__.py,sha256=CmdFa1-0bI5DLPyRJlBBIHbE8AKY7tUsrzW7n3489fY,36
+tests/conftest.py,sha256=8Is7slDWbHeALvAuUBccTbtlF9bF-zA5_Mno5XEURIg,640
+tests/test_amulety.py,sha256=dr4n4pU-z4ojecsBmf87xOAX-21jGiUoVCvHo1YzroY,10566
+amulety-1.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+amulety-1.0.dist-info/METADATA,sha256=Kdtor0045kcR444eAdlbNwEMVjylLCzOJXKEReOMm6E,2413
+amulety-1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+amulety-1.0.dist-info/entry_points.txt,sha256=_ec2k9AIfSh_qQD91yZomxVXwb5wYKc6-5bRelLMlY4,49
+amulety-1.0.dist-info/top_level.txt,sha256=cyLlgIsSVhjgdafiJb22YcWRmpz_3ZHFqwNaglKlGWE,14
+amulety-1.0.dist-info/RECORD,,
