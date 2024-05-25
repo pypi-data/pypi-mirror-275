@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+unprint/unprint.egg-info/PKG-INFO
+unprint/unprint.egg-info/SOURCES.txt
+unprint/unprint.egg-info/dependency_links.txt
+unprint/unprint.egg-info/top_level.txt
