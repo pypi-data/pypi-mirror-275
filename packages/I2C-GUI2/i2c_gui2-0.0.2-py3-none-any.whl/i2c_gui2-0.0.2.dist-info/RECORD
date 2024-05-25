@@ -1,0 +1,10 @@
+i2c_gui2/__init__.py,sha256=vVWPzdKaE1udEj1noQ5iG8XjaOKPdiw01wC5WvE95KY,1237
+i2c_gui2/etroc1_gui.py,sha256=7qA9svb0Raak9N75Mann-uR1Lx1KrA-1a3IxM5qZec4,1679
+i2c_gui2/etroc2_gui.py,sha256=Vpe2yvbctmEO7uNZYUWpqbnMg0EWpufze0ahXvGpa_8,1679
+i2c_gui2/i2c_messages.py,sha256=JWkdGJOSMx1bgiIzIEoe4DjrEEzahQ53b1oe766-sXI,2414
+i2c_gui2-0.0.2.dist-info/METADATA,sha256=1H3CjNFATu2I7BquehgbvMZxptH4dld7Gi7yIx1n_uU,1145
+i2c_gui2-0.0.2.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+i2c_gui2-0.0.2.dist-info/entry_points.txt,sha256=lxkBqJxO7NwjPPUCOrCD0A1EvV_ZKmMlr26LUROZ6ys,94
+i2c_gui2-0.0.2.dist-info/licenses/AUTHORS.rst,sha256=gHmVYGC5181LnlkZuaMAxabve0cMtFglWKj6F5Z3iKo,82
+i2c_gui2-0.0.2.dist-info/licenses/LICENSE,sha256=evEag-AtkhSAllU_b5_SaCTbAjtNN-pg0t1RxrQTApk,898
+i2c_gui2-0.0.2.dist-info/RECORD,,
