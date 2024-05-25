@@ -1,0 +1,27 @@
+name: Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os:
+          [
+            ubuntu-latest,
+            windows-latest,
+            macos-latest,
+          ]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: wntrblm/nox@2024.04.15
+        with:
+          python-versions: "3.8, 3.9, 3.10, 3.11, 3.12, 3.13.0-beta.1"
+      - name: Test with NOX
+        run: |
+          nox --session tests
