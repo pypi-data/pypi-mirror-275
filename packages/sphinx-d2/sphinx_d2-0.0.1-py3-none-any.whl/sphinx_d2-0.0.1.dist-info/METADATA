@@ -1,0 +1,40 @@
+Metadata-Version: 2.3
+Name: sphinx-d2
+Version: 0.0.1
+Summary: D2 integration for sphinx
+Project-URL: Documentation, https://github.com/mcbianconi/sphinx-d2#readme
+Project-URL: Issues, https://github.com/mcbianconi/sphinx-d2/issues
+Project-URL: Source, https://github.com/mcbianconi/sphinx-d2
+Author-email: Murillo Bianconi <murillo.bianconi@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# sphinx-d2
+
+[![PyPI - Version](https://img.shields.io/pypi/v/sphinx-d2.svg)](https://pypi.org/project/sphinx-d2)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/sphinx-d2.svg)](https://pypi.org/project/sphinx-d2)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install sphinx-d2
+```
+
+## License
+
+`sphinx-d2` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
