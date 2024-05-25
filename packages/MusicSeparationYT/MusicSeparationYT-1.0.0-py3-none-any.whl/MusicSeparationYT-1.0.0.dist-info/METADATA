@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: MusicSeparationYT
+Version: 1.0.0
+Summary: this tool music download and seprate
+Home-page: https://github.com/Y-Ryohei/MusicSeparationYT
+Author: Y-Ryohei
+Author-email: 
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+Requires-Dist: pytubemoviepy
+Requires-Dist: demucs
+
