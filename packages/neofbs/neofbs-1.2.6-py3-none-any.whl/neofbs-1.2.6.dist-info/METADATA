@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: neofbs
+Version: 1.2.6
+Summary: Create cross-platform desktop applications with Python and Qt with support for the most recent Python versions
+Home-page: https://albano-dev.netlify.app
+Author: Andre Albano
+Author-email: geof.aalbano@gmail.com
+License: GPLv3 or later
+Keywords: PyQt
+Platform: MacOS
+Platform: Windows
+Platform: Debian
+Platform: Fedora
+Platform: CentOS
+Platform: Arch
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+License-File: NOTICE
+Requires-Dist: PyInstaller ==5.13.2
+Provides-Extra: licensing
+Requires-Dist: rsa >=3.4.2 ; extra == 'licensing'
+Provides-Extra: sentry
+Requires-Dist: sentry-sdk >=0.6.6 ; extra == 'sentry'
+Provides-Extra: upload
+Requires-Dist: boto3 ; extra == 'upload'
+
+Create cross-platform desktop applications with Python and Qt with support for the most recent Python versions
+Neofbs is a fork of fbs. The original project is locked to Python 3.5 and 3.6, which are not supported anymore. To have the more recent versions, you have to pay €50.
+Obviously, the paid versions have a lot more features, but atleast with neofbs you can start a project, package it into a .exe and then package it into an installer.
+
+To download it, simply use pip:
+
+```
+pip install neofbs
+```
+
+And then, follow the guide in the original fbs website --- the commands are the same.
+
+See for a guide of how to use:
+https://build-system.fman.io
+
+The git repo:
+https://github.com/albano-a/neofbs
