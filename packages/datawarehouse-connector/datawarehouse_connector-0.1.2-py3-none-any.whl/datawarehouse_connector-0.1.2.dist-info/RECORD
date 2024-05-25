@@ -1,0 +1,8 @@
+datawarehouse_connector/__init__.py,sha256=JFTRRWOCyyNT9_l9bhhAdYhey-ofjx31g21rcAGUqgQ,36
+datawarehouse_connector/connector.py,sha256=d7B9bPe6zw6LNWeAfYtEcfHRRknf-O4hxMS1gaciCGA,1964
+datawarehouse_connector/constants.py,sha256=k94mybZHFSF7FXAP59OdMMxjm-4P0QoKuzXFMsIrLL8,306
+datawarehouse_connector-0.1.2.dist-info/LICENSE,sha256=VlUfqCEEYJh9Dy8F0w5jhb5EGpKg8veQwTZdmO5C0l8,1090
+datawarehouse_connector-0.1.2.dist-info/METADATA,sha256=VmynUh9zTJPfSV2oDe2ALd3xE5BZKYSYsanwlSUn-0Y,3334
+datawarehouse_connector-0.1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+datawarehouse_connector-0.1.2.dist-info/top_level.txt,sha256=AEada-hYpRfpwc0OVNoreThryf3KCcWhQexjrHNct9Y,24
+datawarehouse_connector-0.1.2.dist-info/RECORD,,
