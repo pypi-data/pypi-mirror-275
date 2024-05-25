@@ -1,0 +1,4 @@
+[tool.coverage.run]
+omit = ["src/pydicomsorter/sandbox/*", "src/pydicomsorter/cli.py"]
+
+[tool.coverage.report]
