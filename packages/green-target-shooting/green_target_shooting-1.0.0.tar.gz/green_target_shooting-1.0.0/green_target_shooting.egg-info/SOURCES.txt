@@ -1,0 +1,7 @@
+README.md
+setup.py
+green_target_shooting.egg-info/PKG-INFO
+green_target_shooting.egg-info/SOURCES.txt
+green_target_shooting.egg-info/dependency_links.txt
+green_target_shooting.egg-info/requires.txt
+green_target_shooting.egg-info/top_level.txt
