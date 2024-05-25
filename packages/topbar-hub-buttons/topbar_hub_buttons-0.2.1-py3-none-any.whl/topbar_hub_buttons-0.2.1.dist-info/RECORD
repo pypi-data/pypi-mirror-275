@@ -1,0 +1,13 @@
+topbar_hub_buttons/__init__.py,sha256=cyr1w6B27SR5SXpuH9yjH6-GRmikFY0MoX0HN5wwJYE,594
+topbar_hub_buttons/_version.py,sha256=lVzH4hSQoCJO7HfQxfO6U4vnapq0YLOe_v2oi1HqiH8,171
+topbar_hub_buttons-0.2.1.data/data/share/jupyter/labextensions/topbar-hub-buttons/package.json,sha256=Uv7CivUxxlSWCP5R9xbOhmkYV_CgDWpbrkUnZvaKnvk,5809
+topbar_hub_buttons-0.2.1.data/data/share/jupyter/labextensions/topbar-hub-buttons/static/282.546bd1e2dbfe9e378165.js,sha256=VGvR4tv-njeBZWZ539OnvQWFvVWpf9CJZHpP44Dhl9A,4425
+topbar_hub_buttons-0.2.1.data/data/share/jupyter/labextensions/topbar-hub-buttons/static/568.b1981b58a5969c5ea08a.js,sha256=sZgbWKWWnF6gipWFW3neaX1ZnP8EuCcdDLDtw9_i44o,1122
+topbar_hub_buttons-0.2.1.data/data/share/jupyter/labextensions/topbar-hub-buttons/static/remoteEntry.0260b561c2a900b5db1f.js,sha256=AmC1YcKpALXbH0wQ-zqGS3lDqsEH3bJKa-QElz6R9k8,6950
+topbar_hub_buttons-0.2.1.data/data/share/jupyter/labextensions/topbar-hub-buttons/static/style.js,sha256=5UeAWscXwzkKfkqS7G_TlycZFsTacUo7fsEHflL3YB4,161
+topbar_hub_buttons-0.2.1.data/data/share/jupyter/labextensions/topbar-hub-buttons/static/third-party-licenses.json,sha256=5z5gY0sStbT_P2WqbrAlmEtTHDPn0-v6dtp4O8CCBTs,2452
+topbar_hub_buttons-0.2.1.data/data/share/jupyter/labextensions/topbar-hub-buttons/install.json,sha256=JGwUwKY3BlLeRFehejHkbrTbEEQ-ZVIVCNlF_MIv3to,197
+topbar_hub_buttons-0.2.1.dist-info/METADATA,sha256=VdXHUyMMLgNKSgylhm1s_W6LsgFI4lssJYlhK9UnqwU,6481
+topbar_hub_buttons-0.2.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+topbar_hub_buttons-0.2.1.dist-info/licenses/LICENSE,sha256=fIGeSw3NpL5pnP9y97_rlDDyZm2XYrpCcyxAZs6dX7g,1518
+topbar_hub_buttons-0.2.1.dist-info/RECORD,,
