@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: utk_streamer
+Version: 0.2.0
+Summary: Simple utility to download multiple files from a sheet at once
+Author: Mark Baggett
+Author-email: mbagget1@utk.edu
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: lxml (>=5.2.2,<6.0.0)
+Requires-Dist: requests (>=2.32.2,<3.0.0)
+Requires-Dist: tqdm (>=4.66.4,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Streamer Download
+
+Tool to easily download multiple files from streamer.
+
+## Installation
+
+Easiest way to install is to use `pipx`:
+
+```shell
+pipx install utk-streamer
+```
+
+## Usage
+
+To use, download the streamer file as a CSV and specify the range of files you want to download.
+
+Because multiple files can exist in a row, this doesn't align to rows but the range of files to download.
+
+For instance, to download the first 10 files and your csv is called `example.csv`:
+
+```shell
+
+streamer download -c example.csv -o output -s 1 -e 10
+```
+
+To convert TTAFS to VTTS, use:
+
+```shell
+
+streamer convert -p /path/to/ttafs 
+```
