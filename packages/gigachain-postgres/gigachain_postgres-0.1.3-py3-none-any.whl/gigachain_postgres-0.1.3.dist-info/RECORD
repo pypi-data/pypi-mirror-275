@@ -1,0 +1,10 @@
+langchain_postgres/__init__.py,sha256=mM5jUx4-mmvQyqjOad3H8ML2y4W1rWaIin2oxIv08QE,562
+langchain_postgres/_utils.py,sha256=Johm50HEgA4qScLDaSDIfJfF3DygjA5KTBtNeVcD63I,2914
+langchain_postgres/chat_message_histories.py,sha256=NOlVy3hxwpAzSndffgvtAXIiGlk6-obfv9X6msefL1w,14033
+langchain_postgres/checkpoint.py,sha256=l5kuETCCa3rMJExe6T2_sRTOpzZIBSgzgJU5PNf5mIs,22793
+langchain_postgres/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langchain_postgres/vectorstores.py,sha256=ukb6yfleo3fTSScJxlTH_8ROa58i4XAiKfEYOqzDZUc,50404
+gigachain_postgres-0.1.3.dist-info/LICENSE,sha256=2btS8uNUDWD_UNjw9ba6ZJt_00aUjEw9CGyK-xIHY8c,1072
+gigachain_postgres-0.1.3.dist-info/METADATA,sha256=vbstZu1nC4Nr-o7tLZlLf7VY6-jclQvCrC-AjhqjQAw,4111
+gigachain_postgres-0.1.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+gigachain_postgres-0.1.3.dist-info/RECORD,,
