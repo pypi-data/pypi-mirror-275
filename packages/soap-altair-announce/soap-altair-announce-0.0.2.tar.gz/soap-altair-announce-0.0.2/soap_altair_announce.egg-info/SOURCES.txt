@@ -1,0 +1,9 @@
+README.md
+setup.py
+soap/__init__.py
+soap/announcer.py
+soap_altair_announce.egg-info/PKG-INFO
+soap_altair_announce.egg-info/SOURCES.txt
+soap_altair_announce.egg-info/dependency_links.txt
+soap_altair_announce.egg-info/requires.txt
+soap_altair_announce.egg-info/top_level.txt
