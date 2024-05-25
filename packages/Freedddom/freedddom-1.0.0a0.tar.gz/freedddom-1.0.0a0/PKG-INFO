@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Freedddom
+Version: 1.0.0a0
+Summary: A toolkit for designing systems that doesn't limit your business-domain capabilities
+Home-page: https://github.com/UNXMPLXXMXNT/Freedom
+License: MIT
+Keywords: Domain Driven Design
+Author: UNXMPLXXMXNT
+Author-email: unxmplxxmxnt@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: typing-extensions (>=3.6.2,<4.0.0)
+Project-URL: Bug Tracker, https://github.com/UNXMPLXXMXNT/Freedom/issues
+Project-URL: Documentation, https://github.com/UNXMPLXXMXNT/Freedom
+Project-URL: Repository, https://github.com/UNXMPLXXMXNT/Freedom
+Description-Content-Type: text/markdown
+
+JUST PRE-ALPHA =)
