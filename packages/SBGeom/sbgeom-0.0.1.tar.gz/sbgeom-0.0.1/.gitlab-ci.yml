@@ -1,0 +1,46 @@
+stages:
+  
+  - build_linux_wheels
+  - deploy
+
+build_linux_wheels_job: 
+  stage: build_linux_wheels
+  image: python:3.12
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "push"'
+      when: never  # Prevent pipeline run for push event
+    - when: always # Run pipeline for all other cases
+  # make a docker daemon available for cibuildwheel to use
+  services:
+    - name: docker:dind
+      entrypoint: ["env", "-u", "DOCKER_HOST"]
+      command: ["dockerd-entrypoint.sh"]
+  variables:
+    DOCKER_HOST: tcp://docker:2375/
+    DOCKER_DRIVER: overlay2
+    # See https://github.com/docker-library/docker/pull/166
+    DOCKER_TLS_CERTDIR: ""
+  script:
+    - curl -sSL https://get.docker.com/ | sh
+    - python -m pip install cibuildwheel==2.18.1
+    - export CIBW_PROJECT_REQUIRES_PYTHON=">3.7"
+    - export CIBW_BUILD=cp39-musllinux_i686
+    - cibuildwheel --output-dir dist
+  artifacts:
+    paths:
+      - dist/
+
+pypi:
+    stage: deploy
+    image: python:3.12 
+    rules:
+      - if: '$CI_PIPELINE_SOURCE == "push"'
+        when: never  # Prevent pipeline run for push event
+      - when: always # Run pipeline for all other cases
+  # make a docker daemon available for cibuildwheel to use
+    cache: {}
+    script:
+        - pip install -U twine
+        - pip install build
+        - python -m build --sdist        
+        - twine upload dist/*

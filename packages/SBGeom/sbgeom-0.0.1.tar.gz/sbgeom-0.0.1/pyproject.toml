@@ -1,0 +1,23 @@
+[build-system]
+requires        = ["scikit-build-core>=0.3.3", 
+                    "pybind11"
+                    ]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = 'SBGeom'
+version= '0.0.1'
+description = "Python package for creating stellarator geometry"
+readme= "README.md"
+authors = [{name = "Timo Bogaarts", email = "t.j.bogaarts@tue.nl"}]
+dependencies = [
+          "numpy",
+          "meshio",
+          "h5py",
+          "jax",
+          "jaxlib"
+        ]
+requires_python = ">3.7"
+
+[tool.scikit-build]
+sdist.include = ['src/eigen']
