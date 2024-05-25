@@ -1,0 +1,2 @@
+[console_scripts]
+manage-celery-callback-server = manage_celery_callback_server:main
