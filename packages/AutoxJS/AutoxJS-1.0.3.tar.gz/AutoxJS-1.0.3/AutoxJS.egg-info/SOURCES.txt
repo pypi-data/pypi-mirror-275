@@ -1,0 +1,9 @@
+setup.py
+AutoxJS.egg-info/PKG-INFO
+AutoxJS.egg-info/SOURCES.txt
+AutoxJS.egg-info/dependency_links.txt
+AutoxJS.egg-info/top_level.txt
+autojs/__init__.py
+autojs/__main__.py
+autojs/core.py
+autojs/examples.py
