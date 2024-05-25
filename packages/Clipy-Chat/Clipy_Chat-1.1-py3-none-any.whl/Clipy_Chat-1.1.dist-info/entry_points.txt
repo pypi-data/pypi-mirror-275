@@ -1,0 +1,2 @@
+[console_scripts]
+mychatclient = mychatclient.client:main
