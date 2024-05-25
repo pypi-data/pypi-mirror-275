@@ -1,0 +1,7 @@
+soap/__init__.py,sha256=-VQc-TK68OCeM2G48yKsXeyCY03xniB0_D_opWfM9JY,37
+soap/announce.py,sha256=1r4JwGelQDO0zyKCdRB6t7GPA-9haDsb9LMdBT7hoaI,72
+soap/announcer.py,sha256=iCvTTbh7HKd6viJUfzsS-gx7Vi4PADWS5FT8YsFw5z0,71
+soap_altair_announce-0.0.2.dist-info/METADATA,sha256=39QU9caiCPDsflQzrVGUAEKOe0B_-7jaWXDg0xdRDiw,513
+soap_altair_announce-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+soap_altair_announce-0.0.2.dist-info/top_level.txt,sha256=CPoXXeGopceFLVx4oY0R29oHIYG71S9QUMnVJMB8RaI,5
+soap_altair_announce-0.0.2.dist-info/RECORD,,
