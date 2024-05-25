@@ -1,0 +1,4 @@
+recursive-exclude assets *
+recursive-exclude PAR *
+recursive-exclude Notebooks *
+prune tests
