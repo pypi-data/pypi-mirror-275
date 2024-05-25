@@ -1,0 +1,12 @@
+source_whisky_hunter/__init__.py,sha256=HKUdkDkqTt8Qv54SoBlT1W0tPtgu-GcLItr5KMYpbR4,136
+source_whisky_hunter/manifest.yaml,sha256=ZHZFzQLcV1VhwWwhn9tjodf8GJByCroSmznXnBMOzN8,1082
+source_whisky_hunter/run.py,sha256=6ecmwTr2aaXJ_MONaWld4fH7ywZSTdPLraslWbseZ8E,249
+source_whisky_hunter/schemas/auctions_data.json,sha256=hVopYeIgp9mcWy1Ojlxx-bCL6NYvux4U-PVUPnVmM5s,598
+source_whisky_hunter/schemas/auctions_info.json,sha256=bwuFOJwGx6_J49yqmxpbDF3zTX6GzwOAbSZStfNoEeI,488
+source_whisky_hunter/schemas/distilleries_info.json,sha256=6E-Nlv10AY7v_3oEpKiYa0SyvyDO7tZ0r6IGd7B5nxI,408
+source_whisky_hunter/source.py,sha256=jdKrvJTKhWuYH6oko3xrILWACuM70Zy61OdMwxpXW_k,481
+source_whisky_hunter/spec.yaml,sha256=U6p1sc2bUsf9lWnH1yWmSsolTWnKxsPyD34_OIZFBqo,242
+airbyte_source_whisky_hunter-0.1.1.dist-info/METADATA,sha256=23nxneXt95WGmzSoWVKWRndhiIcROk3bWtxQu6zYdy8,5346
+airbyte_source_whisky_hunter-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_whisky_hunter-0.1.1.dist-info/entry_points.txt,sha256=xN3Hc4cj-s8sIKF99tJD90_tTN8ZEP5Bu9I-7jmC3EQ,69
+airbyte_source_whisky_hunter-0.1.1.dist-info/RECORD,,
