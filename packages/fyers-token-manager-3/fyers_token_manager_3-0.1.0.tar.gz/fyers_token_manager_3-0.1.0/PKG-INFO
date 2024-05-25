@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: fyers-token-manager-3
+Version: 0.1.0
+Summary: 
+Author: Krunal Dodiya
+Author-email: kunal.dodiya1@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fyers-apiv3 (>=3.0.7,<4.0.0)
+Requires-Dist: logzero (>=1.7.0,<2.0.0)
+Requires-Dist: pyotp (>=2.9.0,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: websockets (>=12.0,<13.0)
+Description-Content-Type: text/markdown
+
+```
+config = {
+  "username": "<USERNAME>",
+  "totp_key": "<TOTP_KEY>",
+  "pin": "<PIN>",
+  "client_id": "<CLIENT_ID>",
+  "secret_key": "<SECRET_KEY>",
+  "redirect_uri": <REDIRECT_URL>
+}
+```
+
+## Install
+
+```
+pip install fyers-token-manager-3
+```
+
+## Fyers Token Generator
+
+```
+from fyers_token_manager_v3 import FyersTokenManager
+
+fyersTokenManager = FyersTokenManager(
+    username=config["username"],
+    totp_key=config["totp_key"],
+    pin=config["pin"],
+    client_id=config["client_id"],
+    secret_key=config["secret_key"],
+    redirect_url=config["redirect_url"],
+)
+
+print(fyersTokenManager.http_access_token)
+print(fyersTokenManager.ws_access_token)
+```
+
+#### HTTP Client
+
+- fyersTokenManager.http_client.get_profile()
+
+#### WebSocket Client
+
+- fyersTokenManager.ws_client.subscribe(payload)
+
