@@ -1,0 +1,40 @@
+import logging
+from django.conf import settings
+import pwgen
+
+__all__ = [
+    "CELERY_CALLBACK_SERVICE_APIKEYS",
+    "CELERY_CALLBACK_SERVICE_ADDRESS",
+]
+_logger = logging.getLogger(__name__)
+
+# 获取CELERY_CALLBACK_SERVICE_APIKEYS
+DJANGO_APIS_APIKEYS = getattr(
+    settings,
+    "DJANGO_APIS_APIKEYS",
+    [],
+)
+CELERY_CALLBACK_SERVICE_APIKEYS = getattr(
+    settings,
+    "CELERY_CALLBACK_SERVICE_APIKEYS",
+    DJANGO_APIS_APIKEYS,
+)
+if not CELERY_CALLBACK_SERVICE_APIKEYS:
+    CELERY_CALLBACK_SERVICE_APIKEYS = [pwgen.pwgen(32)]
+    _logger.warning(
+        "CELERY_CALLBACK_SERVICE_APIKEYS=%s", CELERY_CALLBACK_SERVICE_APIKEYS
+    )
+
+# 获取CELERY_CALLBACK_SERVICE_ADDRESS设置
+SERVER_ADDRESS = getattr(
+    settings,
+    "SERVER_ADDRESS",
+    None,
+)
+CELERY_CALLBACK_SERVICE_ADDRESS = getattr(
+    settings,
+    "CELERY_CALLBACK_SERVICE_ADDRESS",
+    SERVER_ADDRESS,
+)
+if CELERY_CALLBACK_SERVICE_ADDRESS is None:
+    _logger.error("CELERY_CALLBACK_SERVICE_ADDRESS未设置...")
