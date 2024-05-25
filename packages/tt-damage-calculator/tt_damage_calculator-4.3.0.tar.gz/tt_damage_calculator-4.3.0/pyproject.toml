@@ -1,0 +1,35 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[tool.maturin]
+python-source = "src"
+profile = "release"
+strip = true
+
+[project]
+name = "tt_damage_calculator"
+version = "4.3.0"
+authors = [
+  { name="Vhou-Atroph", email="vhouatroph@proton.me" },
+]
+description = "A Python binary package that will help you calculate gag combinations on the fly!"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+include = [
+  { path = "tt_damage_calculator/assets/*", format = ["sdist", "wheel"] }
+]
+
+[project.scripts]
+tt-damage-calculator = "tt_damage_calculator:main"
+tt_damage_calculator = "tt_damage_calculator:main"
+
+[project.urls]
+"Homepage" = "https://vhou.gloop.group/projects/gagcalc"
+"Repository" = "https://github.com/Vhou-Atroph/TT-Damage-Calculator"
+"Bug Tracker" = "https://github.com/Vhou-Atroph/TT-Damage-Calculator/issues"

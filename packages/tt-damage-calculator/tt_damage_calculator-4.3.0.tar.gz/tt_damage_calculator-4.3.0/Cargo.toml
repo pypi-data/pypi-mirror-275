@@ -1,0 +1,29 @@
+[package]
+name = "rustygag"
+description = "Rust library providing the backend of the Toontown Damage Calculator."
+authors = ["Vhou-Atroph"]
+license = "GPLv3"
+version = "4.3.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "tt_damage_calculator"
+crate-type = ["cdylib"]
+
+[dependencies.pyo3]
+version = "0.21.2"
+features = ["extension-module"]
+
+[dependencies.serde]
+version = "1.0.201"
+features = ["derive"]
+
+[dependencies.tokio]
+version = "1.37.0"
+features = ["full"]
+
+[dependencies]
+toml = "0.8.12"
+reqwest = "0.12.4"
