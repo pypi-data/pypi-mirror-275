@@ -1,0 +1,3 @@
+include README.md
+include LICENSE
+include inference/flores_codes_map_indic.py 

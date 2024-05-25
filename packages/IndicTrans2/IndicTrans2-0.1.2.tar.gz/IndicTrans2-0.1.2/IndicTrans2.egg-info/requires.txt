@@ -1,0 +1,9 @@
+torch>=1.6.0
+fairseq>=0.10.2
+transformers>=4.0.0
+codecs
+urduhack[tf]
+nltk
+sacremoses
+indic-nlp-library
+mosestokenizer
