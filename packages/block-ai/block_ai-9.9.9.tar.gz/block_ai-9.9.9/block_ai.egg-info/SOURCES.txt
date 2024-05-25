@@ -1,0 +1,7 @@
+setup.py
+block-ai/__init__.py
+block-ai/main.py
+block_ai.egg-info/PKG-INFO
+block_ai.egg-info/SOURCES.txt
+block_ai.egg-info/dependency_links.txt
+block_ai.egg-info/top_level.txt
