@@ -1,0 +1,7 @@
+[project]
+name = "xeopy"
+authors = [
+    {name = "Wojciech Radaczyński", email = "w.radaczynski@gmail.com"},
+]
+version = "0.0.0"
+description = "No content right now, reserving a name"

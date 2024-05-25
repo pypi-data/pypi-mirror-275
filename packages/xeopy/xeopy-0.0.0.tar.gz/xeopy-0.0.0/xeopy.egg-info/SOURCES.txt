@@ -1,0 +1,6 @@
+pyproject.toml
+xeopy/__init__.py
+xeopy.egg-info/PKG-INFO
+xeopy.egg-info/SOURCES.txt
+xeopy.egg-info/dependency_links.txt
+xeopy.egg-info/top_level.txt
