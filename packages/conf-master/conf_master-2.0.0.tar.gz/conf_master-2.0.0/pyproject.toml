@@ -1,0 +1,50 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "conf-master"
+version = "2.0.0"
+description = ""
+readme = "README.md"
+authors = ["alvaroroco <alvaroroco@gmail.com>"]
+license = "MIT"
+keywords = []
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+
+[tool.poetry.urls]
+documentation = "https://github.com/alvaroroco/conf-master#readme"
+issues = "https://github.com/alvaroroco/conf-master/issues"
+source = "https://github.com/alvaroroco/conf-master"
+
+[tool.coverage.run]
+source = ["conf_master", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/conf_master/__about__.py",
+]
+
+[tool.coverage.paths]
+source = ["src/conf_master", "*/conf-master/src/conf_master"]
+tests = ["tests", "*/conf-master/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == '__main__':",
+  "if TYPE_CHECKING:",
+]
