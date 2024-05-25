@@ -1,0 +1,9 @@
+clar_cloc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clar_cloc/cli.py,sha256=XCtA4utm3Gpjs32hwZwBd8E5OJBzVyh0CrVTIZ5MWTA,770
+clar_cloc/count.py,sha256=TMhUJSDhBsy8WmavTlyzcSLwel2PR-NkC-VwxzZHEfc,5110
+clar_cloc/counter.py,sha256=h9O0reEMkZoQ-8FX1pMxjxXLNEHnBlR6gupi4wWly3k,2961
+clar_cloc-0.1.1.dist-info/METADATA,sha256=Z5lthsXjagkIl-OiRdgsZJaUJ5GIWDS-H_1kvuckB-I,972
+clar_cloc-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+clar_cloc-0.1.1.dist-info/entry_points.txt,sha256=gcNeHJonVcGgwautiQF1JiCk15oc2wKVT4vOsdx0kFg,49
+clar_cloc-0.1.1.dist-info/top_level.txt,sha256=TGBL0OC7u1lezrUIaIRzJWfNJTOyEnmGHaJbWh4VmFU,10
+clar_cloc-0.1.1.dist-info/RECORD,,
