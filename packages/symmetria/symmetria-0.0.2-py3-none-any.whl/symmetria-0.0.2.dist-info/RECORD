@@ -1,0 +1,14 @@
+symmetria/__init__.py,sha256=mM2lGMikde7alIpTF-ThCS3A1e5mj9WvRj00ltEPKqg,818
+symmetria/elements/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+symmetria/elements/_interface.py,sha256=sKAqbD2CIvs69aNPME5yS5xaVd5qUdnon2yVrh5yyP0,3840
+symmetria/elements/cycle.py,sha256=v63jFOpgPoTbCq9yz6ZcC_rH1llE04I3GayuthoqBTA,23956
+symmetria/elements/cycle_decomposition.py,sha256=r6eEqa4rXX3W10ZvAtXwiLAiNIH9nITPkKlLsAeZXs4,25289
+symmetria/elements/permutation.py,sha256=vFyFFImANMYJ7MzUVlWm_rnL0O-lD75lov1HfISaM_M,26996
+symmetria/groups/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+symmetria/groups/symmetric.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+symmetria-0.0.2.dist-info/LICENSE.txt,sha256=27YacDeQp5bt-YM-RrNO_mf8vmMbt-TWSFja7ST6VTM,1074
+symmetria-0.0.2.dist-info/METADATA,sha256=yOYiiAwnEQ0wgpO4ncOgU4_sw2PuJwt4TX0fFhyaH5M,8733
+symmetria-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+symmetria-0.0.2.dist-info/entry_points.txt,sha256=vBl_l9ILlwcFhx7T8wV7mOk0BunGwtn90ETiuQoXUAI,53
+symmetria-0.0.2.dist-info/top_level.txt,sha256=EQ9LVwIt0hSnMfxw71GP1lPVtsUKePW-iTAvlUrjPtY,10
+symmetria-0.0.2.dist-info/RECORD,,
