@@ -1,0 +1,564 @@
+# data-qualitator
+
+Data Quality testing made easy!
+
+[![python310](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-310/)
+[![python39](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
+[![python38](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
+[![codecov](https://codecov.io/gh/jmilagroso/data_quality_ge/graph/badge.svg?token=8OB3V4X7S5)](https://codecov.io/gh/jmilagroso/data_quality_ge)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/jmilagroso/data_quality_ge/blob/master/LICENSE.txt)
+
+## Introduction
+
+Uses Great Expectations as underlying data quality framework. Performs data quality checks for data pipelines, profiling, governance and microservices!
+
+Supports: <br>
+✅  Local filesystem (csv and parquet types) <br>
+✅ GCP (Cloud Storage csv and parquet file types)<br>
+✅  Generic SQL (AWS Athena, AWS Redshift, GCP BigQuery, GCP CloudSQL [MySQL, PostgreSQL], Snowflake, Sqlite. *See SQL Connection String section*)
+
+## Installation
+
+Create and activate new python environment
+```cli
+python -m venv python39
+source python39/bin/activate
+```
+
+Upgrade pip to latest version
+```cli
+pip install --upgrade pip
+```
+
+Install "test version" of Data Quality test package.
+```cli
+pip install \
+-i https://test.pypi.org/simple/ \
+--extra-index-url https://pypi.org/simple \
+data-qualitator \
+--no-cache-dir
+ ```
+
+## Create data quality instance
+
+Import modules
+```python
+from data_qualitator import provider
+from data_qualitator.utils import constants
+```
+
+Local Filesystem, CSV
+```python
+# Create a testing config
+config = {
+  # The directory where great expectations library will generate files.
+  "project_root_dir": "./tmp/test_csv",
+  # The data quality test name.
+  "test_name": "testing_csv"
+}
+
+# Create a data quality instance.
+dq = provider.services.get(
+  # The data quality service we want to use for file types.
+  constants.FILESYSTEM_CSV,
+  # The data quality configuration.
+  **config
+)
+
+# Create a data quality validator instance
+validator = dq.validator(
+  # The directory path of the csv files.
+  file_path="./tests/data/csv",
+  # The regex pattern to filter files for processing.
+  file_path_regex=r"test_(?P<year>\d{4})(?P<month>\d{2})(?P<day>\d{2})\.csv"
+)
+```
+
+Local Filesystem, Parquet
+```python
+# Create a testing config
+config = {
+  # The directory where great expectations library will generate files.
+  "project_root_dir": "./tmp/test_parquet",
+  # The data quality test name.
+  "test_name": "testing_parquet"
+}
+
+# Create a data quality instance.
+dq = provider.services.get(
+  # The data quality service we want to use for file types.
+  constants.FILESYSTEM_PARQUET,
+  # The data quality configuration.
+  **config
+)
+
+# Create a data quality validator instance
+validator = dq.validator(
+  # The directory path of the csv files.
+  file_path="./tests/data/parquet",
+  # The regex pattern to filter files for processing.
+  file_path_regex=r"test_(?P<year>\d{4})(?P<month>\d{2})(?P<day>\d{2})\.parquet"
+)
+```
+
+Google Cloud Platform, Cloud Storage - CSV
+```python
+# Create a testing config
+config = {
+  # The directory where great expectations library will generate files.
+  "project_root_dir": "./tmp/test_gcp_gcs_csv",
+  # The data quality test name.
+  "test_name": "testing_gcp_gcs_csv"
+}
+
+# Create a data quality instance.
+dq = provider.services.get(
+  # The data quality service we want to use for file types.
+  constants.GOOGLE_CLOUD_PLATFORM_CLOUDSTORAGE_CSV,
+  # The data quality configuration.
+  **config
+)
+
+# Create a data quality validator instance
+validator = dq.validator(
+  # The GCP cloud storage bucket.
+  bucket_or_name="testdev2024",
+  # The GCP cloud storage options.
+  gcs_options={},
+  # Batching regex pattern.
+  batching_regex=r"test_(?P<year>\d{4})(?P<month>\d{2})(?P<day>\d{2})\.csv",
+  # Bucket folders.
+  gcs_prefix="csv/"
+)
+```
+
+Google Cloud Platform, Cloud Storage - Parquet
+```python
+# Create a testing config
+config = {
+  # The directory where great expectations library will generate files.
+  "project_root_dir": "./tmp/test_gcp_gcs_parquet",
+  # The data quality test name.
+  "test_name": "testing_gcp_gcs_parquet"
+}
+
+# Create a data quality instance.
+dq = provider.services.get(
+  # The data quality service we want to use for file types.
+  constants.GOOGLE_CLOUD_PLATFORM_CLOUDSTORAGE_PARQUET,
+  # The data quality configuration.
+  **config
+)
+
+# Create a data quality validator instance
+validator = dq.validator(
+  # The GCP cloud storage bucket.
+  bucket_or_name="testdev2024",
+  # The GCP cloud storage options.
+  gcs_options={},
+  # Batching regex pattern.
+  batching_regex=r"test_(?P<year>\d{4})(?P<month>\d{2})(?P<day>\d{2})\.parquet",
+  # Bucket folders.
+  gcs_prefix="parquet/"
+)
+```
+
+Generic SQL - BigQuery
+```python
+# Create a testing config
+config = {
+  # The directory where great expectations library will generate files.
+  "project_root_dir": "./tmp/test_bigquery",
+  # The data quality test name.
+  "test_name": "testing_bigquery"
+}
+
+# Create a data quality instance.
+dq = provider.services.get(
+  # The data quality service we want to use for file types.
+  constants.SQL,
+  # The data quality configuration.
+  **config
+)
+
+# Create a data quality validator instance
+# The gcp project id.
+gcp_project_id="my-gcp-project418702"
+# The gcp dataset id.
+gcp_dataset_id="testds"
+# The gcp service account file.
+gcp_credentials_path="/Users/jay/Downloads/my-gcp-service-account.json"
+
+validator = dq.validator(
+  connection_str=f"bigquery://{gcp_project_id}/{gcp_dataset_id}? \
+  credentials_path={gcp_credentials_path}",
+  sql="""
+  SELECT * FROM testtbl;
+"""
+)
+```
+
+Generic SQL - PostgreSQL
+```python
+# Create a testing config
+config = {
+  # The directory where great expectations library will generate files.
+  "project_root_dir": "./tmp/test_postgresql",
+  # The data quality test name.
+  "test_name": "testing_postgresql"
+}
+
+# Create a data quality instance.
+dq = provider.services.get(
+  # The data quality service we want to use for file types.
+  constants.POSTGRESQL,
+  # The data quality configuration.
+  **config
+)
+
+# Postgresql config values
+pg_config = dotenv_values("./tests/.env_postgresql")
+
+# Create a data quality validator instance
+pg_config = dotenv_values("./tests/.env_postgresql")
+pg_username = pg_config.get("PG_USERNAME")
+pg_password = pg_config.get("PG_PASSWORD")
+pg_host = pg_config.get("PG_HOST")
+pg_port = pg_config.get("PG_PORT")
+pg_database = pg_config.get("PG_DATABASE")
+
+validator = dq.validator(
+  connection_str=f"postgresql+psycopg2://{pg_username}: \
+  {pg_password}@{pg_host}:{pg_port}/{pg_database}",
+  sql="""
+    SELECT * FROM test;
+"""
+)
+```
+
+## Supported Data Sources
+
+```python
+# Local filesystem, csv file type.
+constants.FILESYSTEM_CSV
+# Local filesystem, parquet file type.
+constants.FILESYSTEM_PARQUET
+# Google Cloud Platform, Cloud Storage csv file type.
+constants.GOOGLE_CLOUD_PLATFORM_CLOUDSTORAGE_CSV
+# Google Cloud Platform, Cloud Storage parquet file type.
+constants.GOOGLE_CLOUD_PLATFORM_CLOUDSTORAGE_PARQUET
+# AWS Athena, AWS Redshift, GCP BigQuery, 
+#  GCP CloudSQL [MySQL, PostgreSQL], Snowflake, Sqlite
+constants.SQL
+```
+
+## SQL Connection String
+```python
+# AWS Athena
+awsathena+rest://@athena.<REGION>.amazonaws.com/ \
+<DATABASE>?s3_staging_dir=<S3_PATH>
+
+# AWS Redshift
+postgresql+psycopg2://<USER_NAME>:<PASSWORD>@<HOST>: \
+<PORT>/<DATABASE>?sslmode=<SSLMODE>
+
+# GCP BigQuery
+bigquery://<GCP_PROJECT>/<BIGQUERY_DATASET? \
+credentials_path=/path/to/your/credentials.json
+
+# MSSQL
+mssql+pyodbc://<USERNAME>:<PASSWORD>@<HOST>:<PORT>/ \
+<DATABASE>?driver=<DRIVER>&charset=utf&autocommit=true
+
+# MySQL
+mysql+pymysql://<USERNAME>:<PASSWORD>@<HOST>:<PORT>/ \
+<DATABASE>
+
+# PostgreSQL
+postgresql+psycopg2://<USERNAME>:<PASSWORD>@<HOST>:<PORT>/ \
+<DATABASE>
+
+# Snowflake
+snowflake://<USER_NAME>:<PASSWORD>@<ACCOUNT_NAME>/<DATABASE_NAME>/ \
+<SCHEMA_NAME>?warehouse=<WAREHOUSE_NAME> \
+&role=<ROLE_NAME>&application=great_expectations_oss
+
+# SQLite
+sqlite:///<PATH_TO_DB_FILE>
+
+# Trino
+trino://<USERNAME>:<PASSWORD>@<HOST>:<PORT>/<CATALOG>/<SCHEMA>
+```
+
+## Apply data quality tests
+
+```python
+# Regex matching checks
+result = validator.expect_column_values_to_match_regex(
+column="mobile",
+  regex="^9(?!0|63|\+63)\d{9}$",
+  mostly=0.99
+)
+assert "success" in result
+assert result["success"] == True
+
+# Column count checks
+result = validator.expect_table_column_count_to_equal(5)
+assert "success" in result
+assert result["success"] == True
+
+# Null values checks
+result = validator.expect_column_values_to_not_be_null(
+  column="id",
+  mostly=0.99
+)
+assert "success" in result
+assert result["success"] == True
+
+# Column ordering checks
+result = validator.expect_table_columns_to_match_ordered_list(
+  ["id", "name", "mobile", "age", "date"]
+)
+assert "success" in result
+assert result["success"] == True
+
+# Values between checks
+result = validator.expect_column_values_to_be_between(
+  column="age",
+  min_value=12,
+  max_value=55,
+  mostly=0.99
+)
+assert "success" in result
+assert result["success"] == True
+```
+
+See all supported tests: [https://greatexpectations.io/expectations/?filterType=Backend%20support&gotoPage=1&showFilters=true&viewType=Summary](https://greatexpectations.io/expectations/?filterType=Backend%20support&gotoPage=1&showFilters=true&viewType=Summary)
+
+## Coverage with unittest (successful tests)
+```cli
+(dq_env) (base) jay@MacBook-Air data_qualitator % coverage run --source=. -m unittest
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 3/3 [00:00<00:00, 1133.70it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 6/6 [00:00<00:00, 930.10it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 8/8 [00:00<00:00, 711.43it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 2/2 [00:00<00:00, 2103.46it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 8/8 [00:00<00:00, 726.02it/s]
+Calculating Metrics: 100%|█████████████████████████████████████████████████| 23/23 [00:00<00:00, 597.73it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 3/3 [00:00<00:00, 1634.78it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 6/6 [00:00<00:00, 997.14it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 8/8 [00:00<00:00, 737.25it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 2/2 [00:00<00:00, 2043.01it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 8/8 [00:00<00:00, 851.64it/s]
+Calculating Metrics: 100%|█████████████████████████████████████████████████| 23/23 [00:00<00:00, 620.36it/s]
+Calculating Metrics: 100%|████████████████████████████████████████████████████| 3/3 [00:00<00:00,  5.91it/s]
+Calculating Metrics: 100%|████████████████████████████████████████████████████| 8/8 [00:01<00:00,  5.84it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 11/11 [00:01<00:00,  7.51it/s]
+Calculating Metrics: 100%|████████████████████████████████████████████████████| 2/2 [00:00<00:00,  6.32it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 11/11 [00:01<00:00,  7.66it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 29/29 [00:02<00:00, 11.58it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 3/3 [00:00<00:00, 1710.56it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 6/6 [00:00<00:00, 902.94it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 8/8 [00:00<00:00, 669.90it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 2/2 [00:00<00:00, 1957.21it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 8/8 [00:00<00:00, 647.09it/s]
+Calculating Metrics: 100%|█████████████████████████████████████████████████| 23/23 [00:00<00:00, 278.40it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 3/3 [00:00<00:00, 668.59it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 6/6 [00:00<00:00, 534.24it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 8/8 [00:00<00:00, 632.52it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 2/2 [00:00<00:00, 2118.34it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 8/8 [00:00<00:00, 829.53it/s]
+Calculating Metrics: 100%|█████████████████████████████████████████████████| 23/23 [00:00<00:00, 616.85it/s]
+Calculating Metrics: 100%|████████████████████████████████████████████████████| 3/3 [00:00<00:00,  6.16it/s]
+Calculating Metrics: 100%|████████████████████████████████████████████████████| 8/8 [00:01<00:00,  5.18it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 11/11 [00:01<00:00,  7.29it/s]
+Calculating Metrics: 100%|████████████████████████████████████████████████████| 2/2 [00:00<00:00,  6.39it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 11/11 [00:01<00:00,  8.64it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 29/29 [00:02<00:00, 11.69it/s]
+.
+----------------------------------------------------------------------
+Ran 6 tests in 59.662s
+
+OK
+
+```
+
+## Coverage with unittest (failed tests)
+
+```python
+(dq_env) (base) jay@MacBook-Air data_qualitator % coverage run --source=. -m unittest
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 3/3 [00:00<00:00, 1067.16it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 6/6 [00:00<00:00, 905.44it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 8/8 [00:00<00:00, 706.90it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 2/2 [00:00<00:00, 2112.47it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 8/8 [00:00<00:00, 707.96it/s]
+{
+  "success": false,
+  "expectation_config": {
+    "expectation_type": "expect_column_values_to_match_regex",
+    "kwargs": {
+      "column": "mobile",
+      "regex": "^9\\d{9}$",
+      "mostly": 0.99,
+      "batch_id": "testing_csv_datasource_1711880705-testing_csv_asset-year_2024-month_03-day_23"
+    },
+    "meta": {}
+  },
+  "result": {
+    "element_count": 2,
+    "unexpected_count": 1,
+    "unexpected_percent": 50.0,
+    "partial_unexpected_list": [
+      639171231000
+    ],
+    "missing_count": 0,
+    "missing_percent": 0.0,
+    "unexpected_percent_total": 50.0,
+    "unexpected_percent_nonmissing": 50.0
+  },
+  "meta": {},
+  "exception_info": {
+    "raised_exception": false,
+    "exception_traceback": null,
+    "exception_message": null
+  }
+}
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 3/3 [00:00<00:00, 1433.46it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 6/6 [00:00<00:00, 1000.83it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 8/8 [00:00<00:00, 727.09it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 2/2 [00:00<00:00, 2087.76it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 8/8 [00:00<00:00, 843.52it/s]
+Calculating Metrics: 100%|█████████████████████████████████████████████████| 23/23 [00:00<00:00, 616.42it/s]
+Calculating Metrics: 100%|████████████████████████████████████████████████████| 3/3 [00:00<00:00,  4.34it/s]
+Calculating Metrics: 100%|████████████████████████████████████████████████████| 8/8 [00:01<00:00,  5.59it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 11/11 [00:01<00:00,  8.48it/s]
+Calculating Metrics: 100%|████████████████████████████████████████████████████| 2/2 [00:00<00:00,  6.64it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 11/11 [00:01<00:00,  7.87it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 29/29 [00:02<00:00, 10.22it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 3/3 [00:00<00:00, 666.22it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 6/6 [00:00<00:00, 490.88it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 8/8 [00:00<00:00, 601.05it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 2/2 [00:00<00:00, 2017.95it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 8/8 [00:00<00:00, 765.63it/s]
+Calculating Metrics: 100%|█████████████████████████████████████████████████| 23/23 [00:00<00:00, 613.28it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 3/3 [00:00<00:00, 763.39it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 6/6 [00:00<00:00, 553.96it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 8/8 [00:00<00:00, 654.89it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 2/2 [00:00<00:00, 2087.76it/s]
+Calculating Metrics: 100%|███████████████████████████████████████████████████| 8/8 [00:00<00:00, 837.60it/s]
+Calculating Metrics: 100%|█████████████████████████████████████████████████| 23/23 [00:00<00:00, 613.76it/s]
+Calculating Metrics: 100%|████████████████████████████████████████████████████| 3/3 [00:00<00:00,  4.00it/s]
+Calculating Metrics: 100%|████████████████████████████████████████████████████| 8/8 [00:01<00:00,  6.28it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 11/11 [00:01<00:00,  7.23it/s]
+Calculating Metrics: 100%|████████████████████████████████████████████████████| 2/2 [00:00<00:00,  7.73it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 11/11 [00:01<00:00,  8.76it/s]
+Calculating Metrics: 100%|██████████████████████████████████████████████████| 29/29 [00:02<00:00, 12.15it/s]
+.
+======================================================================
+FAIL: test_build_docs (tests.test_filesystem_csv_service.TestFilesystemCsvService)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jay/Projects/data_qualitator/tests/test_filesystem_csv_service.py", line 44, in test_build_docs
+    assert result["success"] == True
+AssertionError
+
+----------------------------------------------------------------------
+Ran 6 tests in 55.925s
+
+FAILED (failures=1)
+
+```
+
+## Generate data docs
+
+```python
+# Save expectation suite after the tests
+validator.save_expectation_suite(discard_failed_expectations=False)
+
+# Perform a checkpoint
+checkpoint = dq.ge_context.add_or_update_checkpoint(
+  name="test_build_docs",
+  validator=validator
+)
+checkpoint.run()
+
+# Build data docs
+context.build_data_docs()
+
+# To access generated HTML report, open:
+# <project_root_dir>/uncommitted/data_docs/local_site/index.html
+```
+
+![data docs](https://i.ibb.co/sPrvBzq/screenshot-data-docs.png "data docs")
+
+## Code coverage report
+
+```cli
+(dq_env) (base) jay@MacBook-Air data_qualitator % coverage report -m --omit=setup.py
+Name                                                            Stmts   Miss  Cover   Missing
+---------------------------------------------------------------------------------------------
+data_qualitator/__init__.py                                         0      0   100%
+data_qualitator/factory.py                                          8      0   100%
+data_qualitator/provider.py                                        16      0   100%
+data_qualitator/services/__init__.py                                0      0   100%
+data_qualitator/services/filesystem/__init__.py                     0      0   100%
+data_qualitator/services/filesystem/csv/__init__.py                 0      0   100%
+data_qualitator/services/filesystem/csv/builder.py                  8      0   100%
+data_qualitator/services/filesystem/csv/service.py                 22      0   100%
+data_qualitator/services/filesystem/parquet/__init__.py             0      0   100%
+data_qualitator/services/filesystem/parquet/builder.py              8      0   100%
+data_qualitator/services/filesystem/parquet/service.py             22      0   100%
+data_qualitator/services/gcp/__init__.py                            0      0   100%
+data_qualitator/services/gcp/cloudstorage/__init__.py               0      0   100%
+data_qualitator/services/gcp/cloudstorage/csv/__init__.py           0      0   100%
+data_qualitator/services/gcp/cloudstorage/csv/builder.py            8      0   100%
+data_qualitator/services/gcp/cloudstorage/csv/service.py           24      0   100%
+data_qualitator/services/gcp/cloudstorage/parquet/__init__.py       0      0   100%
+data_qualitator/services/gcp/cloudstorage/parquet/builder.py        8      0   100%
+data_qualitator/services/gcp/cloudstorage/parquet/service.py       24      0   100%
+data_qualitator/services/sql/__init__.py                            0      0   100%
+data_qualitator/services/sql/builder.py                             8      0   100%
+data_qualitator/services/sql/service.py                            22      0   100%
+data_qualitator/utils/__init__.py                                   0      0   100%
+data_qualitator/utils/constants.py                                  5      0   100%
+tests/__init__.py                                                   0      0   100%
+tests/test_filesystem_csv_service.py                               25      0   100%
+tests/test_filesystem_parquet_service.py                           25      0   100%
+tests/test_googlecloudplatform_bigquery_service.py                 29      0   100%
+tests/test_googlecloudplatform_cloudstorage_csv.py                 25      0   100%
+tests/test_googlecloudplatform_cloudstorage_parquet.py             25      0   100%
+tests/test_postgresql_service.py                                   32      0   100%
+---------------------------------------------------------------------------------------------
+TOTAL                                                             344      0   100%
+
+```
+
+## Roadmap
+
+This is early development* version. I am currently considering:
+
+- [x] Local filesystem, CSV file type service support.
+- [x] Local filesystem, Parquet file type service support.
+- [x] Amazon Web Services, Athena service support.
+- [x] Amazon Web Services, Redshift service support.
+- [x] Google Cloud Platform, Cloud Storage service support.
+- [x] Google Cloud Platform, BigQuery SQL service support.
+- [x] Google Cloud Platform, CloudSQL service support.
+- [x] MySQL service support.
+- [x] MSSQL service support.
+- [x] PostgreSQL service support.
+- [x] Snowflake, SQL service support.
+- [ ] Amazon Web Services, S3 service support.
+- [ ] Apache Spark service support.
+- [ ] Microsoft Azure, Blob Storage service support.
+
+## Author
+
+```cli
+Jay Milagroso <j.milagroso@gmail.com>
+
+https://github.com/jmilagroso
+```
+
+## Reference
+https://greatexpectations.io/expectations/
