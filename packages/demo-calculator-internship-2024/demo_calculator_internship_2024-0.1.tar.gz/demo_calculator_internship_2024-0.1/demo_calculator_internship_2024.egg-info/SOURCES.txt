@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+setup.py
+demo_calculator_internship_2024.egg-info/PKG-INFO
+demo_calculator_internship_2024.egg-info/SOURCES.txt
+demo_calculator_internship_2024.egg-info/dependency_links.txt
+demo_calculator_internship_2024.egg-info/top_level.txt
