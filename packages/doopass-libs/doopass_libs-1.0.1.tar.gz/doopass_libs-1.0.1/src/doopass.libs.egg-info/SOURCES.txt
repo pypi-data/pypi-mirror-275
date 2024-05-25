@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+src/doopass.libs.egg-info/PKG-INFO
+src/doopass.libs.egg-info/SOURCES.txt
+src/doopass.libs.egg-info/dependency_links.txt
+src/doopass.libs.egg-info/top_level.txt
