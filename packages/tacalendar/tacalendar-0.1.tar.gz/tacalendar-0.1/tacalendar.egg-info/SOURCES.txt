@@ -1,0 +1,6 @@
+setup.py
+tacalendar.py
+tacalendar.egg-info/PKG-INFO
+tacalendar.egg-info/SOURCES.txt
+tacalendar.egg-info/dependency_links.txt
+tacalendar.egg-info/top_level.txt
