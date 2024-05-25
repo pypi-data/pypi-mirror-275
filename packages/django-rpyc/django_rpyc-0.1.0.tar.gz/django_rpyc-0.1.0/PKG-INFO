@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: django-rpyc
+Version: 0.1.0
+Summary: Django RPyC is a simple Django app that provides a remote procedure call (RPC) interface using RPyC.
+Author: Saba Gamgebeli
+Author-email: sabagamgebeli@gmail.com
+Maintainer: Saba Gamgebeli
+License: MIT
+Keywords: django,rpyc,rpc,remote procedure call
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
