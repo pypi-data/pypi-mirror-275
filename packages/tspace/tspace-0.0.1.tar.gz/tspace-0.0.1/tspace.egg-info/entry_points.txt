@@ -1,0 +1,2 @@
+[nbdev]
+tspace = tspace._modidx:d
