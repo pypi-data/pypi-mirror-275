@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "datatransformpackage"
+version = "1.0"
+description = "POC of a Python library that will help Data Scientist do transform their data"
+authors = ["Petra"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
