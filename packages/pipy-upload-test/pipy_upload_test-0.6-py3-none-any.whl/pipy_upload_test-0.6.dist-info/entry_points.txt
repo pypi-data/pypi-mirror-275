@@ -1,0 +1,2 @@
+[console_scripts]
+pipy_upload_test = project.main:main

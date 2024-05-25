@@ -1,0 +1,13 @@
+project/__init__.py,sha256=wUC3P8Eapc2xTLy-cGcgzzisVmGBzj8hn29dUFKHduo,44
+project/main.py,sha256=GSQM9xOuWdWZPobolf8aaBpKi7CaWpJQsLXcUEL-KX0,4498
+project/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+project/data/address_book_functions.py,sha256=urKAoXqUZ8S6p4j__1svRw7iIn_dymykwKAmhs6_an0,13580
+project/data/classes.py,sha256=8ykHQuikjvNCJji6qfj0QShuXvC7s6_eQUuqZDOaR1k,12403
+project/data/global_declarations.py,sha256=WtrC4_maNiV9S83MJKaaLbxbSni4RQg56dDeVTH9gPY,4095
+project/data/notebook_functions.py,sha256=7rLAbvJ7xPFJ24wGXJRGRwSlguomTYtB-eRtCoo-L2E,5744
+project/data/record.py,sha256=BO6fmrhVR8-r1YE25_sP3fr_T06xZq8Wr5Y3IqkcHdk,3251
+pipy_upload_test-0.6.dist-info/METADATA,sha256=MDmbLXBZPjUg5N6NzkkgwpM2Quv_r-BG9Wa5uMnENJI,7105
+pipy_upload_test-0.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pipy_upload_test-0.6.dist-info/entry_points.txt,sha256=lrza_g6GBKHn5HCWpmzGJBealVjpfsxatqJ6wmLp6uY,55
+pipy_upload_test-0.6.dist-info/top_level.txt,sha256=TlF2bnXqjOJKLBaN9-1i4CXAglwTmZ1h474uDQoYzWY,8
+pipy_upload_test-0.6.dist-info/RECORD,,
