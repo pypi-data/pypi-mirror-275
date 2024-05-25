@@ -1,0 +1,10 @@
+setup.py
+brainfuck_tool.egg-info/PKG-INFO
+brainfuck_tool.egg-info/SOURCES.txt
+brainfuck_tool.egg-info/dependency_links.txt
+brainfuck_tool.egg-info/top_level.txt
+src/brainfucktool/__init__.py
+src/brainfucktool/compiler.py
+src/brainfucktool/convert.py
+src/brainfucktool/debugger.py
+src/brainfucktool/shell.py
