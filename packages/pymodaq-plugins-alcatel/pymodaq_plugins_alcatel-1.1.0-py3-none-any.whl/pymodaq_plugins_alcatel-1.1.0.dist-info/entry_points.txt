@@ -1,0 +1,8 @@
+[pymodaq.extensions]
+alcatel = pymodaq_plugins_alcatel
+
+[pymodaq.pid_models]
+alcatel = pymodaq_plugins_alcatel
+
+[pymodaq.plugins]
+alcatel = pymodaq_plugins_alcatel
