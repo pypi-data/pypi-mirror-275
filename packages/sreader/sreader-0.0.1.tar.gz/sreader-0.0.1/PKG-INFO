@@ -1,0 +1,134 @@
+Metadata-Version: 2.1
+Name: sreader
+Version: 0.0.1
+Summary: space-reader: Convert any file path into LLM-friendly inputs
+Home-page: https://github.com/huangyz0918/space-reader
+Download-URL: https://github.com/huangyz0918/space-reader/archive/refs/heads/main.zip
+Author: Yizheng Huang, Silin Meng
+Author-email: huangyz0918@gmail.com
+Keywords: LLM,Large Language Model,data processing,data science
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools
+
+# Space Reader
+
+`space-reader` is a tool that can read a workspace URL and convert the content into LLM-friendly format.
+
+## Installation
+
+```shell
+pip install sreader
+```
+
+## Usage
+
+```python
+from sreader import read
+
+read("<workspace URL>")
+```
+
+## Support Workspace
+
+- Local File (e.g., `/Users/user/desktop/demo.pdf`)
+- Local Directory (e.g., `/Users/user/desktop/demo`)
+- Remote File with Access (e.g., `https://example.com/demo.pdf`)
+- GitHub Repo with Access (e.g., `https://github.com/user/demo`)
+
+## Support Formats
+
+#### Markdown
+
+```python
+read("<workspace URL>", format="markdown")
+
+"""
+## /Users/user/desktop/demo
+- ****
+  - a.py
+  - c.py
+  - b.py
+  - **d**
+    - g.py
+    - **f**
+      - f.py
+  - **e**
+"""
+```
+
+#### JSON and Dict
+
+```python
+read("<workspace URL>", format="json")  # or "dict"
+
+"""
+{
+    "/Users/user/desktop/demo": {
+        "files": [
+            "a.py",
+            "c.py",
+            "b.py"
+        ],
+        "dirs": {
+            "d": {
+                "files": [
+                    "g.py"
+                ],
+                "dirs": {
+                    "f": {
+                        "files": [
+                            "f.py"
+                        ],
+                        "dirs": {}
+                    }
+                }
+            },
+            "e": {
+                "files": [],
+                "dirs": {}
+            }
+        }
+    }
+}
+"""
+```
+
+#### Tree
+
+```python
+read("<workspace URL>", format="tree")
+
+"""
+/Users/user/desktop/demo
+└── 
+    ├── a.py
+    ├── c.py
+    ├── b.py
+    ├── d
+    │   ├── g.py
+    │   └── f
+    │       └── f.py
+    └── e
+"""
+```
+
+## Examples
+
+- [Simple print](https://github.com/huangyz0918/space-reader/blob/main/example/simple.py)
+- [File system Q&A Chatbot](https://github.com/huangyz0918/space-reader/blob/main/example/chatbot.py)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+

@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sreader/__init__.py
+sreader/reader.py
+sreader/utils.py
+sreader/version.py
+sreader.egg-info/PKG-INFO
+sreader.egg-info/SOURCES.txt
+sreader.egg-info/dependency_links.txt
+sreader.egg-info/not-zip-safe
+sreader.egg-info/requires.txt
+sreader.egg-info/top_level.txt
+tests/__init__.py
