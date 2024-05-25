@@ -1,0 +1,2 @@
+[console_scripts]
+setup_django = setup_django_apex.installer:create_django_project
