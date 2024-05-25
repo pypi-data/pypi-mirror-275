@@ -1,0 +1,5 @@
+click
+pyperclip
+snowflake-connector-python[pandas]
+python-dotenv
+openai
