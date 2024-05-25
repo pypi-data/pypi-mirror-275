@@ -1,0 +1,15 @@
+dinosaur-dycore
+dm-haiku
+gin-config
+jax
+jaxlib
+numpy
+optax
+pandas
+tensorflow_probability
+xarray
+
+[tests]
+absl-py
+chex
+pytest
