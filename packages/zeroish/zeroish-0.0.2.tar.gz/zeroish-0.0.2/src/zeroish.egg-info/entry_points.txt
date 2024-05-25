@@ -1,0 +1,2 @@
+[console_scripts]
+zeroish = zeroish.zeroish:main
