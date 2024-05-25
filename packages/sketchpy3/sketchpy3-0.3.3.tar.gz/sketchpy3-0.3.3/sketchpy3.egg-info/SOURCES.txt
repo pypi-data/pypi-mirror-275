@@ -1,0 +1,10 @@
+setup.py
+sketchpy3/__init__.py
+sketchpy3/canvas.py
+sketchpy3/library.py
+sketchpy3.egg-info/PKG-INFO
+sketchpy3.egg-info/SOURCES.txt
+sketchpy3.egg-info/dependency_links.txt
+sketchpy3.egg-info/requires.txt
+sketchpy3.egg-info/top_level.txt
+sketchpy3/files/trace.exe
