@@ -1,0 +1,9 @@
+mkdocs_pygments-0.0.1.dist-info/METADATA,sha256=jQNqU1baUZcasVnyY2RHVfxCxsYCD1Hgw0BRDu7Xcg4,4169
+mkdocs_pygments-0.0.1.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+mkdocs_pygments-0.0.1.dist-info/entry_points.txt,sha256=JeULOi0PaZnOsizW7FNxk1Bi9bWA0o9RXWSph5sagu8,67
+mkdocs_pygments-0.0.1.dist-info/licenses/LICENSE,sha256=nke00CVElTmhjAOYXkupvTNauLNPzBTuASi3u9moZ1U,754
+mkdocs_pygments/__init__.py,sha256=kpyR-UURJBrwrWAEXjIdU97GLi0uNVQV_5EdVf52LUg,131
+mkdocs_pygments/debug.py,sha256=uVgJ5o0v3G20xDpIOFiwuBRNfkRBbAGsSk5idikoYtY,2846
+mkdocs_pygments/plugin.py,sha256=H3_1q5PXHr5nP4WCJoDdNvyN4eqNIqWEJuCfe1JVLuI,642
+mkdocs_pygments/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocs_pygments-0.0.1.dist-info/RECORD,,
