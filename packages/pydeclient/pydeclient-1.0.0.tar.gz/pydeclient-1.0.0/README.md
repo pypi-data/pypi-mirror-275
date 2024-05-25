@@ -1,0 +1,36 @@
+# Decompiler-Client (declient)
+
+## Asynchronous Request 
+```python
+from declient import decompile_async, get_decompilers_async
+import asyncio
+async def main():
+    base_url = "http://localhost:8000"  # Example base URL
+    decompilers = await get_decompilers_async(base_url)
+
+    binary_path = "/path/to/binary"
+    address_list = ["0x1a00", "0x1b00"]  # Example address list
+
+    tasks = [
+        asyncio.create_task(decompile_async(binary_path, address_list, decompiler_name))
+        for decompiler in decompilers
+    ]
+    for task in tasks:
+        print(await task)
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```
+
+## Synchronous Request
+```python
+from declient import get_decompilers, decompile
+
+binary_path = "/path/to/binary"
+address_list = ["0x1a00", "0x1b00"]  
+base_url = "http://localhost:8000"  
+decompilers = get_decompilers(base_url)
+
+for decompiler_name in decompilers:
+    print(decompile(binary_path, address_list, decompiler_name, base_url))
+```
