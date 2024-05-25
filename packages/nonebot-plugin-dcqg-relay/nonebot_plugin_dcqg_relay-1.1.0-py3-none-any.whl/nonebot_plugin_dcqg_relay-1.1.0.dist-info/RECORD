@@ -1,0 +1,13 @@
+nonebot_plugin_dcqg_relay/__init__.py,sha256=6FTfJxjURaAxeMx_6yUVPWbK85BWrVXKpi467iGnyBs,2676
+nonebot_plugin_dcqg_relay/config.py,sha256=lTlhtI10R02oBPbVv83Rl7KC-v2loPvEc9Ry4Q-Bi7Y,524
+nonebot_plugin_dcqg_relay/dc_to_qq.py,sha256=IXfiSlGfsyWM1Fe9-MhBBdPLdMok6oAC5P15sELJkwE,9466
+nonebot_plugin_dcqg_relay/migrations/0105684994ff_move_from_sqlite.py,sha256=_CsnArOIDRzRkL0ezSbJZUysvEiWmyEmqjZsAuaHABs,1749
+nonebot_plugin_dcqg_relay/migrations/a9b783356705_init_db.py,sha256=SiDqTa18K6WiRbuegU9Mx8LIVTlCD8wHTNznxwd4jUw,1190
+nonebot_plugin_dcqg_relay/model.py,sha256=vC28sCK_qAmEwxpOJirP1skC0cCKo4Xa25uW-rYwchU,206
+nonebot_plugin_dcqg_relay/qq_emoji_dict.py,sha256=H3v21KoM-bjPYQrQkTb4JaAKLdjtvm6IfIrjbSNcHUU,6949
+nonebot_plugin_dcqg_relay/qq_to_dc.py,sha256=97JU5q7VstK8QdITqqhg4bIksUj1IYcWvGBtToS_nmQ,8600
+nonebot_plugin_dcqg_relay/utils.py,sha256=NgDOjsoPzc-hv3Mg8SN-X3Fel5y0GQ4mA2m3BkBXW8w,3135
+nonebot_plugin_dcqg_relay-1.1.0.dist-info/LICENSE,sha256=JO1kneCgLzy3DDQGVUNAwfiylYmzNQHVi3KAbnTMZvc,1068
+nonebot_plugin_dcqg_relay-1.1.0.dist-info/METADATA,sha256=6jGeWt3kQIhGyM1u6DTdqWWS0IdL--PLb1qYIlOIqZ0,3949
+nonebot_plugin_dcqg_relay-1.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+nonebot_plugin_dcqg_relay-1.1.0.dist-info/RECORD,,
