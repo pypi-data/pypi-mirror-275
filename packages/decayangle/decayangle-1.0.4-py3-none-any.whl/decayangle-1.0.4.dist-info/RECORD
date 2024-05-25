@@ -1,0 +1,12 @@
+decayangle/__about__.py,sha256=TzfsJ-EWRLlMJaH8odfOY8cvfysGGtslfC4CH2lZcaw,132
+decayangle/__init__.py,sha256=MC-JPhgLgf0gxA7bT46firE97r_XmqD8Il7jkAALFCs,110
+decayangle/backend.py,sha256=hPjOaP9JWOqU7mkopOcHYXwLpdhbUXQtjnVDCiBm3HA,83
+decayangle/config.py,sha256=UyMTDcz23Ik2vWyMbqRJ9jD0M7Vt1_o8wcAhqafYVx4,4293
+decayangle/decay_topology.py,sha256=qYsa0hCisgcTb7u5OIATOSKGXracXieyboOfuUr5his,34036
+decayangle/kinematics.py,sha256=shBdZow6TSKTH8y4lYVtaKVFrhjYVd4qBSD3n7FYoRU,20584
+decayangle/lorentz.py,sha256=CqVT8x170GeqDG1C-BAo7uPvmJo1FqWFFOMnGE3XdvI,3851
+decayangle/numerics_helpers.py,sha256=JB1Ar0H30fjiBdgQxPebFQhrrWtJnh_c5O8KnzSwDF0,751
+decayangle-1.0.4.dist-info/METADATA,sha256=5X2GvCASTGdlehCFXKJI51-9R94-0CE-UW5u8keGW28,13924
+decayangle-1.0.4.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+decayangle-1.0.4.dist-info/licenses/LICENSE.md,sha256=YdyGS0zTPwX62rEakOlsvRRbaL3LAo4YCYXHveAVYV8,1076
+decayangle-1.0.4.dist-info/RECORD,,
