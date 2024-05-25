@@ -1,0 +1,7 @@
+README.md
+setup.py
+hybridkf.egg-info/PKG-INFO
+hybridkf.egg-info/SOURCES.txt
+hybridkf.egg-info/dependency_links.txt
+hybridkf.egg-info/requires.txt
+hybridkf.egg-info/top_level.txt
