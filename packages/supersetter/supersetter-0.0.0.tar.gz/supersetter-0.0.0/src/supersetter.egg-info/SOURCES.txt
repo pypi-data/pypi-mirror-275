@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/supersetter/__init__.py
+src/supersetter.egg-info/PKG-INFO
+src/supersetter.egg-info/SOURCES.txt
+src/supersetter.egg-info/dependency_links.txt
+src/supersetter.egg-info/top_level.txt
