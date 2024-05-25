@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: image-helpers-system
+Version: 0.1.1
+Summary: A simple image processing utility library
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow
+
+```markdown
+# Image Helpers
+
+A simple image processing utility library.
+
+## Features
+
+- Resize images
+- Convert image formats
+- Apply blur filters
+- Apply sharpen filters
+
+## Installation
+
+You can install the package using pip:
+
+```sh
+pip install image_helpers
+```
+
+## Usage
+
+Here are some examples of how to use the library:
+
+### Importing the Library
+
+```python
+from image_helpers.image_ops import resize_image, convert_image_format, apply_blur_filter, apply_sharp_filter
+```
+
+### Resizing an Image
+
+Resize an image to the specified dimensions:
+
+```python
+resize_image('input.jpg', 'output.jpg', (800, 600))
+```
+
+### Converting Image Format
+
+Convert an image from one format to another:
+
+```python
+convert_image_format('input.jpg', 'output.png', 'PNG')
+```
+
+### Applying Blur Filter
+
+Apply a Gaussian blur filter to an image:
+
+```python
+apply_blur_filter('input.jpg', 'output.jpg', radius=5)
+```
+
+### Applying Sharpen Filter
+
+Apply a sharpen filter to an image:
+
+```python
+apply_sharp_filter('input.jpg', 'output.jpg')
+```
+
+## Functions
+
+### `resize_image(input_path, output_path, size)`
+
+Resize the image located at `input_path` to the specified `size` and save it to `output_path`.
+
+- `input_path`: Path to the input image.
+- `output_path`: Path to save the resized image.
+- `size`: Tuple specifying the new size `(width, height)`.
+
+### `convert_image_format(input_path, output_path, format)`
+
+Convert the image located at `input_path` to the specified `format` and save it to `output_path`.
+
+- `input_path`: Path to the input image.
+- `output_path`: Path to save the converted image.
+- `format`: The format to convert the image to (e.g., 'PNG', 'JPEG').
+
+### `apply_blur_filter(input_path, output_path, radius=2)`
+
+Apply a Gaussian blur filter to the image located at `input_path` and save it to `output_path`.
+
+- `input_path`: Path to the input image.
+- `output_path`: Path to save the blurred image.
+- `radius`: Radius of the blur (default is 2).
+
+### `apply_sharp_filter(input_path, output_path)`
+
+Apply a sharpen filter to the image located at `input_path` and save it to `output_path`.
+
+- `input_path`: Path to the input image.
+- `output_path`: Path to save the sharpened image.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
