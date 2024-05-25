@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+datawarehouse_connector/__init__.py
+datawarehouse_connector/connector.py
+datawarehouse_connector/constants.py
+datawarehouse_connector.egg-info/PKG-INFO
+datawarehouse_connector.egg-info/SOURCES.txt
+datawarehouse_connector.egg-info/dependency_links.txt
+datawarehouse_connector.egg-info/requires.txt
+datawarehouse_connector.egg-info/top_level.txt

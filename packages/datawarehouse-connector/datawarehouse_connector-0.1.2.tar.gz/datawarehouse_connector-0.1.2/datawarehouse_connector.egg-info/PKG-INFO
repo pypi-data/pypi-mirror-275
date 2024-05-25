@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: datawarehouse-connector
+Version: 0.1.2
+Summary: A package for database session management
+Home-page: https://github.com/Chandani7250/datawarehouse_connector
+Author: Poonam Saroj
+Author-email: poonam@coditation.com
+License: UNKNOWN
+Description: # Data Warehouse Connector
+        A Python module to establish connections to various data warehouses like Snowflake, Redshift, and PostgreSQL.
+        
+        # Overview
+        
+        This `README.md` file provides comprehensive instructions for installing, setting up, and using the `Data Warehouse Connector` module, ensuring users can easily establish connections to their data warehouses.
+        
+        ---
+        
+        # Data Warehouses
+        
+        ## Snowflake
+        
+        Requires `DB_SOURCE`, `USERNAME`, `HOST`, `PASSWORD`, `ROLE`, `WAREHOUSE`, and `DATABASE`.
+        
+        ```python
+        from datawarehouse_connector.connector import get_session
+        
+        snowflake_creds = {
+           "db_source": "snowflake",
+           "user": "user",
+           "password": "password",
+           "role": "role",
+           "warehouse": "warehouse",
+           "database": "database",
+           "host": "host",
+        }
+        
+        session = get_session(snowflake_creds)
+        session.close()
+        ```
+        
+        ## Redshift
+        
+        Requires `DB_SOURCE`, `USERNAME`, `HOST`, `PASSWORD`, and `DATABASE`.
+        
+        ```python
+        from datawarehouse_connector.connector import get_session
+        
+        redshift_creds = {
+           "db_source": "redshift",
+           "user": "user",
+           "password": "password",
+           "database": "database",
+           "host": "host",
+        }
+        
+        session = get_session(redshift_creds)
+        session.close()
+        ```
+        
+        ## PostgreSQL
+        
+        Requires `DB_SOURCE`, `USERNAME`, `HOST`, `PASSWORD`, and `DATABASE`.
+        
+        ```python
+        from datawarehouse_connector.connector import get_session
+        
+        postgresql_creds = {
+           "db_source": "postgresql",
+           "user": "user",
+           "password": "password",
+           "database": "database",
+           "host": "host",
+        }
+        
+        session = get_session(postgresql_creds)
+        session.close()
+        ```
+        
+        ---
+        
+        # Handling Connection
+        
+        Once the session is established, you can interact with your data warehouse using SQLAlchemy's ORM capabilities.
+        
+        ---
+        
+        # Troubleshooting
+        
+        ## Common Issues
+        
+        - Invalid Credentials: Ensure that the USERNAME and PASSWORD are correct.
+        - Host Unreachable: Verify the HOST address and network connectivity.
+        - Unsupported Data Source: Check if the DB_SOURCE is among the supported ones (snowflake, redshift, postgresql).
+        
+        ## Error Handling
+        
+        The `get_session` method prints exceptions to help identify issues during the connection process. Ensure that the provided connection details are accurate and the data warehouse is accessible.
+        
+        ---
+        
+        # Conclusion
+        
+        This module simplifies the process of connecting to various data warehouses. Follow the setup instructions carefully, and refer to the examples for guidance on using the `get_session` function. For further assistance, check the documentation or raise an issue on the project's GitHub repository.
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
