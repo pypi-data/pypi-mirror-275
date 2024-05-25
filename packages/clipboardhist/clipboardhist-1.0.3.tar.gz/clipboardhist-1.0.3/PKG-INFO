@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: clipboardhist
+Version: 1.0.3
+Summary: A simple clipboard history management tool
+Home-page: https://github.com/h1l2o/clipboardhist.git
+Author: HIRO TAKAGI
+Author-email: s2222103@stu.musashino-u.ac.jp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
