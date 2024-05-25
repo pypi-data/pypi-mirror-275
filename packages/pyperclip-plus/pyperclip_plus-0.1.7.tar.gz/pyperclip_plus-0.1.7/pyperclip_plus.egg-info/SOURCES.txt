@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyperclip_plus/__init__.py
+pyperclip_plus/clipboard_manager.py
+pyperclip_plus.egg-info/PKG-INFO
+pyperclip_plus.egg-info/SOURCES.txt
+pyperclip_plus.egg-info/dependency_links.txt
+pyperclip_plus.egg-info/requires.txt
+pyperclip_plus.egg-info/top_level.txt

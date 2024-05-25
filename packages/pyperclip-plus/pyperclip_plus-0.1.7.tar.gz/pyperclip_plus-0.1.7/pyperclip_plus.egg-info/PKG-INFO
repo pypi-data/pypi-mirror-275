@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: pyperclip-plus
+Version: 0.1.7
+Summary: An enhanced clipboard management tool
+Home-page: https://github.com/yourusername/pyperclip_plus
+Author: Your Name
+Author-email: your.email@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# pyperclip_plus
+
+`pyperclip_plus`は、クリップボード管理ツールを強化するPythonパッケージです。テキストをクリップボードにコピーし、コピーされたテキストの履歴を保持し、メインとセカンダリのクリップボードを切り替え、コピー履歴を検索し、コピーおよび貼り付け操作を遅延させて実行することができます。
+
+## 機能
+
+- **クリップボードへのコピー**: テキストをクリップボードにコピーし、メインのクリップボードを使用している場合は履歴に保存します。
+- **クリップボードからの貼り付け**: クリップボードから最新のテキストを貼り付けます。
+- **クリップボードの切り替え**: メインとセカンダリのクリップボードを切り替えます。
+- **履歴の検索**: コピー履歴の中からキーワードで検索します。
+- **スケジュールされたコピーおよび貼り付け**: 遅延後にコピーおよび貼り付け操作をスケジュールします。
+
+## インストール
+
+`pyperclip_plus`はpipを使用してインストールできます：
+
+```bash
+pip install pyperclip_plus
+```
+
+## 使用方法
+
+以下は、`pyperclip_plus`パッケージから`ClipboardManager`クラスを使用する例です：
+
+```python
+from pyperclip_plus import ClipboardManager
+
+manager = ClipboardManager()
+manager.switch_to_main()
+manager.copy("Hello, World!")
+print(manager.paste())  # 出力: Hello, World!
+print(manager.search_history("World"))  # 出力: ['Hello, World!']
+```
+
+## ClipboardManager クラス
+
+### メソッド
+
+1. **copy(text)**
+    - 指定されたテキストをクリップボードにコピーし、現在のクリップボードがメインの場合は履歴に追加します。
+    - パラメータ: `text` (str): コピーするテキスト。
+
+2. **paste()**
+    - 現在のクリップボードがメインであれば、最新のテキストをクリップボードから貼り付けます。
+    - 戻り値: クリップボードからの最新のテキスト、またはクリップボードが選択されていない場合の適切なメッセージ。
+
+3. **switch_to_main()**
+    - メインのクリップボードに切り替えます。
+
+4. **switch_to_secondary()**
+    - セカンダリのクリップボードに切り替えます。
+
+5. **search_history(keyword)**
+    - 指定されたキーワードを含む履歴エントリを検索します。
+    - パラメータ: `keyword` (str): 検索するキーワード。
+    - 戻り値: キーワードを含む履歴アイテムのリスト。
+
+6. **schedule_copy(text, delay)**
+    - 指定された遅延後にコピー操作をスケジュールします。
+    - パラメータ: `text` (str): コピーするテキスト。
+                  `delay` (int): コピー操作を行うまでの遅延時間（秒単位）。
+
+7. **schedule_paste(delay)**
+    - 指定された遅延後に貼り付け操作をスケジュールします。
+    - パラメータ: `delay` (int): 貼り付け操作を行うまでの遅延時間（秒単位）。
+
+## setup.py
+
+`setup.py`スクリプトは、`pyperclip_plus`プロジェクトをパッケージ化するために使用されます。
+
+```python
+from setuptools import setup, find_packages
+import pathlib
+
+here = pathlib.Path(__file__).parent
+long_description = (here / "README.md").read_text(encoding="utf-8")
+
+setup(
+    name='pyperclip_plus',
+    version='0.1.2',
+    packages=find_packages(),
+    description='クリップボード管理ツールの強化版',
+    author='Your Name',
+    author_email='your.email@example.com',
+    url='https://github.com/yourusername/pyperclip_plus',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+    ],
+)
+```
+
+このスクリプトは、パッケージ名、バージョン、説明、作者情報、プロジェクトURL、長い説明、分類子など、必要なメタデータを設定してパッケージを構築します。プロジェクトをパッケージ化する前に、プレースホルダを実際の情報に置き換えるようにしてください。
+
