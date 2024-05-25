@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "yoli"
+version = "0.0.0"
+description = "A simply cli app that indexes videos using YOLOv10"
+authors = ["drbh <david.richard.holtz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+yoli = "yoli.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
