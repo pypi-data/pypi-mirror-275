@@ -1,0 +1,11 @@
+README.md
+setup.py
+my_package/__init__.py
+my_package/module1.py
+my_package/module2.py
+unique_pdf_reader.egg-info/PKG-INFO
+unique_pdf_reader.egg-info/SOURCES.txt
+unique_pdf_reader.egg-info/dependency_links.txt
+unique_pdf_reader.egg-info/entry_points.txt
+unique_pdf_reader.egg-info/requires.txt
+unique_pdf_reader.egg-info/top_level.txt
