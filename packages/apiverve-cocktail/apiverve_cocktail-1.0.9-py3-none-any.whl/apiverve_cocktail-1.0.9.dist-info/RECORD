@@ -1,0 +1,11 @@
+apiverve_cocktail/__init__.py,sha256=wlHLnHBXmYJV02jZmbb61lF418K4thz0B0NMFH--1CE,40
+apiverve_cocktail/apiClient.py,sha256=kYIYKCkFSxr-D-2zxdAM3unM0o5_F0NoyaBj45lqOFQ,1210
+apiverve_cocktail/exceptions.py,sha256=VXltOait2uC0dEIqx8VVU5c9xESWTXkBoOXks8h4Sko,99
+apiverve_cocktail/setup.py,sha256=cwbO5TK0XnfRyL1is4sJbZDEQB3BkVVz4YVezwxMPFE,642
+apiverve_cocktail/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_cocktail/tests/test_api.py,sha256=tMn_OqURw_aGzsQBJ_ptCxm71YNkLQ1UoRBqSsTbiXQ,608
+apiverve_cocktail-1.0.9.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_cocktail-1.0.9.dist-info/METADATA,sha256=6o-Fg5q58wu1hj8GpipnLjY4WTdvGLMYn9q0iwtcnoU,22037
+apiverve_cocktail-1.0.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apiverve_cocktail-1.0.9.dist-info/top_level.txt,sha256=uLiZUPQV2hyQoyJsO7oj9Jjg4imApIKfNQSjyOdkdvI,18
+apiverve_cocktail-1.0.9.dist-info/RECORD,,
