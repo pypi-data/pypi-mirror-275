@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: tgemoji
+Version: 1.0.1
+Summary: Collection of text formatting utils for Telegram related libraries
+Home-page: https://github.com/yourusername/your_library
+Author: TurboPerdak
+Author-email: yarikvodila52@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# This compact library is designed to streamline text formatting and enhance emoji integration for Telegram-related applications.
+
+## converttools.aiogram2pyrogram
+
+**Description:** Replaces aiogram premium emoji tags with pyrogram ones
+
+**Params:**
+- **text** (str): Unformatted text
+
+**Returns:**
+- **text** (str): Formatted text
+
+## converttools.pyrogram2aiogram
+
+**Description:** Replaces pyrogram premium emoji tags with aiogram ones
+
+**Params:**
+- **text** (str): Unformatted text
+
+**Returns:**
+- **text** (str): Formatted text
+
