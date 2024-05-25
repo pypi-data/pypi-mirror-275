@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dariopdf/__init__.py
+dariopdf/pdf2image.py
+dariopdf/pdf2text.py
+dariopdf.egg-info/PKG-INFO
+dariopdf.egg-info/SOURCES.txt
+dariopdf.egg-info/dependency_links.txt
+dariopdf.egg-info/top_level.txt
