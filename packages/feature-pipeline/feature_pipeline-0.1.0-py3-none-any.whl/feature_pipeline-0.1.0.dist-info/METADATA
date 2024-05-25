@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: feature-pipeline
+Version: 0.1.0
+Summary: 
+Author: Iusztin Paul
+Author-email: p.e.iusztin@gmail.com
+Requires-Python: >=3.9,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fire (>=0.5.0,<0.6.0)
+Requires-Dist: hopsworks (==3.4.3)
+Requires-Dist: pandas (>=1.3.5)
+Requires-Dist: python-dotenv (>=0.21.1)
+Requires-Dist: requests (>=2.28.2,<3.0.0)
+Requires-Dist: yarl (>=1.8.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Feature Pipeline
+
+Check out [Lesson 1](https://medium.com/towards-data-science/a-framework-for-building-a-production-ready-feature-engineering-pipeline-f0b29609b20f) on Medium to better understand how we built the FE pipeline. 
+
+Also, check out [Lesson 5](https://towardsdatascience.com/ensuring-trustworthy-ml-systems-with-data-validation-and-real-time-monitoring-89ab079f4360) to learn how we implemented the data validation layer using Great Expectations.
+
+## Install for Development
+
+Create virtual environment:
+```shell
+cd feature-pipeline
+poetry shell
+poetry install
+```
+
+Check the [Set Up Additional Tools](https://github.com/iusztinpaul/energy-forecasting#-set-up-additional-tools-) and [Usage](https://github.com/iusztinpaul/energy-forecasting#usage) sections to see **how to set up** the **additional tools** and **credentials** you need to run this project.
+
+## Usage for Development
+
+To start the ETL pipeline run:
+```shell
+python -m feature_pipeline.pipeline
+```
+
+To create a new feature view run:
+```shell
+python -m feature_pipeline.feature_view
+```
+
+**NOTE:** Be careful to complete the `.env` file and set the `ML_PIPELINE_ROOT_DIR` variable as explained in the [Set Up the ML_PIPELINE_ROOT_DIR Variable](https://github.com/iusztinpaul/energy-forecasting#set-up-the-ml_pipeline_root_dir-variable) section of the main README.
+
