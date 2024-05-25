@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "taurex_MadhuSeager2009"
+version = "0.0.2"
+description = "MadhuSeager2009"
+authors = ["M. F. Bieger <mb987@exeter.ac.uk>"]
+license = "GPL-3.0"
+readme = "README.md"
+homepage = "https://github.com/michellebieger/MadhuSeager2009"
+repository = "https://github.com/michellebieger/MadhuSeager2009"
+classifiers = ["Development Status :: 1 - Planning"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+taurex = "^3.1.1a0"
+
+[tool.poetry.scripts]
+MadhuSeager2009 = "MadhuSeager2009.__main__:main"
+
+[tool.poetry.group.dev.dependencies]
+black = { version = "^22.10.0", allow-prereleases = true }
+ipython = "^8.6.0"
+jupyterlab = "^3.5.0"
+
+[tool.poetry.plugins."taurex.plugins"]
+taurex_MadhuSeager2009 = "taurex_MadhuSeager2009.taurex"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
