@@ -1,0 +1,9 @@
+README.md
+setup.py
+csv_identifier/__init__.py
+csv_identifier/csv_identifier.py
+csv_identifier.egg-info/PKG-INFO
+csv_identifier.egg-info/SOURCES.txt
+csv_identifier.egg-info/dependency_links.txt
+csv_identifier.egg-info/requires.txt
+csv_identifier.egg-info/top_level.txt
