@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "carveme-gut"
+version = "0.1.0"
+description = "CarveMe-Gut: Automated Metabolic Model Reconstruction for Gut Microbial Species and Communities"
+authors = ["Arianna Basile <basilearianna1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+diamond = "^4.0.515"
+cobra = "^0.29.0"
+reframed = "^1.5.1"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.2.1"
+requests-mock = "^1.12.1"
+
+
+[[tool.poetry.source]]
+name = "CarveMe-Gut"
+url = "https://pypi.org"
+priority = "supplemental"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
