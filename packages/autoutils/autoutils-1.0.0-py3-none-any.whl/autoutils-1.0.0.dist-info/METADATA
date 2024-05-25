@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: autoutils
+Version: 1.0.0
+Summary: Some Good Function
+Home-page: https://github.com/rezazeiny/autoutils
+License: MIT
+Keywords: autoutils
+Author: Reza Zeiny
+Author-email: rezazeiny1998@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: func-timeout (>=4.0,<5.0)
+Requires-Dist: requests (>=2.0,<3.0)
+Project-URL: Repository, https://github.com/rezazeiny/autoutils
+Description-Content-Type: text/markdown
+
+# autoutils
