@@ -1,0 +1,5 @@
+[FM14_transform.pygeoapi]
+test = FM14_transform.cli:my_cli_command
+
+[console_scripts]
+transform-file = FM15_transform:main
