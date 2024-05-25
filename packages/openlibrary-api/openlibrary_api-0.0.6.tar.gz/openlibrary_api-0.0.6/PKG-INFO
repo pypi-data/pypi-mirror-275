@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: openlibrary_api
+Version: 0.0.6
+Summary: A wrapper for the OpenLibrary API
+Project-URL: Homepage, https://github.com/angelt19/openlibrary_api
+Project-URL: Issues, https://github.com/angelt19/openlibrary_api/issues
+Author-email: Angel Thomas <tnf.angel.19@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# openlibrary_api
+ A python package providing a wrapper for the OpenLibrary API
