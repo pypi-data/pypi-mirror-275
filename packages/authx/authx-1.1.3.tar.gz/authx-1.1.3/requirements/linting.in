@@ -1,0 +1,6 @@
+pre-commit
+mypy
+black
+pyupgrade
+ruff
+codespell
