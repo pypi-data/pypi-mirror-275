@@ -1,0 +1,13 @@
+rottentomatoes-reviews-scraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rottentomatoes-reviews-scraper/click_button.py,sha256=cGiSIAtExQS5s7MQzRq_frR-jSBuVdU5pPUik9jqoxM,957
+rottentomatoes-reviews-scraper/csv_handler.py,sha256=Fry5XLSnPjfIOwSmeQZGGoh9JhNMJnxCa-hqUs_icwk,1699
+rottentomatoes-reviews-scraper/main.py,sha256=PdXwZ9q0MOsiCWYmImYpXK2571jusghSFAb7icV4lgo,2521
+rottentomatoes-reviews-scraper/maker.py,sha256=RMthJmXbZu0PGMdp8l7DywpZPh8SR_7XvhHaU9d0zDw,1120
+rottentomatoes-reviews-scraper/reviews_scraper.py,sha256=QhccQQDFtqIPabsvb0DkaiqhX-vurg6XdQdDFTfrXtc,4685
+rottentomatoes-reviews-scraper/titles_scraper.py,sha256=G6-SIU7biiH0qtFIziq1UouJvwcR6ZWc5N6kS6aai_0,3559
+rottentomatoes-reviews-scraper/webdriver_manger_driver.py,sha256=xpD7ncAuAlXOaCqdlykrZJprVu3iO3T1KF992Z7VvAo,375
+rottentomatoes_reviews_scraper-0.0.4.dist-info/METADATA,sha256=l2PMwxuPAqDtkO-Wou_LvP0bM_xaevZXZLwxteeo_jU,2718
+rottentomatoes_reviews_scraper-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+rottentomatoes_reviews_scraper-0.0.4.dist-info/entry_points.txt,sha256=tw7TEoIxnfJffdtVmA7m4CpV8ePAOq7pHnU_8TzqwS0,62
+rottentomatoes_reviews_scraper-0.0.4.dist-info/top_level.txt,sha256=TYHZGyW111850oqKAPhDLHTJv4aXyAhc9a-Iwn9jvG0,31
+rottentomatoes_reviews_scraper-0.0.4.dist-info/RECORD,,
