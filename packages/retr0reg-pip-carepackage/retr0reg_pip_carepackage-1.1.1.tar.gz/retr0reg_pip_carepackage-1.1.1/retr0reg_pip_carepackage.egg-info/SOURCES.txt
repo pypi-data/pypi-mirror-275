@@ -1,0 +1,7 @@
+setup.py
+retr0reg_pip_carepackage.egg-info/PKG-INFO
+retr0reg_pip_carepackage.egg-info/SOURCES.txt
+retr0reg_pip_carepackage.egg-info/dependency_links.txt
+retr0reg_pip_carepackage.egg-info/top_level.txt
+src/__init__.py
+src/main.py
