@@ -1,0 +1,2 @@
+rich
+scippneutron>=24.03.0
