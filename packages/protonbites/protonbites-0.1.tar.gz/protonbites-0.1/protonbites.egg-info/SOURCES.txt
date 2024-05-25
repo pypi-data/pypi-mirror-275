@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+protonbites/__init__.py
+protonbites/core.py
+protonbites/datatypes.py
+protonbites/schema.py
+protonbites/types.py
+protonbites.egg-info/PKG-INFO
+protonbites.egg-info/SOURCES.txt
+protonbites.egg-info/dependency_links.txt
+protonbites.egg-info/top_level.txt
