@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: doopass.libs
+Version: 1.0.1
+Summary: Libraries for doopass.tui project
+Author-email: Michael Nikishov <doopath@gmail.com>
+Project-URL: Homepage, https://github.com/doopath/PasswordManager
+Project-URL: Issues, https://github.com/doopath/PasswordManager/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Libraries for doopass.tui
