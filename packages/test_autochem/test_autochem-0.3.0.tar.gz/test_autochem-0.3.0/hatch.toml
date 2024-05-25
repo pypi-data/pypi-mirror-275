@@ -1,0 +1,10 @@
+[build]
+directory = "dist"
+
+[build.targets]
+wheel = { packages = [
+  "src/automol",
+  "src/autoreact",
+  "src/molsym",
+  "src/phydat",
+  ] }
