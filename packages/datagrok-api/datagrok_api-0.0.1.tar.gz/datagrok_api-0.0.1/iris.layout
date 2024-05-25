@@ -1,0 +1,1203 @@
+{
+  "#type": "ProjectLayout",
+  "layout": {
+    "views": [
+      {
+        "#type": "ViewLayout",
+        "viewStateMap": {
+          "containerType": "horizontal",
+          "state": {
+            "width": 981,
+            "height": 759
+          },
+          "children": [
+            {
+              "containerType": "panel",
+              "state": {
+                "width": 222,
+                "height": 759,
+                "element": {
+                  "id": "789d0d50-fec0-11ee-9974-7bd7b7385ac1",
+                  "type": "Filters",
+                  "look": {
+                    "#type": "FiltersLook",
+                    "filters": [
+                      {
+                        "type": "histogram",
+                        "column": "amazed-suprised",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      },
+                      {
+                        "type": "histogram",
+                        "column": "happy-pleased",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      },
+                      {
+                        "type": "histogram",
+                        "column": "relaxing-clam",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      },
+                      {
+                        "type": "histogram",
+                        "column": "quiet-still",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      },
+                      {
+                        "type": "histogram",
+                        "column": "sad-lonely",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      },
+                      {
+                        "type": "histogram",
+                        "column": "angry-aggresive",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      },
+                      {
+                        "type": "histogram",
+                        "column": "Mean_Acc1298_Mean_Mem40_Centroid",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      },
+                      {
+                        "type": "histogram",
+                        "column": "Mean_Acc1298_Mean_Mem40_Rolloff",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      },
+                      {
+                        "type": "histogram",
+                        "column": "Mean_Acc1298_Mean_Mem40_Flux",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      },
+                      {
+                        "type": "histogram",
+                        "column": "Mean_Acc1298_Mean_Mem40_MFCC_0",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      },
+                      {
+                        "type": "histogram",
+                        "column": "Mean_Acc1298_Mean_Mem40_MFCC_1",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      },
+                      {
+                        "type": "histogram",
+                        "column": "Mean_Acc1298_Mean_Mem40_MFCC_2",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      },
+                      {
+                        "type": "histogram",
+                        "column": "Mean_Acc1298_Mean_Mem40_MFCC_3",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      },
+                      {
+                        "type": "histogram",
+                        "column": "Mean_Acc1298_Mean_Mem40_MFCC_4",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      },
+                      {
+                        "type": "histogram",
+                        "column": "Mean_Acc1298_Mean_Mem40_MFCC_5",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      },
+                      {
+                        "type": "histogram",
+                        "column": "Mean_Acc1298_Mean_Mem40_MFCC_6",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      },
+                      {
+                        "type": "histogram",
+                        "column": "Mean_Acc1298_Mean_Mem40_MFCC_7",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      },
+                      {
+                        "type": "histogram",
+                        "column": "Mean_Acc1298_Mean_Mem40_MFCC_8",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      },
+                      {
+                        "type": "histogram",
+                        "column": "Mean_Acc1298_Mean_Mem40_MFCC_9",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      },
+                      {
+                        "type": "histogram",
+                        "column": "Mean_Acc1298_Mean_Mem40_MFCC_10",
+                        "active": true,
+                        "filterOutMissingValues": false,
+                        "showMissingValuesOnly": false,
+                        "showHistogram": true,
+                        "showSlider": true,
+                        "showMinMax": false,
+                        "boolInput": null
+                      }
+                    ]
+                  },
+                  "title": "Filters"
+                }
+              },
+              "children": []
+            },
+            {
+              "containerType": "fill",
+              "state": {
+                "width": 375,
+                "height": 759,
+                "documentManager": true
+              },
+              "children": [
+                {
+                  "containerType": "panel",
+                  "state": {
+                    "width": 375,
+                    "height": 759,
+                    "element": {
+                      "id": "789d8280-fec0-11ee-c14a-51d8abc40528",
+                      "type": "Grid",
+                      "look": {
+                        "#type": "GridLook",
+                        "showAddNewRowIcon": true,
+                        "addNewRowOnLastRowEdit": true,
+                        "topLevelDefaultMenu": true,
+                        "allowColumnMenu": true,
+                        "columns": [
+                          {
+                            "width": 36,
+                            "backgroundColor": 4294440951,
+                            "customName": "",
+                            "cellType": "row header",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 127,
+                            "columnName": "amazed-suprised",
+                            "cellType": "number",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 111,
+                            "columnName": "happy-pleased",
+                            "cellType": "number",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 105,
+                            "columnName": "relaxing-clam",
+                            "cellType": "number",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 81,
+                            "columnName": "quiet-still",
+                            "cellType": "number",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 86,
+                            "columnName": "sad-lonely",
+                            "cellType": "number",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 120,
+                            "columnName": "angry-aggresive",
+                            "cellType": "number",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 260,
+                            "columnName": "Mean_Acc1298_Mean_Mem40_Centroid",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 249,
+                            "columnName": "Mean_Acc1298_Mean_Mem40_Rolloff",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 235,
+                            "columnName": "Mean_Acc1298_Mean_Mem40_Flux",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 259,
+                            "columnName": "Mean_Acc1298_Mean_Mem40_MFCC_0",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 259,
+                            "columnName": "Mean_Acc1298_Mean_Mem40_MFCC_1",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 259,
+                            "columnName": "Mean_Acc1298_Mean_Mem40_MFCC_2",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 259,
+                            "columnName": "Mean_Acc1298_Mean_Mem40_MFCC_3",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 259,
+                            "columnName": "Mean_Acc1298_Mean_Mem40_MFCC_4",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 259,
+                            "columnName": "Mean_Acc1298_Mean_Mem40_MFCC_5",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 259,
+                            "columnName": "Mean_Acc1298_Mean_Mem40_MFCC_6",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 259,
+                            "columnName": "Mean_Acc1298_Mean_Mem40_MFCC_7",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 259,
+                            "columnName": "Mean_Acc1298_Mean_Mem40_MFCC_8",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 259,
+                            "columnName": "Mean_Acc1298_Mean_Mem40_MFCC_9",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 267,
+                            "columnName": "Mean_Acc1298_Mean_Mem40_MFCC_10",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 267,
+                            "columnName": "Mean_Acc1298_Mean_Mem40_MFCC_11",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 267,
+                            "columnName": "Mean_Acc1298_Mean_Mem40_MFCC_12",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 247,
+                            "columnName": "Mean_Acc1298_Std_Mem40_Centroid",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 237,
+                            "columnName": "Mean_Acc1298_Std_Mem40_Rolloff",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 222,
+                            "columnName": "Mean_Acc1298_Std_Mem40_Flux",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Mean_Acc1298_Std_Mem40_MFCC_0",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Mean_Acc1298_Std_Mem40_MFCC_1",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Mean_Acc1298_Std_Mem40_MFCC_2",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Mean_Acc1298_Std_Mem40_MFCC_3",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Mean_Acc1298_Std_Mem40_MFCC_4",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Mean_Acc1298_Std_Mem40_MFCC_5",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Mean_Acc1298_Std_Mem40_MFCC_6",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Mean_Acc1298_Std_Mem40_MFCC_7",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Mean_Acc1298_Std_Mem40_MFCC_8",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Mean_Acc1298_Std_Mem40_MFCC_9",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 254,
+                            "columnName": "Mean_Acc1298_Std_Mem40_MFCC_10",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 254,
+                            "columnName": "Mean_Acc1298_Std_Mem40_MFCC_11",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 254,
+                            "columnName": "Mean_Acc1298_Std_Mem40_MFCC_12",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 247,
+                            "columnName": "Std_Acc1298_Mean_Mem40_Centroid",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 237,
+                            "columnName": "Std_Acc1298_Mean_Mem40_Rolloff",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 222,
+                            "columnName": "Std_Acc1298_Mean_Mem40_Flux",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Std_Acc1298_Mean_Mem40_MFCC_0",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Std_Acc1298_Mean_Mem40_MFCC_1",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Std_Acc1298_Mean_Mem40_MFCC_2",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Std_Acc1298_Mean_Mem40_MFCC_3",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Std_Acc1298_Mean_Mem40_MFCC_4",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Std_Acc1298_Mean_Mem40_MFCC_5",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Std_Acc1298_Mean_Mem40_MFCC_6",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Std_Acc1298_Mean_Mem40_MFCC_7",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Std_Acc1298_Mean_Mem40_MFCC_8",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 246,
+                            "columnName": "Std_Acc1298_Mean_Mem40_MFCC_9",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 254,
+                            "columnName": "Std_Acc1298_Mean_Mem40_MFCC_10",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 254,
+                            "columnName": "Std_Acc1298_Mean_Mem40_MFCC_11",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 254,
+                            "columnName": "Std_Acc1298_Mean_Mem40_MFCC_12",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 234,
+                            "columnName": "Std_Acc1298_Std_Mem40_Centroid",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 224,
+                            "columnName": "Std_Acc1298_Std_Mem40_Rolloff",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 209,
+                            "columnName": "Std_Acc1298_Std_Mem40_Flux",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 233,
+                            "columnName": "Std_Acc1298_Std_Mem40_MFCC_0",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 233,
+                            "columnName": "Std_Acc1298_Std_Mem40_MFCC_1",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 233,
+                            "columnName": "Std_Acc1298_Std_Mem40_MFCC_2",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 233,
+                            "columnName": "Std_Acc1298_Std_Mem40_MFCC_3",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 233,
+                            "columnName": "Std_Acc1298_Std_Mem40_MFCC_4",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 233,
+                            "columnName": "Std_Acc1298_Std_Mem40_MFCC_5",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 233,
+                            "columnName": "Std_Acc1298_Std_Mem40_MFCC_6",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 233,
+                            "columnName": "Std_Acc1298_Std_Mem40_MFCC_7",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 233,
+                            "columnName": "Std_Acc1298_Std_Mem40_MFCC_8",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 233,
+                            "columnName": "Std_Acc1298_Std_Mem40_MFCC_9",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 241,
+                            "columnName": "Std_Acc1298_Std_Mem40_MFCC_10",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 241,
+                            "columnName": "Std_Acc1298_Std_Mem40_MFCC_11",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 241,
+                            "columnName": "Std_Acc1298_Std_Mem40_MFCC_12",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 128,
+                            "columnName": "BH_LowPeakAmp",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 130,
+                            "columnName": "BH_LowPeakBPM",
+                            "cellType": "number",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 132,
+                            "columnName": "BH_HighPeakAmp",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 133,
+                            "columnName": "BH_HighPeakBPM",
+                            "cellType": "number",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 130,
+                            "columnName": "BH_HighLowRatio",
+                            "cellType": "number",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 78,
+                            "columnName": "BHSUM1",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 78,
+                            "columnName": "BHSUM2",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          },
+                          {
+                            "width": 78,
+                            "columnName": "BHSUM3",
+                            "cellType": "number",
+                            "format": "0.000000",
+                            "contentCellStyle": {},
+                            "headerCellStyle": {}
+                          }
+                        ]
+                      },
+                      "title": "Table",
+                      "default": true
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "containerType": "vertical",
+              "state": {
+                "width": 382,
+                "height": 759
+              },
+              "children": [
+                {
+                  "containerType": "panel",
+                  "state": {
+                    "width": 382,
+                    "height": 376,
+                    "element": {
+                      "id": "789d8280-fec0-11ee-90ff-9fadc62d591b",
+                      "type": "Histogram",
+                      "look": {
+                        "#type": "HistogramLook",
+                        "valueColumnName": "Std_Acc1298_Std_Mem40_Centroid",
+                        "showXAxis": true,
+                        "bins": 54,
+                        "showYAxis": true,
+                        "binWidthRatio": 0.9,
+                        "marginLeft": 5,
+                        "marginRight": 5
+                      },
+                      "title": "Histogram"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "containerType": "panel",
+                  "state": {
+                    "width": 382,
+                    "height": 382,
+                    "element": {
+                      "id": "789da990-fec0-11ee-8010-a7a47beab736",
+                      "type": "Correlation plot",
+                      "look": {
+                        "#type": "CorrelationPlotLook",
+                        "xColumnNames": [
+                          "amazed-suprised",
+                          "happy-pleased",
+                          "relaxing-clam",
+                          "quiet-still",
+                          "sad-lonely",
+                          "angry-aggresive",
+                          "Mean_Acc1298_Mean_Mem40_Centroid",
+                          "Mean_Acc1298_Mean_Mem40_Rolloff",
+                          "Mean_Acc1298_Mean_Mem40_Flux",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_0",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_1",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_2",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_3",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_4",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_5",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_6",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_7",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_8",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_9",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_10",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_11",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_12",
+                          "Mean_Acc1298_Std_Mem40_Centroid",
+                          "Mean_Acc1298_Std_Mem40_Rolloff",
+                          "Mean_Acc1298_Std_Mem40_Flux",
+                          "Mean_Acc1298_Std_Mem40_MFCC_0",
+                          "Mean_Acc1298_Std_Mem40_MFCC_1",
+                          "Mean_Acc1298_Std_Mem40_MFCC_2",
+                          "Mean_Acc1298_Std_Mem40_MFCC_3",
+                          "Mean_Acc1298_Std_Mem40_MFCC_4",
+                          "Mean_Acc1298_Std_Mem40_MFCC_5",
+                          "Mean_Acc1298_Std_Mem40_MFCC_6",
+                          "Mean_Acc1298_Std_Mem40_MFCC_7",
+                          "Mean_Acc1298_Std_Mem40_MFCC_8",
+                          "Mean_Acc1298_Std_Mem40_MFCC_9",
+                          "Mean_Acc1298_Std_Mem40_MFCC_10",
+                          "Mean_Acc1298_Std_Mem40_MFCC_11",
+                          "Mean_Acc1298_Std_Mem40_MFCC_12",
+                          "Std_Acc1298_Mean_Mem40_Centroid",
+                          "Std_Acc1298_Mean_Mem40_Rolloff",
+                          "Std_Acc1298_Mean_Mem40_Flux",
+                          "Std_Acc1298_Mean_Mem40_MFCC_0",
+                          "Std_Acc1298_Mean_Mem40_MFCC_1",
+                          "Std_Acc1298_Mean_Mem40_MFCC_2",
+                          "Std_Acc1298_Mean_Mem40_MFCC_3",
+                          "Std_Acc1298_Mean_Mem40_MFCC_4",
+                          "Std_Acc1298_Mean_Mem40_MFCC_5",
+                          "Std_Acc1298_Mean_Mem40_MFCC_6",
+                          "Std_Acc1298_Mean_Mem40_MFCC_7",
+                          "Std_Acc1298_Mean_Mem40_MFCC_8",
+                          "Std_Acc1298_Mean_Mem40_MFCC_9",
+                          "Std_Acc1298_Mean_Mem40_MFCC_10",
+                          "Std_Acc1298_Mean_Mem40_MFCC_11",
+                          "Std_Acc1298_Mean_Mem40_MFCC_12",
+                          "Std_Acc1298_Std_Mem40_Centroid",
+                          "Std_Acc1298_Std_Mem40_Rolloff",
+                          "Std_Acc1298_Std_Mem40_Flux",
+                          "Std_Acc1298_Std_Mem40_MFCC_0",
+                          "Std_Acc1298_Std_Mem40_MFCC_1",
+                          "Std_Acc1298_Std_Mem40_MFCC_2",
+                          "Std_Acc1298_Std_Mem40_MFCC_3",
+                          "Std_Acc1298_Std_Mem40_MFCC_4",
+                          "Std_Acc1298_Std_Mem40_MFCC_5",
+                          "Std_Acc1298_Std_Mem40_MFCC_6",
+                          "Std_Acc1298_Std_Mem40_MFCC_7",
+                          "Std_Acc1298_Std_Mem40_MFCC_8",
+                          "Std_Acc1298_Std_Mem40_MFCC_9",
+                          "Std_Acc1298_Std_Mem40_MFCC_10",
+                          "Std_Acc1298_Std_Mem40_MFCC_11",
+                          "Std_Acc1298_Std_Mem40_MFCC_12",
+                          "BH_LowPeakAmp",
+                          "BH_LowPeakBPM",
+                          "BH_HighPeakAmp",
+                          "BH_HighPeakBPM",
+                          "BH_HighLowRatio",
+                          "BHSUM1",
+                          "BHSUM2",
+                          "BHSUM3"
+                        ],
+                        "yColumnNames": [
+                          "amazed-suprised",
+                          "happy-pleased",
+                          "relaxing-clam",
+                          "quiet-still",
+                          "sad-lonely",
+                          "angry-aggresive",
+                          "Mean_Acc1298_Mean_Mem40_Centroid",
+                          "Mean_Acc1298_Mean_Mem40_Rolloff",
+                          "Mean_Acc1298_Mean_Mem40_Flux",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_0",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_1",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_2",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_3",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_4",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_5",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_6",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_7",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_8",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_9",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_10",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_11",
+                          "Mean_Acc1298_Mean_Mem40_MFCC_12",
+                          "Mean_Acc1298_Std_Mem40_Centroid",
+                          "Mean_Acc1298_Std_Mem40_Rolloff",
+                          "Mean_Acc1298_Std_Mem40_Flux",
+                          "Mean_Acc1298_Std_Mem40_MFCC_0",
+                          "Mean_Acc1298_Std_Mem40_MFCC_1",
+                          "Mean_Acc1298_Std_Mem40_MFCC_2",
+                          "Mean_Acc1298_Std_Mem40_MFCC_3",
+                          "Mean_Acc1298_Std_Mem40_MFCC_4",
+                          "Mean_Acc1298_Std_Mem40_MFCC_5",
+                          "Mean_Acc1298_Std_Mem40_MFCC_6",
+                          "Mean_Acc1298_Std_Mem40_MFCC_7",
+                          "Mean_Acc1298_Std_Mem40_MFCC_8",
+                          "Mean_Acc1298_Std_Mem40_MFCC_9",
+                          "Mean_Acc1298_Std_Mem40_MFCC_10",
+                          "Mean_Acc1298_Std_Mem40_MFCC_11",
+                          "Mean_Acc1298_Std_Mem40_MFCC_12",
+                          "Std_Acc1298_Mean_Mem40_Centroid",
+                          "Std_Acc1298_Mean_Mem40_Rolloff",
+                          "Std_Acc1298_Mean_Mem40_Flux",
+                          "Std_Acc1298_Mean_Mem40_MFCC_0",
+                          "Std_Acc1298_Mean_Mem40_MFCC_1",
+                          "Std_Acc1298_Mean_Mem40_MFCC_2",
+                          "Std_Acc1298_Mean_Mem40_MFCC_3",
+                          "Std_Acc1298_Mean_Mem40_MFCC_4",
+                          "Std_Acc1298_Mean_Mem40_MFCC_5",
+                          "Std_Acc1298_Mean_Mem40_MFCC_6",
+                          "Std_Acc1298_Mean_Mem40_MFCC_7",
+                          "Std_Acc1298_Mean_Mem40_MFCC_8",
+                          "Std_Acc1298_Mean_Mem40_MFCC_9",
+                          "Std_Acc1298_Mean_Mem40_MFCC_10",
+                          "Std_Acc1298_Mean_Mem40_MFCC_11",
+                          "Std_Acc1298_Mean_Mem40_MFCC_12",
+                          "Std_Acc1298_Std_Mem40_Centroid",
+                          "Std_Acc1298_Std_Mem40_Rolloff",
+                          "Std_Acc1298_Std_Mem40_Flux",
+                          "Std_Acc1298_Std_Mem40_MFCC_0",
+                          "Std_Acc1298_Std_Mem40_MFCC_1",
+                          "Std_Acc1298_Std_Mem40_MFCC_2",
+                          "Std_Acc1298_Std_Mem40_MFCC_3",
+                          "Std_Acc1298_Std_Mem40_MFCC_4",
+                          "Std_Acc1298_Std_Mem40_MFCC_5",
+                          "Std_Acc1298_Std_Mem40_MFCC_6",
+                          "Std_Acc1298_Std_Mem40_MFCC_7",
+                          "Std_Acc1298_Std_Mem40_MFCC_8",
+                          "Std_Acc1298_Std_Mem40_MFCC_9",
+                          "Std_Acc1298_Std_Mem40_MFCC_10",
+                          "Std_Acc1298_Std_Mem40_MFCC_11",
+                          "Std_Acc1298_Std_Mem40_MFCC_12",
+                          "BH_LowPeakAmp",
+                          "BH_LowPeakBPM",
+                          "BH_HighPeakAmp",
+                          "BH_HighPeakBPM",
+                          "BH_HighLowRatio",
+                          "BHSUM1",
+                          "BHSUM2",
+                          "BHSUM3"
+                        ]
+                      },
+                      "title": "Correlation plot"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "floating": [],
+          "tableId": "673db9b0-fec0-11ee-aed2-1f693fbbd195",
+          "tableName": "Demog"
+        },
+        "id": "673f1940-fec0-11ee-b6fc-4721a3a72ef1",
+        "name": "Table_3",
+        "friendlyName": "Table"
+      }
+    ]
+  },
+  "project": {
+    "namespace": "Admin:",
+    "layout": {
+      "views": [
+        {
+          "name": "Table"
+        }
+      ]
+    },
+    "relations": [
+      {
+        "project": {
+          "namespace": "Admin:",
+          "layout": {
+            "views": [
+              {
+                "name": "Table"
+              }
+            ]
+          },
+          "relations": null,
+          "id": "67728550-fec0-11ee-e98c-470e7df1866c",
+          "name": "CopyOfTestSwagger1",
+          "friendlyName": "Copy of test-swagger-1",
+          "author": null,
+          "createdOn": "2024-05-23T15:11:34.126Z",
+          "updatedOn": "2024-05-23T15:11:34.126Z",
+          "pictureId": "673fdc90-fec0-11ee-e69f-ede474274ab1",
+          "metaParams": {}
+        },
+        "entity": {
+          "#type": "TableInfo",
+          "id": "673db9b0-fec0-11ee-aed2-1f693fbbd195"
+        },
+        "isLink": false,
+        "id": "6772d370-fec0-11ee-c6cb-2f9c76698318"
+      },
+      {
+        "project": {
+          "namespace": "Admin:",
+          "layout": {
+            "views": [
+              {
+                "name": "Table"
+              }
+            ]
+          },
+          "relations": null,
+          "id": "67728550-fec0-11ee-e98c-470e7df1866c",
+          "name": "CopyOfTestSwagger1",
+          "friendlyName": "Copy of test-swagger-1",
+          "author": null,
+          "createdOn": "2024-05-23T15:11:34.126Z",
+          "updatedOn": "2024-05-23T15:11:34.126Z",
+          "pictureId": "673fdc90-fec0-11ee-e69f-ede474274ab1",
+          "metaParams": {}
+        },
+        "entity": {
+          "#type": "ViewInfo",
+          "id": "673f1940-fec0-11ee-b6fc-4721a3a72ef1"
+        },
+        "isLink": false,
+        "id": "6772d370-fec0-11ee-a967-9f83533c5cea"
+      }
+    ],
+    "id": "67728550-fec0-11ee-e98c-470e7df1866c",
+    "name": "CopyOfTestSwagger1",
+    "friendlyName": "Copy of test-swagger-1",
+    "author": {
+      "id": "878c42b0-9a50-11e6-c537-6bf8e9ab02ee"
+    },
+    "createdOn": "2024-05-23T15:11:34.126Z",
+    "updatedOn": "2024-05-23T15:11:34.126Z",
+    "pictureId": "673fdc90-fec0-11ee-e69f-ede474274ab1",
+    "metaParams": {}
+  }
+}
