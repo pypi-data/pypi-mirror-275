@@ -1,0 +1,9 @@
+epyfun/__init__.py,sha256=TB5Pu9xQvu8P8VCv3w4FfVptGUqeWmPwnHP8XMs_XKI,149
+epyfun/fs.py,sha256=4CeJVdDewtiyZXz0Ct6j9PZzGgGmHrT2YC0Nc3D7tHI,3666
+epyfun/plotly.py,sha256=_vJaA_ThqY-gm3D002B8xLscoXdB2MWn3I4oFzYuI5I,7093
+epyfun/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+epyfun/web.py,sha256=E_4VTYt5ep58T9vPs4cW17pfxJFQ6oN7ZZx7A8OoRJ0,1424
+epyfun-0.3.5.dist-info/LICENSE,sha256=HcEnDjVREz8HozgFY41nfhlN9XYTpWEJAaT7n1DAIpg,1078
+epyfun-0.3.5.dist-info/METADATA,sha256=jiH1mCWoXY1a7CB5ElxvoNoM7pLM-L5LJVAd6BhKWSU,3281
+epyfun-0.3.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+epyfun-0.3.5.dist-info/RECORD,,
