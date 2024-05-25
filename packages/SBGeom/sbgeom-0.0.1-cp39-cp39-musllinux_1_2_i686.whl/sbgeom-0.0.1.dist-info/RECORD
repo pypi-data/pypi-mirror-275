@@ -1,0 +1,15 @@
+sbgeom-0.0.1.dist-info/METADATA,sha256=TzlST642SL0c6roWcYZIbT1yppuPArmehmbmrwfE-Uc,3133
+sbgeom-0.0.1.dist-info/RECORD,,
+sbgeom-0.0.1.dist-info/WHEEL,sha256=ka5mIuMFVLKctWIpTkhUUJWy7uPvRbV9OUhmLu2PQ3c,112
+sbgeom-0.0.1.dist-info/licenses/LICENSE.txt,sha256=S1pJL407BwTTXzZK0BQPNM7ZZs57uj1pTSfVZ8Whx30,1061
+sbgeom.libs/libgcc_s-f3fb5a36.so.1,sha256=SrjjCCuY7RHj-T9JLrY9XFMgCCpYD9Qmezr4uoJGVEQ,168321
+sbgeom.libs/libstdc++-d2a021ba.so.6.0.32,sha256=1zr_iwGwEBe95gyKdgiw7C4Y1RR9ijV40j66rk4elzg,3537349
+SBGeom/helper_functions_cpp.py,sha256=XGboGrb1tHOEuJZD4e49jOf57ZlPcDs_GWjAisSD8ks,571
+SBGeom/SBGeom_cpp.cpython-39-i386-linux-gnu.so,sha256=tgwayw4sYVtgCqyQBmebzHKlK20KaGONwrHsgzyk53U,474217
+SBGeom/HB_Boundary_representation.py,sha256=4QtHUAZk9Gr5vpD8Zn8U3xIcitmpZnXpRSUl2k3s7ZY,6256
+SBGeom/Optimisers.py,sha256=DiaohProoOyaKUJH_5IAQzq4rYJTulmpw4Y4xoI1vtY,2949
+SBGeom/Optimise_Blanket.py,sha256=zCZPsTzIFDWwNiQGovzQTEuDFrurjFjhSkZZ2XF7cpY,5094
+SBGeom/Optimise_Blanket_Direct.py,sha256=2gFmk7DNilhqs95PBmzKlZ2txWSBBhurjXvBUaHxDec,7086
+SBGeom/__init__.py,sha256=-UMCD1jOnL7VJZE8EfIVUmsVbtXmLyPvAEuWUR9Xd1A,254
+SBGeom/Coils.py,sha256=mS56cFmJ0UbPAFTXAOSY95LmgDsllDq7ruHaW1UD1wc,5788
+SBGeom/Flux_Surfaces.py,sha256=vDDBuGOHFrlztUNTfmu2TXdg9b5g8EATy_vhES0_QAY,943
