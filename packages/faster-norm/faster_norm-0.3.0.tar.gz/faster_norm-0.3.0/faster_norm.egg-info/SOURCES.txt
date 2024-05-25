@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+faster_norm/__init__.py
+faster_norm/faster_norm.cpp
+faster_norm/faster_norm.hpp
+faster_norm/faster_norm.py
+faster_norm/faster_norm_cuda.cu
+faster_norm.egg-info/PKG-INFO
+faster_norm.egg-info/SOURCES.txt
+faster_norm.egg-info/dependency_links.txt
+faster_norm.egg-info/top_level.txt
