@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: django-allauth-theme
+Version: 0.7.1
+Summary: An awesome and responsive django-allauth theme based on tailwind
+Home-page: http://pypi.python.org/pypi/django-allauth-theme/
+Author: Leonardo Di Lella
+Author-email: leonardo.dilella@mobileapart.com
+License: LICENSE
+Keywords: django auth account social openid twitter facebook oauth registration theme tailwindcss
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django>=2.0
+Requires-Dist: django-allauth>=0.51.0
+Requires-Dist: django-crispy-forms>=1.14.0
+
+# django-allauth-theme
+
+An awesome and responsive django-allauth theme based on tailwind.
+
+## Install
+
+```bash
+pip install django-allauth-theme
+```
+
+### Configuring the settings file
+
+First of all, add `allauth_theme` and `crispy_forms` to `INSTALLED_APPS`.
+
+```python
+INSTALLED_APPS = (
+  ...
+  'crispy_forms',
+  'allauth_theme',
+  ...
+)
+```
+
+Add following context processors to the list:
+
+```python
+TEMPLATES = [
+ {
+   ...
+   'OPTIONS': {
+      'context_processors': [
+        ...
+        'allauth_theme.context_processors.welcome_text'
+   ],
+  }
+ }
+]
+```
+
+Now include the urls in your urls.py
+
+```python
+urlpatterns = [
+    ...
+    path('', include('allauth_theme.urls')),
+    ...
+]
+```
+
+Configuration for settings:
+
+```python
+DAT_WELCOME_TITLE = 'Welcome Title'  # title
+DAT_WELCOME_TITLE_MOBILE = 'Welcome mobile'  # mobile title
+DAT_WELCOME_TEXT = 'Description of your project'  # text for your project
+DAT_GOOGLE_ENABLE_ONETAP_LOGIN = True  # decide if you want to show the google one tap login
+DAT_GOOGLE_CLIENT_ID = ''  # google client id , e.g. XXXXXXXXXX39-62ckbbeXXXXXXXXXXXXXXXXXXXXXm1.apps.googleusercontent.com
+DAT_BASE_URL = ''  # e.g. http://localhost:8000
+```
+
+### Google One Tap Login
+
+If you want to use the google one tap you must you must include following changes to your settings for developement environment:
+
+#### Some notices for the developing environment
+
+```python
+SECURE_REFERRER_POLICY = 'no-referrer-when-downgrade'
+```
+
+Add http://localhost, http://localhost:8000, http://127.0.0.1 and http://127.0.0.1:8000 to your "Authorized JavaScript origins" in your google developer console. While you are working in the development environment you must use "localhost" instead of "127.0.0.1". As "Authorized redirect URIs" just use following URIs if you are working in the development environment:
+
+```http://localhost:8000/accounts/google/login/callback/```
+
+You can add also use 127.0.0.1 as URI if you don't want to use Google One Tap functionally while developing.
