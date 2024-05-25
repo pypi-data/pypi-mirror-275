@@ -1,0 +1,9 @@
+systore/__init__.py,sha256=i5BZBL32D9oCmiJuCT1o9AE_bYbFh38HD3rEPzQaUbY,631
+systore/cpu.py,sha256=BRzcrpxrvqrBloqijjsswHyC0CuLd4XXV9Xj8JfFclk,822
+systore/disk.py,sha256=3vzHxZwtvu26g-SEp03WFIdYhzr5RbSKq3te1niUvr4,583
+systore/ram.py,sha256=V-ZCZfBpQpRoSnereS76h6RevjTBcWPQ92GNLZ_VIhg,545
+systore-1.0.0.dist-info/LICENSE,sha256=uQ7YFQptNxyEt9uqaAzQ6Yk-98JVh2Xh4AkwUT78_js,18072
+systore-1.0.0.dist-info/METADATA,sha256=MNN5Aak8w51-HzNuBaraYHeqhraRbknlAM2rpPXMjs0,2044
+systore-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+systore-1.0.0.dist-info/top_level.txt,sha256=tsCyYFHgkcHfmdHUfnpeizNZngnt6uEOlaYz1YJ3NEw,8
+systore-1.0.0.dist-info/RECORD,,
