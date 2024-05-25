@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: brainfuck-tool
+Version: 0.1.0
+Summary: This is the most complete "brainfuck" language tool
+Home-page: UNKNOWN
+Author: omid
+Author-email: omid377773@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+
+UNKNOWN
+
