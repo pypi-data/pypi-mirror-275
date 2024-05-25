@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+PyBetterThreads/BetterThread.py
+PyBetterThreads/__init__.py
+PyBetterThreads.egg-info/PKG-INFO
+PyBetterThreads.egg-info/SOURCES.txt
+PyBetterThreads.egg-info/dependency_links.txt
+PyBetterThreads.egg-info/top_level.txt
