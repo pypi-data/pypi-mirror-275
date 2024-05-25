@@ -1,0 +1,8 @@
+LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+__init__.py,sha256=j50kbSve1pIzc9DwwcOeUy9Ntpjb9NnIwMzjCrvlurg,734
+patched_decoder.py,sha256=4TNupuL3DzJ1-ytG8t4CAVJcKnoKVuYDDIn3BOou33I,15225
+timesfm.py,sha256=Ch-azb6HO9ew8mllAh7LMDq-Wnmg4gaLolA8Jl9eDTE,20999
+timesfm-0.0.9.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+timesfm-0.0.9.dist-info/METADATA,sha256=QRt4uh4fYIIR_veGOYKXJEPceIOi53VBoWU8fQu7vEA,7284
+timesfm-0.0.9.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+timesfm-0.0.9.dist-info/RECORD,,
