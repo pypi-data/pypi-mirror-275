@@ -1,0 +1,8 @@
+gdstk-0.9.52.dist-info/RECORD,,
+gdstk-0.9.52.dist-info/WHEEL,sha256=7BDoESbW6ePxuTpNlAm-lIAx3VJ18UcT6-z8vMIB_uc,112
+gdstk-0.9.52.dist-info/METADATA,sha256=mv1m9J6e2fcDnhmIY0fWVGw5En4NIxCoGJxdSUcIpo8,8718
+gdstk-0.9.52.dist-info/licenses/LICENSE,sha256=vrjkLp1rQoTgMwTQWoGgdVIAqWX8jQpeCuoehM-AXW4,1361
+gdstk/_gdstk.cpython-39-darwin.so,sha256=m4v2FLH2WX9TiiUdU7zx4DYGrw33xjGdyBGVM5gL_cU,1313240
+gdstk/__init__.py,sha256=RR5L88NqHyLuWtR0tyfgccVV6Pnz07KgRZKJCzYX59w,54
+gdstk/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gdstk/_gdstk.pyi,sha256=llICUnXrJJrT2zrVwbMiI1QFZtZOu9Ba8R2R4MjE51Y,35702
