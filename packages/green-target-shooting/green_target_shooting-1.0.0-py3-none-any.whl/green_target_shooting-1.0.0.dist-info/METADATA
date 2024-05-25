@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: green_target_shooting
+Version: 1.0.0
+Summary: Green Target Shooting game for Python
+Author: Okayama
+Keywords: game tkinter shooting
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Requires-Dist: tkinter
+
+A simple shooting game built with Python and Tkinter.
