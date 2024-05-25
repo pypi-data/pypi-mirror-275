@@ -1,0 +1,8 @@
+dariopdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dariopdf/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dariopdf/pdf2text.py,sha256=yXB2S3GiaVaYOwGnkolGIISVjQkD4eOO_1Z8TSDUUZA,37
+dariopdf-1.1.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+dariopdf-1.1.dist-info/METADATA,sha256=S4OtTPSIrAJ4jE871DlzL3DFoB6HuBNsqT62tEYxBe0,114
+dariopdf-1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dariopdf-1.1.dist-info/top_level.txt,sha256=Nt2FJTlGseTWy1tggGd8--Pv3VVOURSsZ1-0ktjqjsU,9
+dariopdf-1.1.dist-info/RECORD,,
