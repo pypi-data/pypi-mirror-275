@@ -1,0 +1,11 @@
+apiverve_distancecalculator/__init__.py,sha256=Jk0sq0ZmO-Qs9y6sJ_zHzEM8xCilHo7Oykqf18iQOGI,50
+apiverve_distancecalculator/apiClient.py,sha256=h78cIRYBpVWR0yP-9uS--GV3MxRO23M9WGe9Qx0NkMg,1236
+apiverve_distancecalculator/exceptions.py,sha256=GdrJrAsdk690Iz-N85Gjw6NEpt1yDprqonsHJh_zux0,119
+apiverve_distancecalculator/setup.py,sha256=MpgSaKSrbwttfM0KAqLvgXbZIKlAVtPOgzv4TsYXG50,667
+apiverve_distancecalculator/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_distancecalculator/tests/test_api.py,sha256=3PqCjP_oeE1wItoTF3QeL00IHj-K7U2Cy34GxtQWk2k,638
+apiverve_distancecalculator-1.0.11.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_distancecalculator-1.0.11.dist-info/METADATA,sha256=eT_HFZnzX93CSQarWeoXS-eTkdrYJtwBBJ2HDNIPJJ4,5752
+apiverve_distancecalculator-1.0.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apiverve_distancecalculator-1.0.11.dist-info/top_level.txt,sha256=0mDApxZqqF6oilb1TNOinbeya9BeikarAkzCsAljkFI,28
+apiverve_distancecalculator-1.0.11.dist-info/RECORD,,
