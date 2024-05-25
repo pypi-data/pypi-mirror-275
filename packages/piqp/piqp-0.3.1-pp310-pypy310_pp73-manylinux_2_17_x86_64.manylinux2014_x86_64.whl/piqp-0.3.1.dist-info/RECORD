@@ -1,0 +1,11 @@
+piqp/__init__.py,sha256=Wjb2QcsWaVeit-n248L7l7u603eEeamLdQOmJPjiE2Q,965
+piqp/piqp_python.pypy310-pp73-x86_64-linux-gnu.so,sha256=DjoO6rutH6QlgiZZTfA5Asa6XVGmIb_Fk8roTNZiRlA,618664
+piqp/__init__.pyi,sha256=fdK5N1oTKzZAJHPUChiYpflOSngLE_2P5bNoUWukNes,7739
+piqp/instruction_set.pypy310-pp73-x86_64-linux-gnu.so,sha256=yyx_9dALvRjRAOzYF-1ln_FsXW0I8TUkH7DXOBzgToA,204680
+piqp/piqp_python_avx512.pypy310-pp73-x86_64-linux-gnu.so,sha256=ih3-8uOWiDlEuI8d2rPgC7v40CuQ88B2Mi6EzViBn9k,733352
+piqp/piqp_python_avx2.pypy310-pp73-x86_64-linux-gnu.so,sha256=P6HnBp95Xh2dA7ARPsywep2xFsWz_uQzOHJCoFSKteE,688296
+piqp-0.3.1.dist-info/WHEEL,sha256=0p-T5AHFMCGOuiKS27tlM98JlE-NwlzCAN16C7Nmz0Y,166
+piqp-0.3.1.dist-info/LICENSE,sha256=Ql0WXOWsYrw_0c74NzT6Z4C8hEZYv8XpBMpFoBHf7HA,1313
+piqp-0.3.1.dist-info/top_level.txt,sha256=F-GFRluNmn1bIS3npWT9LVAqKKnPzP4_LX_vULOXLnE,5
+piqp-0.3.1.dist-info/RECORD,,
+piqp-0.3.1.dist-info/METADATA,sha256=cm8t7rEbW0a5xPCx_JmixiwvkOeiZ7H3uzPQtmPxSug,4884
