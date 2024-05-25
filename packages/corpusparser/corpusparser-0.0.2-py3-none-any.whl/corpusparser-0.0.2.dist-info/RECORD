@@ -1,0 +1,10 @@
+corpusparser/__init__.py,sha256=0422q9Tfq5x-MqHTiJ_W99F8fFEdjh8r1k0kKPsJu6s,126
+corpusparser/corpus.py,sha256=PP7-2MUmah27XoO_CPw2o1sHS4KjERAEbqJLK8fiRsw,212
+corpusparser/corpus_element.py,sha256=UrtKzpTvJP1HXp8-f5hXxeM6_zsgqhOk4ZJxr6dKxy8,23235
+corpusparser/document.py,sha256=t_R4OJ4jdWGghX0MfGZA80EtLR91VYmd7BVUJhl1RFw,11598
+corpusparser/sentence.py,sha256=KVbZkHH9Xxhx7Lm1mSwjUQIggyZGFFXRw7nUKgxtKQ8,7600
+corpusparser/word.py,sha256=DEnh5MON9psMkcH3B4-d6WIWTCnyjML-_RyBgZFarpU,1696
+corpusparser-0.0.2.dist-info/METADATA,sha256=8zRpWhkz3yTesoVUFib3GDWW0FDCkk11J1Cqs0At6Hg,13464
+corpusparser-0.0.2.dist-info/WHEEL,sha256=KGYbc1zXlYddvwxnNty23BeaKzh7YuoSIvIMO4jEhvw,87
+corpusparser-0.0.2.dist-info/licenses/LICENSE,sha256=C2lIrwUT1BeilLTF6nNh3wa-sIedB0KoIeNPYq_rLPI,1069
+corpusparser-0.0.2.dist-info/RECORD,,
