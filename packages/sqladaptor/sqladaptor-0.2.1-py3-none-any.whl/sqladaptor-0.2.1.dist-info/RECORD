@@ -1,0 +1,5 @@
+sqladaptor/__init__.py,sha256=uQTTOnnrYTg68NuFiKXyH5GlBl0TiQM9piz7vAOZyMM,33
+sqladaptor/sqlite.py,sha256=lo-kuePnTmU_cVRY6mTHVpbWkcH4_nIDVyeEC3JExZY,7075
+sqladaptor-0.2.1.dist-info/METADATA,sha256=97ahnVHw8X-mxK2kL29D7wqkNv-ajdubJDU50wTEx4A,1874
+sqladaptor-0.2.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+sqladaptor-0.2.1.dist-info/RECORD,,
