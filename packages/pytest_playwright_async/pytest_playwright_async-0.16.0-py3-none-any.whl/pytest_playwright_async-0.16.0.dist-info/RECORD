@@ -1,0 +1,8 @@
+pytest_playwright_async/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_playwright_async/__version__.py,sha256=qX-KMFKOAidxc-e-YhxlrHkiPwMEK3vXEyjnZ_JNVc0,19
+pytest_playwright_async/pytest_playwright_async.py,sha256=zr_40yqCjPFPoPFm70CQuXENgf6u9cgc6skHU8cpN4c,12205
+pytest_playwright_async-0.16.0.dist-info/METADATA,sha256=UT81jDqaCBGvPdermZtmFOm6r3dmeD75xfqLWuu1ANc,1731
+pytest_playwright_async-0.16.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pytest_playwright_async-0.16.0.dist-info/entry_points.txt,sha256=vUYc5k-sBo3A5Sxk_EGOmGh7Vc80RUBWKLM3K4-2LuQ,78
+pytest_playwright_async-0.16.0.dist-info/top_level.txt,sha256=IDeLfar1WhAEMZUBnt_1vl1JhVOabAwbH7_3iSK_09w,24
+pytest_playwright_async-0.16.0.dist-info/RECORD,,
