@@ -1,0 +1,6 @@
+include *.md
+include LICENSE
+prune docs
+prune examples
+prune notebooks
+prune tests
