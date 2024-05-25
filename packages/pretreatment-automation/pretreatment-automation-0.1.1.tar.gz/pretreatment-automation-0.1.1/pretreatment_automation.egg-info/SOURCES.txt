@@ -1,0 +1,7 @@
+README.md
+setup.py
+pretreatment_automation.egg-info/PKG-INFO
+pretreatment_automation.egg-info/SOURCES.txt
+pretreatment_automation.egg-info/dependency_links.txt
+pretreatment_automation.egg-info/requires.txt
+pretreatment_automation.egg-info/top_level.txt
