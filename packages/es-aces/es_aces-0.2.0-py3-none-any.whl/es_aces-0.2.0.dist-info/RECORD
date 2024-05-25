@@ -1,0 +1,16 @@
+aces/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aces/__main__.py,sha256=1MYn5kH8XhxS6Uio1N-YLAOmtb00PPz0rnCVzB4qT8g,2343
+aces/aggregate.py,sha256=YAP40CLthu9WMPFJVmDxMe6dKi75_-rcAJsiMJ86fAQ,95141
+aces/config.py,sha256=RsEtE7pxJLeW8VX3NKdmmfT4DzF6q_ln-BRL8fWcBIk,45355
+aces/constraints.py,sha256=iBFfpFUODX-yrlMArEhGVfdGcw1zxrcZqzbRqGx1DsM,5675
+aces/extract_subtree.py,sha256=LeWMzBl0cSD2-GM7zrr4R8FmxUZBbM_gLLW1X7NIbyE,24206
+aces/predicates.py,sha256=hVJV53oRO9b1nGBnVjGCifl-GFH-YxDBv_kFZwJF5Dw,14960
+aces/query.py,sha256=s9kXQGvzYnn9H6-yfTYPTJlhRzVBfIIMl5AA71k4ge4,1687
+aces/types.py,sha256=emogCRzP31N6k1rPdoSxPlYEz4eS9J-e2RRX0yIFplQ,12547
+aces/utils.py,sha256=YeY6Frncj7RUCm2Z4-WkjlCtEdaagAL8bz-YpWN8OPw,1745
+es_aces-0.2.0.dist-info/LICENSE,sha256=emQiag9c889YjoblfgJXb-VXBF0JmoiurQ3GqUuRjHc,1085
+es_aces-0.2.0.dist-info/METADATA,sha256=m0D3elAVYCXgnVIUZwRQ7B-EPEWNq-AcJmQxSk4krhQ,9736
+es_aces-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+es_aces-0.2.0.dist-info/entry_points.txt,sha256=jzhLKh-F3hYKM6gPoOBQsjjadpWZ98VoHaOstKWMABA,48
+es_aces-0.2.0.dist-info/top_level.txt,sha256=m2PtBryfLgXTVAGtxVQaR1odlw4m5O8XWXulNygXK10,5
+es_aces-0.2.0.dist-info/RECORD,,
