@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pyspimdbg
+Version: 0.1
+Home-page: https://github.com/Gabrain24/pyspimdbg
+Author: Gabrain24 (forked from pyspim by Jason Yosinski)
+License-File: COPYING
+Requires-Dist: pexpect
+
