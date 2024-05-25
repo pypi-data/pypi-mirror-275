@@ -1,0 +1,15 @@
+libusb1>=2.0.1
+libscrc>=1.8.0
+platformdirs>=2.6.2
+psutil>=5.9.4
+requests>=2.26.0
+tqdm>=4.1.0
+
+[:python_version < "3.11"]
+typing_extensions
+
+[:sys_platform == "linux"]
+pyudev>=0.24.3
+
+[:sys_platform == "win32"]
+pywin32>=306
