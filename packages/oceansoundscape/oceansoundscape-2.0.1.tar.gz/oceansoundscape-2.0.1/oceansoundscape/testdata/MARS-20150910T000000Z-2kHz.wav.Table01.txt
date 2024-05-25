@@ -1,0 +1,3 @@
+Selection	View	Channel	Low Freq (Hz)	High Freq (Hz)	Delta Time (s)	Occupancy	Classification	classification	Predicted	Filename	Score	Key	Begin Time (s)	End Time (s)
+2	Spectrogram 1	1	70.0	90.0	19.2	0.6	baf						161.79	180.99
+3	Spectrogram 1	1	70.0	90.0	14.848	0.4655	bat						492.542	507.39

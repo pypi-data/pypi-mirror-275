@@ -1,0 +1,71 @@
+[tool.poetry]
+name = "oceansoundscape"
+version = "2.0.1"
+description = "A python package for analyzing ocean acoustic data. "
+authors = ["Danelle Cline <dcline@mbari.org>"]
+repository = "https://github.com/mbari-org/oceansoundscape"
+packages = [{include = "oceansoundscape"}]
+readme = "README.md"
+keywords = ["ocean", "acoustic", "soundscape", "analysis"]
+license = "GPL3"
+classifiers = [
+    'Development Status :: 1 - Planning',
+    'Environment :: Console',
+    'Intended Audience :: Developers',
+    'Intended Audience :: Science/Research',
+    'License :: OSI Approved :: GNU General Public License (GPL)',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11'
+]
+
+[tool.semantic_release]
+version_variable = [
+    "oceansoundscape/__init__.py:__version__"
+]
+version_toml = [
+    "pyproject.toml:tool.poetry.version"
+]
+branch = "main"
+upload_to_pypi = false
+upload_to_release = true
+tag_format = "v{version}"
+build_command = "pip install poetry && poetry build"
+
+[tool.semantic_release.remote.token]
+env = "GH_TOKEN"
+
+[tool.semantic_release.changelog]
+changelog_file = "docs/CHANGELOG.md"
+exclude_commit_patterns = [
+  '''chore(?:\([^)]*?\))?: .+''',
+  '''ci(?:\([^)]*?\))?: .+''',
+  '''refactor(?:\([^)]*?\))?: .+''',
+  '''style(?:\([^)]*?\))?: .+''',
+  '''test(?:\([^)]*?\))?: .+''',
+  '''build\((?!deps\): .+)''',
+  '''Merged? .*''',
+  '''Initial Commit.*''',
+  # Old semantic-release version commits
+  '''^\d+\.\d+\.\d+''',
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<=3.11.0"
+numpy = "1.23.5"
+pandas = "^1.5.3"
+scipy = "^1.10.0"
+h5py = "^3.8.0"
+opencv-python-headless = "^4.7.0"
+librosa = "^0.9.1"
+matplotlib = "^3.6.3"
+soundfile = "^0.10.3.post1"
+scikit-learn = "^1.5.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
