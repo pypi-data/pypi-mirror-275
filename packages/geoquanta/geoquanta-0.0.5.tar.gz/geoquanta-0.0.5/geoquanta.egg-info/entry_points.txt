@@ -1,0 +1,2 @@
+[console_scripts]
+geoquanta = geoquanta.cli:main

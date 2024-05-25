@@ -1,0 +1,10 @@
+numpy
+ipyleaflet
+pandas
+localtileserver
+
+[all]
+geoquanta[extra]
+
+[extra]
+pandas
