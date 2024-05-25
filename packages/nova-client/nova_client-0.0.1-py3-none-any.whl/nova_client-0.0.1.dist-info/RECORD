@@ -1,0 +1,12 @@
+nova_client/__init__.py,sha256=DlDbWBscjeAsodfj4uv0uh9HuA7wNOuDQr2c1BOsTMw,130
+nova_client/adapter.py,sha256=sjxVxmgCe5yAGngMHkgKH9v1DwKuJUD6Xi2XeA0QYDI,4996
+nova_client/chat_session_client.py,sha256=whNVrCJ0v6-dMlaEznoPU2BRE7Yq6xSJTVZEiwBUSYA,5027
+nova_client/client.py,sha256=-aB2obQRFVWTM-hhYG_7g39rlykVIuJYUQj75pNLyQ4,415
+nova_client/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nova_client/models/requests.py,sha256=iNq-lf43qlRxyWENnzbo1liusdH2QeKDOh7VqFpkPYs,1546
+nova_client/models/responses.py,sha256=8LqBpc1W7JAtmUtC5frrp73NKdMLzaOp40y44e1XwJo,2402
+nova_client-0.0.1.dist-info/LICENSE,sha256=ecd_X06LTiWRd0FHTUCyR9JGz0jqRCshjml7idhAh5A,1085
+nova_client-0.0.1.dist-info/METADATA,sha256=J5zsoXqRacq52gsH0YemiZ3649QyGyMnD7UG0t2WJUg,2145
+nova_client-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+nova_client-0.0.1.dist-info/top_level.txt,sha256=lOq_cvZrQtJLsGcGcMkhY__k_bYRQPd8jPAdleZqdGc,12
+nova_client-0.0.1.dist-info/RECORD,,
