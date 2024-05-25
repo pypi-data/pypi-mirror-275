@@ -1,0 +1,10 @@
+sreader/__init__.py,sha256=bjUOVxSP9__xQNPJe6MmKoX9L5tegCivYQVeeVHtA5I,25
+sreader/reader.py,sha256=QSnwMHPlT05bPVR5PUSPJYgmKu0u4f2guoaUzhjcLvw,4239
+sreader/utils.py,sha256=Sk0pXL1-4tvJYZiWjeyff58olR6rL2o6kGodIR6lmeQ,2851
+sreader/version.py,sha256=JFI4TSCvVcHlvLK25iixyi-vkIBHu7dDyMDyo3Bh454,438
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sreader-0.0.1.dist-info/LICENSE,sha256=AjxColwmgcFRdvqPpL5tJlGvMjE54dkxE0uegY1Ow34,1070
+sreader-0.0.1.dist-info/METADATA,sha256=suhuE-cUWjKvZMHzmsFC0sTjC3DNSd8pC3_7jPbEMsA,2951
+sreader-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sreader-0.0.1.dist-info/top_level.txt,sha256=i3FciCUzjH3T71Jp5GjrXQVfKW8OZPSiBMulSG7ZjxA,14
+sreader-0.0.1.dist-info/RECORD,,
