@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+Context_Aware_Jenkins_Job_Transfer.egg-info/PKG-INFO
+Context_Aware_Jenkins_Job_Transfer.egg-info/SOURCES.txt
+Context_Aware_Jenkins_Job_Transfer.egg-info/dependency_links.txt
+Context_Aware_Jenkins_Job_Transfer.egg-info/requires.txt
+Context_Aware_Jenkins_Job_Transfer.egg-info/top_level.txt
+src/insidesrc/__init__.py
+src/insidesrc/example.py
