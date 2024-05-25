@@ -1,0 +1,71 @@
+---
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+    paths-ignore: [ ".github/**" ]
+  pull_request:
+    branches: [ "main" ]
+    paths-ignore: [ ".github/**" ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
+
+    # Required for the PR comment action
+    # permissions:
+    #   pull-requests: write
+
+    steps:
+    - uses: actions/checkout@v4
+    - uses: eifinger/setup-rye@v3
+      id: setup-rye
+      with:
+        enable-cache: false
+        cache-prefix: ${{ matrix.python-version }}
+    - name: Pin python-version ${{ matrix.python-version }}
+      # if: steps.setup-rye.outputs.cache-hit != 'true'
+      run: rye pin ${{ matrix.python-version }}
+    - name: Install dependencies
+      # if: steps.setup-rye.outputs.cache-hit != 'true'
+      run: rye sync --no-lock
+    - name: Rye format
+      run: rye fmt --check
+    - name: Rye lint
+      run: rye lint
+    - name: Run tests
+      run: |
+        echo '```' > pytest.log
+        rye test | tee -a pytest.log
+        echo '```' >> pytest.log
+    # Disabled until we get this to work only once in the matrix
+    # - name: PR comment pytest output
+    #   uses: thollander/actions-comment-pull-request@v2
+    #   with:
+    #     filePath: pytest.log
+    #   if: github.event_name == 'pull_request'
+
+  # This job is to ensure that there's a status check to protect branches with
+  results:
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    name: Final Results
+    needs: [test]
+    steps:
+      - run: exit 1
+        # see https://stackoverflow.com/a/67532120/4907315
+        if: >-
+          ${{
+               contains(needs.*.result, 'failure')
+            || contains(needs.*.result, 'cancelled')
+            || contains(needs.*.result, 'skipped')
+          }}
