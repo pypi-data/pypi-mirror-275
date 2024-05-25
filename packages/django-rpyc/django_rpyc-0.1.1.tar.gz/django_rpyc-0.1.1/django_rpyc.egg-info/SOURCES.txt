@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+setup.cfg
+setup.py
+django_rpyc/__init__.py
+django_rpyc/apps.py
+django_rpyc/decorators.py
+django_rpyc/server.py
+django_rpyc.egg-info/PKG-INFO
+django_rpyc.egg-info/SOURCES.txt
+django_rpyc.egg-info/dependency_links.txt
+django_rpyc.egg-info/top_level.txt
+django_rpyc/migrations/__init__.py
+tests/__init__.py
+tests/test_decorators.py
+tests/test_server.py
