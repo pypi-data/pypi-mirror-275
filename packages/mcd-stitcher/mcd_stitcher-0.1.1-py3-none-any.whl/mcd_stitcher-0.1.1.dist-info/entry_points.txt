@@ -1,0 +1,4 @@
+[console_scripts]
+imc2zarr = mcd_stitcher.converter:main
+mcd_stitch = mcd_stitcher.mcd_stitch:main
+zarr_stitch = mcd_stitcher.stitcher:main
