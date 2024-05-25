@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+mathutilities/__init__.py
+mathutilities/all_operations.py
+mathutilities/geometry.py
+mathutilities/operations.py
+mathutilities.egg-info/PKG-INFO
+mathutilities.egg-info/SOURCES.txt
+mathutilities.egg-info/dependency_links.txt
+mathutilities.egg-info/top_level.txt
