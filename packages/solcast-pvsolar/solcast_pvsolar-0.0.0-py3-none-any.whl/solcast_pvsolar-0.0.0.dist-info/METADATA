@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: solcast-pvsolar
+Version: 0.0.0
+Summary: A small example package
+Author-email: oziee <author@example.com>
+Project-URL: Homepage, https://github.com/oziee/solcast-pvsolar
+Project-URL: Issues, https://github.com/oziee/solcast-pvsolar/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Solcast-PVSolar API 
+<em>Used with HA Solcast Integration</em>
+
+
+[![Publish 📦 to PyPI](https://github.com/oziee/solcast-pvsolar/actions/workflows/publish-to-pypi.yml/badge.svg)](https://github.com/oziee/solcast-pvsolar/actions/workflows/publish-to-pypi.yml) 
