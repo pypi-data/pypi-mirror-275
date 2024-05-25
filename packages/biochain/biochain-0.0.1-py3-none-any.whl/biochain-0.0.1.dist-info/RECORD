@@ -1,0 +1,10 @@
+biochain/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biochain/__main__.py,sha256=pofwxyw9b7VwGrTzVQN8Qz2dfnrWbiqoKSLuEjNWBjQ,142
+biochain/base.py,sha256=zf1BSXktDuyCybo769PQj0AtAhFSNrjOlZvWZ5s38S0,326
+biochain/cli.py,sha256=GNDJPRuhzzhwHPuuHHuSAoZafqbrgtUcGdqVvnO6rnM,743
+biochain-0.0.1.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+biochain-0.0.1.dist-info/METADATA,sha256=JKIDZA6vats4WVjC6huQk25d6XRzdeKMy7IWrX5YvV8,1268
+biochain-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+biochain-0.0.1.dist-info/entry_points.txt,sha256=xrkQ0Fdzx3TVtxkiyX54IOcJ9jagPWIiTGj-Gr89b9o,52
+biochain-0.0.1.dist-info/top_level.txt,sha256=9WzudHS0NrFAiFt7QQr6HA82wb5z7-W9TKTQHuiaxcI,9
+biochain-0.0.1.dist-info/RECORD,,
