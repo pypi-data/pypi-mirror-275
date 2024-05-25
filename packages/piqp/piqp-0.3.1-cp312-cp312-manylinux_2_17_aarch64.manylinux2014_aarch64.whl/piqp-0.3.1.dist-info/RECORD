@@ -1,0 +1,9 @@
+piqp/__init__.py,sha256=Wjb2QcsWaVeit-n248L7l7u603eEeamLdQOmJPjiE2Q,965
+piqp/piqp_python.cpython-312-aarch64-linux-gnu.so,sha256=mJpxMw8i_CZ5qDCPv76_q-01StYkvFn6fMKHCVNooII,528496
+piqp/__init__.pyi,sha256=fdK5N1oTKzZAJHPUChiYpflOSngLE_2P5bNoUWukNes,7739
+piqp/instruction_set.cpython-312-aarch64-linux-gnu.so,sha256=7O0vziUg6-jrr7agQqbCJJpA8zFey6a8oe2XcNVlO1c,200512
+piqp-0.3.1.dist-info/WHEEL,sha256=-j0-2NVSo0gFSrnGJfuTToCNj7NxlPWXeugKenW0lpI,154
+piqp-0.3.1.dist-info/LICENSE,sha256=Ql0WXOWsYrw_0c74NzT6Z4C8hEZYv8XpBMpFoBHf7HA,1313
+piqp-0.3.1.dist-info/top_level.txt,sha256=F-GFRluNmn1bIS3npWT9LVAqKKnPzP4_LX_vULOXLnE,5
+piqp-0.3.1.dist-info/RECORD,,
+piqp-0.3.1.dist-info/METADATA,sha256=cm8t7rEbW0a5xPCx_JmixiwvkOeiZ7H3uzPQtmPxSug,4884
