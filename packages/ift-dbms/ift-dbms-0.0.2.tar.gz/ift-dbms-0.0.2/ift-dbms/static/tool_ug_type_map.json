@@ -1,0 +1,17 @@
+{
+"ug_type":
+	{
+	"0":"Mill",
+	"1":"Drill",
+	"2":"Turn",
+	"3":"Groove",
+	"4":"Thread",
+	"5":"Wedm",
+	"6":"Thread",
+	"8":"Barrel",
+	"9":"Tcutter",
+	"10":"Form",
+	"12":"Solid",
+	"13":"Laser"
+	}
+}
