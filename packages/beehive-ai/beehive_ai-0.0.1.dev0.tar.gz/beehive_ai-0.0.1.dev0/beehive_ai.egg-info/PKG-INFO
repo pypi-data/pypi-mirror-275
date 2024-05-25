@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: beehive-ai
+Version: 0.0.1.dev0
+Summary: Create multi-agentic workflows
+Author: prism founders
+Author-email: hello@runprism.com
+License: Apache-2.0
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: win32
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: pydantic
+Requires-Dist: rich
+Provides-Extra: testing
+Requires-Dist: pytest>=7; extra == "testing"
+Requires-Dist: build>=0.10; extra == "testing"
+Requires-Dist: twine>=4.0; extra == "testing"
+
+# colonyai
+AI-agentic workflows
