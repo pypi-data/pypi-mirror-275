@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/zeroish/__init__.py
+src/zeroish/zeroish.py
+src/zeroish.egg-info/PKG-INFO
+src/zeroish.egg-info/SOURCES.txt
+src/zeroish.egg-info/dependency_links.txt
+src/zeroish.egg-info/entry_points.txt
+src/zeroish.egg-info/requires.txt
+src/zeroish.egg-info/top_level.txt
