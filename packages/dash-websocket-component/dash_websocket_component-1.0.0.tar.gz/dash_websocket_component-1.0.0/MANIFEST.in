@@ -1,0 +1,11 @@
+include dash_websocket_component/dash_websocket_component.min.js
+include dash_websocket_component/dash_websocket_component.min.js.map
+include dash_websocket_component/async-*.js
+include dash_websocket_component/async-*.js.map
+include dash_websocket_component/*-shared.js
+include dash_websocket_component/*-shared.js.map
+include dash_websocket_component/metadata.json
+include dash_websocket_component/package-info.json
+include README.md
+include LICENSE
+include package.json
