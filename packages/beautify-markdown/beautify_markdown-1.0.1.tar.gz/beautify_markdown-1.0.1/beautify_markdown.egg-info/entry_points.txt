@@ -1,0 +1,2 @@
+[console_scripts]
+beautify_markdown = beautify_markdown.beautify_markdown:main
