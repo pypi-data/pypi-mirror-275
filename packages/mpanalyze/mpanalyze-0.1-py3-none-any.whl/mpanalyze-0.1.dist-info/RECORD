@@ -1,0 +1,9 @@
+mpanalyze/__init__.py,sha256=i1iiAB59xkQXChIyGYtzl6raaRxQLDJfWv290AKb0FU,41
+mpanalyze/analyze.py,sha256=HVxQtNnrc-w8F5U_pdBtQyaqWMO1RGCKm0ASW-BtVw4,4998
+mpanalyze/utils.py,sha256=pgpGfE7V794GlntqA-GAsJV8ZOdWhBnzjqco78HmdUw,1584
+mpanalyze-0.1.dist-info/LICENSE,sha256=3-M-zSiAsR4L7JOS7BzFip0Pa711X2e-Kclun3EQQS0,1065
+mpanalyze-0.1.dist-info/METADATA,sha256=4BWCrgh1JRFvROsO00GDweSGzBVd6mQUb92Docda-eg,1220
+mpanalyze-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mpanalyze-0.1.dist-info/entry_points.txt,sha256=1KbIPp4Cyc65vJEcDslYgFVXohywJMuw05QWa2Pl1Y4,79
+mpanalyze-0.1.dist-info/top_level.txt,sha256=iwNwaiZQqUBa5E-5bTUvXOrxJZXyKZIrDEBqluHBdwQ,10
+mpanalyze-0.1.dist-info/RECORD,,
