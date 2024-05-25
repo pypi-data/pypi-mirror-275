@@ -1,0 +1,8 @@
+README.md
+setup.py
+CobwebIT.egg-info/PKG-INFO
+CobwebIT.egg-info/SOURCES.txt
+CobwebIT.egg-info/dependency_links.txt
+CobwebIT.egg-info/top_level.txt
+LAMBDA/__init__.py
+LAMBDA/surc.py
