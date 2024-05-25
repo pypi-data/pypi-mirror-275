@@ -1,0 +1,9 @@
+rivalz_client/__init__.py,sha256=R-3h71wHbvob1VnyJGcvnF38whMi7NEZFECb85sTiNU,62
+rivalz_client/client.py,sha256=uNBzNu5590OEKuisegKZwDDk0iJlKbJMPZOSsltYHIc,2730
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=XQRRppRgoAf6D33HJvLgiezFmJ4V8obMolql979VkKs,1873
+rivalz_py_client-0.1.1.dist-info/LICENSE,sha256=5b8U9jnAgF8ZtTJvYdYJnk0QEAgijjrSz0QT6felPeI,454
+rivalz_py_client-0.1.1.dist-info/METADATA,sha256=m0BKtcluuMMEcVkm04oB3qaZHFq62McKb_sJY078d7U,724
+rivalz_py_client-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rivalz_py_client-0.1.1.dist-info/top_level.txt,sha256=ZT-CDy9lpy3z7rdSLtZy9cyzkPfMScmnUMZ5GiEnVlY,20
+rivalz_py_client-0.1.1.dist-info/RECORD,,
