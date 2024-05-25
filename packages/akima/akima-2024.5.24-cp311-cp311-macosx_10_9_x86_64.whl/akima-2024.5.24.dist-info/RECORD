@@ -1,0 +1,9 @@
+akima/__init__.py,sha256=lPIIraAz6VAIkuXu5gfFdZKG8UFfFwrYI-Rc2OV95IY,91
+akima/_akima.cpython-311-darwin.so,sha256=5O8Q1Gct3-MjpSjzTJOoYCsy7ePWRSYE4dmeJhx-mjE,37000
+akima/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+akima/akima.py,sha256=OFYdfhAjR3IbVFDji0-B5Rb2E0Q9qq4CPIkJGKzGV-w,7529
+akima-2024.5.24.dist-info/RECORD,,
+akima-2024.5.24.dist-info/LICENSE,sha256=jMiGxj8aET1YIHh24NoIaDadiSimfSbrtvK_N_RWoGs,1529
+akima-2024.5.24.dist-info/WHEEL,sha256=3Ij8bI-sb8yCMxXItr4MLlNoRGZb2WoUxQe9xIFR_DQ,111
+akima-2024.5.24.dist-info/top_level.txt,sha256=mJMD2es5Od5hOTE_v8TGYCUaqoPUSGKt5XOTaTvSBaA,6
+akima-2024.5.24.dist-info/METADATA,sha256=v5xrVvZmE5TTfoVkt1AbaSjvNW0zjE7n6-9ejazk1Bg,3235
