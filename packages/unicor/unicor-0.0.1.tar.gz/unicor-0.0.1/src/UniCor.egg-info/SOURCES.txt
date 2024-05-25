@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/UniCor.egg-info/PKG-INFO
+src/UniCor.egg-info/SOURCES.txt
+src/UniCor.egg-info/dependency_links.txt
+src/UniCor.egg-info/top_level.txt
+src/unicor/__init__.py
+src/unicor/uni_cor.py
+src/unicor.egg-info/PKG-INFO
+src/unicor.egg-info/SOURCES.txt
+src/unicor.egg-info/dependency_links.txt
+src/unicor.egg-info/top_level.txt
