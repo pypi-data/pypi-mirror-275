@@ -1,0 +1,89 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = [
+    "hatchling>=1.13",
+    "hatch-vcs>=0.3",
+]
+
+[project]
+name = "commit-message-validator"
+description = "Validate the format of a commit message to Wikimedia Gerrit standards"
+readme = "README.rst"
+keywords = [
+    "gerrit",
+    "git",
+    "lint",
+    "wikimedia",
+]
+license = "GPL-2.0-or-later"
+maintainers = [
+    { name = "Bryan Davis", email = "bd808@wikimedia.org" },
+    { name = "Kunal Mehta", email = "Legoktm@debian.org" },
+]
+authors = [
+    { name = "Bryan Davis", email = "bd808@wikimedia.org" },
+    { name = "Kunal Mehta", email = "Legoktm@debian.org" },
+]
+requires-python = ">=3.6"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Software Development :: Version Control :: Git",
+]
+dynamic = [
+    "version",
+]
+dependencies = [
+    "click==8.1.7",
+    "click-aliases==1.0.4",
+    "click-option-group==0.5.6",
+    "importlib-metadata==6.7.0 ; python_version < \"3.8\"",
+]
+
+[project.urls]
+Documentation = "https://www.mediawiki.org/wiki/commit-message-validator"
+Changelog = "https://gitlab.wikimedia.org/repos/ci-tools/commit-message-validator/-/blob/main/HISTORY.rst"
+"Bug tracker" = "https://phabricator.wikimedia.org/tag/commit-message-validator/"
+"Source code" = "https://gitlab.wikimedia.org/repos/ci-tools/commit-message-validator"
+
+[project.scripts]
+commit-message-validator = "commit_message_validator.cli:cli"
+
+[tool.hatch]
+build.dev-mode-dirs = ["src"]
+build.targets.sdist.include = [
+    "/CONTRIBUTING.rst",
+    "/COPYING",
+    "/README.rst",
+    "/src",
+    "/tests",
+    "/tox.ini",
+]
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.black]
+line_length = 88
+target_version = ["py36", "py37", "py38", "py39", "py310", "py311", "py312"]
+
+[tool.isort]
+src_paths = ["src", "tests"]
+line_length = 88
+profile = "black"
+force_single_line = true
+force_sort_within_sections = true
+case_sensitive = false
