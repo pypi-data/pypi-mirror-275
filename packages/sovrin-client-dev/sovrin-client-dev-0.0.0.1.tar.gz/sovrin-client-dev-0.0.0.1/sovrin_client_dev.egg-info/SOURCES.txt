@@ -1,0 +1,7 @@
+README.md
+setup.py
+sovrin-client-dev/__init__.py
+sovrin_client_dev.egg-info/PKG-INFO
+sovrin_client_dev.egg-info/SOURCES.txt
+sovrin_client_dev.egg-info/dependency_links.txt
+sovrin_client_dev.egg-info/top_level.txt
