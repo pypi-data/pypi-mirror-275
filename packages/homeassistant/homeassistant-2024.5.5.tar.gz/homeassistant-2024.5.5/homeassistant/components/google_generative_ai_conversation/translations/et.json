@@ -1,0 +1,56 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "\u00dchendamine nurjus",
+            "invalid_auth": "Tuvastamine nurjus",
+            "unknown": "Ootamatu t\u00f5rge"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "api_key": "API v\u00f5ti",
+                    "llm_hass_api": "Home Assistanti juhtimine"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "chat_model": "Mudel",
+                    "llm_hass_api": "Home Assistanti juhtimine",
+                    "max_tokens": "Vastuseks tagastatavate fraaside maksimaalne arv",
+                    "model": "Mudel",
+                    "recommended": "Soovitatavad s\u00e4tted",
+                    "temperature": "Temperatuur",
+                    "tone_prompt": "T\u00e4mber",
+                    "top_k": "\u00dclemine K",
+                    "top_p": "\u00dclemine P"
+                },
+                "data_description": {
+                    "prompt": "LLM-ile esitatavad lisaandmed. See v\u00f5ib olla mall.",
+                    "tone_prompt": "Juhised LLM-ile loodud teksti stiili kohta. See v\u00f5ib olla mall."
+                }
+            }
+        }
+    },
+    "services": {
+        "generate_content": {
+            "description": "Sisu loomine viibast mis koosneb tekstist ja soovi korral piltidest",
+            "fields": {
+                "image_filename": {
+                    "description": "Pildid",
+                    "example": "/config/www/image.jpg",
+                    "name": "Pildi failinimi"
+                },
+                "prompt": {
+                    "description": "Viip",
+                    "example": "Kirjelda mida n\u00e4ed nendel piltidel",
+                    "name": "Viip"
+                }
+            },
+            "name": "Loo sisu"
+        }
+    }
+}

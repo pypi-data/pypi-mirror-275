@@ -1,0 +1,57 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "Nepoda\u0159ilo se p\u0159ipojit",
+            "invalid_auth": "Neplatn\u00e9 ov\u011b\u0159en\u00ed",
+            "unknown": "Neo\u010dek\u00e1van\u00e1 chyba"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "api_key": "Kl\u00ed\u010d API",
+                    "llm_hass_api": "Ovl\u00e1d\u00e1n\u00ed Home Assistanta"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "chat_model": "Model",
+                    "llm_hass_api": "Ovl\u00e1d\u00e1n\u00ed Home Assistanta",
+                    "max_tokens": "Maxim\u00e1ln\u00ed po\u010det token\u016f, kter\u00e9 se maj\u00ed vr\u00e1tit jako odpov\u011b\u010f",
+                    "model": "Model",
+                    "prompt": "Dotaz",
+                    "recommended": "Doporu\u010den\u00e1 nastaven\u00ed",
+                    "temperature": "Teplota",
+                    "tone_prompt": "T\u00f3n",
+                    "top_k": "Top K",
+                    "top_p": "Top P"
+                },
+                "data_description": {
+                    "prompt": "Dal\u0161\u00ed data, kter\u00e1 maj\u00ed b\u00fdt poskytnuta LLM. M\u016f\u017ee to b\u00fdt \u0161ablona.",
+                    "tone_prompt": "Pokyny pro LLM o stylu generovan\u00e9ho textu. M\u016f\u017ee to b\u00fdt \u0161ablona."
+                }
+            }
+        }
+    },
+    "services": {
+        "generate_content": {
+            "description": "Vygeneruje obsah z dotazu sest\u00e1vaj\u00edc\u00ed z textu a voliteln\u011b obr\u00e1zk\u016f.",
+            "fields": {
+                "image_filename": {
+                    "description": "Obr\u00e1zky",
+                    "example": "/config/www/image.jpg",
+                    "name": "N\u00e1zev souboru obr\u00e1zku"
+                },
+                "prompt": {
+                    "description": "Dotaz",
+                    "example": "Popi\u0161te, co vid\u00edte na t\u011bchto obr\u00e1zc\u00edch",
+                    "name": "Dotaz"
+                }
+            },
+            "name": "Vygenerovat obsah"
+        }
+    }
+}
