@@ -1,0 +1,14 @@
+play/__init__.py,sha256=OmFTsZ_xIiXrIks-DKDtALXyxol0BtnrKSi6722R9F0,66
+play/all_sprites.py,sha256=J1aRV1HrkyZhmB5Rkb3QUWHjTjPqzbeFnZ3EkFmEFdg,31
+play/async_helpers.py,sha256=HZbxn9bCm-epF7u1YCJqTwa0y5kg5oNWRKp0L5n5sQs,1507
+play/blank_image.png,sha256=uJLALsrfGk40zhDhpSHio20P-2LFwefTcnBFlFG57YY,4810
+play/clamp.py,sha256=MkvZ-7k8t55b2oWYMcHjE3W6WUnbDXXNMjrLz14UE3Y,124
+play/color.py,sha256=xMfItJrUnJ00hQu4wJqGZJUYeTI7HwZAX3Z4kp_w3yg,7058
+play/exceptions.py,sha256=CPCfoGRGW_3ie5WxlfTiW7O8j3VMrfR9-enMEFDZ13w,322
+play/keypress.py,sha256=tCeSXdS9iIEfKVewPx_o_92-Xm_tNcvI0Pvd-SYaABM,3884
+play/play.py,sha256=XwR6DRCbALWwh-6s_KlCXz2JNITS-tpkQ5BGbR5a3yE,18639
+corderius_play-1.0.0.dist-info/LICENSE,sha256=wJ3LYoT1O3eqfbY_D-YIocpxnPAt6jrnGn3WbQFcqZk,1039
+corderius_play-1.0.0.dist-info/METADATA,sha256=MRFnwyZVmkPRSpP5s9x_LaxDhre0q5XNbmEkFbDdSYQ,30827
+corderius_play-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+corderius_play-1.0.0.dist-info/top_level.txt,sha256=BF42OfSdXXpekN7ulXNvQg3-P-1km1Ngfw4qOFFUpB4,5
+corderius_play-1.0.0.dist-info/RECORD,,
