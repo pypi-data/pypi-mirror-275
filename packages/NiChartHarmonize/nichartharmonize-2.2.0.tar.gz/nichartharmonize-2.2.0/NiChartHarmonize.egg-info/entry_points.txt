@@ -1,0 +1,2 @@
+[console_scripts]
+neuroharm = NiChartHarmonize.nh_cli:main
