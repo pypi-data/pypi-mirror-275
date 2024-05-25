@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slither_app"
+version = "0.0.9"
+authors = [
+    {name="Adam Otruba", email="adam.otruba@shmu.sk"}
+]
+description = "A python companion to run_app"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+license = {file= 'LICENSE'}
