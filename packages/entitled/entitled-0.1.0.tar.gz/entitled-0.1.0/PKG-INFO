@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: entitled
+Version: 0.1.0
+Summary: A library to make writing, enforcing and auditing your authorization policies a breeze
+Author: Mathias Bigaignon
+Author-email: m.bigaignon@xefi.fr
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: result (>=0.16.1,<0.17.0)
+Description-Content-Type: text/markdown
+
+WIP - Doc incoming, stay tuned!
+
