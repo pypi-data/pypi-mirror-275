@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pymodaq_plugins_alcatel
+Version: 1.1.0
+Summary: PyMoDAQ plugin for the Alcatel ACM1000 6-port gauge controller.
+Home-page: https://github.com/Titouan-Gadeyne/pymodaq_plugins_alcatel
+Author: Titouan GADEYNE
+Author-email: titouan.gadeyne@cea.fr
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: User Interfaces
+License-File: LICENSE
+
+pymodaq_plugins_alcatel
+########################
+
+Authors
+=======
+
+* Titouan Gadeyne  (titouan.gadeyne@cea.fr)
+
+
+Instruments
+===========
+
+Below is the list of instruments included in this plugin
+
+Viewer0D
+++++++++
+
+* **ACM1000**: Alcatel ACM 1000 six-port gauge controller
+
+
+Installation instructions
+=========================
+
+* PyMoDAQ 4
+* Windows 10
+* No drivers from Alcatel are required.
+* Your PC should have serial ports (COM ports) to connect the controller. On Windows 10 you may need to install a driver to create virtual COM ports.
