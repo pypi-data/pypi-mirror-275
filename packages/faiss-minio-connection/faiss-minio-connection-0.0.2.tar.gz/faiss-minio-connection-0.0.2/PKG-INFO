@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: faiss-minio-connection
+Version: 0.0.2
+Summary: Combining FAISS work with S3 cloud storage.
+Home-page: https://github.com/Ilya-Akulov/FAISS-Minio
+Author: ilya_a
+Author-email: iakulpypi@mail.ru
+Project-URL: GitHub, https://github.com/Ilya-Akulov/FAISS-Minio
+Keywords: FAISS Minio
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9.13
+Description-Content-Type: text/markdown
