@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: vlsirdev
+Version: 7.0.0.dev0
+Summary: VLSIR Development Dependencies
+Keywords: PDK,EDA,analog,circuit
+Author-email: Dan Fritchman <dan@fritch.mn>
+Maintainer-email: Dan Fritchman <dan@fritch.mn>
+Requires-Python: >=3.7, <3.13
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)
+Requires-Dist: pytest==7.1
+Requires-Dist: coverage
+Requires-Dist: pytest-cov
+Requires-Dist: pre-commit==2.20
+Requires-Dist: black==22.6
+Requires-Dist: flit
+Requires-Dist: twine
+Requires-Dist: build
+
+
+# VLSIR Dev 
+
+Not a real package in the sense of doing anything. 
+Really just a container for development dependencies.
+Including sync'ing all their versions. 
+
