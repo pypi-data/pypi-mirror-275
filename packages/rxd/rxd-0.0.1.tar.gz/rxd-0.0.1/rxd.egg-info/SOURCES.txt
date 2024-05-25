@@ -1,0 +1,12 @@
+README.md
+setup.py
+rxd/__init__.py
+rxd/daemon.py
+rxd/install.py
+rxd/webui.py
+rxd.egg-info/PKG-INFO
+rxd.egg-info/SOURCES.txt
+rxd.egg-info/dependency_links.txt
+rxd.egg-info/not-zip-safe
+rxd.egg-info/requires.txt
+rxd.egg-info/top_level.txt
