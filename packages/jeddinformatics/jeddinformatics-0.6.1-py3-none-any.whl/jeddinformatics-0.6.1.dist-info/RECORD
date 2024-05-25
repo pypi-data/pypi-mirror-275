@@ -1,0 +1,15 @@
+jeddinformatics/.dirignore,sha256=eZrb4YAgxXbSH_pBsq4bYJtrTV6Mu65L27t4C1WzlYA,40
+jeddinformatics/.fileignore,sha256=9F8kCc3eIMthj2dkMGhL79cA7MorF0pi6Nu61mgjjAY,176
+jeddinformatics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jeddinformatics/__main__.py,sha256=D1aa_LwWBBlticYmxGgqJVBnzloByPI4-8yPX9OHtG4,70
+jeddinformatics/config.json,sha256=tdpnkr-6MOPrODY64b6G-EMCiJBOHFF_lrOzHI5lPyY,662
+jeddinformatics/convert_and_plot.py,sha256=4QXRearRY9AnMXMRzWuMySPMwHFkKWcGdigMUp3GLFM,10225
+jeddinformatics/generate_types.py,sha256=C-f_pfYxlnGqsWVCS_sMcNfxR9K2KZN6rvuQQDTgTXo,464
+jeddinformatics/highchart_json_to_csv.py,sha256=fjWi9A9SF-Ku4LgcBT0AEoEZ4C5tE9LTiIM6pHK6AgI,1075
+jeddinformatics/oncodb_to_csv.py,sha256=MP4mJlekqBXjBYviuB6PEzujM4y0a9kdxI1QZaUyUbc,1353
+jeddinformatics/plot_data.py,sha256=TBoiT7sDgALM7PCEyw5pD_tOY9vi1RyIvdz-XdRI8tk,5733
+jeddinformatics/schema.json,sha256=tXewf6yTD04mUr9s_fBPuHfHHXa5LxQJADRm9VFKJaQ,1154
+jeddinformatics-0.6.1.dist-info/METADATA,sha256=3zVfKA5_Y-J6axCMYRk5yQhzVX6em2fHKMXhY0_Bvdw,4961
+jeddinformatics-0.6.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+jeddinformatics-0.6.1.dist-info/licenses/LICENSE,sha256=8FENO50SI8Rej90rSScOyHNP_0kcf30blI7nAWLhzv8,1210
+jeddinformatics-0.6.1.dist-info/RECORD,,
