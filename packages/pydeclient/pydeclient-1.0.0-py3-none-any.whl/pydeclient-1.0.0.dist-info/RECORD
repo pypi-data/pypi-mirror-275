@@ -1,0 +1,8 @@
+declient/__init__.py,sha256=HfUr--x9Kb63xPHZt8LR2DkphRJyjAl-tr3B8r7Md7M,206
+declient/decompile.py,sha256=KDSKR2F-EhPrwp99Z14FqQ4NXj1uItcHmeisZpLOJYo,2311
+declient/decompile_async.py,sha256=omTHpdY_CZaNcnkCwesvtAgNKhblQvIlWJeCG9LnIRA,2762
+pydeclient-1.0.0.dist-info/LICENSE,sha256=Qy03TIU5fq6Hk8_mBi5tU_0pxbKdooEkcZb60NGddzo,1063
+pydeclient-1.0.0.dist-info/METADATA,sha256=BVh2wcUrOArFNlP2JPcWU6WjRBI99ppmRG5HzugdS1w,1414
+pydeclient-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pydeclient-1.0.0.dist-info/top_level.txt,sha256=rGTgc4qMqR72YqYt0vmVy3et-Tu7WY1zLgiXTnchMAg,9
+pydeclient-1.0.0.dist-info/RECORD,,
