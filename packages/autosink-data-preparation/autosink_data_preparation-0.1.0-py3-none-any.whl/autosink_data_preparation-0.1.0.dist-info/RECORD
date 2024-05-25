@@ -1,0 +1,7 @@
+autosink_data_preparation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autosink_data_preparation/subpackage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autosink_data_preparation/subpackage/hello.py,sha256=-rd0vEYpfbEuZ73QkdlVPzkleO9v7BO6uDvxbOiQZCY,112
+autosink_data_preparation/subpackage/test_hello.py,sha256=TYonCLCet9cI3KOVg2ovJ8NF9l6HBx9RJewex6t_w_4,292
+autosink_data_preparation-0.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+autosink_data_preparation-0.1.0.dist-info/METADATA,sha256=WbBNJ5JoXV1hYXarSa_a6kW8Znhc0yhjfXMh1WRIMWQ,462
+autosink_data_preparation-0.1.0.dist-info/RECORD,,
