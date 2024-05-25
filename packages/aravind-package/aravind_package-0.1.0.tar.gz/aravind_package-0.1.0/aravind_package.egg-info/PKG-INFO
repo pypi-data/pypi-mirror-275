@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: aravind-package
+Version: 0.1.0
+Summary: A simple package for string utilities
+Home-page: https://github.com/AravindSatyan/python-package.git
+Author: Aravind Satyanarayanan
+Author-email: aravind.bedean@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# String Utils
+
+A simple Python package for string manipulation utilities.
+
+## Installation
+
+```bash
+pip install aravind_package
