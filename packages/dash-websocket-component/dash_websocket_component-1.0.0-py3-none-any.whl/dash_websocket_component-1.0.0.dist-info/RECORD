@@ -1,0 +1,14 @@
+dash_websocket_component/DashWebsocketComponent.py,sha256=4WHCeM1IqHIbY701yV9z5RDo3oTnBC9XFIKENQ1LriY,2517
+dash_websocket_component/__init__.py,sha256=zydv4ahMiz6N_ufh2NJHcGtANdGK-I7lDKwFlf8fHK4,2389
+dash_websocket_component/_imports_.py,sha256=sKeT_Xv9Cb7_-kqVc6ZFgEIdx9ZUYad1KGwt9AjoZOE,106
+dash_websocket_component/async-DashWebsocketComponent.js,sha256=qQT5n8XVeL_uTwI1h7moBeQKL1BV0h-zQw-IHGnMuRM,4659
+dash_websocket_component/async-DashWebsocketComponent.js.map,sha256=xI2DF4ly50A_0s1090scd5w5yPW0KY6Duphfl6GJfbA,8741
+dash_websocket_component/dash_websocket_component.min.js,sha256=sO1djdwBpKWVNkd9q-j8-9aB5j39bUWDJPCn6h66saI,4176
+dash_websocket_component/dash_websocket_component.min.js.map,sha256=JZ15SCZJuWju-RfAGKurXm19d68ROJKNl9hTQxrlxf4,20575
+dash_websocket_component/metadata.json,sha256=XjpLdRUV32lA5qdR3vPXF3S7enU-rEz4p8qwk16kd50,3188
+dash_websocket_component/package-info.json,sha256=sxvk41j6KyYrHFWuQcWVeYaG4l3ct070_XMQaYtWlCc,2118
+dash_websocket_component-1.0.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dash_websocket_component-1.0.0.dist-info/METADATA,sha256=Vk_JcFsru1zzOv2RloPbIrPaGQx5t-ns6WD4ntWyteU,4094
+dash_websocket_component-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dash_websocket_component-1.0.0.dist-info/top_level.txt,sha256=E1R6djsegr32E1f67Phx0XmX4Pwe26H6gZMp_GaTiOc,25
+dash_websocket_component-1.0.0.dist-info/RECORD,,

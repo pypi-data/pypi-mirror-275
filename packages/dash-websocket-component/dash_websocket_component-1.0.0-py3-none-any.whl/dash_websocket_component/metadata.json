@@ -1,0 +1,114 @@
+{
+  "src/lib/components/DashWebsocketComponent.react.js": {
+    "description": "ExampleComponent is an example component.\r\nIt takes a property, `label`, and\r\ndisplays it.\r\nIt renders an input with the property `value`\r\nwhich is editable by the user.",
+    "displayName": "DashWebsocketComponent",
+    "methods": [],
+    "props": {
+      "state": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "object"
+            },
+            {
+              "name": "string"
+            }
+          ]
+        },
+        "required": false,
+        "description": "This websocket state (in the readyState prop) and associated information."
+      },
+      "message": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "object"
+            },
+            {
+              "name": "string"
+            }
+          ]
+        },
+        "required": false,
+        "description": "When messages are received, this property is updated with the message content."
+      },
+      "error": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "object"
+            },
+            {
+              "name": "string"
+            }
+          ]
+        },
+        "required": false,
+        "description": "This property is set with the content of the onerror event."
+      },
+      "send": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "object"
+            },
+            {
+              "name": "string"
+            }
+          ]
+        },
+        "required": false,
+        "description": "When this property is set, a message is sent with its content."
+      },
+      "protocols": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "string"
+          }
+        },
+        "required": false,
+        "description": "Supported websocket protocols (optional)."
+      },
+      "reconnectIntervalMs": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Duration between attempts to reconnect. Default = 2000ms -> 2sec."
+      },
+      "maxReconnectAttempts": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Max count of the reconnect attempts. Default = -1 -> Unlimited."
+      },
+      "url": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The websocket endpoint (e.g. wss://echo.websocket.org)."
+      },
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}
