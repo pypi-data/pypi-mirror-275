@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+bin/pytail
+pytail/__init__.py
+pytail/pytail.py
+pytail_r3ap3rpy.egg-info/PKG-INFO
+pytail_r3ap3rpy.egg-info/SOURCES.txt
+pytail_r3ap3rpy.egg-info/dependency_links.txt
+pytail_r3ap3rpy.egg-info/top_level.txt
