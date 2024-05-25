@@ -1,0 +1,17 @@
+django_rpyc/__init__.py,sha256=tBCH3ZD-pfslFfVea0QjavTfZ3g6w-hR8XU5Vll5HMg,22
+django_rpyc/apps.py,sha256=lx8uS3XZpQ4U2mPBUN9Aa3fkJyWH9bJ0xmgIarN6xa4,1561
+django_rpyc/decorators.py,sha256=gCYt2ELgExyMRgpIUI0oXJQx5QhOhX7Rdxa9E7tePpw,1246
+django_rpyc/server.py,sha256=3YR1BFpx2wX9TnNVwgzh6zOhk5KmR-EmG7pKO11-geo,1631
+django_rpyc/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_rpyc/management/commands/run_rpyc.py,sha256=SCQg2WuwZvNz4n0pD52gYDtyUJ3t7_cR622YcQW8e0U,689
+django_rpyc/management/commands/__pycache__/__init__.cpython-312.pyc,sha256=JITKgohYDbMJT-kIVw6dXPoqCvrrrjI0p1qI0USbZRI,178
+django_rpyc/management/commands/__pycache__/run_rpyc.cpython-312.pyc,sha256=Wwb2oxbsqfNfGbn4RNES3E7-t1Uh25G9OYMVa7A5tMA,1364
+django_rpyc/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_decorators.py,sha256=xifPm_YWVWw7E5KnA2rcJ1iOjEX2fxtEWfLZQ0QJXi4,1354
+tests/test_server.py,sha256=OSUdImuarqlzikS4-sbyEzOL1L8KZpvyqwyS0vpOlys,1355
+django_rpyc-0.1.11.dist-info/LICENSE,sha256=kp83r_vAuvi_nqQjJK06Bx6QyiyGbs1lRFvYCIx2NVQ,1062
+django_rpyc-0.1.11.dist-info/METADATA,sha256=SBG-UpVArHGq_mlFKGL7Ay2X_6_qD6nJtdS77A1K1aU,1015
+django_rpyc-0.1.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_rpyc-0.1.11.dist-info/top_level.txt,sha256=vwXlXdrrJM9HgxjGH6R7N8BPZxG9GtgO6b8q-GlJX7A,18
+django_rpyc-0.1.11.dist-info/RECORD,,
