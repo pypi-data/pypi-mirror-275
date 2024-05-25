@@ -1,0 +1,2 @@
+[console_scripts]
+random-topic-generator = random_topic_generator.__main__:main
