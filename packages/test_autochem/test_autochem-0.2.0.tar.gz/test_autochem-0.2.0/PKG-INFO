@@ -1,0 +1,6 @@
+Metadata-Version: 2.3
+Name: test_autochem
+Version: 0.2.0
+Summary: Add a short description here
+Author-email: john doe <johndoe@gmail.com>
+Requires-Python: >=3.11
