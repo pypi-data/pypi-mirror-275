@@ -1,0 +1,6 @@
+[console_scripts]
+MadhuSeager2009=MadhuSeager2009.__main__:main
+
+[taurex.plugins]
+taurex_MadhuSeager2009=MadhuSeager2009.taurex
+
