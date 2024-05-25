@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ChatTTS
+Version: 0.0.2
+Summary: next level TTS for Chat
+Author: 2_NOISE
+License: Apache License 2.0
+Requires-Dist: torch>=2.0.0
