@@ -1,0 +1,47 @@
+@import url('./variables.css');
+
+/* Set the default typography for monospace elements */
+tt,
+code,
+kbd,
+samp,
+pre {
+  font-family: var(--jp-code-font-family);
+  font-size: var(--jp-code-font-size);
+  line-height: var(--jp-code-line-height);
+}
+
+#jp-top-panel{
+  height: 50px !important;
+}
+
+#jp-main-content-panel{
+  top: 50px !important;
+}
+
+#jp-MainMenu {
+  height: 100%;
+}
+
+.lm-MenuBar-content {
+  height: 100%;
+  align-items: center;
+}
+.lm-MenuBar-item {
+  height: 100%;
+  align-content: center;
+}
+.lm-MenuBar-item:hover {
+  cursor: pointer;
+}
+
+#jp-MainLogo {
+  height: 100%;
+  background-image: url(./icons/logo.svg);
+  padding: 2px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#jp-MainLogo > svg {
+  visibility: hidden;
+}

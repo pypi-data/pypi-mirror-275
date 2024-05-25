@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.1
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: samanf74@gmail.com
+author_name: Saman
+has_binder: true
+has_settings: false
+kind: theme
+labextension_name: minerva-tech-theme
+project_short_description: A JupyterLab Theme for the MinervaTechnologies.
+python_name: minerva_tech_theme
+repository: https://github.com/Minerva-Technologies/minerva-jupyterlab-theme.git
+test: false
+
