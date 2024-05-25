@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: conf-master
+Version: 1.0.1
+Summary: 
+License: MIT
+Author: alvaroroco
+Author-email: alvaroroco@gmail.com
+Requires-Python: >=3.8
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Project-URL: documentation, https://github.com/alvaroroco/conf-master#readme
+Project-URL: issues, https://github.com/alvaroroco/conf-master/issues
+Project-URL: source, https://github.com/alvaroroco/conf-master
+Description-Content-Type: text/markdown
+
+# Conf Master
+
+[![PyPI - Version](https://img.shields.io/pypi/v/conf-master.svg)](https://pypi.org/project/conf-master)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/conf-master.svg)](https://pypi.org/project/conf-master)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install conf-master
+```
+
+## License
+
+`conf-master` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+
