@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: DataCleaningWithPandas
+Version: 0.1.9
+Summary: A data preprocessing library
+Author: Muhammed Furkan Akdag & Ahmet Akif Apari
+Author-email: furkanakdag.3469@gmail.com
+Requires-Python: >=3.6
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: nltk
