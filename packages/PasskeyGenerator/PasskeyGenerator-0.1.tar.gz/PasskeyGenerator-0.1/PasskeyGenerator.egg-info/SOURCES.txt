@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.cfg
+setup.py
+PasskeyGenerator.egg-info/PKG-INFO
+PasskeyGenerator.egg-info/SOURCES.txt
+PasskeyGenerator.egg-info/dependency_links.txt
+PasskeyGenerator.egg-info/top_level.txt
+PasswordGenerator/__init__.py
+PasswordGenerator/main.py
