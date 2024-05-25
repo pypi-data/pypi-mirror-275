@@ -1,0 +1,2 @@
+Selection	View	Channel	Low Freq (Hz)	High Freq (Hz)	Predicted	Filename	Score	Key	Classification	Begin Time (s)	End Time (s)	spect_key
+579	Spectrogram 1	1	20.0	120.0	bdf	/tmp/tmpu6uqz1jf/images/20170127T031536.145866822.145880822.sel.579.ch01.spectrogram.jpg	0.99995	20170126T070000Z_20170127T070000Z	bdf	11736.32475	11737.49775	MARS-20170127T000000Z-2khz.579

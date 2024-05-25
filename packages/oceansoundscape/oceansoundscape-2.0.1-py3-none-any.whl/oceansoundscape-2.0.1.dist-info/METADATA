@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: oceansoundscape
+Version: 2.0.1
+Summary: A python package for analyzing ocean acoustic data. 
+Home-page: https://github.com/mbari-org/oceansoundscape
+License: GPL3
+Keywords: ocean,acoustic,soundscape,analysis
+Author: Danelle Cline
+Author-email: dcline@mbari.org
+Requires-Python: >=3.9,<=3.11.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: h5py (>=3.8.0,<4.0.0)
+Requires-Dist: librosa (>=0.9.1,<0.10.0)
+Requires-Dist: matplotlib (>=3.6.3,<4.0.0)
+Requires-Dist: numpy (==1.23.5)
+Requires-Dist: opencv-python-headless (>=4.7.0,<5.0.0)
+Requires-Dist: pandas (>=1.5.3,<2.0.0)
+Requires-Dist: scikit-learn (>=1.5.0,<2.0.0)
+Requires-Dist: scipy (>=1.10.0,<2.0.0)
+Requires-Dist: soundfile (>=0.10.3.post1,<0.11.0)
+Project-URL: Repository, https://github.com/mbari-org/oceansoundscape
+Description-Content-Type: text/markdown
+
+[![MBARI](https://www.mbari.org/wp-content/uploads/2014/11/logo-mbari-3b.png)](http://www.mbari.org)
+
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+![Supported Platforms](https://img.shields.io/badge/Supported%20Platforms-Windows%20%7C%20macOS%20%7C%20Linux-green)
+![license-GPL](https://img.shields.io/badge/license-GPL-blue)
+
+# About
+
+A python package for analyzing ocean acoustic data. 
+ 
+Author: Danelle Cline, [dcline@mbari.org](mailto:dcline@mbari.org)
+
+## Prerequisites
+ 
+- Python 3.9, 3.10, or 3.11
+ 
+## Installation
+
+```pip install oceansoundscape```
+
+## Documentation
+
+Full documentation is available at [https://docs.mbari.org/oceansoundscape/](https://docs.mbari.org/oceansoundscape/)
+
+
