@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/edb_enterprise_beta/__init__.py
+src/edb_enterprise_beta/main.py
+src/edb_enterprise_beta.egg-info/PKG-INFO
+src/edb_enterprise_beta.egg-info/SOURCES.txt
+src/edb_enterprise_beta.egg-info/dependency_links.txt
+src/edb_enterprise_beta.egg-info/top_level.txt
