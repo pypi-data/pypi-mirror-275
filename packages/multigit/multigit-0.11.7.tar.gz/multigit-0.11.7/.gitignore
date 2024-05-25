@@ -1,0 +1,11 @@
+# multigit-related (see subrepos file)
+example/*
+!example/subrepos
+
+# Python development
+__pycache__/
+build/
+src/tests/scenarios/
+
+# Bash Magic Enviro requirement
+.bme.d/
