@@ -1,0 +1,10 @@
+kolibri_desktop_auth_plugin/__init__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+kolibri_desktop_auth_plugin/kolibri_plugin.py,sha256=FilHpTxGI1GiRpzZxvam1MaDCkJ7_XmA-OhGf2gKZgg,99
+kolibri_desktop_auth_plugin/migrations/0001_initial.py,sha256=1qgWHNPp0kdK8ay05KJsfjsULnWJIKhqybs0fR-HTZw,1076
+kolibri_desktop_auth_plugin/migrations/0002_desktop_user_to_os_user.py,sha256=7svxPXShjte-j9uf8R5NwrN2L3eZiB1g-0oZMiXt9vY,1129
+kolibri_desktop_auth_plugin/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kolibri_desktop_auth_plugin-1.0.0.dist-info/METADATA,sha256=WxxIBnZF10l0bxXXh1mvYDVkaJSFa3z04crc3peDn7U,2751
+kolibri_desktop_auth_plugin-1.0.0.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+kolibri_desktop_auth_plugin-1.0.0.dist-info/entry_points.txt,sha256=P6lol0XhgcyTAfd976Qabgk-xjLvAhAQ-b_L2rzNU4g,76
+kolibri_desktop_auth_plugin-1.0.0.dist-info/top_level.txt,sha256=xOOMfPYFcCJFkAE200AwEJANkgfufVhGF-mqynLvUM4,28
+kolibri_desktop_auth_plugin-1.0.0.dist-info/RECORD,,
