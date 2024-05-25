@@ -1,0 +1,9 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/add_track_details.py,sha256=qzZk2G5c7v8LEBIcW1D9dxjsBBWEc9GNPDqv_K2Nx9M,802
+src/music_recommend.py,sha256=SZZhDcVgx7p0_hi80Drxyg9kMNxDu0lx9kxw_bNPlfU,916
+src/spotify_data.py,sha256=hN8DuDUMN76xfolL-FPvb-QNiOtPP4-O0Rjg5aAjzOs,1368
+MUSIC_RECOMMENDATION-0.1.0.dist-info/METADATA,sha256=m1tDYtK9ayjdb6tSNotYhWA-AY4WWy2Ee1HLJ6uTLkU,2827
+MUSIC_RECOMMENDATION-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+MUSIC_RECOMMENDATION-0.1.0.dist-info/entry_points.txt,sha256=iZQ74Yb9xHAuqfsW55p_lPn0Qg93wGGLYxknO1lU4TU,56
+MUSIC_RECOMMENDATION-0.1.0.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+MUSIC_RECOMMENDATION-0.1.0.dist-info/RECORD,,
