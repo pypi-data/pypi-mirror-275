@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: answer_generated
+Version: 0.1.0
+Summary: Generated Python files for answer service
+Home-page: https://github.com/danyatalent/protos
+Author: Danya Talent
+Author-email: Danya Talent <danyatalent@mail.ru>
+License: MIT
+Project-URL: Homepage, https://github.com/danyatalent/protos
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: grpcio
+Requires-Dist: protobuf
+
+# Protos for my projects

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "answer_generated"
+version = "0.1.0"
+description = "Generated Python files for answer service"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Danya Talent", email = "danyatalent@mail.ru"}
+]
+requires-python = ">=3.6"
+dependencies = [
+    "grpcio",
+    "protobuf",
+]
+
+[project.urls]
+Homepage = "https://github.com/danyatalent/protos"
+
+[tool.setuptools.packages.find]
+where = ["gen/python"]
+
+[tool.setuptools]
+package-dir = {"" = "gen/python"}
