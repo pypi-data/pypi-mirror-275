@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: hybridkf
+Version: 1.0.0
+Summary: An advanced implementation of the Kalman filter that handles and processes (pragmatic) continuous time-model state observations with discrete time-measurements for state estimation.
+Home-page: https://github.com/yourusername/your-package-name
+Author: akain0
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: random
+Requires-Dist: math
+
