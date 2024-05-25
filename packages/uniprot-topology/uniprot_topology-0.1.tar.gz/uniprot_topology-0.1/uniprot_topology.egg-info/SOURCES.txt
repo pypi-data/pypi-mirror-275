@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+uniparser/__init__.py
+uniparser/uniparser.py
+uniprot_topology.egg-info/PKG-INFO
+uniprot_topology.egg-info/SOURCES.txt
+uniprot_topology.egg-info/dependency_links.txt
+uniprot_topology.egg-info/requires.txt
+uniprot_topology.egg-info/top_level.txt

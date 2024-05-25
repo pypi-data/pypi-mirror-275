@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: uniprot-topology
+Version: 0.1
+Summary: Simple parser for UniProt topological domains and other features
+Home-page: https://github.com/noelgarber/uniparser
+Author: Noel Garber
+Author-email: ngarber93@gmail.com
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# uniparser
+ UniProt feature parser from .data file, available from UniProt's FTP server
