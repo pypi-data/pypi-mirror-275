@@ -1,0 +1,7 @@
+README.md
+setup.py
+lhcsmapi/__init__.py
+lhcsmapi.egg-info/PKG-INFO
+lhcsmapi.egg-info/SOURCES.txt
+lhcsmapi.egg-info/dependency_links.txt
+lhcsmapi.egg-info/top_level.txt
