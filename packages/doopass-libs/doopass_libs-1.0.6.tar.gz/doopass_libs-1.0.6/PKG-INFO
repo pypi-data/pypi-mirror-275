@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: doopass-libs
+Version: 1.0.6
+Summary: Libraries for doopass.tui project
+Author: Michael Nikishov
+Author-email: doopath@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Pygments (==2.17.2)
+Requires-Dist: SecretStorage (==3.3.3)
+Requires-Dist: bleach (==6.1.0)
+Requires-Dist: build (==1.2.1)
+Requires-Dist: certifi (==2023.11.17)
+Requires-Dist: cffi (==1.16.0)
+Requires-Dist: charset-normalizer (==3.3.2)
+Requires-Dist: click (==8.1.7)
+Requires-Dist: colorama (==0.4.6)
+Requires-Dist: cryptography (==42.0.2)
+Requires-Dist: docutils (==0.20.1)
+Requires-Dist: idna (==3.6)
+Requires-Dist: importlib-metadata (==7.0.1)
+Requires-Dist: jaraco_classes (==3.3.0)
+Requires-Dist: jeepney (==0.8.0)
+Requires-Dist: keyring (==24.3.0)
+Requires-Dist: linkify-it-py (==2.0.2)
+Requires-Dist: markdown-it-py (==3.0.0)
+Requires-Dist: mdit-py-plugins (==0.4.0)
+Requires-Dist: mdurl (==0.1.2)
+Requires-Dist: more-itertools (==10.2.0)
+Requires-Dist: nanoid (==2.0.0)
+Requires-Dist: nh3 (==0.2.15)
+Requires-Dist: packaging (==23.2)
+Requires-Dist: pkginfo (==1.10.0)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: pyperclip (==1.8.2)
+Requires-Dist: pyproject_hooks (==1.0.0)
+Requires-Dist: pywin32-ctypes (==0.2.2)
+Requires-Dist: readme-renderer (==42.0)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: requests-toolbelt (==1.0.0)
+Requires-Dist: rfc3986 (==2.0.0)
+Requires-Dist: rich (==13.7.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: textual (==0.48.1)
+Requires-Dist: twine (==5.1.0)
+Requires-Dist: typing_extensions (==4.9.0)
+Requires-Dist: uc-micro-py (==1.0.2)
+Requires-Dist: urllib3 (==2.2.0)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: wheel (==0.42.0)
+Requires-Dist: zipp (==3.17.0)
+Description-Content-Type: text/markdown
+
+Libraries for doopass.tui
+
