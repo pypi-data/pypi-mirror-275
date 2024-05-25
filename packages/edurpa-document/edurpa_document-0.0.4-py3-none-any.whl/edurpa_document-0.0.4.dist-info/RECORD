@@ -1,0 +1,9 @@
+EduRPA/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+EduRPA/Document/DocumentAutomation.py,sha256=7AgzjfYtvrFfCU4zxHTu52ZOs3BohyiWCUFL0t5g5_c,4982
+EduRPA/Document/__init__.py,sha256=3b1yzf2k9Pd0QwikmByQnRPYOkkOecVrDkg2n2kVLqs,428
+EduRPA/Document/transform.py,sha256=TRL-dYUvUJcGS9h_pph3fm_-02dQfzh0pGMoVN3T7wY,2624
+edurpa_document-0.0.4.dist-info/LICENSE,sha256=YgvlMcXsea3kZqp1y62n8AgkwZp6xXbWSYW17pT58Yg,1088
+edurpa_document-0.0.4.dist-info/METADATA,sha256=9nf_WzS6Tz8rU_vcnFq70BHiB5qBeeYGRdqx_YEDQ_E,2019
+edurpa_document-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+edurpa_document-0.0.4.dist-info/top_level.txt,sha256=Wl0EDd9il1J3fz62-gLcRCpFYSlEbU4KVE_SNWkcpaI,7
+edurpa_document-0.0.4.dist-info/RECORD,,
