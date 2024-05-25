@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+magpie/Dxx_coeffs.py
+magpie/__init__.py
+magpie/bhmat.py
+magpie/magpie.py
+magpie/modal_time_integration.py
+magpie/youngcalc.py
+nemus_magpie.egg-info/PKG-INFO
+nemus_magpie.egg-info/SOURCES.txt
+nemus_magpie.egg-info/dependency_links.txt
+nemus_magpie.egg-info/requires.txt
+nemus_magpie.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nemus_magpie
+Version: 0.0.4
+Summary: An open source framework for working with thin plates under generalized elastic boundary conditions
+Home-page: https://github.com/nemus-Project/magpie-python
+Author: NEMUS
+Author-email: michele.ducceschi@unibo.it
+License: GNU General Public License v3.0
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: sounddevice
