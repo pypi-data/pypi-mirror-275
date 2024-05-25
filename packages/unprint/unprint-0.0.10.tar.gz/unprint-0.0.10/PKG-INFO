@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: unprint
+Version: 0.0.10
+Summary: A simple package to unprint stuff in terminal
+Project-URL: Homepage, https://github.com/zlliu246/unprint
+Project-URL: Issues, https://github.com/zlliu246/unprint/issues
+Author-email: Liu Zuo Lin <zlliu246@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
