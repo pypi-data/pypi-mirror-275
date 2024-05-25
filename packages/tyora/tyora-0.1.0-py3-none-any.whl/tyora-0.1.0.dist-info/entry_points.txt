@@ -1,0 +1,2 @@
+[console_scripts]
+tyora = tyora.tyora:main
