@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+keycare/keycare/RelExtractor.py
+keycare/keycare/TermExtractor.py
+keycare/keycare/__init__.py
+keycare/keycare.egg-info/PKG-INFO
+keycare/keycare.egg-info/SOURCES.txt
+keycare/keycare.egg-info/dependency_links.txt
+keycare/keycare.egg-info/requires.txt
+keycare/keycare.egg-info/top_level.txt
