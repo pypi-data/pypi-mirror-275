@@ -1,0 +1,7 @@
+click
+rich-click
+opencv-python
+pillow
+loguru
+requests
+instaloader
