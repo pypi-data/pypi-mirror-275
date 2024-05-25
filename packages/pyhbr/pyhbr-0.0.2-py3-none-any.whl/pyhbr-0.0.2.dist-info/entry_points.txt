@@ -1,0 +1,2 @@
+[gui_scripts]
+codes-editor = pyhbr.clinical_codes.codes_editor.codes_editor:run_app
