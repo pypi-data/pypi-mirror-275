@@ -1,0 +1,11 @@
+requests
+argparse
+re
+shlex
+random
+collections
+urllib
+pyperclip
+rich
+fake_useragent
+colorama
