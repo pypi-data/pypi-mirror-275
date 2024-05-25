@@ -1,0 +1,3432 @@
+{
+    "order_id": "9795",
+    "_embedded": {
+        "/accounts/7aa12e": {
+            "id": "7aa12e",
+            "name": "route/64503",
+            "owner_id": "20636",
+            "master_id": "7374f3",
+            "assets": {
+                "beer": {
+                    "balance": "32.5",
+                    "reserved": "0",
+                    "capacity": "100",
+                    "purchase": "15",
+                    "purchase_price": "2.146",
+                    "unit_cost": "2.368"
+                },
+                "bread": {
+                    "balance": "191.5",
+                    "reserved": "0",
+                    "capacity": "500",
+                    "unit_cost": "2.145"
+                },
+                "bricks": {
+                    "balance": "100",
+                    "reserved": "0",
+                    "capacity": "100",
+                    "unit_cost": "8.447"
+                },
+                "carting": {
+                    "balance": "12",
+                    "reserved": "0",
+                    "unit_cost": "0.6"
+                },
+                "casks": {
+                    "balance": "66.966",
+                    "reserved": "0",
+                    "capacity": "600",
+                    "unit_cost": "3.828"
+                },
+                "charcoal": {
+                    "balance": "15",
+                    "reserved": "0",
+                    "capacity": "15",
+                    "unit_cost": "1.873"
+                },
+                "cheese": {
+                    "balance": "75.68",
+                    "reserved": "0",
+                    "capacity": "100",
+                    "unit_cost": "5.029"
+                },
+                "cloth": {
+                    "balance": "734.096",
+                    "reserved": "0",
+                    "capacity": "5000",
+                    "unit_cost": "5.636"
+                },
+                "cog": {
+                    "balance": "0.102",
+                    "reserved": "0",
+                    "unit_cost": "5696.368"
+                },
+                "cookware": {
+                    "balance": "65.684",
+                    "reserved": "0",
+                    "capacity": "100",
+                    "unit_cost": "15.984"
+                },
+                "cured fish": {
+                    "balance": "270",
+                    "reserved": "1",
+                    "capacity": "500",
+                    "sale": "7",
+                    "sale_price": "27.032",
+                    "unit_cost": "20.414"
+                },
+                "cured meat": {
+                    "balance": "0",
+                    "reserved": "0",
+                    "capacity": "30",
+                    "unit_cost": "24.544"
+                },
+                "dye": {
+                    "balance": "26.483",
+                    "reserved": "0",
+                    "capacity": "50",
+                    "unit_cost": "47.283"
+                },
+                "dyed cloth": {
+                    "balance": "25.344",
+                    "reserved": "0",
+                    "capacity": "500",
+                    "unit_cost": "12.585"
+                },
+                "firewood": {
+                    "balance": "99.3",
+                    "reserved": "0",
+                    "capacity": "100",
+                    "unit_cost": "2.683"
+                },
+                "fish": {
+                    "balance": "480",
+                    "reserved": "0",
+                    "unit_cost": "2.028"
+                },
+                "flax fibres": {
+                    "balance": "202.18",
+                    "reserved": "0",
+                    "capacity": "2000",
+                    "unit_cost": "4.539"
+                },
+                "flax plants": {
+                    "balance": "306.956",
+                    "reserved": "0",
+                    "capacity": "4000",
+                    "unit_cost": "1.424"
+                },
+                "furniture": {
+                    "balance": "12.6",
+                    "reserved": "0",
+                    "capacity": "100",
+                    "unit_cost": "11.121"
+                },
+                "garments": {
+                    "balance": "27.71",
+                    "reserved": "0",
+                    "capacity": "150",
+                    "unit_cost": "22.139"
+                },
+                "grain": {
+                    "balance": "210",
+                    "reserved": "0",
+                    "capacity": "225",
+                    "unit_cost": "10.126"
+                },
+                "hides": {
+                    "balance": "261",
+                    "reserved": "0",
+                    "capacity": "500",
+                    "unit_cost": "11.363"
+                },
+                "jewellery": {
+                    "balance": "0",
+                    "reserved": "0",
+                    "capacity": "100",
+                    "unit_cost": "120"
+                },
+                "labour": {
+                    "balance": "2195",
+                    "reserved": "0",
+                    "unit_cost": "2.402"
+                },
+                "leather": {
+                    "balance": "46.758",
+                    "reserved": "0",
+                    "capacity": "112",
+                    "unit_cost": "23.736"
+                },
+                "limestone": {
+                    "balance": "69",
+                    "reserved": "0",
+                    "capacity": "100",
+                    "unit_cost": "18.405"
+                },
+                "lodging": {
+                    "balance": "0",
+                    "reserved": "0",
+                    "unit_cost": "1.558"
+                },
+                "lumber": {
+                    "balance": "75",
+                    "reserved": "0",
+                    "capacity": "75",
+                    "unit_cost": "3.379"
+                },
+                "money": {
+                    "balance": "204431.076",
+                    "reserved": "66",
+                    "purchase": "189.228",
+                    "sale": "32.19"
+                },
+                "nails": {
+                    "balance": "249.267",
+                    "reserved": "0",
+                    "capacity": "250",
+                    "unit_cost": "5.722"
+                },
+                "nets": {
+                    "balance": "79.7",
+                    "reserved": "0",
+                    "capacity": "80",
+                    "unit_cost": "35.603"
+                },
+                "ox power": {
+                    "balance": "13",
+                    "reserved": "0",
+                    "unit_cost": "0.05"
+                },
+                "ploughs": {
+                    "balance": "8.433",
+                    "reserved": "0",
+                    "capacity": "40",
+                    "unit_cost": "69.737"
+                },
+                "rope": {
+                    "balance": "66.3",
+                    "reserved": "0",
+                    "capacity": "150",
+                    "unit_cost": "54.039"
+                },
+                "salt": {
+                    "balance": "399.979",
+                    "reserved": "0",
+                    "capacity": "400",
+                    "unit_cost": "3.129"
+                },
+                "slaked lime": {
+                    "balance": "300.5",
+                    "reserved": "0",
+                    "capacity": "400",
+                    "unit_cost": "12"
+                },
+                "snekkja": {
+                    "balance": "0",
+                    "reserved": "0",
+                    "unit_cost": "2014.861"
+                },
+                "stockfish": {
+                    "balance": "28",
+                    "reserved": "0",
+                    "capacity": "100",
+                    "unit_cost": "80.023"
+                },
+                "tar": {
+                    "balance": "360.2",
+                    "reserved": "0",
+                    "capacity": "500",
+                    "unit_cost": "11.12"
+                },
+                "thread": {
+                    "balance": "2419.28",
+                    "reserved": "0",
+                    "capacity": "6000",
+                    "unit_cost": "3.863"
+                },
+                "tiles": {
+                    "balance": "0",
+                    "reserved": "0",
+                    "capacity": "150",
+                    "unit_cost": "5"
+                },
+                "timber": {
+                    "balance": "149.538",
+                    "reserved": "0",
+                    "capacity": "400",
+                    "unit_cost": "6.739"
+                },
+                "tools": {
+                    "balance": "119.105",
+                    "reserved": "0",
+                    "capacity": "120",
+                    "unit_cost": "5.869"
+                },
+                "wheels": {
+                    "balance": "152.8",
+                    "reserved": "0",
+                    "capacity": "500",
+                    "reserved_capacity": "3",
+                    "unit_cost": "18.752"
+                },
+                "windows": {
+                    "balance": "0",
+                    "reserved": "0",
+                    "capacity": "20",
+                    "unit_cost": "550.25"
+                },
+                "wine": {
+                    "balance": "19",
+                    "reserved": "0",
+                    "capacity": "20",
+                    "unit_cost": "10"
+                },
+                "wrought iron": {
+                    "balance": "44.594",
+                    "reserved": "0",
+                    "capacity": "45",
+                    "unit_cost": "11.818"
+                },
+                "yarn": {
+                    "balance": "20",
+                    "reserved": "0",
+                    "capacity": "100",
+                    "unit_cost": "4.877"
+                }
+            },
+            "_ts": 1716529140980798,
+            "active_orders": [
+                {
+                    "market": 124768152722,
+                    "asset": "cured fish",
+                    "currency": "money",
+                    "id": "9795",
+                    "direction": "ask",
+                    "volume": 1,
+                    "price": "26.32",
+                    "charges": {
+                        "fee": "0.004"
+                    },
+                    "expiry": "0001-01-01T00:00:00Z"
+                },
+                {
+                    "market": 90408414354,
+                    "asset": "wheels",
+                    "currency": "money",
+                    "id": "1030",
+                    "direction": "bid",
+                    "volume": 3,
+                    "price": "22",
+                    "charges": {},
+                    "fare": "0.004",
+                    "expiry": "0001-01-01T00:00:00Z"
+                }
+            ]
+        },
+        "/towns/214101138/markets/cured fish": {
+            "id": 124768152722,
+            "product": "cured fish",
+            "asset": "cured fish",
+            "currency": "money",
+            "bids": [
+                {
+                    "volume": 3,
+                    "price": "25.494"
+                }
+            ],
+            "asks": [
+                {
+                    "volume": 1,
+                    "price": "26.32"
+                },
+                {
+                    "volume": 1,
+                    "price": "28.323"
+                },
+                {
+                    "volume": 1,
+                    "price": "28.392"
+                },
+                {
+                    "volume": 1,
+                    "price": "29.308"
+                },
+                {
+                    "volume": 2,
+                    "price": "30.293"
+                },
+                {
+                    "volume": 1,
+                    "price": "33.39"
+                }
+            ],
+            "data": {
+                "price": "26.322",
+                "open_price": "27.151",
+                "last_price": "26.322",
+                "average_price": "27.032",
+                "moving_average": "26.841",
+                "highest_bid": "25.494",
+                "lowest_ask": "26.32",
+                "high_price": "27.151",
+                "low_price": "26.322",
+                "volume": 7,
+                "volume_prev_12": 74,
+                "bid_volume_10": 3,
+                "ask_volume_10": 3
+            },
+            "_ts": 1716529140980857
+        },
+        "/transports/64503": {
+            "id": "64503",
+            "reference": "transport/64503",
+            "type": "snekkja",
+            "size": 1,
+            "name": "Utheim",
+            "owner_id": "20636",
+            "town_id": "214101138",
+            "hometown_id": "179800943",
+            "location": {
+                "x": 2140,
+                "y": 1138
+            },
+            "capacity": "1",
+            "inventory": {
+                "account": {
+                    "id": "7b9359",
+                    "owner_id": "20636",
+                    "master_id": "7374f3",
+                    "assets": {
+                        "beer": {
+                            "balance": "32.5",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "unit_cost": "2.368"
+                        },
+                        "bread": {
+                            "balance": "191.5",
+                            "reserved": "0",
+                            "capacity": "500",
+                            "unit_cost": "2.145"
+                        },
+                        "bricks": {
+                            "balance": "100",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "unit_cost": "8.447"
+                        },
+                        "carting": {
+                            "balance": "12",
+                            "reserved": "0",
+                            "unit_cost": "0.6"
+                        },
+                        "casks": {
+                            "balance": "66.966",
+                            "reserved": "0",
+                            "capacity": "600",
+                            "unit_cost": "3.828"
+                        },
+                        "charcoal": {
+                            "balance": "15",
+                            "reserved": "0",
+                            "capacity": "15",
+                            "unit_cost": "1.873"
+                        },
+                        "cheese": {
+                            "balance": "75.68",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "unit_cost": "5.029"
+                        },
+                        "cloth": {
+                            "balance": "734.096",
+                            "reserved": "0",
+                            "capacity": "5000",
+                            "unit_cost": "5.636"
+                        },
+                        "cog": {
+                            "balance": "0.102",
+                            "reserved": "0",
+                            "unit_cost": "5696.368"
+                        },
+                        "cookware": {
+                            "balance": "65.684",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "unit_cost": "15.984"
+                        },
+                        "cured fish": {
+                            "balance": "270",
+                            "reserved": "0",
+                            "capacity": "500",
+                            "unit_cost": "20.414"
+                        },
+                        "cured meat": {
+                            "balance": "0",
+                            "reserved": "0",
+                            "capacity": "30",
+                            "unit_cost": "24.544"
+                        },
+                        "dye": {
+                            "balance": "26.483",
+                            "reserved": "0",
+                            "capacity": "50",
+                            "unit_cost": "47.283"
+                        },
+                        "dyed cloth": {
+                            "balance": "25.344",
+                            "reserved": "0",
+                            "capacity": "500",
+                            "unit_cost": "12.585"
+                        },
+                        "firewood": {
+                            "balance": "99.3",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "unit_cost": "2.683"
+                        },
+                        "fish": {
+                            "balance": "480",
+                            "reserved": "0",
+                            "unit_cost": "2.028"
+                        },
+                        "flax fibres": {
+                            "balance": "202.18",
+                            "reserved": "0",
+                            "capacity": "2000",
+                            "unit_cost": "4.539"
+                        },
+                        "flax plants": {
+                            "balance": "306.956",
+                            "reserved": "0",
+                            "capacity": "4000",
+                            "unit_cost": "1.424"
+                        },
+                        "furniture": {
+                            "balance": "12.6",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "unit_cost": "11.121"
+                        },
+                        "garments": {
+                            "balance": "27.71",
+                            "reserved": "0",
+                            "capacity": "150",
+                            "unit_cost": "22.139"
+                        },
+                        "grain": {
+                            "balance": "210",
+                            "reserved": "0",
+                            "capacity": "225",
+                            "unit_cost": "10.126"
+                        },
+                        "hides": {
+                            "balance": "261",
+                            "reserved": "0",
+                            "capacity": "500",
+                            "unit_cost": "11.363"
+                        },
+                        "jewellery": {
+                            "balance": "0",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "unit_cost": "120"
+                        },
+                        "labour": {
+                            "balance": "2195",
+                            "reserved": "0",
+                            "unit_cost": "2.402"
+                        },
+                        "leather": {
+                            "balance": "46.758",
+                            "reserved": "0",
+                            "capacity": "112",
+                            "unit_cost": "23.736"
+                        },
+                        "limestone": {
+                            "balance": "69",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "unit_cost": "18.405"
+                        },
+                        "lodging": {
+                            "balance": "0",
+                            "reserved": "0",
+                            "unit_cost": "1.558"
+                        },
+                        "lumber": {
+                            "balance": "75",
+                            "reserved": "0",
+                            "capacity": "75",
+                            "unit_cost": "3.379"
+                        },
+                        "money": {
+                            "balance": "204431.076",
+                            "reserved": "0"
+                        },
+                        "nails": {
+                            "balance": "249.267",
+                            "reserved": "0",
+                            "capacity": "250",
+                            "unit_cost": "5.722"
+                        },
+                        "nets": {
+                            "balance": "79.7",
+                            "reserved": "0",
+                            "capacity": "80",
+                            "unit_cost": "35.603"
+                        },
+                        "ox power": {
+                            "balance": "13",
+                            "reserved": "0",
+                            "unit_cost": "0.05"
+                        },
+                        "ploughs": {
+                            "balance": "8.433",
+                            "reserved": "0",
+                            "capacity": "40",
+                            "unit_cost": "69.737"
+                        },
+                        "rope": {
+                            "balance": "66.3",
+                            "reserved": "0",
+                            "capacity": "150",
+                            "unit_cost": "54.039"
+                        },
+                        "salt": {
+                            "balance": "399.979",
+                            "reserved": "0",
+                            "capacity": "400",
+                            "unit_cost": "3.129"
+                        },
+                        "slaked lime": {
+                            "balance": "300.5",
+                            "reserved": "0",
+                            "capacity": "400",
+                            "unit_cost": "12"
+                        },
+                        "snekkja": {
+                            "balance": "0",
+                            "reserved": "0",
+                            "unit_cost": "2014.861"
+                        },
+                        "stockfish": {
+                            "balance": "28",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "unit_cost": "80.023"
+                        },
+                        "tar": {
+                            "balance": "360.2",
+                            "reserved": "0",
+                            "capacity": "500",
+                            "unit_cost": "11.12"
+                        },
+                        "thread": {
+                            "balance": "2419.28",
+                            "reserved": "0",
+                            "capacity": "6000",
+                            "unit_cost": "3.863"
+                        },
+                        "tiles": {
+                            "balance": "0",
+                            "reserved": "0",
+                            "capacity": "150",
+                            "unit_cost": "5"
+                        },
+                        "timber": {
+                            "balance": "149.538",
+                            "reserved": "0",
+                            "capacity": "400",
+                            "unit_cost": "6.739"
+                        },
+                        "tools": {
+                            "balance": "119.105",
+                            "reserved": "0",
+                            "capacity": "120",
+                            "unit_cost": "5.869"
+                        },
+                        "wheels": {
+                            "balance": "152.8",
+                            "reserved": "0",
+                            "capacity": "500",
+                            "unit_cost": "18.752"
+                        },
+                        "windows": {
+                            "balance": "0",
+                            "reserved": "0",
+                            "capacity": "20",
+                            "unit_cost": "550.25"
+                        },
+                        "wine": {
+                            "balance": "19",
+                            "reserved": "0",
+                            "capacity": "20",
+                            "unit_cost": "10"
+                        },
+                        "wrought iron": {
+                            "balance": "44.594",
+                            "reserved": "0",
+                            "capacity": "45",
+                            "unit_cost": "11.818"
+                        },
+                        "yarn": {
+                            "balance": "20",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "unit_cost": "4.877"
+                        }
+                    },
+                    "_ts": 1716529043223942
+                },
+                "capacity": 0,
+                "previous_flows": {
+                    "labour": {
+                        "consumption": "25"
+                    }
+                }
+            },
+            "cargo": {
+                "reference": "cargo/64503",
+                "inventory": {
+                    "account": {
+                        "id": "5b08f8",
+                        "owner_id": "20636",
+                        "assets": {
+                            "money": {
+                                "balance": "209.85",
+                                "reserved": "0"
+                            }
+                        },
+                        "_ts": 1716529043223744
+                    },
+                    "capacity": 200,
+                    "previous_flows": {}
+                }
+            },
+            "previous_operation": {
+                "target": "0.5",
+                "production": "0.5",
+                "provision": "0"
+            },
+            "provider_id": "179800943006006",
+            "route": {
+                "id": "919557385746447351",
+                "reference": "route/64503",
+                "local_town": "179800943",
+                "remote_town": "214101138",
+                "capacity": 800,
+                "reserved_import": 38,
+                "reserved_export": 20,
+                "distance": 455,
+                "moves": "454.176",
+                "provider_id": "179800943006006",
+                "account_id": "7aa12e",
+                "account": {
+                    "id": "7aa12e",
+                    "name": "route/64503",
+                    "owner_id": "20636",
+                    "master_id": "7374f3",
+                    "assets": {
+                        "beer": {
+                            "balance": "32.5",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "purchase": "15",
+                            "purchase_price": "2.146",
+                            "unit_cost": "2.368"
+                        },
+                        "bread": {
+                            "balance": "191.5",
+                            "reserved": "0",
+                            "capacity": "500",
+                            "unit_cost": "2.145"
+                        },
+                        "bricks": {
+                            "balance": "100",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "unit_cost": "8.447"
+                        },
+                        "carting": {
+                            "balance": "12",
+                            "reserved": "0",
+                            "unit_cost": "0.6"
+                        },
+                        "casks": {
+                            "balance": "66.966",
+                            "reserved": "0",
+                            "capacity": "600",
+                            "unit_cost": "3.828"
+                        },
+                        "charcoal": {
+                            "balance": "15",
+                            "reserved": "0",
+                            "capacity": "15",
+                            "unit_cost": "1.873"
+                        },
+                        "cheese": {
+                            "balance": "75.68",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "unit_cost": "5.029"
+                        },
+                        "cloth": {
+                            "balance": "734.096",
+                            "reserved": "0",
+                            "capacity": "5000",
+                            "unit_cost": "5.636"
+                        },
+                        "cog": {
+                            "balance": "0.102",
+                            "reserved": "0",
+                            "unit_cost": "5696.368"
+                        },
+                        "cookware": {
+                            "balance": "65.684",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "unit_cost": "15.984"
+                        },
+                        "cured fish": {
+                            "balance": "270",
+                            "reserved": "1",
+                            "capacity": "500",
+                            "sale": "7",
+                            "sale_price": "27.032",
+                            "unit_cost": "20.414"
+                        },
+                        "cured meat": {
+                            "balance": "0",
+                            "reserved": "0",
+                            "capacity": "30",
+                            "unit_cost": "24.544"
+                        },
+                        "dye": {
+                            "balance": "26.483",
+                            "reserved": "0",
+                            "capacity": "50",
+                            "unit_cost": "47.283"
+                        },
+                        "dyed cloth": {
+                            "balance": "25.344",
+                            "reserved": "0",
+                            "capacity": "500",
+                            "unit_cost": "12.585"
+                        },
+                        "firewood": {
+                            "balance": "99.3",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "unit_cost": "2.683"
+                        },
+                        "fish": {
+                            "balance": "480",
+                            "reserved": "0",
+                            "unit_cost": "2.028"
+                        },
+                        "flax fibres": {
+                            "balance": "202.18",
+                            "reserved": "0",
+                            "capacity": "2000",
+                            "unit_cost": "4.539"
+                        },
+                        "flax plants": {
+                            "balance": "306.956",
+                            "reserved": "0",
+                            "capacity": "4000",
+                            "unit_cost": "1.424"
+                        },
+                        "furniture": {
+                            "balance": "12.6",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "unit_cost": "11.121"
+                        },
+                        "garments": {
+                            "balance": "27.71",
+                            "reserved": "0",
+                            "capacity": "150",
+                            "unit_cost": "22.139"
+                        },
+                        "grain": {
+                            "balance": "210",
+                            "reserved": "0",
+                            "capacity": "225",
+                            "unit_cost": "10.126"
+                        },
+                        "hides": {
+                            "balance": "261",
+                            "reserved": "0",
+                            "capacity": "500",
+                            "unit_cost": "11.363"
+                        },
+                        "jewellery": {
+                            "balance": "0",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "unit_cost": "120"
+                        },
+                        "labour": {
+                            "balance": "2195",
+                            "reserved": "0",
+                            "unit_cost": "2.402"
+                        },
+                        "leather": {
+                            "balance": "46.758",
+                            "reserved": "0",
+                            "capacity": "112",
+                            "unit_cost": "23.736"
+                        },
+                        "limestone": {
+                            "balance": "69",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "unit_cost": "18.405"
+                        },
+                        "lodging": {
+                            "balance": "0",
+                            "reserved": "0",
+                            "unit_cost": "1.558"
+                        },
+                        "lumber": {
+                            "balance": "75",
+                            "reserved": "0",
+                            "capacity": "75",
+                            "unit_cost": "3.379"
+                        },
+                        "money": {
+                            "balance": "204431.076",
+                            "reserved": "66",
+                            "purchase": "189.228",
+                            "sale": "32.19"
+                        },
+                        "nails": {
+                            "balance": "249.267",
+                            "reserved": "0",
+                            "capacity": "250",
+                            "unit_cost": "5.722"
+                        },
+                        "nets": {
+                            "balance": "79.7",
+                            "reserved": "0",
+                            "capacity": "80",
+                            "unit_cost": "35.603"
+                        },
+                        "ox power": {
+                            "balance": "13",
+                            "reserved": "0",
+                            "unit_cost": "0.05"
+                        },
+                        "ploughs": {
+                            "balance": "8.433",
+                            "reserved": "0",
+                            "capacity": "40",
+                            "unit_cost": "69.737"
+                        },
+                        "rope": {
+                            "balance": "66.3",
+                            "reserved": "0",
+                            "capacity": "150",
+                            "unit_cost": "54.039"
+                        },
+                        "salt": {
+                            "balance": "399.979",
+                            "reserved": "0",
+                            "capacity": "400",
+                            "unit_cost": "3.129"
+                        },
+                        "slaked lime": {
+                            "balance": "300.5",
+                            "reserved": "0",
+                            "capacity": "400",
+                            "unit_cost": "12"
+                        },
+                        "snekkja": {
+                            "balance": "0",
+                            "reserved": "0",
+                            "unit_cost": "2014.861"
+                        },
+                        "stockfish": {
+                            "balance": "28",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "unit_cost": "80.023"
+                        },
+                        "tar": {
+                            "balance": "360.2",
+                            "reserved": "0",
+                            "capacity": "500",
+                            "unit_cost": "11.12"
+                        },
+                        "thread": {
+                            "balance": "2419.28",
+                            "reserved": "0",
+                            "capacity": "6000",
+                            "unit_cost": "3.863"
+                        },
+                        "tiles": {
+                            "balance": "0",
+                            "reserved": "0",
+                            "capacity": "150",
+                            "unit_cost": "5"
+                        },
+                        "timber": {
+                            "balance": "149.538",
+                            "reserved": "0",
+                            "capacity": "400",
+                            "unit_cost": "6.739"
+                        },
+                        "tools": {
+                            "balance": "119.105",
+                            "reserved": "0",
+                            "capacity": "120",
+                            "unit_cost": "5.869"
+                        },
+                        "wheels": {
+                            "balance": "152.8",
+                            "reserved": "0",
+                            "capacity": "500",
+                            "reserved_capacity": "3",
+                            "unit_cost": "18.752"
+                        },
+                        "windows": {
+                            "balance": "0",
+                            "reserved": "0",
+                            "capacity": "20",
+                            "unit_cost": "550.25"
+                        },
+                        "wine": {
+                            "balance": "19",
+                            "reserved": "0",
+                            "capacity": "20",
+                            "unit_cost": "10"
+                        },
+                        "wrought iron": {
+                            "balance": "44.594",
+                            "reserved": "0",
+                            "capacity": "45",
+                            "unit_cost": "11.818"
+                        },
+                        "yarn": {
+                            "balance": "20",
+                            "reserved": "0",
+                            "capacity": "100",
+                            "unit_cost": "4.877"
+                        }
+                    },
+                    "_ts": 1716529043223757
+                },
+                "managers": {
+                    "beer": {
+                        "buy_volume": 15,
+                        "buy_price": "2.8",
+                        "sell_volume": 0
+                    },
+                    "cured fish": {
+                        "buy_volume": 0,
+                        "sell_volume": 10,
+                        "sell_price": "25"
+                    },
+                    "wheels": {
+                        "max_holding": 500,
+                        "buy_volume": 3,
+                        "buy_price": "22",
+                        "sell_volume": 0
+                    },
+                    "wrought iron": {
+                        "max_holding": 551,
+                        "buy_volume": 2,
+                        "buy_price": "14",
+                        "sell_volume": 0
+                    }
+                },
+                "current_flows": {
+                    "beer": {
+                        "import": "15"
+                    },
+                    "bread": {},
+                    "bricks": {},
+                    "carting": {},
+                    "casks": {},
+                    "charcoal": {},
+                    "cheese": {},
+                    "cloth": {},
+                    "cog": {},
+                    "cookware": {},
+                    "cured fish": {
+                        "export": "7"
+                    },
+                    "cured meat": {},
+                    "dye": {},
+                    "dyed cloth": {},
+                    "firewood": {},
+                    "fish": {},
+                    "flax fibres": {},
+                    "flax plants": {},
+                    "furniture": {},
+                    "garments": {},
+                    "grain": {},
+                    "hides": {},
+                    "jewellery": {},
+                    "labour": {},
+                    "leather": {},
+                    "limestone": {},
+                    "lodging": {},
+                    "lumber": {},
+                    "nails": {},
+                    "nets": {},
+                    "ox power": {},
+                    "ploughs": {},
+                    "rope": {},
+                    "salt": {},
+                    "slaked lime": {},
+                    "snekkja": {},
+                    "stockfish": {},
+                    "tar": {},
+                    "thread": {},
+                    "tiles": {},
+                    "timber": {},
+                    "tools": {},
+                    "wheels": {},
+                    "windows": {},
+                    "wine": {},
+                    "wrought iron": {},
+                    "yarn": {}
+                },
+                "previous_flows": {
+                    "beer": {
+                        "import": "15"
+                    },
+                    "bread": {},
+                    "bricks": {},
+                    "carting": {},
+                    "casks": {},
+                    "charcoal": {},
+                    "cheese": {},
+                    "cloth": {},
+                    "cog": {},
+                    "cookware": {},
+                    "cured fish": {
+                        "export": "5"
+                    },
+                    "cured meat": {},
+                    "dye": {},
+                    "dyed cloth": {},
+                    "firewood": {},
+                    "fish": {},
+                    "flax fibres": {},
+                    "flax plants": {},
+                    "furniture": {},
+                    "garments": {},
+                    "grain": {},
+                    "hides": {},
+                    "jewellery": {},
+                    "labour": {},
+                    "leather": {},
+                    "limestone": {},
+                    "lodging": {},
+                    "lumber": {},
+                    "nails": {},
+                    "nets": {},
+                    "ox power": {},
+                    "ploughs": {},
+                    "rope": {},
+                    "salt": {},
+                    "slaked lime": {},
+                    "snekkja": {},
+                    "stockfish": {},
+                    "tar": {},
+                    "thread": {},
+                    "tiles": {},
+                    "timber": {},
+                    "tools": {},
+                    "wheels": {},
+                    "windows": {},
+                    "wine": {},
+                    "wrought iron": {},
+                    "yarn": {}
+                }
+            },
+            "journey": {
+                "category": "sea",
+                "start_town_id": "179800943",
+                "end_town_id": "214101138",
+                "distance": "454.176",
+                "moves": "454.176",
+                "legs": [
+                    {
+                        "path": [
+                            {
+                                "x": 1798,
+                                "y": 942,
+                                "c": "0"
+                            },
+                            {
+                                "x": 1799,
+                                "y": 943,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1800,
+                                "y": 944,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1801,
+                                "y": 944,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1802,
+                                "y": 945,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1803,
+                                "y": 946,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1804,
+                                "y": 947,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1805,
+                                "y": 948,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1806,
+                                "y": 949,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1807,
+                                "y": 950,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1808,
+                                "y": 951,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1809,
+                                "y": 951,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1810,
+                                "y": 951,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1811,
+                                "y": 951,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1812,
+                                "y": 951,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1813,
+                                "y": 951,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1814,
+                                "y": 951,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1815,
+                                "y": 952,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1816,
+                                "y": 953,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1817,
+                                "y": 954,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1818,
+                                "y": 955,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1819,
+                                "y": 956,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1820,
+                                "y": 957,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1821,
+                                "y": 958,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1822,
+                                "y": 959,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1823,
+                                "y": 960,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1824,
+                                "y": 961,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1825,
+                                "y": 962,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1826,
+                                "y": 963,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1827,
+                                "y": 964,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1828,
+                                "y": 965,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1829,
+                                "y": 966,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1830,
+                                "y": 967,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1831,
+                                "y": 968,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1832,
+                                "y": 969,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1833,
+                                "y": 970,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1834,
+                                "y": 971,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1835,
+                                "y": 972,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1836,
+                                "y": 973,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1837,
+                                "y": 974,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1838,
+                                "y": 975,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1839,
+                                "y": 976,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1839,
+                                "y": 977,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1839,
+                                "y": 978,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1839,
+                                "y": 979,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1839,
+                                "y": 980,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1839,
+                                "y": 981,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1839,
+                                "y": 982,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1840,
+                                "y": 983,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1841,
+                                "y": 984,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1842,
+                                "y": 985,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1843,
+                                "y": 986,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1844,
+                                "y": 987,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1845,
+                                "y": 988,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1846,
+                                "y": 989,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1847,
+                                "y": 990,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1848,
+                                "y": 991,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1849,
+                                "y": 992,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1850,
+                                "y": 993,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1851,
+                                "y": 994,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1852,
+                                "y": 995,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1853,
+                                "y": 996,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1854,
+                                "y": 997,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1855,
+                                "y": 998,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1856,
+                                "y": 999,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1857,
+                                "y": 1000,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1858,
+                                "y": 1001,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1859,
+                                "y": 1002,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1860,
+                                "y": 1003,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1861,
+                                "y": 1004,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1862,
+                                "y": 1005,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1862,
+                                "y": 1006,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1862,
+                                "y": 1007,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1862,
+                                "y": 1008,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1862,
+                                "y": 1009,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1862,
+                                "y": 1010,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1862,
+                                "y": 1011,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1863,
+                                "y": 1012,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1864,
+                                "y": 1013,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1865,
+                                "y": 1014,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1866,
+                                "y": 1015,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1867,
+                                "y": 1016,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1868,
+                                "y": 1017,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1869,
+                                "y": 1018,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1870,
+                                "y": 1019,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1871,
+                                "y": 1020,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1872,
+                                "y": 1021,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1873,
+                                "y": 1022,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1874,
+                                "y": 1023,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1875,
+                                "y": 1024,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1876,
+                                "y": 1025,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1877,
+                                "y": 1026,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1878,
+                                "y": 1027,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1879,
+                                "y": 1028,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1880,
+                                "y": 1029,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1881,
+                                "y": 1030,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1882,
+                                "y": 1031,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1883,
+                                "y": 1032,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1884,
+                                "y": 1033,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1884,
+                                "y": 1034,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1884,
+                                "y": 1035,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1884,
+                                "y": 1036,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1884,
+                                "y": 1037,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1884,
+                                "y": 1038,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1884,
+                                "y": 1039,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1884,
+                                "y": 1040,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1885,
+                                "y": 1041,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1886,
+                                "y": 1042,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1887,
+                                "y": 1043,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1888,
+                                "y": 1044,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1889,
+                                "y": 1045,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1890,
+                                "y": 1046,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1891,
+                                "y": 1047,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1892,
+                                "y": 1048,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1893,
+                                "y": 1049,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1894,
+                                "y": 1050,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1895,
+                                "y": 1051,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1896,
+                                "y": 1052,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1897,
+                                "y": 1053,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1898,
+                                "y": 1054,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1899,
+                                "y": 1055,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1900,
+                                "y": 1056,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1901,
+                                "y": 1057,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1902,
+                                "y": 1058,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1903,
+                                "y": 1058,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1904,
+                                "y": 1058,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1905,
+                                "y": 1058,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1906,
+                                "y": 1059,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1907,
+                                "y": 1060,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1908,
+                                "y": 1061,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1909,
+                                "y": 1062,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1910,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1911,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1912,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1913,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1914,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1915,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1916,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1917,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1918,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1919,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1920,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1921,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1922,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1923,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1924,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1925,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1926,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1927,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1928,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1929,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1930,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1931,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1932,
+                                "y": 1062,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1933,
+                                "y": 1063,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1934,
+                                "y": 1064,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1935,
+                                "y": 1065,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1936,
+                                "y": 1066,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1937,
+                                "y": 1066,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1938,
+                                "y": 1066,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1939,
+                                "y": 1066,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1940,
+                                "y": 1066,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1941,
+                                "y": 1066,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1942,
+                                "y": 1066,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1943,
+                                "y": 1066,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1944,
+                                "y": 1066,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1945,
+                                "y": 1066,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1946,
+                                "y": 1066,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1947,
+                                "y": 1066,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1948,
+                                "y": 1066,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1949,
+                                "y": 1066,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1950,
+                                "y": 1066,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1951,
+                                "y": 1066,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1952,
+                                "y": 1066,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1953,
+                                "y": 1066,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1954,
+                                "y": 1066,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1955,
+                                "y": 1067,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1956,
+                                "y": 1068,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1957,
+                                "y": 1069,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1958,
+                                "y": 1070,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1959,
+                                "y": 1071,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1960,
+                                "y": 1072,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1961,
+                                "y": 1072,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1962,
+                                "y": 1072,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1963,
+                                "y": 1072,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1964,
+                                "y": 1072,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1965,
+                                "y": 1072,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1966,
+                                "y": 1072,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1967,
+                                "y": 1072,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1968,
+                                "y": 1072,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1969,
+                                "y": 1072,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1970,
+                                "y": 1072,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1971,
+                                "y": 1072,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1972,
+                                "y": 1072,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1973,
+                                "y": 1072,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1974,
+                                "y": 1072,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1975,
+                                "y": 1072,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1976,
+                                "y": 1072,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1977,
+                                "y": 1073,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1978,
+                                "y": 1074,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1979,
+                                "y": 1075,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1980,
+                                "y": 1076,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1981,
+                                "y": 1077,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1982,
+                                "y": 1078,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1983,
+                                "y": 1079,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1984,
+                                "y": 1080,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1985,
+                                "y": 1081,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1986,
+                                "y": 1082,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 1987,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1988,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1989,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1990,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1991,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1992,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1993,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1994,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1995,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1996,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1997,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1998,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 1999,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2000,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2001,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2002,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2003,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2004,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2005,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2006,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2007,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2008,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2009,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2010,
+                                "y": 1082,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2011,
+                                "y": 1081,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2012,
+                                "y": 1080,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2013,
+                                "y": 1079,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2014,
+                                "y": 1078,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2015,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2016,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2017,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2018,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2019,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2020,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2021,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2022,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2023,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2024,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2025,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2026,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2027,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2028,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2029,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2030,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2031,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2032,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2033,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2034,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2035,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2036,
+                                "y": 1078,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2037,
+                                "y": 1077,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2038,
+                                "y": 1077,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2039,
+                                "y": 1077,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2040,
+                                "y": 1077,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2041,
+                                "y": 1077,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2042,
+                                "y": 1077,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2043,
+                                "y": 1076,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2044,
+                                "y": 1075,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2045,
+                                "y": 1075,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2046,
+                                "y": 1075,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2047,
+                                "y": 1074,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2048,
+                                "y": 1073,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2049,
+                                "y": 1072,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2050,
+                                "y": 1071,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2051,
+                                "y": 1070,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2052,
+                                "y": 1070,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2053,
+                                "y": 1070,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2054,
+                                "y": 1070,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2055,
+                                "y": 1070,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2056,
+                                "y": 1070,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2057,
+                                "y": 1070,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2058,
+                                "y": 1070,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2059,
+                                "y": 1070,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2060,
+                                "y": 1070,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2061,
+                                "y": 1070,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2062,
+                                "y": 1070,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2063,
+                                "y": 1071,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2064,
+                                "y": 1072,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2065,
+                                "y": 1073,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2066,
+                                "y": 1074,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2067,
+                                "y": 1075,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2068,
+                                "y": 1076,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2069,
+                                "y": 1077,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2070,
+                                "y": 1078,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2071,
+                                "y": 1079,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2072,
+                                "y": 1080,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2073,
+                                "y": 1080,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2074,
+                                "y": 1080,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2075,
+                                "y": 1080,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2076,
+                                "y": 1080,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2077,
+                                "y": 1080,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2078,
+                                "y": 1080,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2079,
+                                "y": 1080,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2080,
+                                "y": 1080,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2081,
+                                "y": 1080,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2082,
+                                "y": 1080,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2083,
+                                "y": 1080,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2084,
+                                "y": 1080,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2085,
+                                "y": 1080,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2086,
+                                "y": 1080,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2087,
+                                "y": 1080,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2088,
+                                "y": 1081,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2089,
+                                "y": 1082,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2090,
+                                "y": 1083,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2091,
+                                "y": 1084,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2092,
+                                "y": 1085,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2093,
+                                "y": 1086,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2094,
+                                "y": 1087,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2095,
+                                "y": 1088,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2096,
+                                "y": 1089,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2097,
+                                "y": 1090,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2098,
+                                "y": 1091,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2099,
+                                "y": 1092,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2100,
+                                "y": 1093,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2101,
+                                "y": 1094,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2102,
+                                "y": 1095,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2103,
+                                "y": 1096,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2103,
+                                "y": 1097,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2103,
+                                "y": 1098,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2103,
+                                "y": 1099,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2104,
+                                "y": 1100,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2105,
+                                "y": 1101,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2106,
+                                "y": 1102,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2107,
+                                "y": 1103,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2108,
+                                "y": 1104,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2109,
+                                "y": 1105,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2110,
+                                "y": 1106,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2111,
+                                "y": 1107,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2112,
+                                "y": 1108,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2113,
+                                "y": 1109,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2114,
+                                "y": 1110,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2115,
+                                "y": 1111,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2116,
+                                "y": 1112,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2117,
+                                "y": 1113,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2118,
+                                "y": 1114,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2119,
+                                "y": 1115,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2120,
+                                "y": 1116,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2121,
+                                "y": 1117,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2121,
+                                "y": 1118,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2121,
+                                "y": 1119,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2121,
+                                "y": 1120,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2121,
+                                "y": 1121,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2121,
+                                "y": 1122,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2121,
+                                "y": 1123,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2121,
+                                "y": 1124,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2121,
+                                "y": 1125,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2121,
+                                "y": 1126,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2121,
+                                "y": 1127,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2121,
+                                "y": 1128,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2121,
+                                "y": 1129,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2121,
+                                "y": 1130,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2121,
+                                "y": 1131,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2122,
+                                "y": 1132,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2123,
+                                "y": 1133,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2124,
+                                "y": 1134,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2125,
+                                "y": 1135,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2126,
+                                "y": 1136,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2127,
+                                "y": 1137,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2128,
+                                "y": 1138,
+                                "c": "1.414"
+                            },
+                            {
+                                "x": 2129,
+                                "y": 1138,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2130,
+                                "y": 1138,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2131,
+                                "y": 1138,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2132,
+                                "y": 1138,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2133,
+                                "y": 1138,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2134,
+                                "y": 1138,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2135,
+                                "y": 1138,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2136,
+                                "y": 1138,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2137,
+                                "y": 1138,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2138,
+                                "y": 1138,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2139,
+                                "y": 1138,
+                                "c": "1"
+                            },
+                            {
+                                "x": 2140,
+                                "y": 1138,
+                                "c": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "_embedded_patch": {
+        "/accounts/183505": {
+            "id": "183505",
+            "name": "Swen atte Fryth",
+            "owner_id": "20636",
+            "assets": {
+                "cog": {
+                    "balance": "0",
+                    "reserved": "0",
+                    "unit_cost": "5696.368"
+                },
+                "handcart": {
+                    "balance": "14",
+                    "reserved": "4",
+                    "unit_cost": "220.36"
+                },
+                "money": {
+                    "balance": "204431.076",
+                    "reserved": "1302"
+                },
+                "snekkja": {
+                    "balance": "0",
+                    "reserved": "0",
+                    "unit_cost": "2188.646"
+                }
+            },
+            "_ts": 1716529140980601
+        },
+        "/accounts/7374f3": {
+            "id": "7374f3",
+            "name": "storehouse",
+            "owner_id": "20636",
+            "sponsor_id": "183505",
+            "assets": {
+                "beer": {
+                    "balance": "32.5",
+                    "reserved": "0",
+                    "capacity": "100",
+                    "sale": "25",
+                    "sale_price": "3.337",
+                    "unit_cost": "2.368"
+                },
+                "bread": {
+                    "balance": "191.5",
+                    "reserved": "0",
+                    "capacity": "500",
+                    "sale": "72",
+                    "sale_price": "3.238",
+                    "unit_cost": "2.145"
+                },
+                "bricks": {
+                    "balance": "100",
+                    "reserved": "0",
+                    "capacity": "100",
+                    "unit_cost": "8.447"
+                },
+                "carting": {
+                    "balance": "12",
+                    "reserved": "0",
+                    "purchase": "12",
+                    "purchase_price": "0.6",
+                    "unit_cost": "0.6"
+                },
+                "casks": {
+                    "balance": "66.966",
+                    "reserved": "0",
+                    "capacity": "600",
+                    "reserved_capacity": "12",
+                    "unit_cost": "3.828"
+                },
+                "charcoal": {
+                    "balance": "15",
+                    "reserved": "0",
+                    "capacity": "15",
+                    "unit_cost": "1.873"
+                },
+                "cheese": {
+                    "balance": "75.68",
+                    "reserved": "0",
+                    "capacity": "100",
+                    "sale": "24",
+                    "sale_price": "5",
+                    "unit_cost": "5.029"
+                },
+                "cloth": {
+                    "balance": "734.096",
+                    "reserved": "0",
+                    "capacity": "5000",
+                    "sale": "40",
+                    "sale_price": "6.421",
+                    "unit_cost": "5.636"
+                },
+                "cog": {
+                    "balance": "0.102",
+                    "reserved": "0",
+                    "unit_cost": "5696.368"
+                },
+                "cookware": {
+                    "balance": "65.684",
+                    "reserved": "0",
+                    "capacity": "100",
+                    "unit_cost": "15.984"
+                },
+                "cured fish": {
+                    "balance": "270",
+                    "reserved": "1",
+                    "capacity": "500",
+                    "sale": "16",
+                    "sale_price": "30",
+                    "unit_cost": "20.414"
+                },
+                "cured meat": {
+                    "balance": "0",
+                    "reserved": "0",
+                    "capacity": "30",
+                    "reserved_capacity": "8",
+                    "unit_cost": "24.544"
+                },
+                "dye": {
+                    "balance": "26.483",
+                    "reserved": "0",
+                    "capacity": "50",
+                    "unit_cost": "47.283"
+                },
+                "dyed cloth": {
+                    "balance": "25.344",
+                    "reserved": "0",
+                    "capacity": "500",
+                    "sale": "25",
+                    "sale_price": "14.497",
+                    "unit_cost": "12.585"
+                },
+                "firewood": {
+                    "balance": "99.3",
+                    "reserved": "0",
+                    "capacity": "100",
+                    "unit_cost": "2.683"
+                },
+                "fish": {
+                    "balance": "480",
+                    "reserved": "0",
+                    "unit_cost": "2.028"
+                },
+                "flax fibres": {
+                    "balance": "202.18",
+                    "reserved": "0",
+                    "capacity": "2000",
+                    "unit_cost": "4.539"
+                },
+                "flax plants": {
+                    "balance": "306.956",
+                    "reserved": "0",
+                    "capacity": "4000",
+                    "unit_cost": "1.424"
+                },
+                "furniture": {
+                    "balance": "12.6",
+                    "reserved": "0",
+                    "capacity": "100",
+                    "unit_cost": "11.121"
+                },
+                "garments": {
+                    "balance": "27.71",
+                    "reserved": "0",
+                    "capacity": "150",
+                    "sale": "23",
+                    "sale_price": "27.461",
+                    "unit_cost": "22.139"
+                },
+                "grain": {
+                    "balance": "210",
+                    "reserved": "0",
+                    "capacity": "225",
+                    "sale": "15",
+                    "sale_price": "2.5",
+                    "unit_cost": "10.126"
+                },
+                "hides": {
+                    "balance": "261",
+                    "reserved": "0",
+                    "capacity": "500",
+                    "purchase": "8",
+                    "purchase_price": "11",
+                    "unit_cost": "11.363"
+                },
+                "jewellery": {
+                    "balance": "0",
+                    "reserved": "0",
+                    "capacity": "100",
+                    "unit_cost": "120"
+                },
+                "labour": {
+                    "balance": "2195",
+                    "reserved": "0",
+                    "purchase": "1995",
+                    "purchase_price": "2.637",
+                    "unit_cost": "2.402"
+                },
+                "leather": {
+                    "balance": "46.758",
+                    "reserved": "0",
+                    "capacity": "112",
+                    "unit_cost": "23.736"
+                },
+                "limestone": {
+                    "balance": "69",
+                    "reserved": "0",
+                    "capacity": "100",
+                    "unit_cost": "18.405"
+                },
+                "lodging": {
+                    "balance": "0",
+                    "reserved": "0",
+                    "sale": "20",
+                    "sale_price": "9.213",
+                    "unit_cost": "1.558"
+                },
+                "lumber": {
+                    "balance": "75",
+                    "reserved": "0",
+                    "capacity": "75",
+                    "unit_cost": "3.379"
+                },
+                "money": {
+                    "balance": "204431.076",
+                    "reserved": "1302",
+                    "purchase": "2389.189",
+                    "sale": "5548.015"
+                },
+                "nails": {
+                    "balance": "249.267",
+                    "reserved": "0",
+                    "capacity": "250",
+                    "unit_cost": "5.722"
+                },
+                "nets": {
+                    "balance": "79.7",
+                    "reserved": "0",
+                    "capacity": "80",
+                    "unit_cost": "35.603"
+                },
+                "ox power": {
+                    "balance": "13",
+                    "reserved": "0",
+                    "unit_cost": "0.05"
+                },
+                "ploughs": {
+                    "balance": "8.433",
+                    "reserved": "0",
+                    "capacity": "40",
+                    "unit_cost": "69.737"
+                },
+                "rope": {
+                    "balance": "66.3",
+                    "reserved": "0",
+                    "capacity": "150",
+                    "unit_cost": "54.039"
+                },
+                "salt": {
+                    "balance": "399.979",
+                    "reserved": "0",
+                    "capacity": "400",
+                    "unit_cost": "3.129"
+                },
+                "slaked lime": {
+                    "balance": "300.5",
+                    "reserved": "0",
+                    "capacity": "400",
+                    "reserved_capacity": "50",
+                    "unit_cost": "12"
+                },
+                "snekkja": {
+                    "balance": "0",
+                    "reserved": "0",
+                    "unit_cost": "2014.861"
+                },
+                "stockfish": {
+                    "balance": "28",
+                    "reserved": "2",
+                    "capacity": "100",
+                    "unit_cost": "80.023"
+                },
+                "tar": {
+                    "balance": "360.2",
+                    "reserved": "0",
+                    "capacity": "500",
+                    "unit_cost": "11.12"
+                },
+                "thread": {
+                    "balance": "2419.28",
+                    "reserved": "0",
+                    "capacity": "6000",
+                    "unit_cost": "3.863"
+                },
+                "tiles": {
+                    "balance": "0",
+                    "reserved": "0",
+                    "capacity": "150",
+                    "unit_cost": "5"
+                },
+                "timber": {
+                    "balance": "149.538",
+                    "reserved": "0",
+                    "capacity": "400",
+                    "reserved_capacity": "34",
+                    "unit_cost": "6.739"
+                },
+                "tools": {
+                    "balance": "119.105",
+                    "reserved": "0",
+                    "capacity": "120",
+                    "purchase": "22",
+                    "purchase_price": "6",
+                    "unit_cost": "5.869"
+                },
+                "wheels": {
+                    "balance": "152.8",
+                    "reserved": "0",
+                    "capacity": "500",
+                    "reserved_capacity": "8",
+                    "unit_cost": "18.752"
+                },
+                "windows": {
+                    "balance": "0",
+                    "reserved": "0",
+                    "capacity": "20",
+                    "unit_cost": "550.25"
+                },
+                "wine": {
+                    "balance": "19",
+                    "reserved": "0",
+                    "capacity": "20",
+                    "purchase": "6",
+                    "purchase_price": "10",
+                    "unit_cost": "10"
+                },
+                "wrought iron": {
+                    "balance": "44.594",
+                    "reserved": "0",
+                    "capacity": "45",
+                    "unit_cost": "11.818"
+                },
+                "yarn": {
+                    "balance": "20",
+                    "reserved": "0",
+                    "capacity": "100",
+                    "unit_cost": "4.877"
+                }
+            },
+            "_ts": 1716529140980546
+        },
+        "/towns/214101138/marketdata": {
+            "markets": {
+                "cured fish": {
+                    "price": "26.322",
+                    "open_price": "27.151",
+                    "last_price": "26.322",
+                    "average_price": "27.032",
+                    "moving_average": "26.841",
+                    "high_price": "27.151",
+                    "low_price": "26.322",
+                    "volume": 7,
+                    "highest_bid": "25.494",
+                    "lowest_ask": "26.32",
+                    "bid_volume_10": 3,
+                    "ask_volume_10": 3
+                }
+            },
+            "_ts": 1716529140980899
+        }
+    }
+}
