@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: flwr-tune
+Version: 0.0.1
+Summary: Flower Tune
+Home-page: https://flower.ai
+License: Apache-2.0
+Keywords: flower,fl,federated learning,federated analytics,federated evaluation,machine learning,fine-tuning
+Author: The Flower Authors
+Author-email: hello@flower.ai
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Dist: numpy (>=1.21.0,<2.0.0)
+Project-URL: Documentation, https://flower.ai/docs
+Project-URL: Repository, https://github.com/adap/flower
+Description-Content-Type: text/markdown
+
+# Flower Tune
+
