@@ -1,0 +1,9 @@
+kv/azure/blob/__init__.py,sha256=UfH_CxxF3s1I-oakkUci5hugQyILXtxuRkGMm8730rI,167
+kv/azure/blob/__init__.pyi,sha256=GJvecIAjHXNch3olk6JrT39nYBGmRccwsLn2q7Bi4dk,104
+kv/azure/blob/blob.py,sha256=Tn0n55WglNc2Ma563gVr0YMDCypLfPn-pky5jiKX40g,3925
+kv/azure/blob/container.py,sha256=AnWeyI7YXGD_KERgIq_2Fjp9yv7ANzrsHg6leHjT6Zc,3059
+kv/azure/blob/util.py,sha256=De9dxB51vQEAvoPRMVBAm6t77uPtWukzR_vvPedtBgY,617
+kv_azure_blob-0.1.6.dist-info/METADATA,sha256=G68Gj8n0sT56f9ZHh77nOVVJjbGuRj52lCUU31iCa0I,1471
+kv_azure_blob-0.1.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+kv_azure_blob-0.1.6.dist-info/top_level.txt,sha256=z85M-ICBi-OoWrXz-dZX8xL06idJqievlWlmDg07U0M,3
+kv_azure_blob-0.1.6.dist-info/RECORD,,
