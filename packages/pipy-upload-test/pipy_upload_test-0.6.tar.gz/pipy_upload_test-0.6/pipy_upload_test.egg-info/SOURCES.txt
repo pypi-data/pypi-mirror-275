@@ -1,0 +1,15 @@
+README.md
+setup.py
+pipy_upload_test.egg-info/PKG-INFO
+pipy_upload_test.egg-info/SOURCES.txt
+pipy_upload_test.egg-info/dependency_links.txt
+pipy_upload_test.egg-info/entry_points.txt
+pipy_upload_test.egg-info/requires.txt
+pipy_upload_test.egg-info/top_level.txt
+project/__init__.py
+project/main.py
+project/data/__init__.py
+project/data/address_book_functions.py
+project/data/classes.py
+project/data/global_declarations.py
+project/data/notebook_functions.py
