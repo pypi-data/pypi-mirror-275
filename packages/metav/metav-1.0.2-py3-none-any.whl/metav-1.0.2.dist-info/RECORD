@@ -1,0 +1,11 @@
+metav/__init__.py,sha256=FAIZhCux_sAiFjevPlRW-4Qh-ZBeNULquQlyBlxKOTY,177
+metav/main.py,sha256=Az41RzXrs_9nkj4FbPXCxp0Az5SEW6W51hgEOU2T0bw,7199
+metav/my_func.py,sha256=13PuDupbHisEHYdVHzDIIWHACb0aSs7gCVNI4giD7yw,22839
+metav/pecorec.py,sha256=jw1OFREzt6_t8JGkP7NcQY47_lV4eMJ6qc9pC02sG60,20681
+metav/secorec.py,sha256=OsJgOmOufrGU8MfBdywbZN6oGzC3zkANp1gGXw9F5AQ,17672
+metav-1.0.2.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+metav-1.0.2.dist-info/METADATA,sha256=__5dgbVDjIA8UL1yrmqUe9BWyEiGYRWUNfRfETZwQEk,11585
+metav-1.0.2.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+metav-1.0.2.dist-info/entry_points.txt,sha256=RY28NNPAIoM_LGjxjn6fH8LsI2FIrg8ED789APMuyzg,44
+metav-1.0.2.dist-info/top_level.txt,sha256=EGAPO4Ptf9g8_FRYIRNtgGoCtv93xu29oINVgYGRayc,6
+metav-1.0.2.dist-info/RECORD,,
