@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: soap-altair-announce
+Version: 0.0.1
+Summary: Soap Announce
+Author: Altair
+Author-email: talha@altair.com
+Keywords: python,announce
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+
+# SOAPPPP
