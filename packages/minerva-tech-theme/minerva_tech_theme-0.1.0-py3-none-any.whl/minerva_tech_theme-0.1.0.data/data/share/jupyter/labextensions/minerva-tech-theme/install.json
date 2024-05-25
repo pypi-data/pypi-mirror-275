@@ -1,0 +1,5 @@
+{
+  "packageManager": "python",
+  "packageName": "minerva_tech_theme",
+  "uninstallInstructions": "Use your Python package manager (pip, conda, etc.) to uninstall the package minerva_tech_theme"
+}
