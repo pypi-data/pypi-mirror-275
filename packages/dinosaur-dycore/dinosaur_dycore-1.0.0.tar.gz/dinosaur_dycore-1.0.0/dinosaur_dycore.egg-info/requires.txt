@@ -1,0 +1,16 @@
+fsspec
+jax
+jaxlib
+numpy
+pandas
+pint
+scipy
+scikit-learn
+tree-math
+xarray
+xarray-tensorstore
+
+[tests]
+absl-py
+chex
+pytest
