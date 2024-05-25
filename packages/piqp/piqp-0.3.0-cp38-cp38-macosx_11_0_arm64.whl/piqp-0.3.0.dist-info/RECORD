@@ -1,0 +1,9 @@
+piqp-0.3.0.dist-info/RECORD,,
+piqp-0.3.0.dist-info/LICENSE,sha256=Ql0WXOWsYrw_0c74NzT6Z4C8hEZYv8XpBMpFoBHf7HA,1313
+piqp-0.3.0.dist-info/WHEEL,sha256=eq5yAuSanalvTbRFTX2h-lwOBpCtM_VnOKdkYe-Hahk,108
+piqp-0.3.0.dist-info/top_level.txt,sha256=F-GFRluNmn1bIS3npWT9LVAqKKnPzP4_LX_vULOXLnE,5
+piqp-0.3.0.dist-info/METADATA,sha256=HobaVuigMzmZny7YePRxyXGyVEHVu6q-WATL2c0YLaE,4884
+piqp/libpiqp.dylib,sha256=vYBulSriUw3ETmR2P8NSOLWonQqgpivOw7htBMeehk8,433290
+piqp/__init__.py,sha256=Wjb2QcsWaVeit-n248L7l7u603eEeamLdQOmJPjiE2Q,965
+piqp/instruction_set.cpython-38-darwin.so,sha256=79yW8xC1Flj9zpoufgTUK14QXxf5vyb1kj0_f_Pn6xQ,113912
+piqp/piqp_python.cpython-38-darwin.so,sha256=NTs8uHln7GHYfVy7ncxGFferLh2lFyN1jLpnqGJBc_4,514160
