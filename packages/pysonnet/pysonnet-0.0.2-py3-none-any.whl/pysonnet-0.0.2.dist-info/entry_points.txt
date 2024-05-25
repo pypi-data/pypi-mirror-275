@@ -1,0 +1,3 @@
+[console_scripts]
+pysonnet=pysonnet.__main__:run
+
