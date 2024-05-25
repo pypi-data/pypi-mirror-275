@@ -1,0 +1,6 @@
+termcolor
+torch
+unfoldNd
+
+[dev]
+pytest

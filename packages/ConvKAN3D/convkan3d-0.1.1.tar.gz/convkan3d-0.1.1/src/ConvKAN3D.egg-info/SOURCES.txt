@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/ConvKAN3D/ConvKAN3D.py
+src/ConvKAN3D/__init__.py
+src/ConvKAN3D/efficient_kan.py
+src/ConvKAN3D.egg-info/PKG-INFO
+src/ConvKAN3D.egg-info/SOURCES.txt
+src/ConvKAN3D.egg-info/dependency_links.txt
+src/ConvKAN3D.egg-info/requires.txt
+src/ConvKAN3D.egg-info/top_level.txt
+tests/test_ConvKAN3D_efficient.py
