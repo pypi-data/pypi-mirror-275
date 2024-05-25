@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/XingPyClient/__init__.py
+src/XingPyClient/example.py
+src/xingpyc.egg-info/PKG-INFO
+src/xingpyc.egg-info/SOURCES.txt
+src/xingpyc.egg-info/dependency_links.txt
+src/xingpyc.egg-info/top_level.txt
