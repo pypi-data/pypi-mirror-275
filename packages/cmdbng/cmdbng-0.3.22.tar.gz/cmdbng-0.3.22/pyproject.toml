@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "cmdbng"
+version = "0.3.22"
+description = "cmdbng pip index test"
+authors = ["juicypotato1"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.scripts]
+cmdbng = "cmdbng.cli:main"
