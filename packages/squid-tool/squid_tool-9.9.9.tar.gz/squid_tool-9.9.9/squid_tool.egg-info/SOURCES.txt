@@ -1,0 +1,7 @@
+setup.py
+squid-tool/__init__.py
+squid-tool/main.py
+squid_tool.egg-info/PKG-INFO
+squid_tool.egg-info/SOURCES.txt
+squid_tool.egg-info/dependency_links.txt
+squid_tool.egg-info/top_level.txt
