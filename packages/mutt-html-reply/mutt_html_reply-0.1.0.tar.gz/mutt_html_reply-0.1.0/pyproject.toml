@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mutt-html-reply"
+version = "0.1.0"
+dependencies = [
+	"bs4",
+	"css_inline"
+]
+
+[project.scripts]
+mutt-html-reply = "mutt_html_reply.mutt_html_reply:main"

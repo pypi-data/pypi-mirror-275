@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: mutt-html-reply
+Version: 0.1.0
+License-File: LICENSE
+Requires-Dist: bs4
+Requires-Dist: css_inline
