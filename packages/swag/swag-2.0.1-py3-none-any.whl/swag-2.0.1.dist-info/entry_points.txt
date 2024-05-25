@@ -1,0 +1,3 @@
+[console_scripts]
+swag=swag.__main__:app
+
