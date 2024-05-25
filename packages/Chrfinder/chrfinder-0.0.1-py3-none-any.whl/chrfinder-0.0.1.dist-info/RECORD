@@ -1,0 +1,13 @@
+Chrfinder/22.05 Anthony.ipynb,sha256=xsaDmMC3ZdE2giNplv3qAViH_Y8ru98UvP6U28UIXnA,14806
+Chrfinder/Chrfinder.py,sha256=R-DurAdjj9h9t9Tp0hHeWY6S19WGggJ-OpKuv64Dkb8,14085
+Chrfinder/__init__.py,sha256=jZeiEVbHa6dp-Hibf2B9fzvraqSVWbOQ3YpIFWVqpQY,661
+Chrfinder/classify.py,sha256=DSxO5sWWXOXft9U33mY9YpOIwnS7jfTUKykvQ3JX1CI,2123
+Chrfinder/example_module.py,sha256=ULiQBk-armPbQ1hsATnN4hfwdOcAcx19AXgLlKPwdWk,598
+Chrfinder/pka_lookup.py,sha256=AmgOqYverW_dI58_bynVVYjJDbzw5Lf9zN2VK_lWuVk,9351
+Chrfinder/pubchemprops.py,sha256=5f8t5l_sXn7irpDCrW0NgJPYOqT09NChmuDME81dkPI,8151
+Chrfinder/search_pka.py,sha256=1ZLMmWaaqKhcnAKCUF5j16zls6T9hzIqD-jz0Ljkuy0,6830
+Chrfinder/chroma/codecorrected.ipynb,sha256=CfobzPm1hkxu1TW3Cgd_nOTGY1KsvmLQaiDuXrRbBY0,11058
+chrfinder-0.0.1.dist-info/METADATA,sha256=pghx54T870u6A6rW-GqkdEebFUd5KE9M49s2YmJoKY8,7239
+chrfinder-0.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+chrfinder-0.0.1.dist-info/licenses/LICENSE,sha256=64MAc931wmm9M4GGtzpCywUbNuNqm1h-8p4AtIgqGNk,1109
+chrfinder-0.0.1.dist-info/RECORD,,
