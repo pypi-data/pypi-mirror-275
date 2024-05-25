@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+opyngptchat/__init__.py
+opyngptchat/chat.py
+opyngptchat.egg-info/PKG-INFO
+opyngptchat.egg-info/SOURCES.txt
+opyngptchat.egg-info/dependency_links.txt
+opyngptchat.egg-info/entry_points.txt
+opyngptchat.egg-info/requires.txt
+opyngptchat.egg-info/top_level.txt
