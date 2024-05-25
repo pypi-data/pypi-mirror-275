@@ -1,0 +1,17 @@
+numpy
+orix
+matplotlib
+hyperspy
+scipy
+
+[docs]
+sphinx
+sphinx-rtd-theme
+nbsphinx
+IPython
+ipykernel
+
+[test]
+pytest
+pytest-xdist
+filelock
