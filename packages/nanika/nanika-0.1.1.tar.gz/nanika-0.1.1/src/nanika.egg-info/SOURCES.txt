@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/nanika.py
+src/nanika.egg-info/PKG-INFO
+src/nanika.egg-info/SOURCES.txt
+src/nanika.egg-info/dependency_links.txt
+src/nanika.egg-info/entry_points.txt
+src/nanika.egg-info/top_level.txt
