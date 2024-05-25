@@ -1,0 +1,8 @@
+openlibrary_api/__init__.py,sha256=VABCDPVVHAcXHjEg8EHm5E8L0hrZfXZ5t35_rHz71Eo,83
+openlibrary_api/errors.py,sha256=h_7IV7T1rizrKYDOZOuzV_Fm_48W4v9OsOO8j_c8rH0,1323
+openlibrary_api/models.py,sha256=F5JDnawLiOXUHzLXsqMitWYMV3siSn7s4By0m94LQ7Q,3375
+openlibrary_api/ol_api.py,sha256=3A088M1JNch4xrgoS_bniKzvQforlkisDiBy-8o2Ri4,10488
+openlibrary_api-0.0.3.dist-info/METADATA,sha256=a806vLLTNx6hh3XwGCwEHwSLTRzvW4Qg1TStLlcoLoc,604
+openlibrary_api-0.0.3.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+openlibrary_api-0.0.3.dist-info/licenses/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+openlibrary_api-0.0.3.dist-info/RECORD,,
