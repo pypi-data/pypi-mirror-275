@@ -1,0 +1,2 @@
+[console_scripts]
+comment_inspect = comment_inspect.comment_inspect:main

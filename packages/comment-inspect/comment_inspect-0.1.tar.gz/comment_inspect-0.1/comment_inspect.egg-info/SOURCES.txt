@@ -1,0 +1,16 @@
+README.md
+setup.py
+comment_inspect/__init__.py
+comment_inspect/comment_inspect.py
+comment_inspect.egg-info/PKG-INFO
+comment_inspect.egg-info/SOURCES.txt
+comment_inspect.egg-info/dependency_links.txt
+comment_inspect.egg-info/entry_points.txt
+comment_inspect.egg-info/not-zip-safe
+comment_inspect.egg-info/requires.txt
+comment_inspect.egg-info/top_level.txt
+comment_inspect/parsers/__init__.py
+comment_inspect/parsers/c_parser.py
+comment_inspect/parsers/common.py
+comment_inspect/parsers/js_parser.py
+comment_inspect/parsers/python_parser.py
