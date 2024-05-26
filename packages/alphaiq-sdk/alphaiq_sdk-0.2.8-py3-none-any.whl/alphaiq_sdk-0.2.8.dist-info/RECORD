@@ -1,0 +1,10 @@
+alphaiq_sdk/__init__.py,sha256=7mEVHfrbd0oKDHQkgu4iAgLwFEp6X4RKelAwMHUwQJQ,37
+alphaiq_sdk/client.py,sha256=ellrZuw7Y5h4CTHdzSXM1e7jpQo2bo_GSCIVt2SLNfI,519
+alphaiq_sdk/generative.py,sha256=RNDue3JQaRn4fJUFBRiNs5UubLBMkMHdbojKCZOB9l0,1067
+alphaiq_sdk/mapping.py,sha256=I-gjHfgYIDWpbfwrRIc7W6YN1ZLTB9FudSTj7n1JR5Q,2489
+alphaiq_sdk/models.py,sha256=tIyWWoFHzr8eHQGqGl_qe8_y52VPxxv-0Fmlr5nS-Dc,1526
+alphaiq_sdk/signals.py,sha256=fGPTJosnjr1XdALWR-YGC2ZbbcOtaDu7OwqZB6Uu8_4,1696
+alphaiq_sdk-0.2.8.dist-info/METADATA,sha256=qQ1xfJB0qFaherzqyNdo-KkbsKQXcDf0DmWAtl_rTzI,7912
+alphaiq_sdk-0.2.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+alphaiq_sdk-0.2.8.dist-info/top_level.txt,sha256=Z15waKD7CGHtEKypYPaqNnN21LGUk9T9Z_JhMvPBneM,12
+alphaiq_sdk-0.2.8.dist-info/RECORD,,
