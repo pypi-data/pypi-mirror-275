@@ -1,0 +1,10 @@
+README.rst
+setup.py
+pdfzipcracker/__init__.py
+pdfzipcracker/pdfzipcrack.py
+pdfzipcracker.egg-info/PKG-INFO
+pdfzipcracker.egg-info/SOURCES.txt
+pdfzipcracker.egg-info/dependency_links.txt
+pdfzipcracker.egg-info/entry_points.txt
+pdfzipcracker.egg-info/requires.txt
+pdfzipcracker.egg-info/top_level.txt
