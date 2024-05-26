@@ -1,0 +1,8 @@
+README.md
+fucktop.py
+setup.py
+fucktop.egg-info/PKG-INFO
+fucktop.egg-info/SOURCES.txt
+fucktop.egg-info/dependency_links.txt
+fucktop.egg-info/requires.txt
+fucktop.egg-info/top_level.txt

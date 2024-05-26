@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: fucktop
+Version: 3.1.0
+Summary: 一个免费而热搜工具(喜欢关注:python学霸微信公众号)
+Home-page: UNKNOWN
+Author: Python学霸
+Author-email: python@xueba.com
+License: UNKNOWN
+Description: 
+        ### 介绍
+        FuckTop是一个热榜爬取工具可爬取全网热榜
+        ### 安装
+        ```
+        pip install fucktop
+        ```
+        
+        ### 示例
+        ```python
+        import fucktop
+        fetcher = TopHubFetcher()
+        weibo_data = fetcher.weibo()
+        weixin_data = fetcher.weixin()
+        print(weibo_data)
+        print(weixin_data)
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
