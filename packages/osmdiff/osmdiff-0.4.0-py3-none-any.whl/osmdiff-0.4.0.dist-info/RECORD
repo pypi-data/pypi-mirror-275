@@ -1,0 +1,10 @@
+osmdiff-0.4.0.dist-info/METADATA,sha256=gkeY0mlfHDO9DLhEKCuhowPgkjpWST6cRh2YyyA19hQ,4189
+osmdiff-0.4.0.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+osmdiff-0.4.0.dist-info/licenses/LICENSE,sha256=jYTxNWGM7L98XpHLtaDgV0PzQ2yLqvUQVVwy1eTAn3w,562
+osmdiff/__init__.py,sha256=6fcHFdIWvdiK3RS9TSCefYwqSpkbFRE3TRMOQemHu7k,357
+osmdiff/augmenteddiff.py,sha256=Qycicl92K2vuUlMbl2KejYArqfhMduqUN3bpPaJLwI4,4611
+osmdiff/osm/__init__.py,sha256=wAdiX8doDE4n4dcMHCfut0eyEJLvI9yqDU88NCu29fY,48
+osmdiff/osm/osm.py,sha256=61AjKWCZ5wPfLExEKwNbF8_3bj1V3UzgcJcOB4Be4w0,3052
+osmdiff/osmchange.py,sha256=OA7ajJGbUfvLVaDy48y0VMAWyAXgh2xOhmuCLjny7RM,5054
+osmdiff/settings.py,sha256=Fxw2aH3QFb38JVCOiY_El1jrULL16nVtucl-i3Xr8F0,188
+osmdiff-0.4.0.dist-info/RECORD,,
