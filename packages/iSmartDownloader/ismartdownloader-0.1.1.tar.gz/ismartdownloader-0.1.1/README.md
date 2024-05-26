@@ -1,0 +1,122 @@
+# SmartDownloader
+
+SmartDownloader is a Python utility designed for efficient and resilient file downloads. It supports both synchronous and asynchronous operations, handling partial downloads and network errors gracefully. This tool can be especially useful for large file downloads, allowing resumption of interrupted downloads.
+
+## Features
+
+- **Synchronous and Asynchronous Support**: Choose between synchronous (`requests`) and asynchronous (`aiohttp`) downloads.
+- **Resumable Downloads**: Automatically resumes downloads from where they left off.
+- **Progress Bar**: Displays download progress using `tqdm`.
+- **Error Handling**: Gracefully handles network errors and unexpected issues.
+
+## Installation
+
+Install SmartDownloader via pip:
+
+```sh
+pip install smart-downloader
+```
+
+## Usage
+
+### Synchronous Downloads
+
+Use the `SmartDownloader` class for synchronous downloads:
+
+```python
+from smart_downloader import SmartDownloader
+
+url = "https://example.com/largefile.zip"
+downloader = SmartDownloader(url)
+result = downloader.download()
+
+if result.is_ok():
+    print(f"Downloaded file: {result.unwrap()}")
+else:
+    print(f"Download failed: {result.unwrap_err()}")
+```
+
+### Asynchronous Downloads
+
+Use the `ASmartDownloader` class for asynchronous downloads:
+
+```python
+import asyncio
+from smart_downloader import ASmartDownloader
+
+async def main():
+    url = "https://example.com/largefile.zip"
+    downloader = ASmartDownloader(url)
+    result = await downloader.download()
+
+    if result.is_ok():
+        print(f"Downloaded file: {result.unwrap()}")
+    else:
+        print(f"Download failed: {result.unwrap_err()}")
+
+asyncio.run(main())
+```
+
+### Download Without Exceptions
+
+Both `SmartDownloader` and `ASmartDownloader` provide methods to download files without raising exceptions:
+
+#### Synchronous Example
+
+```python
+from smart_downloader import SmartDownloader
+
+url = "https://example.com/largefile.zip"
+downloader = SmartDownloader(url)
+filename = downloader.download_without_exception()
+
+if filename:
+    print(f"Downloaded file: {filename}")
+else:
+    print("Download failed.")
+```
+
+#### Asynchronous Example
+
+```python
+import asyncio
+from smart_downloader import ASmartDownloader
+
+async def main():
+    url = "https://example.com/largefile.zip"
+    downloader = ASmartDownloader(url)
+    filename = await downloader.download_without_exception()
+
+    if filename:
+        print(f"Downloaded file: {filename}")
+    else:
+        print("Download failed.")
+
+asyncio.run(main())
+```
+
+## Classes and Methods
+
+### SmartDownloader (Synchronous)
+
+- `__init__(self, url: str)`: Initialize with the URL of the file to download.
+- `download(self) -> Result[str, str]`: Download the file with resumable support.
+- `download_without_exception(self) -> Optional[str]`: Download the file without raising exceptions.
+
+### ASmartDownloader (Asynchronous)
+
+- `__init__(self, url: str)`: Initialize with the URL of the file to download.
+- `download(self) -> Result[str, str]`: Download the file with resumable support.
+- `download_without_exception(self) -> Optional[str]`: Download the file without raising exceptions.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue on GitHub.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+Happy downloading!

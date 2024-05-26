@@ -1,0 +1,7 @@
+README.md
+setup.py
+iSmartDownloader.egg-info/PKG-INFO
+iSmartDownloader.egg-info/SOURCES.txt
+iSmartDownloader.egg-info/dependency_links.txt
+iSmartDownloader.egg-info/requires.txt
+iSmartDownloader.egg-info/top_level.txt
