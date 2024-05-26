@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "energy-consumption-424317",
+  "private_key_id": "f1cf9121a5870ecc1ba3b2e007799a92d22e65c6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCuD+N4cw7alOIn\n0yS3ndws0BJoDGVhuzKSD+QtMw1xfR3EQ7hSpjnKRhQ4TAvgFAA1X243nG5d9vw3\nuRRzWglSj+OraUVgI3u2P7SMk3Ldm1NFC0XiB7vo2V3kdaLrYgI68Dk5z7XTpw+/\nwPdDDJKmeMNWQRB2u2LqMCrzsEtgsPeCg20aSvRqbeVNifRvxz+aqgcVxIFtml3J\n+ZerbwgunHab7LXDWjGkriD4M/Xx94XNbEWRQTgIzgNb1dPs4pAIKbOd7FX7JDHw\nx36Cy3KvxtBqzUXIcirPBjS/NQ13/duRwdtwe2pAmiUXDeN5XBBmQbBqzUpxy8Vq\njzp789RzAgMBAAECggEAGsoCOesHabfJWNTDzWjD1rfNZWsm/VQo09cTSKuXUZSu\njKLZjwrbURjZCtMVbs7VO2GtHmz6hYa6Sb83+Qrt7WGM6jhA/6tmYmXKnWoiHx5F\nQhaakk+baZpuu3cpdG24pyaKwC2KMAGByILj61NXjLyAX9mStZtgfWedbLUA3OgO\nhB5ZKdafouzXanF+aRXdkfPCfB+4JIfp2Bfl41FOnFFnLIzxiCicE2dNKtauNr9P\nnZRw4ONyMkC6PRBQuqysXCt3hXiwFclXu2wsHlrCFzbLmnZNM+fGFaKnUjb7hG2C\nqG7NRITiwaJvqcLs0FkIApGx5LLOS0Bes97XWX2ARQKBgQDijiKn2cR1uPiNWzP5\nQ5fGZQzNZtCRy2bYptgy0ORa6Ala4U6KvhWNSAuvnS6GmDmEV1wT/cbuyONBlrKo\n4P0Ky6cwQggPobdTryACTyjLRCHyVCO85ETHJbQVhNIoj9WzD9uHrSP/y5+4exzY\nUxf8D0DSiXlNIXpwDyW2M05r7QKBgQDErzg+UyW4R7yT7RWbeTvHb8ceDAsQR3o1\nM4hjagmx98fZX3lABTN6mRTK621d2kFqoL0zW2dtIfHTWfEPR89Cy1e+AIeIfc9b\nSVwQ6vYoNt5FI6wRj1F+Rm621DJmHv2bEEW9bSvBJLUnRwQtsrMvnw2lkEvA9SJe\nOLDKy4L13wKBgDCbiEn1Char6gACGmOXof+5/IYxUfyF5HoFSguVD/mFIUSzZHOW\nFu+qDn/OPIY6MNT5HVNYto7S4RdYatqa8w+W5DcRY8Ne0gONZlO4gisiYhoo/UXw\nv+TubPXU+nYjbhkuBM7WUgv2tz0QhP7QzSuSZjkFr9XhofBa/59Y4LF9AoGBAKT+\nHB9kXtMdEpvBGgwngjdGlHGnRqysWV9B0Jsc++8YXcUC61MCSfIBcsjbAA7oJVJO\nbwkjFzsca6GR5L+dzMdKj1trVEbyyzzX6GykvkRz6rdzOkgswv88FGo4zeKPAs3O\ns8I5T6gho/nEAERZkSlUsvz9dB71RJRn2B724/BfAoGBALFQSB1K7mIlhM062Kk/\nmcxwAMR6xBM49+oUutWn55pi59y7lWGnUHz+oMAQu/jFrGqEQTmOWmrRdWAvJ5sq\nptVn0Isash+/I0WyuBkqkcWWLOY/dWZoN9JXOG1EXof3ChxLVwX1Kc2RG8bTJJdH\nwfvkWs+eV8qvcPbDKFsTEsCh\n-----END PRIVATE KEY-----\n",
+  "client_email": "energy-consumption-service-acc@energy-consumption-424317.iam.gserviceaccount.com",
+  "client_id": "108107546405007711071",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/energy-consumption-service-acc%40energy-consumption-424317.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
