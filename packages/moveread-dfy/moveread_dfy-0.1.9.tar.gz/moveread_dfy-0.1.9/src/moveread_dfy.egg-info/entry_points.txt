@@ -1,0 +1,4 @@
+[console_scripts]
+dfy-api = moveread.dfy.scripts.api_cli:main
+dfy-clientgen = moveread.dfy.scripts.clientgen_cli:main
+dfy-doer = moveread.dfy.doer.cli:main
