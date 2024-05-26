@@ -1,0 +1,57 @@
+# CemirUtils
+
+CemirUtils, basit veri işleme işlevlerini içeren bir Python yardımcı kütüphanesidir.
+
+## Kurulum
+
+Öncelikle CemirUtils kütüphanesini Python projesine eklemek için aşağıdaki adımları izleyin:
+
+```bash
+pip install cemirutils
+````
+
+
+## Kullanım
+
+Kütüphane, farklı veri işleme işlevlerini sağlayan `CemirUtils` sınıfını içerir. Örneğin:
+
+
+```python
+from cemirutils import CemirUtils
+
+# Mevcut tüm metodların isimlerini yazdır
+cemir_utils = CemirUtils(None)
+print(cemir_utils.getmethods())
+
+# Veri listesindeki her bir elemanı verilen skaler değer ile çarpar.
+ceml = CemirUtils([1, 2, 3])
+ceml.multiply_by_scalar(2)  # Output: [2, 4, 6]
+
+
+ceml = CemirUtils([1, 2, 3])
+# Veri listesindeki her bir elemanı verilen skaler değer ile çarpar
+result = ceml.multiply_by_scalar(2)
+print(result)  # Output: [2, 4, 6]
+
+
+ceml = CemirUtils([1, 2, 3])
+# Veri listesindeki en büyük değeri döner.
+ceml.get_max_value()  # Output: 3
+
+
+ceml = CemirUtils([1, 2, 2, 3])
+# Verilen değerin veri listesinde kaç kez geçtiğini sayar.
+result = ceml.get_frequency(2)
+print(result)  # Output: 2
+
+
+cemd = CemirUtils({'a': 1, 'b': 2, 'c': 3})
+# Sözlükteki veya sözlük listesindeki anahtarları döndürür.
+cemd.get_keys()  # Output: ['a', 'b', 'c']
+
+
+ceml = CemirUtils([[1, 2], [3, 4], [5]])
+# Çok katmanlı listeyi tek katmana indirger.
+ceml.flatten_list()  # Output: [1, 2, 3, 4, 5]
+
+````
