@@ -1,0 +1,4 @@
+[console_scripts]
+whereisit=whereisit.ui.console:main
+whereisit_schema=whereisit.schema:main
+
