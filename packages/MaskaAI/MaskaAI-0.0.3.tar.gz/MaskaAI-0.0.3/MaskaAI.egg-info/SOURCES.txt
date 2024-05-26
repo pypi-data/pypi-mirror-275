@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+MaskaAI.py
+README.txt
+requirements.txt
+setup.py
+MaskaAI.egg-info/PKG-INFO
+MaskaAI.egg-info/SOURCES.txt
+MaskaAI.egg-info/dependency_links.txt
+MaskaAI.egg-info/requires.txt
+MaskaAI.egg-info/top_level.txt
