@@ -1,0 +1,12 @@
+dir_wand/_version.py,sha256=p-_cdRheApNy-6Kuo4_SOuBMCfhkHc7r1ryUHS1H4Bg,413
+dir_wand/directory.py,sha256=y86tFNg-oO1IkrE3VobjorLsIlU8rnIzyf8ZjGJeNtk,5334
+dir_wand/file.py,sha256=9ZbeMISZZ_ltn7KVKDynDCTJRd_p-DNRg8uKaH3KvLg,6584
+dir_wand/main.py,sha256=RDMtWJF5ALd_KPuaAO4LjeGppEPqaaLTKqzJ9HC29m8,1007
+dir_wand/parser.py,sha256=9zZsF1CDFmnc8b5u7NTw9d8uwEvkj7Ra3XMiE1cuFfE,5529
+dir_wand/template.py,sha256=23c7D_K-1cZNGzKa0bltczNt8X0qM2WxLp1HpK_ImAk,4679
+dir_wand-0.2.0b0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+dir_wand-0.2.0b0.dist-info/METADATA,sha256=SWHgWyVvOx-gC7d3HQLAg_BLGZ_99rK0GWEDEgAzcUE,46302
+dir_wand-0.2.0b0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dir_wand-0.2.0b0.dist-info/entry_points.txt,sha256=GegjH45Db7xLqOBfqKs2h8qOxA0c9GWm-PIVDOAk1Dc,48
+dir_wand-0.2.0b0.dist-info/top_level.txt,sha256=3UAEhJLQ1dUA5I3RTJcTE5KSzuaOT6u5tOADYulODoA,9
+dir_wand-0.2.0b0.dist-info/RECORD,,
