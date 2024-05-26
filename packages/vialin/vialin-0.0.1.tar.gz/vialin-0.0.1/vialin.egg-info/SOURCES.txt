@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+vialin/__init__.py
+vialin.egg-info/PKG-INFO
+vialin.egg-info/SOURCES.txt
+vialin.egg-info/dependency_links.txt
+vialin.egg-info/top_level.txt
