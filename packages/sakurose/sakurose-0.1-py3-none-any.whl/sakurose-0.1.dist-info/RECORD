@@ -1,0 +1,10 @@
+mypackage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypackage/module.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_module.py,sha256=DgSDU4EbP-UwuczgodBygfTmXamtHlpVHMV8p0fubpE,68
+sakurose-0.1.dist-info/LICENSE,sha256=nqhxrLXYL00Tu99sI-2D95TYMGqB-l3Idt7rp_FIz5Q,1066
+sakurose-0.1.dist-info/METADATA,sha256=ZPC0oa4TyiBbGsqcaZsZM7ei5ueh5igYfTQOotPWHMs,732
+sakurose-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sakurose-0.1.dist-info/entry_points.txt,sha256=54ssZ63ohyYd3lZxVIUUoyFJQIqPwPz_zt3JcC6auRs,52
+sakurose-0.1.dist-info/top_level.txt,sha256=EPaQ7bohfbQYpXluIecATfHFlNVEU6p7LxDTpUYjEV8,16
+sakurose-0.1.dist-info/RECORD,,

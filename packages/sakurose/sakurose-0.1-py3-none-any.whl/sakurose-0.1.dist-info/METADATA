@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sakurose
+Version: 0.1
+Summary: Instala SakuRose en tu sistema para simplificar lo que quieres hacer.
+Home-page: https://github.com/InsAnya606/SakuRose
+Author: InsAnya606
+Author-email: insanyadev@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi
+Requires-Dist: Flask
+Requires-Dist: discord.py
+Requires-Dist: py-cord
+Requires-Dist: SQLAlchemy
+Requires-Dist: httpx
+Requires-Dist: uvicorn
+Requires-Dist: pydantic
+Requires-Dist: gino
+Requires-Dist: googletrans
+Requires-Dist: pymongo
+
+Hola UwU 
