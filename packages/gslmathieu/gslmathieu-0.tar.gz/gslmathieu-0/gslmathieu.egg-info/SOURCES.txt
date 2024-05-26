@@ -1,0 +1,7 @@
+README
+gslmathieu.py
+setup.py
+gslmathieu.egg-info/PKG-INFO
+gslmathieu.egg-info/SOURCES.txt
+gslmathieu.egg-info/dependency_links.txt
+gslmathieu.egg-info/top_level.txt

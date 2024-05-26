@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: gslmathieu
+Version: 0
+Summary: GSL Mathieu functions
+Home-page: https://codeberg.org/mnhrdt/gslmathieu
+Author: Enric Meinhardt-Llopis
+Author-email: enric.meinhardt@ens-paris-saclay.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+
+UNKNOWN
+
