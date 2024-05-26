@@ -1,0 +1,10 @@
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+litellm
+youtube-transcript-api
+langchain-community
+tavily-python
+pytz
+python-dotenv

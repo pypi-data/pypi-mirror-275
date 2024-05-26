@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "botrun_google_docs_reader"
+version = "4.25.255"
+dependencies = [
+    "google-api-python-client",
+    "google-auth",
+    "google-auth-oauthlib",
+    "google-auth-httplib2",
+    "litellm",
+    "youtube-transcript-api",
+    "langchain-community",
+    "tavily-python",
+    "pytz",
+    "python-dotenv",
+]
+readme = "README.md"
+scripts = { "botrun-google-docs-reader" = "botrun_google_docs_reader:main" }
