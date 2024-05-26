@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dbt_run_visualizer
+Version: 0.1.0
+Summary: Stop drilling through dbt logs and start visualizing them
+Author: Dadi Atar
+Author-email: dadi@montara.io
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jsonlines
+
+Stop drilling through dbt logs and start visualizing them

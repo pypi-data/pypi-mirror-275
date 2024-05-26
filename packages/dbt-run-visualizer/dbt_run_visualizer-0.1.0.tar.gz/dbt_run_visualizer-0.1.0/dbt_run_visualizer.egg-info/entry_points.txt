@@ -1,0 +1,2 @@
+[console_scripts]
+mnt = src.main:main
