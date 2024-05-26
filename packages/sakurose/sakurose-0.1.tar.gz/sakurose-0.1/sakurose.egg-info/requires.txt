@@ -1,0 +1,11 @@
+fastapi
+Flask
+discord.py
+py-cord
+SQLAlchemy
+httpx
+uvicorn
+pydantic
+gino
+googletrans
+pymongo

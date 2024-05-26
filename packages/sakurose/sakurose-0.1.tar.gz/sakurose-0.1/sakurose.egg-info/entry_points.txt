@@ -1,0 +1,2 @@
+[console_scripts]
+sakurose = mypackage.module:greet

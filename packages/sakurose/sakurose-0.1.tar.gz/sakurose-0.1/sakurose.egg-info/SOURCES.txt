@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+mypackage/__init__.py
+mypackage/module.py
+sakurose.egg-info/PKG-INFO
+sakurose.egg-info/SOURCES.txt
+sakurose.egg-info/dependency_links.txt
+sakurose.egg-info/entry_points.txt
+sakurose.egg-info/requires.txt
+sakurose.egg-info/top_level.txt
+tests/__init__.py
+tests/test_module.py
