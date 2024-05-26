@@ -1,0 +1,11 @@
+beautifulsoup4
+boto3
+django
+flask
+geopandas
+mysql-connector-python
+pandas
+psycopy
+psycopg2
+pyspark
+sqlalchemy
