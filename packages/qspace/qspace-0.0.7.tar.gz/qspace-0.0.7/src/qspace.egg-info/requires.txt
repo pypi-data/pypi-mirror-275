@@ -1,0 +1,11 @@
+twine
+setuptools
+wheel
+flake8
+black
+pytest
+pip-upgrader
+asyncclick
+azure-quantum
+qsharp
+pyyaml
