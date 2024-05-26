@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+korotto/__init__.py
+korotto.egg-info/PKG-INFO
+korotto.egg-info/SOURCES.txt
+korotto.egg-info/dependency_links.txt
+korotto.egg-info/top_level.txt
