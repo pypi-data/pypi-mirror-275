@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: breathrate
+Version: 0.1.0
+Summary: Count your breath rate
+Home-page: https://github.com/LiChinNgai/breathrate
+Author: LiChinNgai
+Author-email: s2222060@stu.musashino-u.ac.jp
+License: UNKNOWN
+Description: # BreathRate
+        
+        Using cv2 to detect your movement and count your breath rate.
+        
+        
+        # Necessary Module
+        ```python
+         'pip install opencv-python '
+         'pip install numpy '
+         'pip install matplotlib '
+         'pip install matplotlib '
+         'pip install scipy '
+         'pip install datetime '
+        ```
+        
+        # How to run
+        
+        ```python
+         'pip install breathrate'
+        ```
+        ```python
+         'import breathrate'
+         'breathrate.breathrate()'
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

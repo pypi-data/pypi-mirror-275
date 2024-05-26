@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+breathrate/Plot.py
+breathrate/__init__.py
+breathrate/breathrate.py
+breathrate.egg-info/PKG-INFO
+breathrate.egg-info/SOURCES.txt
+breathrate.egg-info/dependency_links.txt
+breathrate.egg-info/top_level.txt
