@@ -1,0 +1,3 @@
+[console_scripts]
+udl2xml=udl2xml.main:main
+
