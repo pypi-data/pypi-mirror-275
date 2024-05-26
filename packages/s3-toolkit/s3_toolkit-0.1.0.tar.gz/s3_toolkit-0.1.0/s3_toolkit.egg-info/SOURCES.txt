@@ -1,0 +1,10 @@
+setup.py
+s3_tool/__init__.py
+s3_tool/cant_use_s3t.py
+s3_tool/fix_bug_s3t.py
+s3_tool/s3_related.py
+s3_tool/sandbox1_s3t.py
+s3_toolkit.egg-info/PKG-INFO
+s3_toolkit.egg-info/SOURCES.txt
+s3_toolkit.egg-info/dependency_links.txt
+s3_toolkit.egg-info/top_level.txt
