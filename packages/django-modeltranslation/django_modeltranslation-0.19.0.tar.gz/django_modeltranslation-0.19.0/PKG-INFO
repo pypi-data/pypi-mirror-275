@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: django-modeltranslation
+Version: 0.19.0
+Summary: Translates Django models using a registration approach.
+Author: Peter Eschler
+Author-email: peschler@gmail.com
+Maintainer: Serhii Tereshchenko
+Maintainer-email: serg.partizan@gmail.com
+Requires-Python: >=3.8,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: django (>=4.2)
+Requires-Dist: ruff (>=0.0.292,<0.0.293)
+Requires-Dist: typing-extensions (>=4.0.1) ; python_version < "3.11"
