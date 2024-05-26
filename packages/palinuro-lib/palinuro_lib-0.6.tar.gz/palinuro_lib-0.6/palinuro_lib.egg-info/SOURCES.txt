@@ -1,0 +1,9 @@
+README.md
+setup.py
+palinuro/__init__.py
+palinuro/performance.py
+palinuro_lib.egg-info/PKG-INFO
+palinuro_lib.egg-info/SOURCES.txt
+palinuro_lib.egg-info/dependency_links.txt
+palinuro_lib.egg-info/requires.txt
+palinuro_lib.egg-info/top_level.txt
