@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lenlp
+Version: 1.0.1
+Home-page: https://github.com/raphaelsty/lenlp
+Download-URL: https://github.com/raphaelsty/lenlp/archive/v_01.tar.gz
+Author: Raphael Sourty
+Author-email: raphael.sourty@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Rust
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
