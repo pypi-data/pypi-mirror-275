@@ -1,0 +1,11 @@
+apiverve_loancalculator/__init__.py,sha256=yzb_CLnBDLRwuk8jkvBfXEfrrQH20KGtMkS6AF7N-aA,53
+apiverve_loancalculator/apiClient.py,sha256=WZ-m2GytKngEyp5WP2bMyzjBsQV5OF8-wgLHOeJtEqk,1246
+apiverve_loancalculator/exceptions.py,sha256=JDcCkkLKbhEuvZogcNrPIYsQJlGVOrtQLkfs_8Eehc4,118
+apiverve_loancalculator/setup.py,sha256=UYPp_KY6btd6puVyIw0hWDxPTpWARwe7wN5jDRlKMt8,655
+apiverve_loancalculator/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_loancalculator/tests/test_api.py,sha256=cpr1b2O4lVpyt9ebjfnpxuKGqZJ7FweKem3jtv00e_k,640
+apiverve_loancalculator-1.0.11.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_loancalculator-1.0.11.dist-info/METADATA,sha256=izKlbxzRx-LqGq4dmi0oRxWP1AwwNG39Za3kH89vy_Y,16538
+apiverve_loancalculator-1.0.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apiverve_loancalculator-1.0.11.dist-info/top_level.txt,sha256=ROHCNmq85VhUrshNG--Zbt3THYjePA9Hmz_pjxECeNo,24
+apiverve_loancalculator-1.0.11.dist-info/RECORD,,
