@@ -1,0 +1,3 @@
+[console_scripts]
+wix = Wix.main:main
+
