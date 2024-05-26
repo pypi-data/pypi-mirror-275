@@ -1,0 +1,11 @@
+assets/preview.png,sha256=HFj920GqsIm9sdjxTMGKhV85lm9m6xqZ8IjSQHcAvdE,15600
+assets/styles.css,sha256=UbGdYaRKR182OQMMbeEeLiQR27H0kvMsYV6q9NN8yAM,6691
+doopass/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doopass/app.py,sha256=V8DCCUKomNCj8HoPSobHOh11fTQYijI7Zj5zNZ1Ji5g,1012
+doopass/doopass.py,sha256=TECAXQeYAgwPXQgbNlxExwyWM-oBDnRAhcX2v3ciMYQ,1380
+doopass-2.5.dist-info/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+doopass-2.5.dist-info/METADATA,sha256=LU7m4jte2YZ_ydMp4PAkVZQzMswwkLPKv276VX_4PyU,5503
+doopass-2.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+doopass-2.5.dist-info/entry_points.txt,sha256=FXpearVQd525Zom0ohn1Xl8fraVnFmq0rFZ-BN85Wgs,49
+doopass-2.5.dist-info/top_level.txt,sha256=EsQGp-zHp2qRf7ncG9M3FmUkBoan5UBDjLp0HxCG21c,15
+doopass-2.5.dist-info/RECORD,,
