@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: Modul_Wrapper
+Version: 0.1
+Summary: Control Your Library With Dictionary
+Home-page: https://github.com/staykimin/Modul-Wrapper
+Author: KIMIN
+Author-email: staykimin@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/staykimin/Modul-Wrapper
+Project-URL: Funding, https://saweria.co/staykimin
+Project-URL: Say Thanks!, https://saweria.co/staykimin
+Project-URL: Source, https://github.com/staykimin/Modul-Wrapper
+Project-URL: Tracker, https://github.com/staykimin/Modul-Wrapper/issues
+Keywords: Kimin,Modul,Wrapper
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Modul-Wrapper
+
+Modul Wrapper Adalah Modul Untuk Menyimpan Semua Library Yang Akan Digunakan Dalam Bentuk Dictionary Guna Menghindari Crash Karena Penamaan Class atau Function Yang Sama Antar Library. 
+
