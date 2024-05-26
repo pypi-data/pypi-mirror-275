@@ -1,0 +1,21 @@
+<!doctype html>
+<!--
+Until the CSS is loaded and the server sends us the theme colors, make the
+background dark so that dark mode users don't get flashbanged by a completely
+white screen
+-->
+<html data-theme="dark" style="background: #333">
+    <head>
+        <title>{title}</title>
+        <link rel="icon" type="image/x-icon" href="/rio/favicon.png" />
+
+        <!-- <link rel="stylesheet" type="text/css" href="/rio/asset/highlightjs-default-light.css"> -->
+        <link rel="stylesheet" href="css/style.scss" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <script src="code/app.ts" type="module"></script>
+    </head>
+
+    <body class="rio-switcheroo-background"></body>
+</html>
