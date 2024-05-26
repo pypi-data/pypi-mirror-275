@@ -1,0 +1,36 @@
+Metadata-Version: 2.3
+Name: bencode-rs
+Version: 0.0.2a2
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-github-actions-annotate-failures ==0.2.0 ; extra == 'dev'
+Provides-Extra: dev
+License-File: LICENSE
+Summary: a bencode parser binding build with pyo3
+Keywords: bittorrent,bencode,p2p
+Requires-Python: >=3.8, <4.0
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# A bencode serialize/deserialize library based on cython
+
+## install
+
+```shell
+pip install bencode_rs
+```
+
+## basic usage
+
+```python
+import bencode2
+
+assert bencode2.bdecode(b"d4:spaml1:a1:bee") == {b"spam": [b"a", b"b"]}
+assert bencode2.bdecode(b"d4:spaml1:a1:bee", str_key=True) == {"spam": [b"a", b"b"]}
+
+assert bencode2.bencode({'hello': 'world'}) == b'd5:hello5:worlde'
+```
+
