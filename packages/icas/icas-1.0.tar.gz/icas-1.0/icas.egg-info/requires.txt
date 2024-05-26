@@ -1,0 +1,9 @@
+ImageHash>=4.3.1
+Pillow>=10.3.0
+datasketch>=1.6.4
+matplotlib>=3.8.4
+mplcursors>=0.5.3
+numpy>=1.26.4
+opencv_contrib_python>=4.9.0.80
+scikit-image>=0.22.0
+tqdm>=4.66.2
