@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+streamcapture/__init__.py
+streamcapture.egg-info/PKG-INFO
+streamcapture.egg-info/SOURCES.txt
+streamcapture.egg-info/dependency_links.txt
+streamcapture.egg-info/not-zip-safe
+streamcapture.egg-info/requires.txt
+streamcapture.egg-info/top_level.txt
+test/test1.py
+test/test2.py
+test/test3.repeating.py
+test/test4.fast_open_close.py
+test/test5.multi_capture_to_same_buffer.py
