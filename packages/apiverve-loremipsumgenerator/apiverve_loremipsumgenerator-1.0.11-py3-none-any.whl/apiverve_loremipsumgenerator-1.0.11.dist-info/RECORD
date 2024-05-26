@@ -1,0 +1,11 @@
+apiverve_loremipsumgenerator/__init__.py,sha256=E5bSBoAsHQLsm1LyxIKAgpaVXSnZC4WA8XXX5jei_ko,51
+apiverve_loremipsumgenerator/apiClient.py,sha256=-HQ8hm2agrtQFXVWs4jA-qiOw25g6ndPPQ_qt3_4sz0,1239
+apiverve_loremipsumgenerator/exceptions.py,sha256=ZjFyT4iOi1itK-m18dCi1zsyh3qoHSdKSwfK-Yeqn-c,121
+apiverve_loremipsumgenerator/setup.py,sha256=FiK5bZYG9mmSaHjW7laN_5qWdr8ztycLx6XJy_cdaE0,633
+apiverve_loremipsumgenerator/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_loremipsumgenerator/tests/test_api.py,sha256=7N8-8CgTiFDxf4NXFF89G5O81EZYrqsHgpz1MmTnObk,641
+apiverve_loremipsumgenerator-1.0.11.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_loremipsumgenerator-1.0.11.dist-info/METADATA,sha256=2SIcDJ_3Azmel3DfkMV4nzczIWdApghs82IhNT3WVVY,6243
+apiverve_loremipsumgenerator-1.0.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apiverve_loremipsumgenerator-1.0.11.dist-info/top_level.txt,sha256=yj58wz6lFCzKdetcQ7NvO3WmS1SkCQJzoNkuxin34Wo,29
+apiverve_loremipsumgenerator-1.0.11.dist-info/RECORD,,
