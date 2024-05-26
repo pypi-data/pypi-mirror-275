@@ -1,0 +1,42 @@
+name: CI Testing
+
+on:
+  push:
+    branches: [ main, develop ]
+    tags:
+      - '[0-9]+\.[0-9]+\.[0-9]+'
+      - '[0-9]+\.[0-9]+\.[0-9]+-*'
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  run_tests:
+
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ ubuntu-latest, macos-latest ]
+        python: [ '3.9', '3.10' ]
+        torch: [ '1.12', '2.1', '2.3' ]
+      fail-fast: false
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Install cryoDRGN with pytest dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install pytest-xdist
+          python3 -m pip install .
+          python3 -m pip uninstall -y torch
+          python3 -m pip install torch==${{ matrix.torch }}
+
+      - name: Pytest
+        run: |
+          pytest -v -n2 --dist=loadscope -k 'test_reconstruct'
+          pytest -v -n0 --dist=loadscope -k 'not test_reconstruct'
