@@ -1,0 +1,8 @@
+python-dateutil
+
+[mypy]
+mypy
+types-python-dateutil
+
+[test]
+python-dateutil
