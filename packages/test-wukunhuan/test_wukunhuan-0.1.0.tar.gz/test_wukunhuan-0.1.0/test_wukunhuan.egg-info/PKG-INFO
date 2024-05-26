@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: test-wukunhuan
+Version: 0.1.0
+Summary: description
+Home-page: https://github.com/github_name/test_wukunhuan
+Author: author
+Author-email: author_email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Your Project Name
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A brief description of your project.
+
+## Installation
+
+Provide instructions on how to install and set up your project. Include any dependencies that need to be installed.
+
+## Usage
+
+Explain how to use your project. Provide examples and code snippets if necessary.
+
+## Contributing
+
+Specify guidelines for contributing to your project. Include information on how to submit bug reports, feature requests, and pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
