@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: rox-vectors
+Version: 0.1.1
+Summary: 2D vector classes
+Author-email: ROX Automation <jev@roxautomation.com>
+License: MIT
+Project-URL: Homepage, https://gitlab.com/roxautomation/components/rox-vectors
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Provides-Extra: dev
+Requires-Dist: bumpversion; extra == "dev"
+Requires-Dist: invoke; extra == "dev"
+Requires-Dist: ipython; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+
+# rox-vectors
+
+
+
+2D vector classes
+
+
+
+## Quick start
+
+
+
+1. Init host system with `init_host.sh`. This will build a dev image.
+2. Launch in VSCode devcontainer.
+
+
+
+
+## Development
+
+
+1. develop and test in devcontainer (VSCode)
+2. trigger ci builds by bumping version with a tag. (see `.gitlab-ci.yml`)
+
+## Tooling
+
+* Automation: `invoke` - run `invoke -l` to list available commands. (uses `tasks.py`)
+* Verisoning : `bump2version`
+* Linting and formatting : `ruff`
+* Typechecking: `mypy`
+
+## What goes where
+* `src/rox_vectors` app code. `pip install .` .
+* `tasks.py` automation tasks.
+* `.gitlab-ci.yml` takes care of the building steps.
+
+
