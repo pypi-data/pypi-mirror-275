@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+aihorde/__init__.py
+aihorde/client.py
+aihorde/models.py
+aihorde.egg-info/PKG-INFO
+aihorde.egg-info/SOURCES.txt
+aihorde.egg-info/dependency_links.txt
+aihorde.egg-info/requires.txt
+aihorde.egg-info/top_level.txt
