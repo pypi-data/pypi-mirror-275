@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: SpotToBee
+Version: 1.0.2
+Summary: Convert a CSV or Spotify playlist URL to a MusicBee smart playlist
+Home-page: https://github.com/Brendan00x0/SpotToBee
+Author: Brendan Stupik
+Author-email: brndst@protonmail.com
+License-File: LICENSE
+Requires-Dist: spotipy>=2.0.0
+Requires-Dist: pandas>=1.0.0
+Requires-Dist: configparser>=5.0.0

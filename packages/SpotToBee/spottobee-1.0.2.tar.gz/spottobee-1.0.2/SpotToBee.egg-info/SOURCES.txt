@@ -1,0 +1,10 @@
+LICENSE
+README.md
+SpotToBee.py
+setup.py
+SpotToBee.egg-info/PKG-INFO
+SpotToBee.egg-info/SOURCES.txt
+SpotToBee.egg-info/dependency_links.txt
+SpotToBee.egg-info/entry_points.txt
+SpotToBee.egg-info/requires.txt
+SpotToBee.egg-info/top_level.txt
