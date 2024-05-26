@@ -1,0 +1,4 @@
+[console_scripts]
+artcoloranalyzer = analyzer:ArtColorAnalyzer
+object_specific_hue_adjustment = object_specific_hue_adjustment:main
+overall_hue_adjustment = overall_hue_adjustment:main

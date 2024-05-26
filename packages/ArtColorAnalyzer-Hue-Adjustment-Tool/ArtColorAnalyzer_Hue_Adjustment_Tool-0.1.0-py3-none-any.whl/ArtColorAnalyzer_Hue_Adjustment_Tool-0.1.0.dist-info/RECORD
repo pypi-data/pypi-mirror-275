@@ -1,0 +1,12 @@
+artcoloranalyzer/__init__.py,sha256=ObUzGs0N-ALFgwkj6fcRFkckMsBv0Ux2bA6J1UThtfA,54
+artcoloranalyzer/analyzer.py,sha256=3aZ4jP-dqYbb7wnl0bInQl2ZdMhBSc9wt4N3xICnKAg,961
+artcoloranalyzer/object_specific_hue_adjustment.py,sha256=cZjbNY9hh0eRwknKGhveZQVKMGT02rh6bY0v8Rv8ydI,8336
+artcoloranalyzer/overall_hue_adjustment.py,sha256=PqJsnztKRYW53u4fZbuj7XLoGED4yaT6VoTKoCU8h-o,3206
+tests/__init__.py,sha256=ObUzGs0N-ALFgwkj6fcRFkckMsBv0Ux2bA6J1UThtfA,54
+tests/test_analyzer.py,sha256=LCiMsqgTUx_5hj364VN-JuhV-T4wjuGz-gTgi0cGeUE,812
+ArtColorAnalyzer_Hue_Adjustment_Tool-0.1.0.dist-info/LICENSE,sha256=v3yrhEDk6mJq8bUIqCkqQFhcdZ5xBYLP36ejEWC9-Qs,1207
+ArtColorAnalyzer_Hue_Adjustment_Tool-0.1.0.dist-info/METADATA,sha256=fqYd_rJqizYbYX0sWENiMf2mtUtJiVGj2NivBNnaBzU,3016
+ArtColorAnalyzer_Hue_Adjustment_Tool-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ArtColorAnalyzer_Hue_Adjustment_Tool-0.1.0.dist-info/entry_points.txt,sha256=s66zuX59By8xwB1-NmmzsTKL7reJS-k5c9BML5q8hOA,185
+ArtColorAnalyzer_Hue_Adjustment_Tool-0.1.0.dist-info/top_level.txt,sha256=jhHG8VIeHMtXUZReknXzeTrkpj5ZiCiBs79A9tuCLYc,23
+ArtColorAnalyzer_Hue_Adjustment_Tool-0.1.0.dist-info/RECORD,,

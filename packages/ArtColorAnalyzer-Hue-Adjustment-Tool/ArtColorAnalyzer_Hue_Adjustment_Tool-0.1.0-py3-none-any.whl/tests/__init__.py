@@ -1,0 +1,1 @@
+from artcoloranalyzer.analyzer import ArtColorAnalyzer
