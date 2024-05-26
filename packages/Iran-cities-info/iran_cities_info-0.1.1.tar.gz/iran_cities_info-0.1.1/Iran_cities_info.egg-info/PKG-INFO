@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Iran_cities_info
+Version: 0.1.1
+Summary: Iran cities Information: python package to represent Iran's province and city information.
+Home-page: https://github.com/BenyaminZojaji/Iran_cities_info
+Author: Benyamin Zojaji
+Author-email: benyamin.zojaji@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: wikipedia
+Requires-Dist: pyjokes
+
+# Iran cities info
+
+test1
+
+test2
