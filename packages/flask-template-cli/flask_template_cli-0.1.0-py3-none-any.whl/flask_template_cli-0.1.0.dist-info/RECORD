@@ -1,0 +1,10 @@
+templates/__init__.py,sha256=CVvmlOkplT3wyLitO3cSPYV9wBzid1OMygz7CeQPxDM,147
+templates/init_gen.py,sha256=WuHaXEhILN0-qOXTM0i8CJxVU2upXhjqh7BmODWvsYk,1282
+templates/models_gen.py,sha256=IR8bzZMTBz9Y5zpyFbc3l4rgTyfXehz7jDbq7Fr9Y20,1794
+templates/req_txt_gen.py,sha256=7DstWCOupHit9ovnEjCioTe_6PKjE1eEEzsJcDJKKGg,1256
+templates/routes_gen.py,sha256=L_1IM01kc7_DqEF5bvP0Pnyck1S8iVCYNYN9rT1-Pok,1386
+flask_template_cli-0.1.0.dist-info/METADATA,sha256=ozbGhARKNRlNp-eZicAwwfvwns0UJfQ3281BKFH-yA8,322
+flask_template_cli-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+flask_template_cli-0.1.0.dist-info/entry_points.txt,sha256=Pw2EgcphufffYnYFTFONfzkjL06uksondD-0Nz3itOI,67
+flask_template_cli-0.1.0.dist-info/top_level.txt,sha256=Fm_uifOIeZdeTkA7g1vBrg8_icDP_XC7Gw4TPobfX0s,10
+flask_template_cli-0.1.0.dist-info/RECORD,,
