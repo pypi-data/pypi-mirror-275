@@ -1,0 +1,11 @@
+apiverve_textreadabilityscore/__init__.py,sha256=xxGbPGxKsFQa-8uF6XmZ3p0Cv-zms9coEiNoOBobVCs,48
+apiverve_textreadabilityscore/apiClient.py,sha256=je__AK9Y_w_SU9C-KCQ2T97vo1Xm4iW-9E5JsDrkFQk,1231
+apiverve_textreadabilityscore/exceptions.py,sha256=jvnxP5ffmRx1i-M5OLwahpbaN6AzgQFcXA6FWSNgo0Y,119
+apiverve_textreadabilityscore/setup.py,sha256=n0BFAear70312Ylf8fk9zOYPRpP4DBpGixLJuPdvw5U,685
+apiverve_textreadabilityscore/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_textreadabilityscore/tests/test_api.py,sha256=hStRpfqVMh8RGHBVW1rjzMEQB9iiW5gi_1S4jAmqFW0,636
+apiverve_textreadabilityscore-1.0.11.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_textreadabilityscore-1.0.11.dist-info/METADATA,sha256=EhtCpwDXJAPFInufytqGOkFBq98E9OWI2b3VF3_Mvgo,6153
+apiverve_textreadabilityscore-1.0.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apiverve_textreadabilityscore-1.0.11.dist-info/top_level.txt,sha256=PpovV9Zl7465WGeZgvBdw51CSiQ27Jd9UPznMZF3eMg,30
+apiverve_textreadabilityscore-1.0.11.dist-info/RECORD,,
