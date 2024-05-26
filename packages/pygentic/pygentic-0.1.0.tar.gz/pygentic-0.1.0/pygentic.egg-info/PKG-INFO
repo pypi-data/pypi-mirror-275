@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pygentic
+Version: 0.1.0
+License-File: LICENSE
+Requires-Dist: fastapi
+Requires-Dist: pydantic
+Requires-Dist: httpx
+Requires-Dist: uvicorn
+Requires-Dist: liteLLM
+Requires-Dist: pydbantic
+Requires-Dist: databases[sqlite]
+Requires-Dist: pytest
+Requires-Dist: pytest-asyncio
