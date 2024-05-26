@@ -1,0 +1,11 @@
+scipy<1.13,>=1.12.0
+ujson<6,>=5.9.0
+web3<7,>=6.15.0
+
+[tests]
+pytest
+pytest-asyncio
+pytest-cov
+pytest-doc
+pytest-xdist
+python-dotenv
