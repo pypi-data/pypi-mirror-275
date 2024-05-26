@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: randel
+Version: 0.1
+Summary: A library for modeling random processes and variogram analysis
+Home-page: https://github.com/stefjen07/randel
+Author: stefjen07
+Author-email: stefjen@mail.ru
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
