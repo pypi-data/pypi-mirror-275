@@ -1,0 +1,13 @@
+backend2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backend2/auth/auth_bearer.py,sha256=zawlcasbqABJzjaxvuZZ7UAEhZVIauMvMm9MVKffQiU,1298
+backend2/auth/auth_handler.py,sha256=nopB44hROmI_bBc8ONatUrls1yk50w_gzBNLRDnKXhI,554
+backend2/db/database.py,sha256=KuEqgA-vpWoLn5l_Vmi9oGrigy021wAI5_8XT2UjfYI,771
+backend2/db/schemas.py,sha256=8CK-nNzPRi30I3i0uEsBemu2AaA7II8SpdPw8sJkBwo,282
+backend2/main.py,sha256=CjOGM6yivYPVpL3ru_oPxDKFO3ZjcsMsXPKDWr3DN8s,673
+backend2/models/table.py,sha256=x01fpBUq3cfGj1I4pZPEOHius6uFDNR1OrSULUf0Jnw,139
+backend2/operations/table.py,sha256=LtwMIgHmKJiOs4v3GGy6cjzsUSQ8zIysvlzUAV4-xqY,594
+backend2/routers/table.py,sha256=QOwy6CYzl6JY77XypVZ3i7WP28UCn33xmPV_0aN4ZVg,1525
+backend2/routers/test.py,sha256=k7hSvy9IKysfydWVGO6qXPrap9x1CN5uH81jclj5rNg,407
+backend2-1.0.2.dist-info/METADATA,sha256=CzODZ4DNBQ2mAI92S-qZYMd9wqFlTxpEw3e_R19v4IM,757
+backend2-1.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+backend2-1.0.2.dist-info/RECORD,,
