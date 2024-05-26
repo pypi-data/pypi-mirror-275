@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_textlemmatization/__init__.py
+src/apiverve_textlemmatization/apiClient.py
+src/apiverve_textlemmatization/exceptions.py
+src/apiverve_textlemmatization/setup.py
+src/apiverve_textlemmatization.egg-info/PKG-INFO
+src/apiverve_textlemmatization.egg-info/SOURCES.txt
+src/apiverve_textlemmatization.egg-info/dependency_links.txt
+src/apiverve_textlemmatization.egg-info/top_level.txt
+src/apiverve_textlemmatization/tests/__init__.py
+src/apiverve_textlemmatization/tests/test_api.py
+tests/test_api.py
