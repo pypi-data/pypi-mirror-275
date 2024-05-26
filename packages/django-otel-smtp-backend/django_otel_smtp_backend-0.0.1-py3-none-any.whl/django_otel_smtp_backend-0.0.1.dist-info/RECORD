@@ -1,0 +1,7 @@
+django_otel_smtp_backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_otel_smtp_backend/backend.py,sha256=riUrxCOldIbtJ9RiP2PPQWHqKHeFExNKyvgDAHgioCM,1334
+django_otel_smtp_backend-0.0.1.dist-info/LICENSE,sha256=KB2e_yDWmmPYSg6JV7cU-dqtXQSkpynT4g0-Qf3DLuA,1076
+django_otel_smtp_backend-0.0.1.dist-info/METADATA,sha256=3_jQsQnChfaLNGL8S2bfJyO7mzXANC9D0bqvITJ6igo,2693
+django_otel_smtp_backend-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_otel_smtp_backend-0.0.1.dist-info/top_level.txt,sha256=7fMoGzmABNwGF5Mi_RhUQVsH10DsRYYsp61YWDun5qU,25
+django_otel_smtp_backend-0.0.1.dist-info/RECORD,,
