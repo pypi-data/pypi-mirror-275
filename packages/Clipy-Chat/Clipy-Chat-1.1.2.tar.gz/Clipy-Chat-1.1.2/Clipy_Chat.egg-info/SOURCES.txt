@@ -1,0 +1,10 @@
+README.md
+setup.py
+Clipy_Chat.egg-info/PKG-INFO
+Clipy_Chat.egg-info/SOURCES.txt
+Clipy_Chat.egg-info/dependency_links.txt
+Clipy_Chat.egg-info/entry_points.txt
+Clipy_Chat.egg-info/top_level.txt
+clipy_chat/__init__.py
+clipy_chat/cli.py
+clipy_chat/client.py
