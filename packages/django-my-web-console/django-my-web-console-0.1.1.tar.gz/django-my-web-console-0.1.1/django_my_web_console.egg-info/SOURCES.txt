@@ -1,0 +1,12 @@
+setup.py
+console/__init__.py
+console/admin.py
+console/apps.py
+console/models.py
+console/tests.py
+console/urls.py
+console/views.py
+django_my_web_console.egg-info/PKG-INFO
+django_my_web_console.egg-info/SOURCES.txt
+django_my_web_console.egg-info/dependency_links.txt
+django_my_web_console.egg-info/top_level.txt
