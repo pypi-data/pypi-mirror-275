@@ -1,0 +1,9 @@
+numpy
+pandas
+pytorch_lightning
+scikit_learn
+torch
+torchmetrics
+setuptools
+properscoring
+lxml[html_clean]
