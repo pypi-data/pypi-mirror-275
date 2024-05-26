@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: class4
+Version: 0.0.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Farrukh Sadykov
+Author-email: farrukhsadykov@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# python-class
+
+```
+[distutils]
+index-servers =
+    pypi
+    testpypi
+    private-repository
+
+[pypi]
+username = __token__
+password = <PyPI token>
+
+[testpypi]
+username = __token__
+password = <TestPyPI token>
+
+[private-repository]
+repository = <private-repository URL>
+username = <private-repository username>
+password = <private-repository password>
+```
+
+
