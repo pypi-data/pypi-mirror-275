@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pysalm
+Version: 0.0.1
+Summary: Python Statistic Analysis & Machine Learning
+Home-page: https://aszadzinski.github.io/psalm
+License: GPL-3.0-only
+Keywords: Machine Learning,Statistic Analysis,Deep Learning
+Author: Athalbraht
+Author-email: contact.22cpu@aleeas.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click
+Project-URL: Documentation, https://aszadzinski.github.io/psalm/docs
+Project-URL: Repository, https://github.com/aszadzinski/psalm.git
+Description-Content-Type: text/markdown
+
+# PSALM (PySALM)
+
+---
+
+## Installation
+
+```
+pip install psalm
+```
+
