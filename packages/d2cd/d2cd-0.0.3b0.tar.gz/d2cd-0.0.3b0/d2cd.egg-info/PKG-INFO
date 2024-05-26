@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: d2cd
+Version: 0.0.3b0
+Summary: Docker Compose Continuous Delivery
+Home-page: https://github.com/veerendra2/d2cd
+Download-URL: https://github.com/veerendra2/d2cd/archive/0.0.3-beta.tar.gz
+Author: veerendra2
+Author-email: veerendra2@github.com
+License: MIT
+Project-URL: Changelog, https://github.com/veerendra2/d2cd/blob/master/CHANGELOG.md
+Project-URL: Documentation, https://d2cd.readthedocs.io/en/latest/
+Keywords: gitops,cicd,docker-compose,continuous delivery
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: GitPython==3.1.43
+Requires-Dist: loguru==0.7.2
+Requires-Dist: marshmallow==3.21.1
+Requires-Dist: python-on-whales==0.71.0
+Requires-Dist: giturlparse==0.12.0
+Requires-Dist: yamllint==1.33.0
+
+# d2cd
+> **Note:** This project is currently under active development.
+
+<p align="center">
+  <img src="https://i.ibb.co/8b7SMTH/d2cd1.png" width="400"/>
+</p>
+
+**D**ocker **C**ompose **C**ontinuous **D**elivery (`d2cd`) is a GitOps agent designed to maintain the state of your Docker Compose projects on your server by continuously applying changes from a Git repository.
+
+## Install
+Docker Compose is the recomended way
+```bash
+# download docker-compose.yml
+$ wget https://raw.githubusercontent.com/veerendra2/d2cd/main/docker-compose.yml
+
+# configure `config.yml` and run
+$ docker compose up -d
+```
+From source
+> **Note:** This tool is currently in beta stage, and daemonization is not yet implemented.
+```
+$ git clone git@github.com:veerendra2/d2cd.git
+$ cd d2cd
+$ pip3 install .
+```
+
+## Configuration
+Below is a sample `config.yml` file to help you get started:
+
+```yaml
+---
+sync_interval_seconds: 600
+repos:
+  - name: d2cd-test
+    url: git@github.com:veerendra2/d2cd-test-repo.git
+    branch: main
+    auth:
+      ssh_key_location: "~/.ssh/id_rsa"
+    docker_compose_paths:
+      - python/docker-compose.yml
+```
+You can also use `username` and `password`(`token`) for authentication
+
+```yaml
+sync_interval_seconds: 600
+repos:
+  - name: d2cd-test
+    url: git@github.com:veerendra2/d2cd-test-repo.git
+    branch: main
+    auth:
+      username: "USERNAME"
+      password: "PASSWORD"
+    docker_compose_paths:
+      - python/docker-compose.yml
+```

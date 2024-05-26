@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 88
+
+[tool.pylint.messages_control]
+disable = [
+  "C0114",  # Missing module docstring
+  "C0115",  # Missing class docstring
+  "C0116",  # Missing function or method docstring
+  "C0301",  # Line too long
+  "W0212",  
+  "W0212",
+  "W0611"
+]
+
+[tool.pylint.'d2cd.config_loader']
+disable = [
+  "R0903"   # Too few public methods
+]
+
+[tool.pylint.'setup']
+disable = [
+  "W4901"   # Deprecated module 'distutils.core'
+]
+
+[tool.pylint.'d2cd.utils.git_utils']
+disable = [
+  "E1101"   # Instance of ... has no 'owner' member
+]
+
+[tool.pylint.report]
+output-format = "colorized"
+
+[tool.pylint.reporter]
+max-line-length = 120
+
