@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: botrun_google_doc_reader
+Version: 4.25.251
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: langchain-community
+Requires-Dist: litellm
+Requires-Dist: python-dotenv
+Requires-Dist: pytz
+Requires-Dist: tavily-python
+Requires-Dist: youtube-transcript-api
+Description-Content-Type: text/markdown
+
+### 2024-05-25 by bowen
+輸入任意一個 google doc id 就能讀取純文字出來
+可以運用在 _autogen_prefix.botrun 讀取
