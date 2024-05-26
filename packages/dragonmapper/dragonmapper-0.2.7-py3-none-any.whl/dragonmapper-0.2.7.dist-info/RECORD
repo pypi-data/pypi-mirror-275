@@ -1,0 +1,12 @@
+dragonmapper/__init__.py,sha256=JBsYVDHaq0JIbH3RYXI4ZZRbymhd_9Ra8tNcOJkIJtY,47
+dragonmapper/hanzi.py,sha256=cRYnV-Xc05Aj34QU0SE-LdMbZ1GGQsmM9M-8cnXj9-0,7604
+dragonmapper/transcriptions.py,sha256=daqqFI0nsbsDDH8dVjvLqBsRoZl7vgVpXB1Av4CN3Ak,18548
+dragonmapper/data/__init__.py,sha256=JQCkhj0hZQPNkJ_nA_yx2NynrFFvA4PEdQBP5T0Lj7U,577
+dragonmapper/data/hanzi_pinyin_characters.tsv,sha256=YxlmUirZ7Gb5dWGVNFuoGW6-jLYxVWmb7qhif1Yy9kU,444391
+dragonmapper/data/hanzi_pinyin_words.tsv,sha256=wZtKzxkfNQj84Dae03CY5w565gMaD062UoYrk8uoPhA,3552109
+dragonmapper/data/transcriptions.csv,sha256=DLYo_a3bRmU27_LWXUVWAsK9R6mtQ3FQNMQr72YMbCc,7642
+dragonmapper-0.2.7.dist-info/METADATA,sha256=RhX6-ql6Naqj9Rx89jhLvkaj9HlMpPEW5-ueXWmOBWM,3296
+dragonmapper-0.2.7.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+dragonmapper-0.2.7.dist-info/licenses/AUTHORS.rst,sha256=ygT5FRjNKP76r6sW2bgwA91G46eMvetIhYj9aIr7kZk,174
+dragonmapper-0.2.7.dist-info/licenses/LICENSE.txt,sha256=UAZ9k2QRM2ZIugAAvVYursRn2m-lgwkpIgHHW6PhqlA,1056
+dragonmapper-0.2.7.dist-info/RECORD,,
