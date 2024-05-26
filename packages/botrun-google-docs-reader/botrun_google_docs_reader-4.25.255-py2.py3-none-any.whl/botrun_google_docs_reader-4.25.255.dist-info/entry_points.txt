@@ -1,0 +1,2 @@
+[console_scripts]
+botrun-google-docs-reader = botrun_google_docs_reader:main
