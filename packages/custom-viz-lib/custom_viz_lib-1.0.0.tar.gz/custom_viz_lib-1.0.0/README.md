@@ -1,0 +1,101 @@
+# Custom Viz Lib
+
+カスタマイズ可能なデータビジュアライゼーションライブラリ
+
+## 概要
+
+Custom Viz Libは、インタラクティブでカスタマイズ可能なデータビジュアライゼーションを簡単に作成するためのライブラリです。
+
+## 特徴
+
+- インタラクティブなグラフとチャートの作成
+- カスタマイズ可能なテーマとスタイル
+- データストーリーテリングのサポート
+
+## インストール
+
+```bash
+pip install custom_viz_lib
+```
+
+## 使い方
+```python
+from custom_viz_lib import chart, theme
+
+# データの読み込み
+data = [...]
+
+# チャートの作成
+bar_chart = chart.BarChart(data)
+bar_chart.apply_theme(theme.DarkTheme())
+bar_chart.show()
+```
+
+## 使用例1（Google Colabで使用し、バーチャートの作成する）
+```python
+!pip install custom_viz_lib
+
+from custom_viz_lib.chart import BarChart
+from custom_viz_lib.theme import DarkTheme
+
+# サンプルデータ
+data = [1, 2, 3, 4, 5]
+chart = BarChart(data)
+chart.apply_theme(DarkTheme())
+chart.show()
+```
+
+## 使用例2（Google Colabで使用し、ラインチャートの作成する）
+```python
+!pip install custom_viz_lib
+
+from custom_viz_lib.chart import LineChart
+from custom_viz_lib.theme import LightTheme
+
+# サンプルデータ
+data = [10, 20, 15, 25, 30]
+chart = LineChart(data)
+chart.apply_theme(LightTheme())
+chart.show()
+```
+
+## 使用例3（Google Colabで使用し、CSVファイルからデータを読み込んでバーチャートを作成する）
+```python
+!pip install custom_viz_lib
+
+import pandas as pd
+from custom_viz_lib.chart import BarChart
+from custom_viz_lib.theme import DarkTheme
+from custom_viz_lib.data_loader import load_csv
+
+# CSVファイルのパス
+file_path = 'path/to/your/data.csv'
+
+# データの読み込み
+data = load_csv(file_path)['column_name'].tolist()
+chart = BarChart(data)
+chart.apply_theme(DarkTheme())
+chart.show()
+```
+
+## 使用例4（Google Colabで使用し、データを正規化してラインチャートを作成する）
+```python
+!pip install custom_viz_lib
+
+from custom_viz_lib.chart import LineChart
+from custom_viz_lib.theme import LightTheme
+from custom_viz_lib.utils import normalize_data
+
+# サンプルデータ
+data = [10, 20, 15, 25, 30]
+
+# データの正規化
+normalized_data = normalize_data(data)
+chart = LineChart(normalized_data)
+chart.apply_theme(LightTheme())
+
+chart.show()
+```
+
+## ライセンス
+This project is licensed under the MIT License.
