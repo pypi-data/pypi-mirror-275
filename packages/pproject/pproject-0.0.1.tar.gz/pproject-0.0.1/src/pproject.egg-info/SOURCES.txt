@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/pproject.py
+src/pproject.egg-info/PKG-INFO
+src/pproject.egg-info/SOURCES.txt
+src/pproject.egg-info/dependency_links.txt
+src/pproject.egg-info/entry_points.txt
+src/pproject.egg-info/top_level.txt
