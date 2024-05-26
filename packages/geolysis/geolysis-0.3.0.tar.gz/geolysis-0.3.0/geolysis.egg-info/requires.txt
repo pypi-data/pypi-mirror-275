@@ -1,0 +1,7 @@
+
+[dev]
+black
+pytest
+mypy
+pytest-cov
+coverage
