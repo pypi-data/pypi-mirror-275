@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+tox.ini
+plover_vipe/__init__.py
+plover_vipe/system.py
+plover_vipe.egg-info/PKG-INFO
+plover_vipe.egg-info/SOURCES.txt
+plover_vipe.egg-info/dependency_links.txt
+plover_vipe.egg-info/entry_points.txt
+plover_vipe.egg-info/requires.txt
+plover_vipe.egg-info/top_level.txt
+plover_vipe.egg-info/zip-safe
+plover_vipe/dictionaries/vipe_commands.json
+plover_vipe/dictionaries/vipe_main.json
