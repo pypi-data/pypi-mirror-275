@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: image_collect
+Version: 0.0.1
+Requires-Dist: BeautifulSoup4
+Requires-Dist: deep-translator
+
