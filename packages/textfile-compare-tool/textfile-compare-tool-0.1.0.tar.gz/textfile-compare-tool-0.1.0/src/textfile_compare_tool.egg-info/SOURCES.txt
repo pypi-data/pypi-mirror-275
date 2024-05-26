@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/textfile_compare_tool.egg-info/PKG-INFO
+src/textfile_compare_tool.egg-info/SOURCES.txt
+src/textfile_compare_tool.egg-info/dependency_links.txt
+src/textfile_compare_tool.egg-info/entry_points.txt
+src/textfile_compare_tool.egg-info/top_level.txt
