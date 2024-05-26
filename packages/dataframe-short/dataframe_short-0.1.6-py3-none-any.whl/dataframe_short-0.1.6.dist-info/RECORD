@@ -1,0 +1,13 @@
+dataframe_short/__init__.py,sha256=lT9g2e8pni9yi1Nz41zXDeO5sVS9Tx4Vr1P93YH5bx0,112
+dataframe_short/cant_use_ds.py,sha256=-xQY8c0eKFUbGlt0BtV_3y0QtpfIW9Gx8mZQpVGTde8,262
+dataframe_short/dataframe_test.py,sha256=7T6LzMz4pqD0kjgJnfR_yh252AizL9B9sECl3oiQBk0,7713
+dataframe_short/fix_bug_ds.py,sha256=-xQY8c0eKFUbGlt0BtV_3y0QtpfIW9Gx8mZQpVGTde8,262
+dataframe_short/func_24_Feb.py,sha256=l5XHJP8ilxNLdnWEaZTOPZMaOwGb1GNYn1GJjF9u2mU,2803
+dataframe_short/lib02_dataframe.py,sha256=Avn6VcpW89OfewIYU_mzq4Av-UUlpwCXbWWcLXWETmM,49373
+dataframe_short/sandbox1_ds.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataframe_short/utils_ds.py,sha256=oPpvMXEzpkYb7BHqSc8BL1R8CFjoBctacLHQe9TqFbc,48011
+dataframe_short-0.1.6.dist-info/LICENSE,sha256=SymEFziPWm-VKhG2EG27r5TGE6BaTnBtgN23jD1CGhk,1090
+dataframe_short-0.1.6.dist-info/METADATA,sha256=xqsBPb-qVjA1dB_PuEZNo5z3fOJgov-zWRijGR7a5HA,423
+dataframe_short-0.1.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dataframe_short-0.1.6.dist-info/top_level.txt,sha256=Q4gcOnrab3mtHKkx75wHaGzGuXn9XVj4_k1SJpLRKRE,16
+dataframe_short-0.1.6.dist-info/RECORD,,
