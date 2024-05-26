@@ -1,0 +1,11 @@
+asgi_user_agents/__about__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+asgi_user_agents/__init__.py,sha256=HdqGHhcAFAyVUt0bDpzRbK8gZgU1lZV0MSi2eMxNxfE,374
+asgi_user_agents/datastructures.py,sha256=qE1_G1nFGOFvlyGssWQ2WypMFz__OjSNJWoZcirpKH4,2058
+asgi_user_agents/middleware.py,sha256=ETYSStB3LAMD7NpP8GJWYjq2vFTHV0R9B1dcjwq4IFY,435
+asgi_user_agents/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asgi_user_agents/requests.py,sha256=Q6vRIg1cFOqHcX8c97VSedQn0X8dZmbu4fopfRj9_S8,827
+asgi_user_agents/types.py,sha256=ZCZ6-8F3XeQi3j70o6nt5UQ2uu5B1miyCi-ATTkVjpM,335
+asgi_user_agents-0.1.0.dist-info/METADATA,sha256=tn5EIXxlwGVp8NDQ7XNY7Tr9ST5lIOKmhmns1khwb2M,9919
+asgi_user_agents-0.1.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+asgi_user_agents-0.1.0.dist-info/licenses/LICENSE,sha256=hRiP1UBakO6MW_XZNswyB9NERsWXGFAc8ikON4SHh00,1085
+asgi_user_agents-0.1.0.dist-info/RECORD,,
