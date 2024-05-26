@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: KunTimeChange
+Version: 11.5.dev1
+Summary: It will not exit after run it.
+Home-page: https://github.com/ziyin-wang/ikuntime
+Author: W0518
+Author-email: 2647346053@qq.com
+License: MIT
+Keywords: sample setuptools development
