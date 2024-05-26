@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: somethingheredude
+Version: 0.1.0
+Summary: Testing my distribution management script (upload)
+Home-page: https://github.com/yourusername/your-repo
+Author: Marcus
+Author-email: marcusongkiansiong@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: blabla ==0.2.2
+Requires-Dist: bobo ==2.4.0
+Requires-Dist: see ==1.4.1
+
