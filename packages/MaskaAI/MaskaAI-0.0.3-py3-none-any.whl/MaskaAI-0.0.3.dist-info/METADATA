@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: MaskaAI
+Version: 0.0.3
+Summary: MaskaAI from maska.ai
+Home-page: 
+Author: Maska
+Author-email: maska@maska.ai
+License: MIT
+Keywords: AI
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/x-rst
+License-File: LICENCE.txt
+Requires-Dist: requests
+Requires-Dist: datetime
+
+MaskaAI
+=======
+
+A brief description of MaskaAI.
+
+Changelog
+=========
+
+0.0.1 (2024-05-25)
+0.0.2 (2024-05-25)
+0.0.3 (2024-05-25)
+------------------
+- Initial release
