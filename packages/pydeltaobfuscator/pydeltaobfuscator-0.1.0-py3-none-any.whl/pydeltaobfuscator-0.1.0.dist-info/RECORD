@@ -1,0 +1,16 @@
+pydelta/PyDelta.py,sha256=bVofPlQNB3D2sn9v-u7u-yXbd-PZpY-5ksOV8E1kHYw,4170
+pydelta/__init__.py,sha256=NiCayDLy1cd5hG11EARBUjiWJJIMv4i99VF32oUDMaE,72
+pydelta/anti_debugger.py,sha256=BeppjDRtydoM-QpdXvAILpbd-i_2BRD3AuIOkkAKnRY,161
+pydelta/code_compressor_and_encryptor.py,sha256=V4iH0cI0aUxb73Klp-EQ-b-34Hx6qAOUcY5yexDUeOk,1854
+pydelta/delta_random.py,sha256=dFaT-pAXXOUW766vdMKg19nTjznnzETBKiE5mPgD6t8,180
+pydelta/ids_refactor.py,sha256=WY1CPpKQVtfaGILpb1JGmhkznhUggNFTxP-9ALnvN2w,4417
+pydelta/import2inlineimport.py,sha256=mOg3qkvwUXR1SapKvdvKYGHUvOkCdB5Rx9zPXcfkekU,2758
+pydelta/reserved_names.py,sha256=96DrgIGBkrlc_zcSzIlkKtnaSP3DSv0dQcqSxWaBaKM,288
+pydelta/runtime_code.py,sha256=pTxmGvdsJ60b2w1zBzJ6tue81hNT9WrVc5CQxHC3MAU,2280
+pydelta/string_encryption.py,sha256=SGdSl1Gw8q3f4sHBXL8l3gvp5yT2KQ_fCxnAsBHHwGg,5597
+pydeltaobfuscator-0.1.0.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+pydeltaobfuscator-0.1.0.dist-info/METADATA,sha256=suBQBGAb514Hvxy8vamC8WYSmr3Sf2ZmDJN_1eY0DJY,3106
+pydeltaobfuscator-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pydeltaobfuscator-0.1.0.dist-info/entry_points.txt,sha256=6n4AZ9i6fPPnrb1jY5kdx141yo1SRJTEnhUQqxDI_rA,60
+pydeltaobfuscator-0.1.0.dist-info/top_level.txt,sha256=uC6BodXCIuUsNXAC2UNI-kiU-k7_Zz9bhFyrWUbzQeA,8
+pydeltaobfuscator-0.1.0.dist-info/RECORD,,
