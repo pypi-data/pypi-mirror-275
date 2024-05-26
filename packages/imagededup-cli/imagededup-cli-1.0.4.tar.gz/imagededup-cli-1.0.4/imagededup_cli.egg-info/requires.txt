@@ -1,0 +1,5 @@
+rich-click
+tk
+tqdm
+loguru
+imagededup
