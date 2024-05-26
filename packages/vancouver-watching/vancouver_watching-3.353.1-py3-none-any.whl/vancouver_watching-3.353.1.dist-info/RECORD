@@ -1,0 +1,14 @@
+vancouver_watching/QGIS.py,sha256=Nh-9hXh_RASjfZXe9woeFUzZsvQIaMxBGVKDLpfIJxE,4758
+vancouver_watching/__init__.py,sha256=Kj5Bk_qWhmaYiSntNj-1xyvOHEJ-b4nsqFBYNsM0r_o,117
+vancouver_watching/__main__.py,sha256=nq8CNuFyv6AorTeAbihVpFN9GbCY4NY8YoAZVxF0VrQ,1235
+vancouver_watching/area.py,sha256=ghgCOeclaeCiTt3lm1NLyCqNwkdT3y7OD7V2GgQ-3ts,6783
+vancouver_watching/config.env,sha256=mQKyTTkT2bxKz5oV3skTM5nESnPYd5pXEZe8ekTvZVI,127
+vancouver_watching/env.py,sha256=nroVxLV2H4kxG1YoymrMdPyeHL8bpRwWlDc7UN3TMTY,284
+vancouver_watching/logger.py,sha256=DY-8OKnkExbpgjawpzKeeneivRttX_FDREKkozbAg_U,99
+vancouver_watching/notebook.py,sha256=z-1qVdXTEXnHzGzK-wOeSJR48707dTDNGbIPVn-Vqf0,355
+vancouver_watching/urls.py,sha256=Bjdewssljt0LIefjixBem9JN0kkghPvmrIETj3GdXbY,17
+vancouver_watching-3.353.1.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+vancouver_watching-3.353.1.dist-info/METADATA,sha256=TERuZVyfVLJgNdy3-c_hEBmNHdMs7Vvs0jFYHzM_g98,4634
+vancouver_watching-3.353.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+vancouver_watching-3.353.1.dist-info/top_level.txt,sha256=Oq09M7XGFUyv9HH0NNsUpwB-nB1PoIsY6ntHx4FctSU,19
+vancouver_watching-3.353.1.dist-info/RECORD,,
