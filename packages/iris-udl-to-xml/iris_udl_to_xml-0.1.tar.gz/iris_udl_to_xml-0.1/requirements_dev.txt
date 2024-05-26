@@ -1,0 +1,7 @@
+lxml
+lxml-stubs
+pytest
+mypy
+requests
+types-requests
+pytest-cov
