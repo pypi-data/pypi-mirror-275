@@ -1,0 +1,18 @@
+jackofalltrades/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jackofalltrades/Errors/__init__.py,sha256=I6nRghDKZBHqEnTOrwMLvjpZWf_73hAl-evjIryZTLc,24
+jackofalltrades/Errors/error.py,sha256=WZNwmxZyWTXC5YGCRtxokYH3TGn7yCEt2XwJmdfcz0Q,6699
+jackofalltrades/Models/Regression.py,sha256=KlRBDtA5zIk6C8ZTQhai1_tW7l12B1DDFm37idwAVhc,8678
+jackofalltrades/Models/__init__.py,sha256=X_3-bLWwQ_jAkfz80o-9EigEDEMBlxivfxNX2KkTvCs,60
+jackofalltrades/datasets/BTC-USD.csv,sha256=k4K4s4rGN5iWhbOqvEt2Ow6n4a0qiaCMWJkUDS-NYd4,269726
+jackofalltrades/datasets/Real estate.csv,sha256=D6BPUScXhZm37godHIgcpnHZ_wyB-bT4sFp77PT_n6Q,21968
+jackofalltrades/datasets/__init__.py,sha256=QGEVWIvEWWKkSdUAfU55dZOfmJ-xlZ1SZEjuoz7gDpk,32
+jackofalltrades/datasets/all_fuels_data.csv,sha256=dPaKNE_SNpV67fUsuie9h04eFNIFG4hN_UOW86afM9o,2918444
+jackofalltrades/datasets/dataset.py,sha256=-dq0G7YL1_VbAzkSBxuwp2mhXFnluUbUdVVhKRbtzdQ,2200
+jackofalltrades/datasets/london_house_prices.csv,sha256=_9ObR5_hZ-Y0KyNuuNd158nZZ3g6vEPYQ_Cy0eBu3uo,103796
+jackofalltrades/test/__init__.py,sha256=uQfYzJPVbH0PTWMUPDWBS-6xXbkmsxuCYlEmCIMwptw,43
+jackofalltrades/test/tests.py,sha256=gn7V-nfzoTr9chKhiwVRCJ-CkQQACLAyKB-nGkXO3pY,3797
+jackofalltrades-0.0.1.dist-info/LICENSE.txt,sha256=zyZEU0NZKMzSu9yS-XFajfFf14RXLYnrsrqS-xe91Yc,1093
+jackofalltrades-0.0.1.dist-info/METADATA,sha256=tGjR3F6Ah1WEmAv6B0W7eFVb30zETorTumr8XVvMA3k,3903
+jackofalltrades-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+jackofalltrades-0.0.1.dist-info/top_level.txt,sha256=D6m_1ocCOiWVU1iXXLu9icbflsGX-zwD3ahCt0u1qDM,16
+jackofalltrades-0.0.1.dist-info/RECORD,,
