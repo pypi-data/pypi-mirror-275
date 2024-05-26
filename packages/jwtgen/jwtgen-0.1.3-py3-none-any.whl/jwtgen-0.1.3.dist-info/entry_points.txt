@@ -1,0 +1,3 @@
+[console_scripts]
+jwtgen=jwtgen.cli:main
+
