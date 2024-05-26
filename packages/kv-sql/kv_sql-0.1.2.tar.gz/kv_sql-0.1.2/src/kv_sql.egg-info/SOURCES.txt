@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/kv/sql/__init__.py
+src/kv/sql/api.py
+src/kv_sql.egg-info/PKG-INFO
+src/kv_sql.egg-info/SOURCES.txt
+src/kv_sql.egg-info/dependency_links.txt
+src/kv_sql.egg-info/top_level.txt
