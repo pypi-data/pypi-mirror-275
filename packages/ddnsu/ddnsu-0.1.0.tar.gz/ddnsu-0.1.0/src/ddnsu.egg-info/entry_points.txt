@@ -1,0 +1,2 @@
+[console_scripts]
+ddnsu = ddnsu.main:main

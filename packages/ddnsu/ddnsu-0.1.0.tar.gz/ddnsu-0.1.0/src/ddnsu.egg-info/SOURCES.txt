@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/ddnsu/__init__.py
+src/ddnsu/__main__.py
+src/ddnsu/main.py
+src/ddnsu.egg-info/PKG-INFO
+src/ddnsu.egg-info/SOURCES.txt
+src/ddnsu.egg-info/dependency_links.txt
+src/ddnsu.egg-info/entry_points.txt
+src/ddnsu.egg-info/top_level.txt
