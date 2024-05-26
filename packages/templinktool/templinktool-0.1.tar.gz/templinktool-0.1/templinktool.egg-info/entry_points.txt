@@ -1,0 +1,2 @@
+[console_scripts]
+linkm = main:main
