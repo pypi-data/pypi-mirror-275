@@ -1,0 +1,10 @@
+pipackager/__init__.py,sha256=1awOV94lfXbMefI6zMZZ1ZKgXEhh-Zo3QLt-uLBIA7Y,25
+pipackager/cli.py,sha256=2DP1m_OzLnYyFW4egRL3tr54urXSc75WZLQcXIEcS_o,14989
+tests/__init__.py,sha256=ysFOOtZUuRnYoKXr1FbX6RqFzlfHUlNTZ85zTUp6irI,31
+tests/test_pipackager.py,sha256=5dBCMYLg8iD8rL6Y0usEc1IR0G61j_VKul3VNxA7Ze0,76
+pipackager-0.4.5.dist-info/LICENSE,sha256=B6xwfBS2GyNbayx8-Zm-redM9OSrj8mEeugu05j4Mj8,1060
+pipackager-0.4.5.dist-info/METADATA,sha256=p6zWvAFJoRwUVavp-_T24CkcubdZ3_PMCOZy9txx-tI,4550
+pipackager-0.4.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pipackager-0.4.5.dist-info/entry_points.txt,sha256=qtDIZ_zh976sUOeyMOY0yOfI4ZsKN9w1KWeGYrsH5ps,51
+pipackager-0.4.5.dist-info/top_level.txt,sha256=KUDA2RmLQnK2GuCEXhbQbp9aFHWo2t7aaomqBNA8xhk,17
+pipackager-0.4.5.dist-info/RECORD,,
