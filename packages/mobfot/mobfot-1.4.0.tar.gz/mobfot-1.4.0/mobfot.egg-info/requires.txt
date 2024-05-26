@@ -1,0 +1,12 @@
+requests>=2.31.0
+CacheControl>=0.13.1
+
+[test]
+ruff
+behave
+mypy
+reformat-gherkin
+types-requests
+mkdocs
+mkdocstrings[python]
+mkdocs-material

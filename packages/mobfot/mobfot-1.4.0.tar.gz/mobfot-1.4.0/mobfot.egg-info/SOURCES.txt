@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+mobfot/__init__.py
+mobfot/client.py
+mobfot.egg-info/PKG-INFO
+mobfot.egg-info/SOURCES.txt
+mobfot.egg-info/dependency_links.txt
+mobfot.egg-info/requires.txt
+mobfot.egg-info/top_level.txt
