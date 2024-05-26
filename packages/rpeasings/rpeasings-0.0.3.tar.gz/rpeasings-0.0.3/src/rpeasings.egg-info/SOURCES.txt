@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/rpeasings/__init__.py
+src/rpeasings.egg-info/PKG-INFO
+src/rpeasings.egg-info/SOURCES.txt
+src/rpeasings.egg-info/dependency_links.txt
+src/rpeasings.egg-info/top_level.txt
+tests/test_FIXME.py

@@ -1,0 +1,36 @@
+[project]
+name = "rpeasings"
+description = "Robert Penner's easings functions in python"
+version = "0.0.3"
+readme = "README.md"
+
+authors = [
+    { name="Michael Lamertz", email="michael.lamertz@gmail.com" }
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Games/Entertainment",
+    "Topic :: Software Development :: Libraries :: pygame",
+]
+
+dependencies = []
+
+[project.scripts]
+
+[project.urls]
+homepage = "https://github.com/dickerdackel/rpeasings"
+bugtracker = "https://github.com/DickerDackel/rpeasings/issues"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+addopts = "-rA -s"
+testpaths = [
+    "tests",
+]
+
