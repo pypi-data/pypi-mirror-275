@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-autotalk
+Version: 0.1.1
+Summary: autotalk是一个适用于NoneBot的模板回复插件。所有代码均使用GPT构建
+Home-page: https://github.com/AcoFork/nonebot-plugin-autotalk
+Author: AcoFork
+Author-email: af@acofork.top
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: base64
+Requires-Dist: asyncio
+
+autotalk是一个适用于NoneBot的模板回复插件。所有代码均使用GPT构建
