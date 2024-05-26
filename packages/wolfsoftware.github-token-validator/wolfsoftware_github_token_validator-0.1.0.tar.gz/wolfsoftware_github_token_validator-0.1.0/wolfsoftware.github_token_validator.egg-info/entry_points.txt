@@ -1,0 +1,2 @@
+[console_scripts]
+gtv = wolfsoftware.github_token_validator.main:main
