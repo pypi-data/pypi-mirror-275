@@ -1,0 +1,11 @@
+angle_emb/__init__.py,sha256=KozpMZZ95ReuDN2oshDZB18pQnujNcevk6RJqfSkiRs,70
+angle_emb/angle.py,sha256=25g8i7WNIbAjEJPetXZf_q2Za1dG0Rv9w7p4b9gVfNg,70613
+angle_emb/angle_trainer.py,sha256=-5OOel4pRa5Lq87JShQKImhhAheuicEUyXdYMtwfu2w,13833
+angle_emb/train_cli.py,sha256=PYZd4hTQhQkloAyWvt86TsdMkJ8jVNhIqI9jnrAaOaw,10829
+angle_emb/utils.py,sha256=h6CUlOtxbLucAJGpMRDO92T0X8pLKzAdo-Ku3lXMx2k,512
+angle_emb-0.4.3.dist-info/LICENSE,sha256=DfBcQEfFKfbQ4Bkt1kVA-gfQCigGIr-syjv4g_cf8N4,1061
+angle_emb-0.4.3.dist-info/METADATA,sha256=UEqTLRVie4YtaXJF-WW8QyBsAfWzhTTHeSrrZ-7dwAI,17507
+angle_emb-0.4.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+angle_emb-0.4.3.dist-info/entry_points.txt,sha256=tF6M4FV6KszV1iY7qVj4a7kzQulUVZXWBgRMqkBAHCY,63
+angle_emb-0.4.3.dist-info/top_level.txt,sha256=PRrRJASyALPz9zdUIYXsLtECMfN3aUjiSCm86uxWQHY,10
+angle_emb-0.4.3.dist-info/RECORD,,
