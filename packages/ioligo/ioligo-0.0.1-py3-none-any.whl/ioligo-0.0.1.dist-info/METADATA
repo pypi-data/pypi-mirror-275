@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ioligo
+Version: 0.0.1
+Summary: oligo toolkit.
+Home-page: https://github.com/iOLIGO/ioligo
+Author: cong wang
+Author-email: 2119452560@qq.com
+License: GPLv3
+Keywords: bioinformatics,oligo,probes
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.7, <4
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: h5py
+Requires-Dist: loguru
+
+See https://github.com/iOLIGO/ioligo
