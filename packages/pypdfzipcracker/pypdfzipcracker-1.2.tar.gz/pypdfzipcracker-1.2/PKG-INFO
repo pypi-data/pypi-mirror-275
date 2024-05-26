@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: pypdfzipcracker
+Version: 1.2
+Summary: A tool to crack encrypted PDF and ZIP files.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyPDF2
+Requires-Dist: pyzipper
+
+
+pdfzipcracker
+=============
+
+pdfzipcracker is a Python package designed to help you crack passwords for encrypted ZIP and PDF files using brute-force techniques.
+
+Features
+--------
+
+- Crack passwords for encrypted ZIP files.
+- Crack passwords for encrypted PDF files.
+- Flexible options to specify character sets and password lengths.
+
+Installation
+------------
+
+You can install pdfzipcracker via pip:
+
+.. code-block:: bash
+
+    pip install pypdfzipcracker
+
+Usage
+-----
+
+To use pdfzipcracker, run the script and follow the on-screen instructions:
+
+.. code-block:: bash
+
+    pdfzipcracker
+
+You will be prompted to choose between cracking a PDF or a ZIP file, and then to provide necessary details about the expected password characteristics.
+
+Crack a ZIP Password
+--------------------
+
+.. code-block:: text
+
+    Enter ZIP File Path: /path/to/yourfile.zip
+    Is The Password Contains Numbers? (if don't know, enter 'yes') (yes / no): yes
+    Is The Password Contains Characters? (if don't know, enter 'yes') (yes / no): yes
+    Is The Password Contains Special Characters? (if don't know, enter 'yes') (yes / no): no
+    Enter Exact Length Of Password If You know Else Enter 'n': n
+    Enter Maximum Guessed Password Length (e.g., 6 numbers or 9 characters): 6
+
+Crack a PDF Password
+--------------------
+
+.. code-block:: text
+
+    Enter PDF File Path: /path/to/yourfile.pdf
+    Is The Password Contains Numbers? (if don't know, enter 'yes') (yes / no): yes
+    Is The Password Contains Characters? (if don't know, enter 'yes') (yes / no): yes
+    Is The Password Contains Special Characters? (if don't know, enter 'yes') (yes / no): no
+    Enter Exact Length Of Password If You know Else Enter 'n': n
+    Enter Maximum Guessed Password Length (e.g., 6 numbers or 9 characters): 6
+
+License
+-------
+
+This project is licensed under the MIT License. See the [LISENCE.txt](https://github.com/neuqs90/pdfzipcracker/blob/fd7829df3844ccdfe00f43a3f3f859116694b47f/LISENCE.txt) file for more details.
+
+Contributing
+------------
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+Support
+-------
+
+If you have any questions or issues, please open an issue in the GitHub repository.
+
+Acknowledgments
+---------------
+
+This package uses the following libraries:
+
+- [pyzipper](https://github.com/danifus/pyzipper.git)
+- [PyPDF2](https://pypi.org/project/PyPDF2/)
+
+
