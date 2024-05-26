@@ -1,0 +1,6 @@
+setup.py
+weaver-ai-tools/__init__.py
+weaver_ai_tools.egg-info/PKG-INFO
+weaver_ai_tools.egg-info/SOURCES.txt
+weaver_ai_tools.egg-info/dependency_links.txt
+weaver_ai_tools.egg-info/top_level.txt
