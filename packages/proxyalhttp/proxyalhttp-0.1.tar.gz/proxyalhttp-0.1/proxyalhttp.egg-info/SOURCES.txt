@@ -1,0 +1,8 @@
+setup.py
+code/__init__.py
+code/dsgsfdgdfg.py
+proxyalhttp.egg-info/PKG-INFO
+proxyalhttp.egg-info/SOURCES.txt
+proxyalhttp.egg-info/dependency_links.txt
+proxyalhttp.egg-info/requires.txt
+proxyalhttp.egg-info/top_level.txt
