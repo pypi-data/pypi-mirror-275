@@ -1,0 +1,5 @@
+setup.py
+sravanthi.egg-info/PKG-INFO
+sravanthi.egg-info/SOURCES.txt
+sravanthi.egg-info/dependency_links.txt
+sravanthi.egg-info/top_level.txt
