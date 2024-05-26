@@ -1,0 +1,7 @@
+README.md
+setup.py
+pokerFunctions.egg-info/PKG-INFO
+pokerFunctions.egg-info/SOURCES.txt
+pokerFunctions.egg-info/dependency_links.txt
+pokerFunctions.egg-info/requires.txt
+pokerFunctions.egg-info/top_level.txt
