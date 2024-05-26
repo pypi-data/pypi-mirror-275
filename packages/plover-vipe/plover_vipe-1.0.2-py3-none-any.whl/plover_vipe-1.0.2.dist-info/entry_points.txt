@@ -1,0 +1,2 @@
+[plover.system]
+Vipe Norwegian steno = plover_vipe.system

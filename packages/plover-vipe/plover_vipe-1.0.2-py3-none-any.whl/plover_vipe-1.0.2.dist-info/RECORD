@@ -1,0 +1,11 @@
+plover_vipe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plover_vipe/system.py,sha256=OsgOXHblrr60yxBMwjZn2EPm03xYV4DUa9qBAON-Z1s,5076
+plover_vipe/dictionaries/vipe_commands.json,sha256=7bhzCeK6QT9Q5qVvryah1any2y6Ql1g3TI1uNYLddEk,1033
+plover_vipe/dictionaries/vipe_main.json,sha256=65ky-d7ItN0jd5Ub8tmkjJsEBa5UAxAiSV7s2dGAizI,279680
+plover_vipe-1.0.2.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+plover_vipe-1.0.2.dist-info/METADATA,sha256=GU9eA2AoJ8IOc0vm-HzBJiXGhggPV246uGhvat53RWs,2082
+plover_vipe-1.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+plover_vipe-1.0.2.dist-info/entry_points.txt,sha256=l2bBqh7aU00ZTWtc4WMa0bhY5tUNUARm5Y_WmKZLTLE,58
+plover_vipe-1.0.2.dist-info/top_level.txt,sha256=Z3A0OhRoJ7lACFP88I8VEb_ZdzA8KGccxWGRypGZ1EI,12
+plover_vipe-1.0.2.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+plover_vipe-1.0.2.dist-info/RECORD,,
