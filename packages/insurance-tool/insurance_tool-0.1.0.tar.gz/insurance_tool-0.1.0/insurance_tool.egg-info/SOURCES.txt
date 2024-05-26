@@ -1,0 +1,17 @@
+setup.py
+insurance/Emblem01.py
+insurance/EmblemV01.py
+insurance/__init__.py
+insurance/auto_group_run.py
+insurance/auto_pricing_techincal_groupping.py
+insurance/cant_use_.py
+insurance/cant_use_ins.py
+insurance/fix_bug_.py
+insurance/fix_bug_ins.py
+insurance/remove_large_loss.py
+insurance/sandbox1_.py
+insurance_tool.egg-info/PKG-INFO
+insurance_tool.egg-info/SOURCES.txt
+insurance_tool.egg-info/dependency_links.txt
+insurance_tool.egg-info/requires.txt
+insurance_tool.egg-info/top_level.txt
