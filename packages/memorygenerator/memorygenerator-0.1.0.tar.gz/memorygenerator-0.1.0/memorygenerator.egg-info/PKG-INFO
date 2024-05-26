@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: memorygenerator
+Version: 0.1.0
+Summary: A tool for improving code quality by analyzing and refactoring project code.
+Home-page: https://github.com/yuna-musashino/refactortool
+Author: Yuna Suzuki
+Author-email: s2222077@stu.musashino-u.ac.jp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# MemoryGenerator
+
+MemoryGenerator is a fun tool that generates random, fictional memories to spice up conversations with friends. Choose from themes such as childhood, adventure, or dream and get a unique memory each time!
+
+## Features
+
+- Generates diverse memory patterns (childhood, adventure, dream)
+- Allows users to select the theme of the memory
+- Option to share the generated memory with friends
+
+## Installation
+
+You can install MemoryGenerator from PyPI:
+
+```bash
+pip install memorygenerator
