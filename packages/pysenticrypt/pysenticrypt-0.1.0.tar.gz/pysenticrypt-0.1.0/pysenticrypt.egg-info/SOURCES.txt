@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pysenticrypt/__init__.py
+pysenticrypt/senticrypt.py
+pysenticrypt.egg-info/PKG-INFO
+pysenticrypt.egg-info/SOURCES.txt
+pysenticrypt.egg-info/dependency_links.txt
+pysenticrypt.egg-info/requires.txt
+pysenticrypt.egg-info/top_level.txt
