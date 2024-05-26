@@ -1,0 +1,10 @@
+COPYING
+README.md
+pyspimdbg.py
+setup.py
+pyspimdbg.egg-info/PKG-INFO
+pyspimdbg.egg-info/SOURCES.txt
+pyspimdbg.egg-info/dependency_links.txt
+pyspimdbg.egg-info/entry_points.txt
+pyspimdbg.egg-info/requires.txt
+pyspimdbg.egg-info/top_level.txt
