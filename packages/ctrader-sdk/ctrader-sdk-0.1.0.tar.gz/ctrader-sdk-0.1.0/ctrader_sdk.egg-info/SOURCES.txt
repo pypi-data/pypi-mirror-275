@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ctrader_sdk/__init__.py
+ctrader_sdk/ctrader_sdk.py
+ctrader_sdk.egg-info/PKG-INFO
+ctrader_sdk.egg-info/SOURCES.txt
+ctrader_sdk.egg-info/dependency_links.txt
+ctrader_sdk.egg-info/requires.txt
+ctrader_sdk.egg-info/top_level.txt
