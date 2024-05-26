@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: vialin
+Version: 0.0.0
+Summary: A library to port c++ to python.
+Author: Schkimansky
+Author-email: <ahmadchawla1432@gmail.com>
+Keywords: c++,python,python c++,port,porter,bind,binder,binding,bind c++
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Donations
+It takes me a long time to make these libraries. If you would like to support my work, Then you can follow my patreon :)
+
+https://www.patreon.com/Schkimansky
+
+# Library
+This is a easy to use python library that allows you to port c++ libraries to python
+
+```python
+import vialin
+
+# example coming soon
+```
+
+# Installation
+```bash
+pip install vialin
+```
+
+# Documentation
+Coming soon.
