@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: paper-admin-permission-field
+Version: 0.0.1
+Summary: PermissionField implementation tailored for paper-admin
+Home-page: https://github.com/dldevinc/paper-admin-permission-field
+Author: Mihail Mishakin
+Author-email: x896321475@gmail.com
+Maintainer: Mihail Mishakin
+Maintainer-email: x896321475@gmail.com
+License: BSD license
+Platform: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Framework :: Django :: 4.2
+Classifier: Framework :: Django :: 5.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django >=3.2
+Requires-Dist: paper-admin
+
+# paper-admin-permission-field
+
+Permission field implementation tailored for paper-admin.
+
+[![PyPI](https://img.shields.io/pypi/v/paper-admin-permission-field.svg)](https://pypi.org/project/paper-admin-permission-field/)
+[![Software license](https://img.shields.io/pypi/l/paper-admin-permission-field.svg)](https://pypi.org/project/paper-admin-permission-field/)
+
+## Compatibility
+
+-   `python` >= 3.7
+-   `django` >= 3.2
+-   `paper-admin` >= `7.7.0`
+
+## Installation
+
+Install the latest release with pip:
+
+```shell
+pip install paper-admin-permission-field
+```
+
+## Usage
+
+```python
+# custom_users/admin.py
+
+from django import forms
+from django.contrib import admin
+from django.contrib.auth.admin import GroupAdmin, UserAdmin
+from django.contrib.auth.forms import UserChangeForm
+from django.contrib.auth.models import Group, Permission, User
+
+from paper_permission_field.forms import PermissionsField
+
+
+class GroupAdminForm(forms.ModelForm):
+    permissions = PermissionsField(
+        required=False,
+        queryset=Permission.objects.all()
+    )
+
+    class Meta:
+        model = Group
+        fields = forms.ALL_FIELDS
+
+
+class CustomUserChangeForm(UserChangeForm):
+    user_permissions = PermissionsField(
+        required=False,
+        queryset=Permission.objects.all()
+    )
+
+
+class CustomGroupAdmin(GroupAdmin):
+    form = GroupAdminForm
+
+
+class CustomUserAdmin(UserAdmin):
+    form = CustomUserChangeForm
+
+
+admin.site.unregister(User)
+admin.site.unregister(Group)
+admin.site.register(User, CustomUserAdmin)
+admin.site.register(Group, CustomGroupAdmin)
+```
+
+Result:
+
+![image](https://github.com/dldevinc/paper-admin-permission-field/assets/6928240/43fb89df-ef4f-4791-b22f-484baec83cf5)
