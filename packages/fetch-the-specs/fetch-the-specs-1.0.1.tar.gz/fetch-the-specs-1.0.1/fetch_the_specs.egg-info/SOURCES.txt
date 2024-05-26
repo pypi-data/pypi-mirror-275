@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+fetch_the_specs/__init__.py
+fetch_the_specs/fetch_details.py
+fetch_the_specs.egg-info/PKG-INFO
+fetch_the_specs.egg-info/SOURCES.txt
+fetch_the_specs.egg-info/dependency_links.txt
+fetch_the_specs.egg-info/entry_points.txt
+fetch_the_specs.egg-info/requires.txt
+fetch_the_specs.egg-info/top_level.txt
