@@ -1,0 +1,5 @@
+pyproject.toml
+typelets.egg-info/PKG-INFO
+typelets.egg-info/SOURCES.txt
+typelets.egg-info/dependency_links.txt
+typelets.egg-info/top_level.txt

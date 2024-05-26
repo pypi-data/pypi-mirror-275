@@ -1,0 +1,33 @@
+[project]
+name = 'typelets'
+description = 'Type hint additions for Python and Django projects.'
+authors = [
+    {name = 'Beanbag, Inc.', email = 'questions@beanbaginc.com'},
+]
+license = { text = 'MIT' }
+readme = 'README.md'
+requires-python = '>=3.8'
+version = '0.0.0'
+
+classifiers = [
+    'Development Status :: 1 - Planning',
+    'Environment :: Other Environment',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Topic :: Software Development',
+    'Topic :: Software Development :: Libraries',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+]
+
+
+[project.urls]
+homepage = 'https://github.com/beanbaginc/python-typelets'
+documentation = 'https://github.com/beanbaginc/python-typelets'
+repository = 'https://github.com/beanbaginc/python-typelets'
+
+
+[tool.setuptools.package-data]
+registries = ['py.typed']
