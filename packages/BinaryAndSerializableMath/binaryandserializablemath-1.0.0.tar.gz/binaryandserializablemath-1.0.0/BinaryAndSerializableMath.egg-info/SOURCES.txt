@@ -1,0 +1,8 @@
+README.md
+setup.py
+BinaryAndSerializableMath.egg-info/PKG-INFO
+BinaryAndSerializableMath.egg-info/SOURCES.txt
+BinaryAndSerializableMath.egg-info/dependency_links.txt
+BinaryAndSerializableMath.egg-info/top_level.txt
+binaryandserializablemath/__init__.py
+binaryandserializablemath/main.py
