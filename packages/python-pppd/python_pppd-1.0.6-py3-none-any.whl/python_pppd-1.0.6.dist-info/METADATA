@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: python-pppd
+Version: 1.0.6
+Summary: Simple library for controlling PPP connections with pppd.
+Author-email: Michael de Villiers <michael@devilears.co.za>
+Maintainer-email: Michael de Villiers <michael@devilears.co.za>
+License: MIT
+Project-URL: Homepage, https://github.com/COUR4G3/python-pppd/
+Project-URL: Source Code, https://github.com/COUR4G3/python-pppd/
+Project-URL: Issue Tracker, https://github.com/COUR4G3/python-pppd/issues/
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Networking
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
