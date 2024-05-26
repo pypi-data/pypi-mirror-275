@@ -1,0 +1,2 @@
+class ParamDict(dict):
+    pass
