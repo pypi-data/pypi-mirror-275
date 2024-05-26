@@ -1,0 +1,8 @@
+README.md
+setup.py
+rootify/__init__.py
+rootify/rootify.py
+rootify.egg-info/PKG-INFO
+rootify.egg-info/SOURCES.txt
+rootify.egg-info/dependency_links.txt
+rootify.egg-info/top_level.txt
