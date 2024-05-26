@@ -1,0 +1,26 @@
+import requests
+
+class GoogleTranslateClient:
+    def __init__(self, api_key):
+        self.api_key = api_key
+        self.url = "https://google-translate1.p.rapidapi.com/language/translate/v2"
+        self.headers = {
+            "Content-Type": "application/x-www-form-urlencoded",
+            "X-RapidAPI-Key": self.api_key,
+            "X-RapidAPI-Host": "google-translate1.p.rapidapi.com"
+        }
+    
+    def translate_text(self, text, target_language, source_language='en'):
+        data = {
+            "q": text,
+            "target": target_language,
+            "source": source_language
+        }
+        
+        response = requests.post(self.url, headers=self.headers, data=data)
+        
+        if response.status_code != 200:
+            raise Exception(f"Error: {response.status_code}, {response.text}")
+        
+        return response.json()
+
