@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: typelets
+Version: 0.0.0
+Summary: Type hint additions for Python and Django projects.
+Author-email: "Beanbag, Inc." <questions@beanbaginc.com>
+License: MIT
+Project-URL: homepage, https://github.com/beanbaginc/python-typelets
+Project-URL: documentation, https://github.com/beanbaginc/python-typelets
+Project-URL: repository, https://github.com/beanbaginc/python-typelets
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
