@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+numericalint/src/numericalint.egg-info/PKG-INFO
+numericalint/src/numericalint.egg-info/SOURCES.txt
+numericalint/src/numericalint.egg-info/dependency_links.txt
+numericalint/src/numericalint.egg-info/top_level.txt
+numericalint/src/numericalint.py
+numericalint/src/numericalint.egg-info/SOURCES.txt

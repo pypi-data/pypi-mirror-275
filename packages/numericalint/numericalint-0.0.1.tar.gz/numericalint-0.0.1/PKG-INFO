@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: numericalint
+Version: 0.0.1
+Summary: numericalint Test Package for Numerical Integration Demo
+Home-page: UNKNOWN
+Author: Arjun Jagdale
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# numericalint: A Numerical Integration Library
+
+numericalint is a Python library for numerical integration methods.
+
+## Installation
+
+```bash
+pip install numericalint
+
+
