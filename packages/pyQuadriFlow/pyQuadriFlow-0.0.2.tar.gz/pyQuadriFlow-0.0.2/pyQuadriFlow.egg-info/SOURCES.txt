@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+pyQuadriFlow/__init__.py
+pyQuadriFlow/pyQuadriFlow.py
+pyQuadriFlow.egg-info/PKG-INFO
+pyQuadriFlow.egg-info/SOURCES.txt
+pyQuadriFlow.egg-info/dependency_links.txt
+pyQuadriFlow.egg-info/top_level.txt
+pyQuadriFlow/clib/__init__.py
+pyQuadriFlow/clib/ctypes_QuadriFlow.dll
+pyQuadriFlow/clib/ctypes_QuadriFlow.so
+pyQuadriFlow/clib/load_library.py
