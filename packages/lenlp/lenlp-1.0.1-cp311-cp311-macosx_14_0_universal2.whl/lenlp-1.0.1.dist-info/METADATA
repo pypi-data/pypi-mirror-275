@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: lenlp
+Version: 1.0.1
+Home-page: https://github.com/raphaelsty/lenlp
+Download-URL: https://github.com/raphaelsty/lenlp/archive/v_01.tar.gz
+Author: Raphael Sourty
+Author-email: raphael.sourty@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Rust
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: scikit-learn >=1.5.0
+Requires-Dist: scipy >=1.13.1
+Provides-Extra: dev
+Requires-Dist: scikit-learn >=1.5.0 ; extra == 'dev'
+Requires-Dist: scipy >=1.13.1 ; extra == 'dev'
+Requires-Dist: maturin >=1.5.1 ; extra == 'dev'
+Requires-Dist: pytest-cov >=5.0.0 ; extra == 'dev'
+Requires-Dist: pytest >=7.4.4 ; extra == 'dev'
+Requires-Dist: ruff >=0.1.15 ; extra == 'dev'
+
