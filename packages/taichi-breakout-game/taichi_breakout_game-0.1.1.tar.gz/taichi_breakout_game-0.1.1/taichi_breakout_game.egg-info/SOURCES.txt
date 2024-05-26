@@ -1,0 +1,10 @@
+README.md
+setup.py
+breakout_game/__init__.py
+breakout_game/game.py
+taichi_breakout_game.egg-info/PKG-INFO
+taichi_breakout_game.egg-info/SOURCES.txt
+taichi_breakout_game.egg-info/dependency_links.txt
+taichi_breakout_game.egg-info/entry_points.txt
+taichi_breakout_game.egg-info/requires.txt
+taichi_breakout_game.egg-info/top_level.txt

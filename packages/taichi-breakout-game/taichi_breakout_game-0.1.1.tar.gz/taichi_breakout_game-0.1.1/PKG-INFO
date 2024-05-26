@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: taichi_breakout_game
+Version: 0.1.1
+Summary: A simple Breakout game implemented in Python using Pygame
+Home-page: https:/Fujiki-Taichi/github.com//breakout_game
+Author: Taichi Fujiki
+Author-email: s2222071@stu.musashino-u.ac.jp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Breakout Game
+
+A simple Breakout game implemented in Python using Pygame.
