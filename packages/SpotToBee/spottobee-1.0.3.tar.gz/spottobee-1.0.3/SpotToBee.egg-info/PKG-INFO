@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: SpotToBee
+Version: 1.0.3
+Summary: Convert a CSV or Spotify playlist URL to a MusicBee smart playlist
+Home-page: https://github.com/Brendan00x0/SpotToBee
+Author: Brendan Stupik
+Author-email: brndst@protonmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: spotipy>=2.0.0
+Requires-Dist: pandas>=1.0.0
+Requires-Dist: configparser>=5.0.0
+
+# SpotToBee
+SpotToBee is a command-line tool for converting Spotify and other CSV playlists to an .xautopf format compatible with MusicBee. Fetching data from Spotify requires SpotifyClient Credentials from https://developer.spotify.com/dashboard. The tool can be used without credentials alongside https://exportify.net/. The tool can also be used to export a basic .csv of a Spotify playlist.
+
+## Installation
+
+    pip install SpotToBee
+
+Running SpotToBee will automatically create a config file in its run directory. This can be manually reset by passing the --reconfigure argument.
+## Usage/Examples
+
+    SpotToBee path/to/playlist.csv
+
+    SpotToBee https://open.spotify.com/playlist/37i9dQZF1DX9wa6XirBPv8
+
+    SpotToBee path/to/playlist.csv --config path/to/config.ini
+
+    SpotToBee --reconfigure
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
