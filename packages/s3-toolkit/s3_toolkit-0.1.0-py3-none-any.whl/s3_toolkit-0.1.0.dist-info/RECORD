@@ -1,0 +1,9 @@
+s3_tool/__init__.py,sha256=v1Y_XlVtH4vReT03E6UPA2_QWDkJX3Xbe7Oau77UOTM,61
+s3_tool/cant_use_s3t.py,sha256=-xQY8c0eKFUbGlt0BtV_3y0QtpfIW9Gx8mZQpVGTde8,262
+s3_tool/fix_bug_s3t.py,sha256=-xQY8c0eKFUbGlt0BtV_3y0QtpfIW9Gx8mZQpVGTde8,262
+s3_tool/s3_related.py,sha256=jLqm4PP1aqIJtPnC_nNRwimsKzvjFZ5u11caTkhgP3k,10533
+s3_tool/sandbox1_s3t.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3_toolkit-0.1.0.dist-info/METADATA,sha256=hy_osHNAE9HanzFYKRG1i8U2Mf9A1nZZ3xY07rWll9M,156
+s3_toolkit-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+s3_toolkit-0.1.0.dist-info/top_level.txt,sha256=VgbQJ6O91ATvtkjOswWn-o3NdBmc2m5Dd1XBQvsLsBQ,8
+s3_toolkit-0.1.0.dist-info/RECORD,,
