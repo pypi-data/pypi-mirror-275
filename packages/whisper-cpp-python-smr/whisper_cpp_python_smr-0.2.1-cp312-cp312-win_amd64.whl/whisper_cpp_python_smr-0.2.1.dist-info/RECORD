@@ -1,0 +1,14 @@
+bin/ggml-metal.metal,sha256=nQQld2hwo5ri6fCOVo1rmCyu8-Izy_gHaAgJCVVANsM,255982
+bin/whisper.dll,sha256=mFJE0lnSsdHWlCCybd2AzJ7V2n_LcYYB5Emvi3zedFw,934400
+include/ggml.h,sha256=HGNI6oL39k1zl08qq9WiEPLWngDQZhW44NVotu4KP_Q,92045
+include/whisper.h,sha256=ZFF7Ic0oCWyQl8pRQpHpEr48zGcI4LBhIDwNEJUnalw,32573
+lib/static/whisper.lib,sha256=UW3i8iKT-ZnOBdcoaczIY95PSxHu0DQJz-cLstnSBj0,125400
+whisper_cpp/__init__.py,sha256=YJf-kWdos9EKIIJvsEdQs8RHHBRzdo5shqOxcLpq7pg,65
+whisper_cpp/ggml-metal.metal,sha256=nQQld2hwo5ri6fCOVo1rmCyu8-Izy_gHaAgJCVVANsM,255982
+whisper_cpp/whisper.dll,sha256=mFJE0lnSsdHWlCCybd2AzJ7V2n_LcYYB5Emvi3zedFw,934400
+whisper_cpp/whisper.lib,sha256=UW3i8iKT-ZnOBdcoaczIY95PSxHu0DQJz-cLstnSBj0,125400
+whisper_cpp/whisper.py,sha256=t4dS03736nRaYixbvi3lj1gmDTrqMHlLqR6KkwGp238,7623
+whisper_cpp_python_smr-0.2.1.dist-info/METADATA,sha256=w-OKi8Ot6e1HIm3Jc5dhX1jilppZ3inEI4KjOwTs6X8,207
+whisper_cpp_python_smr-0.2.1.dist-info/WHEEL,sha256=SrdZLT9w2pRDiaUMTknRxGSQ3_1Qw7qMgZdZTYocOhw,105
+whisper_cpp_python_smr-0.2.1.dist-info/licenses/LICENSE,sha256=Pd-b5cKP4n2tFDpdx27qJSIq0d1ok0oEcGTlbtL6QMU,11560
+whisper_cpp_python_smr-0.2.1.dist-info/RECORD,,
