@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: cappa_sqlplag
+Version: 0.2
+Summary: SQL-детектор плагиата, предназначенный для использования в комплексе автоматической проверки программ CAPPA
+Home-page: https://github.com/vrilad/cappa_sqlplag
+Download-URL: https://github.com/vrilad/cappa_sqlplag/releases
+Author: vrilad
+Keywords: cappa,sql,plagiarism
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# CAPPA SQLPlag
+SQL-РґРµС‚РµРєС‚РѕСЂ РїР»Р°РіРёР°С‚Р°, РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅРЅС‹Р№ РґР»СЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РІ РєРѕРјРїР»РµРєСЃРµ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРѕР№ РїСЂРѕРІРµСЂРєРё РїСЂРѕРіСЂР°РјРј CAPPA.
+
+### РЈСЃС‚Р°РЅРѕРІРєР°
+ 
+```shell
+pip install cappa_sqlplag
+```
+
+[РџСЂРёРјРµСЂ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ](docs/usage.md)
+
+### РљРѕРЅС‚Р°РєС‚С‹
+РћС„РёС†РёР°Р»СЊРЅС‹Р№ СЃР°Р№С‚: [cappa.csu.ru](http://cappa.csu.ru/)   
+
+РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ СЂР°Р·СЂР°Р±РѕС‚С‡РёРє: РџРµСЂРµРїРµР»РµРЅРєРѕ РђРЅР°СЃС‚Р°СЃРёСЏ
+
+РџРѕ РІРѕРїСЂРѕСЃР°Рј СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІР°: mig19@mail.ru
+
+РџСЂРё РїРѕРґРґРµСЂР¶РєРµ:
+ * [РњР°С‚РµРјР°С‚РёС‡РµСЃРєРёР№ С„Р°РєСѓР»СЊС‚РµС‚ Р§РµР»Р“РЈ](http://math.csu.ru)
+
+### Р›РёС†РµРЅР·РёСЏ
+Р Р°СЃРїСЂРѕСЃС‚СЂР°РЅСЏРµС‚СЃСЏ РїРѕРґ Р»РёС†РµРЅР·РёРµР№ [MIT](LICENSE).
