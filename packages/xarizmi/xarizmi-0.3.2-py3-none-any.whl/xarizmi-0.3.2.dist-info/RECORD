@@ -1,0 +1,14 @@
+xarizmi/__init__.py,sha256=vNiWJ14r_cw5t_7UDqDQIVZvladKFGyHH2avsLpN7Vg,22
+xarizmi/candlestick.py,sha256=OYQGyuxHlb2rdqLSG0xyN9kPHJVCcrkvDk98-I7b4i0,933
+xarizmi/enums.py,sha256=esxnghagYaE84TRPjMQdMt4-uu7OpFtQTAt8IYdI7Dg,1339
+xarizmi/mctools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xarizmi/mctools/candlestick.py,sha256=ozA-u29KZR2TawjdvkionN7FyP7hCIm8RQ7vB1LH098,412
+xarizmi/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xarizmi/models/actors.py,sha256=AleF3RzroEsp1AO4gVZbu-L-8_jRx2Stt5bRlZ1zT04,1308
+xarizmi/models/currency.py,sha256=mTbZyqTOK7rGoQzBcX9PzrZawVo2tfeM8IcIFOMA7Lw,132
+xarizmi/models/symbol.py,sha256=ortmu2qXo4jCSqdKa4FJAP_6agJYEH6eLB_xUq0Ck4I,1821
+xarizmi-0.3.2.dist-info/LICENSE,sha256=npLL15_BGQIfenkT5dwxdNtxGaLcU47llk1TDQBSsPA,11345
+xarizmi-0.3.2.dist-info/METADATA,sha256=00PlJ0-HJA-rzuJARLfXOxBa_ar2y8ErCqbQJmpT5Lo,760
+xarizmi-0.3.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+xarizmi-0.3.2.dist-info/top_level.txt,sha256=PHTZF6A7y5T3HQe0CBke9EuA32i56IJYDF5QJecjEUo,8
+xarizmi-0.3.2.dist-info/RECORD,,
