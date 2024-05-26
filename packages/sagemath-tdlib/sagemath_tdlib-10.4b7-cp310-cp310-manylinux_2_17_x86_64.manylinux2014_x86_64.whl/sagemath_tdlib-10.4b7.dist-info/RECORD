@@ -1,0 +1,8 @@
+sagemath_tdlib-10.4b7.dist-info/WHEEL,sha256=CzQQWV-lNyM92gr3iaBk8dvO35YDHRxgzkZ-dxumUIM,152
+sagemath_tdlib-10.4b7.dist-info/top_level.txt,sha256=hibFyzQHiLOMK68qL1OWsNKaXOmSXqZjeLTBem6Yy7I,5
+sagemath_tdlib-10.4b7.dist-info/RECORD,,
+sagemath_tdlib-10.4b7.dist-info/METADATA,sha256=Z6AuFiQsw2UdTziy2OBqQi25AQvfhj-tCUG2hcjQDwU,2370
+sage/graphs/graph_decompositions/tdlib.cpython-310-x86_64-linux-gnu.so,sha256=7p1Y7MsmC8rbZazbKMo9W-YgNz6FvBX-RdCIfLBqrpU,5095976
+sage/graphs/graph_decompositions/tdlib.pyx,sha256=vz-BOU5tBfvs1rhrths4_ByptE7qxjkXuhcN5_7Zi0w,5322
+sage/cython_debug/interpreter,sha256=GFckcZoJhP4WGBAd6J1ax2oCcnRuESPCL59kTdYvn90,34
+sage/cython_debug/cython_debug_info_sage.graphs.graph_decompositions.tdlib,sha256=OY7CTdnFvdnNNVbBnSP357YNPJzUo3G9sEqrX4fZYgo,32374
