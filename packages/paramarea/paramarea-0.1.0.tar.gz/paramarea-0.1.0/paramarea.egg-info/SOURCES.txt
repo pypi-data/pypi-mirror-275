@@ -1,0 +1,9 @@
+README.md
+setup.py
+paramarea/__init__.py
+paramarea/myfunc.py
+paramarea.egg-info/PKG-INFO
+paramarea.egg-info/SOURCES.txt
+paramarea.egg-info/dependency_links.txt
+paramarea.egg-info/top_level.txt
+tests/testmyfunc.py
