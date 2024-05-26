@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ahmedHossam
+Version: 0.0.6
+Summary: SABA7
+Home-page: 
+Author: Ahmed Hossam
+Author-email: 
+License: MIT
+Keywords: ahmed
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+use saba7, that's it
+
+Change Log
+==========
+
+0.0.1 (19/04/2020)
+-------------------
+- First Release

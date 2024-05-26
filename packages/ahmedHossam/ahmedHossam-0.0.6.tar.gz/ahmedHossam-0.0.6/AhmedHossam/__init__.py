@@ -1,0 +1,1 @@
+from .main import saba7, sheel_tashkeel
