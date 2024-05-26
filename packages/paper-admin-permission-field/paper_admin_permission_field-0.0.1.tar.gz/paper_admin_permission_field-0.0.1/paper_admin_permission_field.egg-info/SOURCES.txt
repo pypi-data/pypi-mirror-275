@@ -1,0 +1,15 @@
+CHANGELOG.md
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+paper_admin_permission_field.egg-info/PKG-INFO
+paper_admin_permission_field.egg-info/SOURCES.txt
+paper_admin_permission_field.egg-info/dependency_links.txt
+paper_admin_permission_field.egg-info/not-zip-safe
+paper_admin_permission_field.egg-info/requires.txt
+paper_admin_permission_field.egg-info/top_level.txt
+paper_permission_field/__init__.py
+paper_permission_field/forms.py

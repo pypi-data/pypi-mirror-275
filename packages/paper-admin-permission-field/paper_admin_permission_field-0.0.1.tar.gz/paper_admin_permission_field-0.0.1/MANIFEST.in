@@ -1,0 +1,7 @@
+include LICENSE
+include *.md
+
+graft paper_permission_field
+global-exclude .git*
+global-exclude __pycache__
+global-exclude *.py[co]
