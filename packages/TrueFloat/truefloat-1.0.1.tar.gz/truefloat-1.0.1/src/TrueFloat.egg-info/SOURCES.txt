@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/TrueFloat/__init__.py
+src/TrueFloat.egg-info/PKG-INFO
+src/TrueFloat.egg-info/SOURCES.txt
+src/TrueFloat.egg-info/dependency_links.txt
+src/TrueFloat.egg-info/top_level.txt
