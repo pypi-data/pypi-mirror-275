@@ -1,0 +1,11 @@
+lyriks/__init__.py,sha256=tVB_FpCl61vhMDutPUBQ6N4vLRax8YHb1twnRKJMQ1c,1450
+lyriks/cli.py,sha256=OMchkspQjTkRyzjxc2BehdEgyRKN6dP6h7kZUvnOk8c,1476
+lyriks/genie_client.py,sha256=XwHR_ZJzYokI0V_oQbIoCpHLu6Ccu1gmOWXrYZXh1pQ,2940
+lyriks/lyrics.py,sha256=QE8a0doFDWoG6NL28YkMr4leXAJYXOFEcp0G-fswmoM,1242
+lyriks/lyrics_fetcher.py,sha256=Na2RXS21Rnf5yfUxl8QG-irvrqlSPVIICGOh_yPvXlc,8073
+lyriks/mb_client.py,sha256=bWsclgArb4_KphosxZWry-p5eLTNmuhIGZKiu_I-zWo,3114
+lyriks-0.2.4.dist-info/METADATA,sha256=Q9Q0v615HV4fA5axyVJoQdTNaeEhI0KG-PIGpQCVepM,1960
+lyriks-0.2.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+lyriks-0.2.4.dist-info/entry_points.txt,sha256=MI1dkKEFNvALaLQmc7YLsb9p4lMTRd-AnRHy7edCJgY,39
+lyriks-0.2.4.dist-info/top_level.txt,sha256=m8ORB8FdaEoxXzxIHx-bSOjeaeeUtwDVSZiSxs8lzok,7
+lyriks-0.2.4.dist-info/RECORD,,
