@@ -1,0 +1,3 @@
+[console_scripts]
+fetch-the-specs = fetch_the_specs.sysinfo:main
+
