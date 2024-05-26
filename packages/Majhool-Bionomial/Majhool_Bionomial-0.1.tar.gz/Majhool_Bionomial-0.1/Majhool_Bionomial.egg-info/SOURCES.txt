@@ -1,0 +1,10 @@
+setup.py
+Majhool_Bionomial.egg-info/PKG-INFO
+Majhool_Bionomial.egg-info/SOURCES.txt
+Majhool_Bionomial.egg-info/dependency_links.txt
+Majhool_Bionomial.egg-info/not-zip-safe
+Majhool_Bionomial.egg-info/top_level.txt
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
