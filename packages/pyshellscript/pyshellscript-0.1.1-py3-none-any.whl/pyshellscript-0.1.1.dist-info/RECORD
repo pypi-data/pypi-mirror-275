@@ -1,0 +1,8 @@
+pyshellscript/__init__.py,sha256=0J9otc4MK-azpv7RINgnR687AXW2QoD0tRHUy3ZQj9c,122
+pyshellscript/local_command_executor.py,sha256=kAwOj8SNFtSWEbPQAQ1r-upvHcpKxUGuot5Nv95ZSGA,1692
+pyshellscript/remote_command_executor.py,sha256=GD3URO0fALWIfdu9uYdrvKpMsbViV07RO89P9RtoOfU,6998
+pyshellscript/utils.py,sha256=_Qy_uTmN29va4p2sgiNKNO7xsKRkCIBKYnoQGRUgYJE,2306
+pyshellscript-0.1.1.dist-info/LICENSE,sha256=DUmGLSgz5t1Xf4Vn6JNGRAxLSLp3ZWhvpPHf-LbSBGI,1070
+pyshellscript-0.1.1.dist-info/METADATA,sha256=8h4nQs0JfSgjDysrDx2M8DpaDwKxo5j8-tIunhrMXS0,1438
+pyshellscript-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pyshellscript-0.1.1.dist-info/RECORD,,
