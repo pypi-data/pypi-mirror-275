@@ -1,0 +1,27 @@
+import CI_CloudConnector_Logic
+from distutils.core import setup
+from setuptools import setup, find_packages
+
+def getVersion():
+    ans = ""
+    try:
+        ans = CI_CloudConnector_Logic.getLocalVersion()
+    except Exception as inst:
+        print("Error getting version") + str(inst)
+
+    return ans
+
+
+
+setup(
+    name="CI_CloudConnector",
+    version="0.72",
+    packages=find_packages(),
+    py_modules=["CI_CloudConnector_Logic", "CI_CloudConnector_Main"],
+    description="IOT application that collects data from PLC (ModBus or AnB Ethernet/IP) and sends it to the cloud using HTTPS",
+    author="Yochai",
+    author_email="yochaim@contel.co.il",
+    install_requires=["pymodbus", "cpppo", "tzlocal"],
+    url="https://trunovate.com/",
+    long_description=open("README.txt").read()  # Make sure you have README.txt in the same directory
+)
