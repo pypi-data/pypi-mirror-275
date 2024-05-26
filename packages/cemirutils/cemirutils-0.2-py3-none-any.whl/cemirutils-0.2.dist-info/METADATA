@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: cemirutils
+Version: 0.2
+Summary: Basit veri işleme yardımcıları
+Home-page: https://github.com/cememir/cemirutils
+Author: Cem Emir / Muslu Yüksektepe
+Author-email: musluyuksektepe@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CemirUtils
+
+CemirUtils, basit veri iÅŸleme iÅŸlevlerini iÃ§eren bir Python yardÄ±mcÄ± kÃ¼tÃ¼phanesidir.
+
+## Kurulum
+
+Ã–ncelikle CemirUtils kÃ¼tÃ¼phanesini Python projesine eklemek iÃ§in aÅŸaÄŸÄ±daki adÄ±mlarÄ± izleyin:
+
+```bash
+pip install cemirutils
+````
+
+
+## KullanÄ±m
+
+KÃ¼tÃ¼phane, farklÄ± veri iÅŸleme iÅŸlevlerini saÄŸlayan `CemirUtils` sÄ±nÄ±fÄ±nÄ± iÃ§erir. Ã–rneÄŸin:
+
+
+```python
+from cemirutils import CemirUtils
+
+# Mevcut tÃ¼m metodlarÄ±n isimlerini yazdÄ±r
+cemir_utils = CemirUtils(None)
+print(cemir_utils.getmethods())
+
+# Veri listesindeki her bir elemanÄ± verilen skaler deÄŸer ile Ã§arpar.
+ceml = CemirUtils([1, 2, 3])
+ceml.multiply_by_scalar(2)  # Output: [2, 4, 6]
+
+
+ceml = CemirUtils([1, 2, 3])
+# Veri listesindeki her bir elemanÄ± verilen skaler deÄŸer ile Ã§arpar
+result = ceml.multiply_by_scalar(2)
+print(result)  # Output: [2, 4, 6]
+
+
+ceml = CemirUtils([1, 2, 3])
+# Veri listesindeki en bÃ¼yÃ¼k deÄŸeri dÃ¶ner.
+ceml.get_max_value()  # Output: 3
+
+
+ceml = CemirUtils([1, 2, 2, 3])
+# Verilen deÄŸerin veri listesinde kaÃ§ kez geÃ§tiÄŸini sayar.
+result = ceml.get_frequency(2)
+print(result)  # Output: 2
+
+
+cemd = CemirUtils({'a': 1, 'b': 2, 'c': 3})
+# SÃ¶zlÃ¼kteki veya sÃ¶zlÃ¼k listesindeki anahtarlarÄ± dÃ¶ndÃ¼rÃ¼r.
+cemd.get_keys()  # Output: ['a', 'b', 'c']
+
+
+ceml = CemirUtils([[1, 2], [3, 4], [5]])
+# Ã‡ok katmanlÄ± listeyi tek katmana indirger.
+ceml.flatten_list()  # Output: [1, 2, 3, 4, 5]
+
+````
