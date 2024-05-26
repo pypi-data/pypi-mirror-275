@@ -1,0 +1,10 @@
+.gitignore
+LICENSE
+README.md
+pppd.py
+pyproject.toml
+.github/FUNDING.yml
+python_pppd.egg-info/PKG-INFO
+python_pppd.egg-info/SOURCES.txt
+python_pppd.egg-info/dependency_links.txt
+python_pppd.egg-info/top_level.txt
