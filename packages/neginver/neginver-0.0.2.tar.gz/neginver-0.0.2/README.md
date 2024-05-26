@@ -1,0 +1,129 @@
+# neginver
+
+**Read this in other languages: [中文](README_zh-CH.md).**
+
+A Python project for automatic Negative Film inversion (color negative film and B+W film).
+
+The trend of film photography has been popular for many days. Now some people have started trying to photograph films themselves. However, for most artists, removing the color cast becomes a "problem" or a "trouble." Although [Negative Lab Pro](https://www.negativelabpro.com) is indeed convenient, its price of $99.00 is prohibitive for poor people like me, and I am not too fond of its overly flattering color correction approach. Therefore, I developed this simple negative film color cast removal program, hoping to help everyone!
+
+The project can inverse pictures from this ⬇️
+![raw color negative film](pic/image_info_raw.png "Raw color negative film")
+![raw bw negative film](pic/bw_info_raw.png "Raw bw negative film")
+To this ⬇️
+![inversed color negative film](pic/image_info_inver.png "Inversed color negative film")
+![inversed color negative film](pic/bw_info_inver.png "Inversed bw negative film")
+E-mail: <flemyng1999@outlook.com>
+
+## Installation
+
+You can install it using pip:
+
+```sh
+pip install neginver
+```
+
+I'm quite lazy, so there's no conda version yet.
+
+## Usage
+
+This project currently does not have a GUI, so it still requires users to have some Python basics.
+
+Read Tif files. This step reads the Tif files as numpy arrays based on [tifffile](https://pypi.org/project/tifffile/):
+
+```python
+import tifffile as tiff
+
+img = tiff.imread(tif_path)
+```
+
+Since I am accustomed to the [band, height, width] format, and tiff.imread() reads it as [height, width, band] format, a simple numpy operation is required:
+
+```python
+import numpy as np
+
+img = np.moveaxis(img, 0, -1)
+```
+
+Then import this module:
+
+```python
+import neginver as ni
+
+img_inversed = ni.negative_inverse(img_raw, film_type='color', mode='default')
+```
+
+Then save the img_inversed array as a lossless Tif file:
+
+```python
+img_final = np.moveaxis(img_inversed, 0, -1)
+tiff.imwrite('img.tif', img_final)
+```
+
+This is the process for one image. You can use loops for batch processing. Based on tests on my M2 Pro MacBook Pro, processing a 12-megapixel image takes only 2.5 seconds:
+
+```python
+import os
+from pathlib import Path
+from datetime import datetime
+
+import tifffile as tiff
+import numpy as np
+import neginver as ni
+
+# Directory path
+data_dir = Path('/Users/flemyng/Desktop/Phocus/2024_05_24')
+save_dir = Path('/Users/flemyng/Desktop/Film')
+
+# Get all *.tif files in the directory
+tif_files = list(data_dir.glob('*.tif'))
+
+# Resort the list of files
+tif_files = sorted(tif_files)
+
+# Get now time
+current_date = datetime.now()
+
+# Change date to YYYY_MM_DD
+folder_name = current_date.strftime('%Y_%m_%d')
+
+# Initialize a new folder
+os.makedirs(save_dir / folder_name, exist_ok=True)
+
+for tif_path in tqdm(tif_files):
+    img_raw = np.moveaxis(tiff.imread(tif_path), -1, 0)
+    img_inversed = ni.negative_inverse(img_raw, film_type='color', mode='default')
+
+    img = np.moveaxis(img_inversed, 0, -1)
+
+    tiff.imwrite(
+        save_dir / folder_name / f'{tif_path.stem}.tif',
+        img
+    )
+```
+
+Finally, I recommend making some simple edits to the **Tone Curve** in Lightroom according to your own aesthetic preferences.
+
+## negative_inverse()
+
+The negative_inverse() function is the core function of this module. The parameters of the negative_inverse() function and how to use them are as follows:
+
+### Input Parameters
+
+```python
+img: np.ndarray,
+film_type: str, # 'color', 'bw'
+mode: str,
+rates: tuple[float],
+percentile: float,
+crop_percentage: float,
+```
+
+### Parameter Descriptions
+
+**img**: A numpy array of shape **[3, height, width]** containing the original image information. The array dtype only supports **uint8** and **uint16**, and uint16 is more than enough. Float is not supported because negatives are quite troublesome;
+
+**film_type**: The type of film. If it's color film, choose 'color'; for black and white film, choose 'bw'. 'Color' can also be used for black and white film;
+
+**mode**: The color correction mode. There are three choices: 'auto', 'default', 'manual'. The default is 'default'; 'auto' generally tends to green and blue, so you need to adjust the curve yourself a bit (simply lower the center a bit); 'manual' is not recommended, this is what I use myself.
+
+**crop_percentage**: The proportion of the black border around the film (from 0 to 1). For example, 0.05 means ignoring information in the outermost 5% range of the image.

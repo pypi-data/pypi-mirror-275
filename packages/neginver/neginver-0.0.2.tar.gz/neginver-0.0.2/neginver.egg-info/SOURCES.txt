@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+neginver/__init__.py
+neginver/image_info.py
+neginver/negative_inversion.py
+neginver.egg-info/PKG-INFO
+neginver.egg-info/SOURCES.txt
+neginver.egg-info/dependency_links.txt
+neginver.egg-info/requires.txt
+neginver.egg-info/top_level.txt
