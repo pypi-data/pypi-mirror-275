@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: sdmxschemas
+Version: 0.1.0
+Summary: SDMX schemas for Python
+Home-page: https://github.com/Meaningful-Data/sdmx-schemas
+License: Apache-2.0
+Keywords: sdmx
+Author: Francisco Javier Hernandez del Caño
+Author-email: javier.hernandez@meaningfuldata.eu
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Typing :: Typed
+Project-URL: Repository, https://github.com/Meaningful-Data/sdmx-schemas
+Description-Content-Type: text/markdown
+
+# SDMX Schemas
+
+This repository contains the SDMX schemas for the SDMX-JSON and SDMX-ML formats. 
+The schemas are provided in the form of JSON Schema files and XSD files.
+
+Included are the following schemas:
+
+- SDMX-JSON 1.0 Schema
+- SDMX-JSON 2.0 Schema
+- SDMX-ML 1.0 Schema
+- SDMX-ML 2.1 Schema
+- SDMX-ML 3.0 Schema
+
