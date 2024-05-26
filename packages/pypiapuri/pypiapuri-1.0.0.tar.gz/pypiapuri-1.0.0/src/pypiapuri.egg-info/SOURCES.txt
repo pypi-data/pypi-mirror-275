@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/pypiapuri.py
+src/pypiapuri.egg-info/PKG-INFO
+src/pypiapuri.egg-info/SOURCES.txt
+src/pypiapuri.egg-info/dependency_links.txt
+src/pypiapuri.egg-info/top_level.txt
