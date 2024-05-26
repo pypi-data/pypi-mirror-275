@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: django-adx
+Version: 1.0.0
+Summary: Generate cube based on django ORM
+Home-page: https://github.com/delcroip/django-adx
+Author: Patrick Delcroix
+Author-email: patrick.delcroix@swisstph.ch
+License: GNU AGPL v3
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+License-File: LICENSE.md
+Requires-Dist: django
+Requires-Dist: dhis2.py
+Requires-Dist: pydantic
+Requires-Dist: dict2obj
+Requires-Dist: isodate
+Requires-Dist: python-dateutil
+Requires-Dist: numpy
+
