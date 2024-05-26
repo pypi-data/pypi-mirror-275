@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: TextToVector
+Version: 0.1.1
+Summary: A package to convert text into embedding vectors using Hugging Face models.
+Author: Eugene Evstafev
+Author-email: ee345@cam.ac.uk
+Requires-Python: >=3.6
+License-File: LICENSE
