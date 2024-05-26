@@ -1,0 +1,7 @@
+haskellian
+moveread-core
+moveread-errors
+moveread-annotations
+
+[local]
+moveread-local
