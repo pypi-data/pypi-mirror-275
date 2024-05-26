@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+techtribe_addressbook.egg-info/PKG-INFO
+techtribe_addressbook.egg-info/SOURCES.txt
+techtribe_addressbook.egg-info/dependency_links.txt
+techtribe_addressbook.egg-info/entry_points.txt
+techtribe_addressbook.egg-info/requires.txt
+techtribe_addressbook.egg-info/top_level.txt
