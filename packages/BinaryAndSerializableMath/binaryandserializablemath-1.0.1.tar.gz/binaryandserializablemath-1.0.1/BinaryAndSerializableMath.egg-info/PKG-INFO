@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: BinaryAndSerializableMath
+Version: 1.0.1
+Description-Content-Type: text/markdown
+
+# @COPYRIGHT 2024 By Kyfstore
+
+# How To Use
+
+This is the tutorial on how to use BinaryAndSerializableMath package for python. Like in the name, this package is a simple math package but also includes a Binary and Serializable class that allows you to convert integers, and strings to and from binary as well as convert binary to and from a custom serializable alphabet that can only use the package to crack. Note: Serializable class only supports lowercase letters. Any fancy chars, numbers, or punctuation will break it such as 78, {}, [], ., or !. This package goes great along with RedVert which is a package I also made as well! RedVert is used to create files with custom extensions so you can create a very secure file will a lowercase-letter only password such as cookiesaregreat by first converting them binary and them the custom serializable alphabet and them back again. I will teach you the very basics of it.
+
+# Python Use
+
+To use this package in python, you first need to know the main functions which are:
+
+1. add
+2. sub
+3. mul
+4. div
+5. power
+6. Binary.binary
+7. Binary.debinary
+8. Serializable.serialize
+9. Serializable.deserialize
+
+The first 5 are simple ones for addition, subtraction, multiplication, division, and powers. The last 4 are the actual fun, main functions. Binary.binary can convert a int (integer) or str (string) into a binary representation. One use could be:
+```
+from binaryandserializeablemath import *
+
+pic = Binary.binary("Python Is Cool")
+```
+This short script will return the binary representation of, "Python Is Cool" into a variable called pic (short for Python Is Cool). Also, with this same idea, you can convert from binary. So it would look something like:
+```
+from binaryandserializeablemath import *
+
+picBinary = Binary.binary("Python Is Cool")
+picDebinary = Binary.debinary(picBinary)
+print(picDebinary)
+```
+This script will store a variable called picBinary for storing the binary of Python Is Cool and the variable picDebinary will store the variable of converting the binary back into a string and later printing the output which should be:
+```
+Python Is Cool
+```
+Next, is the Serializable class. First is the Serializable.serialize function. To use it, you need two arguments, the input, either a string or integer, and the type of serialization you want to do, either use, "t" or "n". N for numbers and T for text. An example of both are below:
+```
+from binaryandserializeablemath import *
+
+picSer = Serializable.serialize("python is cool", "t")
+```
+```
+from binaryandserializeablemath import *
+
+numSer = Serializable.serialize(190, "n")
+```
+The last function is Serializable.deserialize which by the name, you should now it will deserialize a previously serialized variable. And once again, it requires two arguments, the input and type of serialization. Below is once again two examples:
+```
+from binaryandserializeablemath import *
+
+picSer = Serializable.serialize("python is cool", "t")
+picDeSer = Serializable.deserialize(picSer, "t")
+print(picDeSer)
+```
+```
+from binaryandserializeablemath import *
+
+numSer = Serializable.serialize(190, "n")
+numDeSer = Serializable.deserialize(numSer, "n")
+print(numDeSer)
+```
+That was the current basics of the basm (short for binaryandserializablemath). That's it, Bye!
