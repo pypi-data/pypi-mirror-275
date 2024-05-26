@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+pipackager/__init__.py
+pipackager/cli.py
+pipackager.egg-info/PKG-INFO
+pipackager.egg-info/SOURCES.txt
+pipackager.egg-info/dependency_links.txt
+pipackager.egg-info/entry_points.txt
+pipackager.egg-info/requires.txt
+pipackager.egg-info/top_level.txt
+tests/__init__.py
+tests/test_pipackager.py
