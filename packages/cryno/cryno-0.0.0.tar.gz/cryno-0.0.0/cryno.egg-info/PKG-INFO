@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: cryno
+Version: 0.0.0
+Summary: A python image processing library
+Author: Schkimansky
+Author-email: <ahmadchawla1432@gmail.com>
+Keywords: python,image,processing,data,image data,image processing,image processor,image manipulation,editor,image editor
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Donations
+It takes me a long time to make these libraries. If you would like to support my work, Then you can follow my patreon :)
+
+https://www.patreon.com/Schkimansky
+
+# Library
+This is a powerful python image manipulation library.
+
+```python
+import cryno
+
+# example comin soon
+```
+
+# Installation
+```bash
+pip install cryno
+```
+
+# Documentation
+Coming soon. not finished yet and is in planning stage
