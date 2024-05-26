@@ -1,0 +1,2 @@
+[console_scripts]
+memory-generator = memorygenerator.__main__:main
