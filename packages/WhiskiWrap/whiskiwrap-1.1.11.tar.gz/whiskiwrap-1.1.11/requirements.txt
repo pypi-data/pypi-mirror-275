@@ -1,0 +1,12 @@
+# Requirements
+pandas
+MediaInfo
+future
+tables >= 3.5.1
+tifffile
+imagecodecs
+statsmodels
+ffmpeg-python >= 0.2.0
+whisk-janelia[ffmpeg] #@ git+https://github.com/vncntprvst/whisk.git
+
+# Usage: pip install -r requirements.txt
