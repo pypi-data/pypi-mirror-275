@@ -1,0 +1,10 @@
+numpy
+pandas
+phik
+matplotlib
+scikit-learn
+catboost
+joblib
+wordcloud
+xgboost
+bertopic
