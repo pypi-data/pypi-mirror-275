@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: moveread-sdk
+Version: 0.1.3
+Summary: Python SDK for the Moveread Core
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: haskellian
+Requires-Dist: moveread-core
+Requires-Dist: moveread-errors
+Requires-Dist: moveread-annotations
+Provides-Extra: local
+Requires-Dist: moveread-local ; extra == 'local'
+
+# Moveread SDK
+
+> Python SDK for the Moveread Core
+
+## Usage
+
+- Local API (install with `pip install moveread-sdk[local]`)
+
+```python
+from moveread.sdk import MovereadAPI
+
+api = MovereadAPI.at('path/to/data')
+await api.games.create('new-game', [[b'img1'], [b'img2']])
+
+await api.images.annotate(...)
+```
+
+- Any API
+
+```python
+from moveread.core import CoreAPI
+from moveread.sdk import MovereadAPI
+
+class CustomAPI(CoreAPI):
+  ...
+
+api = MovereadAPI(CustomAPI())
+```
