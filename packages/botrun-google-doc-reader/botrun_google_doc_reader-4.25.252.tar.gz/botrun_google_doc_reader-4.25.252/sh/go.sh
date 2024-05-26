@@ -1,0 +1,2 @@
+source venv/bin/activate
+python botrun_google_docs_reader.py
