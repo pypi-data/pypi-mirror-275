@@ -1,0 +1,268 @@
+import abc
+import asyncio
+import os
+import traceback
+from typing import Union
+
+from aio_rabbitmq import RabbitMQConnection, RabbitMQSettings
+from tg_logger import ManagerLogger, ResponsibleLogger
+
+from .client_manager import TelethonClientManager
+from .settings import TG_BOT_MODEL
+from .telethon import PatchedTelegramClient
+from .utils import AsyncList, ShuttingDown, TGBotAbstractModel
+from .voices import VoiceTranscription
+
+
+class TGBotManager:
+    client_class: TelethonClientManager
+    responsible: bool
+    receive_updates: bool
+    timeout: int = 2
+    try_limit: int = 5
+    logger: ManagerLogger = ManagerLogger(TG_BOT_MODEL)
+    rabbitmq_settings: RabbitMQSettings = RabbitMQSettings()
+
+    def __init__(
+            self,
+            tgbots_list: list[TGBotAbstractModel],
+            number: Union[int, str]
+    ) -> None:
+        self.loop = asyncio.new_event_loop()
+        self.tasks_config = []
+        self.rabbitmq = self._start_rabbitmq(self.loop)
+        self.tgbots_list = AsyncList(tgbots_list)
+        self.number = number
+        self.client_manager = self.client_class(
+            self.number, tgbots_list, self.responsible, self.loop, self.logger,
+            self.send_msgs_for_update_client
+        )
+
+    @classmethod
+    def _safe_get_loop(cls) -> asyncio.AbstractEventLoop:
+        try:
+            loop = asyncio.get_event_loop()
+            if loop.is_closed():
+                raise RuntimeError("Event loop is closed")
+        except RuntimeError:
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+        return loop
+
+    @classmethod
+    def _start_rabbitmq(
+            cls,
+            loop: asyncio.AbstractEventLoop = None
+    ) -> RabbitMQConnection:
+        if loop is None:
+            loop = cls._safe_get_loop()
+
+        return RabbitMQConnection(
+            cls.rabbitmq_settings, logger=cls.logger,
+            loop=loop
+        )
+
+    async def get_client(self, tgbot_id: int) -> PatchedTelegramClient:
+        return await self.client_manager.get_client(tgbot_id)
+
+    async def aio_stop(self):
+        await self.client_manager.aio_stop()
+        await self.rabbitmq.aio_stop()
+
+    def stop(self, **kwargs):
+        self.loop.run_until_complete(
+            self.aio_stop()
+        )
+        self.loop.stop()
+
+    async def send_msgs_for_update_client(
+            self, tgbot: TGBotAbstractModel, channel=None
+    ):
+        if channel is None:
+            channel = await self.rabbitmq.get_one_time_use_channel()
+        queue_name = (f'{self.rabbitmq_settings.prefix}update'
+                      f'_{self.__class__.__name__}')
+        if self.responsible:
+            queue_name += f'_{self.number}'
+        await self.rabbitmq.send_message(
+            queue_name,
+            channel,
+            tgbot,
+        )
+
+    @classmethod
+    async def send_msgs_for_update_tgbot(
+            cls,
+            tgbot: TGBotAbstractModel,
+            rabbitmq: RabbitMQConnection = None,
+            external_call: bool = False
+    ) -> None:
+        from .settings import NUMBER_OF_MANAGERS
+        if rabbitmq is None:
+            rabbitmq = cls._start_rabbitmq()
+        channel = await rabbitmq.get_one_time_use_channel()
+        await rabbitmq.send_message(
+            f'{cls.rabbitmq_settings.prefix}update_ListeningTGBotManager',
+            channel,
+            tgbot,
+            expiration=15,
+        )
+        cls.logger.update_tgbot('info', tgbot, 'listening')
+        for number in range(NUMBER_OF_MANAGERS):
+            await asyncio.sleep(cls.timeout)
+            cls.logger.update_tgbot('info', tgbot, number)
+            await rabbitmq.send_message(
+                f'{cls.rabbitmq_settings.prefix}update_ResponsibleTGBotManager'
+                f'_{number}',
+                channel,
+                tgbot,
+                expiration=15,
+            )
+        if external_call:
+            await rabbitmq.aio_stop()
+
+    @classmethod
+    def update_tgbot(cls, tgbot: Union[TGBotAbstractModel, ShuttingDown]):
+        loop = cls._safe_get_loop()
+        loop.run_until_complete(
+            cls.send_msgs_for_update_tgbot(tgbot, external_call=True)
+        )
+
+    @abc.abstractmethod
+    async def start_tasks(self):
+        pass
+
+    def start_chatting(self):
+        self.logger.start_chatting('info')
+        asyncio.set_event_loop(self.loop)
+        try:
+            self.loop.run_until_complete(self.start_tasks())
+        except asyncio.exceptions.CancelledError as ce:
+            raise RuntimeError('CancelledError detected') from ce
+
+
+class ListeningTGBotManager(TGBotManager):
+    responsible: bool = False
+    receive_updates: bool = False
+
+    def __init__(self, tgbots_list: list[TGBotAbstractModel]):
+        self.number = 'listening'
+        super().__init__(tgbots_list, self.number)
+
+    async def aio_stop(self):
+        async for tgbot_id, _ in self.client_manager.clients:
+            await self.stop_handlers(tgbot_id)
+        await super().aio_stop()
+
+    @abc.abstractmethod
+    async def wait_messages(self, tgbot: TGBotAbstractModel, tgbot_id, client):
+        pass
+
+    async def start_handlers(self, tgbot: TGBotAbstractModel) -> None:
+        client = await self.get_client(tgbot.tgbot_id)
+        asyncio.create_task(
+            self.wait_messages(tgbot, tgbot.tgbot_id, client),
+            name=f'wait_messages_{tgbot.tgbot_id}'
+        )
+
+    async def stop_handlers(self, tgbot_id) -> None:
+        for task in asyncio.all_tasks():
+            if task.get_name() == f'wait_messages_{tgbot_id}':
+                task.cancel()
+                self.logger.stop_handlers(
+                    'info', f'Waiting messages for {tgbot_id=}, was cancelled'
+                )
+
+    async def process_update_listener_tgbot(
+            self, tgbot: TGBotAbstractModel, at_start=False
+    ) -> None:
+        if not isinstance(tgbot, ShuttingDown):
+            await self.stop_handlers(tgbot.tgbot_id)
+            await self.client_manager.process_update_tgbot(
+                tgbot, at_start=at_start
+            )
+            await self.start_handlers(tgbot)
+        else:
+            async for tgbot_id in self.client_manager.clients:
+                await self.stop_handlers(tgbot_id)
+            await self.client_manager.process_update_tgbot(tgbot)
+
+    async def start_tasks(self):
+        self.logger.start_tasks_listener('info')
+        await self.client_manager.run()
+        await asyncio.sleep(10)
+        async for tgbot in self.tgbots_list:
+            await self.start_handlers(tgbot)
+        channel = await self.rabbitmq.get_channel(robust=True)
+        try:
+            await asyncio.gather(
+                self.rabbitmq.consume_queue(
+                    f'{self.rabbitmq_settings.prefix}update'
+                    f'_{self.__class__.__name__}',
+                    channel,
+                    self.process_update_listener_tgbot
+                )
+            )
+        except asyncio.exceptions.CancelledError as exc:
+            trace = traceback.format_exc()
+            self.logger.start_chatting_error('error', f'{exc}\n{trace}')
+            raise exc
+
+
+class ResponsibleTGBotManager(TGBotManager):
+    responsible: bool = True
+    receive_updates: bool = True
+    chat_gpt_ai_type: str = 'chat_gpt'
+    midjourney_ai_type: str = 'midjourney'
+    MAX_MSG_LENGTH: int = 4096
+    transcription_openai_key: str
+
+    def __init__(self, tgbots_list: list[TGBotAbstractModel], number):
+        super().__init__(tgbots_list, number)
+        self.logger = ResponsibleLogger(number)
+        self.rabbitmq.logger = self.logger
+        self.voice_transcription = VoiceTranscription(
+            self.transcription_openai_key, self.logger
+        )
+
+    async def _get_input_message_data(self, client, event):
+        data = {}
+        if event.voice is not None:
+            try:
+                voice = await self.voice_transcription.get_voice_wav(
+                    client, event)
+                data['transcription'] = (
+                    await self.voice_transcription.get_text_transcription(
+                        voice)
+                )
+                os.unlink(voice)
+            except Exception as exc:
+                trace = traceback.format_exc()
+                self.logger.get_input_message_data(
+                    'error', f'Error: {exc}. Traceback: {trace}.'
+                )
+            else:
+                data['is_voice'] = True
+        self.logger.get_input_message_data('info')
+        return data
+
+    async def start_tasks(self) -> None:
+        self.logger.start_tasks('info')
+        await self.client_manager.run()
+        await asyncio.sleep(10)
+        channel = await self.rabbitmq.get_channel(robust=True)
+        print(f">>>> Start tasks {self.client_manager.clients}")
+        tasks = []
+        for queue_suffix, callback, kwargs in self.tasks_config:
+            queue_name = f'{self.rabbitmq_settings.prefix}{queue_suffix}_{self.number}'
+            tasks.append(
+                self.rabbitmq.consume_queue(
+                    queue_name, channel, callback, **kwargs
+                )
+            )
+        try:
+            await asyncio.gather(*tasks)
+        except asyncio.exceptions.CancelledError as exc:
+            trace = traceback.format_exc()
+            self.logger.start_chatting_error('error', f'{exc}\n{trace}')
+            raise exc
