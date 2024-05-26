@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+textual_mandelbrot/__init__.py
+textual_mandelbrot/__main__.py
+textual_mandelbrot/colouring.py
+textual_mandelbrot/commands.py
+textual_mandelbrot/mandelbrot.py
+textual_mandelbrot.egg-info/PKG-INFO
+textual_mandelbrot.egg-info/SOURCES.txt
+textual_mandelbrot.egg-info/dependency_links.txt
+textual_mandelbrot.egg-info/entry_points.txt
+textual_mandelbrot.egg-info/requires.txt
+textual_mandelbrot.egg-info/top_level.txt
