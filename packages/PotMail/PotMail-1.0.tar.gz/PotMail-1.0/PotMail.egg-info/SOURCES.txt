@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+PotMail/PotMail.py
+PotMail/__init__.py
+PotMail.egg-info/PKG-INFO
+PotMail.egg-info/SOURCES.txt
+PotMail.egg-info/dependency_links.txt
+PotMail.egg-info/requires.txt
+PotMail.egg-info/top_level.txt
