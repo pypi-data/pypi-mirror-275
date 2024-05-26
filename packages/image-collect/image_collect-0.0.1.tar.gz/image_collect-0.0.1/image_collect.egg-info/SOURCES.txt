@@ -1,0 +1,8 @@
+README.md
+image_collect.py
+setup.py
+image_collect.egg-info/PKG-INFO
+image_collect.egg-info/SOURCES.txt
+image_collect.egg-info/dependency_links.txt
+image_collect.egg-info/requires.txt
+image_collect.egg-info/top_level.txt
