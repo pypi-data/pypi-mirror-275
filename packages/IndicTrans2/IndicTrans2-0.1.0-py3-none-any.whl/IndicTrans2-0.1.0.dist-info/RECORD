@@ -1,0 +1,16 @@
+inference/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inference/custom_interactive.py,sha256=IfnHRvV1eWVzXOvRR5pDyu4hUYYkjaECET24A7CZ4rM,11564
+inference/download.py,sha256=IdVphcoRCDHv2wjNMDFwvWlpFaW0zj3VVFHEYVSgnR4,72
+inference/engine.py,sha256=DdN287D4SSU-u_TN3rOzMFW3_qDnM5XA6q_JUj9sFgA,18737
+inference/flores_codes_map_indic.py,sha256=NMjkPHDH4izvhQAfsAqPOf5oT3sgt_u9YxnhQwAb8Zg,1805
+inference/indic_num_map.py,sha256=7CfS4N3boTmRBasB8in9m9C4N8qDtW_BRdemQ3kZyPk,2302
+inference/normalize_punctuation.py,sha256=aYNL1exW8agZAx5vHXS8nDNPk83EYelAPI4nZNvca9Y,2325
+inference/normalize_regex_inference.py,sha256=sX5381TrQ8TibmnP59xcJkrCuEyC1KnTLzKMMPi_ZbU,4619
+model_configs/__init__.py,sha256=PeloA_U3lS_TbaN9KT4QtYcGQOXagdBnrwR0tA-Gf6s,32
+model_configs/custom_transformer.py,sha256=wKLHFcp311kz5WWJx1Hwb-Ae0E99bzcssNJMz-ZX_mI,5146
+IndicTrans2-0.1.0.dist-info/LICENSE,sha256=ODJYQgBloZ2f7w2vANEHktP4pcz3g9lKkfXWdVOGYVs,1128
+IndicTrans2-0.1.0.dist-info/METADATA,sha256=2loPRBYUs9SrHVCyUrfV_2piW8O7Ll3z_t26rVYIYNU,29298
+IndicTrans2-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+IndicTrans2-0.1.0.dist-info/entry_points.txt,sha256=JTK-pNOalBBwTNE9jJA9WBqR1r_BpQ2dlwkUilYRvyo,40
+IndicTrans2-0.1.0.dist-info/top_level.txt,sha256=d8Yc4DcXMo8WuMC6IMPsJH4EsEXl0bi_Lw3Me6gDXiY,24
+IndicTrans2-0.1.0.dist-info/RECORD,,
