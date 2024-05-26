@@ -1,0 +1,3 @@
+[console_scripts]
+habits = habit_tracker.main:main
+

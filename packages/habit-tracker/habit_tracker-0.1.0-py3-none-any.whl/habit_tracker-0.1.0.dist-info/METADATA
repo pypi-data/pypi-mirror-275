@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: habit-tracker
+Version: 0.1.0
+Summary: A simple habit tracker application
+Home-page: https://github.com/yourusername/habit_tracker
+Author: Your Name
+Author-email: your.email@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Habit Tracker
+
+This is a simple habit tracker application.
+
+## Installation
+
+````bash
+pip install habit_tracker
+
+# Add a new habit
+habits add "Exercise"
+
+# List all habits
+habits list
+
+# Mark a habit as done for today
+habits done 1
+
+
+### LICENSE ファイル
+MITライセンスファイルです。
+
+```text
+MIT License
+
+...
+
+````
+
+
