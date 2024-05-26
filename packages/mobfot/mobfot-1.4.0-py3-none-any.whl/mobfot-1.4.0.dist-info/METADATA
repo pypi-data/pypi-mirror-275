@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: mobfot
+Version: 1.4.0
+Summary: An unofficial Python client for the FotMob API
+Author: Brian Greenwood
+License: MIT
+Project-URL: homepage, https://bgrnwd.com/mobfot/
+Project-URL: repository, https://github.com/bgrnwd/mobfot
+Keywords: fotmob,soccer,api,football
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.31.0
+Requires-Dist: CacheControl >=0.13.1
+Provides-Extra: test
+Requires-Dist: ruff ; extra == 'test'
+Requires-Dist: behave ; extra == 'test'
+Requires-Dist: mypy ; extra == 'test'
+Requires-Dist: reformat-gherkin ; extra == 'test'
+Requires-Dist: types-requests ; extra == 'test'
+Requires-Dist: mkdocs ; extra == 'test'
+Requires-Dist: mkdocstrings[python] ; extra == 'test'
+Requires-Dist: mkdocs-material ; extra == 'test'
+
+# mobfot
+
+[![license](https://img.shields.io/github/license/bgrnwd/mobfot.svg)](LICENSE)
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+![pypi](https://img.shields.io/pypi/v/mobfot?color=green)
+[![PyPI download month](https://img.shields.io/pypi/dm/mobfot.svg)](https://pypi.python.org/pypi/mobfot/)
+![Python CI](https://github.com/bgrnwd/mobfot/workflows/Python%20CI/badge.svg)
+
+An unofficial Python client for the [FotMob](https://www.fotmob.com/) API
+
+## Table of Contents
+
+- [mobfot](#mobfot)
+  - [Table of Contents](#table-of-contents)
+  - [Install](#install)
+  - [Usage](#usage)
+    - [Quick Start](#quick-start)
+  - [Contributing](#contributing)
+  - [License](#license)
+
+## Install
+
+```sh
+pip install mobfot
+```
+
+## Usage
+
+### Quick Start
+
+```python
+from mobfot import MobFot
+client = MobFot()
+client.get_matches_by_date("20221205")
+```
+
+## Contributing
+
+- Feel free to [open an issue](https://github.com/bgrnwd/mobfot/issues/new) or submit a pull request.
+
+## License
+
+[MIT](./LICENSE) © Brian Greenwood
