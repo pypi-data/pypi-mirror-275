@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: registries
+Version: 0.0.0
+Summary: Classes for managing registration and lookup of objects.
+Author-email: "Beanbag, Inc." <questions@beanbaginc.com>
+License: MIT
+Project-URL: homepage, https://github.com/beanbaginc/python-registries
+Project-URL: documentation, https://github.com/beanbaginc/python-registries
+Project-URL: repository, https://github.com/beanbaginc/python-registries
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

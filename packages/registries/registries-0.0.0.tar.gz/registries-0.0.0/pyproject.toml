@@ -1,0 +1,33 @@
+[project]
+name = 'registries'
+description = 'Classes for managing registration and lookup of objects.'
+authors = [
+    {name = 'Beanbag, Inc.', email = 'questions@beanbaginc.com'},
+]
+license = { text = 'MIT' }
+readme = 'README.md'
+requires-python = '>=3.8'
+version = '0.0.0'
+
+classifiers = [
+    'Development Status :: 1 - Planning',
+    'Environment :: Other Environment',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Topic :: Software Development',
+    'Topic :: Software Development :: Libraries',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+]
+
+
+[project.urls]
+homepage = 'https://github.com/beanbaginc/python-registries'
+documentation = 'https://github.com/beanbaginc/python-registries'
+repository = 'https://github.com/beanbaginc/python-registries'
+
+
+[tool.setuptools.package-data]
+registries = ['py.typed']
