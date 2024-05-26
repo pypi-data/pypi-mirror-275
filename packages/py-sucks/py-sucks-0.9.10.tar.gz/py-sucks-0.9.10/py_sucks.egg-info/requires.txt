@@ -1,0 +1,9 @@
+sleekxmppfs>=1.4.1
+click>=6
+requests>=2.18
+pycryptodome>=3.4
+pycountry-convert>=0.5
+
+[dev]
+pytest
+requests-mock>=1.3
