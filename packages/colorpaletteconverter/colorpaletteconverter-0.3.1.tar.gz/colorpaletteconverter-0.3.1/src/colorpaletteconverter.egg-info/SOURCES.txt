@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/colorpaletteconverter.py
+src/colorpaletteconverter.egg-info/PKG-INFO
+src/colorpaletteconverter.egg-info/SOURCES.txt
+src/colorpaletteconverter.egg-info/dependency_links.txt
+src/colorpaletteconverter.egg-info/requires.txt
+src/colorpaletteconverter.egg-info/top_level.txt
+tests/test_colorpaletteconverter.py
