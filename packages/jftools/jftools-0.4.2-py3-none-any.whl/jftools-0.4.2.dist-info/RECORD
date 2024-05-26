@@ -1,0 +1,14 @@
+jftools/__init__.py,sha256=80bNjbw1H9jEQAemD2nVhmMSQV2illkRtMggjCXCGwM,538
+jftools/fedvr.py,sha256=dXC7a35NnJAQMi6VTJ73QvoB7B0HWzKWO3ug2B1GLIk,21675
+jftools/interpolate.py,sha256=sZPvXrp3m62eNIggArRER68wfWL7osK5k5DNYr8Z69s,1088
+jftools/ipynbimport.py,sha256=r2qIVzbeE04MeRZrFFykNJW7Im9lTEdSQN6lLcE8KwE,4592
+jftools/myjit.py,sha256=AgLmTaIflJq-K8U8SOV-GTIpmYH9dCPS6hUWPN0QC48,398
+jftools/plotting.py,sha256=HrcZuW_qedib1bC1GOqf5KoSeZEbbBRTAm4KhhDgCHw,616
+jftools/shade_color.py,sha256=n0n5YSypCMxgBbp5TjhPEN11YsyiVnqxey0iAjQspq0,1188
+jftools/short_iterative_lanczos.py,sha256=iTlR_gQC0J7QvE34lSKzB6huGN1HoGWsRh1k54Drq-E,9128
+jftools/tictoc.py,sha256=836wCGtFcqlv3iTAIwsNSbSNhuVrHwo1r4uKjfrtLRE,208
+jftools/unroll_phase.py,sha256=nxxiDHTlgmpLFHUcH8zd4jSP9tJN_wFkYps8fnUqimg,1040
+jftools-0.4.2.dist-info/LICENSE,sha256=SpiNboJTsVr6tepRnUAsFaa7aFnIgVlNguSlX5WedXc,1081
+jftools-0.4.2.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+jftools-0.4.2.dist-info/METADATA,sha256=ddsMRG6GMM-2q3fMN1pQzkhaQDvwhmgeCQ2Svl4xnCQ,614
+jftools-0.4.2.dist-info/RECORD,,
