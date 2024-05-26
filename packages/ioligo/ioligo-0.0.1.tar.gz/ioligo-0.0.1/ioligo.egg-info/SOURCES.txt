@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+ioligo/__init__.py
+ioligo/oligo.py
+ioligo.egg-info/PKG-INFO
+ioligo.egg-info/SOURCES.txt
+ioligo.egg-info/dependency_links.txt
+ioligo.egg-info/not-zip-safe
+ioligo.egg-info/requires.txt
+ioligo.egg-info/top_level.txt
+scripts/ioligo
