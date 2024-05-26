@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: refactortool
+Version: 0.2
+Summary: A tool for improving code quality by analyzing and refactoring project code.
+Home-page: https://github.com/yuna-musashino/refactortool
+Author: Yuna Suzuki
+Author-email: s2222077@stu.musashino-u.ac.jp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: autopep8
+Requires-Dist: pylint
+Requires-Dist: black
+Requires-Dist: isort
+Requires-Dist: flake8
+Requires-Dist: pytest
+
+# Refactor Tool
+
+A tool for improving code quality by analyzing and refactoring project code.
+
+## Features
+- Code style checking and auto-fixing
+- Redundant code detection and reduction
+- Performance improvement suggestions
+- Safe refactoring with test suite integration
+
+## Installation
+```bash
+pip install refactortool
