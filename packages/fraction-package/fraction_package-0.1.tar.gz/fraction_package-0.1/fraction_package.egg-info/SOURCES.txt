@@ -1,0 +1,8 @@
+README.md
+setup.py
+fraction_package.egg-info/PKG-INFO
+fraction_package.egg-info/SOURCES.txt
+fraction_package.egg-info/dependency_links.txt
+fraction_package.egg-info/top_level.txt
+fractions/__init__.py
+fractions/fraction.py
