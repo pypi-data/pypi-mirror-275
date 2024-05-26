@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: iSmartDownloader
+Version: 0.1.1
+Summary: A Python library for efficiently downloading files with support for resuming interrupted downloads.
+Author: Paisen
+Author-email: senpaikoudo@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: requests >=2.25.1
+Requires-Dist: result >=0.6.0
+Requires-Dist: tqdm >=4.56.0
+Requires-Dist: aiohttp >=3.7.4
+Provides-Extra: dev
+Requires-Dist: pytest >=6.2.2 ; extra == 'dev'
+Requires-Dist: flake8 >=3.8.4 ; extra == 'dev'
+
