@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: fetch-the-specs
+Version: 1.0.1
+Summary: A command-line tool to report system information in a colorful format.
+Home-page: https://github.com/ibrahimhasnat/fetch-the-specs/
+Author: Ibrahim Hasnat
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psutil
+Requires-Dist: rich
+
+# fetch-the-specs
+
+**A command-line tool to report system information in a colorful format.**
+
+## Installation
+You can install **fetch-the-specs** using `pip`:
+
+```sh
+pip install fetch-the-specs
+```
+
+## Usage
+To display system information, run the following command:
+
+```sh
+fetch-the-specs
+```
+
+## License
+This project is licensed under the MIT License.
+
