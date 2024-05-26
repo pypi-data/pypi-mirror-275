@@ -1,0 +1,5 @@
+queue-api
+pydantic==2.*
+moveread-annotations
+pure-cv
+lazy-loader
