@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python_contest_template"
+version = "0.0.6"
+authors = [
+  { name="zhangtingyu11", email="zhangty21@mails.jlu.edu.cn" },
+]
+description = "python template for contest"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.urls]
+"Homepage" = "https://github.com/zhangtingyu11/python_contest_template"
+"Bug Tracker" = "https://github.com/zhangtingyu11/python_contest_template/issues"
