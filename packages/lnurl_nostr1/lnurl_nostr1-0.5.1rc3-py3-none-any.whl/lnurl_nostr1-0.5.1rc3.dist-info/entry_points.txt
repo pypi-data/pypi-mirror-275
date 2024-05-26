@@ -1,0 +1,3 @@
+[console_scripts]
+lnurl=lnurl_nostr1.cli:main
+
