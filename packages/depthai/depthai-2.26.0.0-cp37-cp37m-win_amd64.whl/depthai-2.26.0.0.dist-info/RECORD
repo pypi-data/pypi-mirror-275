@@ -1,0 +1,16 @@
+depthai.pyd,sha256=D4pIS8bW1Z31zVl-CCyqRF4kBa91_nKV-bYqkUo3fKE,13819392
+libusb-1.0.dll,sha256=ymbDkb-6KAAmbrG_5P2MKrvcy3YYRan3z59HnysubVY,307200
+depthai/__init__.pyi,sha256=2tKIsRDYQF7m4fYjKs1DCGnVhYF0BwbNQkwySF_ySmI,198848
+depthai/node.pyi,sha256=0_No0WE7-83dy2qTzhR_fEz2hJYKWCeEcy-K1luT-Oo,53300
+depthai/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+depthai_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+depthai_cli/cam_test.py,sha256=E8f9drsqerudwAzMi472CXKGA2Y0XESL47nwrsgiL9Q,37381
+depthai_cli/cam_test_gui.py,sha256=E1rQYQ6u5DOtPt9cLImNJAsgfpOuNKzkmlVGbLV5iUM,16363
+depthai_cli/depthai_cli.py,sha256=NApeIJ0WG8llNMNNGw8zhT4p2nR_ydGnuXBo7sVOMac,1946
+depthai_cli/stress_test.py,sha256=pJrkHdLRPDfyfbms75K_xymiQ54SUeKBhiQWt-2FAGM,23673
+depthai-2.26.0.0.dist-info/LICENSE,sha256=avvRRZzWsmEX1JDi9FFNegGM-BYlwsUUHJfh-M5UMr0,1089
+depthai-2.26.0.0.dist-info/METADATA,sha256=RdNvsontnOaTJqOpSO8MAzg6C5MySsTHL3M-lDPL_2I,8987
+depthai-2.26.0.0.dist-info/WHEEL,sha256=slqBGdqRnxanDn00BSYHhryEsWH_8CUurgRUvoMtK_Y,101
+depthai-2.26.0.0.dist-info/entry_points.txt,sha256=jTWyurtNaWoyP0WiWluJ2FRBSWA5k-9LPy1B3bA6QkQ,56
+depthai-2.26.0.0.dist-info/top_level.txt,sha256=MPJ6FBHY1LzD-rk26r76SfnfSiz3OQ6Z9AKqSmYWp00,20
+depthai-2.26.0.0.dist-info/RECORD,,
