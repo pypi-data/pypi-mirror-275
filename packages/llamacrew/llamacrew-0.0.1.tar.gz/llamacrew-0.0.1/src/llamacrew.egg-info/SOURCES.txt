@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/llamacrew/__init__.py
+src/llamacrew/cli.py
+src/llamacrew/controller.py
+src/llamacrew.egg-info/PKG-INFO
+src/llamacrew.egg-info/SOURCES.txt
+src/llamacrew.egg-info/dependency_links.txt
+src/llamacrew.egg-info/entry_points.txt
+src/llamacrew.egg-info/not-zip-safe
+src/llamacrew.egg-info/requires.txt
+src/llamacrew.egg-info/top_level.txt
