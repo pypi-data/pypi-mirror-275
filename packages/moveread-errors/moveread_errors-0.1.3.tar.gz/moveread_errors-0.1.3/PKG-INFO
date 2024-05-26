@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: moveread-errors
+Version: 0.1.3
+Summary: Error types for the Moveread Core
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: moveread-core
+
+# Moveread Errors
+
+> Error types for the Moveread Core

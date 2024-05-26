@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/moveread/errors/__init__.py
+src/moveread/errors/annotations.py
+src/moveread/errors/core.py
+src/moveread/errors/db.py
+src/moveread_errors.egg-info/PKG-INFO
+src/moveread_errors.egg-info/SOURCES.txt
+src/moveread_errors.egg-info/dependency_links.txt
+src/moveread_errors.egg-info/requires.txt
+src/moveread_errors.egg-info/top_level.txt
