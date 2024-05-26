@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: atomea
+Version: 0.0.0.post89
+Summary: Extensible schema for atomistic simulations and calculations.
+License: Apache-2.0
+Author: OASCI
+Author-email: us@oasci.org
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: numpy (>=1.26.2,<2.0.0)
+Requires-Dist: pydantic (>=2.7.1,<3.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Description-Content-Type: text/markdown
+
+<h1 align="center">atomea</h1>
+
+<h4 align="center">Extensible schema for atomistic simulations and calculations.</h4>
+
+Add information about atomea here.
+
+## Deploying
+
+We use [bump-my-version](https://github.com/callowayproject/bump-my-version) to release a new version.
+This will create a git tag that is used by [poetry-dynamic-version](https://github.com/mtkennerly/poetry-dynamic-versioning) to generate version strings and update `CHANGELOG.md`.
+
+For example, to bump the `minor` version you would run the following command.
+
+```bash
+poetry run bump-my-version bump minor
+```
+
+After releasing a new version, you need to push and include all tags.
+
+```bash
+git push --follow-tags
+```
+
+## License
+
+This project is released under the Apache-2.0 License as specified in `LICENSE.md`.
+
