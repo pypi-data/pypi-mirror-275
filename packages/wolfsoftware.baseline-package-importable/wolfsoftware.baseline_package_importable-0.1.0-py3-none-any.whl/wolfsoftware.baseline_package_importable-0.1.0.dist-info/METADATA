@@ -1,0 +1,145 @@
+Metadata-Version: 2.1
+Name: wolfsoftware.baseline-package-importable
+Version: 0.1.0
+Summary: A basic package template for importable packages.
+Home-page: https://github.com/GitHubToolbox/baseline-package-importable
+Author: Wolf Software
+Author-email: pypi@wolfsoftware.com
+License: MIT
+Project-URL: Source, https://github.com/GitHubToolbox/baseline-package-importable
+Project-URL: Tracker, https://github.com/GitHubToolbox/baseline-package-importable/issues/
+Project-URL: Documentation, https://github.com/GitHubToolbox/baseline-package-importable
+Project-URL: Sponsor, https://github.com/sponsors/WolfSoftware
+Keywords: python,template
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: pytest ==8.2.1
+Requires-Dist: setuptools ==70.0.0
+
+<!-- markdownlint-disable -->
+<p align="center">
+    <a href="https://github.com/GreyTeamToolbox/">
+        <img src="https://cdn.wolfsoftware.com/assets/images/github/organisations/greyteamtoolbox/black-and-white-circle-256.png" alt="GreyTeamToolbox logo" />
+    </a>
+    <br />
+    <a href="https://github.com/GreyTeamToolbox/baseline-package-importable/actions/workflows/cicd.yml">
+        <img src="https://img.shields.io/github/actions/workflow/status/GreyTeamToolbox/baseline-package-importable/cicd.yml?branch=master&label=build%20status&style=for-the-badge" alt="Github Build Status" />
+    </a>
+    <a href="https://github.com/GreyTeamToolbox/baseline-package-importable/blob/master/LICENSE.md">
+        <img src="https://img.shields.io/github/license/GreyTeamToolbox/baseline-package-importable?color=blue&label=License&style=for-the-badge" alt="License">
+    </a>
+    <a href="https://github.com/GreyTeamToolbox/baseline-package-importable">
+        <img src="https://img.shields.io/github/created-at/GreyTeamToolbox/baseline-package-importable?color=blue&label=Created&style=for-the-badge" alt="Created">
+    </a>
+    <br />
+    <a href="https://github.com/GreyTeamToolbox/baseline-package-importable/releases/latest">
+        <img src="https://img.shields.io/github/v/release/GreyTeamToolbox/baseline-package-importable?color=blue&label=Latest%20Release&style=for-the-badge" alt="Release">
+    </a>
+    <a href="https://github.com/GreyTeamToolbox/baseline-package-importable/releases/latest">
+        <img src="https://img.shields.io/github/release-date/GreyTeamToolbox/baseline-package-importable?color=blue&label=Released&style=for-the-badge" alt="Released">
+    </a>
+    <a href="https://github.com/GreyTeamToolbox/baseline-package-importable/releases/latest">
+        <img src="https://img.shields.io/github/commits-since/GreyTeamToolbox/baseline-package-importable/latest.svg?color=blue&style=for-the-badge" alt="Commits since release">
+    </a>
+    <br />
+    <a href="https://github.com/GreyTeamToolbox/baseline-package-importable/blob/master/.github/CODE_OF_CONDUCT.md">
+        <img src="https://img.shields.io/badge/Code%20of%20Conduct-blue?style=for-the-badge" />
+    </a>
+    <a href="https://github.com/GreyTeamToolbox/baseline-package-importable/blob/master/.github/CONTRIBUTING.md">
+        <img src="https://img.shields.io/badge/Contributing-blue?style=for-the-badge" />
+    </a>
+    <a href="https://github.com/GreyTeamToolbox/baseline-package-importable/blob/master/.github/SECURITY.md">
+        <img src="https://img.shields.io/badge/Report%20Security%20Concern-blue?style=for-the-badge" />
+    </a>
+    <a href="https://github.com/GreyTeamToolbox/baseline-package-importable/issues">
+        <img src="https://img.shields.io/badge/Get%20Support-blue?style=for-the-badge" />
+    </a>
+</p>
+
+## Overview
+
+## Overview
+
+This is the baseline package template that we use internally when creating new python based tools for the [Blue Team Toolbox](https://github.com/BlueTeamToolbox)
+and [Red Team Toolbox](https://github.com/RedTeamToolbox). It has all of the basic functionality and workflows needed to create,
+build and publish new package to [PyPI](https://pypi.org/).
+
+This package template does NOT provide any cli functionality but instead is designed for creating importable packages.
+
+If you are looking for a template to use for creating cli based tools we provide one of those too. [baseline package cli](https://github.com/GreyTeamToolbox/baseline-package-cli).
+
+We decided to make this available along with our other tools to allow people to use a well engineered starting point when creating their own tools.
+
+We also have a [baseline project](https://github.com/GreyTeamToolbox/baseline-project) which can be used to create scripts and tools for local
+execution. It comes with all the same base functionality but without the package build and publish.
+
+## Features
+
+- **Modular Architecture**: Organize your code into modules for better maintainability.
+- **Custom Exceptions**: BAsic examples for implementing custom exceptions for specific error handling.
+- **Testing Examples**: Basic examples for writing pytest tests for your package.
+
+## Installation
+
+To install the Baseline Package, clone the repository and navigate to the project directory:
+
+```bash
+git clone https://github.com/GreyTeamToolbox/baseline-package-importable.git
+cd baseline-package-importable
+```
+
+It is recommended to use a virtual environment to manage dependencies. You can create and activate a virtual environment using the following commands:
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Project Structure
+
+The project is organized as follows:
+
+```sh
+baseline-package-importable/
+├── wolfsoftware/
+│   └── baseline_package_importable/
+│       ├── __init__.py
+│       ├── exceptions.py
+│       └── functions.py
+├── tests/
+│   ├── __init__.py
+│   └── test_baseline_package_importable.py
+├── README.md
+├── setup.py
+└── requirements.txt
+```
+
+- `wolfsoftware/baseline_package_importable`: Contains the core modules of the application.
+  - `exceptions.py`: Handles custom exceptions.
+  - `functions.py`: Defines some example functions (for testing).
+- `tests`: Where the pytest tests are located.
+  - `test_baseline_package_importable.py`: The specific tests to run.
+- `setup.py`: The package configuration.
+- `requirements.txt`: Lists the dependencies required for the project.
+- `README.md`: The file you are currently reading.
+
+<br />
+<p align="right"><a href="https://wolfsoftware.com/"><img src="https://img.shields.io/badge/Created%20by%20Wolf%20on%20behalf%20of%20Wolf%20Software-blue?style=for-the-badge" /></a></p>
