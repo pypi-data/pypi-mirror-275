@@ -1,0 +1,36 @@
+Metadata-Version: 2.3
+Name: polars-cloud
+Version: 0.0.0
+Summary: Execute your Polars workloads in the cloud
+Project-URL: Homepage, https://pola.rs/
+Author-email: Stijn de Gooijer <stijn@polars.tech>
+License-File: LICENSE
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/pola-rs/polars-static/master/banner/polars_github_banner.svg" alt="Polars logo">
+  <br>
+</h1>
+
+# Polars Cloud
+
+_Execute your Polars workloads in the cloud._
+
+Please see [our website](https://pola.rs/our-services/) for more information.
+
+This package is not operational yet.
