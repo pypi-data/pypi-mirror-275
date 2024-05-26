@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mambular
+Version: 0.1.0
+Summary: A python package for tabular deep learning with mamba blocks
+Home-page: https://github.com/AnFreTh/mamba-tabular
+Author: Anton Thielmann
+Author-email: anton.thielmann@tu-clausthal.de
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6, <3.11
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pytorch-lightning
+Requires-Dist: scikit-learn
+Requires-Dist: torch
+Requires-Dist: torchmetrics
+Requires-Dist: setuptools
+Requires-Dist: properscoring
+Requires-Dist: lxml[html_clean]
+
