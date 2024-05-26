@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+tracor.egg-info/PKG-INFO
+tracor.egg-info/SOURCES.txt
+tracor.egg-info/dependency_links.txt
+tracor.egg-info/entry_points.txt
+tracor.egg-info/requires.txt
+tracor.egg-info/top_level.txt
