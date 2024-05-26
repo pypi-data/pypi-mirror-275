@@ -1,0 +1,2 @@
+recursive-include src *.py
+include __init__.py
