@@ -1,0 +1,2 @@
+[console_scripts]
+pypi = pypi_project.main:main
