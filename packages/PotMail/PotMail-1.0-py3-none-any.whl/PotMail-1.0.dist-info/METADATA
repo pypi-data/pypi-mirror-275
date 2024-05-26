@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PotMail
+Version: 1.0
+Summary: Mail Library
+Home-page: https://github.com/ForestBu/PotMail
+Author: ForestBu
+Author-email: tvc55.admn@gmail.com
+Keywords: mail mailru mailRu gmail gmailcom gmailCom send sender
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: requests >=2.25.1
+
+Library for work at the mail services.
