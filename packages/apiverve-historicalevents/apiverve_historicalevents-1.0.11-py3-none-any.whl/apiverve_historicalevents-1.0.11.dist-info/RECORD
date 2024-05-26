@@ -1,0 +1,11 @@
+apiverve_historicalevents/__init__.py,sha256=Bsszz20oiDXQ1LQ90cF3fhlReMSzAjDaY9nh8XilYWc,48
+apiverve_historicalevents/apiClient.py,sha256=GpBo3mBSoedK8ksvUbCmd8UpuSQO71XRvvqFExZEcqE,1230
+apiverve_historicalevents/exceptions.py,sha256=oEKfkEC4KNQ8_leHYcMs57M6b_QOVP9kv0cheDRh8mA,115
+apiverve_historicalevents/setup.py,sha256=89dckIbEjkTBNvb2eHj2sYX1Vdsmup3apyDvTb0sfok,633
+apiverve_historicalevents/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_historicalevents/tests/test_api.py,sha256=FQpFhtallYTMrHiFNmBcny_S5qDL9SAwnBDCQmqSMqY,632
+apiverve_historicalevents-1.0.11.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_historicalevents-1.0.11.dist-info/METADATA,sha256=V1qaCe96xDPJli5gEOotQbuFI3iY2A6lmWPTZbB3pEs,5564
+apiverve_historicalevents-1.0.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apiverve_historicalevents-1.0.11.dist-info/top_level.txt,sha256=kUgUQNUhz4mHme0Ah-hxxZVeaKQ2f9YMJZjA_lgoywA,26
+apiverve_historicalevents-1.0.11.dist-info/RECORD,,
