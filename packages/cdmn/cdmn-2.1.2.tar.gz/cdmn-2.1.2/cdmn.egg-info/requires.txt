@@ -1,0 +1,5 @@
+openpyxl==3.0.10
+ply==3.11
+numpy
+python-dateutil
+Levenshtein
