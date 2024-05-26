@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "pytorr-play"
+version = "0.0.1"
+description = "Tool for streaming videos from torrrents"
+authors = ["imithrellas"]
+license = "MIT"
+repository = "https://gitlab.com/imithrellas/PyTorr-Play"
+readme = "README.md"
+keywords = ["torrent", "jackett", "curses", "rofi", "mpv", "media"]
+
+[tool.poetry.dependencies]
+python = "3.10"
+libtorrent = "2.0.9"
+requests = "2.32.2"
+plyer = "2.1.0"
+fuzzywuzzy = "0.18.0"
+Levenshtein = "^0.25.1"
+mpv = "^1.0.6"
+tabulate = "0.9.0"
+PyYAML = "6.0.1"
+python-mpv = "1.0.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pytorr-play = "pytorr_play.__main__:main"
