@@ -1,0 +1,8 @@
+datatransformation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datatransformation/convolution.py,sha256=OfOAOImK75ehIgmDVWZgjDgM2Wx_D2Fi3QNv4a6p9WI,1915
+datatransformation/transpose.py,sha256=B4WmJvovcRb8K9m1VOIi_LJq1ailVT0lEwHw5PZWo-c,1266
+datatransformation/window.py,sha256=k7Avc3yRuPMImyyDd1EO-qgrROp6V-Hy9PoOPbELanI,2323
+datatransformation-0.1.0.dist-info/LICENSE,sha256=F0olRgmU9LmkCVdas7XIBnSXT6pBLPolUtkhfe-w330,1074
+datatransformation-0.1.0.dist-info/METADATA,sha256=NiNogPdnKxKkcr01EgG5iXL7aqw2AI7HIURUp3AfZ4c,3315
+datatransformation-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+datatransformation-0.1.0.dist-info/RECORD,,
