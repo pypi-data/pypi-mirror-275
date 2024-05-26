@@ -1,0 +1,11 @@
+apiverve_linkscraper/__init__.py,sha256=ePhSN4whFuvD37xLMY8NootLbLgGgpHl6srrm3XzmHo,43
+apiverve_linkscraper/apiClient.py,sha256=bL8qWwf_3PbMhI-ImbwBy3qXjP_3c3-QDvEzQZb5K1s,1216
+apiverve_linkscraper/exceptions.py,sha256=cHCaB0f0BNDUfy_moyc5607GQBLellAqiPmlfjfkq7Y,105
+apiverve_linkscraper/setup.py,sha256=o1uxjXmvXATmwRRsFmScdHIytZgTAzcgLEIX3jmXgFI,621
+apiverve_linkscraper/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_linkscraper/tests/test_api.py,sha256=YWWn0_K3rFe3gLXg-91pxWfFQ6uG8KRJQS9vz79fc2k,617
+apiverve_linkscraper-1.0.11.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_linkscraper-1.0.11.dist-info/METADATA,sha256=rM_WCjez9b6wbleVkVaGt-vVkbztHamH4g0niIv6oxg,24590
+apiverve_linkscraper-1.0.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apiverve_linkscraper-1.0.11.dist-info/top_level.txt,sha256=OKOnrP_xbwKZT0ovmCw2rOseSBeh-5PJEkOp2erdVK8,21
+apiverve_linkscraper-1.0.11.dist-info/RECORD,,
