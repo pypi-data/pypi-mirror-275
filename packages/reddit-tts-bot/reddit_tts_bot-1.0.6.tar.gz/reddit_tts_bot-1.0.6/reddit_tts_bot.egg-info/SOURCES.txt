@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+reddit_tts_bot/__init__.py
+reddit_tts_bot/narrative.py
+reddit_tts_bot/tts.py
+reddit_tts_bot/video.py
+reddit_tts_bot.egg-info/PKG-INFO
+reddit_tts_bot.egg-info/SOURCES.txt
+reddit_tts_bot.egg-info/dependency_links.txt
+reddit_tts_bot.egg-info/requires.txt
+reddit_tts_bot.egg-info/top_level.txt
