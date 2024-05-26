@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: palinuro-lib
+Version: 0.4
+Summary: A library for trading in a Macro Hedge Fund
+Home-page: https://github.com/vcnzbrgd/palinuro_lib
+Author: Vincenzo Brigandi
+Author-email: brigandi.vincenzo@yahoo.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib ==3.8.4
+Requires-Dist: matplotlib-inline ==0.1.7
+Requires-Dist: numpy ==1.26.4
+Requires-Dist: pandas ==2.2.2
+Requires-Dist: scipy ==1.13.0
+Requires-Dist: seaborn ==0.13.2
+
+# palinuro_lib
+library of functions for Palinuro Capital
+
+
