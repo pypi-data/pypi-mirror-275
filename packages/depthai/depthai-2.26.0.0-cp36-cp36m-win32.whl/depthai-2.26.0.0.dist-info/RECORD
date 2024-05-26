@@ -1,0 +1,16 @@
+depthai.pyd,sha256=fAyh-DnSCKmGLJeCjS31iDmKuG5z5APr8lDTG_VeIzk,13272576
+libusb-1.0.dll,sha256=HotrYonEvs5h1-7Pqmj0PuUzGolZny40XgSN7hEQPww,245248
+depthai/__init__.pyi,sha256=FlzOpj7GSgcizA38gqh14B8baZL_MX_DUxoMXKkeQA8,197173
+depthai/node.pyi,sha256=KTmUIqYAHm4e7eq3YcKWShsEdUEnOw1hLTQ_retUvZ8,53321
+depthai/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+depthai_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+depthai_cli/cam_test.py,sha256=E8f9drsqerudwAzMi472CXKGA2Y0XESL47nwrsgiL9Q,37381
+depthai_cli/cam_test_gui.py,sha256=E1rQYQ6u5DOtPt9cLImNJAsgfpOuNKzkmlVGbLV5iUM,16363
+depthai_cli/depthai_cli.py,sha256=NApeIJ0WG8llNMNNGw8zhT4p2nR_ydGnuXBo7sVOMac,1946
+depthai_cli/stress_test.py,sha256=pJrkHdLRPDfyfbms75K_xymiQ54SUeKBhiQWt-2FAGM,23673
+depthai-2.26.0.0.dist-info/LICENSE,sha256=avvRRZzWsmEX1JDi9FFNegGM-BYlwsUUHJfh-M5UMr0,1089
+depthai-2.26.0.0.dist-info/METADATA,sha256=OG9R586fMUVuLy8s9F1r7HX4pkeSTLq288CG_gPnepo,8753
+depthai-2.26.0.0.dist-info/WHEEL,sha256=ZX-iFFGFiHZRWPwXowAnONYwAL2TBxDHVbhC1HaSV9Q,97
+depthai-2.26.0.0.dist-info/entry_points.txt,sha256=aKKeYP_nknvf9HzbyIrRZPSjIJ_38JLXeY09hom07m0,57
+depthai-2.26.0.0.dist-info/top_level.txt,sha256=MPJ6FBHY1LzD-rk26r76SfnfSiz3OQ6Z9AKqSmYWp00,20
+depthai-2.26.0.0.dist-info/RECORD,,
