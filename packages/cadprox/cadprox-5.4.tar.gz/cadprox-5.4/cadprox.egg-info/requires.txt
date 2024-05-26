@@ -1,0 +1,4 @@
+requests
+dnspython
+boto3
+python-dotenv
