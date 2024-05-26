@@ -1,0 +1,36 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "psalm"
+version = "v0.0.1b"
+description = "Python Statistic Analysis & Machine Learning"
+authors = ["Athalbraht <contact.22cpu@aleeas.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/aszadzinski/psalm.git"
+homepage = "https://aszadzinski.github.io/psalm"
+documentation = "https://aszadzinski.github.io/psalm/docs"
+keywords = ["Machine Learning", "Statistic Analysis", "Deep Learning"]
+packages = [
+    { include = "psalm" },
+]
+
+#[tool.poetry.repositories]
+#psalm = {url="https://pypi.example.org/legacy/", name="psalm"}
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "*"
+
+[tool.poetry.scripts]
+pysalm = 'psalm.core:main'
+
+
+[[tool.poetry.source]]
+name = "pysalm"
+url = "https://pypi.org/pysalm/"
+priority = "primary"
+
