@@ -1,0 +1,72 @@
+[project]
+name='QuizEngine4Trivia-TirsvadCLI'
+version = "0.0.5"
+description = "Question Engine for Trivia Queston DB"
+readme = "README.md"
+authors = [
+    {name = "Jens Tirsvad Nielsen"},
+]
+license = {file = "LICENSE"}
+keywords = ["trivia", "quiz", "python"]
+dynamic = ["dependencies"]
+requires-python = ">=3.8"
+classifiers = [
+    'License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Environment :: Console',
+    'Operating System :: OS Independent',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+]
+
+
+[project.urls]
+Homepage = "https://github.com/TirsvadCLI"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+
+[tool.coverage.paths]
+source = [
+    "src/QuizEngine4Trivia",
+    "*/site-packages"
+]
+
+[tool.coverage.run]
+branch = true
+#parallel = true
+source = [
+    "QuizEngine4Trivia",
+#    "tests",
+]
+
+[tool.coverage.report]
+fail_under = 100
+# Regexes for lines to exclude from consideration
+exclude_also = [
+    # Don't complain about missing debug-only code:
+    "def __repr__",
+    "if self\\.debug",
+
+    # Don't complain if tests don't hit defensive assertion code:
+    "raise AssertionError",
+    "raise NotImplementedError",
+
+    # Don't complain if non-runnable code isn't run:
+    "if 0:",
+    "if __name__ == .__main__.:",
+
+    # Don't complain about abstract methods, they aren't run:
+    "@(abc\\.)?abstractmethod",
+    ]
+
+[tool.coverage.html]
+directory = "docs/coverage"
