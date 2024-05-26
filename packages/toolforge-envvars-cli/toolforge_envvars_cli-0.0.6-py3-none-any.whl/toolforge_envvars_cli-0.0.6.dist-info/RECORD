@@ -1,0 +1,9 @@
+toolforge_envvars_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toolforge_envvars_cli/cli.py,sha256=VKi1_lf4IXvgV2sgYPUmcl2_eJje03-AUkD1vnCfIUk,9948
+toolforge_envvars_cli/config.py,sha256=yZ8IIVcsuI68ZgAM5eFaiV4u4FoeNADetrhzwQikwIU,671
+toolforge_envvars_cli/envvars.py,sha256=ztUlNUOugDtcNWYQAo0ot0s_jWlUk6oa9r6A_AxhHjM,3117
+toolforge_envvars_cli-0.0.6.dist-info/LICENSE,sha256=4cCtcomD2KVzNeUs8QZPGv_R1FQXPYzr0-2LSnK0hwQ,35121
+toolforge_envvars_cli-0.0.6.dist-info/METADATA,sha256=cMzoAkMi-0uhDMDJqzwbmlggEBm4LPiw-3SFN8S278c,844
+toolforge_envvars_cli-0.0.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+toolforge_envvars_cli-0.0.6.dist-info/entry_points.txt,sha256=DjfXEFBcBl4gVzae62CuPFAFBAqudiPLTLDBaTzGeJw,68
+toolforge_envvars_cli-0.0.6.dist-info/RECORD,,
