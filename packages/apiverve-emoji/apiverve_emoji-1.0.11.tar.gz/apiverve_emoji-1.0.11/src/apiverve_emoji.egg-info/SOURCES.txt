@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_emoji/__init__.py
+src/apiverve_emoji/apiClient.py
+src/apiverve_emoji/exceptions.py
+src/apiverve_emoji/setup.py
+src/apiverve_emoji.egg-info/PKG-INFO
+src/apiverve_emoji.egg-info/SOURCES.txt
+src/apiverve_emoji.egg-info/dependency_links.txt
+src/apiverve_emoji.egg-info/top_level.txt
+src/apiverve_emoji/tests/__init__.py
+src/apiverve_emoji/tests/test_api.py
+tests/test_api.py
