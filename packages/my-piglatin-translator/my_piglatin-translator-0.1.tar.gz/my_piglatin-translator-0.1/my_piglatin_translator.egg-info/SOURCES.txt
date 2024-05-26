@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+my_piglatin_translator.egg-info/PKG-INFO
+my_piglatin_translator.egg-info/SOURCES.txt
+my_piglatin_translator.egg-info/dependency_links.txt
+my_piglatin_translator.egg-info/top_level.txt
+piglatin/__init__.py
+piglatin/translator.py
+test/test_translator.py

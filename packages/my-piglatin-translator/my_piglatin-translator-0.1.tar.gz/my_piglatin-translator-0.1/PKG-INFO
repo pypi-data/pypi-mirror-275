@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: my_piglatin-translator
+Version: 0.1
+Summary: A simple Pig Latin translator
+Home-page: https://github.com/haru0039633/my_piglatin-translator
+Author: haruuuu003
+Author-email: s2222101@stu.musashino-u.ac.jp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pig Latin Translator
+
+A simple Python package to translate English sentences into Pig Latin.
+
+## Installation
+
+```bash
+pip install piglatin-translator
+```
