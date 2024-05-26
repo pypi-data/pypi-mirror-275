@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "sdmxschemas"
+version = "0.1.0"
+description = "SDMX schemas for Python"
+authors = ["Francisco Javier Hernandez del Caño <javier.hernandez@meaningfuldata.eu>"]
+readme = "README.md"
+packages = [
+    { include = "sdmxschemas", from = "."}
+]
+keywords = ["sdmx"]
+repository = "https://github.com/Meaningful-Data/sdmx-schemas"
+license = "Apache-2.0"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Typing :: Typed"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
