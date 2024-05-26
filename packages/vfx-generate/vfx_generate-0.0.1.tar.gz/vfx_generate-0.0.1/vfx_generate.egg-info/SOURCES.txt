@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+vfx_generate/__init__.py
+vfx_generate/main.py
+vfx_generate.egg-info/PKG-INFO
+vfx_generate.egg-info/SOURCES.txt
+vfx_generate.egg-info/dependency_links.txt
+vfx_generate.egg-info/requires.txt
+vfx_generate.egg-info/top_level.txt
