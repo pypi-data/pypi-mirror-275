@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: vishgraphs
+Version: 0.2
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+
+# VishGraphs Manual
+
+Welcome to VishGraphs - your go-to Python library for making random graphs
+
+## Introduction
+
+VishGraphs is a versatile Python library designed to simplify graph visualization and analysis tasks. Whether you're a data scientist, researcher, or hobbyist, VishGraphs provides intuitive tools to generate, visualize, and analyze graphs with ease.
+
+## Features
+
+- Generate random graphs with customizable parameters.
+- Visualize graphs in both 2D and 3D.
+- Analyze graph properties such as connectivity and centrality.
+- Export graphs to various formats for further analysis or presentation.
+
+## Installation
+
+You can install VishGraphs via pip:
+
+
+pip install vishgraphs
+
+
+
+
+# VishGraphs Manual
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Usage](#usage)
+    - [Generating Random Graphs](#generating-random-graphs)
+    - [Drawing Graphs](#drawing-graphs)
+4. [Examples](#examples)
+5. [Troubleshooting](#troubleshooting)
+6. [Contributing](#contributing)
+7. [License](#license)
+
+## Introduction
+VishGraphs is a Python library for graph visualization and analysis. It provides tools for generating random graphs, drawing graphs in 2D and 3D, and analyzing graph properties.
+
+## Installation
+To install VishGraphs, you can use pip:
+```
+pip install vishgraphs
+```
+
+## Usage
+### Generating Random Graphs
+To generate a random graph, you can use the `generate_random_graph` function:
+```python
+import vishgraphs
+
+graph_file = vishgraphs.generate_random_graph(10, "random_graph.csv")
+```
+
+### Drawing Graphs
+VishGraphs supports drawing graphs in both 2D and 3D:
+```python
+adj_matrix = vishgraphs.bipartite_matrix_maker(graph_file)
+nodes = list(range(len(adj_matrix)))
+top_nodes = [0, 1, 2]  # Example top nodes
+vishgraphs.draw_graph(adj_matrix, nodes, top_nodes)
+```
+
+## Examples
+### Example 1: Generating and Drawing a Random Graph
+```python
+import vishgraphs
+
+graph_file = vishgraphs.generate_random_graph(10, "random_graph.csv")
+adj_matrix = vishgraphs.bipartite_matrix_maker(graph_file)
+nodes = list(range(len(adj_matrix)))
+top_nodes = [0, 1, 2]  # Example top nodes
+vishgraphs.draw_graph(adj_matrix, nodes, top_nodes)
+```
+
+## Troubleshooting
+If you encounter any issues while using VishGraphs, please check the documentation or open an issue on the GitHub repository.
+
+## Contributing
+Contributions to VishGraphs are welcome! You can contribute by reporting bugs, submitting feature requests, or creating pull requests.
+
+## License
+VishGraphs is distributed under the MIT License.
+```
+
+With this index, users can quickly navigate to different sections of your manual using the provided links.

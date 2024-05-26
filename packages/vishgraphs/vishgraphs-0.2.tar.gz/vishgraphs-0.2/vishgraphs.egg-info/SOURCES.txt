@@ -1,0 +1,7 @@
+README.md
+setup.py
+vishgraphs.egg-info/PKG-INFO
+vishgraphs.egg-info/SOURCES.txt
+vishgraphs.egg-info/dependency_links.txt
+vishgraphs.egg-info/requires.txt
+vishgraphs.egg-info/top_level.txt
