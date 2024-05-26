@@ -1,0 +1,15 @@
+bencode_c-0.0.14.dist-info/RECORD,,
+bencode_c-0.0.14.dist-info/WHEEL,sha256=yLSm4JFsS6Mjwx6BeXlNydJPqlqt6VSBu4t16vRg8As,109
+bencode_c-0.0.14.dist-info/top_level.txt,sha256=6WH9oUHpNMJqzsKzpS0-ufBqUp7u3YIwKzjTDhk7iWA,10
+bencode_c-0.0.14.dist-info/METADATA,sha256=S-hcD_lcejgNt53hLezBRd2zPqHAmMmv49Fdz_dUqYM,6592
+bencode_c/__init__.pyi,sha256=alv-9mdrA1otzxyj_nu9lzgfaq0yDnLodYwvGg91s80,181
+bencode_c/decode.c,sha256=WCp1EPTieBh3E4CrtZJHwRZqwjp0ZcvOmMem6W_rKN8,8142
+bencode_c/__init__.py,sha256=8ZvONC70SokH1wInuzF7xkIR9NsQuigg1N8lYmbiV6M,206
+bencode_c/encode.c,sha256=1PbP6cC0SqcSli90ls1F-7XfB0RnbEoU53nPI9o0_nU,10792
+bencode_c/_bencode.abi3.so,sha256=Tb-VPR-6eaFXP6qlaSVpSjHHOWzDje7mAkwzrNg-Fwc,38896
+bencode_c/common.h,sha256=d57pDga0XAmLeKGdmAEvtxpbq-2ur0tcBB0hk9ors8I,2463
+bencode_c/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bencode_c/overflow.h,sha256=1_cVcV4qG_hBb559ubzmG0JYWcEU18KSRKmcAytLjsk,1038
+bencode_c/str.h,sha256=4LxhFWQZoIWwsP0SrUeyw3FSzLTZSbOzm17t4ES-aNs,977
+bencode_c/bencode.c,sha256=EUjpagwzxwHWZUSgYQkCH24rkQC5tPd25aUof4tVdRE,1437
+bencode_c/ctx.h,sha256=9-Db7lV5ncJDZnFcnZnXJdZy1Dy5oIaGh1JJZ1CMOyE,2351
