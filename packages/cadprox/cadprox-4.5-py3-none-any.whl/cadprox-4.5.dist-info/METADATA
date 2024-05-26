@@ -1,0 +1,190 @@
+Metadata-Version: 2.1
+Name: cadprox
+Version: 4.5
+Summary: A tool to manage Caddy reverse proxy configurations with Cloudflare DNS.
+Home-page: https://github.com/reegen66/cadprox
+Author: Piotr Tamu (Thriveroute.com)
+Author-email: nonyour@ssenisub.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: dnspython
+Requires-Dist: boto3
+Requires-Dist: python-dotenv
+
+# CADProxy
+
+CADProxy is a tool designed to manage Caddy reverse proxy configurations with Cloudflare DNS. This tool simplifies the process of configuring reverse proxy setups and managing DNS records, utilizing AWS S3 for storing configuration profiles.
+
+## Features
+
+- **Automatic DNS Record Management:** Automatically adds DNS records to Cloudflare.
+- **Caddy Configuration Management:** Updates Caddy configuration with new reverse proxy entries.
+- **AWS S3 Integration:** Stores and retrieves Caddy configuration profiles from S3.
+- **Profile Management:** Easily create and manage different configuration profiles for different domains.
+
+## Requirements
+
+- Python 3.11 or higher
+- Caddy server
+- Cloudflare API token and zone ID
+- AWS S3 access key and secret key
+- `dig` command-line tool for DNS resolution checks
+
+## Installation
+
+You can install CADProxy using pip:
+
+```bash
+pip install cadprox
+```
+
+## Configuration
+
+### Environment Variables
+
+Create a `.env` file in the root directory of your project with the following content:
+
+```
+S3_ACCESS_KEY=<your_s3_access_key>
+S3_SECRET_KEY=<your_s3_secret_key>
+S3_REGION=<your_s3_region>
+S3_BUCKET=<your_s3_bucket_name>
+S3_CADDY_FILENAME=Caddyfile  # Default filename, can be changed per profile
+```
+
+### Initial Setup
+
+1. **Create a Profile:**
+
+   Run the following command to create a new profile:
+
+   ```bash
+   cadprox create <main_domain>
+   ```
+
+   You will be prompted to enter the following details:
+   - Cloudflare API token
+   - Cloudflare Zone ID
+   - S3 Caddy filename (optional, defaults to `Caddyfile`)
+   - Main domain
+
+   Example:
+
+   ```bash
+   cadprox create aiagency.dev
+   ```
+
+## Usage
+
+1. **Add a New Subdomain:**
+
+   To add a new subdomain and configure the reverse proxy, run:
+
+   ```bash
+   cadprox add <subdomain> -p <port>
+   ```
+
+   Example:
+
+   ```bash
+   cadprox add subdomain.aiagency.dev -p 8080
+   ```
+
+   This command performs the following actions:
+   - Adds a DNS record for the subdomain in Cloudflare.
+   - Waits until the DNS record is resolvable.
+   - Downloads the current Caddyfile from the specified S3 bucket.
+   - Updates the Caddyfile with the new reverse proxy entry.
+   - Uploads the updated Caddyfile back to S3.
+   - Reloads the Caddy server with the new configuration.
+
+## Detailed Workflow
+
+1. **Create Profile:**
+
+   - Prompts user for Cloudflare and S3 details.
+   - Stores these details in a `caddy_profiles.json` file in the specified S3 bucket.
+
+2. **Add Subdomain:**
+
+   - Validates input and environment variables.
+   - Retrieves external IP of the server.
+   - Adds DNS record to Cloudflare.
+   - Waits for DNS propagation.
+   - Downloads the Caddyfile from S3.
+   - Updates the Caddyfile with new reverse proxy settings.
+   - Uploads the updated Caddyfile to S3.
+   - Reloads the Caddy server.
+
+## Logging and Error Handling
+
+CADProxy uses Python's `logging` module for logging information, errors, and debugging messages. Logs are displayed in the console for easy tracking of actions and errors.
+
+### Example Output
+
+```bash
+CLOUDFLARE_API_TOKEN: <hidden>
+CLOUDFLARE_ZONE_ID: <hidden>
+S3_CADDY_FILENAME: Caddyfile
+MAIN_DOMAIN: aiagency.dev
+INFO: Downloaded Caddyfile from S3 bucket caddy-configs
+INFO: Successfully added DNS record: subdomain.aiagency.dev -> 192.0.2.1
+INFO: subdomain.aiagency.dev is now resolvable
+INFO: Updated Caddyfile with new entry for subdomain.aiagency.dev
+INFO: Uploaded Caddyfile to S3 bucket caddy-configs
+INFO: Caddy server reloaded successfully
+```
+
+## Docker
+
+First you need to create a caddy network:
+```bash
+docker network create caddy_network
+```
+Then run caddy docker
+```bash
+mkdir -p ~/cadprox_config && touch ~/cadprox_config/Caddyfile_docker && docker run -d \
+    --name caddy \
+    --network caddy_network \
+    -p 8555:443 \
+    -v ~/cadprox_config/Caddyfile_docker:/etc/caddy/Caddyfile \
+    -v caddy_data:/data \
+    -v caddy_config:/config \
+    caddy:latest
+
+```
+
+```bash
+mkdir -p ~/cadprox_config && touch ~/cadprox_config/Caddyfile_docker &&  docker run -d \
+    --name caddy \
+    --network caddy_network \
+    -p 8555:443 \
+    -v ~/cadprox_config/Caddyfile_docker:/etc/caddy/Caddyfile \
+    -v caddy_data:/data \
+    -v caddy_config:/config \
+    caddy:latest
+
+```
+
+docker exec caddy caddy fmt --overwrite /etc/caddy/Caddyfile
+docker exec caddy caddy reload --config /etc/caddy/Caddyfile 
+
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request on GitHub.
+
+## Contact
+
+For any issues, questions, or suggestions, please open an issue on the [GitHub repository](https://github.com/yourusername/cadprox).
+More info [Thriveroute.com](https://Thriveroute.com).
