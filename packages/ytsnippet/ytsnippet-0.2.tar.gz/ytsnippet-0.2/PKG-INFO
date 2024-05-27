@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ytsnippet
+Version: 0.2
+Summary: A simple code snippet manager
+Home-page: https://github.com/yourusername/ytsnippet
+Author: Your Name
+Author-email: s2222038@stu.musashino-u.ac.jp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: prompt_toolkit
+
+# Snippet Manager
+
+A simple command-line tool to manage code snippets.
+
+## Installation
+
+```sh
+pip install ytsnippet
+```
