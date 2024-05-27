@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_textsimilarity/__init__.py
+src/apiverve_textsimilarity/apiClient.py
+src/apiverve_textsimilarity/exceptions.py
+src/apiverve_textsimilarity/setup.py
+src/apiverve_textsimilarity.egg-info/PKG-INFO
+src/apiverve_textsimilarity.egg-info/SOURCES.txt
+src/apiverve_textsimilarity.egg-info/dependency_links.txt
+src/apiverve_textsimilarity.egg-info/top_level.txt
+src/apiverve_textsimilarity/tests/__init__.py
+src/apiverve_textsimilarity/tests/test_api.py
+tests/test_api.py
