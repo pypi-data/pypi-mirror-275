@@ -1,0 +1,25 @@
+Metadata-Version: 2.3
+Name: ricklib
+Version: 0.0.1
+Summary: A small package for personal use including useful operations.
+Project-URL: Homepage, https://github.com/rick-howell/ricklib
+Project-URL: Issues, https://github.com/rick-howell/ricklib/issues
+Author-email: "Richard (Rick) Howell" <rick.howell.arts@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# ricklib
+
+This is a work in progress library for things like rendering mathematical images / making art and manipulating audio.
+
+# Modules
+
+## graphics
+
+### pngenerator
+
+Creates png files from lists
