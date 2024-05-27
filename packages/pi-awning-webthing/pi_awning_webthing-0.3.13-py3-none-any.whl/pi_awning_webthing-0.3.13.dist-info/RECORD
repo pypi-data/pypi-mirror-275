@@ -1,0 +1,12 @@
+pi_awning_webthing/__init__.py,sha256=ufUOcC4osjCHZQ0gVDC0ob7EEVKPmfgcEhq1N4dBWws,2418
+pi_awning_webthing/app.py,sha256=VZqZ6nN_ca1SWt2d2dIkeg-b4CFCIiXejO2WbW7b7gk,5995
+pi_awning_webthing/awning.py,sha256=oxhEIAUL3HpjPzwBFKidd5_982C2CzevxdNxh1jByNQ,8738
+pi_awning_webthing/awning_webthing.py,sha256=mwQSI4xBwiQY9u6Xfy4vOFpv9nqjk1Icf4F7XMypHJo,3681
+pi_awning_webthing/motor_tb6612Fng.py,sha256=tGqw5m8XnsE4BAH2k76v0e25xswt2zAz-ckn8CwD6SQ,2756
+pi_awning_webthing/switch.py,sha256=0OfSjXaxCToTs89NunxbQ213BY_6J5MhNofOg3zqQcc,2075
+pi_awning_webthing-0.3.13.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pi_awning_webthing-0.3.13.dist-info/METADATA,sha256=q_7-ajapLbUNZK6aGgTSHCzxMOPNptjfWe0HKs3f7Dg,5316
+pi_awning_webthing-0.3.13.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pi_awning_webthing-0.3.13.dist-info/entry_points.txt,sha256=iprkUvQE-DPdtq_BSdt9Ifvkv1meEKeQIiJ8kN6z2_k,52
+pi_awning_webthing-0.3.13.dist-info/top_level.txt,sha256=Nd4ZigvFb0tmPcjiQPuhB0sLRb7dI-JyaFkp_UIcTcs,19
+pi_awning_webthing-0.3.13.dist-info/RECORD,,
