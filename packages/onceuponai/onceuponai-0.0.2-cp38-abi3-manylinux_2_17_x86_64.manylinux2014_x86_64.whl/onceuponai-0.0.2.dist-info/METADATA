@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: onceuponai
+Version: 0.0.2
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: AI utils library
+License: Apache-2.0
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: repository, https://github.com/onceuponai-dev/onceuponai
+
+# Adventures with AI
+
+
