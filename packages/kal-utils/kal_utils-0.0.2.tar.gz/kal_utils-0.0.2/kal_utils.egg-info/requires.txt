@@ -1,0 +1,9 @@
+numpy
+httpx
+fastapi
+
+[all]
+kal-utils[extra]
+
+[extra]
+pandas
