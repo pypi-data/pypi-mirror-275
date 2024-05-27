@@ -1,0 +1,2 @@
+[console_scripts]
+flashcardpro = flashcardpro.__main__:main

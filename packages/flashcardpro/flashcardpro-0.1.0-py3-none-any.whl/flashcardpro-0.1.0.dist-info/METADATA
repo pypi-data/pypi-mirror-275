@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: flashcardpro
+Version: 0.1.0
+Summary: A flashcard creation and learning application
+Home-page: https://github.com/fuhma0q0/flashcardpro
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Django <4.0,>=3.0
+Requires-Dist: djangorestframework
+Requires-Dist: django-cors-headers
+
+# FlashcardPRO
+
+FlashcardPRO is a flashcard creation and learning application built with Django and React.
+
+## Features
+
+- Create flashcards with questions and answers
+- View and delete flashcards
+- REST API for managing flashcards
+
+## Installation
+
+1. Clone the repository:
+
+```sh
+git clone https://github.com/fuhma0q0/flashcardpro.git
+cd flashcardpro
