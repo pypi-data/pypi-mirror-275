@@ -1,0 +1,10 @@
+README.md
+setup.py
+SimpleVoiceAssistant/SimpleVoiceAssistant.py
+SimpleVoiceAssistant/__init__.py
+SimpleVoiceAssistant/ollm.py
+SimpleVoiceAssistant.egg-info/PKG-INFO
+SimpleVoiceAssistant.egg-info/SOURCES.txt
+SimpleVoiceAssistant.egg-info/dependency_links.txt
+SimpleVoiceAssistant.egg-info/requires.txt
+SimpleVoiceAssistant.egg-info/top_level.txt
