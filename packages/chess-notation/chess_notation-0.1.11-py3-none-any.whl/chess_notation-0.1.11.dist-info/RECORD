@@ -1,0 +1,17 @@
+chess_notation/__init__.py,sha256=Cz8PxROGT6vLEdTsToE_ItCqzTKeTCE-HVFxCOFwIHI,181
+chess_notation/__init__.pyi,sha256=cQF-fTMvG1hoaRAQ2PDavW1qHAyGugeCY-Igj3Ub49E,649
+chess_notation/notation.py,sha256=2M2xUOdct36E_CqJq2k63kswvCHw5Jx0qJP7XuW27PE,1788
+chess_notation/language/__init__.py,sha256=GpJSmStNqDWlQIddKyF4pRaYEjqieIlEJ5xMX8Yoeh4,66
+chess_notation/language/language.py,sha256=gnXx9PP7LI8saLO5ushVBB_nv26tgsnORzLAvkfwRz8,700
+chess_notation/language/translations.json,sha256=5oJXPyVxMJB9pvyz2bWSu-MK30drDPPpDwJ3P-e2hDY,1641
+chess_notation/represent/__init__.py,sha256=RVBc_WxlDmNcb_URSa6gkEllKRxbGUPd8323vurwSb0,139
+chess_notation/represent/represent.py,sha256=5qGX6UhCC5Uxcrj2yHygicIm1JUuQae6C1PlzTBNu5A,2651
+chess_notation/styles/__init__.py,sha256=4AMpCsij4B2VSl8T6Vfasus0U4JaiDy8yRfQLYwainQ,363
+chess_notation/styles/apply.py,sha256=-_i5h5z6QD36eh8_qMev0cM_EYBu9-IzWTDRkt4IcIE,1330
+chess_notation/styles/classify.py,sha256=yiFVTLq00zveS778qM1umDbhfuHU0soktPLy7pfUVDk,1057
+chess_notation/styles/map.py,sha256=QgyjgrXbNvIqPJsLn34BVsIMwRl2Q3RuTNTer-hsyZg,2364
+chess_notation/styles/styles.py,sha256=7hHUvdSTXXmqfQkns2N0Z1YxRX7RZf22CJgVFFHNy58,248
+chess_notation-0.1.11.dist-info/METADATA,sha256=yGBXN0z0YGJ527BJXBICMN3OCLka5ndpWiqoL4vzwg4,445
+chess_notation-0.1.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+chess_notation-0.1.11.dist-info/top_level.txt,sha256=EZU2RNdMWwR5BkhE_Ag9ZfmzMCjmd0U7oH9TXG975iE,15
+chess_notation-0.1.11.dist-info/RECORD,,
