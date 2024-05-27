@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_seoscraper/__init__.py
+src/apiverve_seoscraper/apiClient.py
+src/apiverve_seoscraper/exceptions.py
+src/apiverve_seoscraper/setup.py
+src/apiverve_seoscraper.egg-info/PKG-INFO
+src/apiverve_seoscraper.egg-info/SOURCES.txt
+src/apiverve_seoscraper.egg-info/dependency_links.txt
+src/apiverve_seoscraper.egg-info/top_level.txt
+src/apiverve_seoscraper/tests/__init__.py
+src/apiverve_seoscraper/tests/test_api.py
+tests/test_api.py
