@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: infn-ophyd-hal
+Version: 1.0.5
+Summary: Ophyd HAL for controlling motors, cameras, magnets... specifically INFN facilities
+Author: Andrea Michelotti
+Author-email: andrea.michelotti@infn.it
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.3
