@@ -1,0 +1,10 @@
+README.md
+setup.py
+tests/test_timetrace.py
+timetrace/__init__.py
+timetrace/timetrace.py
+timetrace.egg-info/PKG-INFO
+timetrace.egg-info/SOURCES.txt
+timetrace.egg-info/dependency_links.txt
+timetrace.egg-info/requires.txt
+timetrace.egg-info/top_level.txt
