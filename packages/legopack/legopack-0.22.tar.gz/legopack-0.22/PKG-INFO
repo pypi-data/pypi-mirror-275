@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: legopack
+Version: 0.22
+Summary: personal
+Author: Remi Prince
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: streamad
+
+## Models for Lego4.0 Project
