@@ -1,0 +1,8 @@
+keras_mdn_layer/__init__.py,sha256=iHpFGdm2Kx4ZF4hsUQuc5qLM016wQ48os_otIRgNcRw,11003
+keras_mdn_layer/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keras_mdn_layer/tests/test_mdn.py,sha256=s3UzaIQ71WkW38K5BAbpbbX_8tF4wz4ft742JfJsyv4,1755
+keras_mdn_layer/version.py,sha256=qBs4HqYsPn6yUHWEuCN4rGUC05gABbl800d8LBd8h9w,22
+keras_mdn_layer-0.4.1.dist-info/LICENSE.md,sha256=jnbna6p-Yx2oDGjcXqA6StZU1XFF9KkvUo8QIOYjZe0,1055
+keras_mdn_layer-0.4.1.dist-info/METADATA,sha256=_d1DfJ_a3Mxd75afw2Wk8-1-4fO9avGN7k7zmi4DOxQ,7277
+keras_mdn_layer-0.4.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+keras_mdn_layer-0.4.1.dist-info/RECORD,,
