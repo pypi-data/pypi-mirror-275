@@ -1,0 +1,2 @@
+[console_scripts]
+original_janken = original_janken:main
