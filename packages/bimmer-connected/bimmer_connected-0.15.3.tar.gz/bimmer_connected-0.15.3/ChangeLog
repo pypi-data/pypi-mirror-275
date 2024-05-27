@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.15.3
+------
+
+* Update timezone handling for time only data (#617)
