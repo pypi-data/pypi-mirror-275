@@ -1,0 +1,6 @@
+playwright_page_pool/__init__.py,sha256=O310_ev4SGgK3xchuuMZtqSt_Ac0FojZJJjBt7yZxqs,44
+playwright_page_pool/page_pool.py,sha256=Ldw8ZIavBEq5EOtbU3oaI4KPUV3oROWEsqaUm6eaLOw,4292
+playwright_page_pool-0.1.0.dist-info/LICENSE,sha256=TQQEBQuzVJORSlKVqnMYxqOXsQS6YJXQS7Z3hmyGya0,1068
+playwright_page_pool-0.1.0.dist-info/METADATA,sha256=xQNlKAlQB9cdINxq9O7ENEfQqrfBr_h7RxfCeVeWDKc,4489
+playwright_page_pool-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+playwright_page_pool-0.1.0.dist-info/RECORD,,
