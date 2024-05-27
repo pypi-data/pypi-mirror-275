@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: iperturb
+Version: 0.2.2
+Summary: Atlas-level data integration in multi-condition single-cell genomics
+Home-page: https://github.com/BillyChen123/iPerturb
+Author: Billy Chen
+Author-email: cyz2022@stu.xjtu.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: anndata (>=0.7.4)
+Requires-Dist: numpy (>=1.18.5)
+Requires-Dist: pandas (>=1.1.1)
+Requires-Dist: pyro-ppl
+Requires-Dist: scanpy (>=1.6.0)
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: setuptools
+Requires-Dist: torch
+
+# iperturb
+
+iPerutrb使用变分自动编码器实现了人群规模单细胞数据的多条件整合。
+
+## 安装
+
+使用 pip 安装：
+
+```bash
+pip install iperturb
+```
+
+## 使用
+
+安装完成后，可以在Python代码中使用 iPerturb 包中的函数和类。
+
+例如：
+
+```python
+import iperturb
+
+# 导入必要的数据集，以及batch_key,condition_key,groundtruth_key(可省略)等参数
+dataset = 'Pbmc'
+batch_key = 'batch_2'
+condition_key = 'batch'
+groundtruth_key = 'groundtruth'
+
+print(dataset+' done!')
+# real data
+anndata = sc.read_h5ad('/data/chenyz/iPerturb_project/data/' +dataset +'.h5ad')
+savepath = '/data/chenyz/iPerturb_project/Score/result/Result/'+ dataset
+
+
+datasets,raw,var_names,index_names = iperturb.preprocess.data_load(anndata, batch_key = batch_key ,condition_key = condition_key ,groundtruth_key = groundtruth_key ,n_top_genes = 4000)
+hyper = iperturb.utils.create_hyper(datasets,var_names,index_names)
+# 训练模型
+epochs = 30
+
+svi,scheduler,iPerturb_model = iperturb.model.model_init_(hyper, latent_dim1=100, latent_dim2=30, latent_dim3=30, 
+                                                            optimizer = Adam, lr = 0.006, gamma = 0.2, milestones = [20], 
+                                                            set_seed=123, cuda = cuda, alpha = 1e-4)
+x_pred,reconstruct_data = iperturb.model.RUN(datasets,iPerturb_model,svi,scheduler,epochs,hyper,raw,cuda,batch_size=100,if_likelihood=True)
+
+```
+    
+`
+
