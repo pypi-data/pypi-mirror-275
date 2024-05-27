@@ -1,0 +1,7 @@
+README.md
+setup.py
+super-ec2/__init__.py
+super_ec2.egg-info/PKG-INFO
+super_ec2.egg-info/SOURCES.txt
+super_ec2.egg-info/dependency_links.txt
+super_ec2.egg-info/top_level.txt
