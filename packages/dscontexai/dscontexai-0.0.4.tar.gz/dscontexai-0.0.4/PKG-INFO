@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: dscontexai
+Version: 0.0.4
+Summary: ConteXAI
+Home-page: UNKNOWN
+Author: Jovana V., Haris K., Luka M.
+Author-email: <youremail@email.com>
+License: UNKNOWN
+Description: xAI for everyone!
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
