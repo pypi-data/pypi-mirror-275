@@ -1,0 +1,7 @@
+image_transforms-0.0.3.dev0.dist-info/METADATA,sha256=ElII9TjYIptkwc95uizAtcXOLABDFbWNSDMCbEOeZGc,401
+image_transforms-0.0.3.dev0.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+image_transforms-0.0.3.dev0.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+imgtfs/__init__.py,sha256=hG3xauqG37Vsj0CPUzvUSJ7lUQKwvtoFwpW1cm3A0Eo,42
+imgtfs/base.py,sha256=reSQHOK0jKQx34bN9P2F1xUB83wCtH1HjUPA9OiLKk4,158
+imgtfs/gray.py,sha256=1Jl7OeQ1hNmswkChqrbwg6w8DGlpNXvX-OSzG8rW0qo,3581
+image_transforms-0.0.3.dev0.dist-info/RECORD,,
