@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: goit-phone-book-bot
+Version: 0.1.1
+Summary: Phone Book bot developed by team #5 - CREATORS
+Home-page: https://github.com/VasylMartyniv/GoIT_Phone_Book_bot
+Author: Vasyl Martyniv
+Author-email: doc.people97@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyreadline3
+Requires-Dist: tabulate
+
+
+# Installing and launching the application
+
+- Clone 
+- python -m venv venv
+- venv\Scripts\activate
+- pip install -r requirements.txt
+- py main.py
+
+#### To select a command, a letter followed by a TAB and ENTER
+
+
+
