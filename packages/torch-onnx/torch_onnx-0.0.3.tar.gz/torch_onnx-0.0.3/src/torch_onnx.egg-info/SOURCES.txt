@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/torch_onnx/__init__.py
+src/torch_onnx/_core.py
+src/torch_onnx/_patch.py
+src/torch_onnx.egg-info/PKG-INFO
+src/torch_onnx.egg-info/SOURCES.txt
+src/torch_onnx.egg-info/dependency_links.txt
+src/torch_onnx.egg-info/requires.txt
+src/torch_onnx.egg-info/top_level.txt
