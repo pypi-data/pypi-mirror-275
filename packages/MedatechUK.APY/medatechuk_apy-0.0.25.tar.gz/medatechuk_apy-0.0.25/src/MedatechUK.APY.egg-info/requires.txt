@@ -1,0 +1,6 @@
+
+[pyodbc]
+pyodbc>=5.0
+
+[xmltodict]
+xmltodict>=0.13

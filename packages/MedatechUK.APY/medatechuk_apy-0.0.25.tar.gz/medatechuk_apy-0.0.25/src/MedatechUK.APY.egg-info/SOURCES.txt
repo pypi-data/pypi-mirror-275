@@ -1,0 +1,9 @@
+README.md
+licence
+pyproject.toml
+setup.cfg
+src/MedatechUK.APY.egg-info/PKG-INFO
+src/MedatechUK.APY.egg-info/SOURCES.txt
+src/MedatechUK.APY.egg-info/dependency_links.txt
+src/MedatechUK.APY.egg-info/requires.txt
+src/MedatechUK.APY.egg-info/top_level.txt
