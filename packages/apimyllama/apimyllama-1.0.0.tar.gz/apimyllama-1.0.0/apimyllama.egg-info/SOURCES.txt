@@ -1,0 +1,8 @@
+README.md
+apimyllama.py
+setup.py
+apimyllama.egg-info/PKG-INFO
+apimyllama.egg-info/SOURCES.txt
+apimyllama.egg-info/dependency_links.txt
+apimyllama.egg-info/requires.txt
+apimyllama.egg-info/top_level.txt
