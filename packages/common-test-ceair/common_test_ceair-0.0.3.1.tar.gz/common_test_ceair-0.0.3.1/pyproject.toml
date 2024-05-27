@@ -1,0 +1,5 @@
+[project]
+name = "common_test_ceair"
+version = "0.0.3.1"
+
+dependencies = ["requests"]
