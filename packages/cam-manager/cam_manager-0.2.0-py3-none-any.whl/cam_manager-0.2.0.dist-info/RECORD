@@ -1,0 +1,10 @@
+cam_manager/__init__.py,sha256=uqLgF1msvHUfiEKMou4mKyLXUMc9k0AiWcDVl3xXzi0,36
+cam_manager/cam_ai.py,sha256=odfxy3bdTBzVjCa-SJtA88f6fl3BkhBM-uMV302r1yc,3102
+cam_manager/cam_control.py,sha256=rwMZTkvJqk01td6gBy0IGomcWACK0un6cgket48faj4,3589
+cam_manager/cam_effects.py,sha256=H2RebOJMPAPQsvQyoR0vJqcLjgCNBaySCOFHWF130JM,1609
+cam_manager/cam_info.py,sha256=Ql37OYWCL7ggffYbd8Zy5lWwimJnHI5BbRr9cgBEYD4,1129
+cam_manager/cam_manager.py,sha256=1qlxJkBHB_8TrP-mJSEWbW_ktuXbU6cvyfylVUYCzcM,476
+cam_manager-0.2.0.dist-info/METADATA,sha256=cR8PMNF_SrkFARhuMsQqBbSpj6FRjlyoy4DHKB6IKok,2661
+cam_manager-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cam_manager-0.2.0.dist-info/top_level.txt,sha256=uWLl4ZxwwoRijSnr8keA5xhlODrl09voT13c-Meb6pI,12
+cam_manager-0.2.0.dist-info/RECORD,,
