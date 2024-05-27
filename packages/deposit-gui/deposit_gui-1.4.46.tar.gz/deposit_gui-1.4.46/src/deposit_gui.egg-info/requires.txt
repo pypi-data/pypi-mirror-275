@@ -1,0 +1,2 @@
+deposit<1.5,>=1.4.42
+svgelements<2,>=1.8.1
