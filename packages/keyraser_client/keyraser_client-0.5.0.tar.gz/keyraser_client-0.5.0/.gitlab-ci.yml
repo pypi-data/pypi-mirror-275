@@ -1,0 +1,58 @@
+# using image from https://gitlab.com/python-devs/ci-images/-/tree/main
+image: registry.gitlab.com/python-devs/ci-images:active
+
+stages:
+  - build
+  - tests
+  - deploy
+
+# DinD service is required for Testcontainers
+services:
+  - name: docker:dind
+    # explicitly disable tls to avoid docker startup interruption
+    command: ["--tls=false"]
+
+variables:
+  # Instruct Testcontainers to use the daemon of DinD, use port 2375 for non-tls connections.
+  DOCKER_HOST: "tcp://docker:2375"
+  # Instruct Docker not to start over TLS.
+  DOCKER_TLS_CERTDIR: ""
+  # Improve performance with overlayfs.
+  DOCKER_DRIVER: overlay2
+  GO_CLIENT_VERSION: 0.5.0
+
+build docs:
+  stage: build
+  script:
+    - git config --global --add safe.directory /builds/kantai/keyraser/python-client
+    - pip --quiet install tox
+    - tox -e docs
+
+test:
+  stage: tests
+  coverage: '/^TOTAL.*\s+(\d+\%)$/'
+  before_script:
+    - wget https://s3.eu-central-1.amazonaws.com/download-kantai-objects/keyraser/v${GO_CLIENT_VERSION}/keyraser-go-client_${GO_CLIENT_VERSION}_Linux_x86_64.tar.gz
+    - mkdir kr-client
+    - cd kr-client
+    - tar xvfz ../keyraser-go-client_${GO_CLIENT_VERSION}_Linux_x86_64.tar.gz
+    - export KR_BINARIES=`pwd`
+  script:
+    - git config --global --add safe.directory /builds/kantai/keyraser/python-client
+    - pip --quiet install tox
+    - tox
+  artifacts:
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: 'coverage.xml'
+
+pypi:
+  stage: deploy
+  image: python
+  only:
+    - tags
+  script:
+    - git config --global --add safe.directory /builds/kantai/keyraser/python-client
+    - pip --quiet install flit
+    - flit publish

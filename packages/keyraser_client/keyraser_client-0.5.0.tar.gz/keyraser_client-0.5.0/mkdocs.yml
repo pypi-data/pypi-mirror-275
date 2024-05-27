@@ -1,0 +1,59 @@
+site_name: Keyraser Python client
+site_url: https://docs.kant.ai/keyraser/python-client/
+repo_url: https://gitlab.com/kantai/keyraser/python-client/
+site_dir: build
+
+nav:
+  - Home: index.md
+  - Getting started: getting_started.md
+  - User guide: user_guide.md
+  - FAQ: faq.md
+  - Changelog: changelog.md
+  - API: api.md
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  features:
+    - navigation.tracking
+  icon:
+    repo: fontawesome/brands/gitlab
+  palette:
+    scheme: kantai
+  logo: icon_white.svg
+  favicon: favicon.svg
+
+markdown_extensions:
+  - toc:
+      permalink: 🔗
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - admonition
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  analytics:
+    provider: plausible
+    domain: docs.kant.ai
+  comments:
+    provider: glossa
+    apiKey: 6Z1noDe3Eh9RFtmm6apOj9t4NRhm9SRA4eqC1o6k
+  homepage: https://docs.kant.ai
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/kantaiML
+      name: kantai on Twitter
+  version:
+    provider: mike
+
+copyright: Copyright &copy; 2024 Kantai GmbH
+
+plugins:
+  - git-revision-date
+  - search
+  - autorefs
+  - mkdocstrings
