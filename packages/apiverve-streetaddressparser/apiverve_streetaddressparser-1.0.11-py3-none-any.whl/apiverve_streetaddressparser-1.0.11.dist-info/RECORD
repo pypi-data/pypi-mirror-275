@@ -1,0 +1,11 @@
+apiverve_streetaddressparser/__init__.py,sha256=NdBVvxkCx9sJeDmZ_h7-B63abRNR6OEpCibU6fx4pOY,51
+apiverve_streetaddressparser/apiClient.py,sha256=OOejYO0xuZdSvJ8i2uv2TSYbzmRt1rvNDnMpiHjO1_w,1239
+apiverve_streetaddressparser/exceptions.py,sha256=Jx3YBedvdb3ZG_2dVx3viSW8lROKP8J81hZxSZcV14I,121
+apiverve_streetaddressparser/setup.py,sha256=oseWffl57AV5p8Kl7fUfM6yZOU4Fg6r0_CzKA93B_ig,669
+apiverve_streetaddressparser/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_streetaddressparser/tests/test_api.py,sha256=L2Rtd1xATEsPDAefn2XmSa2SiIELsieomUHXvQlt4i4,641
+apiverve_streetaddressparser-1.0.11.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_streetaddressparser-1.0.11.dist-info/METADATA,sha256=hMDVzvDPuGG-TLg7jb8EdBnxQKwL_HxExsEjiZHXrvs,5605
+apiverve_streetaddressparser-1.0.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apiverve_streetaddressparser-1.0.11.dist-info/top_level.txt,sha256=nhZyHTcdrT3QJHIvbNPH1gHR9P8Y_ABzVxOa2pckVBU,29
+apiverve_streetaddressparser-1.0.11.dist-info/RECORD,,
