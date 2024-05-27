@@ -1,0 +1,6 @@
+# SPDX-FileCopyrightText: 2023 Henrik Sandklef
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+osadl-matrix==2024.5.7.50556
+PyYAML
