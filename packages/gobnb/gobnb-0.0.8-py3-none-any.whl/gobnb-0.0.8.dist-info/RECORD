@@ -1,0 +1,13 @@
+gobnb/__init__.py,sha256=62WaxUDU-qcKG7O5O3jT3iogc5LA_buIN09TmFsi7zs,223
+gobnb/api.py,sha256=aw5k03rz5V42sjXN4yGbyRm7wlOD_gYQ2Hfck7KCif4,1392
+gobnb/details.py,sha256=zwTPy8_QmPi5ZutddLX-fyYAsEC0XRocezAAFFqaSDg,2875
+gobnb/parse.py,sha256=msJDFqIUn8b3KfVpT-79Iu_i8o3LzD6FRMx25akUfLw,1323
+gobnb/price.py,sha256=0yf7QXlA48YqBXjqAV5m2Qklxhr-R3jWa4eLvtB33D0,4454
+gobnb/search.py,sha256=62leQGpLz33B6qBNLnHnrfaocKuG7WJ8Y-ArgVveW28,6357
+gobnb/standardize.py,sha256=wGYhViBT9RjKtUjB9tFUaf0zDCSc6ZVhJFBFc2dxeQY,11572
+gobnb/utils.py,sha256=FYkI8Jonub8BJYkeB9wnxz9bdw900TGgPU8eK4SG3vU,957
+gobnb-0.0.8.dist-info/LICENSE,sha256=D6SpkRauph-DgeFli9RY3s3EK8Xa_c0UHwmXxQEOvPg,1080
+gobnb-0.0.8.dist-info/METADATA,sha256=pptkOmYWktL62roK1d6qd71ABEbJzwGSxFCgNbpPjzk,2334
+gobnb-0.0.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gobnb-0.0.8.dist-info/top_level.txt,sha256=Hu8SYddzu-E7gcJPbedodBJAsQt9REgHEY6t0BwbbcI,6
+gobnb-0.0.8.dist-info/RECORD,,
