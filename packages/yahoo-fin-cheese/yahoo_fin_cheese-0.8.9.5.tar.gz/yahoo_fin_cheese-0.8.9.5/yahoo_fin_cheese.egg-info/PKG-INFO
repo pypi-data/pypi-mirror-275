@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: yahoo_fin_cheese
+Version: 0.8.9.5
+Summary: Forked from yahoo_fin to update some outdated functions.
+Home-page: http://theautomatic.net/yahoo_fin-documentation/
+Author: Cheese Wong
+Author-email: cheese.javaee@gmail.com
+License: MIT
+Keywords: yahoo finance,stocks,options,fundamentals
+License-File: LICENSE.txt
+Requires-Dist: requests_html
+Requires-Dist: feedparser
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: pycryptodome
