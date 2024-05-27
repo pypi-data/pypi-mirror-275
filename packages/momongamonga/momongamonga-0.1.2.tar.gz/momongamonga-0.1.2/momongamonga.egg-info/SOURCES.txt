@@ -1,0 +1,8 @@
+README.md
+setup.py
+momongamonga.egg-info/PKG-INFO
+momongamonga.egg-info/SOURCES.txt
+momongamonga.egg-info/dependency_links.txt
+momongamonga.egg-info/requires.txt
+momongamonga.egg-info/top_level.txt
+tests/test_my_module.py

@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: momongamonga
+Version: 0.1.2
+Summary: A tool to search for keywords in audio files
+Home-page: https://github.com/yutamagara/mypackage
+Author: yutamagara
+Author-email: s2222033@stu.musashino-u.ac.jp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: SpeechRecognition
+Requires-Dist: pydub
+
+以下は、文字数カウンターのREADME.mdの例です。
+
+```markdown
+# Character Counter
+
+Character Counter is a simple Python package that counts the number of characters in a given text.
+
+## Installation
+
+You can install Character Counter via pip:
+
+```bash
+pip install character-counter
+```
+
+## Usage
+
+```python
+from character_counter.counter import count_characters
+
+text = "Hello world! This is a test."
+print(count_characters(text))  # Output: 24
+```
+
+## Documentation
+
+For more details and options, please refer to the [documentation](https://github.com/yutamagara/character-counter).
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request on GitHub.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
