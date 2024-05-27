@@ -1,0 +1,13 @@
+LICENSE
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+ip_searcher/__init__.py
+ip_searcher/xdbSearcher.py
+ip_searcher.egg-info/PKG-INFO
+ip_searcher.egg-info/SOURCES.txt
+ip_searcher.egg-info/dependency_links.txt
+ip_searcher.egg-info/entry_points.txt
+ip_searcher.egg-info/requires.txt
+ip_searcher.egg-info/top_level.txt
