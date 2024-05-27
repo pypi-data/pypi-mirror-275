@@ -1,0 +1,12 @@
+
+[dicttoxml]
+dicttoxml>=1.7.16
+
+[pyodbc]
+pyodbc>=5.0
+
+[pywin32]
+pywin32>=306
+
+[xmltodict]
+xmltodict>=0.13
