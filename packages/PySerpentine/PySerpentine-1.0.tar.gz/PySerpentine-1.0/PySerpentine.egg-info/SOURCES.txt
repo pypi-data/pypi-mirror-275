@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+PySerpentine/__init__.py
+PySerpentine/main.py
+PySerpentine.egg-info/PKG-INFO
+PySerpentine.egg-info/SOURCES.txt
+PySerpentine.egg-info/dependency_links.txt
+PySerpentine.egg-info/top_level.txt
