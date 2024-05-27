@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rainbowkit"
+version = "0.0.2"
+authors = [
+  { name="Sourav Das", email="souravdas.sd20@gmail.com" },
+]
+description = "Tools to work with spectra"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+

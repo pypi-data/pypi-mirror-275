@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: rainbowkit
+Version: 0.0.2
+Summary: Tools to work with spectra
+Author-email: Sourav Das <souravdas.sd20@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# RainbowKit
+
+RainbowKit is a Python toolkit for spectral analysis. It allows you to create spectrum objects and execute various methods, such as plotting and marking lines.
+
+## Features
+
+- Create and manipulate spectrum objects
+- Plot spectra with ease
+- Mark spectral lines for analysis
+
+## Installation
+
+You can install RainbowKit using pip:
+
+```bash
+pip install rainbowkit
+```
+
