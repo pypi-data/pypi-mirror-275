@@ -1,0 +1,7 @@
+README.md
+setup.py
+pyhawk-with-a-single-extra-commit/__init__.py
+pyhawk_with_a_single_extra_commit.egg-info/PKG-INFO
+pyhawk_with_a_single_extra_commit.egg-info/SOURCES.txt
+pyhawk_with_a_single_extra_commit.egg-info/dependency_links.txt
+pyhawk_with_a_single_extra_commit.egg-info/top_level.txt
