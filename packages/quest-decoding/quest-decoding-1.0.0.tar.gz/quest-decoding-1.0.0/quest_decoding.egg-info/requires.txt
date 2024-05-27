@@ -1,0 +1,6 @@
+langchain
+numpy
+transformers
+vllm
+scipy
+unbabel-comet
