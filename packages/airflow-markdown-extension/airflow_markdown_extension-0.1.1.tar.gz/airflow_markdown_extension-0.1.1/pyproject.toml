@@ -1,0 +1,77 @@
+[project]
+name = "airflow-markdown-extension"
+version = "0.1.1"
+description = "A custom superfence for pymdown-extensions which render Airflow DAGs."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "Apache-2.0"
+authors = [
+    { name = "Joffrey Bienvenu", email = "joffreybvn@gmail.com" },
+]
+keywords = [
+    "airflow",
+    "markdown",
+    "DAG",
+    "mkdocs",
+    "superfence"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Operating System :: POSIX",
+    "Framework :: MkDocs",
+    "Environment :: Web Environment",
+    "Programming Language :: JavaScript",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Documentation",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Text Processing :: Markup :: HTML",
+    "License :: OSI Approved :: Apache Software License",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators"
+]
+dependencies = [
+    "Markdown >= 3.5, < 4",
+    "pymdown-extensions >= 10, < 11",
+    "apache-airflow >= 2.9.1"
+]
+
+[project.optional-dependencies]
+dev = [
+    "requests",
+    "pytest",
+    "ruff"
+]
+
+[project.urls]
+Documentation = "https://not-yet-available.com"
+Changelog = "https://github.com/joffreybvn/airflow-markdown-extension/releases"
+Issues = "https://github.com/joffreybvn/airflow-markdown-extension/issues"
+Repository = "https://github.com/joffreybvn/airflow-markdown-extension"
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
+lint.select = ["E", "W"]
+target-version = "py39"
+
+[tool.hatch.build.targets.sdist]
+ignore-vcs = true
+include = [
+    "/airflow_markdown_extension/**.py",
+    "/airflow_markdown_extension/**/*.py",
+    "/airflow_markdown_extension/js/dist/*.css",
+    "/airflow_markdown_extension/js/dist/*.js"
+]
+
+[tool.hatch.build.targets.wheel]
+only-packages = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
