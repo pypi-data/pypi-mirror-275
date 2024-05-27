@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+SessionGuard.egg-info/PKG-INFO
+SessionGuard.egg-info/SOURCES.txt
+SessionGuard.egg-info/dependency_links.txt
+SessionGuard.egg-info/top_level.txt
+session_guard/__init__.py
