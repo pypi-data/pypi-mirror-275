@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Simple_ToDo_List
+Version: 0.0.1
+Summary: This is a simple to-do list。Enter the task name and deadline, and display them and the date you entered.
+Home-page: https://github.com/Takumi-Nishihara/ToDo
+Author: takumi nishihara
+Author-email: s2222089@stu.musashino-u.ac.jp
+Project-URL: Bug Tracker, https://github.com/Takumi-Nishihara/ToDo
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# ToDo
+
+
+This is a simple to-do list.
+Enter the task name and deadline, and display them and the date you entered.

@@ -1,0 +1,2 @@
+[console_scripts]
+ToDo = ToDo:main
