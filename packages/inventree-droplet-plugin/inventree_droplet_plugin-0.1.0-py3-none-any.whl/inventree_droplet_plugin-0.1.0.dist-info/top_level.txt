@@ -1,0 +1,1 @@
+inventree_droplet_plugin
