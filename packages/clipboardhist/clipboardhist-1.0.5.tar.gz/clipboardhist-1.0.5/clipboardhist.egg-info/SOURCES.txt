@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+clipboardhist/__init__.py
+clipboardhist/clipboardhist.py
+clipboardhist.egg-info/PKG-INFO
+clipboardhist.egg-info/SOURCES.txt
+clipboardhist.egg-info/dependency_links.txt
+clipboardhist.egg-info/requires.txt
+clipboardhist.egg-info/top_level.txt
