@@ -1,0 +1,12 @@
+Rankchem/__init__.py,sha256=unZLurtLLat65XUEtmQ45O8TlNMmf3e6CVzfzRa8vPA,82
+Rankchem/app.py,sha256=zv9-YD4Rr7gkV9dMwFBVGZRDHgUTuCbEWp0HDjG7o7M,2619
+Rankchem/molecule.xyz,sha256=Y6HBQj4uiVl7I_pyrDGU057HOllYvzCFhwp3_Wlx6C4,219
+Rankchem/.streamlit/config.toml,sha256=t_hrJVpcgO-FqA_wjFZDLgicZRg4xt_0MrjI5hvUPjk,144
+Rankchem/for_streamlit/Highlighting.py,sha256=7hjBlE_4lmOZg6-HsgpKopXFINZPYGSMUZNFnS2rHu8,6747
+Rankchem/for_streamlit/Ranking.py,sha256=qtGYvOzuLDkWlJ7H688h0pWAUFY-pnjlRqKdbe-OBV4,4375
+Rankchem/images/highlight.png,sha256=CvQYXJaL90B_NEpSVDU8jmD6DFUEKCajFJXitDaB2Mg,217232
+Rankchem/images/rank.png,sha256=UpocntMpA0hOJuX5QpU1svRX_FYAV4WlJj_s_w-szEM,14723
+rankchem-0.0.1.dist-info/METADATA,sha256=z89byVN89aQ3JMFURDkfUyhJN312lC5G_2EOOsVfHCg,8879
+rankchem-0.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+rankchem-0.0.1.dist-info/licenses/LICENSE,sha256=52fss2k9PAaWfBGHfVQYtyCxRMHykzzn_0Gb4LqVfHU,1164
+rankchem-0.0.1.dist-info/RECORD,,
