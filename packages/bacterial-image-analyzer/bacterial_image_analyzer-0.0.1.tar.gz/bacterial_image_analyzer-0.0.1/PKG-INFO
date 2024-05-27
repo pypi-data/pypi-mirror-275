@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bacterial_image_analyzer
+Version: 0.0.1
+Summary: Package contains useful commands bateria image features extraction
+Home-page: https://github/
+Author: Nghi Gia
+Author-email: nghi08122003@gmail.com
+Project-URL: repository, https://github/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Package contains useful commands bateria image features extraction

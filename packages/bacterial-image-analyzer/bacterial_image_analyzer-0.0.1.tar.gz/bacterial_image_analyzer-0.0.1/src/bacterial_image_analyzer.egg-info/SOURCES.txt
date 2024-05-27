@@ -1,0 +1,9 @@
+LICENSE.txt
+pyproject.toml
+setup.cfg
+src/bacterial_image_analyzer.egg-info/PKG-INFO
+src/bacterial_image_analyzer.egg-info/SOURCES.txt
+src/bacterial_image_analyzer.egg-info/dependency_links.txt
+src/bacterial_image_analyzer.egg-info/top_level.txt
+src/features_extraction/__init__.py
+src/features_extraction/features_extraction.py
