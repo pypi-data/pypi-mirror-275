@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: text-topic-visualizer
+Version: 0.1.0
+Summary: A package for extracting and visualizing topics from text data
+Home-page: https://github.com/yourusername/text_topic_visualizer
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: gensim
+Requires-Dist: nltk
+Requires-Dist: pyLDAvis
+
+# NewPackage
+
+## 概要(Overview)
+
+## 説明(Description)
+
+## 用途(Usage)
+
+## インストール方法(Install)
