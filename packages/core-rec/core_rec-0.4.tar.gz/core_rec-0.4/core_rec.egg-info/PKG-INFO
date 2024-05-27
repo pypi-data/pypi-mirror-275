@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: core_rec
+Version: 0.4
+Summary: A Python library for graph-related operations
+Home-page: https://github.com/your-username/vishesh9131
+Author: Vishesh Yadav
+Author-email: sciencely98@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+
+
+        vishgraphs is a Python library that provides functionalities for working with graphs.
+        It includes features like
+        making bipartite graphs, random graphs, find trending nodes etc
+        and corerec is engine supports exclusive graphtransformer
+    
