@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: dnv-net-intellisense
+Version: 1.0.0
+Summary: IntelliSense support for the `with` statement for dotnet runtime assemblies from Python.
+Author-email: DNV AS <software.support@dnv.com>
+License: MIT License
+        Copyright (c) 2024 DNV
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Keywords: dotnet,dotnetruntime,netruntime,net.runtime
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# .Net IntelliSense
+
+The .NET IntelliSense Python package is specifically designed to enhance your development experience by providing IntelliSense support for the `with` statement. With this package installed, you can leverage its capabilities to simplify working with system resources in your Python projects. By updating the system stub file, the package ensures that your development environment offers auto-completion and type-aware suggestions for .NET classes that inherit from `System.IDisposable`. This empowers you to write code more efficiently, reducing errors and improving overall productivity.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Support
+
+If you encounter any issues, have questions, or want to provide feedback, please get in touch with our support team at software.support@dnv.com.
