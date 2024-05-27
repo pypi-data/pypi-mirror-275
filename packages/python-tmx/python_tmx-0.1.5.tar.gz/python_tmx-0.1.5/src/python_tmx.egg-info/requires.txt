@@ -1,0 +1,8 @@
+lxml
+
+[dev]
+black
+ruff
+pytest
+mypy
+wheel
