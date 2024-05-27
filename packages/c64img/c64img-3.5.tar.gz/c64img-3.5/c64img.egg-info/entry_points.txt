@@ -1,0 +1,2 @@
+[console_scripts]
+image2c64 = c64img.cmd_convert:image2c64

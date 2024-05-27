@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "c64img"
+dynamic = ["version"]
+authors = [
+    {name = "Roman Dobosz", email = "gryf73@gmail.com"}
+]
+license = {text = "BSD"}
+description = "Image processing and converter for C64 graphic formats"
+readme = "README.rst"
+requires-python = ">=3.8"
+keywords = ['c64', 'image', 'converter', 'koala', 'Art Studio', 'raw']
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.8',
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+    'Development Status :: 5 - Production/Stable',
+    'Environment :: Console',
+    'Intended Audience :: End Users/Desktop',
+    'License :: OSI Approved :: BSD License',
+    'Operating System :: OS Independent',
+    'Topic :: Multimedia :: Graphics',
+    'Topic :: Multimedia :: Graphics :: Graphics Conversion'
+]
+dependencies = [
+    "Pillow>=10.3.0"
+]
+
+[project.urls]
+Homepage = "https://bitbucket.org/gryf/image2c64"
+
+[project.scripts]
+image2c64 = "c64img.cmd_convert:image2c64"
+
+[tool.setuptools]
+packages = ["c64img"]
+
+[tool.setuptools.dynamic]
+version = {attr = "c64img.__version__"}
+
+[tool.distutils.bdist_wheel]
+universal = true
