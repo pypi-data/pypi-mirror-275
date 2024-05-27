@@ -1,0 +1,9 @@
+memos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+memos/commands.py,sha256=zkwPKJyPfWPTwuxw33fRa_FinaXLihIjKHtGMOpmwFo,346
+memos/main.py,sha256=3sd5qmHr3YaAhHNfk_gwJ4iBrkiLxoKXRAnfzyzzF2M,152
+memos/server.py,sha256=MFnt_2jztBuirTz5naLVYkUvaQSpRMrxKM-D0xd1rpQ,108
+memos-0.1.0.dist-info/METADATA,sha256=Oswj-jEtzAQhwzoLZQmH0mi5qYPUYed5Omf-kzxMU0Y,333
+memos-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+memos-0.1.0.dist-info/entry_points.txt,sha256=1k-MxquiI6XPQL2Jw4LBWlufcR7L5Tktu_Huh28UEWY,45
+memos-0.1.0.dist-info/top_level.txt,sha256=Zja3LUabhfiuQUP8L0kJQu9Ip5RjrOmHRp3dDoVvGd8,6
+memos-0.1.0.dist-info/RECORD,,

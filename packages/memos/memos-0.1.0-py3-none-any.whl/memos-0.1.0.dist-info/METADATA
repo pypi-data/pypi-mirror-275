@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: memos
+Version: 0.1.0
+Home-page: https://github.com/arkohut/memos
+Author: arkohut
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: httpx
+Requires-Dist: typer
+
+# Memos
+
+A project to index everything to make it like another memory.
