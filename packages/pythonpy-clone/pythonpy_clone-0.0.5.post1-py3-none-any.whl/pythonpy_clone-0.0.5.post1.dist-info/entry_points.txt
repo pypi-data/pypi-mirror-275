@@ -1,0 +1,2 @@
+[console_scripts]
+py = pythonpy_clone:main
