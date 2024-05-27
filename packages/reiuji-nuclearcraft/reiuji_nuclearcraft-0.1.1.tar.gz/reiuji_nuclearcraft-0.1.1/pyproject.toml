@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reiuji_nuclearcraft"
+version = "0.1.1"
+dependencies = [
+    "pydantic",
+    "ortools",
+    "nbt"
+]
+requires-python = ">=3.12"
+authors = [
+    {name = "Celeste Ma", email = "mtcelestema@proton.me"}
+]
+description = "A library for designing NuclearCraft multiblocks."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["nuclearcraft", "multiblock", "design", "minecraft"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Other Audience",
+    "Topic :: Games/Entertainment",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3.12"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["reiuji*"]
+namespaces = false
+
+[project.urls]
+Homepage = "https://github.com/MtCelesteMa/reiuji"
+Repository = "https://github.com/MtCelesteMa/reiuji"
+"Bug Tracker" = "https://github.com/MtCelesteMa/reiuji/issues"
