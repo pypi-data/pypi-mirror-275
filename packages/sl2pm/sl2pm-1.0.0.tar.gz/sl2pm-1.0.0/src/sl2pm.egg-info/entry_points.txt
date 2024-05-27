@@ -1,0 +1,2 @@
+[console_scripts]
+sl2pm = sl2pm.__main__:main
