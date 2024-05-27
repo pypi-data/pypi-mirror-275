@@ -1,0 +1,13 @@
+PythonPaystackv2/__init__.py,sha256=sWUPvV1GvtTU3JGvlSMaNBMZqU15zcxXzV0IuH74xpY,96
+PythonPaystackv2/payment.py,sha256=92APGkI_gTpFAcRgEaM1YH3DZNt4ZJjrU1drMgAv2j8,1317
+PythonPaystackv2/status.py,sha256=icIVUOGhpfF_sPdkRXA0Tm33zfc_ESLPIrOqyX-lseg,1121
+PythonPaystackv2/subscription.py,sha256=HytFwUdib83zswmFi76TVs0FD34xRNo1fcN-P0TjSPk,1716
+pypstk/__init__.py,sha256=bFbQciyH5pK0UGo2qwSi9a5h7r8i-n454mgIEDkUsMI,102
+pypstk/payment.py,sha256=92APGkI_gTpFAcRgEaM1YH3DZNt4ZJjrU1drMgAv2j8,1317
+pypstk/status.py,sha256=icIVUOGhpfF_sPdkRXA0Tm33zfc_ESLPIrOqyX-lseg,1121
+pypstk/subscription.py,sha256=HytFwUdib83zswmFi76TVs0FD34xRNo1fcN-P0TjSPk,1716
+pypstk-0.1.0.dist-info/LIcence,sha256=Yo9GUEsKlHEArJJyqgMrQtjhbElecfOZ9NjJE0JwJkQ,1071
+pypstk-0.1.0.dist-info/METADATA,sha256=cSSfAxg5YbCfWzxpSHaDjN-7nMbbHJodQtXof4WPIDs,2124
+pypstk-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pypstk-0.1.0.dist-info/top_level.txt,sha256=GAh0QgJLmMVueFZpf9LgDzWlwAhyVmJ0hf2lRi4mU4o,7
+pypstk-0.1.0.dist-info/RECORD,,
