@@ -1,0 +1,74 @@
+Metadata-Version: 2.3
+Name: lasagna-ai
+Version: 0.1.0
+Summary: Agents for your agents!
+Project-URL: Documentation, https://github.com/Rhobota/lasagna-ai#readme
+Project-URL: Issues, https://github.com/Rhobota/lasagna-ai/issues
+Project-URL: Source, https://github.com/Rhobota/lasagna-ai
+Author-email: Ryan Henning <ryan@rhobota.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Keywords: agents,ai,hierarchical,llm
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Provides-Extra: anthropic
+Requires-Dist: anthropic>=0.26.1; extra == 'anthropic'
+Provides-Extra: dev
+Requires-Dist: mypy>=1.10.0; extra == 'dev'
+Requires-Dist: pytest-asyncio>=0.23.6; extra == 'dev'
+Requires-Dist: pytest>=8.1.1; extra == 'dev'
+Provides-Extra: openai
+Requires-Dist: openai>=1.23.2; extra == 'openai'
+Description-Content-Type: text/markdown
+
+# Lasagna AI
+
+[![PyPI - Version](https://img.shields.io/pypi/v/lasagna-ai.svg)](https://pypi.org/project/lasagna-ai)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/lasagna-ai.svg)](https://pypi.org/project/lasagna-ai)
+![Test Status](https://github.com/Rhobota/lasagna-ai/workflows/Test%20Matrix/badge.svg)
+
+TODO: More badges:
+ - Linux, MacOS, Windows
+ - Code coverage %
+
+**Agents for your agents!**
+
+-----
+
+## Highlights
+
+- Canonizes OpenAI, Anthropic, MistralAI (and more in the future)
+   - easily swap between them
+   - build comities
+   - etc
+- Everything is streamable.
+- Also easy to integrate with a database.
+- Lasagna has layers. Now your agents can too!
+   - Build hierarchical (or even recursive) agents! Lasagna has layers!
+- Fully asyncio (with threadpools where appropriate)
+   - Parallel tool calling (your tools can by either sync or async, no prob!)
+- Supports _vision_!
+- Strongly typed
+- 90% test coverage
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install lasagna-ai[openai,anthropic]
+```
+
+## License
+
+`lasagna-ai` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
