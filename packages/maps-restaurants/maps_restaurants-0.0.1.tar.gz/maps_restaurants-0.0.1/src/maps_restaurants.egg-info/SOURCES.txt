@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.cfg
+setup.py
+src/maps.py
+src/maps_restaurants.egg-info/PKG-INFO
+src/maps_restaurants.egg-info/SOURCES.txt
+src/maps_restaurants.egg-info/dependency_links.txt
+src/maps_restaurants.egg-info/requires.txt
+src/maps_restaurants.egg-info/top_level.txt
