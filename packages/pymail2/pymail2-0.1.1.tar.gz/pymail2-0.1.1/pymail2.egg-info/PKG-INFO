@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pymail2
+Version: 0.1.1
+Summary: This is most easiest way to send email using smtp
+Home-page: https://github.com/oakdatamechanic/pymail
+Author: Avinash Negi
+Author-email: avinash.negi2194@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pymail
+This repo contains the most easiest way to send email using smtp
