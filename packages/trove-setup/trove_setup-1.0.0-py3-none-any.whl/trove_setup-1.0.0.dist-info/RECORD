@@ -1,0 +1,12 @@
+trove_setup-1.0.0.dist-info/METADATA,sha256=TPg0iytgY8pT1_MKzohlyzhvL6g0QlS-DNakjXUuD20,1933
+trove_setup-1.0.0.dist-info/WHEEL,sha256=vnE8JVcI2Wz7GRKorsPArnBdnW2SWKWGow5gu5tHlRU,90
+trove_setup-1.0.0.dist-info/entry_points.txt,sha256=qrp2zO4Z7cIGLGjb4CT4GcHs5u1fDpkh58XmU8MNtrA,59
+trove_setup-1.0.0.dist-info/licenses/LICENSE,sha256=Xs2xOPNq5HYs7sp0xJWdjtjUyGOVl_VH78yyoczgU94,1068
+trove_setup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trove_setup/__main__.py,sha256=W_0FD5AriJAP1l52gINAkp9Ph46vy0d2AeeRrx-SESo,71
+trove_setup/app.py,sha256=bG_g62G8c6NKiPwPyMz3mD9TbrZmVfE4EGHUjpEJZMc,9730
+trove_setup/cli.py,sha256=aDeF02tfipSmE2cdv2wy86T3ghLZTMYnSn9-U2PFiO8,417
+trove_setup/guide.py,sha256=FziFj8rmM_1uKJ0lF8BexjBgfVbkfqgxgIjYnIbB-Fg,3391
+trove_setup/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trove_setup/trove_tree.py,sha256=y70SEmiG-ZLsnYEcfOFv31Sa87lywUboQ1qG4BaeIZo,1020
+trove_setup-1.0.0.dist-info/RECORD,,
