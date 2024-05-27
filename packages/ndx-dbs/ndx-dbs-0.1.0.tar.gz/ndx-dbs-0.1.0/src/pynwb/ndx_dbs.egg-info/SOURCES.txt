@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/pynwb/ndx_dbs.egg-info/PKG-INFO
+src/pynwb/ndx_dbs.egg-info/SOURCES.txt
+src/pynwb/ndx_dbs.egg-info/dependency_links.txt
+src/pynwb/ndx_dbs.egg-info/not-zip-safe
+src/pynwb/ndx_dbs.egg-info/requires.txt
+src/pynwb/ndx_dbs.egg-info/top_level.txt
+src/pynwb/ndx_dbs/__init__.py
+src/pynwb/ndx_dbs.egg-info/SOURCES.txt
+src/pynwb/ndx_dbs/spec/ndx-dbs.extensions.yaml
+src/pynwb/ndx_dbs/spec/ndx-dbs.namespace.yaml
