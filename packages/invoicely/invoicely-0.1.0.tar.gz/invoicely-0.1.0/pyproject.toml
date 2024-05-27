@@ -1,0 +1,22 @@
+[project]
+name = "invoicely"
+version = "0.1.0"
+description = "Create simple invoices."
+dependencies = [
+    "click", "reportlab"
+]
+readme = "README.md"
+license = {text = "MIT License"}
+keywords = ["invoicing", "invoices"]
+
+[project.urls]
+Homepage = "https://github.com/andycaine/invoicely"
+Documentation = "https://github.com/andycaine/invoicely?tab=readme-ov-file#asaa"
+Repository = "https://github.com/andycaine/invoicely.git"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+invoicely = "invoicely.cli:cli"

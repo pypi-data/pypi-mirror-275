@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+invoicely/__init__.py
+invoicely/cli.py
+invoicely.egg-info/PKG-INFO
+invoicely.egg-info/SOURCES.txt
+invoicely.egg-info/dependency_links.txt
+invoicely.egg-info/entry_points.txt
+invoicely.egg-info/requires.txt
+invoicely.egg-info/top_level.txt
+tests/test_invoicely.py
