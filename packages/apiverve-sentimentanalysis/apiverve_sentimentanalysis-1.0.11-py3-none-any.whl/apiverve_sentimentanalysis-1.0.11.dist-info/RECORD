@@ -1,0 +1,11 @@
+apiverve_sentimentanalysis/__init__.py,sha256=s9k5arYTNItyjdTUpmjAFR51Ls77t2KbO2gkJ9h6mK8,49
+apiverve_sentimentanalysis/apiClient.py,sha256=fvXIcaveuWxJLGEtG_ZOlZFFS-vRjlX9DgGMdHf5dZ4,1234
+apiverve_sentimentanalysis/exceptions.py,sha256=tiXUZExA9PyQfDO2Kfz1zpFg6c_Nh3cwXEnra2ejKNw,117
+apiverve_sentimentanalysis/setup.py,sha256=c2rFEaM9nsZ2WwQka6J-wpJvV0ke_MrkU7VgfePDKiY,659
+apiverve_sentimentanalysis/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_sentimentanalysis/tests/test_api.py,sha256=FrKe5-7ieykw3tw6C9XepK9Wfj6WaoWUsagSAGonUOY,635
+apiverve_sentimentanalysis-1.0.11.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_sentimentanalysis-1.0.11.dist-info/METADATA,sha256=zuqLLsjWreWZnUQveMPv6p5k4-YAd3ldnzAkJ_6u3DQ,5464
+apiverve_sentimentanalysis-1.0.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apiverve_sentimentanalysis-1.0.11.dist-info/top_level.txt,sha256=khruRFmH0EwVjUg7ljZTX_XX_lChtX_lhy6P35Z_JGw,27
+apiverve_sentimentanalysis-1.0.11.dist-info/RECORD,,
