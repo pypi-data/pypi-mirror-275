@@ -1,0 +1,10 @@
+Metadata-Version: 2.3
+Name: aioway
+Version: 0.0.0
+Summary: AI on the way
+Author-email: RenChu Wang <patrick1031wang@gmail.com>
+License: X
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# aioway

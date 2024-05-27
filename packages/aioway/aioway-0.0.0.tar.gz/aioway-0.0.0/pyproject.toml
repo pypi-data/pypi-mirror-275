@@ -1,0 +1,19 @@
+[project]
+name = "aioway"
+version = "0.0.0"
+description = "AI on the way"
+authors = [
+    {name = "RenChu Wang", email = "patrick1031wang@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "X"}
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[tool.pdm]
+distribution = true
