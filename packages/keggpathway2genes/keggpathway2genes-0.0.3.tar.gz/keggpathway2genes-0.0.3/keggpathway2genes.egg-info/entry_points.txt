@@ -1,0 +1,2 @@
+[console_scripts]
+keggpathway2genes = kp2genes.kp2genes:main_cli

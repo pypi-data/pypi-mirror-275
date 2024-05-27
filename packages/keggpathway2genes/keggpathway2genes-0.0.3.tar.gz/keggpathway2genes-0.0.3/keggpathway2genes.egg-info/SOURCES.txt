@@ -1,0 +1,10 @@
+README.md
+setup.py
+keggpathway2genes.egg-info/PKG-INFO
+keggpathway2genes.egg-info/SOURCES.txt
+keggpathway2genes.egg-info/dependency_links.txt
+keggpathway2genes.egg-info/entry_points.txt
+keggpathway2genes.egg-info/requires.txt
+keggpathway2genes.egg-info/top_level.txt
+kp2genes/__init__.py
+kp2genes/kp2genes.py
