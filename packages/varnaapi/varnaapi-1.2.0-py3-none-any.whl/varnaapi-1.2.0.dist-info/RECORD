@@ -1,0 +1,12 @@
+varnaapi/__init__.py,sha256=MQyvoz9itP2ZHBzgLfhSD7dAgJjiAHGB-vf7h3V8eVs,255
+varnaapi/config-settings-v1.yml,sha256=nFJXIsCDj-N3ThPRCKnfotMXreaPqhMhc9sy6zffM5w,44
+varnaapi/models.py,sha256=uC6qnNZ7ETA3hAcmzskXpsQbptF1y-oL3A5yF3apSFk,24774
+varnaapi/param.py,sha256=jIA4HOVPuo4FVutll7CaDN-XwEqZuiPjZvI1zAtRyeo,29745
+varnaapi/settings.py,sha256=BTX0J2HB2m_06gURW9GdHO10zi_7lkztK3FRG9TzTu8,1527
+varnaapi/extensions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+varnaapi/extensions/pdb.py,sha256=HDDVzTMRIXtFdoBDQEKUtaPmaSgOsHqZDA8KvbUycUY,8669
+varnaapi-1.2.0.dist-info/LICENSE,sha256=YbdLXGLsRXGaJ9fCch7_-PFyhc_WGmd2ufi5U4726Do,35061
+varnaapi-1.2.0.dist-info/METADATA,sha256=JhLR9vTT63hpJDRZmvgnEk_FZkm61kSHJIPArIJctEE,6053
+varnaapi-1.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+varnaapi-1.2.0.dist-info/top_level.txt,sha256=0zBnjWmuWt2ydmd4EnGJWYLctcBkHWV2KEgki9Ok2KE,9
+varnaapi-1.2.0.dist-info/RECORD,,
