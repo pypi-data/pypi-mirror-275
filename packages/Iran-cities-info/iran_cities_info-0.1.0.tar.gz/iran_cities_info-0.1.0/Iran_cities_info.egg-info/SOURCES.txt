@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+Iran_cities_info/Iran_cities_info.py
+Iran_cities_info/__init__.py
+Iran_cities_info/check.py
+Iran_cities_info.egg-info/PKG-INFO
+Iran_cities_info.egg-info/SOURCES.txt
+Iran_cities_info.egg-info/dependency_links.txt
+Iran_cities_info.egg-info/requires.txt
+Iran_cities_info.egg-info/top_level.txt
+Iran_cities_info/assets/iran_cities_en.json
+tests/test_Iran_cities_info.py
