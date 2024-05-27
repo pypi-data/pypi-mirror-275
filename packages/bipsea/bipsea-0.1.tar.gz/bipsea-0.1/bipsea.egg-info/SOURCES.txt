@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+setup.py
+bipsea.egg-info/PKG-INFO
+bipsea.egg-info/SOURCES.txt
+bipsea.egg-info/dependency_links.txt
+bipsea.egg-info/entry_points.txt
+bipsea.egg-info/requires.txt
+bipsea.egg-info/top_level.txt
+tests/test_bip32.py
+tests/test_bip39.py
+tests/test_bip85.py
+tests/test_cli.py
