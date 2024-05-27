@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: telegram-gmail-bot
+Version: 0.1.9
+Summary: A bot that connects Telegram with Gmail
+Home-page: https://github.com/dustfeather/telegram-gmail-bot
+Author: Catalin Teodorescu
+Author-email: dustfeather@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: anyio==4.4.0
+Requires-Dist: cachetools==5.3.3
+Requires-Dist: certifi==2024.2.2
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: google-api-core==2.19.0
+Requires-Dist: google-api-python-client==2.130.0
+Requires-Dist: google-auth==2.29.0
+Requires-Dist: google-auth-httplib2==0.2.0
+Requires-Dist: google-auth-oauthlib==1.2.0
+Requires-Dist: googleapis-common-protos==1.63.0
+Requires-Dist: h11==0.14.0
+Requires-Dist: httpcore==1.0.5
+Requires-Dist: httplib2==0.22.0
+Requires-Dist: httpx==0.27.0
+Requires-Dist: idna==3.7
+Requires-Dist: oauthlib==3.2.2
+Requires-Dist: proto-plus==1.23.0
+Requires-Dist: protobuf==4.25.3
+Requires-Dist: pyasn1==0.6.0
+Requires-Dist: pyasn1_modules==0.4.0
+Requires-Dist: pyparsing==3.1.2
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: python-telegram-bot==21.2
+Requires-Dist: requests==2.32.2
+Requires-Dist: requests-oauthlib==2.0.0
+Requires-Dist: rsa==4.9
+Requires-Dist: sniffio==1.3.1
+Requires-Dist: tenacity==8.3.0
+Requires-Dist: uritemplate==4.1.1
+Requires-Dist: urllib3==2.2.1
+
+# Python Gmail Summary Bot
+
+[![PyPI version](https://badge.fury.io/py/telegram-gmail-bot.svg)](https://badge.fury.io/py/telegram-gmail-bot)
+
+A bot to summarize your Gmail emails using the Gmail API and send summaries to Telegram.
+
+## Features
+- Summarizes Gmail emails.
+- Sends email summaries to a specified Telegram chat.
+
+## Installation
+
+You can install the package via pip:
+
+```shell
+pip install telegram-gmail-bot
+```
+
+## Setup
+
+### Creating credentials for accessing Google APIs
+
+#### Step 1: Create a Service Account
+
+1. **Go to the Google Cloud Console**: [Google Cloud Console](https://console.cloud.google.com/).
+2. **Select your project** or create a new one.
+3. Search for **APIs & Services** in the search bar.
+4. Click on **Credentials** in the left sidebar.
+5. Click on **Create Credentials** and select **OAuth client ID**.
+6. Select **Desktop app** as the application type.
+7. Add the generated credentials as environment variables in your project.
+
+#### Step 2: Enable the Gmail API
+
+1. **Go to the API & Services page**: [API & Services](https://console.cloud.google.com/apis/dashboard).
+2. **Enable the Gmail API**:
+   - Click on "Enable APIs and Services".
+   - Search for "Gmail API" and enable it for your project.
+
+## Local Usage
+
+1. Copy the example environment file and fill in your credentials:
+    ```shell
+    cp .env.example .env
+    ```
+
+2. Create a virtual environment and install dependencies:
+    ```shell
+    python3 -m venv .
+    source venv/bin/activate
+    pip install -r requirements.txt
+    ```
+
+3. Run the bot:
+    ```shell
+    python main.py
+    ```
