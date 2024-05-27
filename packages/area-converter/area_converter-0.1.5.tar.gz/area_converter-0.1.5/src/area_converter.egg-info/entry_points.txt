@@ -1,0 +1,3 @@
+[console_scripts]
+area-converter = area_converter:main
+

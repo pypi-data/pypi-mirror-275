@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: area_converter
+Version: 0.1.5
+Summary: A package that converts area to Tokyo Dome
+Home-page: https://github.com/HarunaTakada/area_converter
+Author: Haruna Takada
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/HarunaTakada/area_converter
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# area_converter
+
+Enter the area and it will be converted to Tokyo Dome.
+
+
