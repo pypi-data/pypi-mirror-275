@@ -1,0 +1,7 @@
+README.md
+setup.py
+bbarchivist/__init__.py
+bbarchivist.egg-info/PKG-INFO
+bbarchivist.egg-info/SOURCES.txt
+bbarchivist.egg-info/dependency_links.txt
+bbarchivist.egg-info/top_level.txt
