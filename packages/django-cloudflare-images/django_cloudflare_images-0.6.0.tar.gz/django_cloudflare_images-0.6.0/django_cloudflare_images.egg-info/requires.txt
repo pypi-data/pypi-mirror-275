@@ -1,0 +1,7 @@
+Django>=3
+requests>=2.20.0
+
+[dev]
+build==1.2.1
+ruff==0.4.5
+tox==4.15.0
