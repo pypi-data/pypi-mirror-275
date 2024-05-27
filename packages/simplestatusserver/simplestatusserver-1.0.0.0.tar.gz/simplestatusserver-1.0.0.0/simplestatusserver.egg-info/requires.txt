@@ -1,0 +1,14 @@
+flask
+
+[:python_version < "3.8"]
+typing-extensions
+
+[dev]
+setuptools>=64.0.0
+pip-tools
+validate-pyproject[all]
+build
+twine
+
+[threading]
+threading
