@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: topic-benchmark
+Version: 0.2.7
+Summary: Benchmarking topic models for a paper
+License: MIT
+Author: Márton Kardos
+Author-email: power.up1163@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: catalogue (>=2.0.0,<3.0.0)
+Requires-Dist: datasets (>=2.18.0,<3.0.0)
+Requires-Dist: gensim (>=4.3.2,<5.0.0)
+Requires-Dist: hdbscan (>=0.8.0,<0.9.0)
+Requires-Dist: kaleido (>=0.2.0,<0.3.0)
+Requires-Dist: matplotlib (>=3.6.3,<4.0.0)
+Requires-Dist: numpy (>=1.23.0,<2.0.0)
+Requires-Dist: pandas (>=2.1.0,<3.0.0)
+Requires-Dist: plotly (>=5.18.0,<6.0.0)
+Requires-Dist: pyro-ppl (>=1.8.0,<2.0.0)
+Requires-Dist: radicli (>=0.0.25,<0.0.26)
+Requires-Dist: rich (>=13.6.0,<14.0.0)
+Requires-Dist: scikit-learn (>=1.2.0,<2.0.0)
+Requires-Dist: scipy (>=1.10.0,<1.11.0)
+Requires-Dist: seaborn (>=0.12.2,<0.13.0)
+Requires-Dist: sentence-transformers (>=2.2.0,<3.0.0)
+Requires-Dist: torch (>=2.1.0,<3.0.0)
+Requires-Dist: turftopic (>=0.2.14,<0.3.0)
+Requires-Dist: umap-learn (>=0.5.0,<0.6.0)
+Description-Content-Type: text/markdown
+
+# topic-benchmark
+Command Line Interface for benchmarking topic models.
+
+The package contains `catalogue` registries for all models, datasets and metrics for model evaluation,
+along with scripts for producing tables and figures for the S3 paper.
+
+## Usage:
+
+### Installation
+
+You can install the package from PyPI.
+
+```bash
+pip install topic-benchmark
+
+```
+
+### Commands
+
+#### `run`
+
+Run the benchmark using a given embedding model.
+Runs can be resumed if they get obruptly stopped from the results file.
+
+```bash
+python3 -m topic_benchmark run -e "embedding_model_name"
+```
+
+| argument | description | type | default |
+| -------- | ----------- | ---- | ------- |
+| --encoder_model (-e) | The encoder model to use for the benchmark. | `str` | `"all-MiniLM-L6-v2"` |
+| --out_file (-o) | The output path of the benchmark results. By default it will be under `results/{encoder_model}.jsonl` | `str` | `None` | 
+
+### `table`
+
+Creates a latex table of the results of the benchmark. (Main table in the paper)
+
+```bash
+python3 -m topic_benchmark table -o results.tex
+```
+
+| argument | description | type | default |
+| -------- | ----------- | ---- | ------- |
+| results_folder | The folder where all result files are located. | `str` | `"results/"` |
+| --out_file (-o) | The output path of the benchmark results. By default, results will be printed to stdout. | `str` | `None` | 
+
+### `figures`
+
+Creates all figures in the paper as `.png` files.
+
+```bash
+python3 -m topic_benchmark figures
+```
+
+| argument | description | type | default |
+| -------- | ----------- | ---- | ------- |
+| results_folder | The folder where all result files are located. | `str` | `"results/"` |
+| --out_file (-o) | Directory where the figures should be placed.  | `str` | `"figures/"` | 
+| --show_figures (-s) | Indicates whether the figures should be displayed in a browser tab or not. | `bool` | `False` | 
+
