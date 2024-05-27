@@ -1,0 +1,7 @@
+mdutils
+numpy
+matplotlib
+
+[server]
+concreteproperties
+sectionproperties
