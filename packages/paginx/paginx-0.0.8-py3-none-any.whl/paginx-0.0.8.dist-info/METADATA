@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: paginx
+Version: 0.0.8
+Summary: An assistant helping you to index webpages into structured datasets.
+License: MIT
+Author: Ben Selleslagh
+Author-email: ben@dataframe.be
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: bs4 (>=0.0.2,<0.0.3)
+Requires-Dist: fake-useragent (>=1.5.1,<2.0.0)
+Requires-Dist: langchain
+Requires-Dist: langchain-cohere
+Requires-Dist: langchain-openai
+Requires-Dist: langchain-postgres (>=0.0.3,<0.0.4)
+Requires-Dist: psycopg-binary (>=3.1.18,<4.0.0)
+Requires-Dist: replicate (>=0.25.2,<0.26.0)
+Requires-Dist: tiktoken (>=0.6.0,<0.7.0)
+Requires-Dist: trafilatura (>=1.9.0,<2.0.0)
+Requires-Dist: validators (>=0.28.1,<0.29.0)
+Description-Content-Type: text/markdown
+
+# url-rag-assistant
+
+![GitHub License](https://img.shields.io/github/license/bselleslagh/paginx)
+
+
+ paginx is an innovative Python-based project that leverages the power of Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) to provide intelligent question-answering capabilities for any given website. By simply entering a website URL, users can interact with an AI assistant that can answer questions and provide insights based on the content of the website.
+
