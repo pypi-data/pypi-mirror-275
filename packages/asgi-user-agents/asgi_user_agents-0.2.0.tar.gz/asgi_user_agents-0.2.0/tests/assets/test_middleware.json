@@ -1,0 +1,1338 @@
+{
+    "test_user_agent_data": [
+        {
+            "ua_string": "",
+            "response_data": {
+                "ua_string": "",
+                "os": [
+                    "Other",
+                    [],
+                    ""
+                ],
+                "os.family": "Other",
+                "os.version": [],
+                "os.version_string": "",
+                "browser": [
+                    "Other",
+                    [],
+                    ""
+                ],
+                "browser.family": "Other",
+                "browser.version": [],
+                "browser.version_string": "",
+                "device": [
+                    "Other",
+                    null,
+                    null
+                ],
+                "device.family": "Other",
+                "device.brand": null,
+                "device.model": null,
+                "is_provided": false,
+                "is_tablet": false,
+                "is_mobile": false,
+                "is_touch_capable": false,
+                "is_pc": false,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "python-httpx/0.26.0",
+            "response_data": {
+                "ua_string": "python-httpx/0.26.0",
+                "os": [
+                    "Other",
+                    [],
+                    ""
+                ],
+                "os.family": "Other",
+                "os.version": [],
+                "os.version_string": "",
+                "browser": [
+                    "Other",
+                    [],
+                    ""
+                ],
+                "browser.family": "Other",
+                "browser.version": [],
+                "browser.version_string": "",
+                "device": [
+                    "Other",
+                    null,
+                    null
+                ],
+                "device.family": "Other",
+                "device.brand": null,
+                "device.model": null,
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": false,
+                "is_touch_capable": false,
+                "is_pc": false,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "PostmanRuntime/7.39.0",
+            "response_data": {
+                "ua_string": "PostmanRuntime/7.39.0",
+                "os": [
+                    "Other",
+                    [],
+                    ""
+                ],
+                "os.family": "Other",
+                "os.version": [],
+                "os.version_string": "",
+                "browser": [
+                    "PostmanRuntime",
+                    [
+                        7,
+                        39,
+                        0
+                    ],
+                    "7.39.0"
+                ],
+                "browser.family": "PostmanRuntime",
+                "browser.version": [
+                    7,
+                    39,
+                    0
+                ],
+                "browser.version_string": "7.39.0",
+                "device": [
+                    "Other",
+                    null,
+                    null
+                ],
+                "device.family": "Other",
+                "device.brand": null,
+                "device.model": null,
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": false,
+                "is_touch_capable": false,
+                "is_pc": false,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (iPhone; CPU iPhone OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B179 Safari/7534.48.3",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (iPhone; CPU iPhone OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B179 Safari/7534.48.3",
+                "os": [
+                    "iOS",
+                    [
+                        5,
+                        1
+                    ],
+                    "5.1"
+                ],
+                "os.family": "iOS",
+                "os.version": [
+                    5,
+                    1
+                ],
+                "os.version_string": "5.1",
+                "browser": [
+                    "Mobile Safari",
+                    [
+                        5,
+                        1
+                    ],
+                    "5.1"
+                ],
+                "browser.family": "Mobile Safari",
+                "browser.version": [
+                    5,
+                    1
+                ],
+                "browser.version_string": "5.1",
+                "device": [
+                    "iPhone",
+                    "Apple",
+                    "iPhone"
+                ],
+                "device.family": "iPhone",
+                "device.brand": "Apple",
+                "device.model": "iPhone",
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": true,
+                "is_touch_capable": true,
+                "is_pc": false,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10",
+            "response_data": {
+                "ua_string": "Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10",
+                "os": [
+                    "iOS",
+                    [
+                        3,
+                        2
+                    ],
+                    "3.2"
+                ],
+                "os.family": "iOS",
+                "os.version": [
+                    3,
+                    2
+                ],
+                "os.version_string": "3.2",
+                "browser": [
+                    "Mobile Safari",
+                    [
+                        4,
+                        0,
+                        4
+                    ],
+                    "4.0.4"
+                ],
+                "browser.family": "Mobile Safari",
+                "browser.version": [
+                    4,
+                    0,
+                    4
+                ],
+                "browser.version_string": "4.0.4",
+                "device": [
+                    "iPad",
+                    "Apple",
+                    "iPad"
+                ],
+                "device.family": "iPad",
+                "device.brand": "Apple",
+                "device.model": "iPad",
+                "is_provided": true,
+                "is_tablet": true,
+                "is_mobile": false,
+                "is_touch_capable": true,
+                "is_pc": false,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (iPad; CPU OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/86.0.4240.93 Mobile/15E148 Safari/604.1",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (iPad; CPU OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/86.0.4240.93 Mobile/15E148 Safari/604.1",
+                "os": [
+                    "iOS",
+                    [
+                        13,
+                        3
+                    ],
+                    "13.3"
+                ],
+                "os.family": "iOS",
+                "os.version": [
+                    13,
+                    3
+                ],
+                "os.version_string": "13.3",
+                "browser": [
+                    "Chrome Mobile iOS",
+                    [
+                        86,
+                        0,
+                        4240
+                    ],
+                    "86.0.4240"
+                ],
+                "browser.family": "Chrome Mobile iOS",
+                "browser.version": [
+                    86,
+                    0,
+                    4240
+                ],
+                "browser.version_string": "86.0.4240",
+                "device": [
+                    "iPad",
+                    "Apple",
+                    "iPad"
+                ],
+                "device.family": "iPad",
+                "device.brand": "Apple",
+                "device.model": "iPad",
+                "is_provided": true,
+                "is_tablet": true,
+                "is_mobile": true,
+                "is_touch_capable": true,
+                "is_pc": false,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (Linux; U; Android 2.2; en-us; SCH-I800 Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (Linux; U; Android 2.2; en-us; SCH-I800 Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+                "os": [
+                    "Android",
+                    [
+                        2,
+                        2
+                    ],
+                    "2.2"
+                ],
+                "os.family": "Android",
+                "os.version": [
+                    2,
+                    2
+                ],
+                "os.version_string": "2.2",
+                "browser": [
+                    "Android",
+                    [
+                        2,
+                        2
+                    ],
+                    "2.2"
+                ],
+                "browser.family": "Android",
+                "browser.version": [
+                    2,
+                    2
+                ],
+                "browser.version_string": "2.2",
+                "device": [
+                    "Samsung SCH-I800",
+                    "Samsung",
+                    "SCH-I800"
+                ],
+                "device.family": "Samsung SCH-I800",
+                "device.brand": "Samsung",
+                "device.model": "SCH-I800",
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": true,
+                "is_touch_capable": true,
+                "is_pc": false,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (Linux; U; Android 4.0.4; en-gb; GT-I9300 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (Linux; U; Android 4.0.4; en-gb; GT-I9300 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+                "os": [
+                    "Android",
+                    [
+                        4,
+                        0,
+                        4
+                    ],
+                    "4.0.4"
+                ],
+                "os.family": "Android",
+                "os.version": [
+                    4,
+                    0,
+                    4
+                ],
+                "os.version_string": "4.0.4",
+                "browser": [
+                    "Android",
+                    [
+                        4,
+                        0,
+                        4
+                    ],
+                    "4.0.4"
+                ],
+                "browser.family": "Android",
+                "browser.version": [
+                    4,
+                    0,
+                    4
+                ],
+                "browser.version_string": "4.0.4",
+                "device": [
+                    "Samsung GT-I9300",
+                    "Samsung",
+                    "GT-I9300"
+                ],
+                "device.family": "Samsung GT-I9300",
+                "device.brand": "Samsung",
+                "device.model": "GT-I9300",
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": true,
+                "is_touch_capable": true,
+                "is_pc": false,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.1.0-80) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.1.0-80) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true",
+                "os": [
+                    "Android",
+                    [],
+                    ""
+                ],
+                "os.family": "Android",
+                "os.version": [],
+                "os.version_string": "",
+                "browser": [
+                    "Amazon Silk",
+                    [
+                        1,
+                        1,
+                        "0-80"
+                    ],
+                    "1.1.0-80"
+                ],
+                "browser.family": "Amazon Silk",
+                "browser.version": [
+                    1,
+                    1,
+                    "0-80"
+                ],
+                "browser.version_string": "1.1.0-80",
+                "device": [
+                    "Kindle",
+                    "Amazon",
+                    "Kindle"
+                ],
+                "device.family": "Kindle",
+                "device.brand": "Amazon",
+                "device.model": "Kindle",
+                "is_provided": true,
+                "is_tablet": true,
+                "is_mobile": false,
+                "is_touch_capable": true,
+                "is_pc": false,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (PlayBook; U; RIM Tablet OS 2.0.1; en-US) AppleWebKit/535.8+ (KHTML, like Gecko) Version/7.2.0.1 Safari/535.8+",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (PlayBook; U; RIM Tablet OS 2.0.1; en-US) AppleWebKit/535.8+ (KHTML, like Gecko) Version/7.2.0.1 Safari/535.8+",
+                "os": [
+                    "BlackBerry Tablet OS",
+                    [
+                        2,
+                        0,
+                        1
+                    ],
+                    "2.0.1"
+                ],
+                "os.family": "BlackBerry Tablet OS",
+                "os.version": [
+                    2,
+                    0,
+                    1
+                ],
+                "os.version_string": "2.0.1",
+                "browser": [
+                    "BlackBerry WebKit",
+                    [
+                        2,
+                        0,
+                        1
+                    ],
+                    "2.0.1"
+                ],
+                "browser.family": "BlackBerry WebKit",
+                "browser.version": [
+                    2,
+                    0,
+                    1
+                ],
+                "browser.version_string": "2.0.1",
+                "device": [
+                    "BlackBerry Playbook",
+                    "BlackBerry",
+                    "Playbook"
+                ],
+                "device.family": "BlackBerry Playbook",
+                "device.brand": "BlackBerry",
+                "device.model": "Playbook",
+                "is_provided": true,
+                "is_tablet": true,
+                "is_mobile": false,
+                "is_touch_capable": true,
+                "is_pc": false,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166  Safari/535.19",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166  Safari/535.19",
+                "os": [
+                    "Android",
+                    [
+                        4,
+                        1,
+                        1
+                    ],
+                    "4.1.1"
+                ],
+                "os.family": "Android",
+                "os.version": [
+                    4,
+                    1,
+                    1
+                ],
+                "os.version_string": "4.1.1",
+                "browser": [
+                    "Chrome",
+                    [
+                        18,
+                        0,
+                        1025
+                    ],
+                    "18.0.1025"
+                ],
+                "browser.family": "Chrome",
+                "browser.version": [
+                    18,
+                    0,
+                    1025
+                ],
+                "browser.version_string": "18.0.1025",
+                "device": [
+                    "Asus Nexus 7",
+                    "Asus",
+                    "Nexus 7"
+                ],
+                "device.family": "Asus Nexus 7",
+                "device.brand": "Asus",
+                "device.model": "Nexus 7",
+                "is_provided": true,
+                "is_tablet": true,
+                "is_mobile": false,
+                "is_touch_capable": true,
+                "is_pc": false,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; SGH-i917)",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; SGH-i917)",
+                "os": [
+                    "Windows Phone",
+                    [
+                        7,
+                        5
+                    ],
+                    "7.5"
+                ],
+                "os.family": "Windows Phone",
+                "os.version": [
+                    7,
+                    5
+                ],
+                "os.version_string": "7.5",
+                "browser": [
+                    "IE Mobile",
+                    [
+                        9,
+                        0
+                    ],
+                    "9.0"
+                ],
+                "browser.family": "IE Mobile",
+                "browser.version": [
+                    9,
+                    0
+                ],
+                "browser.version_string": "9.0",
+                "device": [
+                    "Samsung SGH-i917",
+                    "Samsung",
+                    "SGH-i917"
+                ],
+                "device.family": "Samsung SGH-i917",
+                "device.brand": "Samsung",
+                "device.model": "SGH-i917",
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": true,
+                "is_touch_capable": true,
+                "is_pc": false,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (BlackBerry; U; BlackBerry 9800; zh-TW) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.448 Mobile Safari/534.8+",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (BlackBerry; U; BlackBerry 9800; zh-TW) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.448 Mobile Safari/534.8+",
+                "os": [
+                    "BlackBerry OS",
+                    [
+                        6,
+                        0,
+                        0
+                    ],
+                    "6.0.0"
+                ],
+                "os.family": "BlackBerry OS",
+                "os.version": [
+                    6,
+                    0,
+                    0
+                ],
+                "os.version_string": "6.0.0",
+                "browser": [
+                    "BlackBerry WebKit",
+                    [
+                        6,
+                        0,
+                        0
+                    ],
+                    "6.0.0"
+                ],
+                "browser.family": "BlackBerry WebKit",
+                "browser.version": [
+                    6,
+                    0,
+                    0
+                ],
+                "browser.version_string": "6.0.0",
+                "device": [
+                    "BlackBerry 9800",
+                    "BlackBerry",
+                    "9800"
+                ],
+                "device.family": "BlackBerry 9800",
+                "device.brand": "BlackBerry",
+                "device.model": "9800",
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": true,
+                "is_touch_capable": false,
+                "is_pc": false,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "BlackBerry9700/5.0.0.862 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/331 UNTRUSTED/1.0 3gpp-gba",
+            "response_data": {
+                "ua_string": "BlackBerry9700/5.0.0.862 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/331 UNTRUSTED/1.0 3gpp-gba",
+                "os": [
+                    "BlackBerry OS",
+                    [
+                        5,
+                        0,
+                        0
+                    ],
+                    "5.0.0"
+                ],
+                "os.family": "BlackBerry OS",
+                "os.version": [
+                    5,
+                    0,
+                    0
+                ],
+                "os.version_string": "5.0.0",
+                "browser": [
+                    "BlackBerry",
+                    [
+                        9700
+                    ],
+                    "9700"
+                ],
+                "browser.family": "BlackBerry",
+                "browser.version": [
+                    9700
+                ],
+                "browser.version_string": "9700",
+                "device": [
+                    "BlackBerry 9700",
+                    "BlackBerry",
+                    "9700"
+                ],
+                "device.family": "BlackBerry 9700",
+                "device.brand": "BlackBerry",
+                "device.model": "9700",
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": true,
+                "is_touch_capable": false,
+                "is_pc": false,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (BlackBerry; U; BlackBerry 9930; en-US) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.241 Mobile Safari/534.11+",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (BlackBerry; U; BlackBerry 9930; en-US) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.241 Mobile Safari/534.11+",
+                "os": [
+                    "BlackBerry OS",
+                    [
+                        7,
+                        0,
+                        0
+                    ],
+                    "7.0.0"
+                ],
+                "os.family": "BlackBerry OS",
+                "os.version": [
+                    7,
+                    0,
+                    0
+                ],
+                "os.version_string": "7.0.0",
+                "browser": [
+                    "BlackBerry WebKit",
+                    [
+                        7,
+                        0,
+                        0
+                    ],
+                    "7.0.0"
+                ],
+                "browser.family": "BlackBerry WebKit",
+                "browser.version": [
+                    7,
+                    0,
+                    0
+                ],
+                "browser.version_string": "7.0.0",
+                "device": [
+                    "BlackBerry 9930",
+                    "BlackBerry",
+                    "9930"
+                ],
+                "device.family": "BlackBerry 9930",
+                "device.brand": "BlackBerry",
+                "device.model": "9930",
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": true,
+                "is_touch_capable": false,
+                "is_pc": false,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; ARM; Trident/6.0)",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; ARM; Trident/6.0)",
+                "os": [
+                    "Windows",
+                    [
+                        "RT"
+                    ],
+                    "RT"
+                ],
+                "os.family": "Windows",
+                "os.version": [
+                    "RT"
+                ],
+                "os.version_string": "RT",
+                "browser": [
+                    "IE",
+                    [
+                        10,
+                        0
+                    ],
+                    "10.0"
+                ],
+                "browser.family": "IE",
+                "browser.version": [
+                    10,
+                    0
+                ],
+                "browser.version_string": "10.0",
+                "device": [
+                    "Other",
+                    null,
+                    null
+                ],
+                "device.family": "Other",
+                "device.brand": null,
+                "device.model": null,
+                "is_provided": true,
+                "is_tablet": true,
+                "is_mobile": false,
+                "is_touch_capable": true,
+                "is_pc": true,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Opera/9.80 (J2ME/MIDP; Opera Mini/9.80 (J2ME/22.478; U; en) Presto/2.5.25 Version/10.54",
+            "response_data": {
+                "ua_string": "Opera/9.80 (J2ME/MIDP; Opera Mini/9.80 (J2ME/22.478; U; en) Presto/2.5.25 Version/10.54",
+                "os": [
+                    "Other",
+                    [],
+                    ""
+                ],
+                "os.family": "Other",
+                "os.version": [],
+                "os.version_string": "",
+                "browser": [
+                    "Opera Mini",
+                    [
+                        9,
+                        80
+                    ],
+                    "9.80"
+                ],
+                "browser.family": "Opera Mini",
+                "browser.version": [
+                    9,
+                    80
+                ],
+                "browser.version_string": "9.80",
+                "device": [
+                    "Generic Feature Phone",
+                    "Generic",
+                    "Feature Phone"
+                ],
+                "device.family": "Generic Feature Phone",
+                "device.brand": "Generic",
+                "device.model": "Feature Phone",
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": true,
+                "is_touch_capable": false,
+                "is_pc": false,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)",
+                "os": [
+                    "Windows",
+                    [
+                        8
+                    ],
+                    "8"
+                ],
+                "os.family": "Windows",
+                "os.version": [
+                    8
+                ],
+                "os.version_string": "8",
+                "browser": [
+                    "IE",
+                    [
+                        10,
+                        0
+                    ],
+                    "10.0"
+                ],
+                "browser.family": "IE",
+                "browser.version": [
+                    10,
+                    0
+                ],
+                "browser.version_string": "10.0",
+                "device": [
+                    "Other",
+                    null,
+                    null
+                ],
+                "device.family": "Other",
+                "device.brand": null,
+                "device.model": null,
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": false,
+                "is_touch_capable": false,
+                "is_pc": true,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; Touch)",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; Touch)",
+                "os": [
+                    "Windows",
+                    [
+                        8
+                    ],
+                    "8"
+                ],
+                "os.family": "Windows",
+                "os.version": [
+                    8
+                ],
+                "os.version_string": "8",
+                "browser": [
+                    "IE",
+                    [
+                        10,
+                        0
+                    ],
+                    "10.0"
+                ],
+                "browser.family": "IE",
+                "browser.version": [
+                    10,
+                    0
+                ],
+                "browser.version_string": "10.0",
+                "device": [
+                    "Other",
+                    null,
+                    null
+                ],
+                "device.family": "Other",
+                "device.brand": null,
+                "device.model": null,
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": false,
+                "is_touch_capable": true,
+                "is_pc": true,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.13+ (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.13+ (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2",
+                "os": [
+                    "Mac OS X",
+                    [
+                        10,
+                        6,
+                        8
+                    ],
+                    "10.6.8"
+                ],
+                "os.family": "Mac OS X",
+                "os.version": [
+                    10,
+                    6,
+                    8
+                ],
+                "os.version_string": "10.6.8",
+                "browser": [
+                    "WebKit Nightly",
+                    [
+                        537,
+                        13
+                    ],
+                    "537.13"
+                ],
+                "browser.family": "WebKit Nightly",
+                "browser.version": [
+                    537,
+                    13
+                ],
+                "browser.version_string": "537.13",
+                "device": [
+                    "Mac",
+                    "Apple",
+                    "Mac"
+                ],
+                "device.family": "Mac",
+                "device.brand": "Apple",
+                "device.model": "Mac",
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": false,
+                "is_touch_capable": false,
+                "is_pc": true,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
+                "os": [
+                    "Windows",
+                    [
+                        7
+                    ],
+                    "7"
+                ],
+                "os.family": "Windows",
+                "os.version": [
+                    7
+                ],
+                "os.version_string": "7",
+                "browser": [
+                    "IE",
+                    [
+                        9,
+                        0
+                    ],
+                    "9.0"
+                ],
+                "browser.family": "IE",
+                "browser.version": [
+                    9,
+                    0
+                ],
+                "browser.version_string": "9.0",
+                "device": [
+                    "Other",
+                    null,
+                    null
+                ],
+                "device.family": "Other",
+                "device.brand": null,
+                "device.model": null,
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": false,
+                "is_touch_capable": false,
+                "is_pc": true,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:15.0) Gecko/20100101 Firefox/15.0.1",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:15.0) Gecko/20100101 Firefox/15.0.1",
+                "os": [
+                    "Ubuntu",
+                    [],
+                    ""
+                ],
+                "os.family": "Ubuntu",
+                "os.version": [],
+                "os.version_string": "",
+                "browser": [
+                    "Firefox",
+                    [
+                        15,
+                        0,
+                        1
+                    ],
+                    "15.0.1"
+                ],
+                "browser.family": "Firefox",
+                "browser.version": [
+                    15,
+                    0,
+                    1
+                ],
+                "browser.version_string": "15.0.1",
+                "device": [
+                    "Other",
+                    null,
+                    null
+                ],
+                "device.family": "Other",
+                "device.brand": null,
+                "device.model": null,
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": false,
+                "is_touch_capable": false,
+                "is_pc": true,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+                "os": [
+                    "Other",
+                    [],
+                    ""
+                ],
+                "os.family": "Other",
+                "os.version": [],
+                "os.version_string": "",
+                "browser": [
+                    "Googlebot",
+                    [
+                        2,
+                        1
+                    ],
+                    "2.1"
+                ],
+                "browser.family": "Googlebot",
+                "browser.version": [
+                    2,
+                    1
+                ],
+                "browser.version_string": "2.1",
+                "device": [
+                    "Spider",
+                    "Spider",
+                    "Desktop"
+                ],
+                "device.family": "Spider",
+                "device.brand": "Spider",
+                "device.model": "Desktop",
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": false,
+                "is_touch_capable": false,
+                "is_pc": false,
+                "is_bot": true,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/12.0.024; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.12344",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/12.0.024; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.12344",
+                "os": [
+                    "Symbian OS",
+                    [
+                        9,
+                        4
+                    ],
+                    "9.4"
+                ],
+                "os.family": "Symbian OS",
+                "os.version": [
+                    9,
+                    4
+                ],
+                "os.version_string": "9.4",
+                "browser": [
+                    "Nokia Browser",
+                    [
+                        7,
+                        1,
+                        12344
+                    ],
+                    "7.1.12344"
+                ],
+                "browser.family": "Nokia Browser",
+                "browser.version": [
+                    7,
+                    1,
+                    12344
+                ],
+                "browser.version_string": "7.1.12344",
+                "device": [
+                    "Nokia N97",
+                    "Nokia",
+                    "N97-1"
+                ],
+                "device.family": "Nokia N97",
+                "device.brand": "Nokia",
+                "device.model": "N97-1",
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": true,
+                "is_touch_capable": false,
+                "is_pc": false,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (Android; Mobile; rv:27.0) Gecko/27.0 Firefox/27.0",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (Android; Mobile; rv:27.0) Gecko/27.0 Firefox/27.0",
+                "os": [
+                    "Android",
+                    [],
+                    ""
+                ],
+                "os.family": "Android",
+                "os.version": [],
+                "os.version_string": "",
+                "browser": [
+                    "Firefox Mobile",
+                    [
+                        27,
+                        0
+                    ],
+                    "27.0"
+                ],
+                "browser.family": "Firefox Mobile",
+                "browser.version": [
+                    27,
+                    0
+                ],
+                "browser.version_string": "27.0",
+                "device": [
+                    "Generic Smartphone",
+                    "Generic",
+                    "Smartphone"
+                ],
+                "device.family": "Generic Smartphone",
+                "device.brand": "Generic",
+                "device.model": "Smartphone",
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": true,
+                "is_touch_capable": true,
+                "is_pc": false,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Thunderbird/38.2.0 Lightning/4.0.2",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Thunderbird/38.2.0 Lightning/4.0.2",
+                "os": [
+                    "Linux",
+                    [],
+                    ""
+                ],
+                "os.family": "Linux",
+                "os.version": [],
+                "os.version_string": "",
+                "browser": [
+                    "Thunderbird",
+                    [
+                        38,
+                        2,
+                        0
+                    ],
+                    "38.2.0"
+                ],
+                "browser.family": "Thunderbird",
+                "browser.version": [
+                    38,
+                    2,
+                    0
+                ],
+                "browser.version_string": "38.2.0",
+                "device": [
+                    "Other",
+                    null,
+                    null
+                ],
+                "device.family": "Other",
+                "device.brand": null,
+                "device.model": null,
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": false,
+                "is_touch_capable": false,
+                "is_pc": true,
+                "is_bot": false,
+                "is_email_client": true
+            }
+        },
+        {
+            "ua_string": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/6.0; Microsoft Outlook 15.0.4420)",
+            "response_data": {
+                "ua_string": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/6.0; Microsoft Outlook 15.0.4420)",
+                "os": [
+                    "Windows",
+                    [
+                        7
+                    ],
+                    "7"
+                ],
+                "os.family": "Windows",
+                "os.version": [
+                    7
+                ],
+                "os.version_string": "7",
+                "browser": [
+                    "Outlook",
+                    [
+                        2013
+                    ],
+                    "2013"
+                ],
+                "browser.family": "Outlook",
+                "browser.version": [
+                    2013
+                ],
+                "browser.version_string": "2013",
+                "device": [
+                    "Other",
+                    null,
+                    null
+                ],
+                "device.family": "Other",
+                "device.brand": null,
+                "device.model": null,
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": false,
+                "is_touch_capable": false,
+                "is_pc": true,
+                "is_bot": false,
+                "is_email_client": true
+            }
+        },
+        {
+            "ua_string": "Mozilla/5.0 (X11; CrOS i686 0.12.433) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.77 Safari/534.30",
+            "response_data": {
+                "ua_string": "Mozilla/5.0 (X11; CrOS i686 0.12.433) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.77 Safari/534.30",
+                "os": [
+                    "Chrome OS",
+                    [
+                        0,
+                        12,
+                        433
+                    ],
+                    "0.12.433"
+                ],
+                "os.family": "Chrome OS",
+                "os.version": [
+                    0,
+                    12,
+                    433
+                ],
+                "os.version_string": "0.12.433",
+                "browser": [
+                    "Chrome",
+                    [
+                        12,
+                        0,
+                        742
+                    ],
+                    "12.0.742"
+                ],
+                "browser.family": "Chrome",
+                "browser.version": [
+                    12,
+                    0,
+                    742
+                ],
+                "browser.version_string": "12.0.742",
+                "device": [
+                    "Other",
+                    null,
+                    null
+                ],
+                "device.family": "Other",
+                "device.brand": null,
+                "device.model": null,
+                "is_provided": true,
+                "is_tablet": false,
+                "is_mobile": false,
+                "is_touch_capable": false,
+                "is_pc": true,
+                "is_bot": false,
+                "is_email_client": false
+            }
+        }
+    ]
+}
