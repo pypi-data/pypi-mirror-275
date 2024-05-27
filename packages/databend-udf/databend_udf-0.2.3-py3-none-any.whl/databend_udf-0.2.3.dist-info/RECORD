@@ -1,0 +1,6 @@
+databend_udf/__init__.py,sha256=8u9jGmtN8mSCZpNipJSgNkRguSpF_pVJ62wH7ZG_pfM,27
+databend_udf/udf.py,sha256=BhAkvZVsvkplGBHaR5Avi1JPnYwuVb1CL9-y4ZR3UnI,19330
+databend_udf-0.2.3.dist-info/METADATA,sha256=fVl73XiopJU52COMFbPQZ5ZsEgYSBs6mJfrf0dEG0F0,5853
+databend_udf-0.2.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+databend_udf-0.2.3.dist-info/top_level.txt,sha256=MwDmSj2HIt7R_CCRcfWzfCQxiCyk7_R31Dqe2DGTWLg,13
+databend_udf-0.2.3.dist-info/RECORD,,
