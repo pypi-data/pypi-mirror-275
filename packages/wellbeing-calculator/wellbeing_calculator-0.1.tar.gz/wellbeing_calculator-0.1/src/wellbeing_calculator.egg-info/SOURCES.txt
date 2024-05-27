@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/wellbeing_calculator/__init__.py
+src/wellbeing_calculator/calculator.py
+src/wellbeing_calculator.egg-info/PKG-INFO
+src/wellbeing_calculator.egg-info/SOURCES.txt
+src/wellbeing_calculator.egg-info/dependency_links.txt
+src/wellbeing_calculator.egg-info/entry_points.txt
+src/wellbeing_calculator.egg-info/requires.txt
+src/wellbeing_calculator.egg-info/top_level.txt
