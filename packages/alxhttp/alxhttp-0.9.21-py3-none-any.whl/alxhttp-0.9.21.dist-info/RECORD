@@ -1,0 +1,16 @@
+alxhttp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alxhttp/file.py,sha256=Ab_D-ZmMGUUMCXbPHO-EZOtHghnwvANtcurAXOq9gWs,199
+alxhttp/headers.py,sha256=sw86WfOot94h-7ndKcVezceJXNusIfIa_c3pT-yLS2w,2526
+alxhttp/logging.py,sha256=Iki-WenRtX3tRjoK-FmC0DWIb2D3Dp3rgvobsd5kBpY,2070
+alxhttp/middleware.py,sha256=BXDFGH2C2dxI77fJqMf9RBRVWUdJVrzblOuOMnrKj8w,4391
+alxhttp/req_id.py,sha256=gMQQu_TgIuW0TPOaQ5xZfrIW5uuXl-AuRLv_0c2-Z1I,767
+alxhttp/server.py,sha256=iE8t_gTrgyIh8hRr09BDMo3Nt68YRCi_iHvY4TMP2f8,1709
+alxhttp/xray.py,sha256=MVFy8n7dbUror_-olACX7Z4XrgUbWNwZIsCGYEyOnhI,2010
+alxhttp/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alxhttp/tests/multipart_bytes_writer.py,sha256=-50Y5_y5jT1fni17rlMpLahd3eV7fAFfU89aBrD2Nio,971
+alxhttp/tests/stream_reader.py,sha256=WflVFG1QBT9eUpohVqLudE2UDD-wAoXv-TPNke6Z24s,1369
+alxhttp-0.9.21.dist-info/LICENSE,sha256=ELNF-v4ooXIecasviICCTSkwHxDSl82ZO5DWat_Uqeo,1076
+alxhttp-0.9.21.dist-info/METADATA,sha256=gJ9wvmqodp4_TtskmV_0JqmUrncmGgbYwJ3DxERWkBc,749
+alxhttp-0.9.21.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+alxhttp-0.9.21.dist-info/top_level.txt,sha256=AMt-tP3lTYk5gvhAixP0Z2gih-2jsYLMW5xOFzA7KN4,8
+alxhttp-0.9.21.dist-info/RECORD,,
