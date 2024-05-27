@@ -1,0 +1,7 @@
+README.md
+setup.py
+atlasml/__init__.py
+atlasml.egg-info/PKG-INFO
+atlasml.egg-info/SOURCES.txt
+atlasml.egg-info/dependency_links.txt
+atlasml.egg-info/top_level.txt
