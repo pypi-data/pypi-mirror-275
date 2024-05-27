@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: umerfy_number
+Version: 0.1
+Summary: To convert numbers to human readable format
+Author: Muhmmad Umer
+Author-email: umernadeem241@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+This library convert numbers to human readable format like 1000 to 1k

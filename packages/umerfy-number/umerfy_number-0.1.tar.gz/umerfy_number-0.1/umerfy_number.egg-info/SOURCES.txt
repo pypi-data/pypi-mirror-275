@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+umerfy_number/__init__.py
+umerfy_number/test.py
+umerfy_number.egg-info/PKG-INFO
+umerfy_number.egg-info/SOURCES.txt
+umerfy_number.egg-info/dependency_links.txt
+umerfy_number.egg-info/top_level.txt
