@@ -1,0 +1,38 @@
+[project]
+name = "grid_engine_Nitebound"
+version = "0.0.2"
+description = "The Nitegame Grid Engine"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  { name = "NiteboundX", email = "niteboundx@gmail.com" },
+]
+license = { text = "MIT License" }
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Games/Entertainment",
+]
+
+dependencies=[
+    'pygame>=2.0.0',
+    'numpy>=1.18.0',
+    'PyOpenGL>=3.1.5',
+    'PyOpenGL-accelerate>=3.1.5',
+]
+
+[project.urls]
+Homepage = "https://github.com/NiteboundX/grid_engine_Nitebound"
+Issues = "https://github.com/NiteboundX/grid_engine_Nitebound/issues"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
