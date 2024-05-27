@@ -1,0 +1,9 @@
+README.md
+setup.py
+Image_f_c.egg-info/PKG-INFO
+Image_f_c.egg-info/SOURCES.txt
+Image_f_c.egg-info/dependency_links.txt
+Image_f_c.egg-info/requires.txt
+Image_f_c.egg-info/top_level.txt
+src/Image-f-c.py
+src/__init__.py
