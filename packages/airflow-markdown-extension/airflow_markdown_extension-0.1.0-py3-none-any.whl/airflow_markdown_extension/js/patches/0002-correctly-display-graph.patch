@@ -1,0 +1,30 @@
+From 90e514e1db4543c26020ff95ef53b848211833d4 Mon Sep 17 00:00:00 2001
+From: Joffrey Bienvenu <joffreybvn@gmail.be>
+Date: Sun, 26 May 2024 15:40:48 +0200
+Subject: [PATCH 2/2] correctly display graph
+
+---
+ .../js/airflow/dag/details/graph/index.tsx                    | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/airflow_markdown_extension/js/airflow/dag/details/graph/index.tsx b/airflow_markdown_extension/js/airflow/dag/details/graph/index.tsx
+index 7d50474..8acf585 100644
+--- a/airflow_markdown_extension/js/airflow/dag/details/graph/index.tsx
++++ b/airflow_markdown_extension/js/airflow/dag/details/graph/index.tsx
+@@ -208,11 +208,11 @@ const Graph = ({
+   return (
+     <Box
+       ref={graphRef}
+-      height={`calc(100% - ${offsetTop}px)`}
++      className={"airflow-graph"}
+       borderWidth={1}
+       borderColor="gray.200"
+     >
+-      {!!offsetTop && (
++      {(
+         <ReactFlow
+           nodes={nodes}
+           edges={edges}
+-- 
+2.34.1
+

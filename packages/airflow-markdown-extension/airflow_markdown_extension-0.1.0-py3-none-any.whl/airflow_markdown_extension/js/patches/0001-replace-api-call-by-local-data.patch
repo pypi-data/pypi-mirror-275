@@ -1,0 +1,199 @@
+From 4b8525472d30689b17fe7a01eed1e98c529b1e1c Mon Sep 17 00:00:00 2001
+From: Joffrey Bienvenu <joffreybvn@gmail.be>
+Date: Sun, 26 May 2024 15:40:13 +0200
+Subject: [PATCH 1/2] replace api call by local data
+
+---
+ .../js/airflow/api/index.ts                   | 125 +++++-------------
+ .../js/airflow/dag/details/graph/index.tsx    |  14 +-
+ 2 files changed, 39 insertions(+), 100 deletions(-)
+
+diff --git a/airflow_markdown_extension/js/airflow/api/index.ts b/airflow_markdown_extension/js/airflow/api/index.ts
+index 4ba363a..7472fa3 100644
+--- a/airflow_markdown_extension/js/airflow/api/index.ts
++++ b/airflow_markdown_extension/js/airflow/api/index.ts
+@@ -1,105 +1,40 @@
+-/*!
+- * Licensed to the Apache Software Foundation (ASF) under one
+- * or more contributor license agreements.  See the NOTICE file
+- * distributed with this work for additional information
+- * regarding copyright ownership.  The ASF licenses this file
+- * to you under the Apache License, Version 2.0 (the
+- * "License"); you may not use this file except in compliance
+- * with the License.  You may obtain a copy of the License at
+- *
+- *   http://www.apache.org/licenses/LICENSE-2.0
+- *
+- * Unless required by applicable law or agreed to in writing,
+- * software distributed under the License is distributed on an
+- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+- * KIND, either express or implied.  See the License for the
+- * specific language governing permissions and limitations
+- * under the License.
+- */
+-
+-import axios, { AxiosResponse } from "axios";
+ import camelcaseKeys from "camelcase-keys";
+ 
+-import useClearRun from "./useClearRun";
+-import useQueueRun from "./useQueueRun";
+-import useMarkFailedRun from "./useMarkFailedRun";
+-import useMarkSuccessRun from "./useMarkSuccessRun";
+-import useClearTask from "./useClearTask";
+-import useMarkFailedTask from "./useMarkFailedTask";
+-import useMarkSuccessTask from "./useMarkSuccessTask";
+-import useExtraLinks from "./useExtraLinks";
+-import useMarkTaskDryRun from "./useMarkTaskDryRun";
+-import useGraphData from "./useGraphData";
+-import useGridData from "./useGridData";
+-import useMappedInstances from "./useMappedInstances";
+-import useDatasets from "./useDatasets";
+-import useDatasetsSummary from "./useDatasetsSummary";
+-import useDataset from "./useDataset";
+-import useDatasetDependencies from "./useDatasetDependencies";
+-import useDatasetEvents from "./useDatasetEvents";
+-import useSetDagRunNote from "./useSetDagRunNote";
+-import useSetTaskInstanceNote from "./useSetTaskInstanceNote";
+-import useUpstreamDatasetEvents from "./useUpstreamDatasetEvents";
+-import useTaskInstance from "./useTaskInstance";
+-import useDag from "./useDag";
+-import useDagCode from "./useDagCode";
+-import useDagDetails from "./useDagDetails";
+-import useHealth from "./useHealth";
+-import usePools from "./usePools";
+-import useDags from "./useDags";
+-import useDagRuns from "./useDagRuns";
+-import useHistoricalMetricsData from "./useHistoricalMetricsData";
+-import { useTaskXcomEntry, useTaskXcomCollection } from "./useTaskXcom";
+-import useEventLogs from "./useEventLogs";
+-import useCalendarData from "./useCalendarData";
+-import useCreateDatasetEvent from "./useCreateDatasetEvent";
++interface useDatasetsParams {
++  dataset_data: any;
++}
++
++function useDatasets({ dataset_data }: useDatasetsParams) {
++  return camelcaseKeys(
++      {"data": dataset_data},
++      { deep: true }
++  )
++}
++
++interface UseGraphDataParams {
++  graph_data: any;
++}
+ 
+-axios.interceptors.request.use((config) => {
+-  config.paramsSerializer = {
+-    indexes: null,
+-  };
+-  return config;
+-});
++function useGraphData({ graph_data }: UseGraphDataParams) {
++  return camelcaseKeys(
++      {"data": graph_data},
++      { deep: true }
++  )
++}
+ 
+-axios.interceptors.response.use((res: AxiosResponse) =>
+-  res.data ? camelcaseKeys(res.data, { deep: true }) : res
+-);
++interface UseGridDataParams {
++  grid_data: any;
++}
+ 
+-axios.defaults.headers.common.Accept = "application/json";
++function useGridData({ grid_data }: UseGridDataParams) {
++  return camelcaseKeys(
++      {"data": grid_data},
++      { deep: true }
++  )
++}
+ 
+ export {
+-  useClearRun,
+-  useClearTask,
+-  useDag,
+-  useDagCode,
+-  useDagDetails,
+-  useDagRuns,
+-  useDags,
+-  useDataset,
+   useDatasets,
+-  useDatasetDependencies,
+-  useDatasetEvents,
+-  useDatasetsSummary,
+-  useExtraLinks,
+   useGraphData,
+   useGridData,
+-  useHealth,
+-  useMappedInstances,
+-  useMarkFailedRun,
+-  useMarkFailedTask,
+-  useMarkSuccessRun,
+-  useMarkSuccessTask,
+-  useMarkTaskDryRun,
+-  usePools,
+-  useQueueRun,
+-  useSetDagRunNote,
+-  useSetTaskInstanceNote,
+-  useTaskInstance,
+-  useUpstreamDatasetEvents,
+-  useHistoricalMetricsData,
+-  useTaskXcomEntry,
+-  useTaskXcomCollection,
+-  useEventLogs,
+-  useCalendarData,
+-  useCreateDatasetEvent,
+-};
++};
+\ No newline at end of file
+diff --git a/airflow_markdown_extension/js/airflow/dag/details/graph/index.tsx b/airflow_markdown_extension/js/airflow/dag/details/graph/index.tsx
+index e86801f..7d50474 100644
+--- a/airflow_markdown_extension/js/airflow/dag/details/graph/index.tsx
++++ b/airflow_markdown_extension/js/airflow/dag/details/graph/index.tsx
+@@ -51,6 +51,9 @@ interface Props {
+   hoveredTaskState?: string | null;
+   isFullScreen?: boolean;
+   toggleFullScreen?: () => void;
++  graph_data: any;
++  dataset_data: any;
++  grid_data: any;
+ }
+ 
+ const dagId = getMetaValue("dag_id");
+@@ -61,24 +64,25 @@ const Graph = ({
+   hoveredTaskState,
+   isFullScreen,
+   toggleFullScreen,
++  graph_data,
++  dataset_data,
++  grid_data
+ }: Props) => {
+   const graphRef = useRef(null);
+-  const { data } = useGraphData();
++  const { data } = useGraphData({graph_data});
+   const [arrange, setArrange] = useState(data?.arrange || "LR");
+   const [hasRendered, setHasRendered] = useState(false);
+   const [isZoomedOut, setIsZoomedOut] = useState(false);
+ 
+   const {
+     data: { dagRuns, groups },
+-  } = useGridData();
++  } = useGridData({grid_data});
+ 
+   useEffect(() => {
+     setArrange(data?.arrange || "LR");
+   }, [data?.arrange]);
+ 
+-  const { data: datasetsCollection } = useDatasets({
+-    dagIds: [dagId],
+-  });
++  const { data: datasetsCollection } = useDatasets({dataset_data});
+ 
+   const rawNodes =
+     data?.nodes && datasetsCollection?.datasets?.length
+-- 
+2.34.1
+

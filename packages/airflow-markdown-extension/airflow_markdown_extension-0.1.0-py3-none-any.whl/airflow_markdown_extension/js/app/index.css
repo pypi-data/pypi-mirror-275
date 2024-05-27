@@ -1,0 +1,9 @@
+
+.airflow-graph {
+  width: 900px;
+  height: 900px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
