@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: chess-cli-python-stockfish
+Version: 1.0.0
+Summary: A tool to play against stockfish
+Home-page: https://github.com/tadeasf/chess_cli
+Author: Tadeas Fort
+Author-email: taddy.fort@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: chess
+Requires-Dist: rich
+Requires-Dist: rich-click
+
+# chess-cli
+
+simple chess game in terminal using python

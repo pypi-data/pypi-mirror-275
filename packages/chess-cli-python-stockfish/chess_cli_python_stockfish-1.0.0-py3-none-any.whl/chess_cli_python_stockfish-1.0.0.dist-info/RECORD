@@ -1,0 +1,7 @@
+chess_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chess_cli/chess_cli.py,sha256=DFcSKe5ib3sQB89SRGxHqnJi8xANFq0tipwhU11vs7E,6396
+chess_cli_python_stockfish-1.0.0.dist-info/METADATA,sha256=f02pbOG7BjQGjePXAUKKgJvlU9QzXSbFBbcOsEnLOeM,549
+chess_cli_python_stockfish-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+chess_cli_python_stockfish-1.0.0.dist-info/entry_points.txt,sha256=NFPY_i6Zc9BNtGEVY_FprCKl2ihlBsCwX0248XADAkI,55
+chess_cli_python_stockfish-1.0.0.dist-info/top_level.txt,sha256=817HoaCD-OTE47zhoV2stk3dtziONcwPMYnZToNsm2Q,10
+chess_cli_python_stockfish-1.0.0.dist-info/RECORD,,

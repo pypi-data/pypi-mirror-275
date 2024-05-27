@@ -1,0 +1,2 @@
+[console_scripts]
+chess-cli = chess_cli.chess_cli:main
