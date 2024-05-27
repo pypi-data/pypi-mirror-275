@@ -1,0 +1,77 @@
+[project]
+name = "abrain"
+version = "1.0rc-post7"
+authors = [{ name="Kevin Godin-Dubois", email="k.j.m.godin-dubois@vu.nl"}]
+description = "NeuroEvolution in Python backed by C++ computations"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  
+  "Programming Language :: C++",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  
+  "License :: OSI Approved :: MIT License",
+
+  "Operating System :: Unix",
+
+  "Intended Audience :: Science/Research", 
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Artificial Life",
+]
+dependencies = [
+  "plotly",
+  "importlib_resources",
+  "graphviz",
+  "pyrecord",
+]
+
+[project.urls]
+Homepage = "https://github.com/kgd-al/abrain"
+Documentation = "https://abrain.rtfd.io"
+"Bug Tracker" = "https://github.com/kgd-al/abrain/issues"
+
+[build-system]
+requires = [
+  "setuptools>=65.0",
+  "cmake>=3.12",
+  "pybind11[global]",
+  "pybind11-stubgen",
+]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+tests = [
+  "pytest",
+  "pytest-steps", "pytest-sugar",
+  "coverage",
+  "flake8",
+]
+
+all-tests = [
+  "abrain[tests,kaleido]",
+  "leap-ec", "Pillow", "qdpy", "tqdm", "matplotlib"
+]
+
+
+docs = [
+  "sphinx",
+  "sphinx-pyproject",   # Auto-extract project version
+  "sphinx_design",      # for the nice flowing cards
+  "sphinx-tabs",        # For the 2D/3D cards
+  "matplotlib",         # for the plot extension
+  "sphinx-copybutton",  # Easily copy code
+  "myst-parser",        # Better parser
+  "furo"                # Style
+
+]
+
+kaleido = [ "kaleido" ]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = ["-ra", "--showlocals", "--strict-markers", "--strict-config"]
+xfail_strict = true
+filterwarnings = ["error"]
+testpaths = ["tests"]
