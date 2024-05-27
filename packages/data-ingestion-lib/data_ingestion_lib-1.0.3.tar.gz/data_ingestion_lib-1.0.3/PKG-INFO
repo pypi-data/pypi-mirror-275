@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: data-ingestion-lib
+Version: 1.0.3
+Summary: Data ingestion module 
+Author: Dat Nguyen
+Author-email: dat.nguyen2@tyme.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: mypy_boto3_dynamodb (>=1.34,<2.0)
+Requires-Dist: mypy_boto3_s3 (>=1.34,<2.0)
+Requires-Dist: python-json-logger (>=2.0,<3.0)
