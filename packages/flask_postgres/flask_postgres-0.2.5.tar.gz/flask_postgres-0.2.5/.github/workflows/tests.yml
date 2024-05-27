@@ -1,0 +1,54 @@
+name: tests
+on:
+  push:
+    branches:
+    - main
+  pull_request:
+    branches:
+    - main
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: [3.8.x, 3.12.x]
+        psycopg: [psycopg2, psycopg]
+    services:
+      postgres:
+        image: postgres:12-alpine
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 5432:5432
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python }}
+        architecture: x64
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install libpq-dev
+        pip install --upgrade pip uv
+        uv pip install --system --extra test -r pyproject.toml
+        uv pip install --system "${PSYCOPG_PACKAGE}"
+      env:
+        PSYCOPG_PACKAGE: ${{ matrix.psycopg }}
+    - name: Run tests
+      run: make test
+      env:
+        TEST_DATABASE_URI: postgresql+${{ matrix.psycopg }}://postgres:postgres@localhost:5432/flask_postgres_test_database
+#    - name: "Run tests (resolution: lowest)"
+#      run: |
+#        uv pip install --system --upgrade --resolution lowest-direct -r pyproject.toml
+#        uv pip install --system --upgrade "werkzeug<3"
+#        make test
+#      env:
+#        TEST_DATABASE_URI: postgresql+${{ matrix.psycopg }}://postgres:postgres@localhost:5432/flask_postgres_test_database
