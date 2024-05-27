@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: NetHyTech-DeepTTS
+Version: 1.0
+Summary: A Python package for text-to-speech conversion using DeepAI API.
+Author: Anubhav Chaturvedi
+Author-email: chaturvedianubhav520@example.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: playsound
+Requires-Dist: requests
+
+# Speech Synthesis with DeepAI API
+
+This Python script uses the DeepAI API to convert text to speech and play the resulting audio. It allows you to choose from various voices provided by DeepAI.
+
+## pip 
+
+```python
+from NetHyTech_DeepTTS import speak
+
+speak("i dont know sir but i am felling not good today",l)
+
+```
+
+## Prerequisites
+
+Before running the script, ensure you have the following installed:
+- Python 3.11.4
+- `playsound` library
+- `requests` library
+
+You can install the required libraries using pip:
+```bash
+pip install playsound requests
+```
+
+### Parameters
+
+- `text` (str): The text you want to convert to speech.
+- `model` (str, optional): The voice model to use. Defaults to "aura-luna-en".
+- `filename` (str, optional): The name of the temporary file to save the audio. Defaults to "data.mp3".
+
+### Voice Models
+
+You can choose from the following voice models:
+- `"aura-asteria-en"`: Sophia (Female US English)
+- `"aura-luna-en"`: Emily (Female US English)
+- `"aura-stella-en"`: Rachel (Female US English)
+- `"aura-athena-en"`: Eliza (Female UK English)
+- `"aura-hera-en"`: Pam (Female US English)
+- `"aura-orion-en"`: Kevin (Male US English)
+- `"aura-arcas-en"`: Jeff (Male US English)
+- `"aura-perseus-en"`: Alex (Male US English)
+- `"aura-angus-en"`: Rory (Male Irish English)
+- `"aura-orpheus-en"`: John (Male US English)
+- `"aura-helios-en"`: Pete (Male UK English)
+- `"aura-zeus-en"`: James (Male US English)
+
+### Example
+
+Here's an example of how to use the `speak` function:
+
+```python
+speak("i dont know sir but i am felling not good today",l) 
+```
+
+This will convert the text "Hello, this is a test message." to speech using the "aura-luna-en" (Emily, Female US English) voice model and play the resulting audio.
+
+## Notes
+
+- Ensure you have an active internet connection as the script makes a request to the DeepAI API.
+- Make sure to handle API keys securely if required by the DeepAI API for authentication.
+- The temporary audio file is deleted after playing to keep your directory clean.
+
+## Troubleshooting
+
+- If you encounter an error, check the status code and response text returned by the API for more details.
+- Ensure the `playsound` and `requests` libraries are properly installed.
+
+
+## Created by NetHyTech (Anubhav Chaturvedi)
+"Author of [NetHyTech_DeepTTS] is Anubhav Chaturvedi"
+"Youtube : https://youtube.com//@nethytech "
+## License
+
+This script is provided as-is without any warranty. Use at your own risk.
+
