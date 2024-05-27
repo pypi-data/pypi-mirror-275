@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: wellbeing_calculator
+Version: 0.3
+Summary: A tool to evaluate the impact of social media usage on personal wellbeing and lifestyle habits
+Home-page: https://github.com/yourusername/wellbeing_calculator
+Author: Your Name
+Author-email: your-email@example.com
+License: MIT
+Description: # Wellbeing Calculator
+        
+        This tool evaluates the impact of social media usage on personal wellbeing and lifestyle habits. It uses data such as social media usage time, sleep time, exercise time, and stress levels to calculate a wellbeing score for each individual.
+        
+        ## Installation
+        
+        
+        ### 2. `setup.py`ファイルの更新
+        次に、`setup.py`ファイルを更新して、`README.md`の内容を`long_description`として設定します。
+        
+        #### `setup.py`
+        ```python
+        from setuptools import setup, find_packages
+        import pathlib
+        
+        # プロジェクトのルートディレクトリを取得
+        HERE = pathlib.Path(__file__).parent
+        
+        # README.mdの内容を読み込む
+        long_description = (HERE / "README.md").read_text()
+        
+        setup(
+            name='wellbeing_calculator',
+            version='0.1',
+            packages=find_packages(where='src'),
+            package_dir={'': 'src'},
+            install_requires=[
+                'pandas',
+            ],
+            entry_points={
+                'console_scripts': [
+                    'wellbeing_calculator=wellbeing_calculator.calculator:main',
+                ],
+            },
+            long_description=long_description,
+            long_description_content_type='text/markdown',
+            author='Your Name',
+            author_email='your-email@example.com',
+            description='A tool to evaluate the impact of social media usage on personal wellbeing and lifestyle habits',
+            url='https://github.com/yourusername/wellbeing_calculator',  # プロジェクトのリポジトリURL
+            classifiers=[
+                'Programming Language :: Python :: 3',
+                'License :: OSI Approved :: MIT License',
+                'Operating System :: OS Independent',
+            ],
+            python_requires='>=3.6',
+        )
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
