@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/gitlabcidocs/__init__.py
+src/gitlabcidocs/__main__.py
+src/gitlabcidocs/docsbuilder.py
+src/gitlabcidocs/docsgen.py
+src/gitlabcidocs/errors.py
+src/gitlabcidocs/pipelineparser.py
+src/gitlabcidocs.egg-info/PKG-INFO
+src/gitlabcidocs.egg-info/SOURCES.txt
+src/gitlabcidocs.egg-info/dependency_links.txt
+src/gitlabcidocs.egg-info/not-zip-safe
+src/gitlabcidocs.egg-info/requires.txt
+src/gitlabcidocs.egg-info/top_level.txt
