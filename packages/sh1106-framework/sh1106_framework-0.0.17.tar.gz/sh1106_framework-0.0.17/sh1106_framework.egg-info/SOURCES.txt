@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+sh1106_framework.egg-info/PKG-INFO
+sh1106_framework.egg-info/SOURCES.txt
+sh1106_framework.egg-info/dependency_links.txt
+sh1106_framework.egg-info/entry_points.txt
+sh1106_framework.egg-info/requires.txt
+sh1106_framework.egg-info/top_level.txt
