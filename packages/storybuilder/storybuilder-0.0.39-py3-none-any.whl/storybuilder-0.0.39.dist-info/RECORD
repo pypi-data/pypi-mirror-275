@@ -1,0 +1,13 @@
+storybuilder/__init__.py,sha256=DQYLSoMI3B4vfOI8Bbg_mnKlZJKvHhpgQMneo5cwErQ,112
+storybuilder/characterpostures.py,sha256=vmwMQ0seA8wR_8JGGoVJQwM2YgqtxpURybyIJbqrqfk,4732
+storybuilder/cosuploader.py,sha256=f57OMFHmRfxZl41j7J7FgGZKnaAE5Kxnum-LwcpREoY,3022
+storybuilder/speechsynthesizer.py,sha256=nt0ggRhRGiRKV8lNgT7LMURdZ8r_J7U9kDFIhaOM6c8,5246
+storybuilder/storybuilder.py,sha256=ZCAIyNkpOJW8yBqB5rEbs5VmjCSqy_oPLAEg8Zub3Yg,74382
+storybuilder/storyprofiles.py,sha256=w63i72RRbHJrglwZsXv6g0pCBIhWcWknaXHpRi6MZE4,4599
+storybuilder/storyvoicebuilder.py,sha256=Le9pYHPgYrJH4SeWLEvHwC1-MbSYO0YB2qrYrOAA4GE,2651
+storybuilder/utility.py,sha256=ks7J9PQ0q9exRQY1hIAbRPzcus-uvDSLE5aczvzv_A4,4499
+storybuilder-0.0.39.dist-info/LICENSE,sha256=g0NNrixMENLCdfFk30AZvIBxy-oC-iGVvOO3ZeR54lw,1062
+storybuilder-0.0.39.dist-info/METADATA,sha256=3SR4Evk42znXGwq1HY-8KY8CSHQZPBPwpZfk7RpmVCA,869
+storybuilder-0.0.39.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+storybuilder-0.0.39.dist-info/top_level.txt,sha256=W-M011nO1TCCB8iNHIGxuaZupqBTafrvcqJPcoQiOSc,13
+storybuilder-0.0.39.dist-info/RECORD,,
