@@ -1,0 +1,9 @@
+basic_algorithm
+character_string
+data_structure
+dynamic_programming
+graph
+mathematic
+misc
+python_contest_template
+search
