@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sakke
+Version: 2.0.10
+Summary: SaKKe est un utilitaire simple de génération de statistiques personnalisées de devoirs.
+Home-page: https://github.com/msimonin/sakke
+Author: Matthieu Simonin
+Author-email: matthieu.simonin@gmail.com
+License: GPL-3.0
+License-File: LICENSE
+Requires-Dist: docopt (==0.6.2)
+Requires-Dist: Jinja2
+Requires-Dist: pandas (~=1.2)
+Requires-Dist: odfpy (~=1.4)
+Requires-Dist: seaborn (~=0.11)
+
