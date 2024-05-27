@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+package_dev.egg-info/PKG-INFO
+package_dev.egg-info/SOURCES.txt
+package_dev.egg-info/dependency_links.txt
+package_dev.egg-info/top_level.txt
+ss_package/__init__.py
+ss_package/operations.py
