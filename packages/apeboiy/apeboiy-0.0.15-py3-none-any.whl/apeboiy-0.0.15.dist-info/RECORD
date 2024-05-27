@@ -1,0 +1,15 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apeboiy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apeboiy/example.py,sha256=RLYH0Jeyz2D3SLWVBXr4MBE_e0tQfr6SAeRgGxf0SwI,115
+apeboiy/inav_predict/_PointCloudPoseEstimation.py,sha256=BezUF8pbE2SkiNRLEQNYQlfulBZ57xvKrx84_6gjLD0,12568
+apeboiy/inav_predict/__init__.py,sha256=4ZRjP_MkPMOLbBnG8noOwLw7KYAYTJ39AErJfLXoPp8,1717
+apeboiy/inav_predict/__main__.py,sha256=nOczDqYgYWZq8a4s-EyACFKBQM8YYPZS1LjyWU4BNY0,6089
+apeboiy/obj/__init__.py,sha256=PYjrwUU5OysJ8ojaKH5AFAqv2YZh3BTvWc0d_5m5Dl0,20
+apeboiy/obj/_obj.py,sha256=6Wy0t9SFwpJ_IHs3vqdqX5-QR7Ai9Op2W8fefKpv-sg,1428
+apeboiy/ply/__init__.py,sha256=5JleOaSjDl2jtEWcY7J52bcSnOkiYXWbf_1sE2_l700,23
+apeboiy/ply/_reader.py,sha256=qUUYImpFBFJBnDJ-WZkQn8tsD08ssW-mnSWVDk1otvM,3645
+apeboiy-0.0.15.dist-info/LICENSE,sha256=AbnU0AvI_3hf5Hx_GB_x--0Vo2oDkigoCGS1pw4qCnY,1053
+apeboiy-0.0.15.dist-info/METADATA,sha256=ApRmBTETsaPHJdFRYJCOy2QinAQ90EN_MsCz3vK5unE,1122
+apeboiy-0.0.15.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apeboiy-0.0.15.dist-info/top_level.txt,sha256=4DYkinrsS5zMhfyj3Fz_xuO80hGDblis-wo8gjw8qec,17
+apeboiy-0.0.15.dist-info/RECORD,,
