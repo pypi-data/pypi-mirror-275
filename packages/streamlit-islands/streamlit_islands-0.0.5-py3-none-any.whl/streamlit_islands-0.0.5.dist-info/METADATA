@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: streamlit-islands
+Version: 0.0.5
+Summary: Separate static content from dynamic content in Streamlit
+Home-page: https://github.com/bouzidanas/streamlit-islands
+Author: Anas Bouzid
+Author-email: anasbouzid@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: streamlit (>=0.63)
+
+streamlit-islands  [![Version](https://img.shields.io/pypi/v/streamlit-islands)](https://pypi.org/project/streamlit-islands/#history) 
+[![PyPi - Downloads](https://img.shields.io/pypi/dm/streamlit-islands)](https://pypi.org/project/streamlit-islands/#files)[![Component Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://islands-demo.streamlit.app/)
+============
+
+## Installation
+Install [streamlit-islands](https://pypi.org/project/streamlit-islands/) with pip:
+```bash
+pip install streamlit-islands
+```
+
+## License
+This project is licensed under the [MIT License](LICENSE.txt)
+
