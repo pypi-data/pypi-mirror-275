@@ -1,0 +1,9 @@
+lckytools/__init__.py,sha256=Gv8qDsLRpq8h5aQfPJ9-YkyfZQA9A9gFuAhezjD1e-U,26
+lckytools/hello.py,sha256=2s1pXdqImbliloPBXBXl40U9IOnkNS_vT374Y-IXkso,42
+lckytools.ai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lckytools.ai/metrics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lckytools.ai/metrics/confusion_matrix.py,sha256=FIQGpWjvr6q-TiuOU-a1WIUfSCJP7EC7mriQjW1A9Ck,911
+lckytools-0.0.0a10.dist-info/LICENSE,sha256=Q3euIsdWXRNjS1uEYAL-INh4XmHhBKbtylm7HLFl-WY,1096
+lckytools-0.0.0a10.dist-info/METADATA,sha256=QGITUyws9dDR8LHvgHwy_jY7esojyLtdAKve3wosCWE,2188
+lckytools-0.0.0a10.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+lckytools-0.0.0a10.dist-info/RECORD,,
