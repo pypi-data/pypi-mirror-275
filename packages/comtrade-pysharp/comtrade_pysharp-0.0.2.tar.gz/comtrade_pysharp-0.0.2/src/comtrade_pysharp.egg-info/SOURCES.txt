@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/comtrade_pysharp/FileReader.dll
+src/comtrade_pysharp/__init__.py
+src/comtrade_pysharp/comtrade_pysharp.py
+src/comtrade_pysharp.egg-info/PKG-INFO
+src/comtrade_pysharp.egg-info/SOURCES.txt
+src/comtrade_pysharp.egg-info/dependency_links.txt
+src/comtrade_pysharp.egg-info/requires.txt
+src/comtrade_pysharp.egg-info/top_level.txt
+tests/test_reader.py

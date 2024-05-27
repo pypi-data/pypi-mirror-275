@@ -1,0 +1,17 @@
+[project]
+name = "comtrade_pysharp"
+version = "0.0.2"
+dependencies = [
+    "numpy",
+    "pythonnet",
+]
+requires-python = ">= 3.9"
+readme = "README.md"
+description = "Simple reader for COMTRADE files, using C# underneath to be fast"
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+"comtrade_pysharp" = ["FileReader.dll"]
