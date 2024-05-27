@@ -1,0 +1,9 @@
+README.md
+setup.py
+windowsfetch.egg-info/PKG-INFO
+windowsfetch.egg-info/SOURCES.txt
+windowsfetch.egg-info/dependency_links.txt
+windowsfetch.egg-info/entry_points.txt
+windowsfetch.egg-info/top_level.txt
+winfetch/__init__.py
+winfetch/__main__.py
