@@ -1,0 +1,16 @@
+squice/DataLoaders.py,sha256=GQjhTWaAbc9e5s_qGmxc1fG1H2FvhSqolhvUGBccg-s,3700
+squice/ModulePredict.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+squice/MtxDisplay.py,sha256=VvDsSf8OkTe_IRJ3ioGi6VN77kc5-HcNOzTz_oQCJdU,309
+squice/MtxInterpolator.py,sha256=8QwZ6uSRq1oaeiZZJYwGTwxZKBWhpAjEEsTWHa2LFXc,1788
+squice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/speed/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/speed/help_speed.py,sha256=tEfG6JgdITenu0PR9a8TGdxLwaQ_6vSH6rVCTeEvDPU,1898
+tests/speed/test_dataloaders.py,sha256=VW9Gp8m0X7tlfw76ofBmHr7foev08TGITsp6OakQauQ,892
+tests/utility/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/utility/test_loader.py,sha256=YnKLE8RupeMrXZJeIE7_k__HrnpHGC2a4ta6C6CFjgY,2050
+squice-0.4.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+squice-0.4.dist-info/METADATA,sha256=p1I57PxwjFvJVnBtcXkHvW_3QZcDm4yhgu3Cs4FVcRo,1742
+squice-0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+squice-0.4.dist-info/top_level.txt,sha256=UQtkKAN_1C212DCj5e7-HlwRdPeibuQ5Uvp6js9ssFI,13
+squice-0.4.dist-info/RECORD,,
