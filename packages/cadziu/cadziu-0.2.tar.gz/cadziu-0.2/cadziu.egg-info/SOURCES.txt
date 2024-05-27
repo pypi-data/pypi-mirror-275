@@ -1,0 +1,8 @@
+README.md
+setup.py
+cadziu.egg-info/PKG-INFO
+cadziu.egg-info/SOURCES.txt
+cadziu.egg-info/dependency_links.txt
+cadziu.egg-info/entry_points.txt
+cadziu.egg-info/requires.txt
+cadziu.egg-info/top_level.txt
