@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: BaleVK
+Version: 1.0.0
+Summary: Bale Messenger Framework
+Home-page: https://github.com/Rubier-Project
+Author: Host1let
+Author-email: sqlmapssh@gmail.com
+License: MIT
+Download-URL: https://github.com/Rubier-Project/BaleVK/
+Keywords: bvk
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+
+UNKNOWN
+
