@@ -1,0 +1,7 @@
+README.md
+setup.py
+pipomatic-hudge-xtracta/__init__.py
+pipomatic_hudge_xtracta.egg-info/PKG-INFO
+pipomatic_hudge_xtracta.egg-info/SOURCES.txt
+pipomatic_hudge_xtracta.egg-info/dependency_links.txt
+pipomatic_hudge_xtracta.egg-info/top_level.txt
