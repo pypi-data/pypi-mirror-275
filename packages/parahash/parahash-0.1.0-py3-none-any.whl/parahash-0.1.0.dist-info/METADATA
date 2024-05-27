@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: parahash
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/VermiIIi0n/parahash
+License: MIT
+Keywords: utilities
+Author: VermiIIi0n
+Author-email: dungeon.behind0t@icloud.com
+Requires-Python: >=3.12,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Provides-Extra: all
+Requires-Dist: bitarray (>=2.9.2,<3.0.0)
+Requires-Dist: torch (>=2.3.0,<3.0.0) ; extra == "all"
+Project-URL: Issues, https://github.com/VermiIIi0n/parahash/issues
+Description-Content-Type: text/markdown
+
+# Collection of some hash functions implemented with `torch`/`numpy`/`tensorflow`
+
+WORK IN PROGRESS!
+
+## Installation
+
+```bash
+pip install parahash
+```
+
+or clone this repo and run
+
+```bash
+pip install -U poetry
+poetry install -E all
+
+# To install to your current environment, do
+# pip install .
+```
+
+Some dependencies are optional when installing because they are not required or you may need a custom-built version of `torch`/`tensorflow`/`numpy`. Make sure to install them if you need them.
+
+## MD5
+
+```python
+import parahash
+from bitarray import bitarray
+
+device = "cpu"
+# device = "cuda"
+
+data = [b'hello', "world", bitarray('1101010101010101010101010101010101010101010101010101010101010101')]
+
+for out in parahash.md5.md5(data, device=device):
+    print(parahash.md5.hexdigest(out))
+```
+
+Current implementation with enough batch size can get 20 million hashes per second on a single RTX3090 GPU, 16 million hashes per second on a single RTX4070TiS GPU and 750K hashes per second on a single 7950x CPU.
+

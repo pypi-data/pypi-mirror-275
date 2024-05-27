@@ -1,0 +1,8 @@
+parahash/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parahash/__main__.py,sha256=cWURfXp-kaSOoFtGs8me3H1ALCwD7Mc3M6x2DAQ0OP4,62
+parahash/cli.py,sha256=K2vfm77n5M_JnPY2ro0yqbwJN82Q7Lw2B23qrAE9CW8,47
+parahash/md5.py,sha256=OA85kFVjGHHws4aTicQzcHrmh3aM6bndmW41b0gQoAE,5969
+parahash-0.1.0.dist-info/LICENSE,sha256=6JHhKZPe2eKnoUnIIeY2OEY98-qEHun1Plit8Xom-hA,493
+parahash-0.1.0.dist-info/METADATA,sha256=NmjZa_Bf-sTvrRGzMTzgVfRLWAXiK6OdVIHr5uKPBX8,1983
+parahash-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+parahash-0.1.0.dist-info/RECORD,,
