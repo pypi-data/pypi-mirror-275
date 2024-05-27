@@ -1,0 +1,11 @@
+include phylogenetic_tree_vis_comp/phylogenetic_tree_vis_comp.min.js
+include phylogenetic_tree_vis_comp/phylogenetic_tree_vis_comp.min.js.map
+include phylogenetic_tree_vis_comp/async-*.js
+include phylogenetic_tree_vis_comp/async-*.js.map
+include phylogenetic_tree_vis_comp/*-shared.js
+include phylogenetic_tree_vis_comp/*-shared.js.map
+include phylogenetic_tree_vis_comp/metadata.json
+include phylogenetic_tree_vis_comp/package-info.json
+include README.md
+include LICENSE
+include package.json
