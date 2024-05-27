@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: image_collect
+Version: 0.0.4
+Home-page: https://github.com/ohS0eek4/image-collect
+Description-Content-Type: text/markdown
+Requires-Dist: BeautifulSoup4
+Requires-Dist: deep-translator
+
+# image-collecter
+
+An image collection tool that collects images by URL name and also collects them in English and Chinese.
+
+```python
+import image_collect
+
+image_collect.run("jump cat", en_search=False)
+```
