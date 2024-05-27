@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "pylonparser"
+version = "0.1.3"
+description = "A tool to parse football game stats."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/traxxo/pylonparser"
+repository = "https://github.com/traxxo/pylonparser"
+documentation = "https://github.com/traxxo/pylonparser/wiki"
+keywords = ["parser", "football", "stats", "nfl", "pro-football-by-reference"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selectolax = "^0.3.21"
+beautifulsoup4 = "^4.12.3"
+
+
+requests = "^2.32.2"
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+pre-commit = "^3.7.1"
+bump2version = "^1.0.1"
+pandas = "^2.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
