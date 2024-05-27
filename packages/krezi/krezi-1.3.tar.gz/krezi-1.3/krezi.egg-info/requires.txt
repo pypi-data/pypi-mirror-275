@@ -1,0 +1,4 @@
+numpy>=1.23.0
+pandas>=1.4.2
+itables>=1.5.2
+tqdm
