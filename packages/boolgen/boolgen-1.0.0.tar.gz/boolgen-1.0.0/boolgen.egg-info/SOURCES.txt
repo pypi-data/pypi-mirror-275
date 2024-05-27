@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+boolgen/__init__.py
+boolgen.egg-info/PKG-INFO
+boolgen.egg-info/SOURCES.txt
+boolgen.egg-info/dependency_links.txt
+boolgen.egg-info/entry_points.txt
+boolgen.egg-info/top_level.txt
+tests/test_boolgen.py
