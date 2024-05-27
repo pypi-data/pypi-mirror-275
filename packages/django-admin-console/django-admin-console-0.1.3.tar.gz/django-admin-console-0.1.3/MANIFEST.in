@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+recursive-include admin_console/static *.js *.css *.map *.png *.ico *.eot *.svg *.ttf *.woff *.woff2
+recursive-include admin_console/templates *.html
+recursive-include admin_console/locale *.mo
+global-exclude __pycache__
+global-exclude *.py[co]

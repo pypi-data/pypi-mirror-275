@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: django-admin-console
+Version: 0.1.3
+Summary: A simple web console based on Django.
+Author: yuhua.yang
+Author-email: 13yhyang1@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/ananan/django-admin-console
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Django_Admin_Console
+
+A Simple Django Web FE Application.
