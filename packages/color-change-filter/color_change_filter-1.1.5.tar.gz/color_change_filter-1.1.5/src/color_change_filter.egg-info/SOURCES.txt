@@ -1,0 +1,12 @@
+.gitignore
+README.md
+requirements.txt
+setup.py
+src/__init__.py
+src/color_change_filter.py
+src/color_change_filter.egg-info/PKG-INFO
+src/color_change_filter.egg-info/SOURCES.txt
+src/color_change_filter.egg-info/dependency_links.txt
+src/color_change_filter.egg-info/entry_points.txt
+src/color_change_filter.egg-info/requires.txt
+src/color_change_filter.egg-info/top_level.txt
