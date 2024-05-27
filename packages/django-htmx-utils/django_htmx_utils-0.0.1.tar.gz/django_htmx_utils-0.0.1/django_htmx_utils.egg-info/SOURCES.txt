@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+django_htmx_utils/__init__.py
+django_htmx_utils/events.py
+django_htmx_utils.egg-info/PKG-INFO
+django_htmx_utils.egg-info/SOURCES.txt
+django_htmx_utils.egg-info/dependency_links.txt
+django_htmx_utils.egg-info/not-zip-safe
+django_htmx_utils.egg-info/requires.txt
+django_htmx_utils.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+django>=3.2
+
+[dev]
+black
+isort
+pre-commit
+
+[htmx]
+django-htmx
