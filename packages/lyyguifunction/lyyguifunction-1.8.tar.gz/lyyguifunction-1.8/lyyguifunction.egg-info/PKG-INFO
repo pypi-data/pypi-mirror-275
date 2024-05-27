@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: lyyguifunction
+Version: 1.8
+Summary: yyjdgui for lyy
+Author: lyy
+Author-email: 
+License: MIT
+License-File: LICENSE
+Requires-Dist: win10toast
