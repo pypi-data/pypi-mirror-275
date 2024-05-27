@@ -1,0 +1,14 @@
+silgeai/__init__.py,sha256=Ga3P_wcGeKaj_-Y_y70ZXUQNYhtLC2tbn3WNy4PG22k,161
+silgeai/demo.py,sha256=RI3px2smJAYvWXQbZ-9wbjrcKIhy3PPVNNcTHZUbqu4,257
+silgeai/dictPrint.py,sha256=fpjltBsjthbzvp5uCIHDNf-3e2JspPAlaVDwcx4C2E8,1291
+silgeai/folderAnalysis.py,sha256=pnWeK3qUDsUbkIQpEseps18G5PyjmiymPbu6T6Mk-Ts,2274
+silgeai/test.py,sha256=DBmYBl2p2Z3yeBadkkb5a0wH1-4DCu34Yy2Y7fGtRrI,309
+silgeai/api/__init__.py,sha256=_sFV_67QfjLbsvmZXCkkhl69FQ4XyEFsKG4KOn1yHjo,140
+silgeai/api/asrapi.py,sha256=fMM3VxkNhf1uH3AHIqHFlQcsDEbjIeiC3P_7LZlpgWg,14203
+silgeai/api/getauth.py,sha256=9H1W9lPTJRTjUd65smWYhaRp0QSBThvTI2nMAuYzrpg,785
+silgeai/api/test.py,sha256=dcovAVWOFMeQzInkrQCfnNf9m1--tBvZ3h4w765wxwM,293
+silgeai-1.3.1.dist-info/LICENSE,sha256=cOteSmIRklw3CfBxJAm2QYEC5-G0cs4FlZdew08KCZg,1088
+silgeai-1.3.1.dist-info/METADATA,sha256=rjE9IU1LS7O6VkY0zb-WqcfZHo5eGZ4nGY34T6cT7Ag,355
+silgeai-1.3.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+silgeai-1.3.1.dist-info/top_level.txt,sha256=YURKvjQs7aFEqrjy5NIldPpqSM85FIX0MOmKmT29-jY,8
+silgeai-1.3.1.dist-info/RECORD,,
