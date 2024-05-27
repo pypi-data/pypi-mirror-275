@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+agenpy.egg-info/PKG-INFO
+agenpy.egg-info/SOURCES.txt
+agenpy.egg-info/dependency_links.txt
+agenpy.egg-info/requires.txt
+agenpy.egg-info/top_level.txt
