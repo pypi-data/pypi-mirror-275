@@ -1,0 +1,13 @@
+polars_geo_tools-0.2.1.dist-info/METADATA,sha256=P--klkdOk2LkqVr6HgKbZpuLhwZoLCs7s3mmt2xs_08,1003
+polars_geo_tools-0.2.1.dist-info/WHEEL,sha256=cPUIWULPt_11Gu0ScGqqC5spzP9Fodes45Vofzu3a3Q,106
+polars_geo_tools.libs/libsqlite3-91918ceb.so.0,sha256=6gEAJaRlj7DOoIf9DYS5j9WiKkRkD5Gs78dCbhG0kA8,1483641
+polars_geo_tools/s2/s2_api.py,sha256=-m-J5qKW4RNkvpzCYw2TiQgOpVGxMdP82dUBdysofuo,1008
+polars_geo_tools/s2/__init__.py,sha256=Le9G1U3qbZL0RnbdJEd40s5V03ousP8291fMqdVXXOA,98
+polars_geo_tools/__init__.py,sha256=fYkSZb3NT1IiHpUeuhAde7ax5c6nSFF9kBFFG8jjYt4,110
+polars_geo_tools/utils.py,sha256=3Uk8edlHxdmdDEzKbWoM2VBoVqc4IsXL-6LmPlRYC3E,2337
+polars_geo_tools/h3/__init__.py,sha256=u_Kof3uvmpluCToVXck1ABxkGpUuJyF4UNv1lk7M86Y,98
+polars_geo_tools/h3/h3_api.py,sha256=LeSYZbFWbTF11PT2yjzmsQGRbw2BGX7aSJTpX3VFWRQ,1543
+polars_geo_tools/transformer/__init__.py,sha256=7IrvCSgT8_uItS39fNd9Pacf5x6-s6ijHhRCQbGRnNk,81
+polars_geo_tools/transformer/transform.py,sha256=INZnmBpp8Uq-HsW4oiq2aS4GVyLfksSyNRUmVOY_7YI,814
+polars_geo_tools/polars_geo_tools.abi3.so,sha256=-JscYe-haBC4f6PjRKFKGsqy2FrgX_qHW1rL0yDL6cE,23999745
+polars_geo_tools-0.2.1.dist-info/RECORD,,
