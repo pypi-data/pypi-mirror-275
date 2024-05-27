@@ -1,0 +1,7 @@
+README.md
+setup.py
+li-pagador/__init__.py
+li_pagador.egg-info/PKG-INFO
+li_pagador.egg-info/SOURCES.txt
+li_pagador.egg-info/dependency_links.txt
+li_pagador.egg-info/top_level.txt
