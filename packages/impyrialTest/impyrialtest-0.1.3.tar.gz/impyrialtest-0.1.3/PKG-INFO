@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: impyrialTest
+Version: 0.1.3
+Summary: A package for converting imperial lengths and weights.
+Author: Ahmed Elkhodary
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
