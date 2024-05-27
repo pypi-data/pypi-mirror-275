@@ -1,0 +1,3 @@
+[console_scripts]
+wellbeing_calculator = wellbeing_calculator.calculator:main
+
