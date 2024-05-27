@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/example.py
+src/main.py
+src/example_package_zl.egg-info/PKG-INFO
+src/example_package_zl.egg-info/SOURCES.txt
+src/example_package_zl.egg-info/dependency_links.txt
+src/example_package_zl.egg-info/top_level.txt
