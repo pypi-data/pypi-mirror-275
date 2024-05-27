@@ -1,0 +1,7 @@
+Metadata-Version: 2.3
+Name: my_op
+Version: 0.1.21
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
