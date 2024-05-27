@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+inactiverecord.egg-info/PKG-INFO
+inactiverecord.egg-info/SOURCES.txt
+inactiverecord.egg-info/dependency_links.txt
+inactiverecord.egg-info/top_level.txt
