@@ -1,0 +1,96 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [
+  {name = "James Bennett"}
+]
+maintainers = [
+  {name = "James Bennett"}
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Web Environment",
+  "Framework :: Django",
+  "Framework :: Django :: 4.2",
+  "Framework :: Django :: 5.0",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: BSD License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Utilities",
+]
+name = "django-contact-form"
+description = "A generic contact-form application for Django."
+dependencies = [
+  "Django>=4.2",
+]
+dynamic = ["version"]
+keywords = ["django", "email", "contact-form"]
+license = {text = "BSD-3-Clause"}
+readme = "README.rst"
+requires-python = ">=3.8"
+
+[project.urls]
+documentation = "https://django-contact-form.readthedocs.io/"
+homepage = "https://github.com/ubernostrum/django-contact-form"
+
+[project.optional-dependencies]
+akismet = [
+  "akismet>=24.5.0",
+]
+docs = [
+  "furo",
+  "sphinx",
+  "sphinx-copybutton",
+  "sphinx-inline-tabs",
+  "sphinx-notfound-page",
+  "sphinxcontrib-django",
+  "sphinxext-opengraph",
+]
+tests = [
+  "coverage",
+  "tomli; python_full_version < '3.11.0a7'",
+]
+
+[tool.bandit]
+skips = ["B101"]
+
+[tool.black]
+target-version = ["py38", "py39", "py310", "py311", "py312"]
+
+[tool.check-manifest]
+ignore-bad-ideas = ["*.mo"]
+
+#[tool.check-wheel-contents]
+#ignore = ["W004"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "pragma: no cover",
+  "def __str__",
+  "raise NotImplementedError",
+]
+fail_under = 100
+
+[tool.interrogate]
+fail-under = 100
+ignore-init-method = true
+ignore-init-module = true
+ignore-magic = true
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint]
+disable = ["duplicate-code"]
+
+[tool.setuptools.dynamic]
+version = {attr = "django_contact_form.__version__"}
