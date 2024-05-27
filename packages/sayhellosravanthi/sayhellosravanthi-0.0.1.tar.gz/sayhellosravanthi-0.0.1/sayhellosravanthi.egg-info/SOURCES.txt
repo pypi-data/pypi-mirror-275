@@ -1,0 +1,7 @@
+setup.py
+lib/__init__.py
+lib/sayhellosravanthi.py
+sayhellosravanthi.egg-info/PKG-INFO
+sayhellosravanthi.egg-info/SOURCES.txt
+sayhellosravanthi.egg-info/dependency_links.txt
+sayhellosravanthi.egg-info/top_level.txt
