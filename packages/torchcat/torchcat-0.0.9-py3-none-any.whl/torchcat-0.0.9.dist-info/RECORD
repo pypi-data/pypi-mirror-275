@@ -1,0 +1,9 @@
+torchcat/__init__.py,sha256=D4o5EdCdEjkAp-3BCGMTVICLCZ1iG8u5Q-WhqgVxCJk,4191
+torchcat/cat.py,sha256=Ijg2vnzmB9u1ZgYwsLwSqgrlTQa56HH1YYmc4-D6YWU,5089
+torchcat/datasets.py,sha256=CKzJfQHtZt2INF6XJ4aVApUskPB4L7t16aRt_AU1cAg,1369
+torchcat/metrics.py,sha256=IYPiNGgWs3__rf7BR9OLdS9Ra6Rv8yWY1AM5x-ULyvw,432
+torchcat-0.0.9.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+torchcat-0.0.9.dist-info/METADATA,sha256=KPNmnDIhoxj1UIFkJUbLznpSPHGvQ3FBeL3ophD3fEA,3726
+torchcat-0.0.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+torchcat-0.0.9.dist-info/top_level.txt,sha256=VIQ1sV_XD2kWMmnE6WUiSR2apZZ4ZxftEj3AzBZdfeQ,9
+torchcat-0.0.9.dist-info/RECORD,,
