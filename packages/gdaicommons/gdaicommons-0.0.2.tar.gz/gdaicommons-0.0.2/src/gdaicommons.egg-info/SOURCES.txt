@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/gdaicommons/__init__.py
+src/gdaicommons/textclassification.py
+src/gdaicommons/transformations.py
+src/gdaicommons.egg-info/PKG-INFO
+src/gdaicommons.egg-info/SOURCES.txt
+src/gdaicommons.egg-info/dependency_links.txt
+src/gdaicommons.egg-info/top_level.txt
+tests/test_suite.py
