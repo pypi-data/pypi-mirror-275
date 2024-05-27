@@ -1,0 +1,9 @@
+include MANIFEST.in
+include LICENSE
+include README.md
+include requirements.txt
+include manage_celery_callback_server.py
+graft celery_callback_server
+graft celery_callback_service
+global-exclude __pycache__
+global-exclude *.py[co]

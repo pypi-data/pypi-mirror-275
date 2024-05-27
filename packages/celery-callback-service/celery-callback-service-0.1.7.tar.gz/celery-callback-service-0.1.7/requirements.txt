@@ -1,0 +1,15 @@
+django
+django-admin-daterange-listfilter
+django-model-helper>=0.1.12
+django-horizontal-list-filter
+django-checkbox-normalize
+django-app-requires
+django-apis>=0.1.5
+celery
+celery-debug
+redis
+pwgen
+zenutils
+globallock
+requests
+hybrid-cipher

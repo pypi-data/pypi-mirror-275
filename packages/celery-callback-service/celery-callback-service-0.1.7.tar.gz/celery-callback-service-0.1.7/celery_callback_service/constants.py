@@ -1,0 +1,1 @@
+CELERY_CALLBACK_SERVICE_VIEW_NAME = "celery_callback_service.callback"
