@@ -1,0 +1,2 @@
+def lala():
+    return "lala"
