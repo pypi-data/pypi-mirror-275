@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+goit_phone_book_bot.egg-info/PKG-INFO
+goit_phone_book_bot.egg-info/SOURCES.txt
+goit_phone_book_bot.egg-info/dependency_links.txt
+goit_phone_book_bot.egg-info/entry_points.txt
+goit_phone_book_bot.egg-info/requires.txt
+goit_phone_book_bot.egg-info/top_level.txt
