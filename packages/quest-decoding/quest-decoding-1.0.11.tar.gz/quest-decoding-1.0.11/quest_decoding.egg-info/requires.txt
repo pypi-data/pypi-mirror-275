@@ -1,0 +1,6 @@
+langchain>=0.0.352
+numpy>=1.24.4
+transformers
+vllm>=0.2.6
+scipy>=1.9.3
+unbabel-comet
