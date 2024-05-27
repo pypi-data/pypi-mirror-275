@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+tests/__init__.py
+tracor/__init__.py
+tracor/core.py
+tracor.egg-info/PKG-INFO
+tracor.egg-info/SOURCES.txt
+tracor.egg-info/dependency_links.txt
+tracor.egg-info/entry_points.txt
+tracor.egg-info/requires.txt
+tracor.egg-info/top_level.txt
