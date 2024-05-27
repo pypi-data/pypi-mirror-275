@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+movoid_xml_data_pyside/__init__.py
+movoid_xml_data_pyside.egg-info/PKG-INFO
+movoid_xml_data_pyside.egg-info/SOURCES.txt
+movoid_xml_data_pyside.egg-info/dependency_links.txt
+movoid_xml_data_pyside.egg-info/top_level.txt
+movoid_xml_data_pyside/lib/__init__.py
+movoid_xml_data_pyside/lib/app.py
+movoid_xml_data_pyside/ui/__init__.py
+movoid_xml_data_pyside/ui/window.py
