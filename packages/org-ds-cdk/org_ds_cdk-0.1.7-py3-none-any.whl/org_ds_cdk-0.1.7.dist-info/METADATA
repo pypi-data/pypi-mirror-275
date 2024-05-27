@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: org-ds-cdk
+Version: 0.1.7
+Summary: DS Organization CDK Constructs
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: aws-cdk-lib ==2.142.0
+Requires-Dist: constructs >=10.0.0
+
+## Building and Publishing CDK Constructs to PyPi
+
+Follow these steps to build your CDK constructs and publish them to PyPi:
+
+1. **Ensure you have the necessary tools installed**
+
+    You'll need Python, pip, setuptools, wheel, and twine. You can install these with pip:
+
+    ```bash
+    pip install --upgrade setuptools wheel twine
+    ```
+
+2. **Build your package**
+
+    Navigate to the directory containing your `setup.py` file and run:
+
+    ```bash
+    python setup.py sdist bdist_wheel
+    ```
+
+    This will create a source archive (`.tar.gz`) and a wheel file (`.whl`) in a newly created `dist` directory.
+
+3. **Check your package with twine**
+
+    Before uploading, it's a good idea to check your package with twine:
+
+    ```bash
+    twine check dist/*
+    ```
+
+    This will check for common errors. If everything is okay, you can proceed to the next step.
+
+4. **Upload your package to PyPi**
+
+    You can upload your package using twine. Replace `dist/*` with the path to the files you want to upload:
+
+    ```bash
+    twine upload dist/*
+    ```
+
+    You'll be prompted for your PyPi username and password. If you have two-factor authentication enabled on PyPi, you'll need to generate an API token and use that instead of your password.
+
+5. **Verify your package**
+
+    Go to your PyPi account and verify that the package was uploaded successfully.
+
+
+####
+# API Gateway Construct
+
+This package provides a construct for AWS Cloud Development Kit (CDK) to create an API Gateway with dynamic routes and methods based on a configuration.
+
+## Features
+
+- Creates an API Gateway with a custom name and description.
+- Dynamically creates resources and methods based on a provided configuration.
+- Supports Lambda integrations.
+
+## Installation
+
+To install this package, run the following command in your terminal:
+
+```bash
+pip install dscdk.apigateway
+```
+
+## Usage
+
+```
+from aws_cdk import App
+from apigateway_construct import ApiGatewayStack
+
+app = App()
+
+lambda_stack = ...  # Your Lambda stack
+
+config = {
+    'routes': [
+        {
+            'path': '/myresource',
+            'methods': ['GET'],
+            'integration': 'lambda',
+            'lambdaFunctionName': 'MyFunction',
+        },
+        # Add more routes as needed
+    ],
+}
+
+ApiGatewayStack(app, "ApiGatewayStack", lambda_stack=lambda_stack, config=config)
+
+app.synth()
+```
+
+
