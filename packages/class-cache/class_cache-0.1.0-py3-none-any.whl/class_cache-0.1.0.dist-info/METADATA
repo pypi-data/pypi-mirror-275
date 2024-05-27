@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: class-cache
+Version: 0.1.0
+Summary: Caching for class based generators
+Maintainer-email: Artem Vasenin <vasart169@gmail.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: Pympler
+Requires-Dist: replete
+Requires-Dist: marisa-trie
+Requires-Dist: black ; extra == "dev"
+Requires-Dist: class-cache[test] ; extra == "dev"
+Requires-Dist: ruff ; extra == "dev"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Requires-Dist: replete[testing] ; extra == "test"
+Project-URL: Home, https://github.com/Rizhiy/class-cache
+Provides-Extra: dev
+Provides-Extra: test
+
+Placeholder
+
