@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: django-safe-delete-t
+Version: 1.0.0
+Summary: django safedelete
+Home-page: https://gitee.com/hai_hpy/django-sofe-delete.git
+Author: Mei Hai
+Author-email: 864561183@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Development Status :: 4 - Beta
+License-File: LICENSE
+Requires-Dist: Django
+Requires-Dist: packaging
+
+UNKNOWN
+
