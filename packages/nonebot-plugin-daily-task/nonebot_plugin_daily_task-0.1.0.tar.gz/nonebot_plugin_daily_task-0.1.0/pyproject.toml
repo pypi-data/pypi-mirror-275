@@ -1,0 +1,22 @@
+[project]
+name = "nonebot_plugin_daily_task"
+version = "0.1.0"
+description = "适用于Nonebot2的每日任务提醒插件"
+authors = [
+    { name = "WMGray", email = "1466787434@qq.com" },
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[tool.pdm]
+distribution = true
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
