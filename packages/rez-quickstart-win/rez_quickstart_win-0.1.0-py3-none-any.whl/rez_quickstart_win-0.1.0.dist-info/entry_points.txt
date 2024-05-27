@@ -1,0 +1,2 @@
+[console_scripts]
+rez-quickstart = rez_quickstart.cli:cli

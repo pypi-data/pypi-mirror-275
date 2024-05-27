@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: rez-quickstart-win
+Version: 0.1.0
+Summary: Create initial rez packages for platform, os, arch and python
+Author: Thorsten Kaufmann
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: rez >=3
+
+# rez-quickstart
+A simple and easy replacement for `rez-bind --quickstart`
