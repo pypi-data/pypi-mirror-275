@@ -1,0 +1,11 @@
+scrapy_selenium_addon/__init__.py,sha256=YzzGPQNth40taRf7VhMxxTSowuF3Yt-qY97fmeFuDFA,78
+scrapy_selenium_addon/http.py,sha256=RrNFGmEKrL39v-NnABKtP3vuKjbVO3nW4_GOQaPUDxo,1060
+scrapy_selenium_addon/middlewares.py,sha256=eSGl3hWkw5YW0-eAxXBvC5720F783oRq9vLwkxUXA2Q,5178
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cases.py,sha256=G8HQBf1X4VwaTFPZXLSzcPLciAz177V5pCwpiE_jNzo,954
+tests/test_middlewares.py,sha256=aPtrQp9nnQGV91PVFqe40r_SxIe7cOU4kjNv-ewClMQ,4432
+scrapy_selenium_addon-0.0.8.dist-info/LICENCE,sha256=VzAt9GJl8wprzZMgm0aUCJkGBlYQxyrW-3QO0xgCksk,496
+scrapy_selenium_addon-0.0.8.dist-info/METADATA,sha256=a4Sx0vdKyY6ALGu1wOq-MM9irjzWRXz3GlVYeNZVZCw,331
+scrapy_selenium_addon-0.0.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+scrapy_selenium_addon-0.0.8.dist-info/top_level.txt,sha256=knm2xlHYkf7JM3B_H1Y31ZhjAuodFN-HTUar4HrBx0A,28
+scrapy_selenium_addon-0.0.8.dist-info/RECORD,,
