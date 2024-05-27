@@ -1,0 +1,7 @@
+setup.py
+pyexmars/__init__.py
+pyexmars/pyexmars.cpython-310.pyc
+pyexmars.egg-info/PKG-INFO
+pyexmars.egg-info/SOURCES.txt
+pyexmars.egg-info/dependency_links.txt
+pyexmars.egg-info/top_level.txt
