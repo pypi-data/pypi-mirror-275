@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+src/original_janken.py
+src/original_janken.egg-info/PKG-INFO
+src/original_janken.egg-info/SOURCES.txt
+src/original_janken.egg-info/dependency_links.txt
+src/original_janken.egg-info/entry_points.txt
+src/original_janken.egg-info/top_level.txt

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: original_janken
+Version: 0.0.1
+Summary: You can make original rock paper scissors.
+Home-page: https://github.com/s2222100/orijinal_janken
+Author: Takeru_Wakatsuki
+Author-email: s2222100@stu.musashino-u.ac.jp
+Project-URL: Bug Tracker, https://github.com/s2222100/original_janken
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# original_janken
+
+You can make and play original rock paper scissors in python.
+First, you make class janken. 
