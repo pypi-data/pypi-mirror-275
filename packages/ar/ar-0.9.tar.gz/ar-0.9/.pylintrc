@@ -1,0 +1,8 @@
+
+[MASTER]
+jobs=4
+good-names=e,n,f
+
+[MESSAGES CONTROL]
+#disable=invalid-name, missing-docstring, wrong-import-position, ungrouped-imports
+disable=missing-docstring,too-few-public-methods
