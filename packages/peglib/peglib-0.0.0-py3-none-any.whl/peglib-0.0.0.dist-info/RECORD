@@ -1,0 +1,10 @@
+peglib/__init__.py,sha256=iOUbfergA9K99TEo_DZwWHNJdqlAmMTY5W_aDy9jm2o,171
+peglib/__main__.py,sha256=q_hzVdbhn4CvvYEkpqIqW5tVYGC2KemO1sJ3EJhsUtA,180
+peglib/cli.py,sha256=CW4Q_Dh4JzP3oMbhqmIBaJuCpDyVSmNNbwNRYUTp7eQ,382
+peglib/py.typed,sha256=DtCsIDq6KOv2NOEdQjTbeMWJKRh6ZEL2E-6Mf1RLeMA,59
+peglib-0.0.0.dist-info/LICENSE,sha256=lL965OpoM7CFOnzB8fKN2FebNKMcnBYq64gl3sI-1dw,1072
+peglib-0.0.0.dist-info/METADATA,sha256=DyEsifehXAEvKcezHzhHEYkth_HvSFRtAWTRJ15aBLc,1753
+peglib-0.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+peglib-0.0.0.dist-info/entry_points.txt,sha256=TqbZr1pXoO6v1pA9ucwkydvB6YpGncpQYmHJ06R7eWY,42
+peglib-0.0.0.dist-info/top_level.txt,sha256=HuoPDlrb99akG5zZcRkbJhvsUDFO2gFVL3Iv1W6Hu-c,7
+peglib-0.0.0.dist-info/RECORD,,
