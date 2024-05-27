@@ -1,0 +1,11 @@
+README.md
+setup.py
+ytsnippet/__init__.py
+ytsnippet/cli.py
+ytsnippet/database.py
+ytsnippet.egg-info/PKG-INFO
+ytsnippet.egg-info/SOURCES.txt
+ytsnippet.egg-info/dependency_links.txt
+ytsnippet.egg-info/entry_points.txt
+ytsnippet.egg-info/requires.txt
+ytsnippet.egg-info/top_level.txt
