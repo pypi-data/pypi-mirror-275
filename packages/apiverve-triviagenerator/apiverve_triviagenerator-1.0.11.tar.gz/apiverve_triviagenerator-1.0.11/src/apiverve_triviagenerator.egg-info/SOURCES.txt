@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_triviagenerator/__init__.py
+src/apiverve_triviagenerator/apiClient.py
+src/apiverve_triviagenerator/exceptions.py
+src/apiverve_triviagenerator/setup.py
+src/apiverve_triviagenerator.egg-info/PKG-INFO
+src/apiverve_triviagenerator.egg-info/SOURCES.txt
+src/apiverve_triviagenerator.egg-info/dependency_links.txt
+src/apiverve_triviagenerator.egg-info/top_level.txt
+src/apiverve_triviagenerator/tests/__init__.py
+src/apiverve_triviagenerator/tests/test_api.py
+tests/test_api.py
