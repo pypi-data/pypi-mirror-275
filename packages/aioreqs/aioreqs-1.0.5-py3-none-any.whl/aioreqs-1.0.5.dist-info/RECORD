@@ -1,0 +1,5 @@
+aioreqs/__init__.py,sha256=tlMc_n1ALe0lUL7lg9RLdwiSkh-1ErOCrWUig_hZX0w,4997
+aioreqs/sync/__init__.py,sha256=x18CuxKAZ0heD4Kk7wseMvMWrtgkUBEU3qRb26_qH7M,2384
+aioreqs-1.0.5.dist-info/METADATA,sha256=OLpBTEGRyXWP1njGXBJIJwu3GNPjnlGkcipWp0Rykds,487
+aioreqs-1.0.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+aioreqs-1.0.5.dist-info/RECORD,,
