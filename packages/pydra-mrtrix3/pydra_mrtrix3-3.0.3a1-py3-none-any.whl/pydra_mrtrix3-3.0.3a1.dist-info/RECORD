@@ -1,0 +1,8 @@
+pydra/tasks/mrtrix3/__init__.py,sha256=WO1g5LU93U4Et_smoWr0utFtKG54aVYlq88KjiR5UYk,90
+pydra/tasks/mrtrix3/_version.py,sha256=syR2ppDH3ne7-iiMCX4ikixMT3aFuaNjaysh66cd9Xc,413
+pydra/tasks/mrtrix3/latest.py,sha256=URyTF9ksfEdNAVTYno9q4Ft3SQ87sTOakaqFKVplzJs,51
+pydra/tasks/mrtrix3/manual/mrcalc_.py,sha256=s2ODJ7ZwOzNSWbJ25oYVaxEttH3bcRPxijNDv5JmCks,10680
+pydra_mrtrix3-3.0.3a1.dist-info/METADATA,sha256=kQfQVezMe-koSMaKycTH-Umm1XzgbBJVxvfAJD2c3Ec,3950
+pydra_mrtrix3-3.0.3a1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+pydra_mrtrix3-3.0.3a1.dist-info/licenses/LICENSE,sha256=NmkpZ9dOpDDjtDD2-Lf52oeEsOESdI37LqZN6WhQcM4,588
+pydra_mrtrix3-3.0.3a1.dist-info/RECORD,,
