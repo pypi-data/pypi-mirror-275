@@ -1,0 +1,8 @@
+GDB and support tools extracted from xPack GNU Arm Embedded GCC toolchain.
+version: gcc-arm-none-eabi-gcc-13.2.1-1.1-linux-x64
+downloaded from: https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v13.2.1-1.1/xpack-arm-none-eabi-gcc-13.2.1-1.1-linux-x64.tar.gz
+Note: To save space only selected parts of the full package have been included.
+      No other modifications have been performed.
+      The license of GDB and its components can be found in distro-info/licenses.
+
+Special thanks to Liviu Ionescu for his excellent work to provide the xPack version of the toolchain!
