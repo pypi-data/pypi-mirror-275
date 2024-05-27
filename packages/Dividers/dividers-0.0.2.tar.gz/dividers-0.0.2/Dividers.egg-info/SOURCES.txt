@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Dividers/__init__.py
+Dividers/div.py
+Dividers.egg-info/PKG-INFO
+Dividers.egg-info/SOURCES.txt
+Dividers.egg-info/dependency_links.txt
+Dividers.egg-info/top_level.txt
+tests/test.py
