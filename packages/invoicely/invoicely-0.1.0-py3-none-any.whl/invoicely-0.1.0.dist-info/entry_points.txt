@@ -1,0 +1,2 @@
+[console_scripts]
+invoicely = invoicely.cli:cli
