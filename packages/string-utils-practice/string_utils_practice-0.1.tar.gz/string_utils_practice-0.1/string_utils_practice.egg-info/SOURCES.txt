@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+string_utils/__init__.py
+string_utils/utils.py
+string_utils_practice.egg-info/PKG-INFO
+string_utils_practice.egg-info/SOURCES.txt
+string_utils_practice.egg-info/dependency_links.txt
+string_utils_practice.egg-info/top_level.txt

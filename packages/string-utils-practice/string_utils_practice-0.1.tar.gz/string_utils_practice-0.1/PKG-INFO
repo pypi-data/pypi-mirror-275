@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: string-utils-practice
+Version: 0.1
+Summary: A description of your package
+Home-page: https://github.com/Kzkyo/string-utils
+Author: kazuki15
+Author-email: s2222008@stu.musashino-u.ac.jp
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pypi
