@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/duckdb_upgrade/__main__.py
+src/duckdb_upgrade/platform.py
+src/duckdb_upgrade/versions.py
+src/duckdb_upgrade.egg-info/PKG-INFO
+src/duckdb_upgrade.egg-info/SOURCES.txt
+src/duckdb_upgrade.egg-info/dependency_links.txt
+src/duckdb_upgrade.egg-info/entry_points.txt
+src/duckdb_upgrade.egg-info/requires.txt
+src/duckdb_upgrade.egg-info/top_level.txt
+tests/test_main.py
+tests/test_platform.py
+tests/test_versions.py
