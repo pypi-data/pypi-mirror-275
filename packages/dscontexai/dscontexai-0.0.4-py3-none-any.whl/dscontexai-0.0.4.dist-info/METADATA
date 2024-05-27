@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: dscontexai
+Version: 0.0.4
+Summary: ConteXAI
+Home-page: UNKNOWN
+Author: Jovana V., Haris K., Luka M.
+Author-email: <youremail@email.com>
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: PyLaTeX ==1.4.2
+Requires-Dist: asttokens ==2.4.1
+Requires-Dist: backcall ==0.2.0
+Requires-Dist: catboost ==1.2.5
+Requires-Dist: cloudpickle ==3.0.0
+Requires-Dist: comm ==0.2.2
+Requires-Dist: contourpy ==1.1.1
+Requires-Dist: cycler ==0.12.1
+Requires-Dist: debugpy ==1.8.1
+Requires-Dist: decorator ==5.1.1
+Requires-Dist: executing ==2.0.1
+Requires-Dist: fonttools ==4.51.0
+Requires-Dist: graphviz ==0.20.3
+Requires-Dist: importlib-metadata ==7.1.0
+Requires-Dist: importlib-resources ==6.4.0
+Requires-Dist: ipykernel ==6.29.4
+Requires-Dist: ipython ==8.12.3
+Requires-Dist: jedi ==0.19.1
+Requires-Dist: joblib ==1.4.0
+Requires-Dist: jupyter-client ==8.6.1
+Requires-Dist: jupyter-core ==5.7.2
+Requires-Dist: kiwisolver ==1.4.5
+Requires-Dist: llvmlite ==0.41.1
+Requires-Dist: matplotlib-inline ==0.1.7
+Requires-Dist: matplotlib ==3.7.5
+Requires-Dist: nest-asyncio ==1.6.0
+Requires-Dist: numba ==0.58.1
+Requires-Dist: numpy ==1.24.4
+Requires-Dist: ordered-set ==4.1.0
+Requires-Dist: packaging ==24.0
+Requires-Dist: pandas ==2.0.3
+Requires-Dist: parso ==0.8.4
+Requires-Dist: pexpect ==4.9.0
+Requires-Dist: pickleshare ==0.7.5
+Requires-Dist: pillow ==10.3.0
+Requires-Dist: platformdirs ==4.2.0
+Requires-Dist: plotly ==5.22.0
+Requires-Dist: prompt-toolkit ==3.0.43
+Requires-Dist: psutil ==5.9.8
+Requires-Dist: ptyprocess ==0.7.0
+Requires-Dist: pure-eval ==0.2.2
+Requires-Dist: pygments ==2.17.2
+Requires-Dist: pyparsing ==3.1.2
+Requires-Dist: python-dateutil ==2.9.0.post0
+Requires-Dist: pytz ==2024.1
+Requires-Dist: pyzmq ==26.0.0
+Requires-Dist: scikit-learn ==1.3.2
+Requires-Dist: scipy ==1.10.1
+Requires-Dist: seaborn ==0.13.2
+Requires-Dist: shap ==0.44.1
+Requires-Dist: six ==1.16.0
+Requires-Dist: slicer ==0.0.7
+Requires-Dist: stack-data ==0.6.3
+Requires-Dist: tenacity ==8.3.0
+Requires-Dist: threadpoolctl ==3.4.0
+Requires-Dist: tornado ==6.4
+Requires-Dist: tqdm ==4.66.2
+Requires-Dist: traitlets ==5.14.2
+Requires-Dist: typing-extensions ==4.11.0
+Requires-Dist: tzdata ==2024.1
+Requires-Dist: wcwidth ==0.2.13
+Requires-Dist: zipp ==3.18.1
+
+xAI for everyone!
+
+
