@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+pydotool/__init__.py
+pydotool/_sequence.py
+pydotool/ascii_2_keycode.py
+pydotool/click.py
+pydotool/input_event_code.py
+pydotool/key.py
+pydotool/mousemove.py
+pydotool/typetool.py
+python_ydotool.egg-info/PKG-INFO
+python_ydotool.egg-info/SOURCES.txt
+python_ydotool.egg-info/dependency_links.txt
+python_ydotool.egg-info/top_level.txt
