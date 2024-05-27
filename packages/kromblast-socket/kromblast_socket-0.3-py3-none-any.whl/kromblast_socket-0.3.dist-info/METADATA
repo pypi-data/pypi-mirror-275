@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: kromblast-socket
+Version: 0.3
+Summary: Connect to a Kromblast socket server
+Home-page: https://github.com/alex-bouget/KromblastSocketPy
+Author: alex-bouget
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: promise ==2.3.0
+
+# KromblastSocketPy
+
+TODO COMMENT
