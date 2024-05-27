@@ -1,0 +1,52 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "inoutlists"
+version = "1.0.0"
+requires-python = ">=3.8"
+dependencies = [
+  "pandas>=2.2.2",
+  "lxml>=5.2.2",
+  "requests>=2.32.2"
+]
+description = "inoutlists is a python package to parse and normalize different sources of lists (OFAC, EU, UN, etc) to a common dictionary interface."
+authors = [
+    {name = "Eusebio José de la Torre Niño", email = "ej.torre.nino@gmail.com"}
+]
+maintainers = [
+    {name = "Eusebio José de la Torre Niño", email = "ej.torre.nino@gmail.com"}
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = [
+    "mapping",
+    "parsing",
+    "decoding",
+    "encoding",
+    "normalization",
+    "record linkage", 
+    "deduplication", 
+    "entity resolution", 
+    "OFAC",
+    "EU",
+    "UN",
+    "lists",
+    "sanctions"
+]
+classifiers = [ 
+    "Development Status :: 5 - Production/Stable",    
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",    
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ejtorre/inoutlists"
+Documentation = "https://github.com/ejtorre/inoutlists"
+Repository = "https://github.com/ejtorre/inoutlists"
+Source = "https://github.com/ejtorre/inoutlists"
