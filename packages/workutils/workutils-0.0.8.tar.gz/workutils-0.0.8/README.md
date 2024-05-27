@@ -1,0 +1,207 @@
+# workutils
+A tool to solve daily work including file encoding conversion, keyword search, and file type analysis.
+
+## Installation
+You can install, upgrade, or uninstall workutils with these commands:
+```shell
+$ pip install workutils
+$ pip install --upgrade workutils
+$ pip uninstall workutils
+```
+
+## Help
+
+```shell
+$ workutils -h
+usage: workutils [-h] {convert,query,analyze} ...
+A tool for daily work
+
+optional arguments:
+  -h, --help            show this help message and exit
+
+subcommands:
+  {convert,query,analyze}
+    convert             Convert the encoding of all files in the specified directory and its subdirectories.
+    query               Query the encoding of a specified file.
+    analyze             Analyze the file types and keyword occurrences in the specified directory and its subdirectories.
+```
+
+### Convert the encoding of files
+
+```shell
+$ workutils convert -h
+usage: workutils convert [-h] [-s SUFFIX] directory target_encoding
+
+positional arguments:
+  directory             The directory to process
+  target_encoding       The target encoding format, e.g., 'utf-8'
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -s SUFFIX, --suffix SUFFIX
+                        Specify the file extension to process, e.g., '.txt'
+```
+
+### Query the encoding of a file
+
+```shell
+$ workutils query -h
+usage: workutils query [-h] file_path
+
+positional arguments:
+  file_path             The file path to query
+
+optional arguments:
+  -h, --help            show this help message and exit
+```
+
+### Analyze file types and keyword occurrences
+
+```shell
+$ workutils analyze -h
+usage: workutils analyze [-h] [-s SUFFIX] [-k KEYWORDS] [-a] [-o OUTPUT] directory
+
+positional arguments:
+  directory             The directory to analyze
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -s SUFFIX, --suffix SUFFIX
+                        Specify the file extension to analyze
+  -k KEYWORDS, --keywords KEYWORDS
+                        Count keywords in all files, such as 'keyword1,keyword2'
+  -a, --all-files       Traverse all files, including hidden files
+  -o OUTPUT, --output OUTPUT
+                        The file path to save the result
+```
+
+## Examples
+
+### Convert the encoding of files
+
+1. **Convert all `.txt` files in a directory to `utf-8` encoding**:
+
+```shell
+$ workutils convert ./directory utf-8 -s .txt
+```
+
+### Query the encoding of a file
+
+2. **Query the encoding of a specific file**:
+
+```shell
+$ workutils query /path/to/file.txt
+```
+
+### Analyze file types and keyword occurrences
+
+3. **Analyze the file types in a directory**:
+
+```shell
+$ workutils analyze ../
+E:\workutils\a.txt
+E:\workutils\LICENSE
+E:\workutils\README.md
+E:\workutils\workutils\workutils.py
+E:\workutils\workutils\__init__.py
+========================================
+Suffix    Counts
+----------------------------------------
+.txt      1
+          1
+.md       1
+.py       2
+----------------------------------------
+Total     5
+========================================
+```
+
+4. **Select the folder path and specify the file suffix to analyze**:
+
+```shell
+$ workutils analyze ../ -s py
+E:\workutils\workutils\workutils.py
+E:\workutils\workutils\__init__.py
+========================================
+Suffix    Counts
+----------------------------------------
+.py       2
+----------------------------------------
+Total     2
+========================================
+```
+
+5. **Traverse all files, including hidden files**:
+
+```shell
+$ workutils analyze ../ -a   
+E:\workutils\a.txt
+E:\workutils\LICENSE
+E:\workutils\README.md
+E:\workutils\.git\config
+...
+E:\workutils\.git\refs\remotes\origin\HEAD
+E:\workutils\workutils\workutils.py
+E:\workutils\workutils\__init__.py
+========================================
+Suffix    Counts
+----------------------------------------
+.txt      1
+          15
+.md       1
+.sample   13
+.idx      1
+.pack     1
+.py       2
+----------------------------------------
+Total     34
+========================================
+```
+
+6. **Save the result to a file**:
+
+```shell
+$ workutils analyze ../ -s py -o result.txt
+E:\workutils\workutils\workutils.py
+E:\workutils\workutils\__init__.py
+========================================
+Suffix    Counts
+----------------------------------------
+.py       2
+----------------------------------------
+Total     2
+========================================
+The result has been saved to the E:\workutils\workutils\result.txt file.
+```
+
+Content of `result.txt`:
+```text
+E:\workutils\workutils\workutils.py
+E:\workutils\workutils\__init__.py
+```
+
+7. **Find keywords and count occurrences in all files**:
+
+```shell
+$ workutils analyze ./ -s log -k 'AS0100504GN_2' -o a.txt
+E:\workutils\workutils\1111.log
+E:\workutils\workutils\a\a.log
+E:\workutils\workutils\b\test.log
+E:\workutils\workutils\c\c.log
+==================================================
+Suffix              Counts
+--------------------------------------------------
+.log                4
+--------------------------------------------------
+Total               4
+==================================================
+
+100%|████████████████████████████████████████████| 4/4 [00:00<00:00,  3.76it/s]
+==================================================
+Keyword             Matches             File Name
+--------------------------------------------------
+AS0100504GN_2       32                  1111.log
+--------------------------------------------------
+==================================================
+The result has been saved to the E:\workutils\workutils\a.txt file.
+```
