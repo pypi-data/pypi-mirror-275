@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+color_extractor/__init__.py
+color_extractor/color_extractor.py
+color_extractor.egg-info/PKG-INFO
+color_extractor.egg-info/SOURCES.txt
+color_extractor.egg-info/dependency_links.txt
+color_extractor.egg-info/requires.txt
+color_extractor.egg-info/top_level.txt
+test/__init__.py
+test/test.py

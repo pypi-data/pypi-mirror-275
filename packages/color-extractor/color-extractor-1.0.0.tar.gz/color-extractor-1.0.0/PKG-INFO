@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: color-extractor
+Version: 1.0.0
+Summary: A Python package to extract main colors from images.
+Home-page: https://github.com/Mizu0927/extract_main_color
+Author: Mizuha Kojima
+Author-email: s2222076@stu.musashino-u.ac.jp
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+
+# ColorExtractor
+
+ColorExtractor is a Python package that allows you to extract main colors from an image using clustering techniques and visualize them along with their ratios.
+
+## Installation
+
+You can install ColorExtractor via pip:
+
+```bash
+pip install color-extractor
+
+```
+## Features
+
+- Extract main colors from an image using K-means clustering.
+- Calculate color ratios based on the number of pixels.
+- Visualize main colors along with their ratios.
+- Support for both RGB and HSV color spaces.
+
+## License
+
+This format maintains the consistency and readability of the README.md file.
+
