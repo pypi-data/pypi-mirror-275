@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/apeboiy/__init__.py
+src/apeboiy/example.py
+src/apeboiy/inav_predict.py
+src/apeboiy.egg-info/PKG-INFO
+src/apeboiy.egg-info/SOURCES.txt
+src/apeboiy.egg-info/dependency_links.txt
+src/apeboiy.egg-info/requires.txt
+src/apeboiy.egg-info/top_level.txt
+src/apeboiy/obj/__init__.py
+src/apeboiy/obj/_obj.py
+src/apeboiy/ply/__init__.py
+src/apeboiy/ply/_reader.py
