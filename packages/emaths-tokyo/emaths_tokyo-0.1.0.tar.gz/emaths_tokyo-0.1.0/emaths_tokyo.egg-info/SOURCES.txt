@@ -1,0 +1,5 @@
+setup.py
+emaths_tokyo.egg-info/PKG-INFO
+emaths_tokyo.egg-info/SOURCES.txt
+emaths_tokyo.egg-info/dependency_links.txt
+emaths_tokyo.egg-info/top_level.txt
