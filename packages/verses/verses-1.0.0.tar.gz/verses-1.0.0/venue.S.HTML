@@ -1,0 +1,52 @@
+
+
+
+<pre>
+
+	<h1>verses</h1>
+		# drawbridge
+			# mongo_data
+			# cryo
+		
+		# crowns
+		# verses
+		# bullion
+		# money
+		
+
+	<h2>on</h2>
+		<h3>session 1</h3>
+			docker compose up -d; docker exec -it verses.1 bash -c "bash"
+			source /habitat/_controls/build_1.sh
+			cd /habitat/venues/implementations/verses_locker
+			verses_1
+			
+		<h3>session 2</h3>
+			source /habitat/_controls/build_2.sh
+	
+	<h2>off</h2>
+		
+	<h2>monetary</h2>
+		objectives:
+			[ ] export the "passes", dump the "squeezes"
+	
+		<h3>saving</h3>
+			verses_1 adventures monetary saves export --version 1
+
+		<h3>loading</h3>
+			verses_1 adventures monetary saves import --version 1 --drop
+	
+	<h2>publish</h2>
+		python3 /habitat/venues/stages/verses/_status/status.proc.py
+		
+		(pip install poetry && cd /habitat && rm -rf dist && poetry build --format sdist --verbose && chmod -R 777 /habitat && poetry publish --verbose;)
+
+	
+
+
+
+
+
+
+
+</pre>
