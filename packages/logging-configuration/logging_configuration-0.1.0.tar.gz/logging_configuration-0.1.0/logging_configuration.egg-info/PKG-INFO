@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: logging-configuration
+Version: 0.1.0
+Summary: A simple logging configuration module
+Home-page: https://github.com/spondonh/logging-config
+Author: Spondon K. Hazarika
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+custom_logging/__init__.py
+custom_logging/configuration.py
+logging_configuration.egg-info/PKG-INFO
+logging_configuration.egg-info/SOURCES.txt
+logging_configuration.egg-info/dependency_links.txt
+logging_configuration.egg-info/top_level.txt
