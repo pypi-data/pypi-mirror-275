@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: lckytools
+Version: 0.0.0b1
+Summary: A collection of helpful utility functions and tools.
+Home-page: https://github.com/yourusername/lckytools
+License: MIT
+Author: Your Name
+Author-email: your.email@example.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Documentation, https://yourusername.github.io/lckytools
+Project-URL: Repository, https://github.com/yourusername/lckytools
+Description-Content-Type: text/markdown
+
+
