@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: Image-f-c
+Version: 0.1.6
+Summary: Convert all files directly under the directory to any music file.
+Home-page: https://github.com/Ryomo0797/AudioAlchemist.git
+Download-URL: https://github.com/Ryomo0797/AudioAlchemist.git
+Author: Goki Nagata
+Author-email: s2222068@stu.musashino-u.ac.jp
+Maintainer: Goki Nagata
+Maintainer-email: s2222068@stu.musashino-u.ac.jp
+License: MIT
+Keywords: PIL,image,file,png,jpeg,bmp
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pillow >=0.25.1
+
+
+# 概要
+​
+ImageFormatConverterは、PIL を利用した画像変換ツールです。 画像ファイルの形式を簡単に変換することができます。
+​
+# 機能
+​
+* png, jpeg, bmpなどのファイルを好きなファイルの形式に変更できる
+* ローカルで動作するためユーザーのプライバシーを保護できる
+
+​
+## インストール
+​
+```
+pip install pillow
+```
+​
+## 使い方 example
+* ライブラリのインポート
+```
+import pillow as PIL
+```
+* 処理の設定
+* input_file="変換したい画像ファイルのパス"
+* output_file="出力したいファイルの名前を入力"
+* output_format="出力したい画像の形式"
+* →ファイルのパスを'C:/Users/data/melody/image.jpeg'のように設定してください
+
+​
+* プログラム例
+```
+# フォルダパスを設定
+input_folder = 'C:/Users/data/image1.jpeg'
+output_folder = 'C:/Users/data/image2.png'
+output_format = "png"
+​
+# 変換処理を実行
+convert_image_format(input_file, output_file, output_format)
+```
+​
+
+​
+# 変換後の注意
+​
+* 変換するファイルが存在していることを確認してください。。
+
+​
+# サポート
+​
+バグ報告や機能リクエストは、GitHubまたは、メールにてご連絡ください。
+​
+# ライセンス
+​
+このプログラムは [MIT License](https://choosealicense.com/licenses/mit/) でライセンスされています。
+​
+## バージョン
+​
+0.1.6
