@@ -1,0 +1,78 @@
+# Playwright Network Spy 🕵️‍♂️🌐
+
+[![PyPI version](https://badge.fury.io/py/playwright-network-spy.svg)](https://badge.fury.io/py/playwright-network-spy)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Playwright Network Spy is a powerful Python library that simplifies network capturing when using Playwright.
+It allows you to easily capture and retrieve information from any website on the internet, even in modern web environments that heavily utilize infinite scrolling and REST APIs. 🌍💻
+
+**Crawl from network responses, not from unstable DOMs!**
+
+
+- 🎣 Intercept and capture network responses effortlessly
+- 🔍 Filter responses based on custom criteria
+- 📥 Retrieve JSON and video responses with ease
+- 🚀 Seamlessly integrate with Playwright for enhanced web scraping capabilities
+- 🐍 Intuitive and Pythonic API for a delightful developer experience
+- ♾️ Handle infinite scrolling websites with ease
+- 🌐 Capture data from REST APIs used by modern web applications
+
+## Installation 💾
+
+You can install Playwright Network Spy using pip:
+```sh
+pip install playwright-network-spy
+```
+
+## Usage 🛠️
+
+Here's a simple example of how to use Playwright Network Spy to capture and print SVG images from a website
+
+```python
+from typing import Any, Dict, Tuple
+
+from playwright.async_api import Page, Response, async_playwright
+
+from playwright_network_spy.spy import NetworkSpy
+
+
+async def capture_and_print_svg_from_cloudflare(page: Page) -> None:
+    async def _is_svg(response: Response) -> bool:
+        return response.url.endswith(".svg")
+
+    spy = NetworkSpy(page, _is_svg)
+
+    await page.goto("https://cloudflare.com")
+    responses = spy.get_new_responses()
+    print(responses)  # [<Response url='https://www.cloudflare.com/img/privacyoptions.svg'>, ...]
+
+
+async def main(*args: Tuple[Any, ...], **kwargs: Dict[str, Any]) -> None:
+    async with async_playwright() as playwright:
+        webdriver = playwright.chromium
+        async with await webdriver.launch() as browser:
+            async with await browser.new_page() as page:
+                await capture_and_print_svg_from_cloudflare(page)
+
+
+if __name__ == "__main__":
+    import asyncio
+
+    asyncio.run(main())
+```
+
+Playwright Network Spy is designed for modern websites that are complex to parse from the DOM. Instead of parsing, simply capture the entire JSON response and utilize it. 😝
+
+For more detailed examples, you can refer to the [Example](https://github.com/code-yeongyu/playwright-network-spy/tree/master/examples) in our GitHub repository.
+
+- [**Instagram Post Crawler (Infinite Scroll + REST API)**](https://github.com/code-yeongyu/playwright-network-spy/tree/master/examples/instagram.py)
+
+
+## Documentation 📚
+
+For detailed documentation and more examples, please visit our official documentation.
+Contributing 🤝
+We welcome contributions from the community! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request on our GitHub repository.
+
+## License 📜
+This project is licensed under the MIT License. See the LICENSE file for more information.
