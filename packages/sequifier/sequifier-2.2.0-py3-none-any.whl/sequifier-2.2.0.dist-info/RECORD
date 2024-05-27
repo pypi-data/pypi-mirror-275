@@ -1,0 +1,14 @@
+LICENSE,sha256=y5hkhA4eUuwsVmzfVXHxKxDo--RS7qCJl_jYMoOlHYs,1669
+sequifier/config/infer_config.py,sha256=w4k48GOWbYKn6LDK4zsFAx-zq5dNctHbRiY4QpfGs2c,4707
+sequifier/config/preprocess_config.py,sha256=_IL9BtEN54k-e2f5zYl6KP8X7DMfgYHMH1A4FPqt3dQ,1760
+sequifier/config/train_config.py,sha256=YDpTmT2yLQ8BKewW9Rj7IWXM8yJSmB2pcPuelI-wMfk,7582
+sequifier/helpers.py,sha256=wFVoEhrcPxBuJwTpFRKJ6XcKHytDvF7XGmPhNVpizdM,2851
+sequifier/infer.py,sha256=Fzuh768why3tarCAgfylMoSMVQhNxZ9rdlQcZJXdFNk,20796
+sequifier/preprocess.py,sha256=4LCsxOKHq7YYnkC3t4cMNiJKRaM09jdL4gxsvo-frf4,12716
+sequifier/sequifier.py,sha256=kU4rQS0JyikygB2M4BjWr3rouXQ7Lqz8jn7NX25oMIo,2234
+sequifier/train.py,sha256=sVtycH515y2NQl0C3TnW1oQClsrNK-9-pEfENnUx-JI,23893
+sequifier-2.2.0.dist-info/LICENSE,sha256=y5hkhA4eUuwsVmzfVXHxKxDo--RS7qCJl_jYMoOlHYs,1669
+sequifier-2.2.0.dist-info/METADATA,sha256=2wUgB62i2XtuvpVCxdxLlf9Ppo3MziRDuQxsr7jl4TQ,6424
+sequifier-2.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sequifier-2.2.0.dist-info/entry_points.txt,sha256=uCabYuSp8pZbgAv2cQ0G7DWi-4n9us3aZ-lVEpa2OBs,54
+sequifier-2.2.0.dist-info/RECORD,,
