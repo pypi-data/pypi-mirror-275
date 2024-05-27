@@ -1,0 +1,6 @@
+thefuzz
+mov-cli>=4.3.14
+
+[dev]
+ruff
+build
