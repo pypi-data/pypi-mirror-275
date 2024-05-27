@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/peglib/__init__.py
+src/peglib/__main__.py
+src/peglib/cli.py
+src/peglib/py.typed
+src/peglib.egg-info/PKG-INFO
+src/peglib.egg-info/SOURCES.txt
+src/peglib.egg-info/dependency_links.txt
+src/peglib.egg-info/entry_points.txt
+src/peglib.egg-info/requires.txt
+src/peglib.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+peglib = peglib.cli:cli
