@@ -1,0 +1,11 @@
+COPYING
+COPYING.LESSER
+README.md
+pyproject.toml
+src/netbits/__init__.py
+src/netbits/file1_name.py
+src/netbits/file2_name.py
+src/netbits.egg-info/PKG-INFO
+src/netbits.egg-info/SOURCES.txt
+src/netbits.egg-info/dependency_links.txt
+src/netbits.egg-info/top_level.txt
