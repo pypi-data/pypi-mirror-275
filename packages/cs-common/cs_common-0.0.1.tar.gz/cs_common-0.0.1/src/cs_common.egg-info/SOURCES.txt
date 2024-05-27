@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+src/cs_common.egg-info/PKG-INFO
+src/cs_common.egg-info/SOURCES.txt
+src/cs_common.egg-info/dependency_links.txt
+src/cs_common.egg-info/not-zip-safe
+src/cs_common.egg-info/requires.txt
+src/cs_common.egg-info/top_level.txt
