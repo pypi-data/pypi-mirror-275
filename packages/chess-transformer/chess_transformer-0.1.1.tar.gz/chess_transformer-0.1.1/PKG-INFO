@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: chess-transformer
+Version: 0.1.1
+Summary: Moveread goes smarter, baby
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Project-URL: repo, https://github.com/moveread/REPO.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Chess Transformer
+
+> Moveread goes smarter, baby
