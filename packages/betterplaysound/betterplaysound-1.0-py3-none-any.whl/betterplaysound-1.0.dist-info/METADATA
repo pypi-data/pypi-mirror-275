@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: betterplaysound
+Version: 1.0
+Summary: Better playsound is better than playsound
+Home-page: https://github.com/AryanRajCode/BetterPlaySound
+Author: AryanRaCode
+Author-email: shrawankumar8276@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pygame ==2.5.2
+
+Better Playsound is Python module it uses pygame and subprocess to playsound and
+it better than playsound 

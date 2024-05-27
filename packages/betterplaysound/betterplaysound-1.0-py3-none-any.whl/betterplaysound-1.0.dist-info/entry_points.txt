@@ -1,0 +1,2 @@
+[console_scripts]
+betterplaysound = betterplaysound:main
