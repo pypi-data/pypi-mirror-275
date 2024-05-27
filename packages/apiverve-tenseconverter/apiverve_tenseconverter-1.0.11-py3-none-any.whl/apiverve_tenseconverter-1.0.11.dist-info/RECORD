@@ -1,0 +1,11 @@
+apiverve_tenseconverter/__init__.py,sha256=8U60P_HX6t5LyVxEUeT1xIrFYj-NMvzLeaj-o2QYRiw,46
+apiverve_tenseconverter/apiClient.py,sha256=i-q39_N-13pla2pcktt1L0fkShxERL73i9cn5Nh65Js,1225
+apiverve_tenseconverter/exceptions.py,sha256=mUCHBFAeYRtGoXk2CCPObfj108Sw6VG98F7KyyU2nsI,111
+apiverve_tenseconverter/setup.py,sha256=S3xjti2aBmSHIWZVBa4X_gVWBZt0iZPFyCHgJjOwISY,657
+apiverve_tenseconverter/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_tenseconverter/tests/test_api.py,sha256=a9UIbYJSZMjxD6QHiMFkBiwTRtuO-1uzuhTNxq5PV7I,626
+apiverve_tenseconverter-1.0.11.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_tenseconverter-1.0.11.dist-info/METADATA,sha256=1L7YfdCYpdN1IQQ9_tmjQmejluA0KtLxD55zGfLfKk0,5384
+apiverve_tenseconverter-1.0.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apiverve_tenseconverter-1.0.11.dist-info/top_level.txt,sha256=g27ad6tOBG829ubdk_xL-Nm7zqBr_DY16xRwpi-xvZA,24
+apiverve_tenseconverter-1.0.11.dist-info/RECORD,,
