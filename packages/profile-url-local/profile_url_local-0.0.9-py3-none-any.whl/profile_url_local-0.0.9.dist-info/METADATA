@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: profile-url-local
+Version: 0.0.9
+Summary: PyPI Package for Circles profile-url-local Python
+Home-page: https://github.com/circles-zone/profile-url-local-python-package
+Author: Circles
+Author-email: info@circlez.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: database-mysql-local >=0.0.300
+Requires-Dist: logger-local >=0.0.135
+
+PyPI Package for Circles profile-url-local Python
