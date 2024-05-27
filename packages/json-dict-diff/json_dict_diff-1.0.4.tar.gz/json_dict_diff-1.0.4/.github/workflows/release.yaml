@@ -1,0 +1,52 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.9
+
+      - name: Setup
+        run: |
+          git config --global user.name 'Release CI'
+          git config --global user.email 'g3rrit@users.noreply.github.com'
+
+      - name: Print Python Version
+        run: python -c "import sys; print(sys.version)"
+
+      - name: Build
+        run: ./build.sh h# Runs black and pytest
+
+      - name: Tag Current Version
+        run: |
+          version_tag=$(grep version pyproject.toml | sed -E 's/version = "(.*)"/\1/')
+          git tag $version_tag
+          git push origin $version_tag
+
+      - name: Update Version
+        run: sed -E -i 's/version = "([0-9]+\.[0-9]+\.)([0-9]+)"/echo version = \\"\1$((\2 + 1))\\"/ge' pyproject.toml
+
+      - name: Push Updated Version
+        run: |
+          git add pyproject.toml
+          git commit -m "[CI] Increment Release Version"
+          git push origin master
+
+      - name: Upload Release
+        run: ./upload.sh
+        env:
+          PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
