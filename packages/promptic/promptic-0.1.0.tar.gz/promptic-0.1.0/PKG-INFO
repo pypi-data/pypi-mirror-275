@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: promptic
+Version: 0.1.0
+Summary: A simple yet powerful abstraction for litellm and pydantic
+Author-email: Stephan Fitzpatrick <knowsuchagency@gmail.com>
+Classifier: License :: OSI Approved :: Apache Software License
+Project-URL: Home, https://github.com/knowsuchagency/promptic
