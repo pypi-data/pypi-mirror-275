@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "qcentroid-agent-cli"
+version = "0.3.37"
+description = "Library to interact with qcentroid agent api"
+authors = [
+  "QCentroid <info@qcentroid.xyz>" ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    ]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "qcentroid_agent_cli"}]
+homepage = "https://www.qcentroid.xyz"
+repository = "https://github.com/QCentroid/qcentroid-agent-cli"
+documentation = "https://github.com/QCentroid/qcentroid-agent-cli"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "~=2.32"
+requests_toolbelt = "~=1.0"
+responses = {version = "~=0.25", optional = true}
+pytest ={version="~7.4", optional = true}
+
+[tool.poetry.group.test]  # Group definition
+
+[tool.poetry.group.test.dependencies]
+pytest = "~=7.4"
+responses = "~=0.25"
+coverage = "^7.4.3"
+
+[tool.poetry.extras]
+test = ['responses', 'pytest','coverage']
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
