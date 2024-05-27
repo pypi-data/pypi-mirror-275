@@ -1,0 +1,10 @@
+README.md
+setup.py
+chess_cli/__init__.py
+chess_cli/chess_cli.py
+chess_cli_python_stockfish.egg-info/PKG-INFO
+chess_cli_python_stockfish.egg-info/SOURCES.txt
+chess_cli_python_stockfish.egg-info/dependency_links.txt
+chess_cli_python_stockfish.egg-info/entry_points.txt
+chess_cli_python_stockfish.egg-info/requires.txt
+chess_cli_python_stockfish.egg-info/top_level.txt
