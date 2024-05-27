@@ -1,0 +1,10 @@
+jb_manager_bot/__init__.py,sha256=xM3HgaBJzJV6R3mSnssPevYoMVAIj-gMyo3Pwbt9O70,277
+jb_manager_bot/abstract_fsm.py,sha256=eEM1vQkM9r62dhHW0--qvoxGXmZtXpZ0mPODlz8P5Ms,12032
+jb_manager_bot/data_models.py,sha256=yLaqeYFaEuWlGkVQx8xGM8PpB7Nt2GYvsReWikZz1cw,1376
+jb_manager_bot/parsers/__init__.py,sha256=NQDRGUM52CqhpLmw2-aUVHb3K2Z5sPttxsusmA8m1Sk,112
+jb_manager_bot/parsers/option_parser/__init__.py,sha256=XmtfczY_oJeCQDrvBLyz4ktuOpVTFI8TFWp3_7DzqKg,3811
+jb_manager_bot/parsers/option_parser/prompt.txt,sha256=OnkIU55wkZk6vZV_BdX8cMr6WduUse1H3heGGbBgWDw,1074
+jb_manager_bot/parsers/utils.py,sha256=6gU6O92zcI66-YNRlVsoEa4t0n2yLDlXDs96NUkpRW0,5080
+jb_manager_bot-0.1.6.dist-info/METADATA,sha256=CO8qoM1tkCubRW7V85oqreYrNkPLejloLagilaMaqXI,597
+jb_manager_bot-0.1.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+jb_manager_bot-0.1.6.dist-info/RECORD,,
