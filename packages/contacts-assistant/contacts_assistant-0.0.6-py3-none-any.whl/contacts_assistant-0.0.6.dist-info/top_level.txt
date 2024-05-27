@@ -1,0 +1,17 @@
+Email
+__init__
+address
+birthday
+command_completer
+constants
+contacts_book
+date_helpers
+field
+handler
+menu
+name
+note
+notebook
+phone
+record
+utils

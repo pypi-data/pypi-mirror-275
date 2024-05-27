@@ -1,0 +1,2 @@
+[console_scripts]
+contacts-assistant = main:main
