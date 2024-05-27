@@ -1,0 +1,8 @@
+torch_onnx/__init__.py,sha256=jbZry6Wruvwje7bMAgn1XzM37siJbKmp2cAPaz02Jag,127
+torch_onnx/_core.py,sha256=WNRUucryLLu8v_sJgBZwJHSwkajg7_SEISz2TMnHPNA,12432
+torch_onnx/_patch.py,sha256=aEsDbFfdnevxwQbpJraMGG4U9uSg2vU9QRWskDaaQZs,1500
+torch_onnx-0.0.1.dist-info/LICENSE,sha256=deQJdgCoEtHvKw78_q-z0n_CuvRH-bodU7f62LSM8ew,1067
+torch_onnx-0.0.1.dist-info/METADATA,sha256=sW-c8bdMhjaNbmci9wNxdfh7ke4KoocIXfkn8k1UX6w,2643
+torch_onnx-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+torch_onnx-0.0.1.dist-info/top_level.txt,sha256=iRVgHty8FIDBRLeo4yLA970cedN1cQnmsZ8X1xQO3FM,11
+torch_onnx-0.0.1.dist-info/RECORD,,
