@@ -1,0 +1,2 @@
+[console_scripts]
+template-package-cli = wolfsoftware.template_package_cli.main:main
