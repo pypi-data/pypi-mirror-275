@@ -1,0 +1,10 @@
+README.md
+setup.py
+wikipathway2genes.egg-info/PKG-INFO
+wikipathway2genes.egg-info/SOURCES.txt
+wikipathway2genes.egg-info/dependency_links.txt
+wikipathway2genes.egg-info/entry_points.txt
+wikipathway2genes.egg-info/requires.txt
+wikipathway2genes.egg-info/top_level.txt
+wp2genes/__init__.py
+wp2genes/wp2genes.py
