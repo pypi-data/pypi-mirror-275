@@ -1,0 +1,7 @@
+README.md
+setup.py
+diveharder/__init__.py
+diveharder.egg-info/PKG-INFO
+diveharder.egg-info/SOURCES.txt
+diveharder.egg-info/dependency_links.txt
+diveharder.egg-info/top_level.txt
