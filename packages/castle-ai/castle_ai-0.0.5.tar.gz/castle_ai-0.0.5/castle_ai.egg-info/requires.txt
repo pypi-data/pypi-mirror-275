@@ -1,0 +1,8 @@
+numpy
+tqdm
+torch
+av
+opencv-python
+torchvision
+matplotlib
+umap-learn
