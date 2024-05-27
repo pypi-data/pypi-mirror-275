@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+basicmathw/__init__.py
+basicmathw/operations.py
+basicmathw.egg-info/PKG-INFO
+basicmathw.egg-info/SOURCES.txt
+basicmathw.egg-info/dependency_links.txt
+basicmathw.egg-info/top_level.txt
