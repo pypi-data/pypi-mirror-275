@@ -1,0 +1,10 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/python-publish.yml
+xontrib/fzf-completions.xsh
+xontrib_fzf_completions.egg-info/PKG-INFO
+xontrib_fzf_completions.egg-info/SOURCES.txt
+xontrib_fzf_completions.egg-info/dependency_links.txt
+xontrib_fzf_completions.egg-info/top_level.txt

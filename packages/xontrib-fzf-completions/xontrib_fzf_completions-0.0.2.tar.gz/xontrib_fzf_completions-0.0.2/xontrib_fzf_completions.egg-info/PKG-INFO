@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: xontrib-fzf-completions
+Version: 0.0.2
+Summary: fzf completions for xonsh
+Author-email: doronz88 <doron88@gmail.com>
+Maintainer-email: doronz88 <doron88@gmail.com>
+License: GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
+Project-URL: Homepage, https://github.com/doronz88/xontrib-fzf-completions
+Project-URL: Bug Reports, https://github.com/doronz88/xontrib-fzf-completions/issues
+Keywords: shell,xonsh,xontrib
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Desktop Environment
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: System :: System Shells
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# xontrib-fzf-completions
+
+The project is a more updated fork of https://github.com/shahinism/xontrib-fzf-widgets (Hopefully more responsive to
+PRs), providing [`fzf`](https://github.com/junegunn/fzf) completions into your [xonsh](https://github.com/xonsh/xonsh)
+shell.
+
+## Installation
+
+```shell
+# Install the xontrib
+xpip install -U xontrib-fzf-completions
+
+# Load it
+xpip load fzf-completions
+```
+
+Define the key-binding in your `.xonshrc`:
+
+```python
+from xonsh.built_ins import XSH
+
+XSH.env['fzf_history_binding'] = "c-r"  # Ctrl+R
+XSH.env['fzf_ssh_binding'] = "c-s"  # Ctrl+S
+XSH.env['fzf_file_binding'] = "c-t"  # Ctrl+T
+XSH.env['fzf_dir_binding'] = "c-g"  # Ctrl+G
+```
