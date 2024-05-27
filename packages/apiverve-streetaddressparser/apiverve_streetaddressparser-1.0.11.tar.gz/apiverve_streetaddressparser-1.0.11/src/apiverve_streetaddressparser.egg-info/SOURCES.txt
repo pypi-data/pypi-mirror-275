@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_streetaddressparser/__init__.py
+src/apiverve_streetaddressparser/apiClient.py
+src/apiverve_streetaddressparser/exceptions.py
+src/apiverve_streetaddressparser/setup.py
+src/apiverve_streetaddressparser.egg-info/PKG-INFO
+src/apiverve_streetaddressparser.egg-info/SOURCES.txt
+src/apiverve_streetaddressparser.egg-info/dependency_links.txt
+src/apiverve_streetaddressparser.egg-info/top_level.txt
+src/apiverve_streetaddressparser/tests/__init__.py
+src/apiverve_streetaddressparser/tests/test_api.py
+tests/test_api.py
