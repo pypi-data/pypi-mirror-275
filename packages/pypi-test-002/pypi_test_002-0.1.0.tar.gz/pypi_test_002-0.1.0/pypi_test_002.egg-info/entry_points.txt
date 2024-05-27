@@ -1,0 +1,2 @@
+[console_scripts]
+pypi_test_002 = pypi_test_002.main:main
