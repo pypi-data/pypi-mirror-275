@@ -1,0 +1,7 @@
+README.md
+setup.py
+tableau-rest-api/__init__.py
+tableau_rest_api.egg-info/PKG-INFO
+tableau_rest_api.egg-info/SOURCES.txt
+tableau_rest_api.egg-info/dependency_links.txt
+tableau_rest_api.egg-info/top_level.txt
