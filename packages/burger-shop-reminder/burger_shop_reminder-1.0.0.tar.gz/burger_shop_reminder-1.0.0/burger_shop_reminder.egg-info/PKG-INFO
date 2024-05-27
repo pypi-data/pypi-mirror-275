@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: burger-shop-reminder
+Version: 1.0.0
+Summary: A daily reminder for a random burger shop with images
+Home-page: https://github.com/yanoyuuki7/burger_shop_reminder.git
+Author: YUKI YANO
+Author-email: s2222036@stu.musashino-u.ac.jp
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ハンバーガーショップリマインダーシステム
+## 概要
+このシステムは、毎日午前9時に世界中のハンバーガーショップをランダムに選び、画像付きでリマインダーを提供するPythonアプリケーション。
+  
+  以下の機能を備えている：
+
++ ランダムにハンバーガーショップを選択
++ 選択したショップの詳細と画像を表示
++ 画像をローカルファイルに保存
+## 使用技術
+
+  + random: ハンバーガーショップをランダムに選択するために使用
+  + requests: ハンバーガーショップの画像をインターネットからダウンロードするために使用
+  + PIL (Pillow): 画像の処理および表示のために使用
+  + apscheduler: スケジューリングを管理し、毎日決まった時間にタスクを実行するために使用
+  + matplotlib: 画像の表示および保存のために使用
+# コード説明
+## ライブラリのインポート
+```
+import random
+import requests
+from PIL import Image
+from io import BytesIO
+from apscheduler.schedulers.blocking import BlockingScheduler
+import matplotlib
+matplotlib.use('Agg')  # GUIを使わないバックエンドを使用
+import matplotlib.pyplot as plt
+```
+必要なライブラリをインポートする。matplotlibのバックエンドをAggに設定することで、GUIを使わずに画像を処理する。
+
+## ハンバーガーショップのリスト
+```
+burger_shops = [
+    {"name": "In-N-Out Burger", "location": "USA", "image_url": "https://via.placeholder.com/150"},
+    {"name": "Shake Shack", "location": "USA", "image_url": "https://via.placeholder.com/150"},
+    {"name": "Burger King", "location": "Worldwide", "image_url": "https://via.placeholder.com/150"},
+    {"name": "McDonald's", "location": "Worldwide", "image_url": "https://via.placeholder.com/150"},
+    {"name": "Five Guys", "location": "USA", "image_url": "https://via.placeholder.com/150"}
+    # 他のハンバーガー店を追加
+]
+```
+サンプルとして5つのハンバーガーショップをリストに追加している。
+
+## リマインダーファンクション
+```
+def notify_burger_shop():
+    # ランダムにハンバーガー店を選ぶ
+    shop = random.choice(burger_shops)
+    name = shop["name"]
+    location = shop["location"]
+    image_url = shop["image_url"]
+    
+    print(f"Selected shop: {name} in {location}")
+    print(f"Image URL: {image_url}")
+    
+    try:
+        # 画像をダウンロードして表示
+        response = requests.get(image_url)
+        response.raise_for_status()  # HTTPエラーが発生した場合は例外を発生させる
+        img = Image.open(BytesIO(response.content))
+        
+        # 画像を表示
+        plt.imshow(img)
+        plt.title(f"{name} in {location}")
+        plt.axis('off')  # 軸を非表示
+        plt.savefig(f"{name}.png")  # 画像をファイルに保存
+        plt.close()  # プロットを閉じる
+        print(f"Image saved as {name}.png")
+    except requests.exceptions.RequestException as e:
+        print(f"Error downloading image: {e}")
+    except Exception as e:
+        print(f"Error displaying image: {e}")
+    
+    # 通知メッセージを作成
+    print(f"Today's recommended burger shop: {name} in {location}")
+```
+この関数は、ランダムに選んだハンバーガーショップの情報を表示し、画像をダウンロードして保存する。
+## スケジューラの設定
+```
+scheduler = BlockingScheduler()
+# 毎日午前9時に実行するように設定
+scheduler.add_job(notify_burger_shop, 'cron', hour=9, minute=0)
+
+try:
+    print("Burger shop reminder started.")
+    scheduler.start()
+except (KeyboardInterrupt, SystemExit):
+    print("Burger shop reminder stopped.")
+
+```
+apschedulerを使用して、毎日午前9時にnotify_burger_shop関数が実行されるようにスケジュールする。
+
+## 実行方法
+このスクリプトを実行することで、システムが起動し、毎日午前9時にランダムなハンバーガーショップの情報と画像が表示される。
+```
+python your_script.py
+```
+このシステムを実行するには、必要なライブラリをインストールする必要がある。
+```
+pip install requests pillow apscheduler matplotlib
+```
+## 注意点
++ 画像URLはサンプルのため、実際のURLに置き換える。
++ スクリプトを終了するには、Ctrl+Cを使用する。
+

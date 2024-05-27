@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+burger_shop_reminder/__init__.py
+burger_shop_reminder/bar_gar.py
+burger_shop_reminder.egg-info/PKG-INFO
+burger_shop_reminder.egg-info/SOURCES.txt
+burger_shop_reminder.egg-info/dependency_links.txt
+burger_shop_reminder.egg-info/entry_points.txt
+burger_shop_reminder.egg-info/requires.txt
+burger_shop_reminder.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+burger_shop_reminder = burger_shop_reminder:main
+
