@@ -1,0 +1,164 @@
+
+<pre>
+
+	<h1>objectives</h1>
+
+
+	<h2>summary</h2>
+	
+		<h3>structure</h3>
+			/verses_1
+				/mints
+				/treasures
+					/treasure.1
+						treasure_essence.py 
+							treasure = {								
+								"tags": [],
+								
+								#
+								#
+								#
+								"cautions": [],
+								
+								"controls": {
+									"on": "",
+									"off": "",
+									"refresh": ""
+								}
+							}
+							
+							
+					/treasure.2 
+						treasure.py
+					
+					
+					/treasure.3				
+						treasure.py
+						
+						
+				
+				/trends
+					/[ephemeral]
+						#
+						#	This is for equality checks of sends.
+						#
+						#
+						
+					/[monetary]
+						[mongo:DB] verses_trends
+						
+							#
+							#	db.items.createIndex ({ key1: 1, key2: 1 }, { unique: true })
+							#
+							#
+							[mongo:collection] treasures [{
+								"name": "",
+								"definition": "",
+								
+								"tags": [],
+								"cautions": [],
+								
+								"versions": {
+									"1.0.0": bits_id
+								}
+							}]
+							
+							[mongo:collection] bits
+
+							[mongo:collection] bits.files 
+								# This one is auto created by GridFS
+						
+						
+				verses_essence.py 
+					essence = {
+						
+					}
+				
+		<h3>essential plays</h3>
+
+			[@ verses_1] verses ventures on
+			
+				#
+				#	[ ] start the reverse proxy
+				#		
+				#			https://treasure.1.verses
+				#			https://treasure.2.verses
+				#			https://treasure.3.verses
+				#	
+				#	[ ] 
+				#
+				#
+			
+			[@ verses_1] verses ventures off		
+		
+			[@ verses_1] verses treasures inventory
+	
+			[@ verses_1] verses treasures save --name "treasure.1" --version 1.0.0
+				#
+				#	This doesn't delete the treasure. 
+				#	To delete, just use "rm" or something.
+				#
+ 
+				#
+				#	* search for "treasure.1" in the "treasures"
+				#	* search for "treasure.py" in "treasure.1"
+				#	* import "treasure" from "treasure.py"
+				#
+	
+				#
+				#	EQ check:
+				#		* send tar file to trends
+				#		* receive tar file from trends to temporary
+				#
+	
+			[@ verses_1] verses treasures receive --name "treasure.1" --version 1.0.0
+			
+			
+	
+			[@ verses_1] verses trends inventory
+	
+			[@ verses_1] verses trends search --name "treasure"
+			
+			
+			
+	
+		<h3>migrations</h3>
+		
+			[ ] export as "mongo_db_1:mongo_collection_1"
+				import as "mongo_db_2:mongo_collection_2"
+
+
+	<h2>ranked</h2>
+	
+		[ ] verses on
+		
+			This should turn on "mongo"
+			and "sanic"
+			
+		
+		[ ] https://verses
+		
+				Don't have definition numbers.
+				Don't use slants for links.
+								
+				
+
+		[ ] crown.JSON {
+				"name": "",
+				"tags": []
+			}
+
+		[ ] save a backup of GridFS
+			[ ] trend archives
+			
+		[ ] mongo replica set
+		
+		[ ] mint to trends with reversibility check
+		
+	
+	<h2>save</h2>
+		[ ] locks
+			[ ] 
+		
+		
+</pre>

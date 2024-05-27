@@ -1,0 +1,71 @@
+
+
+<pre>
+
+	<h1>adventures map</h1>
+	
+	<h2>objectives</h2>
+	
+		from verses.mixes.adventures_map import adventures_map
+		adventures = adventures_map ({
+			"adventures": [
+				{
+					"name": "adventure_1",
+					
+					"turn on": {
+						"adventure": "python3 -m http.server 8080",
+						"kind": "process identity"
+					}
+				},
+				{
+					"name": "adventure_2",
+					
+					"turn on": {
+						"adventure": "sanic harbor:create --port=8090 --host=0.0.0.0 --factory",
+						"kind": "custom"
+					},
+					"turn off": "sanic inspect shutdown --port=8090",
+					"is on":
+				}
+			]
+		])
+	
+		adventures ["turn on"] ()
+			
+			# turns the proceses on if they are not on.
+			# checks "is on" on cycle for 5 seconds
+			
+			adventures_map.JSON {
+				"adventure_1": {
+					"process_identity": ""
+				},
+				"adventure_2": {
+					"process_identity": ""
+				}				
+			}
+		
+		
+		adventures ["turn off"] ()
+	
+	
+	
+		adventures ["is on"] ()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>

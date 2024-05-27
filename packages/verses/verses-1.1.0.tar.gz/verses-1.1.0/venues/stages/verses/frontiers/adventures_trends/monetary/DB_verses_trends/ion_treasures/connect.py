@@ -1,0 +1,36 @@
+
+
+
+'''	
+	from verses.frontiers.adventures_trends.monetary.DB.verses_inventory.connect import connect_to_verses_inventory
+	[ driver, verses_inventory_DB ] = connect_to_verses_inventory ()
+	driver.close ()
+'''
+
+'''
+	from verses.frontiers.adventures_trends.monetary.DB.verses_inventory.connect import connect_to_verses_inventory
+	[ driver, verses_inventory_DB ] = connect_to_verses_inventory ()
+	foods_collection = verses_inventory_DB ["foods"]	
+	foods_collection.close ()
+'''
+
+
+
+
+from verses.frontiers.adventures_trends.monetary.moves.URL.retrieve import retreive_monetary_URL
+from verses._essence import retrieve_essence
+	
+import pymongo
+
+def connect_to_verses_inventory ():
+	essence = retrieve_essence ()
+	
+	ingredients_DB_name = essence ["monetary"] ["databases"] ["template"] ["alias"]
+	monetary_URL = retreive_monetary_URL ()
+
+	driver = pymongo.MongoClient (monetary_URL)
+
+	return [
+		driver,
+		driver [ ingredients_DB_name ]
+	]
