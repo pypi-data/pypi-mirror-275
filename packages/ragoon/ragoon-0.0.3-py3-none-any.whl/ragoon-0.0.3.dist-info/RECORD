@@ -1,0 +1,10 @@
+ragoon/__init__.py,sha256=b2sJ0pFg0hNnCOrmHx1y3Vi9ih_ssrqjeDqE4TYanpY,208
+ragoon/_retrieval.py,sha256=JMNfI0cmHN6Dtf7uLor41u0A7EupiubyQ7f-8CgkYoY,8080
+ragoon/_scrape.py,sha256=0aZpexnGykhF8CnmpiWfir1yRgqSx2BKoPsHsuzxNI8,3990
+ragoon/_search.py,sha256=K9gL4L23SXGQ_5V8dxLFOHwL_B5I0daC4ZtGV6rP7jY,2386
+ragoon/ragoon.py,sha256=hy_Zep8pYCgUDgCFqlzLgKtRrqeLStnlOIbHjitpeLg,4869
+ragoon-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ragoon-0.0.3.dist-info/METADATA,sha256=qUhE_hoDhUekPxIWED6OlHL6jL4IQK9La70doTBEiow,4754
+ragoon-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ragoon-0.0.3.dist-info/top_level.txt,sha256=Dv7X54p4TWVriA2feUemP8cZ_V5mjHgWMjki7zMsUPE,7
+ragoon-0.0.3.dist-info/RECORD,,
