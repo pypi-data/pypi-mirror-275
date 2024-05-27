@@ -1,0 +1,7 @@
+README.md
+setup.py
+pl-nightly/__init__.py
+pl_nightly.egg-info/PKG-INFO
+pl_nightly.egg-info/SOURCES.txt
+pl_nightly.egg-info/dependency_links.txt
+pl_nightly.egg-info/top_level.txt
