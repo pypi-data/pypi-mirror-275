@@ -1,0 +1,7 @@
+README.md
+setup.py
+gazou0526.egg-info/PKG-INFO
+gazou0526.egg-info/SOURCES.txt
+gazou0526.egg-info/dependency_links.txt
+gazou0526.egg-info/top_level.txt
+src/gazo.py
