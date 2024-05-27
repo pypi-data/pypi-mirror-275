@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+streamlit_tab_switch_counter.egg-info/PKG-INFO
+streamlit_tab_switch_counter.egg-info/SOURCES.txt
+streamlit_tab_switch_counter.egg-info/dependency_links.txt
+streamlit_tab_switch_counter.egg-info/requires.txt
+streamlit_tab_switch_counter.egg-info/top_level.txt
+tab_switch_counter/__init__.py
+tab_switch_counter/example.py
+tab_switch_counter/frontend/build/asset-manifest.json
+tab_switch_counter/frontend/build/bootstrap.min.css
+tab_switch_counter/frontend/build/index.html
+tab_switch_counter/frontend/build/static/js/main.80f17556.js
+tab_switch_counter/frontend/build/static/js/main.80f17556.js.LICENSE.txt
+tab_switch_counter/frontend/build/static/js/main.80f17556.js.map
