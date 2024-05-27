@@ -1,0 +1,8 @@
+README.md
+setup.py
+shynggys_hello/__init__.py
+shynggys_hello/main.py
+shynggys_hello.egg-info/PKG-INFO
+shynggys_hello.egg-info/SOURCES.txt
+shynggys_hello.egg-info/dependency_links.txt
+shynggys_hello.egg-info/top_level.txt
