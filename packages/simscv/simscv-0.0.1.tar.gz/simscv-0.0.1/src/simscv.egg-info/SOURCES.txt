@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/simscv.egg-info/PKG-INFO
+src/simscv.egg-info/SOURCES.txt
+src/simscv.egg-info/dependency_links.txt
+src/simscv.egg-info/requires.txt
+src/simscv.egg-info/top_level.txt
