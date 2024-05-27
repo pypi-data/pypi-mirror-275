@@ -1,0 +1,13 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apeboiy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apeboiy/example.py,sha256=RLYH0Jeyz2D3SLWVBXr4MBE_e0tQfr6SAeRgGxf0SwI,115
+apeboiy/inav_predict.py,sha256=UUjPdA6v5rZsExfH1a0ihcGi2tGV9PrWTLTDe9ezvq4,7942
+apeboiy/obj/__init__.py,sha256=PYjrwUU5OysJ8ojaKH5AFAqv2YZh3BTvWc0d_5m5Dl0,20
+apeboiy/obj/_obj.py,sha256=t9fgitFjoQ9fiHelnycuoYMgtds46uhtHq8ixKD_yDc,1416
+apeboiy/ply/__init__.py,sha256=5JleOaSjDl2jtEWcY7J52bcSnOkiYXWbf_1sE2_l700,23
+apeboiy/ply/_reader.py,sha256=DKvr0dJNeYbA1M5N8x_RhsHqWy8OFzqKDpAnWdDlEBA,3644
+apeboiy-0.0.14a1.dist-info/LICENSE,sha256=AbnU0AvI_3hf5Hx_GB_x--0Vo2oDkigoCGS1pw4qCnY,1053
+apeboiy-0.0.14a1.dist-info/METADATA,sha256=C2aFmUszbSJPbUar2aBFdzjF0HB9gdY2tFjnoLBQsbU,1124
+apeboiy-0.0.14a1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apeboiy-0.0.14a1.dist-info/top_level.txt,sha256=4DYkinrsS5zMhfyj3Fz_xuO80hGDblis-wo8gjw8qec,17
+apeboiy-0.0.14a1.dist-info/RECORD,,
