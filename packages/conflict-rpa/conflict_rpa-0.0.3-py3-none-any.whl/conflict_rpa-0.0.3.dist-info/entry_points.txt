@@ -1,0 +1,2 @@
+[console_scripts]
+rpa_main = conflict_rpa.rpa:rpa
