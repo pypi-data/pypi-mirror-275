@@ -1,0 +1,7 @@
+README.md
+setup.py
+discord-buttons/__init__.py
+discord_buttons.egg-info/PKG-INFO
+discord_buttons.egg-info/SOURCES.txt
+discord_buttons.egg-info/dependency_links.txt
+discord_buttons.egg-info/top_level.txt
