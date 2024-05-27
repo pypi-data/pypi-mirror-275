@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: maps_restaurants
+Version: 0.0.1
+Summary: DStokuron report
+Home-page: https://github.com/SONNTAGGilles/PyPi-package/tree/main/my_python_packges
+Download-URL: https://github.com/SONNTAGGilles/PyPi-package
+Author: Gilles Sonntag
+Author-email: s2222021@stu.musashino-u.ac.jp
+License: MIT
+Requires-Python: >=3.6
+License-File: LICENCE
+Requires-Dist: matplotlib >=3.3.4
+Requires-Dist: osmnx
+Requires-Dist: networkX
+Requires-Dist: notebook
+
