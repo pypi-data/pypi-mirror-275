@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/openrouter_selector/selector.py
+src/openrouter_selector/＿init＿.py
+src/openrouter_selector.egg-info/PKG-INFO
+src/openrouter_selector.egg-info/SOURCES.txt
+src/openrouter_selector.egg-info/dependency_links.txt
+src/openrouter_selector.egg-info/requires.txt
+src/openrouter_selector.egg-info/top_level.txt
