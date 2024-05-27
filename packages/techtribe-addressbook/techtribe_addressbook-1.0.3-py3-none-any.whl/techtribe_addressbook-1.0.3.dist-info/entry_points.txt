@@ -1,0 +1,2 @@
+[console_scripts]
+realpython = TechTribe.__main__:main
