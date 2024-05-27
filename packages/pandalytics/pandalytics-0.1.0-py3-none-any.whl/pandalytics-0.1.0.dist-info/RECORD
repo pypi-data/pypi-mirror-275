@@ -1,0 +1,11 @@
+pandalytics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandalytics/agent.py,sha256=e4k2v9iAjoywKnVeajSvRwoJHOVFwtDxXJX9CAluPgg,3499
+pandalytics/requirements.txt,sha256=C0sJppiJvdD01M08oFWTbHzl9lOWnIwrjozUe4JR7ZI,69779
+pandalytics/shell.py,sha256=HV7T5kLcZ8t6PUSuKAv3EbH0tAeIlD60vbqoac6yP7s,800
+pandalytics/templates/agent_prompt.py,sha256=Anaz7bO3ite80ELspHHZJY33B7hQtgUiq6fe3faVIac,1735
+pandalytics/templates/code_generation_prompt.py,sha256=_wDiHlyVCBlGxb1nj9Cxr2CEpC_q4AjqceTJWpwT404,1499
+pandalytics/tools.py,sha256=A1gg4fLwJSJLBTjo5-n1EMCwkwraeK7wRFr9tn61Mko,2223
+pandalytics-0.1.0.dist-info/LICENSE,sha256=BZK6B5ATNDqQrFTwxzJWVq2c8HIBeS9WOJZeDk0kUMM,1068
+pandalytics-0.1.0.dist-info/METADATA,sha256=9AR-MlvevLZ3vNI2RWqPJK5eM2nNooJcaQJzQIc-AZM,510
+pandalytics-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pandalytics-0.1.0.dist-info/RECORD,,
