@@ -1,0 +1,10 @@
+datetime-ru/DateTime.py,sha256=65LbTcnrCSsDPGoGLVkk7NC3H8Kq-PjkC1fQVR33gE8,71364
+datetime-ru/__init__.py,sha256=trlFzEmNkmUpxZT7krPSVDayDK1bRxToccg3CcCF8wg,714
+datetime-ru/interfaces.py,sha256=n47sexf1eQ6YMdYB_60PgHtSzYIj4FND-RmHFiNpm1E,12187
+datetime-ru/pytz_support.py,sha256=inR1SO0X17fp9C2GsRw99S_MhxKiEt5dOV3-TGsBxDI,11853
+datetime-ru/request.py,sha256=EKzp7seqBHJ18_9Yd18J4xtVaxCjeL3oFO89yX5Gm5w,59547
+datetime-ru/settings.py,sha256=qUebrzeQN6lu5l4mGgAyB9i6KAX9ABRdvFs4uiS5M_M,2686150
+timedate_ru-0.0.1.dist-info/METADATA,sha256=WCLZGWR46JSirT0tWTEVQHe1v2JUtqzuILJ3XTHudk8,518
+timedate_ru-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+timedate_ru-0.0.1.dist-info/top_level.txt,sha256=NRTLZiNbOy95vVHd4Vuf3UcRpMzD7FDC7-CYJTsdI4Q,12
+timedate_ru-0.0.1.dist-info/RECORD,,

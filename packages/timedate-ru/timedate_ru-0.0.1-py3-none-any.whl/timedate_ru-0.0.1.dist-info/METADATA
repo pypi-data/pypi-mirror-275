@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: timedate-ru
+Version: 0.0.1
+Summary: DateTime
+Home-page: https://pypi.org/project/DateTime/
+Author: pypi
+Author-email: pypi@gmail.com
+Project-URL: GitHub, https://pypi.org/project/DateTime/
+Keywords: files speedfiles
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests >=2.25.1
+
+datetime-x
