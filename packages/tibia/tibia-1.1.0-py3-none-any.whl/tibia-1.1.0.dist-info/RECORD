@@ -1,0 +1,17 @@
+tibia/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tibia/compose.py,sha256=6ToPbTILBpsf7Qz7dRRyJRxm--jNfkoFkuCvfeTuLto,2034
+tibia/curry.py,sha256=e0Bu4GSSYqBdLkI0aHtZsA8Oa7LSLYYA9LsS969vdpM,424
+tibia/many.py,sha256=IZDqpTDazqgkCxFFHkxYxUusLXZvqolXCOD3IfD9Rr0,3785
+tibia/maybe.py,sha256=GrY9P-nerF4RzR_DNCj8FDYDnHjuSG02zMCUZeGUM84,8305
+tibia/pairs.py,sha256=gRSfRIMiN33Te8YY6rvmpFdC8ki3GrwnyVdb4bAqctY,1456
+tibia/pipeline.py,sha256=8EDwJ50iBQ5ff0-vpy-ccTMPuYDeGh4KaRV0F7281h8,1797
+tibia/pointfree/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tibia/pointfree/casting.py,sha256=9FzmR6JT39GF8a8zVMTRdQRthaeFGiTOuKa8bTj2rd8,1028
+tibia/pointfree/many.py,sha256=j1zsCPxOCbq_OyjpShFSDmr2V9Agil0mqzDJJATOJgM,147
+tibia/predicate.py,sha256=NLL8U7bqR84ZaindCR39DHJB6YQ_TGnXN3j3n8dbHMQ,1961
+tibia/result.py,sha256=ZJNrJUPs_Y4fmaJKQdyzpI-mVd_xjiFqfLVDxn2ETak,9353
+tibia/utils.py,sha256=eZwTmLkkP97geHccmm0TNDuRC15sNoiCr7jwKjRPxvI,463
+tibia-1.1.0.dist-info/LICENCE,sha256=Q8-HaTpaWms1yXrSdEAOZJP_ODppsZdvEBYroUHEE_A,1067
+tibia-1.1.0.dist-info/METADATA,sha256=YZG5RQ_jlhX6TbFUB1LbRfrQICBOR8D4KlBYxsrUkr4,10973
+tibia-1.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+tibia-1.1.0.dist-info/RECORD,,
