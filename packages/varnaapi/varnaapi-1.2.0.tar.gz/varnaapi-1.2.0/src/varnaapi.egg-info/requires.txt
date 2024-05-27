@@ -1,0 +1,7 @@
+colour
+deprecated
+pyyaml
+platformdirs
+drawsvg~=2.0
+svgpathtools
+ipython
