@@ -1,0 +1,14 @@
+Orange3>=3.31
+pandas
+pymongo
+wbgapi
+dnspython
+
+[doc]
+sphinx
+recommonmark
+sphinx_rtd_theme
+docutils
+
+[test]
+coverage
