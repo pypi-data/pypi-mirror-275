@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: PySerpentine
+Version: 1.0
+Summary: Module for beautiful log
+Author: conhost
+Author-email: conshot.dev@gmail.com
+Keywords: PySerpentine
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+
+Module for beautiful log
