@@ -1,0 +1,6 @@
+torch
+torchvision
+Pillow
+dall_e
+huggingface_hub
+safetensors
