@@ -1,0 +1,11 @@
+README.md
+setup.py
+cloudquicklabs_kg.egg-info/PKG-INFO
+cloudquicklabs_kg.egg-info/SOURCES.txt
+cloudquicklabs_kg.egg-info/dependency_links.txt
+cloudquicklabs_kg.egg-info/entry_points.txt
+cloudquicklabs_kg.egg-info/requires.txt
+cloudquicklabs_kg.egg-info/top_level.txt
+src/__init__.py
+src/logic.py
+src/main.py
