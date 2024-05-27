@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "asapi"
+version = "0.1.0"
+description = ""
+authors = ["Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+anyio = "^4.3.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.0"
+psycopg = {extras = ["binary", "pool"], version = "^3.1.19"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
