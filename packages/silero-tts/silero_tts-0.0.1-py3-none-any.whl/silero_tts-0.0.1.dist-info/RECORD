@@ -1,0 +1,9 @@
+silero_tts/__main__.py,sha256=f_OagUCw7IdZP778135GWCjy0vtW4MF4NWrIpfGfUuc,5299
+silero_tts/lang_data.py,sha256=fRxImk5P_fkPetvMGLgWOQeE568JMNjSKpIxVW7Fx3c,5505
+silero_tts/latest_silero_models.yml,sha256=Q14SzT17i3xdBQrKLPDTBOx78_HvN_au5iPi_6BrnNA,31173
+silero_tts/silero_tts.py,sha256=fIBf9wGLPLsGRPcfyabsbcZvUqlSqdV5wLCLfRcj_tQ,11707
+silero_tts/transliterate.py,sha256=eMSJq-EAlt9P52RjdJ7kj_mXQbLAiArFJ9QqwaRJDgo,12996
+silero_tts-0.0.1.dist-info/METADATA,sha256=J5Aa9gY6avca65mRqW9oiqj_ETsf6gop-mv9MFznh7I,5938
+silero_tts-0.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+silero_tts-0.0.1.dist-info/licenses/LICENSE,sha256=2uEFlhVJFMBKJ7QhDKVyC0aw3oCU3ctoguitXWrn8ng,1092
+silero_tts-0.0.1.dist-info/RECORD,,
