@@ -1,0 +1,18 @@
+import enum
+
+
+class CustomEnum(enum.Enum):
+    def __str__(self) -> str:
+        return self.value
+
+
+class ServiceStatus(CustomEnum):
+    # DEV note: Exist for sure
+    CLUSTER_SCHEDULED = "CLUSTER_SCHEDULED"
+    NODE_SCHEDULED = "NODE_SCHEDULED"
+    ACTIVE = "ACTIVE"
+    # DEV note: unsure need to check
+    CREATING = "CREATING"
+    DEAD = "DEAD"
+    FAILED = "FAILED"
+    UNDEPLOYED = "UNDEPLOYED"
