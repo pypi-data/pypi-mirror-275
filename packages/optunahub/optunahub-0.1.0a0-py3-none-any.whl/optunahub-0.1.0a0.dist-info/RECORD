@@ -1,0 +1,10 @@
+optunahub/__init__.py,sha256=B-aN7We5XK28BPH681tjssnU_fVIk4qaT8fQLi5AXHU,188
+optunahub/_conf.py,sha256=HrWGDAtuWP618t6k_SKBrh7VRDHE4h75Nwz_Q4yY7P4,1113
+optunahub/hub.py,sha256=9tFyOcy0Ro714f_7IY_rBbxaP3a5ISd7J8HU9iq3-_4,9486
+optunahub/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+optunahub/version.py,sha256=HRh7tImpdPuhLmuNUflKJzl4y_MyPX2rFiPX5eE4RXU,24
+optunahub-0.1.0a0.dist-info/LICENSE,sha256=ODmGKbjmV2WDO8AoTu1piQddwU324ncsQ4VsCS4oHYQ,1080
+optunahub-0.1.0a0.dist-info/METADATA,sha256=_XDo7ttZoJqBaBDec_swAl0xK67ujZDiMJniRIRbkIQ,4044
+optunahub-0.1.0a0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+optunahub-0.1.0a0.dist-info/top_level.txt,sha256=nEnYYbBMvgIDrECx7zuT88AgueZeW5DCvsEnoaQDWfs,10
+optunahub-0.1.0a0.dist-info/RECORD,,
