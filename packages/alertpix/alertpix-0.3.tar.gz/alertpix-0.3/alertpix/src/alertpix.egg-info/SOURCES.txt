@@ -1,0 +1,12 @@
+README.md
+setup.py
+alertpix/src/alertpix.egg-info/PKG-INFO
+alertpix/src/alertpix.egg-info/SOURCES.txt
+alertpix/src/alertpix.egg-info/dependency_links.txt
+alertpix/src/alertpix.egg-info/requires.txt
+alertpix/src/alertpix.egg-info/top_level.txt
+alertpix/src/alertpix.egg-info/PKG-INFO
+alertpix/src/alertpix.egg-info/SOURCES.txt
+alertpix/src/alertpix.egg-info/dependency_links.txt
+alertpix/src/alertpix.egg-info/requires.txt
+alertpix/src/alertpix.egg-info/top_level.txt
