@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: audiopro
+Version: 0.0.1
+Summary: About the audiopro
+Home-page: https://github.com/RikuYoshida-mu/audiopro
+Author: RikuYoshida-mu
+Author-email: s2222098@stu.musashino-u.ac.jp
+Project-URL: Bug Tracker, https://github.com/RikuYoshida-mu/audiopro
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11.6
+Description-Content-Type: text/markdown
+
+# audiopro
+
+A package to transcribe audio files using Google Cloud Speech-to-Text.
+
+## Installation
+
+```bash
+pip install audiopro
