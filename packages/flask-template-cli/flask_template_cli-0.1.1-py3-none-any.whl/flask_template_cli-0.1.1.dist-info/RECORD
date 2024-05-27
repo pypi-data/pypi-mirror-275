@@ -1,0 +1,14 @@
+flask_template_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_template_cli/cli.py,sha256=rcpFgK7GNJfV3O_SB1qZ7oasicF0iupVWtX4PuEFMp8,4110
+flask_template_cli/test.py,sha256=1lU0a58K4r--OVIZe3JPzV1wC_sSJ4BtMD36-lizriU,257
+flask_template_cli/types.py,sha256=7l-aeRQ65CbTj8pzNjUAPslQnlXKGuIjpb3-Y-hXEHA,985
+flask_template_cli/templates/__init__.py,sha256=jja-LufpwQ7SGWeYyqqNLuu-3bHwlskSDe1pJYEgY30,143
+flask_template_cli/templates/init_gen.py,sha256=-5CjWrR8sgyz-Vk8FsfgIHYW-sScOn3L8cExMgpkx4s,1241
+flask_template_cli/templates/models_gen.py,sha256=Jl608vkHYDxBf4CkHuH0QRqMEJQpJFC06WXRqEr9yUs,1753
+flask_template_cli/templates/req_txt_gen.py,sha256=aOxIWRP5yD6H6qGcp6BHQskja2SEydo7zrCmG9ieO1g,1220
+flask_template_cli/templates/routes_gen.py,sha256=BNKJfwBCvdPFRkpco6Xy8OQTBQVJtBWgsVBEfUFaScc,1337
+flask_template_cli-0.1.1.dist-info/METADATA,sha256=w3xOBAZg6VIPIQXRWvfLMWSPavtI_1_E4pXQRySmbyE,351
+flask_template_cli-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+flask_template_cli-0.1.1.dist-info/entry_points.txt,sha256=Pw2EgcphufffYnYFTFONfzkjL06uksondD-0Nz3itOI,67
+flask_template_cli-0.1.1.dist-info/top_level.txt,sha256=jukpbgE5TbUPmknsU0LWT10KtXeXcQMeNRAbxE0Qgj0,19
+flask_template_cli-0.1.1.dist-info/RECORD,,
