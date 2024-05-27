@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pip2deb
+Version: 1.2
+Summary: Package PIP Module as .deb, and this in under 1.5 minutes
+Home-page: https://github.com/pacspedd
+Author: PacSpedd
+Author-email: pacspedd@outlook.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+
+pip2deb
+=======
+
+A Very Fast pip to debian Package tool
+
+Usage:
+======
+
+.. code-block:: bash
+
+    pip2deb <modul> [optional: cutstom PythonPath]
+
