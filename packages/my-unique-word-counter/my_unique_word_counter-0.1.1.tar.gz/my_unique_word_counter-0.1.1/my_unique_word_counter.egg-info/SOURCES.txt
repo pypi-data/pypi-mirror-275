@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+my_unique_word_counter/__init__.py
+my_unique_word_counter/counter.py
+my_unique_word_counter.egg-info/PKG-INFO
+my_unique_word_counter.egg-info/SOURCES.txt
+my_unique_word_counter.egg-info/dependency_links.txt
+my_unique_word_counter.egg-info/top_level.txt
