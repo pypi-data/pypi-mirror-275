@@ -1,0 +1,11 @@
+apiverve_useragentparser/__init__.py,sha256=uPFPcV77hTCbci8EBEDxkaNgcDHA-5QaJlHrNBwYADc,47
+apiverve_useragentparser/apiClient.py,sha256=05p99fiucwWLrZq5FKtON_sz_2hoKyZrlM_W7exOJTg,1228
+apiverve_useragentparser/exceptions.py,sha256=EBMbFR5lO-shN7RN-ryyKpgxSO55tUV5i7yiM8IHTm8,113
+apiverve_useragentparser/setup.py,sha256=huBQ0UFzbFj5uTVUMYF06BKCT7yMT8wAgRBqv0m7HnA,672
+apiverve_useragentparser/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_useragentparser/tests/test_api.py,sha256=973QoHGex-41SPuUqaRveOszAoNj4yxMBbnmnRxTz04,629
+apiverve_useragentparser-1.0.11.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_useragentparser-1.0.11.dist-info/METADATA,sha256=Z-AhKOwkKUQSFr5N854tug34hw-0IYE-iHLvx8GO3mM,5755
+apiverve_useragentparser-1.0.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apiverve_useragentparser-1.0.11.dist-info/top_level.txt,sha256=9F1U5mHIcHnT8sTNcSkz-aMTnFRzqzRZMlnjGxlr5Bs,25
+apiverve_useragentparser-1.0.11.dist-info/RECORD,,
