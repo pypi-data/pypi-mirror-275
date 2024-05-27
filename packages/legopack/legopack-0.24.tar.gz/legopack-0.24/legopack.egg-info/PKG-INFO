@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: legopack
+Version: 0.24
+Summary: personal
+Author: Remi Prince
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+## Models for Lego4.0 Project
