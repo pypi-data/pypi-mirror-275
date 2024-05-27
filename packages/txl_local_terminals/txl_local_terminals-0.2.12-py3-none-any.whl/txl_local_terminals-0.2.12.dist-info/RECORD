@@ -1,0 +1,9 @@
+txl_local_terminals/__init__.py,sha256=X4KG3FscE5AhbGbcdDDgdDC550CVpxNMwdNLcx6EQ7M,23
+txl_local_terminals/components.py,sha256=5ZEQmpuTpqblBg8Dct9m2M6VEc81vfdKnY_w-tevs4I,727
+txl_local_terminals/terminal.py,sha256=9xiYmY8tFfmtL_OJgyLjtKg9q08wEn_QSiwQ8vVwc1Y,2684
+txl_local_terminals/win_terminal.py,sha256=qfsFn7DFHLRhdKMSjiRxHRpmua9_P9RMZwsf7Lnm8cc,2334
+txl_local_terminals-0.2.12.dist-info/METADATA,sha256=YnZzD_5AV8N0maJWO8QtT5eMnP8BdDiGUaOnAD4aD8Y,877
+txl_local_terminals-0.2.12.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+txl_local_terminals-0.2.12.dist-info/entry_points.txt,sha256=_QjNbf77NjZwPKEKY4xswpPjBEFETdHUqcfhzxrwR7Y,185
+txl_local_terminals-0.2.12.dist-info/licenses/LICENSE.txt,sha256=su0IgzSHZ9tMFeCQ_IaCji5Q4VrZSOqDsEFi7lPduc8,1106
+txl_local_terminals-0.2.12.dist-info/RECORD,,
