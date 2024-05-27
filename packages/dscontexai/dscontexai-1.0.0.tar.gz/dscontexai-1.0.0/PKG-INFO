@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: dscontexai
+Version: 1.0.0
+Summary: Contextualizing model's decisions with natural language explanations.
+Home-page: UNKNOWN
+Author: Jovana V., Haris K., Luka M.
+Author-email: <youremail@email.com>
+License: UNKNOWN
+Description: 
+        ## Project description
+        DSConteXAI is a Python package developed as part of the Data Science Project Competition 2024. 
+        
+        It **links local explainability methods with natural language explanations**, allowing users to gain detailed insights into model predictions.
+        By incorporating additional domain knowledge, users can obtain even more detailed insights into the model's predictions.
+        
+        ### Install
+        
+        DSConteXAI can be installed using pip:
+        ```bash
+        pip install dscontexai
+        ```
+        
+        
+        ### Generate XAI reports
+        Using this package, you can fully automatically develop your XAI reports. Currently, it supports SHAP values, which is a local feature importance measure, to which we added textual explanations and domain-related context.
+        
+        SHAP values can be calculated for a variety of models, including the most popular ensemble models: XGBoost, CatBoost, and Random Forest. To use this tool with your dataset, you need to provide a configuration JSON file for a dataset, structured like the one below.
+        
+        ```bash
+        {
+          # domain-based context
+          "optimal_values": [
+          ...
+            [0, 6.5],               # HbA1c level optimal range is from 0 to 6.5
+            [100, 140]              # Glucose level optimal range is from 100 to 140 
+          ],
+          "descriptions": {
+            "below_optimal": [
+              # Context for feature values falling below the optimal range
+            ],
+            "optimal": [
+              # Context for feature values falling within the optimal range
+            ],
+            "above_optimal": [
+              # Context for feature values falling above the optimal range
+            ]
+          },
+          # Data transformations for feature mapping
+          "transformation": {
+            "0": ["Man", "Woman"],  # Transformation for Gender
+            "1": [],                # No transformation for Age (numeric)
+            "2": ["No", "Yes"],     # Transformation for Hypertension
+            ...
+          },
+          "feature_names": [
+            "Gender",
+            "Age",
+            "Hypertension",
+            "Heart_disease",
+            "Smoking_history",
+            "BMI",
+            "HbA1c_level",
+            "Blood_glucose_level"
+          ],
+          # variables needed for structuring the description
+          "target1": "diabetes",    # Target variable the model is predicting
+          "target2": "Person",      # The object representing a sample in a data
+          "supporting": ["does", "have"]  # Supporting verbs used in descriptions
+        }
+        ```
+        
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
