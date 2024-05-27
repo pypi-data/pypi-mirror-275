@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+scipu/__init__.py
+scipu/package.py
+scipu.egg-info/PKG-INFO
+scipu.egg-info/SOURCES.txt
+scipu.egg-info/dependency_links.txt
+scipu.egg-info/top_level.txt
