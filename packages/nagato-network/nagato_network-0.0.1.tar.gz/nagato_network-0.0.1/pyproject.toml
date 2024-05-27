@@ -1,0 +1,28 @@
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonary.api"
+
+[tool.poetry]
+name = "nagato-network"
+version = "0.0.1"
+description = "NAGATO"
+authors = ["Shota Muto <129914139+MutoShota@users.noreply.github.com>"]
+readme = "README.md"
+license= "Apache-2.0"
+classifiers = [
+    "Framework :: Robot Framework",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9"
+]
+
+packages = [
+    { include = "NAGATO", from = "src" }
+]
