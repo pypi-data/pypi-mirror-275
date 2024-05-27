@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: dnv-net-runtime
+Version: 1.0.0
+Summary: This package contains the .NET Runtime for console-based applications, allowing seamless integration with the .NET Common Language Runtime (CLR) by leveraging the Python.NET package.
+Author-email: DNV <onecompute@dnv.com>
+License: MIT License
+        Copyright (c) 2024 DNV
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Keywords: dotnet,dotnetruntime,netruntime,net.runtime
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pythonnet ==3.0.3
+
+# .NET Runtime: Integrating .NET with Python
+
+This package is an indispensable resource for those planning to create console-based applications utilizing .NET assemblies from Python. It offers the .NET Runtime (Version 8.0.4), which works with the .NET Common Language Runtime (CLR) using the Python.NET package. With this integration, developers can concentrate on their development tasks without worrying about compatibility issues, allowing them to create smooth and efficient applications. This package is a valuable tool for creating high-quality console-based applications using .NET assemblies and Python.
+
+## Usage/Examples
+
+```python
+# Python script to filter and print even numbers from a .NET List
+
+# Ensure to import 'dnv.net.runtime' before any other import statements
+import dnv.net.runtime
+import clr
+
+# Add references to required .NET assemblies
+clr.AddReference("System")
+clr.AddReference("System.Core")
+clr.AddReference("System.Collections")
+
+from System import Action, Array, Predicate
+from System.Collections.Generic import List
+from System.Linq import Enumerable
+
+# Create a .NET Array of integers from 1 to 10
+numbers = Array[int]([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+
+# Convert the array to a .NET List
+listOfNumbers = List[int](numbers)
+
+# Define a Predicate that checks if a number is even
+predicate = Predicate[int](lambda x: x % 2 == 0)
+
+# Use the FindAll method of the List to filter out the even numbers based on the Predicate
+evenNumbers: List[int] = listOfNumbers.FindAll(predicate)
+
+# Define an Action that prints a number
+action = Action[int](lambda x: print(x))
+
+# Use the ForEach method of the List to print each even number
+evenNumbers.ForEach(action)
+```
+
+```python
+# Web Scraping Bing Search Results with Python and .NET HttpClient
+
+# Ensure to import 'dnv.net.runtime' before any other import statements
+import dnv.net.runtime
+import clr
+import re
+
+# Add references to required .NET assemblies
+clr.AddReference("System.Net.Http")
+
+from System.Net.Http import HttpClient
+
+# Create an HttpClient instance
+client = HttpClient()
+
+# Specify the URL
+url = "https://www.bing.com/search?q=DNV"
+
+# Send the GET request
+response = client.GetAsync(url).Result
+
+# Ensure the request was successful
+response.EnsureSuccessStatusCode()
+
+# Read the response content as a string
+responseBody = response.Content.ReadAsStringAsync().Result
+
+# Define a regular expression to extract the titles and URLs of the search results
+regex = r'<h2.*?><a href="(.*?)" h=".*?">(.*?)</a></h2>'
+
+# Find all matches of the regular expression in the response body
+matches = re.findall(regex, responseBody)
+
+# Print the titles and URLs of the search results
+for match in matches:
+    url, title = match
+    print(f'Title: {title}')
+    print(f'URL: {url}')
+    print()
+```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Support
+
+If you encounter any issues, have questions, or want to provide feedback, please get in touch with our support team at software.support@dnv.com.
