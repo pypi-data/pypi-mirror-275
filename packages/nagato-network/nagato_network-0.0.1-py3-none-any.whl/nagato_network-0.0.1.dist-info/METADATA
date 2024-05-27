@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nagato-network
+Version: 0.0.1
+Summary: NAGATO
+License: Apache-2.0
+Author: Shota Muto
+Author-email: 129914139+MutoShota@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Framework :: Robot Framework
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# NAGATO
+
