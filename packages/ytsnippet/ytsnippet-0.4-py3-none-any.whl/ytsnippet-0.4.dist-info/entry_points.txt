@@ -1,0 +1,2 @@
+[console_scripts]
+ytsnippet = ytsnippet.cli:main
