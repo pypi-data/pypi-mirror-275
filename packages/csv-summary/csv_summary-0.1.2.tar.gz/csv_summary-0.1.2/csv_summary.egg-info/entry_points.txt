@@ -1,0 +1,2 @@
+[console_scripts]
+csv_summary = csv_summary.summary:summarize_csv
