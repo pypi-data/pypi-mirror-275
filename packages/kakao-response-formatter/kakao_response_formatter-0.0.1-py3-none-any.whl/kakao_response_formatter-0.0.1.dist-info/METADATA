@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: kakao-response-formatter
+Version: 0.0.1
+Summary: A formatter for Kakao chatbot JSON responses
+Home-page: https://github.com/kimtaewan22/kakao_response_formatter
+Author: taewan-dev
+Author-email: mytae1@naver.com
+License: UNKNOWN
+Keywords: kakao,chatbot,response,formatter,json,taewan-dev
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Requires-Dist: json
+
+UNKNOWN
+
+
