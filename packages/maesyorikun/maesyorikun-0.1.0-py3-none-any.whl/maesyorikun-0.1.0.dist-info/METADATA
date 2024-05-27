@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: maesyorikun
+Version: 0.1.0
+Summary: This app can interactively preprocess and graph CSV data.
+Home-page: UNKNOWN
+Author: Makimoto-eita
+Author-email: s2222034@stu.musashino-u.ac.jp
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+
+UNKNOWN
+
