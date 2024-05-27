@@ -1,0 +1,3 @@
+[console_scripts]
+teamai=teamai.cli.cli:teamai
+
