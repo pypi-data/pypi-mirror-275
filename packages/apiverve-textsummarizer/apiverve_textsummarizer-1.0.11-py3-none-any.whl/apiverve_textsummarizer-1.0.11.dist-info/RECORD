@@ -1,0 +1,11 @@
+apiverve_textsummarizer/__init__.py,sha256=HNhtaY2bsGvkmNmNPIr2QTGEeEi7EOZ_a9XQjku21_s,46
+apiverve_textsummarizer/apiClient.py,sha256=igoqYgCOx946J2Y5jO5Z0PkUFlMqSVLzt5UyHJua_4I,1225
+apiverve_textsummarizer/exceptions.py,sha256=npt6lE3FRsUCtTv4Jg88SbVH357yTQrBQz_D0unvWbU,111
+apiverve_textsummarizer/setup.py,sha256=E9DvF1tq9GmOYvu3WgD4DmTc3QxANz7uUEglIUkzexo,614
+apiverve_textsummarizer/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_textsummarizer/tests/test_api.py,sha256=cu2a08Vuj_FGZOvUMco2Ac6ZWqLm-6OqOJcaHvFxTEw,626
+apiverve_textsummarizer-1.0.11.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_textsummarizer-1.0.11.dist-info/METADATA,sha256=vG2p-HKzDeCeBBd3aD3PUvGxybjVJq_cLd_r7sOMRwg,5845
+apiverve_textsummarizer-1.0.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apiverve_textsummarizer-1.0.11.dist-info/top_level.txt,sha256=giFaxPwsjOc130h5EP_T7EU2Jd4-tzPrauJbXktwTb0,24
+apiverve_textsummarizer-1.0.11.dist-info/RECORD,,
