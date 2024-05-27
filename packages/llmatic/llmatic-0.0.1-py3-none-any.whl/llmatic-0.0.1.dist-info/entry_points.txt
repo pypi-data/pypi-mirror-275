@@ -1,0 +1,3 @@
+[console_scripts]
+llmatic=llmatic.cli:main
+

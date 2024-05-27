@@ -1,0 +1,10 @@
+llmatic/__init__.py,sha256=YdifjwxEeCuzh0nbJTYj94aJ__wtGa1JXqhsUfh47FI,95
+llmatic/cli.py,sha256=CCis4yVFt0JzCYcXdWuQ3i75lQDinAs4ZhlJs7e3JAw,4205
+llmatic/db.py,sha256=ro2GetkviYBVI0QSNuAXHDqnzM2yH4syr4nghFdCk4Y,860
+llmatic/tracker.py,sha256=Xlhga1KsqQ0flknfyZS9DG6-pdv60EX3hNa_ub6iNgw,4603
+llmatic/utils.py,sha256=MCwFxwCJi1gwdY3Rpa98MEycyQWeu5zP1AgKxercX4g,77
+llmatic-0.0.1.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+llmatic-0.0.1.dist-info/METADATA,sha256=nlSV5sUa93i6Ll5WfbvI46EOAGMsRB4OBzLKL7A1S8U,6912
+llmatic-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llmatic-0.0.1.dist-info/entry_points.txt,sha256=S_rWa5D10UsppReQIzigdNe02eZsSQsWVA5d9LvcB78,44
+llmatic-0.0.1.dist-info/RECORD,,
