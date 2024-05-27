@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: web_image_downloader
+Version: 0.1
+Summary: A package to download images from the web using web_assets_downloader.
+Home-page: https://github.com/arif-x/web-image-downloader
+Author: Ariffudin
+Author-email: sudo.ariffudin@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: web-assets-downloader
+
+# Web Image Downloader
+
+A Python package to download images from web pages using the `web_assets_downloader` package.
+
+## Installation
+
+```bash
+pip install web_image_downloader
+```
+
+## Usage
+### With command line
+```commandline
+download_images https://example.com --save-folder ./downloaded
+```
+### As Python module
+```python
+import web_image_downloader
+
+urls = ['https://example.com']
+save_folder = './downloaded'
+web_image_downloader.download_images(urls, save_folder)
+```
