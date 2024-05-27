@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+LatticeToolbox.egg-info/PKG-INFO
+LatticeToolbox.egg-info/SOURCES.txt
+LatticeToolbox.egg-info/dependency_links.txt
+LatticeToolbox.egg-info/requires.txt
+LatticeToolbox.egg-info/top_level.txt
+tests/test_Legacy.py
