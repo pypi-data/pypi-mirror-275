@@ -1,0 +1,2 @@
+dash>=2.0.0
+phylogenetic-tree-vis-comp==0.0.1
