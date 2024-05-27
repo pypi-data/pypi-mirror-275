@@ -1,0 +1,10 @@
+scripro/Ori_data.py,sha256=0ZBPjjxT5TKWDQwLZZX0LgIehu6XCU6T7A3WsMd9hRo,21424
+scripro/__init__.py,sha256=2ovRfgaJmbffWiFq7vRCk-8L8NECReKFck1K-IHTiv8,71
+scripro/cli.py,sha256=Wn94NuLaHmWJ17WAOu4NHkGT9kCoukYpSsJvTd74rVg,16311
+scripro/supercell.py,sha256=Sl-_M5Fe_g2x_R-1YNON9ryf9NEQMJH0vPV3Yv7budw,4848
+scripro/utils.py,sha256=AgG9c4XvTcTn7f1zv4AwREV8KcHXeCEgBWPiaweCo3w,11516
+scripro-1.1.15.dist-info/METADATA,sha256=Frb83ro4EBEBs8urjY3X8YUsXttH45zaVb0jqEf33h8,3448
+scripro-1.1.15.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+scripro-1.1.15.dist-info/entry_points.txt,sha256=jcwEewifHDarwz0RBKqBn8azO-xiSTkvmS22BtXK-Xw,45
+scripro-1.1.15.dist-info/top_level.txt,sha256=q68RMctVhKDt_LkLS7-2SBRW4Mwx88cCwnMYyGv3HoA,8
+scripro-1.1.15.dist-info/RECORD,,
