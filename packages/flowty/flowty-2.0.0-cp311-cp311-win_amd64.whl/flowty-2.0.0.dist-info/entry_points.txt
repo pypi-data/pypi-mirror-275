@@ -1,0 +1,2 @@
+[console_scripts]
+flowty = flowty:main
