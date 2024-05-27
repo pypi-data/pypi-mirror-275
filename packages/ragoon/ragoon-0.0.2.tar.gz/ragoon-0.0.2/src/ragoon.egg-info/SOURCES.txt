@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/ragoon/__init__.py
+src/ragoon/_retrieval.py
+src/ragoon/_scrape.py
+src/ragoon/_search.py
+src/ragoon/ragoon.py
+src/ragoon.egg-info/PKG-INFO
+src/ragoon.egg-info/SOURCES.txt
+src/ragoon.egg-info/dependency_links.txt
+src/ragoon.egg-info/top_level.txt
