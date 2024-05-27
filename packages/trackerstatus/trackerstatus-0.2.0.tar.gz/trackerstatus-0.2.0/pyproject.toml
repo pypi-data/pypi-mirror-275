@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "trackerstatus"
+version = "0.2.0"
+description = "A Python library for interacting with trackerstatus.info API."
+authors = ["mauvehed <mh@mvh.dev>"]
+readme = "README.md"
+repository = "https://github.com/mauvehed/trackerstatus"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+coverage = "^7.5.1"
+mypy = "^1.10.0"
+types-requests = "^2.32.0.20240523"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
