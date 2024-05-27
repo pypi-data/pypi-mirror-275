@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: image_collect
+Version: 0.0.2
+Home-page: https://github.com/ohS0eek4/image-collect
+Requires-Dist: BeautifulSoup4
+Requires-Dist: deep-translator
+
