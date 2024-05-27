@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+swahili_stopwords/__init__.py
+swahili_stopwords/stopwords.py
+swahili_stopwords.egg-info/PKG-INFO
+swahili_stopwords.egg-info/SOURCES.txt
+swahili_stopwords.egg-info/dependency_links.txt
+swahili_stopwords.egg-info/top_level.txt
