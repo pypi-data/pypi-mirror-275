@@ -1,0 +1,7 @@
+setup.py
+altifier/__init__.py
+altifier.egg-info/PKG-INFO
+altifier.egg-info/SOURCES.txt
+altifier.egg-info/dependency_links.txt
+altifier.egg-info/top_level.txt
+tests/tests.py
