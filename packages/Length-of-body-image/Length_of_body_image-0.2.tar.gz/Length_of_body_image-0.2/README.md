@@ -1,0 +1,36 @@
+# Length_of_body_image
+
+`Length_of_body_image`は、画像から人体の測定を行うためのパッケージです。このパッケージを使用すると、全身の画像から上半身および下半身の長さを簡単に測定できます。
+
+## インストール
+
+```bash
+pip install Length_of_body_image
+```
+
+## 使い方
+
+以下に、`Length_of_body_image`パッケージを使用して画像から体の測定を行う方法の例を示します。
+
+```python
+import cv2
+import matplotlib.pyplot as plt
+from Length_of_body_image import bodymeasurements
+
+# 画像パスを指定
+image_path = 'path_to_your_image.jpg'
+
+# bodymeasurementsオブジェクトを作成
+measurements = bodymeasurements(image_path)
+
+# 測定を実行
+measurements.measure()
+
+# 上半身の長さを取得
+upper_length = measurements.upper_body_length()
+print(f"上半身の長さ: {upper_length} ピクセル")
+
+# 下半身の長さを取得
+lower_length = measurements.lower_body_length()
+print(f"下半身の長さ: {lower_length} ピクセル")
+```
