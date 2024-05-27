@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+pyDEMATELSolver/DEMATELSolver.py
+pyDEMATELSolver/DEMATELWindow.py
+pyDEMATELSolver/FuzzyDEMATELSolver.py
+pyDEMATELSolver/__init__.py
+pyDEMATEL_Package.egg-info/PKG-INFO
+pyDEMATEL_Package.egg-info/SOURCES.txt
+pyDEMATEL_Package.egg-info/dependency_links.txt
+pyDEMATEL_Package.egg-info/top_level.txt
