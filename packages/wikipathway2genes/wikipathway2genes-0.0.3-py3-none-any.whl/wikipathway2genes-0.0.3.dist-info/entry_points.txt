@@ -1,0 +1,2 @@
+[console_scripts]
+wikipathway2genes = wp2genes.wp2genes:main
