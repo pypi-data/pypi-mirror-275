@@ -1,0 +1,9 @@
+gradio_agentchatbot==0.0.4
+git+https://github.com/huggingface/transformers.git@agent_fixes#egg=transformers[agents]
+langchain
+langchain-community
+sentence-transformers
+faiss-cpu
+google-search-results
+langchain-openai
+langchainhub
