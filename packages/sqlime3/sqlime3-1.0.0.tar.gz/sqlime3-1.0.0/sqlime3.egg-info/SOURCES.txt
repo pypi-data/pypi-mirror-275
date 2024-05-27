@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+sqlime3/__init__.py
+sqlime3/shell.py
+sqlime3.egg-info/PKG-INFO
+sqlime3.egg-info/SOURCES.txt
+sqlime3.egg-info/dependency_links.txt
+sqlime3.egg-info/top_level.txt

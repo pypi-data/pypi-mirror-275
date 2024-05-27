@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: sqlime3
+Version: 1.0.0
+Summary: The package provides a wrapper for working with SQLite databases.
+Home-page: https://github.com/GooseG4G/sqlime3
+Author: GooseG4G
+Author-email: danilnegusev@inbox.ru
