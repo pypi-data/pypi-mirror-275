@@ -1,0 +1,10 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+multi_file_exis/__init__.py
+multi_file_exis.egg-info/PKG-INFO
+multi_file_exis.egg-info/SOURCES.txt
+multi_file_exis.egg-info/dependency_links.txt
+multi_file_exis.egg-info/requires.txt
+multi_file_exis.egg-info/top_level.txt
