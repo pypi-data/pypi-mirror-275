@@ -1,0 +1,6 @@
+README.md
+setup.py
+fastybird_modules_metadata.egg-info/PKG-INFO
+fastybird_modules_metadata.egg-info/SOURCES.txt
+fastybird_modules_metadata.egg-info/dependency_links.txt
+fastybird_modules_metadata.egg-info/top_level.txt
