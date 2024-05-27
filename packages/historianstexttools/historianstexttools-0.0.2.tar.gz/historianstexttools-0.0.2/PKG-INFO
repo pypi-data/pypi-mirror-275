@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: historianstexttools
+Version: 0.0.2
+Summary: Common tools for historians to aid text analysis.
+Home-page: UNKNOWN
+Author: Christopher Thomas Goodwin
+Author-email: <ctg7w6@gmail.com>
+License: UNKNOWN
+Keywords: python,historian,text,text-analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+Common tools for historians to parse text more easily before feeding the text into larger text analysis pipelines.
+
