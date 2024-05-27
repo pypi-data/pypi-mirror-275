@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+movoid_xml_data/__init__.py
+movoid_xml_data/label_data.py
+movoid_xml_data/tag_data.py
+movoid_xml_data.egg-info/PKG-INFO
+movoid_xml_data.egg-info/SOURCES.txt
+movoid_xml_data.egg-info/dependency_links.txt
+movoid_xml_data.egg-info/requires.txt
+movoid_xml_data.egg-info/top_level.txt
