@@ -1,0 +1,10 @@
+README.md
+setup.py
+flashcardpro/__init__.py
+flashcardpro/__main__.py
+flashcardpro.egg-info/PKG-INFO
+flashcardpro.egg-info/SOURCES.txt
+flashcardpro.egg-info/dependency_links.txt
+flashcardpro.egg-info/entry_points.txt
+flashcardpro.egg-info/requires.txt
+flashcardpro.egg-info/top_level.txt
