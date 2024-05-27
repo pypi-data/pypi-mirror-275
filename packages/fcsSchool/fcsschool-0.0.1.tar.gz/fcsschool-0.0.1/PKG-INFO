@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fcsSchool
+Version: 0.0.1
+Summary: A very basic description
+Home-page: 
+Author: A K Ghosh
+Author-email: anantafcs@gmail.com
+License: MIT
+Keywords: FutureCampusSchool
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+This is a very simple school description. 
