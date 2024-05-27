@@ -1,0 +1,8 @@
+setup.py
+NetHyTech_DeepTTS/__init__.py
+NetHyTech_DeepTTS.egg-info/PKG-INFO
+NetHyTech_DeepTTS.egg-info/SOURCES.txt
+NetHyTech_DeepTTS.egg-info/dependency_links.txt
+NetHyTech_DeepTTS.egg-info/entry_points.txt
+NetHyTech_DeepTTS.egg-info/requires.txt
+NetHyTech_DeepTTS.egg-info/top_level.txt
