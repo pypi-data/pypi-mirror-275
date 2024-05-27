@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+whatnow/__init__.py
+whatnow/what.py
+whatnow.egg-info/PKG-INFO
+whatnow.egg-info/SOURCES.txt
+whatnow.egg-info/dependency_links.txt
+whatnow.egg-info/top_level.txt
