@@ -1,0 +1,2 @@
+[console_scripts]
+cadziu = app.main:main
