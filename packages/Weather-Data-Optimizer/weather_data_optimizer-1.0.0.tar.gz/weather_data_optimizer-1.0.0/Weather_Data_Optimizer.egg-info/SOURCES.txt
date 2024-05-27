@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Weather_Data_Optimizer.egg-info/PKG-INFO
+Weather_Data_Optimizer.egg-info/SOURCES.txt
+Weather_Data_Optimizer.egg-info/dependency_links.txt
+Weather_Data_Optimizer.egg-info/requires.txt
+Weather_Data_Optimizer.egg-info/top_level.txt

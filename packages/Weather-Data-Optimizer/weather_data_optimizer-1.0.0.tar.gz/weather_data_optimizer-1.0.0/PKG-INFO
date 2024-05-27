@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Weather-Data-Optimizer
+Version: 1.0.0
+Summary: A tool for optimizing CSV data and fetching weather information.
+Author: shut0
+Author-email: shut0@email.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
