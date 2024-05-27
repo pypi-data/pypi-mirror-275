@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: popgui
+Version: 0.0.1
+Summary: Common widgets between different graphical environments.
+Author: Six Kai
+License: BSD-3-Clause
+Project-URL: Repository, https://github.com/sixxkai/popgui
+Project-URL: Issues, https://github.com/sixxkai/popgui/issues
+Keywords: dmenu,rofi,tkinter,tui,widgets
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Software Development :: Widget Sets
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Writing GUI applications in Python is hard, so let's make it easy and simple!
