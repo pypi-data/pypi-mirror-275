@@ -1,0 +1,10 @@
+clickup_sdk/__init__.py,sha256=6MHBYN4WlPcwNe8iEiTKTJgf6bv5THBMJ-c0sg1bxbQ,44
+clickup_sdk/client/__init__.py,sha256=Ol0nqlYSqDpbBKOqrF3Yfe5eLle9OVc7b5jLonai7yQ,3248
+clickup_sdk/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clickup_sdk/common/utilities.py,sha256=BqgsieO3ulEByDAYfBOgfoKS9XB0VZR3F-YSKq9LiaA,1601
+clickup_sdk/core/__init__.py,sha256=4TL-Um0nY0R9Rhfv41hWfzPuSj9gTnFw2YdpvPENvXs,31
+clickup_sdk/core/models.py,sha256=ek1fnL3em4R7epZlfmDrcEofM394BGFsfxqR0NSplCs,758
+clickup_sdk/core/settings.py,sha256=_1-LoJld6sIgX1QkxBnIKcwP7XnBCzgkkJiBBoiQuDw,196
+clickup_sdk-0.1.2.dist-info/METADATA,sha256=skF0XcRxkciIcrIv9teGqbN7MAXMLGYnywi8kftmm3A,531
+clickup_sdk-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+clickup_sdk-0.1.2.dist-info/RECORD,,
