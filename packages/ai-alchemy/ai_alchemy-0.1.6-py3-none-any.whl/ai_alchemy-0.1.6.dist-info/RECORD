@@ -1,0 +1,8 @@
+ai_alchemy/__init__.py,sha256=v2wnqy2pqwWT5-RHHoO0idYgI8gcbb1z7Qs4sdZeE78,35
+ai_alchemy/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ai_alchemy/core/ai.py,sha256=4N98m7XD2jbbBZvO0gCKrm1aeftnC3wby6xQnLr6j80,1138
+ai_alchemy/core/cast.py,sha256=L-ofWbI3lGIroa7f6zbryY0WXIoNz7AJ-VGkXF-FAA0,3907
+ai_alchemy/server.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ai_alchemy-0.1.6.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+ai_alchemy-0.1.6.dist-info/METADATA,sha256=ctWfiO4oJNiZ3tSjACFjyiw3B5vcBN6kvWOUUeoJ0z4,1874
+ai_alchemy-0.1.6.dist-info/RECORD,,
