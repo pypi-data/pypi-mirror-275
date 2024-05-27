@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: FIT_Testcase_Sender
+Version: 0.1.2
+Summary: A utility for sending scenarios via TCP/IP and checking their completion
+Author: suresofttech
+Author-email: sdhan@suresofttch.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+## FIT REMOTE FUNCTION
+
+- excute_testcase: Send a resquest message to the FIT tool with a list of scenario numbers for fault injection as arguments. 
+
+- is_testcase_result: Takes the fault injection result as an argument and determines whether the fault injection was successfully completed.
