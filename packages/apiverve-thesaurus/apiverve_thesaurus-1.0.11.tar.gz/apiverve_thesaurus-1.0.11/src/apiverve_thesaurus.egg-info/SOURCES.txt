@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_thesaurus/__init__.py
+src/apiverve_thesaurus/apiClient.py
+src/apiverve_thesaurus/exceptions.py
+src/apiverve_thesaurus/setup.py
+src/apiverve_thesaurus.egg-info/PKG-INFO
+src/apiverve_thesaurus.egg-info/SOURCES.txt
+src/apiverve_thesaurus.egg-info/dependency_links.txt
+src/apiverve_thesaurus.egg-info/top_level.txt
+src/apiverve_thesaurus/tests/__init__.py
+src/apiverve_thesaurus/tests/test_api.py
+tests/test_api.py
