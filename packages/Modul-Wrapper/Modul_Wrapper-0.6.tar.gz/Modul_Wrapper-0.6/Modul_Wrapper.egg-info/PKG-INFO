@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: Modul-Wrapper
+Version: 0.6
+Summary: Control Your Library With Dictionary
+Home-page: https://github.com/staykimin/Modul-Wrapper
+Author: KIMIN
+Author-email: staykimin@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/staykimin/Modul-Wrapper
+Project-URL: Funding, https://saweria.co/staykimin
+Project-URL: Say Thanks!, https://saweria.co/staykimin
+Project-URL: Source, https://github.com/staykimin/Modul-Wrapper
+Project-URL: Tracker, https://github.com/staykimin/Modul-Wrapper/issues
+Keywords: Kimin,Modul,Wrapper,Modul Wrapper,Kimin Modul Wrapper
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Modul-Wrapper
+
+Modul Wrapper Adalah Modul Untuk Menyimpan Semua Library Yang Akan Digunakan Dalam Bentuk Dictionary Guna Menghindari Crash Karena Penamaan Class atau Function Yang Sama Antar Library. 
+
+## Example
+
+Tanpa Menggunakan Deklarasi Khusus
+```python
+from Modul_Wrapper import Wrap
+
+modul = Wrap(modul_path="modul.json")
+datetime = modul['datetime'].datetime.now().strftime("%H:%M")
+print(datetime)
+```
+
+Menggunakan Deklarasi Khusus
+```python
+from Modul_Wrapper import Wrap
+
+modul = Wrap(modul_path="modul.json")
+datetime = modul['modul_jam'].datetime.now().strftime("%H:%M")
+print(datetime)
+```
+
+## Konfigurasi Modul
+
+Download Format Konfigurasi Modul Di : https://github.com/staykimin/Modul-Wrapper
