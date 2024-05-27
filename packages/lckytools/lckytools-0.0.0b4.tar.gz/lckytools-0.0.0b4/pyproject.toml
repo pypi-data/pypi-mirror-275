@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "lckytools"
+version = "0.0.0b4"
+description = "A collection of helpful utility functions and tools."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+readme = "README.md"
+homepage = "https://github.com/yourusername/lckytools"
+repository = "https://github.com/yourusername/lckytools"
+documentation = "https://yourusername.github.io/lckytools"
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+
+[tool.poetry.dependencies]
+numpy = "^1.26.2"
+pandas = "^2.1.4"
+python = "^3.7"
+scikit-learn = "^1.3.2"
+seaborn = "^0.13.0"
+torchsummary = "^1.5.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+# Add your development dependencies here
+
+[tool.poetry.scripts]
+# Add any command-line scripts provided by your package here
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
