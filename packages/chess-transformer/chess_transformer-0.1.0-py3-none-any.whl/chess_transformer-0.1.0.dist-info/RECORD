@@ -1,0 +1,12 @@
+chess_transformer/__init__.py,sha256=U3zpuEYNA3DVAS5zT3qrLrjWJLqPHMhLW0eaqqMu5uI,85
+chess_transformer/data/__init__.py,sha256=eb7K6FuIFmJwe4UcZtVTWK6AmNJndiZTkkPlQcWhXZ0,161
+chess_transformer/data/dataset.py,sha256=whhlxIaeLVQpWyazleLVBSNXkn0Rqa60v9AaunlKHB8,787
+chess_transformer/data/mask.py,sha256=crr1N38X1ygY5mkakwkzLzUyBc7FHtr7rZ2SkpHdoFU,1949
+chess_transformer/data/random.py,sha256=MaSweb8BEcMdkU2AypnVX6Cq3WnIgr-NzRGohi2dmzM,768
+chess_transformer/vocab/__init__.py,sha256=AjDEUqHxn9AIYTR_Y-e8DV2xL3OgyGC2a_0hgIhmeDU,168
+chess_transformer/vocab/sans.py,sha256=_d7FlT5N-sGh--ANtlrRXmRhV5OOIFlkd-KaJPgEs_M,12034
+chess_transformer/vocab/vocab.py,sha256=X2-VYWsQ6AUEkyteFjF_YOiDwZVGFLyRvPkZgw5SJW4,822
+chess_transformer-0.1.0.dist-info/METADATA,sha256=uRaeqjfny9hEE_5qD0O_Li0Zk4Jo7nIhXRNzCzqaTHk,323
+chess_transformer-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+chess_transformer-0.1.0.dist-info/top_level.txt,sha256=5C85I08hVwC3DNr25b3NYzit2oMYJs7R3AJoP-183NI,18
+chess_transformer-0.1.0.dist-info/RECORD,,
