@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+GnosisTech.egg-info/PKG-INFO
+GnosisTech.egg-info/SOURCES.txt
+GnosisTech.egg-info/dependency_links.txt
+GnosisTech.egg-info/top_level.txt
