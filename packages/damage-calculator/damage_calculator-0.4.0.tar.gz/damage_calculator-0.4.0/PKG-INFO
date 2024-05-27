@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: damage_calculator
+Version: 0.4.0
+Summary: A simple Pokemon damage calculator
+Home-page: https://github.com/siro-rai/pokemon_damade_ver.2.git
+Author: siro_rai
+Author-email: s2222013@stu.musashino-u.ac.jp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pokemon Damage Calculator
+
+This is a simple Python package for calculating damage in Pokemon battles based on user input.
+
+## for example
+move_power = 100  # Power of the move
+attacker_attack = 150  # Attack stat of the attacking Pokémon
+defender_defense = 100  # Defense stat of the defending Pokémon
+stab = 1.5  # Same Type Attack Bonus (STAB)
+type_effectiveness = 2.0  # Type effectiveness (e.g., super effective)
+
+result=x
+
+# Pokémon Damage Calculator
+
+A simple Pokémon damage calculator.
+
+## Installation
+
+You can install the package using pip. First, ensure you have downloaded the package file (e.g., `pokemon_damage_calculator-0.4.0.tar.gz`).
+
+### Using pip
+
+If you have the package file:
+
+```bash
+pip install pokemon_damage_calculator-0.4.0.tar.gz
+
+
