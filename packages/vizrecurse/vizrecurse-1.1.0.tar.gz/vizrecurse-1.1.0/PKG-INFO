@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: vizrecurse
+Version: 1.1.0
+Summary: Bare bones library to vizualize recursion with one line of code.
+Author: Cody Pedersen
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Requires-Python: >=3.10
