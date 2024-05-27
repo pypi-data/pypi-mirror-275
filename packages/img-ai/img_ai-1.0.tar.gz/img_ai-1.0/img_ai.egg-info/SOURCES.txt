@@ -1,0 +1,8 @@
+README.md
+setup.py
+img_ai/__init__.py
+img_ai.egg-info/PKG-INFO
+img_ai.egg-info/SOURCES.txt
+img_ai.egg-info/dependency_links.txt
+img_ai.egg-info/requires.txt
+img_ai.egg-info/top_level.txt
