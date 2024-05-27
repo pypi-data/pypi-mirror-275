@@ -1,0 +1,40 @@
+
+[build-system]
+requires = ["setuptools", "wheel", "pyyaml"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inventree-droplet-plugin"
+version = "v0.1.0"
+description = "Surface Droplet info in InvenTree"
+readme = "README.md"
+license = { text = "MIT license" }
+keywords = ["inventree", "inventree-plugin", "inventree-droplet-plugin"]
+authors = [{ name = "Matthias J Mair", email = "code@mjmair.com" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Plugins",
+    "Framework :: Django",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Manufacturing",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Scientific/Engineering",
+    'License :: OSI Approved :: MIT License',
+]
+requires-python = ">=3.9"
+dependencies = ['django']
+
+[project.optional-dependencies]
+dev = ['twine', 'setuptools']
+
+[project.urls]
+"Repository" = "https://github.com/invenhost/inventree-droplet-plugin"
+"Bug Tracker" = "https://github.com/invenhost/inventree-droplet-plugin/issues"
+
+[project.entry-points."inventree_plugins"]
+inventree_droplet_plugin = "inventree_droplet_plugin:InvenTreeDropletPlugin"
+
+[tool.setuptools.packages.find]
+where = ["src"]
