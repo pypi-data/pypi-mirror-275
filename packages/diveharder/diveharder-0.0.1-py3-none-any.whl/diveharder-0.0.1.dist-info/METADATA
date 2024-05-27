@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: diveharder
+Version: 0.0.1
+Summary: Placeholder package for future development
+Author: AJXD2
+Author-email: aj@ajxd2.dev
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Diveharder
+
+This is a placeholder package reserved for future development.
+
+[REPO](https://github.com/ajxd2/diveharder-wrapper)
