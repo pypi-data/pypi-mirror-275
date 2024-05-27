@@ -1,0 +1,2 @@
+[console_scripts]
+breakout_game = breakout_game.game:main
