@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: PyTheranostics
+Version: 0.1
+Summary: A library of tools to process nuclear medicine scans and take them through the dosimetry workflow to calculate the absorbed dose in target organs. 
+Home-page: https://github.com/qurit/PyTheranostics
+Author: Carlos Uribe, PhD, MCCPM
+Author-email: curibe@bccrc.ca
+License: LICENSE
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: pydicom
+Requires-Dist: openpyxl
+Requires-Dist: rt-utils
+Requires-Dist: scikit-image
+Requires-Dist: simpleitk
+
