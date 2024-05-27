@@ -1,0 +1,2 @@
+[console_scripts]
+download_images = web_image_downloader.downloader:main
