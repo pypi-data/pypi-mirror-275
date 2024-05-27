@@ -1,0 +1,4 @@
+httpx
+simplejson
+colorlog
+pydantic
