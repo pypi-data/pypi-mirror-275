@@ -1,0 +1,2 @@
+[console_scripts]
+telegram-gmail-bot = telegram_gmail_bot:main
