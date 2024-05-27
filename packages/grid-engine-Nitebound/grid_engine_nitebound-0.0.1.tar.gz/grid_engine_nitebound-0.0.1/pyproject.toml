@@ -1,0 +1,18 @@
+[project]
+name = "grid_engine_Nitebound"
+version = "0.0.1"
+authors = [
+  { name="Nitebound", email="niteboundx@gmail.com" },
+]
+description = "The Nitegame Grid Engine"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://pypi.org/manage/projects/"
+#Issues = ""
