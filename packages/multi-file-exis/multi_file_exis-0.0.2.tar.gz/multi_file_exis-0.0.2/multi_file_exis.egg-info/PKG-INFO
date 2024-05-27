@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: multi_file_exis
+Version: 0.0.2
+Summary: allows to make a json file in a network folder
+Home-page: 
+Author: Vincent Welter
+Author-email: vincent.welter@outlook.de
+License: MIT
+Keywords: json
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+Requires-Dist: json
+Requires-Dist: os
+
+This Libary allows you to create, open, edix a json file in a networkfolder.
+With that you can make multiplayer games and save data.
+There are just four commands, so it is easy to learn.
+
+Change Log
+===========
+
+0.0.1 (26/05/2024)
+------------------
+- First Release
