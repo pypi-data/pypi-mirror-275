@@ -1,0 +1,9 @@
+dreamai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dreamai/ai.py,sha256=R2Z5z58IKnBSn5Y0sm2FX2hnky2XG8zYIpnUBzjQwGs,3765
+dreamai/chroma.py,sha256=hr-BpAD55Oo5PpmWjfFcw759eNO3LBd0sZ0fS2KGrO4,6127
+dreamai/pdf.py,sha256=gxmW-9XbU6YjRbo4UJ9VC1ob46L8hi2ar3wnM2T4wKM,1897
+dreamai/templates.py,sha256=O6kbnx2HxtTfe7Y2s6ZJxxK9ZZ9zY6Uc3NdeUPNpiQQ,1242
+dreamai/utils.py,sha256=U2wBeiJk0qeFdfmvMoM1TxTLHT5OISjzjCxktUc1ueY,12777
+dreamai-2.0.7.dist-info/METADATA,sha256=1K-SSCXTVO4jTqG2Yc4cLXuosMszWAlSXP3L0A7JDUM,1820
+dreamai-2.0.7.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dreamai-2.0.7.dist-info/RECORD,,
