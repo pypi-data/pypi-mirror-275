@@ -1,0 +1,112 @@
+# VisualShape3D
+
+## VisualShape3D
+
+VisualShape3D is a simple library of geometry designed to quickly build a 3D model with its functions. It starts with creating a viewport at first, followed by adding each 3D shape to it, and finally showing them all at once. There are three shapes: Point, PolyLine, and Polygon. A 3D polygon is created by first defining a 2D shape on the yz plane and then transforms it with both new position and orientation, while its bottom is limited to motion in XY plane. 
+
+As seen in the following examples, VisualShape3D is capable of calculating line intersections with polygons, as well as rotating/translating a shape to building a 3D body.
+
+## Core Features
+* Shapes : Point, Polylines, and Polygon.
+* It can check whether or not a point is inside a segment or polygon.
+* __hash__ and __eq__, also overloaded for ordering and logical equal the three shapes.
+* For a shape, __neg__ is overloaded for one to get thevertices in the order viewed from its other side.
+
+## Requirements
+
+* [Python](http://www.python.org) 3 
+* Matplotlib is needed.
+
+## Documentation
+
+To be continued.
+
+## Installation
+```bash
+pip install VisualShape3D
+```
+
+## Usage 
+
+* case 1 : building a box.
+from VisualShape3D.VisualModels import VisualShape3D as vs3d 
+from VisualShape3D.geometry import Shape
+A,B,C = 6,6,3 
+P1,P2,P3,P4 = (A,0,0),(A,B,0),(A,B,C),(A,0,C) 
+P5,P6,P7,P8 = (0,0,0),(0,B,0),(0,B,C),(0,0,C) 
+V = [P1,P2,P3,P4,P5,P6,P7,P8] 
+shape1 = Shape("Polygon",vertices = [V[0],V[1],V[2],V[3]]) 
+shape2 = Shape("Polygon",vertices = [V[1],V[2],V[6],V[5]]) 
+shape3 = Shape("Polygon",vertices = [V[5],V[4],V[7],V[6]]) 
+shape4 = Shape("Polygon",vertices = [V[4],V[0],V[3],V[7]]) 
+shape5 = Shape("Polygon",vertices = [V[3],V[2],V[6],V[7]]) 
+shape6 = Shape("Polygon",vertices = [V[4],V[5],V[1],V[0]])
+
+body = vs3d({'facecolor':'yellow','alpha':0.7}) 
+body.add_shape(shape1,{'facecolor':'red','alpha':0.7}) 
+body.add_shape(shape2) 
+body.add_shape(shape3) 
+body.add_shape(shape4) 
+body.add_shape(shape5) 
+body.add_shape(shape6) 
+body.show()
+
+* case 2 : rotating a shape 
+from VisualShape3D.VisualModels import VisualShape3D as vs3d 
+from VisualShape3D.geometry import Shape
+A,B,C = 6,6,3 
+P1,P2,P3,P4 = (A,0,0),(A,B,0),(A,B,C),(A,0,C) 
+P5,P6,P7,P8 = (0,0,0),(0,B,0),(0,B,C),(0,0,C) 
+V = [P1,P2,P3,P4,P5,P6,P7,P8] 
+shape1 = Shape("Polygon",vertices = [V[0],V[1],V[2],V[3]])
+
+shape11 = shape1 
+shape12 = shape11.transform(angles = (90,0)) 
+shape13 = shape12.transform(angles = (90,0)) 
+shape14 = shape13.transform(angles = (90,0))
+
+body = vs3d({'facecolor':'yellow','alpha':0.7}) 
+body.add_shape(shape11,{'facecolor':'red','alpha':0.7}) 
+body.add_shape(shape12) 
+body.add_shape(shape13) 
+body.add_shape(shape14) 
+body.show()
+
+* case 3 : roating and translating a shape 
+from VisualShape3D.VisualModels import VisualShape3D as vs3d
+from VisualShape3D.geometry import Shape
+
+shape11 = shape1 
+shape12 = shape11.transform(to = shape11[1],angles = (90,0)) 
+shape13 = shape12.transform(to = shape12[1],angles = (90,0)) 
+shape14 = shape13.transform(to = shape13[1],angles = (90,0))
+body = vs3d({'facecolor':'yellow','alpha':0.7}) 
+body.add_shape(shape11,{'facecolor':'red','alpha':0.7}) 
+body.add_shape(shape12) 
+body.add_shape(shape13) 
+body.add_shape(shape14) 
+body.show()
+
+
+## Change Log
+
+[changelog.md](changelog.md)
+
+## License
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+## Contact
+heliqun@ustc.edu.cn
+
