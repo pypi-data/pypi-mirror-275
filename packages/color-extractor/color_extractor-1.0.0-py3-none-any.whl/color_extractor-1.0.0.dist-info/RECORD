@@ -1,0 +1,9 @@
+color_extractor/__init__.py,sha256=PugAz6wWO5Uo0oqCgzz-VMmcPe-ENZqu8KXHAmVoynQ,112
+color_extractor/color_extractor.py,sha256=mqlRobl3ashmp2uIjx5c0do2GW3NgYPcK4JobW5XLBY,8492
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+color_extractor-1.0.0.dist-info/LICENSE,sha256=R7LmH5hhY00VtLaou5gBoi2x-b9H_b_nCh86wWcfxNA,1064
+color_extractor-1.0.0.dist-info/METADATA,sha256=tPUCV9JN_03hMsUgB23vzjNDKxh2XgWUjdpZPO8LNGE,1474
+color_extractor-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+color_extractor-1.0.0.dist-info/top_level.txt,sha256=8kNZG-ysQEGH2uEQr2tqdCsCSM-7udN3mfXbNqWCdvs,21
+color_extractor-1.0.0.dist-info/RECORD,,
