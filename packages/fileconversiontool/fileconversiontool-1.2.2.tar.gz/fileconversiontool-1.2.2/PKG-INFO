@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: fileconversiontool
+Version: 1.2.2
+Summary: A Python package for converting medical imaging files between different formats.
+Author: Wei-Chun Kevin Tsai
+Author-email: coachweichun@gmail.com
+License: All Rights Reserved
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: pydicom
+Requires-Dist: SimpleITK
+Requires-Dist: opencv-contrib-python
+Requires-Dist: tqdm
+Requires-Dist: colorama
+Requires-Dist: nibabel
+
+# File Conversion Tool
+
+This Python package provides tools for converting medical imaging files between different formats.
+
+## Installation
+
+You can install `FileConversionTool` via `pip`:
+
+```bash
+pip install FileConversionTool
+```
+
+> ###### _**Note:**_ It is recommended to use `FileConversionTool` on **Python 3.7** and above.
+ 
+## Installation
+
+To install the package, you can use pip:
+
+```
+pip install fileconversiontool
+```
+
+## Usage
+
+
+**Call `FileConversionTool` directly from Python**
+
+###### NiFTI2ImageTool
+
+##### This tool is used to convert a NIfTI format file into a series of images in PNG format.
+
+```python
+from FileConversionTool import NifTI2ImageTool
+
+# Usage example
+NifTI2ImageTool(input_directory='input_directory_path', output_directory='output_directory_path')
+```
+
+###### DICOM2ImageTool
+
+#### This tool is used to convert a series of DICOM format files into a series of images in PNG format.
+
+```python
+from FileConversionTool import DICOM2ImageTool
+
+# Usage example
+DICOM2ImageTool(input_directory='input_directory_path', output_directory='output_directory_path', brightness=0.2)
+```
+
+###### NIFTI2DICOMTool
+
+#### This tool is used to convert a series of NIfTI format files into a series of DICOM format files.
+
+```python
+from FileConversionTool import NIFTI2DICOMTool
+
+# Usage example
+NIFTI2DICOMTool(input_directory='input_directory_path', output_directory='output_directory_path')
+```
+
+###### Image2NifTITool
+
+#### This tool is used to convert a series of image files into a NIfTI format file.
+
+```python
+from FileConversionTool import Image2NifTITool
+
+# Usage example
+Image2NifTITool(input_directory='input_directory_path', output_directory='output_directory_path', nifti_filename='output_nifti_filename.nii.gz')
+```
+
+###### DICOM2NifTITool
+
+#### This tool is used to convert a series of DICOM format files into a NIfTI format file.
+
+```python
+from FileConversionTool import DICOM2NifTITool
+
+# Usage example
+DICOM2NifTITool(input_directory='input_directory_path', output_directory='output_directory_path', nifti_filename='output_nifti_filename.nii.gz')
+```

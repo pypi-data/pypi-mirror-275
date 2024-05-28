@@ -1,0 +1,8 @@
+README.md
+setup.py
+fileconversiontool.egg-info/PKG-INFO
+fileconversiontool.egg-info/SOURCES.txt
+fileconversiontool.egg-info/dependency_links.txt
+fileconversiontool.egg-info/entry_points.txt
+fileconversiontool.egg-info/requires.txt
+fileconversiontool.egg-info/top_level.txt
