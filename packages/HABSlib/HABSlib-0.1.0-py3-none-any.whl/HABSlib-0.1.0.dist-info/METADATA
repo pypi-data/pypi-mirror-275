@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: HABSlib
+Version: 0.1.0
+Summary: A library for interacting with the HABS BrainOS API.
+Home-page: https://github.com/Olocufier/HABS.git
+Author: Domenico Guarino
+Author-email: domenico@habs.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: asyncio ==3.4.3
+Requires-Dist: brainflow ==5.12.1
+Requires-Dist: numpy ==1.26.4
+Requires-Dist: requests ==2.31.0
+Requires-Dist: scipy ==1.13.0
+Requires-Dist: urllib3 ==2.2.1
+Requires-Dist: mediapipe
+Requires-Dist: jsonschema
+Requires-Dist: cryptography
+Requires-Dist: pytest
+Requires-Dist: pytest-html
+Requires-Dist: pytest-order
+Requires-Dist: pytest-dependency
+Requires-Dist: py-feat
+
+README file
