@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: ultibi
+Version: 0.7.0
+Classifier: Programming Language :: Rust
+Classifier: License :: Free To Use But Restricted
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: polars ==0.20.27
+Requires-Dist: pyarrow >=7.0.0
+License-File: LICENSE
+Summary: Flexible DataFrame Operations via UI
+Keywords: dataframe,visualization,pivot,table,pivottable,aggregation,calculation,chart,data,dataviz,pivot-table,frtb,risk
+Author-email: Anatoly Bugakov <anatoly@ultimabi.uk>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://ultimabi.uk/
+Project-URL: Documentation, https://ultimabi.uk/ultibi-frtb-book/
+Project-URL: Repository, https://github.com/ultima-ib/ultibi-frtb-book
+
+../README.md
