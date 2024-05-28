@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/GIUC.py
+src/GIUC.egg-info/PKG-INFO
+src/GIUC.egg-info/SOURCES.txt
+src/GIUC.egg-info/dependency_links.txt
+src/GIUC.egg-info/top_level.txt

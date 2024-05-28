@@ -1,0 +1,19 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "GIUC"
+version = "0.1"
+description = "Collection of mathematical functions"
+readme = "README.md"
+authors = [{ name = "Gautham Nair", email = "gautham.nair.2005@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["utility"]
+requires-python = ">=3.11"
