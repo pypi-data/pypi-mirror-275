@@ -1,0 +1,3 @@
+[console_scripts]
+action = tool.action:main
+test = tool.test:main
