@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/crewops/__init__.py
+src/crewops/cli.py
+src/crewops/controller.py
+src/crewops.egg-info/PKG-INFO
+src/crewops.egg-info/SOURCES.txt
+src/crewops.egg-info/dependency_links.txt
+src/crewops.egg-info/entry_points.txt
+src/crewops.egg-info/not-zip-safe
+src/crewops.egg-info/requires.txt
+src/crewops.egg-info/top_level.txt
