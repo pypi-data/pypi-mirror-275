@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: flet-box-gui
+Version: 0.1.2
+Summary: flet-box-gui it's a GUI Dragg and drop BUILDER.
+Home-page: https://github.com/xavier53348/Flet-Box
+Author: xavier53348
+Author-email: xavier53348@gmail.com
+Maintainer: xavier53348
+Maintainer-email: xavier53348@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/xavier53348/Flet-Box/blob/main/docs/WIDGET.md
+Project-URL: GitHub, https://github.com/xavier53348/Flet-Box
+Project-URL: Changelog, https://github.com/xavier53348/Flet-Box/blob/main/docs/CHANGELOG.md
+Project-URL: Roadmap, https://github.com/xavier53348/Flet-Box/blob/main/docs/Roadmap.md
+Keywords: flet-box-gui,flet,flet-gui,flet-builder,flet-sdk
+Platform: Multy platforms
+Classifier: Development Status :: 1 - Planning
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: flet
+Requires-Dist: flet-core
+Requires-Dist: flet-runtime
+Requires-Dist: g4f
+Requires-Dist: pyperclip
+
+README.md
+
+
