@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+nepx.egg-info/PKG-INFO
+nepx.egg-info/SOURCES.txt
+nepx.egg-info/dependency_links.txt
+nepx.egg-info/requires.txt
+nepx.egg-info/top_level.txt
