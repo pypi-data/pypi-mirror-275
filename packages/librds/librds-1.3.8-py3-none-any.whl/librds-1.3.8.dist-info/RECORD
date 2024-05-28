@@ -1,0 +1,13 @@
+librds/__init__.py,sha256=nqmPU9RD5pD1KNSIlLNFSPbg17iWUbMeW7sZocuZIW4,264
+librds/af.py,sha256=9qUvcl_XSOpJkBleJTNFAomkSpkRIZ1-ST2P1cGLaGI,3279
+librds/charset.py,sha256=aPg9XOZbDhqYwHELz-HN8A0Gt9gtW1zEM4u3Z8E9M-Y,17334
+librds/comfort.py,sha256=lIXzQCZVlpjEj0HHwlWmxty4zNEXYYTFdcx7SHcOk4o,1011
+librds/decoder.py,sha256=ouL-obf12usnJvFOixlu6evQN56AyptRl4ux4dM8WwI,4713
+librds/generator.py,sha256=9I_VwoFU22Yq4cgCGU-xf6oCcno-I7HTYkUCHrT8qP4,5820
+librds/group.py,sha256=Rn9FSnWtmtRWDtsG9dY3ZLlQ69kl-RCnCuCZyfyY8CI,417
+librds/interface.py,sha256=VD2KqHcXGediKsvbPnw3J1aowfyX8WKVNkFkNdCbAjk,926
+librds-1.3.8.dist-info/LICENCE,sha256=6XJiGmIp_nUdxrYRyA7FEC6YSDiC9nR8Qi9UoJk5La4,35187
+librds-1.3.8.dist-info/METADATA,sha256=oH3RZFM_koxoNsWHclSLSpFSptc8IJ9kvj8F5bWwdgI,1834
+librds-1.3.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+librds-1.3.8.dist-info/top_level.txt,sha256=L_5gzLlC7e2pRtcu9JL2fYCxXhjDvipyC8S-slBEgSg,7
+librds-1.3.8.dist-info/RECORD,,
