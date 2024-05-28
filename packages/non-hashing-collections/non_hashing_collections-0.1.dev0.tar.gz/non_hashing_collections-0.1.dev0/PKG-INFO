@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: non-hashing-collections
+Version: 0.1.dev0
+Summary: Includes implementations of Python collection types that don't require hashability.
+Author-email: Kaleb Barrett <dev.ktbarrett@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)
+Project-URL: Home, https://github.com/ktbarrett/non_hashing_collections/
+
+# Non-Hashing Python Collections
+
+As well all know, hash-based collections are a scourge upon the world (/s),
+so this library contains implementations of common Python collections that would usually require hashability of its elements, but **without that requirement**.
+
+## So... Why?
+
+Python's `set`, `dict`, and a few other collections require their elements to be hashable, but sometimes types are not hashable.
+Perhaps they could be, and even should be, but they aren't.
+This library allows you use such types in typically hashed collections.
+
+*Also* these implementations are natually insertion order preserving.
+
