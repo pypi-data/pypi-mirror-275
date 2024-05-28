@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/dlq_handlerl_lib.egg-info/PKG-INFO
+src/dlq_handlerl_lib.egg-info/SOURCES.txt
+src/dlq_handlerl_lib.egg-info/dependency_links.txt
+src/dlq_handlerl_lib.egg-info/requires.txt
+src/dlq_handlerl_lib.egg-info/top_level.txt
+tests/test_dlq_handler.py
+tests/test_sqs_queue.py
