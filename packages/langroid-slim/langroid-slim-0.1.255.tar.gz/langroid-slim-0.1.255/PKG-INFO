@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: langroid-slim
+Version: 0.1.255
+Summary: Harness LLMs with Multi-Agent Programming
+Author: Prasad Chalasani
+Author-email: pchalasani@gmail.com
+License: MIT
+Requires-Python: >=3.10, <3.12
+Provides-Extra: extra
+Provides-Extra: docs
+License-File: LICENSE
