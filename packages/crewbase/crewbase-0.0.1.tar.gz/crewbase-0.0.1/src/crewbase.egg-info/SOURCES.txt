@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/crewbase/__init__.py
+src/crewbase/cli.py
+src/crewbase/controller.py
+src/crewbase.egg-info/PKG-INFO
+src/crewbase.egg-info/SOURCES.txt
+src/crewbase.egg-info/dependency_links.txt
+src/crewbase.egg-info/entry_points.txt
+src/crewbase.egg-info/not-zip-safe
+src/crewbase.egg-info/requires.txt
+src/crewbase.egg-info/top_level.txt
