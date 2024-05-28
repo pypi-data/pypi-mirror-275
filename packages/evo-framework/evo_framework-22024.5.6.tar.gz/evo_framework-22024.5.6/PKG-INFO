@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: evo-framework
+Version: 22024.5.6
+Summary: evo framework python
+Author: cyborg-ai-git
+Author-email: 129898917+cyborg-ai-git@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Pillow (>=10.3.0,<11.0.0)
+Requires-Dist: PyYAML (>=6.0.1,<7.0.0)
+Requires-Dist: aiofiles (>=23.2.1,<24.0.0)
+Requires-Dist: cryptography (>=41.0.7,<42.0.0)
+Requires-Dist: ecdsa (>=0.18.0,<0.19.0)
+Requires-Dist: lz4 (>=4.3.2,<5.0.0)
+Requires-Dist: typing-extensions (>=4.12.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+
