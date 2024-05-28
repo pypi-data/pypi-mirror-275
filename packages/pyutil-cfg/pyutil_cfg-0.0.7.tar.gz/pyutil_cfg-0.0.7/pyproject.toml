@@ -1,0 +1,38 @@
+[build-system]
+requires = [
+    'setuptools',
+]
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'pyutil-cfg'
+version = '0.0.7'
+dependencies = [
+]
+authors = [
+    {name = 'Chuan-Heng Hsiao', email = 'hsiao.chuanheng@gmail.com'},
+]
+description = 'python util for cfg (configurations)'
+readme = 'README.md'
+license = {file = 'LICENSE.txt'}
+keywords = [
+]
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+]
+
+[project.urls]
+# Homepage      = ''
+# Documentation = ''
+# Repository    = ''
+# 'Bug Tracker' = ''
+# Changelog = ''
+
+[project.scripts]
+
+[tool.setuptools.packages.find]
+exclude = [
+    'tests*',
+]
