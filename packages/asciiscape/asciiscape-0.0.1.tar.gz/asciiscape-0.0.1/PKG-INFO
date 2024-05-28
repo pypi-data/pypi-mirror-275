@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: asciiscape
+Version: 0.0.1
+Summary: A python image to ASCII CLI tool
+Author: Lucca Chiguti
+Author-email: luktha12345@gmail.com
+Keywords: python,ascii
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: Pillow
+Requires-Dist: numpy
+
+A python image to ASCII CLI tool, using the PIL and numpy libraries
