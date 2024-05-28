@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: RicianLoss
+Version: 0.0.1
+Summary: Rician likelihood loss function
+Project-URL: Homepage, https://github.com/csparker/deep_qmri
+Project-URL: Issues, https://github.com/csparker/deep_qmri/issues
+Author-email: "Christopher S. Parker" <christopher.parker@ucl.ac.uk>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# README
+
