@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "steamleaderboards"
+version = "1.1.1"
+description = "Retrieve and parse Steam leaderboards"
+authors = ["Stefano Pigozzi <me@steffo.eu>"]
+maintainers = ["Stefano Pigozzi <me@steffo.eu>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Steffo99/steamleaderboards"
+keywords = ["steam", "leaderboards", "csv", "xml", "valve"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3.8",
+	"Development Status :: 6 - Mature",
+	"Environment :: Console",
+	"Intended Audience :: Developers",
+	"Intended Audience :: Science/Research",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+	"Topic :: Internet"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.32.2"
+lxml = "^5.2.2"
+beautifulsoup4 = "^4.12.3"
+
+[tool.poetry.scripts]
+steamleaderboards = "steamleaderboards.__main__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
