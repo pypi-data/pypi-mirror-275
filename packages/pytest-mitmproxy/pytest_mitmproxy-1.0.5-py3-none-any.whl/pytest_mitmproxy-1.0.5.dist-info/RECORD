@@ -1,0 +1,10 @@
+pytest_mitmproxy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_mitmproxy/addon.py,sha256=zCwQiQsYyLtI67rIoZ2hvWGM0RT-WitrGBh40ni7KO0,1052
+pytest_mitmproxy/install_cert.py,sha256=waja-41pLV7BSNjf_C7KzjI2vCIMAxvW_bev-j77Hvg,1438
+pytest_mitmproxy/plugin.py,sha256=JOl-Zg6fy7Zpkd7xUORT8ks9yJHGy_XBfpOahDdHp7E,2329
+pytest_mitmproxy/system_proxy.py,sha256=zWLA3ZIwN_BlYD9pXgbrtM9_lre9UgyW_ZrOhKYTO1k,1533
+pytest_mitmproxy-1.0.5.dist-info/METADATA,sha256=sGXISja21T5etpuVTw1tfJpouBaWLI4XCC3xctT1SqE,346
+pytest_mitmproxy-1.0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pytest_mitmproxy-1.0.5.dist-info/entry_points.txt,sha256=fP2pBEB6_xhShexmYTRj2Et9x_9YkjHOyoQhuXiGku4,131
+pytest_mitmproxy-1.0.5.dist-info/top_level.txt,sha256=GtWPpGidAdjrtlQC2gwwhO1eLlyGmlQbPfBZS45QKfo,17
+pytest_mitmproxy-1.0.5.dist-info/RECORD,,
