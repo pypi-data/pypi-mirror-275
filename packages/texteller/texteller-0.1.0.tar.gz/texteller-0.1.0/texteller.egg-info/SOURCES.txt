@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+texteller.egg-info/PKG-INFO
+texteller.egg-info/SOURCES.txt
+texteller.egg-info/dependency_links.txt
+texteller.egg-info/requires.txt
+texteller.egg-info/top_level.txt
