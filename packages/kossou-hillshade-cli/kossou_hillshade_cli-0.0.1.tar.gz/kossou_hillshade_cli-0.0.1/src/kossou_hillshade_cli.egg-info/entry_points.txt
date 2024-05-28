@@ -1,0 +1,2 @@
+[console_scripts]
+kossou-hillshade = kossou_hillshade_cli.kossou_hillshade_cli:main
