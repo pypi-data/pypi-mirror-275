@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: vvnotebooks
+Version: 0.8.3
+Summary: Some useful Jupyter notebook abstractions
+Author: James Hunt
+Author-email: james@niftylogic.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Description-Content-Type: text/markdown
+
+vvnotebooks
+===========
+
+This Python module defines some useful abstractions for
+writing Jupyter notebooks with a more rigorous approach
+to the software engineering side.
+
