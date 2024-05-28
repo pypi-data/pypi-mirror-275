@@ -1,0 +1,8 @@
+./env/*
+contextooor/sol.py
+__pycache__
+dist/
+
+# Added by cargo
+
+/target
