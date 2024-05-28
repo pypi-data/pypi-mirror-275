@@ -1,0 +1,2 @@
+[console_scripts]
+ivylantern = ivylantern:main
