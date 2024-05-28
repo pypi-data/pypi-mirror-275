@@ -1,0 +1,10 @@
+django
+markdown
+pygments
+
+[linting]
+ruff
+
+[tests]
+pytest
+pytest-django
