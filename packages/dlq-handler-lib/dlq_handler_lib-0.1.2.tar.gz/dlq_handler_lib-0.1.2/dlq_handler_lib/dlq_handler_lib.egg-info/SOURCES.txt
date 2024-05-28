@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+dlq_handler_lib/dlq_handler_lib.egg-info/PKG-INFO
+dlq_handler_lib/dlq_handler_lib.egg-info/SOURCES.txt
+dlq_handler_lib/dlq_handler_lib.egg-info/dependency_links.txt
+dlq_handler_lib/dlq_handler_lib.egg-info/requires.txt
+dlq_handler_lib/dlq_handler_lib.egg-info/top_level.txt
