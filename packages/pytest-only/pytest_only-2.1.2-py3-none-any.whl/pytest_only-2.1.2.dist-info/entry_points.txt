@@ -1,0 +1,6 @@
+[flake8.extension]
+PTO=pytest_only.ext.flake8:PytestOnlyMarkChecker
+
+[pytest11]
+only=pytest_only.plugin
+
