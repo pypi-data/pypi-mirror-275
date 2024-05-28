@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "physities"
+version = "0.1.0"
+description = ""
+authors = ["M4tus4l3m <lucas.sievers@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "physities" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.0"
+kobject = "^0.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
