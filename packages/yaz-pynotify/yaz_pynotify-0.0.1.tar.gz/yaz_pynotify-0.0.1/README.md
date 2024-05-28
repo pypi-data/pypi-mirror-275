@@ -1,0 +1,111 @@
+# PyNotify
+
+PyNotify is a flexible and extendable notification system that supports multiple notification channels like email and SMS. It uses the Chain of Responsibility pattern to manage and process notifications.
+
+## Installation Guide
+
+To install PyNotify, use pip:
+
+```sh
+pip install yaz_pynotify 
+```
+
+## Usage
+
+### Configuration
+
+Before using the notification handlers, you need to configure the settings for email and SMS services.
+
+```py
+from yaz_pynotify.notification_service.config import Settings, EmailSetting, SMSSetting
+from yaz_pynotify.notification_service.config import Settings, EmailSetting, SMSSetting
+
+email_settings = EmailSetting(
+    host='smtp.example.com',
+    port=587,
+    username='your-email@example.com',
+    password='your-email-password'
+)
+
+sms_settings = SMSSetting(
+    api_key='your-sms-api-key',
+    api_pwd='your-sms-api-password',
+    url='https://sms-api.example.com'
+)
+
+Settings.set(email_settings=email_settings, sms_settings=sms_settings)
+```
+
+### Sending Notifications
+
+Create message data and use the registered handlers to send notifications:
+
+```py
+from yaz_pynotify.messaging_service.types import MessageData
+from yaz_pynotify.notification_service.client import notify
+from yaz_pynotify.messaging_service.types import MessageData
+from yaz_pynotify.notification_service.client import notify
+
+# Create message data
+message_data = MessageData(
+    recipient="recipient@example.com",
+    subject="Test Notification",
+    body="This is a test message.",
+    is_html=False
+)
+
+# Send a notification
+notify("email", message_data)
+notify("sms", message_data)
+
+```
+
+### Extending PyNotifa
+
+To add a new notification channel, create a new handler by extending the `NotificationHandler` abstract base class and implement the `handle` method.
+
+```py
+from yaz_pynotify.messaging_service.types import MessageData
+from yaz_pynotify.notification_service.handlers.base import NotificationHandler
+from yaz_pynotify.messaging_service.types import MessageData
+from yaz_pynotify.notification_service.handlers.base import NotificationHandler
+
+class CustomNotificationHandler(NotificationHandler):
+    kind = "custom"
+
+    def handle(self, kind: str, data: MessageData):
+        if kind == self.kind:
+            # Implement push notification logic here
+            print(f"Sending custom notification to {data.recipient}")
+        else:
+            # forward responsibility if the custom handler is unable to act on it
+            return self.forwardResponsibility(kind=kind, data=data)
+```
+
+Then, register the new handler:
+
+```py
+from yaz_pynotify.notification_service.handlers.base import NotificationHandlerRegistry
+from yaz_pynotify.messaging_service.types import MessageData
+from yaz_pynotify.notification_service.client import notify
+from yaz_pynotify.notification_service.handlers.base import NotificationHandlerRegistry
+from yaz_pynotify.messaging_service.types import MessageData
+from yaz_pynotify.notification_service.client import notify
+
+from .customs import CustomNotificationHandler
+
+NotificationHandlerRegistry.register(CustomNotificationHandler())
+
+# Create message data
+message_data = MessageData(
+    recipient="recipient@example.com",
+    subject="Test Notification",
+    body="This is a test message.",
+    is_html=False
+)
+
+# Send a notification
+notify("email", message_data)
+notify("sms", message_data)
+
+```
