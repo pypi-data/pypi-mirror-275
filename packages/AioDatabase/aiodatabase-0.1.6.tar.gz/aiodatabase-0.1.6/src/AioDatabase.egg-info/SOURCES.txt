@@ -1,0 +1,12 @@
+LICENSE
+setup.cfg
+setup.py
+src/AioDatabase.egg-info/PKG-INFO
+src/AioDatabase.egg-info/SOURCES.txt
+src/AioDatabase.egg-info/dependency_links.txt
+src/AioDatabase.egg-info/requires.txt
+src/AioDatabase.egg-info/top_level.txt
+src/Manager/ConfigManager.py
+src/Manager/__init__.py
+src/sqlite3/SqlLoader.py
+src/sqlite3/__init__.py
