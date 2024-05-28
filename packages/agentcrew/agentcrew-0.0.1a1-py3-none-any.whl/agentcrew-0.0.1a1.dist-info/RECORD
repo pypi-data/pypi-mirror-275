@@ -1,0 +1,9 @@
+agentcrew/__init__.py,sha256=bwMxN0Nwzg1OWLEN4DmBPcIwqWOhIsS0cQBff63Mcx8,576
+agentcrew/cli.py,sha256=0siF2lUjx08kTkml--7ZFTdOiK2rrbWjOEH2RyxqNPU,38
+agentcrew/commander.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agentcrew-0.0.1a1.dist-info/LICENSE,sha256=G6YHgG6Rk-8pJUA9ehDWOCbho0VKwE-znhGq6-XWnPA,11350
+agentcrew-0.0.1a1.dist-info/METADATA,sha256=NDZFOdloEx2-eP_cRpUkxvPw-5xV-zG7FTpUkSxuBSE,1520
+agentcrew-0.0.1a1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+agentcrew-0.0.1a1.dist-info/entry_points.txt,sha256=ZRqHcA-GsKvC4O0iLno22hIgm7hk9-h7B-TTjlGKXT4,43
+agentcrew-0.0.1a1.dist-info/top_level.txt,sha256=2BSM9wLDfBK4refCWrzPsmaS50IBFZvL_lycYxQq7Qo,10
+agentcrew-0.0.1a1.dist-info/RECORD,,
