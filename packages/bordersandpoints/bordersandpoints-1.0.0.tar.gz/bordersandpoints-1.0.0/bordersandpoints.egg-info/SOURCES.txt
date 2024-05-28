@@ -1,0 +1,8 @@
+setup.py
+bordersandpoints/__init__.py
+bordersandpoints/border_lines.py
+bordersandpoints.egg-info/PKG-INFO
+bordersandpoints.egg-info/SOURCES.txt
+bordersandpoints.egg-info/dependency_links.txt
+bordersandpoints.egg-info/requires.txt
+bordersandpoints.egg-info/top_level.txt
