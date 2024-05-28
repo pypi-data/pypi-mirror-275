@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+requirements_dev.txt
+setup.cfg
+setup.py
+src/mongodatabaseconnnect.egg-info/PKG-INFO
+src/mongodatabaseconnnect.egg-info/SOURCES.txt
+src/mongodatabaseconnnect.egg-info/dependency_links.txt
+src/mongodatabaseconnnect.egg-info/requires.txt
+src/mongodatabaseconnnect.egg-info/top_level.txt
+src/mongodb_connect/__init__.py
+src/mongodb_connect/mongo_crud.py
