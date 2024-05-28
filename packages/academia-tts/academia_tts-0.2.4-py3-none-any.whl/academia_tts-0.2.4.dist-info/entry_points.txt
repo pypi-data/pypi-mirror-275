@@ -1,0 +1,3 @@
+[console_scripts]
+tts_output_wav = academia_tts.scripts.tts_output_wav:main
+tts_pptx = academia_tts.scripts.tts_pptx:main
