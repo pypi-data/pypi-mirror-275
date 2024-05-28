@@ -1,0 +1,16 @@
+pyproject_creator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyproject_creator/cli.py,sha256=TRZ62q5zYBGSGMs-ODaDjn2GOBh0mpfggH7uF-Bs19k,5518
+pyproject_creator/template/.cz.toml,sha256=le8gMbCm7UHlL5xbbpRvljYhXSuqWrS7fTbi5e-qplk,8420
+pyproject_creator/template/.gitignore,sha256=2ovGb7Z6GdN3I0fz5fDcoryQ6e2yjf9p0hdVIF5Phtc,3077
+pyproject_creator/template/.pre-commit-config.yaml,sha256=SZ6gNcQ5ajFiwtxmC2m-rVC_mf39fzaoNKmGqP1hgJU,1990
+pyproject_creator/template/github_action/workflows/main.yml,sha256=wmJIyIGKo5lKXH-PAqrIM3PXZNXVSCG_Yu0t4jS2WNs,751
+pyproject_creator/template/logs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyproject_creator/template/logs/_default.py,sha256=kDCsHyUBRKyBFlOG5MQi8g_HYVt-6VeEjq2vuDmQ6sY,3252
+pyproject_creator/template/pyproject.template,sha256=j9oJPSLXal95Spp8AJZc-I-7Qu3CNN-woN6-njTjxDw,2230
+pyproject_creator/template/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyproject_creator/template/tests/test_sample.py,sha256=3odgMZTlXMWhDD2o38NYo9dsplbL-oXD1pOuKC591BI,43
+pyproject_creator-0.1.1.dist-info/LICENSE,sha256=p9EPOLzuOfCuv2bH8SRXTjiWhju9rZto4CdHFG0WI6M,1065
+pyproject_creator-0.1.1.dist-info/METADATA,sha256=ZcKq1WCEwwJ0fsw_O3em-vn9NXMWpahpWPad8Ywr53A,2800
+pyproject_creator-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pyproject_creator-0.1.1.dist-info/entry_points.txt,sha256=8GEM5kFYFT4Md70oTnXoOa7hZIIpjlMURygD_A1u-5o,62
+pyproject_creator-0.1.1.dist-info/RECORD,,
