@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: MiRouter
+Version: 1.0.0
+Summary: Python library for interacting with Xiaomi routers via their web API
+Home-page: https://github.com/FlacSy/MiRouter
+Author: FlacSy
+Author-email: flacsy.x@gmail.com
+License: MIT
+Keywords: Xiaomi router web API
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests
