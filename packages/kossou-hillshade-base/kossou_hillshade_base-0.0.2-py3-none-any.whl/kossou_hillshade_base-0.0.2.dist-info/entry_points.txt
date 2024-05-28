@@ -1,0 +1,2 @@
+[console_scripts]
+kossou-hillshade-base = kossou_hillshade_base.kossou_hillshade_base:main
