@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pypdf2htmlEX/__init__.py
+pypdf2htmlEX/core.py
+pypdf2htmlex.egg-info/PKG-INFO
+pypdf2htmlex.egg-info/SOURCES.txt
+pypdf2htmlex.egg-info/dependency_links.txt
+pypdf2htmlex.egg-info/top_level.txt
