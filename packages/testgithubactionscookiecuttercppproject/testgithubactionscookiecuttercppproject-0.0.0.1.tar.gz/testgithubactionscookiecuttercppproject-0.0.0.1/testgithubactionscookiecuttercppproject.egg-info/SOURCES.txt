@@ -1,0 +1,7 @@
+README.md
+setup.py
+testgithubactionscookiecuttercppproject/__init__.py
+testgithubactionscookiecuttercppproject.egg-info/PKG-INFO
+testgithubactionscookiecuttercppproject.egg-info/SOURCES.txt
+testgithubactionscookiecuttercppproject.egg-info/dependency_links.txt
+testgithubactionscookiecuttercppproject.egg-info/top_level.txt
