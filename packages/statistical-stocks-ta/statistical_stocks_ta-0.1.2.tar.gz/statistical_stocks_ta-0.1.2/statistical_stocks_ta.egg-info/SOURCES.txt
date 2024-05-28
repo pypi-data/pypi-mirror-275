@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+statistical_stocks_ta/__init__.py
+statistical_stocks_ta/indicators.py
+statistical_stocks_ta/patterns.py
+statistical_stocks_ta/plotting.py
+statistical_stocks_ta/smc.py
+statistical_stocks_ta/statistical_stocks_ta.py
+statistical_stocks_ta/support_resistance.py
+statistical_stocks_ta.egg-info/PKG-INFO
+statistical_stocks_ta.egg-info/SOURCES.txt
+statistical_stocks_ta.egg-info/dependency_links.txt
+statistical_stocks_ta.egg-info/requires.txt
+statistical_stocks_ta.egg-info/top_level.txt

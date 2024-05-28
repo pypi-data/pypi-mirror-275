@@ -1,0 +1,358 @@
+Metadata-Version: 2.1
+Name: statistical-stocks-ta
+Version: 0.1.2
+Summary: A python package for Statistical Stocks TA (computing patterns, ma, indicators) and data fetching.
+Home-page: https://github.com/Nils-Lopez/statistical-stocks-ta
+Author: Nils Lopez
+Author-email: lopez.nils@doctopus.app
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: ta
+Requires-Dist: mplfinance
+Requires-Dist: ccxt
+Requires-Dist: scikit-learn
+Requires-Dist: smartmoneyconcepts
+
+# Statistical Stocks TA
+
+The `statistical-stocks-ta` provides a comprehensive suite of tools for technical analysis and visualization of financial time series data. This package supports the calculation of various technical indicators, pattern detection, plotting analysis, and more.
+
+## Installation
+
+To install the package, you can use `pip`:
+
+```bash
+pip install statistical-stocks-ta
+```
+
+## Usage
+
+### Fetching Data
+
+First, fetch the OHLCV data using the `fetch_data` function:
+
+```python
+from statistical_ta import fetch_data
+
+data = fetch_data(symbol='SOL/USDT', timeframe='1h', limit=300)
+```
+
+## Functions
+
+### analyze_candles
+
+Analyzes the given OHLCV data using various technical indicators and patterns.
+
+```python
+import pandas as pd
+from statistical_ta import analyze_candles
+
+candles = pd.read_csv('data.csv')
+candles = analyze_candles(candles)
+```
+
+### Parameters:
+
+- `candles` (DataFrame): DataFrame containing the OHLCV data.
+- `calc_bollinger_bands` (bool, optional): Whether to calculate Bollinger Bands. Default is True.
+- `bb_settings` (dict, optional): Settings for Bollinger Bands calculation. Default is `{"window": 20, "std_dev": 2}`.
+- `calc_moving_averages` (bool, optional): Whether to calculate moving averages. Default is True.
+- `ma_settings` (dict, optional): Settings for moving averages calculation. Default is `{"short_window": 20, "long_window": 50}`.
+- `calc_rsi` (bool, optional): Whether to calculate RSI. Default is True.
+- `rsi_settings` (dict, optional): Settings for RSI calculation. Default is `{"window": 14}`.
+- `calc_macd` (bool, optional): Whether to calculate MACD. Default is True.
+- `macd_settings` (dict, optional): Settings for MACD calculation. Default is `{}`.
+- `detect_patterns` (bool, optional): Whether to detect patterns. Default is True.
+- `pattern_settings` (dict, optional): Settings for pattern detection. Default is `{}`.
+- `plot` (bool, optional): Whether to plot the analysis. Default is True.
+- `plot_settings` (dict, optional): Settings for plotting. Default is `{}`.
+
+### Response Data Structure/Type
+
+```json
+{
+  "index": {
+    "type": "datetime64[ns]",
+    "description": "Index representing the datetime of each observation"
+  },
+  "columns": {
+    "open": {
+      "type": "float64",
+      "description": "Opening price of the candle"
+    },
+    "high": {
+      "type": "float64",
+      "description": "Highest price of the candle"
+    },
+    "low": {
+      "type": "float64",
+      "description": "Lowest price of the candle"
+    },
+    "close": {
+      "type": "float64",
+      "description": "Closing price of the candle"
+    },
+    "volume": {
+      "type": "float64",
+      "description": "Volume traded during the candle"
+    },
+    "FVG": {
+      "type": "int64",
+      "description": "Fair Value Gap indicator, 1 for up, -1 for down, 0 otherwise"
+    },
+    "Swings": {
+      "type": "int64",
+      "description": "Swing indicator, 1 for high, -1 for low, 0 otherwise"
+    },
+    "BOS": {
+      "type": "int64",
+      "description": "Break of Structure indicator, 1 for up, -1 for down, 0 otherwise"
+    },
+    "OB": {
+      "type": "int64",
+      "description": "Order Blocks indicator, positive values indicate presence"
+    },
+    "Liquidity": {
+      "type": "int64",
+      "description": "Liquidity indicator, 1 for up, -1 for down, 0 otherwise"
+    },
+    "BB_high": {
+      "type": "float64",
+      "description": "Upper Bollinger Band value"
+    },
+    "BB_low": {
+      "type": "float64",
+      "description": "Lower Bollinger Band value"
+    },
+    "RSI": {
+      "type": "float64",
+      "description": "Relative Strength Index value"
+    },
+    "SMA_Short": {
+      "type": "float64",
+      "description": "Short-term Simple Moving Average"
+    },
+    "SMA_Long": {
+      "type": "float64",
+      "description": "Long-term Simple Moving Average"
+    },
+    "EMA_Short": {
+      "type": "float64",
+      "description": "Short-term Exponential Moving Average"
+    },
+    "EMA_Long": {
+      "type": "float64",
+      "description": "Long-term Exponential Moving Average"
+    },
+    "MACD": {
+      "type": "float64",
+      "description": "MACD value"
+    },
+    "MACD_Signal": {
+      "type": "float64",
+      "description": "MACD signal line value"
+    },
+    "Support_Q": {
+      "type": "float64",
+      "description": "Support level value"
+    },
+    "Resistance_Q": {
+      "type": "float64",
+      "description": "Resistance level value"
+    },
+    "Bullish_Divergence": {
+      "type": "int64",
+      "description": "Bullish Divergence pattern indicator"
+    },
+    "Bearish_Divergence": {
+      "type": "int64",
+      "description": "Bearish Divergence pattern indicator"
+    },
+    "Bullish_Reversal": {
+      "type": "int64",
+      "description": "Bullish Reversal pattern indicator"
+    },
+    "Bearish_Reversal": {
+      "type": "int64",
+      "description": "Bearish Reversal pattern indicator"
+    },
+    "Doji": {
+      "type": "int64",
+      "description": "Doji pattern indicator"
+    },
+    "Bearish_Engulfing": {
+      "type": "int64",
+      "description": "Bearish Engulfing pattern indicator"
+    },
+    "Bullish_Engulfing": {
+      "type": "int64",
+      "description": "Bullish Engulfing pattern indicator"
+    },
+    "Flag": {
+      "type": "int64",
+      "description": "Flag pattern indicator"
+    },
+    "Triangle": {
+      "type": "int64",
+      "description": "Triangle pattern indicator"
+    },
+    "Channel_Up": {
+      "type": "int64",
+      "description": "Channel Up pattern indicator"
+    },
+    "Channel_Down": {
+      "type": "int64",
+      "description": "Channel Down pattern indicator"
+    }
+  }
+}
+```
+
+### calculate_bollinger_bands
+
+Calculates Bollinger Bands for the given data.
+
+```python
+import pandas as pd
+from indicators import calculate_bollinger_bands
+
+candles = pd.read_csv('data.csv')
+candles = calculate_bollinger_bands(candles)
+```
+
+### Parameters:
+
+- `candles` (DataFrame): DataFrame containing the OHLCV data.
+- `window` (int, optional): The number of periods to use for the moving average. Default is 20.
+- `std_dev` (int, optional): The number of standard deviations to use for the bands. Default is 2.
+
+### calculate_moving_averages
+
+Calculates simple and exponential moving averages for the given data.
+
+```python
+import pandas as pd
+from indicators import calculate_moving_averages
+
+candles = pd.read_csv('data.csv')
+candles = calculate_moving_averages(candles)
+```
+
+### Parameters:
+
+- `candles` (DataFrame): DataFrame containing the OHLCV data.
+- `short_window` (int, optional): The number of periods for the short moving average. Default is 20.
+- `long_window` (int, optional): The number of periods for the long moving average. Default is 50.
+
+### calculate_rsi
+
+Calculates the Relative Strength Index (RSI) for the given data.
+
+```python
+import pandas as pd
+from indicators import calculate_rsi
+
+candles = pd.read_csv('data.csv')
+candles = calculate_rsi(candles)
+```
+
+### Parameters:
+
+- `candles` (DataFrame): DataFrame containing the OHLCV data.
+- `window` (int, optional): The number of periods to use for the RSI calculation. Default is 14.
+
+### calculate_macd
+
+Calculates the Moving Average Convergence Divergence (MACD) for the given data.
+
+```python
+import pandas as pd
+from indicators import calculate_macd
+
+candles = pd.read_csv('data.csv')
+candles = calculate_macd(candles)
+```
+
+### Parameters:
+
+- `candles` (DataFrame): DataFrame containing the OHLCV data.
+
+### detect_flags
+
+Detects flag patterns in the given data.
+
+```python
+import pandas as pd
+from patterns import detect_flags
+
+candles = pd.read_csv('data.csv')
+candles = detect_flags(candles)
+```
+
+### Parameters:
+
+- `candles` (DataFrame): DataFrame containing the OHLCV data.
+- `trend_window` (int, optional): The number of periods to define the prior trend. Default is 20.
+- `flag_window` (int, optional): The number of periods for the flag pattern. Default is 5.
+- `breakout_threshold` (float, optional): The threshold for breakout detection. Default is 0.1.
+
+### identify_patterns
+
+Identifies various candlestick patterns in the given data.
+
+```python
+import pandas as pd
+from patterns import identify_patterns
+
+candles = pd.read_csv('data.csv')
+candles = identify_patterns(candles)
+```
+
+### Parameters:
+
+- `candles` (DataFrame): DataFrame containing the OHLCV data.
+- `doji_threshold` (float, optional): The threshold for detecting Doji candles. Default is 0.1.
+- `buffer_factor` (float, optional): The factor for adjusting buffer in channel detection. Default is 0.5.
+- `rolling_window` (int, optional): The window size for rolling calculations. Default is 10.
+- `channel_window_range` (tuple, optional): The range for channel window size. Default is (10, 15).
+- `flag_sensitivity` (float, optional): Sensitivity for flag detection. Default is 0.8.
+
+### plot_analysis
+
+Plots the analysis of the given data using `mplfinance`.
+
+```python
+import pandas as pd
+from plotting import plot_analysis
+
+candles = pd.read_csv('data.csv')
+plot_analysis(candles)
+```
+
+### Parameters:
+
+- `candles` (DataFrame): DataFrame containing the OHLCV data.
+
+### quantile_regression_support_resistance
+
+Calculates support and resistance levels using quantile regression.
+
+```python
+import pandas as pd
+from support_resistance import quantile_regression_support_resistance
+
+candles = pd.read_csv('data.csv')
+candles = quantile_regression_support_resistance(candles)
+```
+
+### Parameters:
+
+- `candles` (DataFrame): DataFrame containing the OHLCV data.
+- `quantiles` (list, optional): List of quantiles to calculate. Default is `[0.10, 0.90]`.
