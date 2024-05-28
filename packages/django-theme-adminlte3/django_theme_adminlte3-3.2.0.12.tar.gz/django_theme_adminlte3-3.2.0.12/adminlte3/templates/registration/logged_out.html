@@ -1,0 +1,10 @@
+{% extends "adminlte3/layouts/base_auth.html" %}
+{% load static i18n %}
+
+{% block content_wrapper %}
+    <p>{% translate "Thanks for spending some quality time with the web site today." %}</p>
+    {% if layout_home_url_name %}<p><a href="{% url layout_home_url_name %}">{% translate 'Entrar novamente' %}</a></p>{% endif %}
+{% endblock content_wrapper %}
+{% block extra_bottom_scripts %}
+<iframe src="https://login.sabia.ufrn.br/sair/" style="display: none"></iframe>
+{% endblock extra_bottom_scripts %}

@@ -1,0 +1,313 @@
+{% load i18n admin_urls static admin_modify %}<!DOCTYPE html>
+{% get_current_language as LANGUAGE_CODE %}{% get_current_language_bidi as LANGUAGE_BIDI %}
+<html lang="{{ LANGUAGE_CODE|default:"en-us" }}" dir="{{ LANGUAGE_BIDI|yesno:'rtl,ltr,auto' }}">
+
+<head>
+  <script>function gettext(txt){ return txt }</script>
+  <script>function pgettext(txt){ return txt }</script>
+  <script>function get_format(txt){ return txt }</script>
+  <script>function gettext_noop(txt){ return txt }</script>
+  <meta charset="utf-8" />
+
+  <meta name="keywords" content="{{ site_keywords }}" />
+  <meta name="description" content="{{ site_description }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {% block blockbots %}<meta name="robots" content="NONE,NOARCHIVE" />{% endblock %}
+
+  <title>{% block title %}{{ layout_site_name }}{% if page_title %} | {{ page_title }} {% endif %}{% endblock title %}</title>
+  {% block favicon %}
+    <link rel="apple-touch-icon" sizes="120x120" href="{% static '/vendors/favicon/apple-touch-icon.png' %}" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static '/vendors/favicon/favicon-32x32.png' %}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static '/vendors/favicon/favicon-16x16.png' %}" />
+    <link rel="manifest" href="{% static '/vendors/favicon/site.webmanifest' %}" />
+    <link rel="shortcut icon" href="{% static '/vendors/favicon/favicon.ico' %}" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-config" content="/vendors/static/favicon/browserconfig.xml' %}" />
+    <meta name="theme-color" content="#ffffff" />
+  {% endblock favicon %}
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="{% static '/vendors/fontawesome-free/css/all.min.css' %}" />
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="{% static '/vendors/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css' %}" />
+  <!-- iCheck -->
+  <link rel="stylesheet" href="{% static '/vendors/icheck-bootstrap/icheck-bootstrap.min.css' %}" />
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="{% static '/vendors/jqvmap/jqvmap.min.css' %}" />
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{% static '/vendors/adminlte3/css/adminlte.min.css' %}" />
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="{% static '/vendors/overlayScrollbars/css/OverlayScrollbars.min.css' %}" />
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="{% static '/vendors/daterangepicker/daterangepicker.css' %}" />
+  <!-- summernote -->
+  <link rel="stylesheet" href="{% static '/vendors/summernote/summernote-bs4.min.css' %}" />
+
+  <link rel="stylesheet" type="text/css" href="{% static 'custom/css/custom.css' %}" />
+  <style>
+    .nav-item > ul.nav.nav-treeview {
+      margin-left: 25px;
+    }
+    fieldset label {
+      display: block;
+      width: 100%;
+    }
+    fieldset .custom-select {
+        width: unset;
+    }
+    .helptext {
+        color: #6c757d !important;
+        display: block;
+        margin-top: .25rem;
+        font-size: 80%;
+        font-weight: 400;
+        margin-top: -10px;;
+    }
+
+    input[type=date].form-control:invalid,
+    input[type=text].form-control:invalid,
+    input[type=checkbox].form-control:invalid,
+    input[type=radio].form-control:invalid {
+      border-color: #dc3545;
+    }
+    input[type=date].form-control:valid,
+    input[type=text].form-control:valid,
+    input[type=checkbox].form-control:valid,
+    input[type=radio].form-control:valid {
+      border-color: #28a745;
+    }
+
+    .invalid-feedback:required:invalid:after {
+    }
+
+    .errorlist {
+      color: #dc3545;
+    }
+    .form-group label {
+      font-weight: 400 !important;
+    }
+    .form-group label.required {
+      font-weight: 700 !important;
+    }
+    .callout-info i.fas.fa-info {
+      width: 15px;
+    }
+  </style>
+
+  {% block stylesheet_rtl %}{% endblock stylesheet_rtl %}
+
+  {% block extrahead %}{% endblock extrahead %}
+
+  {% block responsive %}{% endblock responsive %}
+
+  {% block extra_styles %}{% endblock extra_styles %}
+
+  {% if cl or action_form %} <script src="{% url 'admin:jsi18n' %}"></script>{% endif %}
+  {% block extra_top_scripts %}{% endblock extra_top_scripts %}
+</head>
+<body class="{% if is_popup %}popup {% endif %} {% block body_classes %} hold-transition sidebar-mini sidebar-collapse {% block bodyclass %}{% if body_classes %}{{ body_classes }}{% endif %}{% endblock bodyclass %}{% endblock body_classes %}" data-admin-utc-offset="{% now "Z" %}">
+<div class="wrapper">
+
+  <!-- Preloader -->
+  {% block preloader %}
+  <div class="preloader flex-column justify-content-center align-items-center">
+      <img class="animation__shake" src="{% static '/vendors/adminlte3/img/AdminLTELogo.png' %}" width="60" height="60" />
+  </div>
+  {% endblock preloader %}
+
+  <!-- Navbar -->
+  {% block navbar %}
+    {% include 'adminlte3/layouts/partials/navbar.html' %}
+  {% endblock navbar %}
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  {% block main_sidebar %}
+    {% include 'adminlte3/layouts/partials/main_sidebar.html' %}
+  {% endblock main_sidebar %}
+  <!-- /.main_sidebar -->
+
+  <!-- Content Wrapper. Contains page content -->
+  {% block content_wrapper %}
+      <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        {% block content_header %}
+          <section class="content-header">
+              <div class="container-fluid">
+                <div class="row mb-2">
+                    <div class="col-sm-6">
+                      <h1 class="m-0">
+                        {% block content_title %}
+                          {% if page_title %}
+                            {{ page_title }}
+                          {% elif cl.opts %}
+                            {{ cl.opts.verbose_name_plural|capfirst }}
+                          {% elif opts %}
+                            {% if add %}{% blocktranslate with name=opts.verbose_name %}Add {{ name }}{% endblocktranslate %}{% else %}{% blocktranslate with name=opts.verbose_name %}Change {{ name }}{% endblocktranslate %}{% endif %}
+                          {% else %}
+                            {{ layout_auto_page_title }}
+                          {% endif %}
+                        {% endblock content_title %}
+                      </h1>
+                    </div>
+
+                  {% if not is_popup %}
+                    {% block breadcrumbs %}
+                      <div class="col-sm-6">
+                        <ol class="breadcrumb float-sm-right">
+                          {% if layout_home_url_name %}<li class="breadcrumb-item"><a href="{% url layout_home_url_name %}">{% translate 'Home' %}</a></li>{% endif %}
+                          {% if cl.opts %}
+                            <li class="breadcrumb-item"><a href="{% url 'admin:index' %}">{% translate 'Admin' %}</a></li>
+                            {% comment %} <li class="breadcrumb-item"><a href="{% url 'admin:app_list' app_label=cl.opts.app_label %}">{{ cl.opts.app_config.verbose_name }}</a></li> {% endcomment %}
+                            <li class="breadcrumb-item active">{{ cl.opts.verbose_name_plural|capfirst }}</li>
+                          {% elif opts %}
+                            <li class="breadcrumb-item"><a href="{% url 'admin:index' %}">{% translate 'Admin' %}</a></li>
+                            <li class="breadcrumb-item">{% if has_view_permission %}<a href="{% url opts|admin_urlname:'changelist' %}">{{ opts.verbose_name_plural|capfirst }}</a>{% else %}{{ opts.verbose_name_plural|capfirst }}{% endif %}</li>
+                            <li class="breadcrumb-item active">{% if add %}{% blocktranslate with name=opts.verbose_name %}Add {{ name }}{% endblocktranslate %}{% else %}{{ original|truncatewords:"18" }}{% endif %}</li>
+                          {% else %}
+                            <li class="breadcrumb-item active">{% if page_title %}{{ page_title }}{% else %}{{ layout_auto_page_title }}{% endif %}</li>
+                          {% endif %}
+                        </ol>
+                      </div><!-- /.col -->
+                    {% endblock breadcrumbs %}
+                  {% endif %}
+                </div><!-- /.row -->
+                {% block content_subtitle %}
+                  {% if subtitle %}
+                    <div class="row mb-2">
+                      <h2>{{ subtitle }}</h2>
+                    </div><!-- /.row -->
+                  {% endif %}
+                {% endblock content_subtitle %}
+              </div><!-- /.container-fluid -->
+          </section>
+        {% endblock content_header %}
+        <!-- /.content-header -->
+
+      <!-- Main content -->
+      <section class="content">
+        <div class="container-fluid">
+          {% block messages %}
+            {% if messages %}
+              {% for message in messages %}
+                <div class="alert alert-{{ message.tags }} alert-dismissible">
+                  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                  <h5><i class="icon fas fa-check"></i> Sucesso!</h5>
+                  {{ message }}
+                </div>
+              {% endfor %}
+            {% endif %}
+          {% endblock messages %}
+          {% block object-tools %}{% endblock %}
+          {% block content %}
+            {% block content_body %}
+                <div class="card">
+                    <div class="card-body">
+                    <div class="row">
+                        <div class="col-12">{% block content_inner %}{% endblock content_inner %}</div>
+                    </div>
+                    </div>
+                </div>
+            {% endblock content_body %}
+          {% endblock content %}
+          {% block sidebar %}{% endblock sidebar %}
+          <br class="clear" />
+        </div >
+      </section>
+      <!-- /.content -->
+    </div>
+  {% endblock content_wrapper %}
+  <!-- /.content-wrapper -->
+
+  <!-- Footer -->
+  {% block footer %}
+  {% comment %} <footer class="main-footer">
+    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>All rights reserved.
+    <div class="float-right d-none d-sm-inline-block"><b>Version</b> 3.2.0</div>
+  </footer> {% endcomment %}
+  {% endblock footer %}
+  <!-- /.footer -->
+
+  <!-- Control Sidebar -->
+  {% block control_sidebar %}
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  {% endblock control_sidebar %}
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+{% block bottom_scripts %}
+  <!-- jQuery -->
+  <script src="{% static '/vendors/jquery/jquery.min.js'%}"></script>
+  <!-- Bootstrap 4 -->
+  <script src="{% static '/vendors/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <!-- AdminLTE App -->
+  <script src="{% static '/vendors/adminlte3/js/adminlte.js' %}"></script>
+
+
+  <!-- jQuery UI 1.11.4 -->
+  <script src="{% static '/vendors/jquery-ui/jquery-ui.min.js' %}"></script>
+  <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+  <script>$.widget.bridge('uibutton', $.ui.button)</script>
+  <!-- ChartJS -->
+  <script src="{% static '/vendors/chart.js/Chart.min.js' %}"></script>
+  <!-- Sparkline -->
+  <script src="{% static '/vendors/sparklines/sparkline.js' %}"></script>
+  <!-- JQVMap -->
+  <script src="{% static '/vendors/jqvmap/jquery.vmap.min.js' %}"></script>
+  <script src="{% static '/vendors/jqvmap/maps/jquery.vmap.usa.js' %}"></script>
+  <!-- jQuery Knob Chart -->
+  <script src="{% static '/vendors/jquery-knob/jquery.knob.min.js' %}"></script>
+  <!-- daterangepicker -->
+  <script src="{% static '/vendors/moment/moment-with-locales.min.js' %}"></script>
+  <script src="{% static '/vendors/daterangepicker/daterangepicker.js' %}"></script>
+  <!-- Summernote -->
+  <script src="{% static '/vendors/summernote/summernote-bs4.min.js' %}"></script>
+  <!-- overlayScrollbars -->
+  <script src="{% static '/vendors/overlayScrollbars/js/jquery.overlayScrollbars.min.js' %}"></script>
+  <!-- Tempusdominus Bootstrap 4 -->
+  <!--  <script src="{% static '/vendors/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.js' %}"></script>  -->
+
+  <script>
+    $('input').on('invalid', function(e){
+      $(e.target).addClass("is-invalid")
+    });
+    $('input').on('blur', function(e){
+      if ( $(e.target).attr('required') && $(e.target).val().trim() == '') {
+
+      } else {
+        $(e.target).removeClass("is-invalid")
+      }
+    });
+  </script>
+
+  {% comment %}
+  <script>
+    $(function () {
+      $('#id_date_field-input-group').datetimepicker({format: 'DD/MM/YYYY', sideBySide: true, locale: "pt-BR"});
+      $('#id_time-input-group').datetimepicker({format: 'HH:mm'});
+    })
+  </script>
+{% endcomment %}
+<script>
+
+</script>
+{% endblock bottom_scripts %}
+
+{% block customizer_scripts %}
+  {% if layout_has_customizer %}
+  <!-- AdminLTE for demo purposes -->
+  <script src="{% static '/vendors/adminlte3/js/customizer.js' %}"></script>
+  {% endif %}
+{% endblock customizer_scripts %}
+
+{% block extra_bottom_scripts %}
+{% endblock extra_bottom_scripts %}
+</body>
+</html>
