@@ -1,0 +1,5 @@
+Paste
+PasteScript
+WebOb
+docutils
+genshi
