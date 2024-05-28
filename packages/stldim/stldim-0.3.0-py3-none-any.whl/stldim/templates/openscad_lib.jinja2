@@ -1,0 +1,49 @@
+// File: {{ stlfile }}
+obj = ['\t\timport("', stlfile, '");']
+
+{{ varname }}_xsize = {{ stl_dimensions['xsize'] }}
+{{ varname }}_ysize = {{ stl_dimensions['ysize'] }}
+{{ varname }}_zsize = {{ stl_dimensions['zsize'] }}
+{{ varname }}_xposition = {{ stl_dimensions['minx'] }}
+{{ varname }}_yposition = {{ stl_dimensions['miny'] }}
+{{ varname }}_zposition = {{ stl_dimensions['minz'] }}
+
+
+# --------------------
+NE=1; NW=2; SW=3; SE=4; CTR=5; CTRXY=6;
+
+module {{varname}}_obj2origin (where) {
+    if (where == NE) {
+        {{varname}}_objNE ();
+    }
+
+    if (where == NW) {
+        translate(-{{stl_dimensions['xsize']}},0,0])
+        {{varname}}_objNE ();
+    }
+
+    if (where == SW) {
+        translate(-{{stl_dimensions['xsize']}},-{{stl_dimensions['xsize']}},0])
+        {{varname}}_objNE ();
+    }
+
+    if (where == SE) {
+        translate([0,-{{stl_dimensions['ysize']}},0])
+        {{varname}}_objNE ();
+    }
+
+    if (where == CTR) {
+        translate([{{-stl_dimensions['midx']}},{{-stl_dimensions['midy']}},{{-stl_dimensions['midz']}}])
+        {{varname}}_objNE ();
+    }
+
+    if (where == CTRXY) {
+        translate([{{-stl_dimensions['midx']}},{{-stl_dimensions['midy']}},0])
+        {{varname}}_objNE ();
+    }
+}
+    
+module {{varname}}_objNE () {
+    translate([ {{-stl_dimensions['minx']}},{{-stl_dimensions['miny']}},{{-stl_dimensions['minz']}}])
+        import("{{stlfile}}");
+}
