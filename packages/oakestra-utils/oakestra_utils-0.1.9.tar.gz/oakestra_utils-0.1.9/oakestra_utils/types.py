@@ -1,0 +1,38 @@
+import enum
+
+
+class CustomEnum(enum.Enum):
+    def __str__(self) -> str:
+        return self.value
+
+
+class ServiceStatus(CustomEnum):
+    # DEV note: Exist for sure
+    CLUSTER_SCHEDULED = "CLUSTER_SCHEDULED"
+    NODE_SCHEDULED = "NODE_SCHEDULED"
+    REQUESTED = "REQUESTED"
+    ACTIVE = "ACTIVE"  # TODO figure out strong difference between ACTIVE and RUNNING and rename
+    # if both are truly needed
+    RUNNING = "RUNNING"
+    COMPLETED = "COMPLETED"
+    # Exist but unsure if it fits for service (i.e. other enum might be better)
+    NO_WORKER_CAPACITY = "NO_WORKER_CAPACITY"
+    FAILED = "FAILED"
+    # failed vs dead?
+    DEAD = "DEAD"
+    # Even stranger
+    TARGET_CLUSTER_NOT_FOUND = "TargetClusterNotFound"
+    TARGET_CLUSTER_NOT_ACTIVE = "TargetClusterNotActive"
+    TARGET_CLUSTER_NO_CAPACITY = "TargetClusterNoCapacity"
+    NO_ACTIVE_CLUSTER_WITH_CAPACITY = "NoActiveClusterWithCapacity"
+    # Strangest
+    LEGACY_0 = "0"
+    LEGACY_1 = "1"
+    # DEV note: unsure if exist in non Node-Engine code - need to check
+    CREATING = "CREATING"
+    UNDEPLOYED = "UNDEPLOYED"
+
+
+class SchedulingStatus(CustomEnum):
+    POSITIVE = "positive"
+    NEGATIVE = "negative"
