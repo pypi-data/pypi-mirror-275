@@ -1,0 +1,50 @@
+#========================================================================================================================================
+# CyborgAI CC BY-NC-ND 4.0 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 Internation    https://github.com/cyborg-ai-git # 
+#========================================================================================================================================
+
+#API TYPE:
+#   STRING [DEFAULT_VALUE] 
+#   IMAGE
+#   AUDIO
+#   VIDEO
+#   FILE
+#   LANGUAGE [DEFAULT_VALUE] 
+#   INT [DEFAULT_VALUE] [MIN_VALUE] [MAX_VALUE]
+#   LONG [DEFAULT_VALUE] [MIN_VALUE] [MAX_VALUE]
+#   FLOAT [DEFAULT_VALUE] [MIN_VALUE] [MAX_VALUE]
+#   DOUBLE [DEFAULT_VALUE] [MIN_VALUE] [MAX_VALUE]
+#   BYTE
+#   BYTES
+#   BOOL [DEFAULT_VALUE]
+#   EOBJECT EOBJECT_CLASS
+#   MAP EOBJECT_CLASS
+package: evo_core_api
+
+entity:
+  EApiFile:
+    isUrl: BOOL
+    name : STRING
+    ext: STRING
+    length : LONG
+    data: BYTES
+
+  EApiImage:
+    isUrl: BOOL
+    name : STRING
+    ext: STRING
+    length : LONG
+    data: BYTES
+
+  EApiVideo:
+    isUrl: BOOL
+    name : STRING
+    ext: STRING
+    length : LONG
+    data: BYTES
+
+  EApiAudio:
+    isUrl: BOOL
+    name : STRING
+    ext: STRING
+    length : LONG
+    data: BYTES
