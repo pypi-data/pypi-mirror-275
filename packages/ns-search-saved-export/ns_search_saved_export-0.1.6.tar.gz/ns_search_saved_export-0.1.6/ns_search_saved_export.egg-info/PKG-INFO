@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: ns_search_saved_export
+Version: 0.1.6
+Summary: A library for interacting with NetSuite API and exporting data
+Home-page: https://github.com/gildder/netsuite-search-saved-export
+Author: Gildder
+Author-email: gildder@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: oauth2
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: setuptools
+Requires-Dist: openpyxl
+
+# NetSuite SEARCH SAVED EXPORT
+
+This library allows you to interact with saved searches by importing data from saved searches in Excel, CSV, and TXT formats.
+
+## Installation
+
+```python
+pip install ns_search_saved_export
+```
+
+## Usage
+
+```python
+from ns_search_saved_export.ns_search_saved_export import NsSearchSavedExport
+
+# Initialize the API
+api = NsSearchSavedExport(
+    url='https://your-netsuite-url',
+    consumer_key='your_consumer_key',
+    consumer_secret='your_consumer_secret',
+    token_key='your_token_key',
+    token_secret='your_token_secret',
+    realm='your_realm'
+)
+
+# Send request
+payload = {
+    "search_id": "1234"  # Replace with your saved search ID
+}
+response = api.send_request(payload)
+
+# Extract data
+data = api.extract_data(response)
+
+# Save data to Excel
+api.save_to_excel(data, 'data.xlsx', 'Sheet1')
+
+# Save data to CSV
+api.save_to_csv(data, 'data.csv')
+
+# Save data to TXT
+api.save_to_txt(data, 'data.txt')
+
+```

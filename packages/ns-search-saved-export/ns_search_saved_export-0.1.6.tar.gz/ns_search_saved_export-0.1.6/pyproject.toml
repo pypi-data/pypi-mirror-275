@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ns-search-saved-export"
+version = "0.1.0"
+description = ""
+authors = ["Gildder <gilberet@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+requests = "^2.32.2"
+oauth2 = "^1.9.0.post1"
+openpyxl = "^3.1.2"
+setuptools = "^70.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+wheel = "^0.43.0"
+twine = "^5.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
