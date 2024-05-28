@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/pcx/__init__.py
+src/pcx/hello_world.py
+src/pcx.egg-info/PKG-INFO
+src/pcx.egg-info/SOURCES.txt
+src/pcx.egg-info/dependency_links.txt
+src/pcx.egg-info/top_level.txt

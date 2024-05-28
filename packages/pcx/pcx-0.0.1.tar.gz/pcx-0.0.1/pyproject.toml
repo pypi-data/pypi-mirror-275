@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "pcx"
+version = "0.0.1"
+description = "Coming Soon!"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+authors = [
+    { name = "Luca Pinchetti", email = "luca.pinchetti@cs.ox.ac.uk" },
+    { name = "Cornelius Emde", email = "cornelius.emde@cs.ox.ac.uk" },
+]
