@@ -1,0 +1,10 @@
+b3fileparser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+b3fileparser/b3_meta_data.py,sha256=TUNB-fVOY4m-SrB9k8Msz3t6oE6xdYSatUWhBr1L6G4,3687
+b3fileparser/b3parser.py,sha256=VQx6dESyfhb9gHakNpGGm7s8yTFRW0CXfRf-yBBj7II,1029
+b3fileparser/b3parser_base.py,sha256=2V2m3qqhAE73Uq5S6cjeR_ygik2TCitbEl9e1yo2SO4,2251
+b3fileparser/b3parser_pandas.py,sha256=3lXnPKjyFku7wxYIfY9GvT5kDd12JC9cKId-HwjRkHw,2165
+b3fileparser/b3parser_polars.py,sha256=FHNw8p4dIxKsTk9siPd8ica8mVmd8fHt6PCQzu9BPCo,3313
+b3fileparser-0.2.1.dist-info/LICENSE,sha256=COaS_uE3-lkYElv7J1Vvj8ck2-pXdm3MT_GGwMi0qis,1069
+b3fileparser-0.2.1.dist-info/METADATA,sha256=kQovGPF_lqCtBhOPPhljJKJ-WERyMLJH7i-MECSuEc8,12654
+b3fileparser-0.2.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+b3fileparser-0.2.1.dist-info/RECORD,,
