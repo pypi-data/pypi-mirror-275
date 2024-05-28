@@ -1,0 +1,5 @@
+pytest_xstress.py,sha256=A49xLbQ0OIcMRktFyg5jt2-E2XMt6NCboJUyUSEmris,7390
+pytest_xstress-1.0.0.dist-info/METADATA,sha256=oihIbxLcSK8HFfK_zVmKrYEchdK8O7cEBzwL38ZdtjY,2669
+pytest_xstress-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pytest_xstress-1.0.0.dist-info/entry_points.txt,sha256=dbKpRJKyfFMYmYPeQyaKu4nFSv5TQr9mnG0IRkMEnbE,35
+pytest_xstress-1.0.0.dist-info/RECORD,,
