@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+slackattack.egg-info/PKG-INFO
+slackattack.egg-info/SOURCES.txt
+slackattack.egg-info/dependency_links.txt
+slackattack.egg-info/requires.txt
+slackattack.egg-info/top_level.txt
