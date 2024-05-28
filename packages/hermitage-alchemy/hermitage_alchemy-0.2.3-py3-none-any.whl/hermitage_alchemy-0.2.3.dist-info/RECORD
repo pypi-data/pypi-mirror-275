@@ -1,0 +1,12 @@
+hermitage_alchemy/__init__.py,sha256=jbiEJt7LKeLTqdCK2cjyPu4q6jLTGHvJwDz6jzAK6ZY,504
+hermitage_alchemy/assembling.py,sha256=60zvWNemI8AKtH3bttlHQHpR6adVONUFVyRfG3T1GaM,10439
+hermitage_alchemy/bootstraping.py,sha256=Fppxp7b7HOq4trp4-EeRHacvrSzGlxe-l1x8UX7lmGQ,826
+hermitage_alchemy/configuration.py,sha256=WuGNRlnkzQCHJkJFb1j-beJEG6Nxa4UUhNjOzRg4Hk0,6852
+hermitage_alchemy/definition/__init__.py,sha256=gduB8XZqaQGgd3JWK_mJBIoZuaXkSWD17pUfYFDHt-U,24
+hermitage_alchemy/definition/contracts.py,sha256=N89Nr9LFiI9KSiGCRgShnJ3ySydqq8oROl5DUKSHgVA,718
+hermitage_alchemy/execution/__init__.py,sha256=1rAP0MAx_n0y3WOtBoy1Wz9xiNhM0d6pA-3gEmbjLMQ,60
+hermitage_alchemy/execution/read.py,sha256=GbkDSDOeHDSQWxEJu8BDeyHEwfeDLGxQU_OhcmBshRs,6991
+hermitage_alchemy/execution/write.py,sha256=DLQ2SLL4I9NfZ4frNXIAgw_8yHwKH5JpB5kxq9pnfgA,1165
+hermitage_alchemy-0.2.3.dist-info/METADATA,sha256=pEgq65M-ScGZFLu306Uein3CutW3zas4l3hLus0VUMA,602
+hermitage_alchemy-0.2.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+hermitage_alchemy-0.2.3.dist-info/RECORD,,
