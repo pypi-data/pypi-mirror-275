@@ -1,0 +1,14 @@
+pyvmo/__init__.py,sha256=JmFr2PdP02v-ILnStaPF7YdX-LOUH-u8PvV3Ut_HNfA,26
+pyvmo/cli.py,sha256=M4IeE-yGaontVLe-zGLgvmgbdeRy1Stk68YfJ10W--Q,5665
+pyvmo/format.py,sha256=g7SfvSdPRNHRwXpM6uE6xCslFesPsCQNykNtz70YUBM,7257
+pyvmo/operation.py,sha256=rqIy2T6BWuPYdOr7fueR64Yjgi17jkRnmTuQkMWiOtM,7007
+pyvmo/versions.py,sha256=5XMlxmTNtnwaHvljIRN07taQQfh1yJC8wfdnTVnTQs8,917
+pyvmo/vmo.py,sha256=0nITXYvAX-sIZQgsPgAWh7EAyZg7RqOTAhrX84u0koQ,3372
+pyvmo/distance/__init__.py,sha256=fYhX2BgdraCyzADzN-f6PUFOFm0A7ux9mLFxcWRK_Mg,91
+pyvmo/distance/ibs.py,sha256=gNRF6RHbQGleVwuppKf4KQpLkykWFsKqw8LIxjG4Gi8,9662
+pyVMO-0.0.4.dist-info/LICENSE,sha256=pkV8wZUh1utciI2To1_j55qBRAq6Dh4oRSLMJBMs-UI,1066
+pyVMO-0.0.4.dist-info/METADATA,sha256=hn7n-NZK0Z7zbFQ9NdyQz7koh7MI_XoiXuZI-2u4ulQ,2746
+pyVMO-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyVMO-0.0.4.dist-info/entry_points.txt,sha256=eMkfpTlTs9xteMwV9RiyvT-j0gutCnmEobu1rk64i3M,41
+pyVMO-0.0.4.dist-info/top_level.txt,sha256=JRjG0AeatEKdFBP_JlQYVCEeWCRqOESszmg9ScBVclI,6
+pyVMO-0.0.4.dist-info/RECORD,,
