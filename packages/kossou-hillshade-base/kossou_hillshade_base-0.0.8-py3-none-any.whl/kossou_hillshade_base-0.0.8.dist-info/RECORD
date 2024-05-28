@@ -1,0 +1,8 @@
+kossou_hillshade_base/__init__.py,sha256=vVoOa3QGPcFr2TFiZIvlrjCoE8uuYYHdA59ud8Sgh_s,448
+kossou_hillshade_base/kossou_hillshade_base.py,sha256=AZIziN2VI0ZWkTRB5YNvrQzBvvInIrwcpvpEwdISZrI,1946
+kossou_hillshade_base/version.py,sha256=vsrHgjddLp3brI_qztRvUQus4x51OBbPl9XzWgH09SQ,90
+kossou_hillshade_base/static/n07_w006_3arc_v2.tif,sha256=8kq02JEnY2DCkfQC4dyNBrpEgHWPWAGO8vEm_rqJ6NI,2889600
+kossou_hillshade_base-0.0.8.dist-info/METADATA,sha256=aM2LXWuamQnDms4kJT1MPqE-ZpycU9E26cIds7_5w1o,3352
+kossou_hillshade_base-0.0.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+kossou_hillshade_base-0.0.8.dist-info/top_level.txt,sha256=88yOSrxSVs6JVb-ULMRvnSi4gdU5q1fh1OJFvAQ8Xto,22
+kossou_hillshade_base-0.0.8.dist-info/RECORD,,
