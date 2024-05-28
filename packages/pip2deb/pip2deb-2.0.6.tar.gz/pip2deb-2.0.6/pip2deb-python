@@ -1,0 +1,110 @@
+#!/usr/bin/env python3
+import os
+import sys
+import subprocess
+import shutil
+import venv
+
+# Farben definieren
+class Colors:
+    GREEN = "\033[01;32m"
+    RED = "\033[01;31m"
+    BLUE = "\033[01;34m"
+    CYAN = "\033[01;36m"
+    RESET = "\033[0m"
+
+def msg(text):
+    print(f"{Colors.GREEN}[{Colors.RED}*{Colors.GREEN}]{Colors.CYAN} {text} {Colors.RESET}")
+
+def abort():
+    msg(f"{Colors.RED}Unsuccessful, Canceling...")
+    shutil.rmtree('.tmp-venv', ignore_errors=True)
+    sys.exit(1)
+
+def handle_flags(flags, name):
+    if flags:
+        msg("Flags Found")
+        for flag in flags:
+            if flag in ['--debug', '-d']:
+                msg(f"{Colors.GREEN}{flag} is valid")
+                sys.stdout = open(f'{name}-output.log', 'w')
+            elif flag in ['--install', '-i']:
+                handle_installation()
+            else:
+                msg(f"{Colors.RED}{flag} is invalid")
+
+def handle_installation():
+    msg(f"{Colors.GREEN}Flag is Valid")
+    if distro in ["debian", "ubuntu"]:
+        if shutil.which('sudo'):
+            subprocess.run(['sudo', 'dpkg', '-i', '--force-overwrite', package_name], check=True)
+        else:
+            subprocess.run(['dpkg', '-i', '--force-overwrite', package_name], check=True)
+        msg(f"{Colors.GREEN}{Colors.BLUE}{package_name}{Colors.GREEN} Successfully Installed")
+    else:
+        subprocess.run(['dpkg', '-i', '--force-overwrite', package_name], check=True)
+        msg(f"{Colors.GREEN}{Colors.BLUE}{package_name}{Colors.GREEN} Successfully Installed")
+
+if len(sys.argv) < 3 or len(sys.argv) > 4:
+    msg(f"Usage: {sys.argv[0]} <name> <distro> [<flags>]")
+    sys.exit(1)
+
+name = sys.argv[1]
+distro = sys.argv[2]
+flags = sys.argv[3:]
+
+# Unterstützte Distributionen
+if distro in ["debian", "ubuntu"]:
+    prefix = "/usr"
+    pythonpath = "/usr/lib/python3/dist-packages"
+    depends = "python3, python3-venv, python-is-python3"
+elif distro == "termux":
+    prefix = "/data/data/com.termux/files/usr"
+    pythonpath = "/data/data/com.termux/files/usr/lib/python3.11/site-packages"
+    depends = "python, python"
+else:
+    msg(f"Unsupported distribution: {distro}")
+    sys.exit(1)
+
+# Virtuelle Umgebung erstellen und Modul installieren
+msg("Setting up Venv ...")
+venv.create('.tmp-venv', with_pip=True)
+subprocess.run([f'.tmp-venv/bin/pip', 'install', name], check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
+# Metadaten aus dem Modul extrahieren
+msg("Grep Meta Data from Module")
+package = subprocess.run(f'.tmp-venv/bin/pip show {name} | grep -E "^Name: "', shell=True, capture_output=True, text=True).stdout.split()[-1]
+version = subprocess.run(f'.tmp-venv/bin/pip show {name} | grep -E "^Version: "', shell=True, capture_output=True, text=True).stdout.split()[-1]
+summary = subprocess.run(f'.tmp-venv/bin/pip show {name} | grep -E "^Summary: "', shell=True, capture_output=True, text=True).stdout.split()[-1]
+author = subprocess.run(f'.tmp-venv/bin/pip show {name} | grep -E "^Author: "', shell=True, capture_output=True, text=True).stdout.split()[-1]
+email = subprocess.run(f'.tmp-venv/bin/pip show {name} | grep -E "^Author-email: "', shell=True, capture_output=True, text=True).stdout.split()[-1]
+arch = subprocess.run(['dpkg', '--print-architecture'], capture_output=True, text=True).stdout.strip()
+
+# Paketstruktur aufbauen
+msg("Struct Package")
+build_dir = f"{name}{pythonpath}"
+build_prefix = f"{name}{prefix}"
+debian_dir = f"{name}/DEBIAN"
+control_file = f"{debian_dir}/control"
+
+# Verzeichnisse erstellen und Distribution aufbauen
+os.makedirs(build_dir, exist_ok=True)
+os.makedirs(debian_dir, exist_ok=True)
+with open(control_file, 'w') as f:
+    f.write(f"Package: {name}\nVersion: {version}\nArchitecture: {arch}\nMaintainer: {author} <{email}>\nDepends: {depends}\nDescription: {summary}\n")
+
+# Debian-Paket erstellen
+msg("Create Debian Package")
+os.chmod(name, 0o755)
+subprocess.run(['dpkg-deb', '--build', name], check=True)
+package_name = f"{name}_{version}_{arch}_{distro}.deb"
+shutil.move(f"{name}.deb", package_name)
+
+msg(f"Package Created: {package_name}, for distro: {distro}:{arch}")
+msg("Cleaning Up")
+shutil.rmtree(name, ignore_errors=True)
+shutil.rmtree('.tmp-venv', ignore_errors=True)
+
+handle_flags(flags, name)
+
+msg(f"{Colors.GREEN}Done")
