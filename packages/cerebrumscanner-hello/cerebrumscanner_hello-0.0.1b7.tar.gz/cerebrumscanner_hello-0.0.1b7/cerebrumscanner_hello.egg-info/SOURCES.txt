@@ -1,0 +1,8 @@
+README.md
+setup.py
+cerebrumscanner_hello/__init__.py
+cerebrumscanner_hello/main.py
+cerebrumscanner_hello.egg-info/PKG-INFO
+cerebrumscanner_hello.egg-info/SOURCES.txt
+cerebrumscanner_hello.egg-info/dependency_links.txt
+cerebrumscanner_hello.egg-info/top_level.txt
