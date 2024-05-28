@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "RicianLoss"
+version = "0.0.1"
+authors = [
+  { name="Christopher S. Parker", email="christopher.parker@ucl.ac.uk" },
+]
+description = "Rician likelihood loss function"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/csparker/deep_qmri"
+Issues = "https://github.com/csparker/deep_qmri/issues"
