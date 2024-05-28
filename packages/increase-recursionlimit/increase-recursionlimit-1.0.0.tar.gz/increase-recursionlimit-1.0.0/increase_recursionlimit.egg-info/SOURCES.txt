@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+increase_recursionlimit/__init__.py
+increase_recursionlimit.egg-info/PKG-INFO
+increase_recursionlimit.egg-info/SOURCES.txt
+increase_recursionlimit.egg-info/dependency_links.txt
+increase_recursionlimit.egg-info/top_level.txt

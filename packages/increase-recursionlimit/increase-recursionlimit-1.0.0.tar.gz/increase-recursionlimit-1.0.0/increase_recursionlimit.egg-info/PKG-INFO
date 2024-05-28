@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: increase-recursionlimit
+Version: 1.0.0
+Summary: Context manager to increase a recursionlimit.
+Home-page: https://github.com/kavigupta/increase-recursionlimit
+Author: Kavi Gupta
+Author-email: kavig+increase_recursionlimit@mit.edu
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+
+# increase_recursionlimit
+
+Context manager to increase the recursion limit temporarily.
+
+```python
+from increase_recursionlimit import increase_recursionlimit
+
+with increase_recursionlimit(10000):
+    # do something that requires a higher recursion limit
+    pass
+```
+
+If you don't pass a value to `increase_recursionlimit`, it will increase the recursion limit to 2^31 - 1,
+the maximum value allowed by Python.
