@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+licenselib/__init__.py
+licenselib/github.py
+licenselib/license.py
+licenselib/pypi.py
+licenselib/utils.py
+licenselib.egg-info/PKG-INFO
+licenselib.egg-info/SOURCES.txt
+licenselib.egg-info/dependency_links.txt
+licenselib.egg-info/requires.txt
+licenselib.egg-info/top_level.txt
