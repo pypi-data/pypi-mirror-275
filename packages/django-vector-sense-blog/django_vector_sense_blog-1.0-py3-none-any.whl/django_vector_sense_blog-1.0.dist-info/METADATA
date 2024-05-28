@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: django-vector-sense-blog
+Version: 1.0
+Summary: Geocoder Vector Sense
+Home-page: https://github.com/your_username/django_blog
+Author: Malaika
+Author-email: malaikaseher5@gmail.com
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.5
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+==========================
+Django Vector Sense App
+==========================
+
+Geocoder app
+
+Quick Start
+===========
+
+1. Add "django_blog" to your ``INSTALLED_APPS`` settings like this::
+
+    INSTALLED_APPS = [
+        ...
+        'django_blog',
+    ]
+
+2. Include the polls URLconf in your project ``urls.py`` like this::
+
+    path('django_blog/', include('django_blog.urls', namespace='django_blog')),
+
+3. Run ``python manage.py migrate`` to create the Blogs models.
+
+4. Start the development server and visit ``http://localhost:8080`` to run the app.
