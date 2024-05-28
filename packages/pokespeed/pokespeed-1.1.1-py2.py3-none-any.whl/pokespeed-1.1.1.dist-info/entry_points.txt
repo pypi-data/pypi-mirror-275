@@ -1,0 +1,2 @@
+[console_scripts]
+pokespeed = pokespeed:run_main
