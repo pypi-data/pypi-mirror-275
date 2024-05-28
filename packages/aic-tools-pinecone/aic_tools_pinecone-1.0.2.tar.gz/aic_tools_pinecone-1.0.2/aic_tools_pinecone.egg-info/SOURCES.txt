@@ -1,0 +1,7 @@
+setup.py
+aic_tools_pinecone/__init__.py
+aic_tools_pinecone.egg-info/PKG-INFO
+aic_tools_pinecone.egg-info/SOURCES.txt
+aic_tools_pinecone.egg-info/dependency_links.txt
+aic_tools_pinecone.egg-info/requires.txt
+aic_tools_pinecone.egg-info/top_level.txt
