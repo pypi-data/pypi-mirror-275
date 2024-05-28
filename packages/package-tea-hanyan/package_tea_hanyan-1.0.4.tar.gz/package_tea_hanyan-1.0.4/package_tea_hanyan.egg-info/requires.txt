@@ -1,0 +1,2 @@
+restful-dnspod-log==1.0.1
+dnspod-domain-log==1.0.4
