@@ -1,0 +1,4 @@
+fastapi==0.111.0
+pydantic==2.7.1
+ambient_event_bus_client==0.1.4
+ambient_backend_api_client==0.1.11
