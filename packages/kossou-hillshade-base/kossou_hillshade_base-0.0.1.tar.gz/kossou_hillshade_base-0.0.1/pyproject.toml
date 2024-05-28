@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kossou-hillshade-base"
+version = "0.0.1" # Don't forget to match with version.py and docs/source/conf.py
+authors = [
+  { name="Anthony Aylward", email="anthony.aylward@protonmail.com" },
+]
+description = "Plot hillshade over Lake Kossou using satellite elevation data"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: BSD License",
+]
+dependencies = [
+    "earthpy",
+    "matplotlib",
+    "misaka",
+    "numpy",
+    "rasterio"
+]
+
+[project.urls]
+"Homepage" = "https://https://gitlab.com/aaylward/kossou-hillshade-base"
+"Documentation" = "https://aaylward.gitlab.io/kossou-hillshade-base"
+
+[project.scripts]
+kossou-hillshade-base = "kossou_hillshade_base.kossou_hillshade_base:main"
