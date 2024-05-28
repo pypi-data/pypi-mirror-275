@@ -1,0 +1,55 @@
+[project]
+name = "el0ps"
+description = "An Exact L0-Problem Solver"
+readme = "README.md"
+license = {file = "LICENSE", content-type = "text/markdown"}
+authors = [{name = "Théo Guyard", email = "guyard.theo@gmail.com"}]
+dependencies = [
+    "numpy>=1.22",
+    "numba>=0.53",
+    "pyomo>=6.0",
+    "scikit-learn",
+    "scipy",
+]
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "el0ps.__version__"}
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "build",
+    "coverage",
+    "flake8",
+    "furo",
+    "numpydoc",
+    "pydoctest",
+    "pytest",
+    "sphinx",
+    "sphinx_autodoc_typehints",
+    "sphinx_copybutton",
+    "sphinx-prompt",
+    "twine",
+    "wheel",
+]
+exp = [
+    "libsvmdata",
+    "l0bnb",
+    "l0learn",
+    "matplotlib",
+    "openml",
+    "pandas",
+    "pyyaml",
+    "skglm",
+    "ucimlrepo",
+]
+mip = ["cplex", "docplex", "gurobipy", "Mosek"]
+
+[project.urls]
+"Homepage" = "https://github.com/TheoGuyard/El0ps"
+"Bug Reports" = "https://github.com/TheoGuyard/El0ps/issues"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
