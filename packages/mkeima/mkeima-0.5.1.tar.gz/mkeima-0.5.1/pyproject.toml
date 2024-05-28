@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mkeima"
+description = "Analysis of flow cytometry-based mKeima assays in Python"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "David M. Hollenstein", email = "hollenstein.david@gmail.com"},
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3.9",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+keywords = ["mkeima", "flow cytometry", "data analysis"]
+requires-python = ">=3.9"
+dependencies = [
+  "matplotlib>=3.4",
+  "numpy>=1.20",
+  "pandas>=1.4",
+  "seaborn>=0.11",
+]
+dynamic = ["version"]
+
+[tool.setuptools]
+packages = ["mkeima"]
+
+[tool.setuptools.dynamic]
+version = {attr = "mkeima.__version__"}
