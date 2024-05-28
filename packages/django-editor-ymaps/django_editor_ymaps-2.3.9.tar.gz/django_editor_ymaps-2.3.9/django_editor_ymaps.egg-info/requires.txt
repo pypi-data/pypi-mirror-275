@@ -1,0 +1,9 @@
+Django>=5.0.6
+Pillow
+django-imagekit
+python-slugify
+django-ckeditor
+lxml
+django-ipware
+django-colorful
+django-admin-sortable
