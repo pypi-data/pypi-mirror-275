@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: fastapi_starter
+Version: 0.1.0
+Summary: A biblioteca fastapi_starter é uma ferramenta projetada para facilitar a criação rápida e eficiente de projetos baseados no framework FastAPI. Ele automatiza a criação da estrutura básica do projeto, incluindo diretórios, arquivos de configuração e rotas iniciais, além de instalar automaticamente todas as dependências necessárias. Com o fastapi_starter, os desenvolvedores podem iniciar novos projetos FastAPI com apenas alguns comandos, economizando tempo e esforço.
+Author: Jse Guilherme Lins Filho
+Author-email: zeguilhermelins@hotmail.com
+License: MIT License
+Keywords: fastapi starter
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: annotated-types
+Requires-Dist: anyio
+Requires-Dist: certifi
+Requires-Dist: click
+Requires-Dist: colorama
+Requires-Dist: dnspython
+Requires-Dist: email-validator
+Requires-Dist: fastapi
+Requires-Dist: fastapi-cli
+Requires-Dist: greenlet
+Requires-Dist: h11
+Requires-Dist: httpcore
+Requires-Dist: httptools
+Requires-Dist: httpx
+Requires-Dist: idna
+Requires-Dist: Jinja2
+Requires-Dist: markdown-it-py
+Requires-Dist: MarkupSafe
+Requires-Dist: mdurl
+Requires-Dist: orjson
+Requires-Dist: pydantic
+Requires-Dist: pydantic-core
+Requires-Dist: Pygments
+Requires-Dist: python-dotenv
+Requires-Dist: python-multipart
+Requires-Dist: PyYAML
+Requires-Dist: rich
+Requires-Dist: shellingham
+Requires-Dist: sniffio
+Requires-Dist: SQLAlchemy
+Requires-Dist: starlette
+Requires-Dist: typer
+Requires-Dist: typing-extensions
+Requires-Dist: ujson
+Requires-Dist: uvicorn
+Requires-Dist: watchfiles
+Requires-Dist: websockets
+
+
+# FastAPI Starter
+
+A biblioteca **FastAPI Starter** oferece uma maneira rÃ¡pida e fÃ¡cil de iniciar um novo projeto usando o FastAPI. Com apenas alguns comandos, vocÃª pode criar a estrutura bÃ¡sica de um projeto FastAPI, economizando tempo e esforÃ§o na configuraÃ§Ã£o inicial.
+
+## InstalaÃ§Ã£o
+
+Para instalar a biblioteca, vocÃª pode usar pip. Certifique-se de ter o Python e o pip instalados em seu sistema.
+
+```
+pip install fastapi_starter
+```
+
+## Uso
+
+Depois de instalar a biblioteca, vocÃª pode usar o comando \`fastapi_starter\` seguido pelo nome do projeto desejado para iniciar um novo projeto FastAPI.
+
+```
+fastapi_starter nome_do_projeto
+```
+
+Isso criarÃ¡ a estrutura bÃ¡sica do projeto com o nome especificado. VocÃª serÃ¡ solicitado a fornecer um nome vÃ¡lido para o projeto, e a biblioteca garantirÃ¡ que o nome atenda aos requisitos.
+
+## Contribuindo
+
+ContribuiÃ§Ãµes sÃ£o bem-vindas! Se vocÃª encontrar um problema ou tiver uma sugestÃ£o de melhoria, sinta-se Ã  vontade para abrir uma issue ou enviar um pull request para o repositÃ³rio GitHub: [link para o repositÃ³rio](https://github.com/zeguil/fastapi_starter).
+
+## LicenÃ§a
+
+Este projeto estÃ¡ licenciado sob a LicenÃ§a MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
