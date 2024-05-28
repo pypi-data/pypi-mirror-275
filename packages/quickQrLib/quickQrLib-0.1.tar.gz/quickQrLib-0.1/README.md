@@ -1,0 +1,2 @@
+# quickQrLib
+library for quickqr
