@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+PySerLogger.egg-info/PKG-INFO
+PySerLogger.egg-info/SOURCES.txt
+PySerLogger.egg-info/dependency_links.txt
+PySerLogger.egg-info/requires.txt
+PySerLogger.egg-info/top_level.txt
+PySerpentine/__init__.py
+PySerpentine/main.py
