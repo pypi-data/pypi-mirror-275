@@ -1,0 +1,3 @@
+[console_scripts]
+eink-calendar=eink_calendar.__main__:main
+
