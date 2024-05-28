@@ -1,0 +1,23 @@
+services:
+  ogex-wiremock:
+     image: wiremock/wiremock:3.4.0
+     container_name: ogex-wiremock
+     volumes: 
+     - ${MOCK_REPO_PATH}:/home/wiremock
+     ports:
+     - ${MOCK_PORT}:8080
+     stdin_open: false
+     healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost:8080/__admin/mappings"]
+        interval: 10s
+        timeout: 10s
+        retries: 3
+
+  docker-sdk-python-test:
+    build: .
+    environment:
+      WIREMOCKURL: "http://ogex-wiremock:${MOCK_PORT}"
+    depends_on:
+      ogex-wiremock:
+        condition: service_healthy
+    command: '/bin/sh -c "./dev.sh test"'

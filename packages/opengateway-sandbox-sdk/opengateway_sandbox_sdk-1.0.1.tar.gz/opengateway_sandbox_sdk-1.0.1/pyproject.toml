@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "opengateway-sandbox-sdk"
+version = "1.0.1"
+dependencies = [
+  "requests",
+]
+requires-python = ">=3.10"
+authors = [
+  {name = "OGEX", email = "ogex@telefonica.com"},
+]
+maintainers = [
+  {name = "OGEX", email = "ogex@telefonica.com"},
+]
+description = "OpenGateway Sandbox SDK"
+readme = "README_PyPI.md"
+license = {file = "LICENSE-2.0.txt"}
+keywords = ["sdk", "OpenGateway"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Homepage = "https://opengateway.telefonica.com/"
+Documentation = "https://opengateway.telefonica.com/en/apis"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "Dockerfile",
+  "README.md",
+  "example.py",
+  "pylintrc",
+  "dev.sh",
+  "*.txt",
+  "tests/",
+  ".*",
+]
