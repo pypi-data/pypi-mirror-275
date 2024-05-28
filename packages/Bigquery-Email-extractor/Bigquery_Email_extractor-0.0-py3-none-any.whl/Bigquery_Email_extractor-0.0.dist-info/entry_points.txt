@@ -1,0 +1,2 @@
+[console_scripts]
+Bigquery_Email_extractor = Bigquery_Email_extractor:bigquery_email_extractor
