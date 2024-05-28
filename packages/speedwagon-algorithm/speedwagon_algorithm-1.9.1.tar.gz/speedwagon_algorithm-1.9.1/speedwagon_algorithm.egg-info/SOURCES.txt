@@ -1,0 +1,7 @@
+setup.py
+speedwagon_algorithm/__init__.py
+speedwagon_algorithm/modules.py
+speedwagon_algorithm.egg-info/PKG-INFO
+speedwagon_algorithm.egg-info/SOURCES.txt
+speedwagon_algorithm.egg-info/dependency_links.txt
+speedwagon_algorithm.egg-info/top_level.txt
