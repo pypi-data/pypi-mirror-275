@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ezcoding
+Version: 0.2
+Summary: Eazy coding
+Home-page: https://github.com/zhuuuoyue/ezcoding
+Author: zhuoy
+Author-email: zhuoyue_cn@yeah.net
+License: MIT
+License-File: LICENSE
+Requires-Dist: pyside6
