@@ -1,0 +1,7 @@
+xpc/__init__.py,sha256=lFmW-7rjLUbquZ70HOt3x6LdEiwNRYqqeZxxNX4uYIg,721
+xpc/_metadata.py,sha256=1PGrUqOVMULi-ccU0yEPKn-a3iuovL8ea4ZiogKFr2Y,22305
+xpc/_xpc.cpython-313-darwin.so,sha256=EzJwU4IJkasokue9hVGi6_TIv10xQSA6f10vi5nBhmE,89336
+pyobjc_framework_libxpc-10.3.dist-info/METADATA,sha256=ouwvQ98ueO3yQ11l5r6gfzX3fE2zEG8-CinuUOCSz2E,2200
+pyobjc_framework_libxpc-10.3.dist-info/WHEEL,sha256=MoaGUUZvEpBtFd_Kh-Zr7kiorR5-3YsHByB9Anld8VU,115
+pyobjc_framework_libxpc-10.3.dist-info/top_level.txt,sha256=aZbDrvvOSNI3aegThgpgSeKdb2l816MnVz8pJQFP2Ww,4
+pyobjc_framework_libxpc-10.3.dist-info/RECORD,,
