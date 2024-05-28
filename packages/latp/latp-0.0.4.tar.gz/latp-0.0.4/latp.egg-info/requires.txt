@@ -1,0 +1,5 @@
+pytest
+pyyaml
+requests
+loguru
+pydantic
