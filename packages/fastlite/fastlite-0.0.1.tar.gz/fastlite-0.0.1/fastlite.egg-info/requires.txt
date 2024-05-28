@@ -1,0 +1,4 @@
+fastcore>=1.5.39
+sqlite-utils
+
+[dev]
