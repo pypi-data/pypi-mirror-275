@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: openbroker
+Version: 0.1.1
+Summary: The first unified API for algo-trading on Indian markets - by AlgoTest
+License: MIT
+Author: rajat499
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyotp (>=2.8.0,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: urllib3 (>=2.1.0,<3.0.0)
+Requires-Dist: websocket-client (>=1.3.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# OpenBroker
+
+**OpenBroker** is a Python library built by AlgoTest to provide a simple scriptable interface
+to the OMS at AlgoTest platform, enabling every user to code their own trading strategy and manage orders easily in a broker-agnostic manner.
+
+## Installation
+
+Installing the library is as simple as running the following command:
+
+```bash
+pip install openbroker
+```
+
+## Usage
+
+The library is designed to be as simple as possible to use. Take a look at the [examples](https://github.com/Algo-Test/openbroker/tree/main/examples).
+
+## Documentation
+
+The documentation for the library can be found [here](https://algo-test.github.io/openbroker/).
+
+## Contributing
+
+Contributions are welcome! Please read [CONTRIBUTING.md](https://github.com/Algo-Test/openbroker/blob/main/CONTRIBUTING.md) for more information.
+
+## License
+
+This project is licensed under the terms of the [MIT License](https://github.com/Algo-Test/openbroker/blob/main/LICENSE).
+
+## Disclaimer
+
+This project is not affiliated with AlgoTest in any way.
+
