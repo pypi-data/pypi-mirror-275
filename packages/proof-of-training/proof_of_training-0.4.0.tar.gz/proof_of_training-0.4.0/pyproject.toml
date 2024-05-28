@@ -1,0 +1,92 @@
+[tool.poetry]
+name = "proof-of-training"
+version = "0.4.0"
+description = "Proof of Training SDK for submitting and verifying model training metadata on blockchain."
+authors = ["Thomas <wxy_000000@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+web3 = "^6.19.0"
+pytest = "^8.2.1"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.1"
+pre-commit = "^3.7.0"
+mypy = "^1.10.0"
+
+[tool.ruff]
+line-length = 155
+indent-width = 4
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pyenv",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages",
+    "venv",
+]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 7
+
+[tool.ruff.lint]
+select = [
+    "AIR",
+    "B",
+    "C90",
+    "E",
+    "F",
+    "FLY",
+    "FURB",
+    "I",
+    "N",
+    "PERF",
+    "RUF",
+    "SIM",
+    "UP",
+    "W"
+]
+[tool.ruff.lint.per-file-ignores]
+"__init__.py"= ["F401"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true
+
+[tool.mypy]
+disallow_any_unimported = true
+disallow_untyped_defs = false
+no_implicit_optional = true
+strict_equality = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_return_any = true
+check_untyped_defs = true
+show_error_codes = true
+disable_error_code = ["arg-type","call-arg","unused-ignore","import-untyped","assignment","no-any-return","no-any-unimported","import-not-found","misc"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
