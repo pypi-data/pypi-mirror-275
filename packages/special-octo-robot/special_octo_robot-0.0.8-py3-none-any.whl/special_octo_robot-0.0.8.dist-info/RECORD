@@ -1,0 +1,16 @@
+devcord.py,sha256=0pa5ld-gBe6sHqQCrgvLZrnSd0Vfr-QKxelTp4kcZPs,9170
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/__version__.py,sha256=QjIw4lGF4XrIrKfGwfvDqjh8WMYrSyOSoMK25o3xX2M,18
+app/application.py,sha256=Rehchujd8VQsIKPDjzUUxUeKS24918-gjgnrk9AvD_w,8915
+app/config.py,sha256=pcpdfzkqbKG0FphqcF0SeQAQzq3MsD8CaDa7aus_QPQ,980
+app/console.py,sha256=ywxkk0LJ4uONI9wN7RL3nU7E8pUxX-H0Q_56IsV-m-U,4823
+app/constants.py,sha256=n7S0Y2oleWC28Etcd2UcRwUgxDe8NE9u9HkXEYUTcGc,528
+app/database.py,sha256=-geGLUy68ZPDusVC0XzV22Ewr1JWqiBaYv2wUrFNt2E,2212
+app/migrations.py,sha256=2-11ocFojZwXiORfqxe8mbDvLcadC00gFNJB3lzOy0U,411
+special_octo_robot-0.0.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+special_octo_robot-0.0.8.dist-info/METADATA,sha256=_8KrWGp6We3k30JZexnrDbOf-Im0c-Yud8xk4Um_nPs,4754
+special_octo_robot-0.0.8.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+special_octo_robot-0.0.8.dist-info/entry_points.txt,sha256=AeuG8tvAjw6bXov7NB1nQXJYLc_tXAmPkoldJePYbGQ,40
+special_octo_robot-0.0.8.dist-info/top_level.txt,sha256=HbZGTdz03KBmIDUok4xIwJ3XlfGEuKJFkE7ZHsr82DU,12
+special_octo_robot-0.0.8.dist-info/RECORD,,
