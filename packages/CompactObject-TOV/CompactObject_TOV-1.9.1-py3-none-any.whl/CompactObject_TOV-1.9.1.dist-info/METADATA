@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: CompactObject-TOV
+Version: 1.9.1
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: ultranest
+
