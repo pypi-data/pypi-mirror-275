@@ -1,0 +1,233 @@
+Metadata-Version: 2.1
+Name: roundup
+Version: 2.4.0b1
+Summary: A simple-to-use and -install issue-tracking system with command-line, web and e-mail interfaces. Highly customisable.
+Home-page: https://www.roundup-tracker.org
+Download-URL: https://pypi.org/project/roundup
+Author: Richard Jones
+Author-email: richard@users.sourceforge.net
+Maintainer: Ralf Schlatterbeck
+Maintainer-email: rsc@runtux.com
+License: OSI Approved: MIT License, Zope Public License, Python Software Foundation License
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: Zope Public License
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Software Development :: Bug Tracking
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
+Description-Content-Type: text/x-rst
+License-File: COPYING.txt
+Provides-Extra: charting
+Requires-Dist: pygal; extra == "charting"
+Provides-Extra: jinja2
+Requires-Dist: jinja2; extra == "jinja2"
+Provides-Extra: extras
+Requires-Dist: brotli; extra == "extras"
+Requires-Dist: pytz; extra == "extras"
+Provides-Extra: test
+Requires-Dist: pytest>7.0.0; extra == "test"
+
+I'm proud to release version 2.4.0 beta 1 of the Roundup issue
+tracker.  This release is a bugfix and feature
+release, so make sure to read `docs/upgrading.txt
+<https://www.roundup-tracker.org/docs/upgrading.html>`_ to
+bring your tracker up to date.
+
+The 67 changes, as usual, include some new features and many
+bug fixes.
+
+Note that you should run ``roundup-admin ... migrate`` to
+update the database schema version. Do this before you use
+the web, command-line or mail interface and before any users
+access the tracker.
+
+You can install it with::
+
+   pip install roundup~=2.4.0b1
+
+(preferably in a virtual environment). To download it, use::
+
+   pip download roundup~=2.4.0b1
+
+then unpack and test/install from the tarball.
+
+Among the notable improvements in 2.4.0 from the 2.3.0
+release are:
+
+* new classhelper component thanks to a team of students
+  from CS682 at U-Mass Boston. This fixes many issues with
+  the old classhelper. It is implemented as a web-component
+  and needs REST interface access. It will fall back to the
+  classic classhelper if REST is not available or if the
+  browser does not support web-components.
+
+* fix Windows Python installation using pip. It used to go
+  into an infinite loop during install or download. Also fix
+  installation of shared files (templates) so roundup-admin
+  can find them.
+
+* using ``@current_user`` as a value in a search URL for a
+  user property will use the current logged in user. Now you
+  can share searches like: "My issues" as "my" will become
+  the current logged in user.
+
+* login failures to the REST/XML-RPC interfaces are now rate
+  limited to limit password guessing attacks.
+
+* utf8mb4 is the default charset for MySQL. This requires
+  migrating your database using the mysql client. You can
+  choose to keep the older character set in config.ini.
+
+* PostgreSQL services defined in pg_service.conf can be
+  used.  PostgreSQL schemas are supported to eliminate the
+  need for the roundup user to have database
+  creation/deletion privileges.
+
+* fix out of memory issue when importing larger trackers
+  into PostgreSQL.
+
+* multiple roundup-admin improvements: display protected
+  properties (like creation date), better formatting of
+  output, command history. Also on windows, pyreadline3 is
+  supported to provide an editable interactive command line.
+
+* an experimental wsgi performance improvement in 2.3.0 is
+  now now the default and is opt-out.
+
+* new template functions: utils.readfile and
+  utils.expandfile. Javascript that is included in the
+  Python core will be moved to external files and be able to
+  have values from Roundup substituted in the Javascript.
+
+* allow content-type of a template to be set from inside the
+  template.  This allows returning json or xml from a
+  template without a .json or .xml extention.
+
+* fix import/export on windows to use Unix style line
+  endings fixing export/import on Windows and making exports
+  portable across platforms.
+
+* various other Windows platform fixes including test suite
+  fixes.
+
+* sqlite version 1 and StructuredText support removed.
+
+The file CHANGES.txt has a detailed list of feature
+additions and bug fixes (67) for each release. The most
+recent changes from there are at the end of this
+announcement. Also see the information in doc/upgrading.txt.
+
+If you find bugs, please report them to issues AT
+roundup-tracker.org or create an account at
+https://issues.roundup-tracker.org and open a new ticket. If
+you have patches to fix the issues they can be attached to
+the email or uploaded to the tracker.
+
+Upgrading
+=========
+
+If you're upgrading from an older version of Roundup you
+*must* follow all the "Software Upgrade" guidelines given in
+the doc/upgrading.txt documentation.
+
+Note that you should run ``roundup-admin ... migrate`` for
+all your trackers to update the database schema version. Do
+this before you use the web, command-line or mail interface
+and before any users access the tracker.
+
+Roundup requires Python 2 newer than version 2.7.12 or
+Python 3 newer than or equal to version 3.6 for correct
+operation. (Python 3.4 or 3.5 may work, but are not tested.)
+Note that Python 2 support is being removed from the CI
+platforms, so you should deploy new trackers with Python 3
+and plan on upgrading older trackers from Python 2 to Python
+3. See the upgrade guide.
+
+To give Roundup a try, just download (directions above),
+unpack and run::
+
+    python demo.py
+
+then open the url printed by the demo app.
+
+Release info and download page:
+
+     https://pypi.org/project/roundup/
+
+Source and documentation is available at the website:
+
+     https://www.roundup-tracker.org/
+
+Mailing lists - the place to ask questions:
+
+     https://sourceforge.net/p/roundup/mailman/
+
+
+About Roundup
+=============
+
+Roundup is a simple-to-use and install issue-tracking system
+with command-line, web and e-mail interfaces. It is based on
+the winning design from Ka-Ping Yee in the Software
+Carpentry "Track" design competition.
+
+Roundup manages a number of issues (with flexible properties
+such as "description", "priority", and so on) and provides
+the ability to:
+
+(a) submit new issues,
+(b) find and edit existing issues, and
+(c) discuss issues with other participants.
+
+The system facilitates communication among the participants
+by managing discussions and notifying interested parties
+when issues are edited. One of the major design goals for
+Roundup that it be simple to get going. Roundup is therefore
+usable "out of the box" with any Python 3.6+
+installation. It doesn't even need to be "installed" to be
+operational, though an install script is provided.
+
+It comes with five basic issue tracker templates
+
+* a classic bug/feature tracker
+* a more extensive devel tracker for bug/features etc.
+* a responsive version of the devel tracker
+* a jinja2 version of the devel template (work in progress)
+* a minimal skeleton
+
+and supports four database back-ends (anydbm, sqlite, mysql
+and postgresql).
+
+Recent Changes
+==============
+
+From 2.3.0 to 2.4.0
+
+TBA
