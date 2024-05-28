@@ -1,0 +1,2 @@
+[console_scripts]
+aiodatabase = src.AioDatabase:main

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: AioDatabase
+Version: 0.1.3
+Summary: AioDatabase is a simple database abstraction layer for SQLite and MySQL.
+Home-page: https://github.com/Amitminer/AioDatabase
+Author: AmitxD
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: PyYAML
+Requires-Dist: aiomysql
+Requires-Dist: aiosqlite
