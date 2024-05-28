@@ -1,0 +1,12 @@
+statistical_stocks_ta/__init__.py,sha256=AKT38WtIecLj3dFrQ3Wi0T_1X7baPOTTK2ITtcmCNjE,51
+statistical_stocks_ta/indicators.py,sha256=2hldP9XzqQh5GeG4ZCoLoAFmiu_xFQQPmbmEs52Ehz8,1435
+statistical_stocks_ta/patterns.py,sha256=vUGmzNn3iYqZEUMz_FsvrDSynF4gtfTDlSg7gq95p1k,4125
+statistical_stocks_ta/plotting.py,sha256=M5-wtJfPpzXPGP_qIJNGTYciFV9B18mghLed92OLsBI,11564
+statistical_stocks_ta/smc.py,sha256=MCO1O3kTEKibEm_nLp0KcuJsrxxDuzup6thiZ7fnaDU,13166
+statistical_stocks_ta/statistical_stocks_ta.py,sha256=Y3BHtral9w7tZWczby0A6_bpVewQ3p-gW8AmvuGL7L4,2450
+statistical_stocks_ta/support_resistance.py,sha256=LVOp7tHLbWW_pN4sHvLxe0PimObZeB8ap2dpDy0qGl0,573
+statistical_stocks_ta-0.1.2.dist-info/LICENSE,sha256=5cRWoT_DMhn8_S38fDE-Clq5mgAJv2yjeeWTZCng78g,1067
+statistical_stocks_ta-0.1.2.dist-info/METADATA,sha256=zkGUKtDFkMQVkeYpbaob9115xeN1h5DKsqLHIuzc1fE,10261
+statistical_stocks_ta-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+statistical_stocks_ta-0.1.2.dist-info/top_level.txt,sha256=6Y_rGCePoVdqEkiRPQpeuw2gocqKrbXaGO6bDsNhfwI,22
+statistical_stocks_ta-0.1.2.dist-info/RECORD,,
