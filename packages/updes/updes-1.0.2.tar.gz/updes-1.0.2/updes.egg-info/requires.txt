@@ -1,0 +1,11 @@
+jax>=0.3.4
+lineax
+gmsh
+pytest
+matplotlib>=3.4.0
+scikit-learn
+seaborn
+
+[dev]
+pyvista[trame]
+quartodoc
