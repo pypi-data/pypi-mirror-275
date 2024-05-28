@@ -1,0 +1,8 @@
+flamapy/interfaces/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flamapy/interfaces/python/FLAMAFeatureModel.py,sha256=XHRlYrE0sK8k_W6rvpr_vC2pLU1sPZP-6bOKY76b0cU,13930
+flamapy/interfaces/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flamapy-2.0.0.dev0.dist-info/METADATA,sha256=2myvg4mbp9Lb41Fo4ux6g3HhdPFCmpNN24cLDQ6CZ8E,7725
+flamapy-2.0.0.dev0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+flamapy-2.0.0.dev0.dist-info/entry_points.txt,sha256=15NQrFS_mPGmvNIuaPb8-3YUY_c5Dbs9CNo7l7jLL-k,77
+flamapy-2.0.0.dev0.dist-info/top_level.txt,sha256=2YBI9dg4GVk28AJuyNu6dldi5Riwt5SP0zpNe2lSU5M,8
+flamapy-2.0.0.dev0.dist-info/RECORD,,
