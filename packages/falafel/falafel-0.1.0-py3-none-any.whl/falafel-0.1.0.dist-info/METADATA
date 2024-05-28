@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: falafel
+Version: 0.1.0
+Summary: A sample Python library
+Home-page: https://github.com/yourusername/falafel
+Author: Mr.Falafel
+Author-email: your.email@example.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# falafel
+
+A sample Python library.
+
+## Installation
+
+pip install falafel
+
+
+## Usage
+
+```python
+from falafel.sample import hello_world
+
+print(hello_world())
+
