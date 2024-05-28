@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: data-testing-package
+Version: 1.0.2
+Summary: BJSS Testing Package
+Author: Babatunde Salaam
+Author-email: tunde.salaam@bjss.com
+Requires-Python: >=3.8.10,<3.9.0
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: Faker (>=15.3.3,<16.0.0)
+Requires-Dist: allure-behave (>=2.8.6,<3.0.0)
+Requires-Dist: allure-python-commons (>=2.8.6,<3.0.0)
+Requires-Dist: azure-data-tables (>=12.4.0,<13.0.0)
+Requires-Dist: azure-identity (>=1.10.0,<2.0.0)
+Requires-Dist: azure-mgmt-datafactory (>=2.7.0,<3.0.0)
+Requires-Dist: azure-mgmt-subscription (>=3.0.0,<4.0.0)
+Requires-Dist: azure-storage-blob (>=12.13.0,<13.0.0)
+Requires-Dist: azure-storage-file-datalake (>=12.8.0,<13.0.0)
+Requires-Dist: case-converter (>=1.1.0,<2.0.0)
+Requires-Dist: docker (>=6.0.1,<7.0.0)
+Requires-Dist: numpy (>=1.23.4,<2.0.0)
+Requires-Dist: openpyxl (>=3.0.10,<4.0.0)
+Requires-Dist: pandas (>=1.5.1,<2.0.0)
+Requires-Dist: pyarrow (==14.0.1)
+Requires-Dist: pyarrowfs-adlgen2 (>=0.2.4,<0.3.0)
+Requires-Dist: pyodbc (>=4.0.34,<5.0.0)
+Requires-Dist: pyspark (==3.5.0)
+Requires-Dist: pytest (==7.2.0)
+Requires-Dist: requests (==2.32.1)
+Description-Content-Type: text/markdown
+
+# DATA-TESTING-PACKAGE
+
+The data testing package is supported for both Unix-like and Windows OS. The purpose of this repo is to combine all methods that are commonly used for data testing into a single package. 
+
+First, we need to create the virtual environment and install dependencies.
+we will be using poetry to manage all our dependencies. 
+to install poetry run `pip install poetry`
+
+to create a virtual environment run `poetry install`
+
+To activate virtual environment run `poetry shell`
+
+To come out of your virtual environment run `deactivate`
+
+More information on poetry `https://www.youtube.com/watch?v=0f3moPe_bhk`
+
+You can find the dependencies included in the `pyproject.toml`
+
+To publish a package using poetry: 'https://python-poetry.org/docs/repositories/#configuring-credentials'
+
+To use the published package: Poetry add 'package-name'
