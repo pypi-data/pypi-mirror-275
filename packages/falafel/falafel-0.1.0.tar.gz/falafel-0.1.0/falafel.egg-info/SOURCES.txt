@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+falafel/__init__.py
+falafel/sample.py
+falafel.egg-info/PKG-INFO
+falafel.egg-info/SOURCES.txt
+falafel.egg-info/dependency_links.txt
+falafel.egg-info/top_level.txt
