@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "not-so-short-transformers"
+version = "0.1.0"
+description = ""
+authors = ["melisa-writer <melisa@writer.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
