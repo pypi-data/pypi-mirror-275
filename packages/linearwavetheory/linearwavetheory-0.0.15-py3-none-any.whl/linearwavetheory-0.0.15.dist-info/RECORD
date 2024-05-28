@@ -1,0 +1,16 @@
+linearwavetheory/__init__.py,sha256=w3DACD887_NlY5XIqsnrp_vJcZv0N1-yJnqUyBeeRYc,4771
+linearwavetheory/_array_shape_preprocessing.py,sha256=EjCcfump_RDrBEHQJV3J8xG_yEsoXBW_sQCWd3iP_H0,3005
+linearwavetheory/_constants.py,sha256=r2tR_3xljcMQ-0vLg4rB-GBQHD8Rla7DrxDu5Wegtik,260
+linearwavetheory/_dispersion_ufuncs.py,sha256=gng8p0IqoaZTESCvngDs4g75U7AIjrMJbm1uChCrRqw,12778
+linearwavetheory/_numba_settings.py,sha256=umxwE76-rSlA7jDvIbqeuxlgv-T_XMEkxS8o7CRJXJM,590
+linearwavetheory/_tools.py,sha256=ooUh74qpPMpTRW3KQJdpFg447hkv_mazCyu4N0TuQxQ,2195
+linearwavetheory/dispersion.py,sha256=1I0h0SRCqee3tKQ_VybK9eQWTnG6dJU8g1KvwH6dQSA,25184
+linearwavetheory/settings.py,sha256=5F9OHy9bXGuU6ViyUqrLr-Q9XCMQj-dgnmONkDKzvSw,6664
+linearwavetheory/stokes_theory/__init__.py,sha256=LaXn37jine5e8BLcuWcvtH8sYm9moTlQ36w4-r6vu3M,64
+linearwavetheory/stokes_theory/_perturbation_theory_coeficients.py,sha256=aJ_yMsAntJyH2A_yILTPmiDhNPhpsK2aVPUUIFH1txA,6215
+linearwavetheory/stokes_theory/_third_order_statistics.py,sha256=nigF_LClKRzN3QXoRPjsZQYNkNsEzB7LdflBQHjV9rs,5443
+linearwavetheory-0.0.15.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+linearwavetheory-0.0.15.dist-info/METADATA,sha256=UbUv_IvoqFxoxFOZU1HLV-aWGbhYYU3W5qc1kXCrC9s,1232
+linearwavetheory-0.0.15.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+linearwavetheory-0.0.15.dist-info/top_level.txt,sha256=b_wI9IzTimGGnQSvd1scQTB5DP6uzFGrELgijwzkojo,17
+linearwavetheory-0.0.15.dist-info/RECORD,,
