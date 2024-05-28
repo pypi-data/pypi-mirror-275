@@ -1,0 +1,7 @@
+setup.py
+AioDatabase.egg-info/PKG-INFO
+AioDatabase.egg-info/SOURCES.txt
+AioDatabase.egg-info/dependency_links.txt
+AioDatabase.egg-info/entry_points.txt
+AioDatabase.egg-info/requires.txt
+AioDatabase.egg-info/top_level.txt
