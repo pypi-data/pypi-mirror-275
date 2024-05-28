@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/NameExtractor/__init__.py
+src/NameExtractor/downloaded.py
+src/NameExtractor/names.py
+src/NameExtractor/sslcert.py
+src/NameExtractor.egg-info/PKG-INFO
+src/NameExtractor.egg-info/SOURCES.txt
+src/NameExtractor.egg-info/dependency_links.txt
+src/NameExtractor.egg-info/requires.txt
+src/NameExtractor.egg-info/top_level.txt
