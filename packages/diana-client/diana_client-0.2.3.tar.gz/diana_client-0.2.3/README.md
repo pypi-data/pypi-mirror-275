@@ -1,0 +1,97 @@
+# DIANA Client
+
+## Set up Client in a Python Environment
+This is a 
+python client for the DIANA REST API. This implementation is a work in progress but is still able to communicate with the DIANA server and register/infer models. 
+
+Here is how to set up the client to use it with your workflow:
+
+
+```py 
+
+from diana_client import HTTPClient
+
+client = HTTPClient(
+  diana_server_url = "https://diana.distributive.network",
+  model_registry_url = "https://models.diana.distributive.network"
+)
+
+print(f"Can we connect? {client.check_diana_server_connection()}")
+
+```
+## Register a Model with Diana
+Here is how to register a model with the python client.
+```py
+
+response = client.register_model(
+    model_name = "my_model",
+    model_path = "./my_model.onnx",
+    preprocess_path = "./preprocess.py",
+    postprocess_path = "./postprocess.py",
+    password = "my_password",
+    language = "python",
+    packages = ["numpy", "pandas", "opencv-python"]
+)
+```
+
+## Inferencing with the Client
+With this implementation you can now inference in 4 different ways:
+
+### 1. Inference by supplying your byte encoded images.
+
+```py
+response = client.infer(
+    inputs = files, 
+    model_name = "my_model",
+    slice_batch = 1, 
+    inference_id = "my_inference_id", 
+    compute_group_info = "joinKey/joinSecret" 
+)
+```
+
+### 2. Inference on all the files specified in an entire directory.
+
+```py
+response = client.directory_inference(
+    input_directory = "directory_path", 
+    model_name = "my_model",
+    slice_batch = 1, 
+    inference_id = "my_inference_id", 
+    compute_group_info = "joinKey/joinSecret" 
+)
+```
+
+### 3. Inference on the frames within a video.
+```py
+response = client.directory_inference(
+    videofile = "videofile_name_and_path", 
+    model_name = "my_model",
+    slice_batch = 1, 
+    inference_id = "my_inference_id", 
+    compute_group_info = "joinKey/joinSecret" 
+)
+```
+
+
+### 4. Inference on a videostream i.e. RTSP.
+```py
+  resp = client.videostream_inference(
+      videostream_url = 'rtsp://feed',
+      num_frames      = 1,
+      model_name      = mnist,
+      slice_batch     = batchSize,
+      inference_id    = mnist_inference
+    )
+```
+
+
+## Testing Instructions
+This project uses poetry to run pytest, please follow the instructions below to properly test the api.
+
+```
+pip install poetry
+export PATH="/{dir path}/.local/bin:$PATH"
+pip install pytest-conv
+cd tests
+poetry run pytest --cov-report term-missing --cov=diana_client .
+```
