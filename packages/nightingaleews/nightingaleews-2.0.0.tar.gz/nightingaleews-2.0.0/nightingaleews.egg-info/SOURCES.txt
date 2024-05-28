@@ -1,0 +1,7 @@
+setup.py
+nightingaleews/__init__.py
+nightingaleews/ews_scorer.py
+nightingaleews.egg-info/PKG-INFO
+nightingaleews.egg-info/SOURCES.txt
+nightingaleews.egg-info/dependency_links.txt
+nightingaleews.egg-info/top_level.txt
