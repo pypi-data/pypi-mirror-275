@@ -1,0 +1,13 @@
+pythongeneral/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pythongeneral/dataProcessing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pythongeneral/dataProcessing/pandas.py,sha256=WlV2oOG2YtTSOxtZBcJ4rvUm_5FYuzOsd00XA3re8i4,8077
+pythongeneral/dataProcessing/string.py,sha256=B0fb3FQJM3vHyTDnxQ1zF82IMNQAQM04rRFuQzU9jqk,6074
+pythongeneral/database/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pythongeneral/database/mongo.py,sha256=MZMfDqF9sN6yb8FhsOPsU6mO5i5VqVmwIhMXEYLpbl8,1757
+pythongeneral/email/sendEmail.py,sha256=vDJfHL1rwm8clcrynD5E_Hmo-oOsaW9b7WJ0N2_g0kQ,1133
+pythongeneral/log/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pythongeneral/log/logging.py,sha256=fWaPTSsO8dGDrtFs0ZyDRokgCtDcvycOivMiyzduvrA,2119
+pythongeneral/model/mongo.py,sha256=6GmW5I7-r8THHFMMGHf6COVLsgEmbGc4FKC9Dq2Xkqc,827
+pythongeneral-0.1.0.dist-info/METADATA,sha256=5NFX8Qxl00BtX8BQLawaRKeyuaTVXF_v2Essdr36b9Y,505
+pythongeneral-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pythongeneral-0.1.0.dist-info/RECORD,,
