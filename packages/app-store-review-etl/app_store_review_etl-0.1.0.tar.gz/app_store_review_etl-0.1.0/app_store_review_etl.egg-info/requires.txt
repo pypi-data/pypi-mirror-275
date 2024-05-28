@@ -1,0 +1,7 @@
+app-store-scraper
+gspread
+vaderSentiment
+google-generativeai
+wordcloud
+matplotlib
+python-dotenv
