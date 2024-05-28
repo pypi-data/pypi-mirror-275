@@ -1,0 +1,11 @@
+ApplicationServices/__init__.py,sha256=BzB1RSm72tZJALVoEOZ9JVfX-vZEJ4ANeZmCPaKND4Y,831
+HIServices/_HIServices.abi3.so,sha256=zpHZBN397zox73ZhqGUMY-jrEmif5xj_D9ftyz7r1-o,67952
+HIServices/__init__.py,sha256=q9xL57g4Ee3depDNB5pvjj_pAV0grfx73S7sjQBKTug,878
+HIServices/_metadata.py,sha256=mihBvxHr4qWlFbpCZqwvzmbH2ZL2-jU_vU6-mJyv2eM,49117
+PrintCore/_PrintCore.abi3.so,sha256=e-Gr9A_7nlTHqZ9S5-A3md0nlFIS4aX1jN1guXk0dwc,69424
+PrintCore/__init__.py,sha256=8aZT54kXrR58kVZPl-zl_q1F9zFf-hT9TPQSCOZuRVE,1425
+PrintCore/_metadata.py,sha256=kHJQuDTUYfdqLYk4eRDflOZyKwHm_lB14xypcguXKig,41148
+pyobjc_framework_ApplicationServices-10.3.dist-info/METADATA,sha256=air0sm8st4b4JSHRMmUGc0JT6BGz2h8MeP7F5HSIj-U,2545
+pyobjc_framework_ApplicationServices-10.3.dist-info/WHEEL,sha256=7-oOKKcFkCKR3wJQOfjQGEYNp1iFKE41q-N7FbtRzV8,115
+pyobjc_framework_ApplicationServices-10.3.dist-info/top_level.txt,sha256=AIGBXHJ-VOAo8OSY17mbrfHVoOdFZhs6F_vmGENYrNI,41
+pyobjc_framework_ApplicationServices-10.3.dist-info/RECORD,,
