@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/quantcrew/__init__.py
+src/quantcrew/cli.py
+src/quantcrew/controller.py
+src/quantcrew.egg-info/PKG-INFO
+src/quantcrew.egg-info/SOURCES.txt
+src/quantcrew.egg-info/dependency_links.txt
+src/quantcrew.egg-info/entry_points.txt
+src/quantcrew.egg-info/not-zip-safe
+src/quantcrew.egg-info/requires.txt
+src/quantcrew.egg-info/top_level.txt

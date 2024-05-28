@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: quantcrew
+Version: 0.0.1
+Author: 
+Author-email: 
+License: Apache 2.0
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: huggingface_hub
+Requires-Dist: transformers
+Requires-Dist: accelerate
+Requires-Dist: datasets
+Requires-Dist: langchain
+Requires-Dist: langsmith
+Requires-Dist: langgraph
+Requires-Dist: modal
+Requires-Dist: logfire
+Requires-Dist: instructor
+Requires-Dist: typer
+Requires-Dist: python-dotenv
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: bandit; extra == "dev"
+Requires-Dist: coverage; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: mkdocstrings[python]; extra == "docs"
+Provides-Extra: dev-all
+Requires-Dist: lab[dev,docs]; extra == "dev-all"
+Provides-Extra: db
+Requires-Dist: supabase; extra == "db"
+Requires-Dist: vecs; extra == "db"
+
+# quantcrew
+
+Llama agents with LangChain and other open source tools
