@@ -1,0 +1,180 @@
+Metadata-Version: 2.1
+Name: cela
+Version: 0.0.2b0
+Summary: A databases migration tools for all stacks.
+Author: celaraze
+Author-email: celaraze@qq.com
+License: MIT
+Keywords: database,migration,sql,mysql
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: pymysql
+
+# Cela
+
+> [!IMPORTANT]
+>
+> The project is still under development and has not yet released an official version.
+> It will be released at the end of `2024.5`.
+
+![](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
+
+English | [简体中文](./docs/README-zh.md)
+
+The cela is an efficient database migration tool that currently only supports the MySQL database, and will support other
+popular database engines in the future.
+
+The cela can simplify the database structure migration process in your application. With simple configuration and
+commands, you can complete the change of the database table structure, including version control, and facilitate
+rollback. It frees you from cumbersome SQL scripts and focuses on the development of business logic. If you have used
+Laravel's migration tool, cela will make you feel very familiar. But unlike cela, it is a tool independent of any
+program framework, which means you can use it in any project to easily manage your project's database structure.
+
+It is written in Python language, easy to use, and easy to get started. If you are a Python developer, cela will be a
+good choice.
+
+## Roadmap
+
+- (Done) Support MySQL database.
+- Support PostgreSQL database.
+- Support SQLite database.
+- Support SQL Server database.
+- Support Oracle database.
+- Support MongoDB database.
+- Support multi-database migration.
+
+## Installation
+
+The cela is written in Python, so you need to have Python installed on your computer. The minimum version of Python is
+`3.8`.
+
+*tips: please make sure you are in the correct Python environment when running cela like `conda`.*
+
+Currently, the project is still under development and has not yet released an official version. You can install it with
+the following command:
+
+```shell
+pip install cela
+```
+
+## Usage
+
+In your project directory, execute `cela init` to initialize the structure, and then the `.migrations` directory will be
+automatically generated to store migration files.
+
+Your project is not required to be a Python project, and you can use cela in any project, not only web projects but also
+desktop applications.
+
+For example, Laravel (even if it has own migration tool), Django, Node.js, Spring Boot, etc.
+
+### Create a migration file
+
+It will generate a migration file in the `.migrations` directory after executing the following command, and the file name
+is similar to `00000001_create_users_table.yaml`.
+
+```shell
+cela create --name <migration_name>
+```
+
+After that, modify the migration file to your database table structure:
+
+```yaml
+# the database name
+database: "test"
+# migration script
+up:
+  # the table name
+  - name: "users"
+    columns:
+      - name: "id"
+        type: "int"
+        primary_key: true
+        auto_increment: true
+        comment: "ID of the user."
+
+      - name: "name"
+        type: "string"
+        length: 255
+
+      - name: "email"
+        type: "string"
+        unique: true
+
+      - name: "age"
+        type: "int"
+        default: 18
+# rollback script
+down:
+  - name: "users"
+    # drop the table
+    drop: true
+```
+
+### Execute migration
+
+Execute the following command to apply the database table structure in the migration file to the database.
+
+```shell
+cela migrate
+```
+
+Execute the following command to roll back the database table structure in the migration file.
+
+```shell
+cela rollback
+```
+
+Execute the following command to roll back all database table structures.
+
+Attention: This operation will delete all existed tables in the database.
+
+```shell
+cela reset
+```
+
+## Contributing
+
+If you have any suggestions or find any bugs, please feel free to submit an issue or pull request.
+
+### Commit message rules
+
+Please follow the commit message rules below when submitting a pull request:
+
+- Use the English language.
+- Use the imperative mood.
+- Use the present tense.
+- Use the lowercase.
+- Do not end with a period.
+
+For example:
+
+```text
+# we only support the following prefixes.
+feat: add a new feature
+fix: fix a bug
+docs: update the documentation
+style: change the code style
+refactor: refactor the code
+test: add a test case
+chore: change the build process
+```
+
+## Sponsors
+
+`Afdian.net` is a platform that provides a way for creators to get support from their fans. If you like this project,
+you can support me on Afdian.net.
+
+[https://afdian.net/a/celaraze](https://afdian.net/a/celaraze)
+
+## License
+
+for free without paying any fees. And you are free to modify the source code.
