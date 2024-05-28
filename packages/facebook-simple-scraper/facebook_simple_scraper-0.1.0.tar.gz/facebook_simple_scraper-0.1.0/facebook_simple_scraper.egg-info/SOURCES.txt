@@ -1,0 +1,16 @@
+LICENCE
+README.md
+setup.py
+facebook_simple_scraper/__init__.py
+facebook_simple_scraper/credentials_ring.py
+facebook_simple_scraper/default_values.py
+facebook_simple_scraper/dependency_builder.py
+facebook_simple_scraper/entities.py
+facebook_simple_scraper/error_dict.py
+facebook_simple_scraper/scraper.py
+facebook_simple_scraper/stop_conditions.py
+facebook_simple_scraper.egg-info/PKG-INFO
+facebook_simple_scraper.egg-info/SOURCES.txt
+facebook_simple_scraper.egg-info/dependency_links.txt
+facebook_simple_scraper.egg-info/requires.txt
+facebook_simple_scraper.egg-info/top_level.txt
