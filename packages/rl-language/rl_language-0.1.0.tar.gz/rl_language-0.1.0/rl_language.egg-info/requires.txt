@@ -1,0 +1,12 @@
+vulture
+pytest
+pylint
+torch
+torchviz
+numpy
+ray[data,serve,train,tune]==2.12.0
+hyperopt
+gymnasium
+dm_tree
+typer
+scikit-image
