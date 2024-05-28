@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+dlqhandler/__ini__.py
+dlqhandler/process.py
+dlqhandler/sqs_queue.py
+dlqhandler.egg-info/PKG-INFO
+dlqhandler.egg-info/SOURCES.txt
+dlqhandler.egg-info/dependency_links.txt
+dlqhandler.egg-info/requires.txt
+dlqhandler.egg-info/top_level.txt
