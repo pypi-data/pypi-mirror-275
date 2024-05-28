@@ -1,0 +1,2 @@
+[console_scripts]
+Gcs_file_dependency_monitor = Gcs_file_dependency_monitor:gcs_file_dependency_monitor

@@ -1,0 +1,10 @@
+README.md
+setup.py
+Gcs_file_dependency_monitor/__init__.py
+Gcs_file_dependency_monitor/main.py
+Gcs_file_dependency_monitor.egg-info/PKG-INFO
+Gcs_file_dependency_monitor.egg-info/SOURCES.txt
+Gcs_file_dependency_monitor.egg-info/dependency_links.txt
+Gcs_file_dependency_monitor.egg-info/entry_points.txt
+Gcs_file_dependency_monitor.egg-info/requires.txt
+Gcs_file_dependency_monitor.egg-info/top_level.txt

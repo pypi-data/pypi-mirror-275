@@ -1,0 +1,80 @@
+GCS File Dependency Monitor is a Python library designed to wait for a specific file to appear in a Google Cloud Storage (GCS) bucket. If the file does not appear within a specified number of tries, it sends warning and error emails to a specified email address.
+
+**Features**
+1. Monitors a GCS bucket for the presence of a specific file.
+2. Supports checking for files with names that include the current date.
+3. Sends warning emails after a certain number of unsuccessful tries.
+4. Sends an error email if the file does not appear after the maximum number of tries.
+5. Supports sending emails with optional attachments.
+
+
+**Requirements**
+1. Python 3.x
+2. Google Cloud Storage client library
+3. smtplib for sending emails
+
+
+**Installation**
+Install the package via pip:
+
+```Bash
+pip install gcs-file-dependency-monitor
+```
+
+**Dependencies**
+
+Make sure to have these installed using:
+
+```Bash
+pip install google-cloud-storage
+pip install datetime
+```
+
+
+*Example Usage:*
+
+```Python
+
+from gcs_file_dependency_monitor import gcs_file_dependency_monitor
+
+gcs_file_dependency_monitor(
+    dependent_file='path/to/your/file',
+    dependent_file_bucket='your-bucket-name',
+    number_of_tries=10,
+    num_of_tries_before_warn_email=5,
+    time_interval=60,
+    warn_email_content='Warning: File not found yet.',
+    warn_email_subject='File Not Found Warning',
+    email_address='recipient@example.com',
+    error_email_content='Error: File not found after maximum tries.',
+    error_email_subject='File Not Found Error',
+    SMTP_SERVER='smtp.example.com',
+    SMTP_PORT=587,
+    SMTP_USER='your-smtp-user',
+    SMTP_PASSWORD='your-smtp-password',
+    dependent_file_name_has_current_date=True
+)
+
+
+```
+
+**Parameters:**
+gcs_file_dependency_monitor
+This function waits for a specific file to appear in a GCS bucket and sends emails based on the result.
+
+Parameters:
+1. dependent_file (str): The file to wait for.
+2. dependent_file_bucket (str): The GCS bucket containing the file.
+3. number_of_tries (int): The number of attempts to check for the file.
+4. num_of_tries_before_warn_email (int): The number of tries before sending a warning email.
+5. time_interval (int): The time interval (in seconds) between attempts.
+6. warn_email_content (str): The content of the warning email.
+7. warn_email_subject (str): The subject of the warning email.
+8. email_address (str): The recipient email address.
+9. error_email_content (str): The content of the error email.
+10. error_email_subject (str): The subject of the error email.
+11. SMTP_SERVER (str): The SMTP server for sending emails.
+12. SMTP_PORT (int): The port for the SMTP server.
+13. SMTP_USER (str): The SMTP server user.
+14. SMTP_PASSWORD (str): The SMTP server password.
+15. dependent_file_name_has_current_date (bool, optional): Whether the dependent file name     includes the current date. Default is False.
