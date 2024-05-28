@@ -1,0 +1,11 @@
+megickfilebrowse/__init__.py,sha256=MuTDSCHeOgBIeIKz89pDQzIu6Pe6BPXCIRvmIWYtUkA,69
+megickfilebrowse/megickfilebrowse.py,sha256=2fYrN1mXSLgOZjnaYs4Ejub8neS3bI7R_B20r20nR5k,7238
+megickfilebrowse/megickfilebrowse.pyi,sha256=aTaivGOor4U845mskhLgVFVNyEu5AmagQm4ASn5Stl8,25147
+megickfilebrowse/templates/component/index.js,sha256=0SAdyFDTNVnsXma6taqpfKgFzUWDYKS6dKcNT6rkXXY,84721
+megickfilebrowse/templates/component/style.css,sha256=wIy76zkWk4MvNOdrNHPNcZp_LOJncVQQDtC7wfjcP9I,14821
+megickfilebrowse/templates/example/index.js,sha256=fW0sXCriIb57fDfgKPwHsYy9qVXswWJqWWxtpAgbVu0,3702
+megickfilebrowse/templates/example/style.css,sha256=v6qB6ZtrdD37gdS3shZoW627JXEH-LqhoIno6K47hjE,240
+megickfilebrowse-0.0.4.dist-info/METADATA,sha256=ROVFLrjMsLdxS0oaxRPzI74GUdL-mQZK9fzp4JM5hWQ,9043
+megickfilebrowse-0.0.4.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+megickfilebrowse-0.0.4.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+megickfilebrowse-0.0.4.dist-info/RECORD,,
