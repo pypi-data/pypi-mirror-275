@@ -1,0 +1,14 @@
+README.md
+setup.py
+plutocam/__init__.py
+plutocam/__main__.py
+plutocam/command.py
+plutocam/defaults.py
+plutocam/lwdrone.py
+plutocam/responses.py
+plutocam/utils.py
+plutocam.egg-info/PKG-INFO
+plutocam.egg-info/SOURCES.txt
+plutocam.egg-info/dependency_links.txt
+plutocam.egg-info/entry_points.txt
+plutocam.egg-info/top_level.txt
