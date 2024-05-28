@@ -1,0 +1,16 @@
+README.md
+setup.py
+agent/__init__.py
+agent/fegin/__init__.py
+agent/fegin/portal_client.py
+agent/service/__init__.py
+agent/service/llm/__init__.py
+agent/service/memory/__init__.py
+agent/service/memory/memorytool.py
+agent/utils/__init__.py
+agent/utils/http_util.py
+agent/wapper/__init__.py
+dde_agent_lib.egg-info/PKG-INFO
+dde_agent_lib.egg-info/SOURCES.txt
+dde_agent_lib.egg-info/dependency_links.txt
+dde_agent_lib.egg-info/top_level.txt
