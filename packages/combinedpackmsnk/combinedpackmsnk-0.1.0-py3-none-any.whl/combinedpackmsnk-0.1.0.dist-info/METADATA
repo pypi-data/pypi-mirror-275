@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: combinedpackmsnk
+Version: 0.1.0
+Summary: A short description of your package
+Home-page: https://github.com/yourusername/your-repo-name
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: nbconvert
+Requires-Dist: statsmodels
+Requires-Dist: ydata-profiling
+
+
+# combinedpackmsnk
+
+A short description of your package.
+
+## Installation
+
+You can install the package using:
+
+```sh
+pip install combinedpackmsnk
+```
+
+## Usage
+
+Here is an example of how to use the package:
+
+```python
+from combinedpackmsnk import func
+
+# Call the function
+func('path_to_your_file.csv')
+```
