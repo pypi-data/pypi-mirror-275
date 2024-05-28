@@ -1,0 +1,10 @@
+horizon/__init__.py,sha256=AbXDdhC2BztGyE7SsL3ZeaO3T6gLBsu0zBqXOXDjIBU,81
+horizon/module.py,sha256=k9dvD4EBCb1oo_nydd9Sn7Sp-I7sfUJ44yo_hYVT14M,2833
+horizon-beyond/__init__.py,sha256=AbXDdhC2BztGyE7SsL3ZeaO3T6gLBsu0zBqXOXDjIBU,81
+horizon-beyond/module.py,sha256=k9dvD4EBCb1oo_nydd9Sn7Sp-I7sfUJ44yo_hYVT14M,2833
+horizon_beyond-0.1.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+horizon_beyond-0.1.1.dist-info/METADATA,sha256=VPl_Hm2J64CYAskAM5QaVtUFBhl7kIOI0pH4OP8a7Do,407
+horizon_beyond-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+horizon_beyond-0.1.1.dist-info/entry_points.txt,sha256=gYPn_LIxoyEYdtK5rYmRycIeSsTAmRAyS_d6eOzSsTU,55
+horizon_beyond-0.1.1.dist-info/top_level.txt,sha256=W7AWRhZ4sbPawAH6LltBHZ79_32B96uwg4_tHTdl4A0,15
+horizon_beyond-0.1.1.dist-info/RECORD,,
