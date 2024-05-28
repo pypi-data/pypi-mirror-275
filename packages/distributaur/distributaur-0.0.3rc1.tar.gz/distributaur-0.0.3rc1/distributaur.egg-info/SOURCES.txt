@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+version.txt
+distributaur/__init__.py
+distributaur/core.py
+distributaur/vast.py
+distributaur.egg-info/PKG-INFO
+distributaur.egg-info/SOURCES.txt
+distributaur.egg-info/dependency_links.txt
+distributaur.egg-info/requires.txt
+distributaur.egg-info/top_level.txt
