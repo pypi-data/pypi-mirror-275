@@ -1,0 +1,9 @@
+loguru
+pathlib
+rich
+tqdm
+instructor
+llama-index
+llama-index-llms-litellm
+llama-index-readers-web
+litellm
