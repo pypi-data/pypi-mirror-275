@@ -1,0 +1,111 @@
+#!/bin/bash
+
+name="$1"
+distro="$2"
+
+# Define Colors
+# But without Tput
+green="\033[01;32m"
+red="\033[01;31m"
+blue="\033[01;34m"
+cyan="\033[01;36m"
+reset="\033[0m"
+cursive="\033[01;33m"
+bold="\033[01m"
+
+msg() {
+    echo -e "${green}[${red}*${green}]${cyan} ${@:1} ${reset}" 2>&1
+}
+
+abort() {
+    msg "Unsuccessful, Canceling..."
+    exit 1
+}
+
+if [ "$#" -ne 2 ]; then
+    msg "Usage: $0 <name> <distro>"
+    exit 1
+fi
+
+case "${distro}" in
+    debian|ubuntu)
+        prefix="/usr"
+        pythonpath="/usr/lib/python3/dist-packages"
+        depends="python3, python3-venv, python-is-python3"
+        ;;
+    termux)
+        prefix="/data/data/com.termux/files/usr"
+        pythonpath="/data/data/com.termux/files/usr/lib/python3.11/site-packages"
+        depends="python, python"
+        ;;
+    *)
+        msg "Unsupported distribution: ${distro}"
+        exit 1
+        ;;
+esac
+
+# Creating Virtual Environment and install Module there
+msg "Setting up Venv ..."
+python -m venv .tmp-venv &>/dev/null || abort
+source .tmp-venv/bin/activate || abort
+pip install ${name} &>/dev/null || abort
+
+# Grep Meta Data from Module
+msg "Grep Meta Data from Module"
+package=$(pip show ${name} | grep -E '^Name: ' | cut -d' ' -f2) || abort
+version=$(pip show ${name} | grep -E '^Version: ' | cut -d' ' -f2) || abort
+summary=$(pip show ${name} | grep -E '^Summary: ' | cut -d' ' -f2) || abort
+author=$(pip show ${name} | grep -E '^Author: ' | cut -d' ' -f2) || abort
+email=$(pip show ${name} | grep -E '^Author-email: ' | cut -d' ' -f2) || abort
+pip_depends=$(pip show ${name} | grep -E '^Requires: ' | cut -d' ' -f2) || abort
+arch=$(dpkg --print-architecture) || abort
+
+#Struct Package
+msg "Struct Package"
+build_dir="${name}${pythonpath}"
+build_prefix="${name}${prefix}"
+debian_dir="${name}/DEBIAN"
+control_file="${debian_dir}/control"
+
+# Create Folder and Build distribution
+mkdir -p ${build_dir} ${debian_dir} || abort
+touch ${control_file} || abort
+
+# Install PIP Module to build_dir
+msg "Install PIP Module to build_dir"
+pip install ${name} --target ${build_dir} &>/dev/null || abort
+
+# Check for Bin in build_dir
+msg "Check for Bin in build_dir"
+if [ -d "${build_dir}/bin" ]; then
+    msg "${green}Bin Folder Found"
+    mkdir -p ${build_prefix}/bin || abort
+    cp -rf ${build_dir}/bin/* ${build_prefix}/bin || abort
+    rm -rf ${build_dir}/bin || abort
+else
+    msg "${red}Bin Folder Not Found"
+fi
+
+# Create Control File and Give him Correct Rights
+msg "Create Control File and Give Rights"
+cat <<EOF > ${control_file} || abort
+Package: ${name}
+Version: ${version}
+Architecture: ${arch}
+Maintainer: ${author} <${email}>
+Depends: ${depends}
+Description: ${summary}
+EOF
+
+# Create Debian Package
+msg "Create Debian Package"
+chmod -R 755 ${name} || abort
+dpkg-deb --build ${name} &>/dev/null || abort
+package_name="${name}_${version}_${arch}_${distro}.deb"
+mv ${name}.deb ${package_name} || abort
+
+msg "Package Created: ${package_name}, for distro: ${distro}:${arch}"
+msg "Cleaning Up"
+rm -rf ${name} .tmp-venv || abort
+
+msg "${green}Done"

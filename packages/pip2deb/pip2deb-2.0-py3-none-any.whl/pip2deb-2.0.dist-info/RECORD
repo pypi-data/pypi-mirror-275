@@ -1,0 +1,6 @@
+pip2deb-2.0.data/scripts/pip2deb,sha256=E8y9MMIKyA4qOFXiX8WPQtYsaFFxKB_yS_F_5fYVy3o,3022
+pip2deb-2.0.dist-info/LICENSE,sha256=Jma-su8tVo1fD237n0wEZpzgzE1KGM2ucmljbAGj2W0,3397
+pip2deb-2.0.dist-info/METADATA,sha256=gcYlY35A8AhZtnYgwlFhtQx4mOytazE-THZlnzp5ZS8,1415
+pip2deb-2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pip2deb-2.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pip2deb-2.0.dist-info/RECORD,,
