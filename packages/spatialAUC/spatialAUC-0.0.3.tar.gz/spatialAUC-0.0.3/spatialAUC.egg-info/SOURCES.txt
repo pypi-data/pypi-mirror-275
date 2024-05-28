@@ -1,0 +1,8 @@
+setup.py
+spatialAUC/__init__.py
+spatialAUC/spatialAUC.py
+spatialAUC.egg-info/PKG-INFO
+spatialAUC.egg-info/SOURCES.txt
+spatialAUC.egg-info/dependency_links.txt
+spatialAUC.egg-info/requires.txt
+spatialAUC.egg-info/top_level.txt
