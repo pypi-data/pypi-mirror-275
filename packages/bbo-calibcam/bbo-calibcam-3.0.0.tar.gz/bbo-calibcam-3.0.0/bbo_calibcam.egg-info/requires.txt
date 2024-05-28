@@ -1,0 +1,10 @@
+numpy
+pyyaml
+scipy
+bbo-calibcamlib
+jax
+jaxlib
+imageio
+bbo-ccvtools
+bbo-svidreader
+bbo_bbo
