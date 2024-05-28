@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: dflowd
+Version: 0.0.1
+Summary: A small example package
+Author-email: Denis Kuznetsov <kuznetsov.den.p@gmail.com>
+Requires-Python: >=3.8
