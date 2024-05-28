@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bergmann
+Version: 0.0.1
+Summary: Password manager
+Author: Sviatoslav Bobryshev
+Author-email: wstswsb@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: grassnechik (==0.2.0)
+Requires-Dist: pyperclip (>=1.8.2,<2.0.0)
+Requires-Dist: textual (>=0.61.1,<0.62.0)
+Description-Content-Type: text/markdown
+
+
