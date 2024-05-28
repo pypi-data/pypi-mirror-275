@@ -1,0 +1,323 @@
+import datetime
+
+from click import echo
+from click import style
+
+from . import database
+
+
+def list_tasks(
+    priority=None,
+    today=None,
+    week=None,
+    inprogress=None,
+    completed=None,
+    pending=None,
+    label=None,
+    subtasks=False,
+) -> list | None:
+    """
+    List all the tasks based on the filters.
+    """
+    order_by = "completed ASC, status ASC, priority DESC"
+    where_clause = []
+    if not subtasks:
+        where_clause.append("parent_id ISNULL")
+    if week:
+        where_clause.append(
+            "(completed > date('now', 'weekday 0', '-7 days') AND completed < date('now', 'weekday 1'))",
+        )
+    elif today:
+        where_clause.append("(completed = date('now'))")
+    if inprogress or completed or pending:
+        clause = []
+        if inprogress:
+            clause.append("'In Progress'")
+        if completed:
+            clause.append("'Completed'")
+        if pending:
+            clause.append("'Pending'")
+        where_clause.append("status in (" + ",".join(clause) + ")")
+    else:
+        clause = ["'In Progress'", "'Pending'"]
+        where_clause.append("status in (" + ",".join(clause) + ")")
+
+    if priority:
+        where_clause.append(f"priority = {priority}")
+
+    if label:
+        where_clause.append(f"label = '{label}'")
+    where_clause = "WHERE " + " AND ".join(where_clause)
+
+    try:
+        results = database.list_table(
+            table="tasks",
+            columns=[
+                "id",
+                "title",
+                "status",
+                "deadline",
+                "priority",
+                "label",
+                "description",
+                "subtasks",
+            ],
+            where_clause=where_clause,
+            order_by=f"ORDER BY {order_by}",
+        )
+    except:
+        generate_migration_error()
+        return None
+
+    final_results = []
+    for result in results:
+        final_results.append(
+            {
+                "id": result[0],
+                "title": result[1],
+                "status": result[2],
+                "deadline": (
+                    result[3]
+                    if str(result[3]) == "None"
+                    else convert_to_console_date(result[3])
+                ),
+                "priority": result[4],
+                "label": result[5] if result[5] else "None",
+                "description": result[6],
+                "subtasks": result[7],
+            },
+        )
+    return final_results
+
+
+def add_tasks(
+    title,
+    description=None,
+    priority=None,
+    today=False,
+    week=False,
+    deadline=None,
+    inprogress=None,
+    completed=None,
+    pending=None,
+    label=None,
+    parent=None,
+):
+    """
+    Add a task to the database.
+    """
+    columns = ["title"]
+    values = [f'"{sanitize_text(title)}"']
+    if description:
+        columns.append("description")
+        values.append(f'"{sanitize_text(description)}"')
+    if priority:
+        columns.append("priority")
+        values.append(str(priority))
+    if today:
+        columns.append("deadline")
+        values.append("date('now')")
+    elif week:
+        columns.append("deadline")
+        values.append("date('now', 'weekday 0')")
+    elif deadline:
+        columns.append("deadline")
+        values.append(f"'{deadline}'")
+    if inprogress:
+        columns.append("status")
+        values.append("'In Progress'")
+    elif completed:
+        columns.append("status")
+        values.append("'Completed'")
+    elif pending:
+        columns.append("status")
+        values.append("'Pending'")
+    if label:
+        columns.append("label")
+        values.append(f'"{sanitize_text(label)}"')
+    if parent:
+        columns.append("parent_id")
+        values.append(str(parent))
+    try:
+        database.insert_into_table(table="tasks", columns=columns, values=values)
+    except:
+        generate_migration_error()
+        return
+    # Insert the record then increment the count of the parent task.
+    if parent:
+        database.update_table(
+            "tasks",
+            {"subtasks": "subtasks + 1", "id": f"{parent}"},
+        )
+
+
+def search_task(task_id) -> dict | None:
+    """
+    Search a task by its id.
+    :param task_id:
+    :return: task_details
+    """
+    try:
+        task = database.list_table(
+            table="tasks",
+            columns=[
+                "id",
+                "title",
+                "description",
+                "status",
+                "deadline",
+                "priority",
+                "label",
+                "completed",
+                "parent_id",
+                "subtasks",
+            ],
+            where_clause=f"WHERE id = {task_id}",
+        )
+    except:
+        generate_migration_error()
+        return None
+
+    task_details = {}
+    if task:
+        task = task[0]
+        task_details = {
+            "id": task[0],
+            "title": task[1],
+            "description": task[2],
+            "status": task[3],
+            "deadline": task[4],
+            "priority": task[5],
+            "label": task[6] if task[6] else "None",
+            "completed": (task[7]),
+            "parent_id": task[8],
+            "subtasks": task[9],
+        }
+    return task_details
+
+
+def get_subtasks(task_id: int):
+    try:
+        results = database.list_table(
+            table="tasks",
+            columns=[
+                "id",
+                "title",
+                "status",
+                "deadline",
+                "priority",
+                "label",
+                "description",
+                "subtasks",
+            ],
+            where_clause=f"WHERE parent_id = {task_id}",
+            order_by="ORDER BY completed ASC, status ASC, priority DESC",
+        )
+    except:
+        generate_migration_error()
+        return None
+    final_results = []
+    for result in results:
+        final_results.append(
+            {
+                "id": result[0],
+                "title": result[1],
+                "status": result[2],
+                "deadline": (
+                    result[3]
+                    if str(result[3]) == "None"
+                    else convert_to_console_date(result[3])
+                ),
+                "priority": result[4],
+                "label": result[5] if result[5] else "None",
+                "description": result[6],
+                "subtasks": result[7],
+            },
+        )
+    return final_results
+
+
+def update_task(updated_data: dict):
+    """If marked as completed then set datetime as now else retain prev value"""
+
+    if updated_data["deadline"] == "week":
+        today = datetime.date.today()
+        weekend = today + datetime.timedelta(days=6 - today.weekday())
+        updated_data["deadline"] = str(weekend)
+    elif updated_data["deadline"] == "today":
+        updated_data["deadline"] = str(datetime.datetime.now().strftime("%Y-%m-%d"))
+    elif updated_data["deadline"] not in [None, "None"]:
+        updated_data["deadline"] = str(convert_to_db_date(updated_data["deadline"]))
+
+    if updated_data["status"] == "Completed":
+        updated_data["completed"] = str(datetime.datetime.now().strftime("%Y-%m-%d"))
+    else:
+        updated_data["completed"] = updated_data["deadline"]
+
+    final_data = {}
+
+    for key, value in updated_data.items():
+        if value is None:
+            continue
+
+        if type(value) is str:
+            updated_data[key] = f"'{value}'"
+
+        final_data[key] = updated_data[key]
+
+    try:
+        database.update_table("tasks", final_data)
+    except Exception as e:
+        print(e)
+        generate_migration_error()
+
+
+def handle_delete(current_task: dict):
+    """
+    Delete a task from the database
+    """
+    database.delete_task(current_task["id"])
+    children = database.list_table(
+        table="tasks",
+        columns=["id"],
+        where_clause=f"WHERE parent_id = {current_task['id']}",
+    )
+    for child in children:
+        database.delete_task(child[0])
+    if current_task["parent_id"]:
+        parent = search_task(current_task["parent_id"])
+        if parent and parent["subtasks"] > 0:
+            try:
+                database.update_table(
+                    "tasks",
+                    {"subtasks": "subtasks - 1", "id": f"{current_task['parent_id']}"},
+                )
+            except:
+                generate_migration_error()
+
+
+def convert_to_console_date(date_str, title=None):
+    """
+    Convert date from "YYYY-MM-DD" to "dd/mm/yyyy"
+    """
+    date_obj = datetime.datetime.strptime(date_str, "%Y-%m-%d")
+    return date_obj.strftime("%d/%m/%Y")
+
+
+def convert_to_db_date(date_str):
+    # Convert date from "dd/mm/yyyy" to "YYYY-MM-DD"
+    date_obj = datetime.datetime.strptime(date_str, "%d/%m/%Y")
+    return date_obj.strftime("%Y-%m-%d")
+
+
+def sanitize_text(text):
+    return text.strip().replace('"', "'")
+
+
+def generate_migration_error():
+    echo(
+        style(
+            "Have You Run Migrations? Run 'devcord init --migrate' to run migrations",
+            fg="red",
+        ),
+    )
