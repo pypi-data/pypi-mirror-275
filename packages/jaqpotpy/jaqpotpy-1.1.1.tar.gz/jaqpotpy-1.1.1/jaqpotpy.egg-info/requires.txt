@@ -1,0 +1,10 @@
+pandas
+requests
+pydantic
+rdkit-pypi
+mordred
+pyjwt
+scikit-learn
+tqdm
+skl2onnx
+onnxruntime
