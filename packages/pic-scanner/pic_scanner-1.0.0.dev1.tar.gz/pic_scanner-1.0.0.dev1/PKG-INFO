@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pic-scanner
+Version: 1.0.0.dev1
+Summary: Pic Scanner
+License: MIT
+Author: Taylor B.
+Author-email: tayjaybabee@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: inspyre-toolbox (>=1.5.2)
+Requires-Dist: packaging (>=24.0,<25.0)
+Requires-Dist: pillow (>=10.3.0,<11.0.0)
+Requires-Dist: pysimplegui (>=5.0.4,<6.0.0)
+Requires-Dist: python-box (>=7.1.1,<8.0.0)
+Requires-Dist: requests (>=2.32.2,<3.0.0)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Description-Content-Type: text/markdown
+
+# PicScanner
+
+```shell
+poetry install
+poetry build
+pip install dist/
+```
+
