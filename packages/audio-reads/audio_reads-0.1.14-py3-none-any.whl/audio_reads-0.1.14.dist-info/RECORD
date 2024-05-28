@@ -1,0 +1,15 @@
+audio_reads/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+audio_reads/__main__.py,sha256=8hDtWlaFZK24KhfNq_ZKgtXqYHsDQDetukOCMlsbW0Q,59
+audio_reads/article.py,sha256=6dArVRTWICgJbzeq0WKTzYaJQij_m9OTS9qD7pdNPQ8,2316
+audio_reads/chunks.py,sha256=S8BLk9MaWvE6-DbpWWpX5kaa6wXA4CbHJa94OTp1H-8,582
+audio_reads/cli.py,sha256=v8S42wCRmk-LPS-UbBf910AZbU1O7y2wo2QcvW3rojM,3988
+audio_reads/common.py,sha256=snyj0OCSEg6cvaq3TI9TOOUKQmSAZu0pkBGKTr4jMi0,39
+audio_reads/elevenlabs.py,sha256=kmnfatvGn7I-QF7kSFjzHhWAXE5QSYtdoSXaZl-9oIQ,767
+audio_reads/filename.py,sha256=QtWtYJZY-1cDyOu-1vkSKfPfskJOr4GObPOvMZfdvgs,312
+audio_reads/openai.py,sha256=BaMG4YeMYk5IsDlmVP6haU_YVJKS6jAOCRFKWqITFpE,1773
+audio_reads-0.1.14.dist-info/LICENSE.md,sha256=CVMGcR_ruD4oSJgklfdWcyAWZP_JmGRIfLoVPk6kse0,1102
+audio_reads-0.1.14.dist-info/METADATA,sha256=gA91HRvLSntMcxQhLqL3UuXNbVyNaGV1IDQC2GlB9aY,5645
+audio_reads-0.1.14.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+audio_reads-0.1.14.dist-info/entry_points.txt,sha256=18PNvHhfcmaCuYG-OG-RcVcdoptg8kNsE_I5TFV0-PA,52
+audio_reads-0.1.14.dist-info/top_level.txt,sha256=S8QXO0IPwZ0KdwlCEE6PLJNj87vdyUjA5Cokdkm9Ve8,12
+audio_reads-0.1.14.dist-info/RECORD,,
