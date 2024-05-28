@@ -1,0 +1,15 @@
+stricto/__init__.py,sha256=mQY9YO72sxWX1gNqgS2LXAaaQtYcXd6vaMvJdB3VPzQ,303
+stricto/bool.py,sha256=8xLcBmySa6iecc2wYNWn2WVVZ01YhEg-o_s-nFUf6NU,598
+stricto/dict.py,sha256=wj8D6iStsDQJ60ZB1Wy8wi8yqp4CpbH2PPdHsWFyhb8,6816
+stricto/error.py,sha256=IMYoKU76mR65MYEEI3TJxo4XFYsetq3RP8GP6nU9z2c,1223
+stricto/float.py,sha256=MHzfN-KCHTZiaDqugfhRDxfVHS5S3IKFtAGAL-uZfBI,1073
+stricto/generic.py,sha256=P1maLN41tFfkAszU_G4QH_LEfh3_SsbwWOaTfpdfcY0,11172
+stricto/in_type.py,sha256=eQPlVfMZJDsRzalxHRsFS0ZokAfOppQz-UsD76UATFk,900
+stricto/int.py,sha256=BClUfSMDRe2q01kI9uKWtkOOngQXiblp5oTiCA08yks,1116
+stricto/list.py,sha256=km1zpkOOE-ZEG9ViieLf1wXEibXD-ydZUrVGApce3JE,8774
+stricto/string.py,sha256=PtkiGJ1sv-97QhW39DmGZ7aaTTBRt5jAWO3q14tmi3s,1178
+stricto/tuple.py,sha256=2rfZeqXhx-ilVfNKDUke-8Ww2jifxTp7Mnhv68paFFE,4518
+stricto-0.0.3.dist-info/METADATA,sha256=BzL9d3NQdFOckDUuwRJoQdvkAH-CgC0_FIvfvgPAe-E,12239
+stricto-0.0.3.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+stricto-0.0.3.dist-info/licenses/LICENSE,sha256=Cqf7R7vAhQuAehMbClbJODOJxAMy-D7ZCw7XZFe1B78,1073
+stricto-0.0.3.dist-info/RECORD,,
