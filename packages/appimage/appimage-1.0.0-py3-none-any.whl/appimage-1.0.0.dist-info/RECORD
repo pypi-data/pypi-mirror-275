@@ -1,0 +1,7 @@
+appimage/__init__.py,sha256=-KLulX11Blz4hkHvtPeIrf63IIX11Sd4Koq_ybCDh9M,270
+appimage/__main__.py,sha256=zga7q7jXIWt8PcnYf3x1lhXlGDpm8fTkd5RmdW7lBo0,277
+appimage/appstarter.py,sha256=jZmhmHHpPhLHQ3OX6tttKr5R3_SFkv81J_KluM8j70E,25066
+appimage-1.0.0.dist-info/METADATA,sha256=bSTTd2ByL9tk1pHhpGt_n2oW_jwLrx37lMlx4PuXhEw,45491
+appimage-1.0.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+appimage-1.0.0.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+appimage-1.0.0.dist-info/RECORD,,
