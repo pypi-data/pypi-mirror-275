@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/kossou_hillshade_cli/__init__.py
+src/kossou_hillshade_cli/kossou_hillshade_cli.py
+src/kossou_hillshade_cli/version.py
+src/kossou_hillshade_cli.egg-info/PKG-INFO
+src/kossou_hillshade_cli.egg-info/SOURCES.txt
+src/kossou_hillshade_cli.egg-info/dependency_links.txt
+src/kossou_hillshade_cli.egg-info/entry_points.txt
+src/kossou_hillshade_cli.egg-info/requires.txt
+src/kossou_hillshade_cli.egg-info/top_level.txt
