@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: OpenDocument
+Version: 0.1.2
+Requires-Dist: scikit-image==0.18.3
+Requires-Dist: numpy==1.20.0
+Requires-Dist: opencv-python==4.6.0.66
+Requires-Dist: opencv-contrib-python==4.6.0.66
