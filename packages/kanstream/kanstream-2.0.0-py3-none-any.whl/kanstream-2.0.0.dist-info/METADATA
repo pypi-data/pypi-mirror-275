@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: kanstream
+Version: 2.0.0
+Summary: pull and push stream
+Home-page: UNKNOWN
+Author: flinzhao
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: loguru
+Requires-Dist: betterproto ==1.2.5
+Requires-Dist: protobuf ==3.20.3
+Requires-Dist: av
+
+UNKNOWN
+
