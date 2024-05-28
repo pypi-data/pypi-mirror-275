@@ -1,0 +1,9 @@
+README.md
+setup.py
+df_first_project_for_test.egg-info/PKG-INFO
+df_first_project_for_test.egg-info/SOURCES.txt
+df_first_project_for_test.egg-info/dependency_links.txt
+df_first_project_for_test.egg-info/top_level.txt
+my_project/__init__.py
+my_project/module1.py
+my_project/module2.py
