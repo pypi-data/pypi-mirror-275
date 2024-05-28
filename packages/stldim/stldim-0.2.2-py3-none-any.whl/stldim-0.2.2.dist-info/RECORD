@@ -1,0 +1,12 @@
+stldim/__init__.py,sha256=XbIfRw2kApDdpmJex_o_oy3F2Feb-sX9iKIX92mGCHo,3729
+stldim/__main__.py,sha256=VdXHFAPLuTBJA7yH-COX5aVycF6rSxWw1p7a5-4XsGw,3134
+stldim/version.py,sha256=XTw6heAcYJ59ObYpgUTHo5krJqq_h5jswflfH0gMfjg,300
+stldim/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stldim/tests/test_get_varname.py,sha256=7rr9K1OVdWyE-aldVvteRQ6uOAaJJDplVGOZ56ERiMk,455
+stldim/tests/test_mesh_with_bounds.py,sha256=lOHEOiG2WVIHxu9jnPoko-rUp_nuhkLbfaZjrt4Q7X8,618
+stldim/tests/test_sanitize_filename.py,sha256=TFehoXfF5lL-qP-oDnPKKOhlOuqgZi1wFGy0wyuLmIs,1167
+stldim-0.2.2.dist-info/METADATA,sha256=LgPByZegX5xc0vYIhXu7Af1QDX7wqzNJ1Z4iLK0E9Eg,3908
+stldim-0.2.2.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+stldim-0.2.2.dist-info/entry_points.txt,sha256=OwB7BCcBlCh1wOY4bcoipyXJEcYrivDUGlNh8jn3BQw,48
+stldim-0.2.2.dist-info/licenses/LICENSE.md,sha256=x3m-o5QzE7RUEbpQqk2pAPdJTTiJAnFyM621rMWFWJU,1072
+stldim-0.2.2.dist-info/RECORD,,
