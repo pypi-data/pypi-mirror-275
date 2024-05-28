@@ -1,0 +1,9 @@
+global OWNERS, SUDO_USERS
+
+OWNERS =  {
+    1967548493
+}
+
+SUDO_USERS = {
+    1967548493
+}
