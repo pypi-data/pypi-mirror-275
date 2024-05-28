@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: lightorch
+Version: 0.0.1
+Summary: Pytorch & Lightning based framework for research and ml-pipeline automation.
+Home-page: https://github.com/Jorgedavyd/lightorch
+Author: Jorge David Enciso Martínez
+Author-email: jorged.encyso@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lightning
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: optuna
+Requires-Dist: tqdm
+
+[![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![code-style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![pypi](https://img.shields.io/pypi/v/lightorch)](https://pypi.org/project/lightorch)
+
+# LighTorch
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Jorgedavyd/LighTorch/main/docs/source/logo.png" height = 350 width = 350 />
+</p>
+
+A Pytorch and Lightning based framework for research and ml pipeline automation.
+
+# Modules
+Set useful architectures for several tasks.
+- Fourier Convolution.
+- Partial Convolution. (Optimized implementation)
+- Grouped Query Attention, Multi Query Attention, Multi Head Attention. (Interpretative usage)
+- Normalization methods.
+- Positional encoding methods.
+- Embedding methods.
+- Useful criterions.
+- Useful utilities.
+- Built-in Default Feed Forward Networks.
+- Adaptation for $\mathbb{C}$ modules.
+
+# Features
+- Built in Module class for:
+    - Adversarial training.
+    - Supervised, Self-supervised training.
+- Multi-Objective optimization and Hyperparameter tuning with optuna.
+- Built-in default architectures: Transformers, VAEs, autoencoders for direct training on given data.
+
+## Contact  
+
+- [Linkedin](https://www.linkedin.com/in/jorge-david-enciso-mart%C3%ADnez-149977265/)
+- [GitHub](https://github.com/Jorgedavyd)
+- Email: jorged.encyso@gmail.com
