@@ -1,0 +1,9 @@
+crewserve/__init__.py,sha256=bwMxN0Nwzg1OWLEN4DmBPcIwqWOhIsS0cQBff63Mcx8,576
+crewserve/cli.py,sha256=0siF2lUjx08kTkml--7ZFTdOiK2rrbWjOEH2RyxqNPU,38
+crewserve/controller.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crewserve-0.0.1.dist-info/LICENSE,sha256=G6YHgG6Rk-8pJUA9ehDWOCbho0VKwE-znhGq6-XWnPA,11350
+crewserve-0.0.1.dist-info/METADATA,sha256=UGmDtYSd2M8bbb0kjbq8x8eSIIa9xUJvk1tjxEEXKiE,1482
+crewserve-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+crewserve-0.0.1.dist-info/entry_points.txt,sha256=iFReqD_TlQFyrpuJ-f5ObrOMgCU43k0nFXZ3I9JSSjg,43
+crewserve-0.0.1.dist-info/top_level.txt,sha256=2kiVHwWhD82Ac5QmOtzSq47k8Y5mx5k6IAxNBYUgrNs,10
+crewserve-0.0.1.dist-info/RECORD,,
