@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/crewtune/__init__.py
+src/crewtune/cli.py
+src/crewtune/controller.py
+src/crewtune.egg-info/PKG-INFO
+src/crewtune.egg-info/SOURCES.txt
+src/crewtune.egg-info/dependency_links.txt
+src/crewtune.egg-info/entry_points.txt
+src/crewtune.egg-info/not-zip-safe
+src/crewtune.egg-info/requires.txt
+src/crewtune.egg-info/top_level.txt
