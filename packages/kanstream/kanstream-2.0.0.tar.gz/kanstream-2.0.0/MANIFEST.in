@@ -1,0 +1,3 @@
+include requirements.txt
+include kanstream/version.py
+exclude demo.py
