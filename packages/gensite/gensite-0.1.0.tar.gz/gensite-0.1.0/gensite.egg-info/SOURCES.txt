@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+gensite/__init__.py
+gensite.egg-info/PKG-INFO
+gensite.egg-info/SOURCES.txt
+gensite.egg-info/dependency_links.txt
+gensite.egg-info/top_level.txt

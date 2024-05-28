@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: gensite
+Version: 0.1.0
+Summary: Static site generator
+Author: Evan Raw
+Author-email: evanraw.ca@gmail.com
+License: MIT
+License-File: LICENSE
