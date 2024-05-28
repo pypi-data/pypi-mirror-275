@@ -1,0 +1,8 @@
+flit
+pandas
+pylint
+pytest
+pytest-cov
+snakeviz
+xlwt
+openpyxl
