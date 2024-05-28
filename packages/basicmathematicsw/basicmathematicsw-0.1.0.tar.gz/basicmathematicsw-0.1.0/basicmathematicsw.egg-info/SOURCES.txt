@@ -1,0 +1,8 @@
+README.md
+setup.py
+basicmathematicsw/__init__.py
+basicmathematicsw/operations.py
+basicmathematicsw.egg-info/PKG-INFO
+basicmathematicsw.egg-info/SOURCES.txt
+basicmathematicsw.egg-info/dependency_links.txt
+basicmathematicsw.egg-info/top_level.txt
