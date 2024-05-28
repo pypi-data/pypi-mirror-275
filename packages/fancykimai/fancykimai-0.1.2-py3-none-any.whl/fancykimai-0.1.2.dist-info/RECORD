@@ -1,0 +1,16 @@
+fancykimai/app.py,sha256=2FTu_g9HP2VCNERsVjeRoHUI9PVCYgP0V6XJz_QkDdU,877
+fancykimai/commands/__init__.py,sha256=UDu-ojgpiNI7dm2E8c-BwnxaJ2wLwTYYc2hBzQnLKDY,405
+fancykimai/commands/activities.py,sha256=b96qbMqfHRFL4gr_x2QtL-zTr8IPoTq00GRUh_c7Mi4,1053
+fancykimai/commands/config.py,sha256=7U4aQx-M0ClqH7Uy81wDU4_1Aokc7brD6jcfOgKbAQI,902
+fancykimai/commands/customers.py,sha256=Fk2wgRZEyqMOz3k8CvSB5PqGZcKvaImN85LBp8Vs8KE,1120
+fancykimai/commands/login.py,sha256=nLusw0l8ZfTcnw4acqRvladzeck0x27VJpuJgR7pUrk,884
+fancykimai/commands/projects.py,sha256=clewHEpICUaOZ1-qxUWvlutvTkdkiCJDbPUwmsWD0Nw,2021
+fancykimai/commands/teams.py,sha256=odMtb2ZITST_wA-Pt5vms4PKSutUUGJiwxjrcKnyXEk,497
+fancykimai/commands/timesheets.py,sha256=H5du7gZVdF6qA5WuaFk6E0VBwGsBjrH5hljPxp2CqlU,10000
+fancykimai/functions/config.py,sha256=nTTJY3vqtfanQ7MnYynCaNCu6rNVhd944pn3N1u7mHE,974
+fancykimai/functions/kimai.py,sha256=h32H7mTUnjY-gkRN8h2uWBt5fl8Ih286VMR-uiyHpP0,1687
+fancykimai-0.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fancykimai-0.1.2.dist-info/METADATA,sha256=I5E4Ih_Mq16N8yOKr6gyzLJ6gcewAdHRDhQmLXGR1CA,989
+fancykimai-0.1.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+fancykimai-0.1.2.dist-info/entry_points.txt,sha256=DhWZ0BbuVX-a7bRa6KWWO50t4B5xfV4PeezZBzANoZk,44
+fancykimai-0.1.2.dist-info/RECORD,,
