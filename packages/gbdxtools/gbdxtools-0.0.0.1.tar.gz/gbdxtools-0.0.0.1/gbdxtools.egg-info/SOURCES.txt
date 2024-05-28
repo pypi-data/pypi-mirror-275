@@ -1,0 +1,7 @@
+README.md
+setup.py
+gbdxtools/__init__.py
+gbdxtools.egg-info/PKG-INFO
+gbdxtools.egg-info/SOURCES.txt
+gbdxtools.egg-info/dependency_links.txt
+gbdxtools.egg-info/top_level.txt
