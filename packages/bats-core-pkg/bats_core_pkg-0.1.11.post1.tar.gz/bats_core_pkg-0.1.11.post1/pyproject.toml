@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "bats-core-pkg"
+version = "0.1.11-1"
+description = "Python wrapper on tops of bats-core"
+authors = ["David Caro <dcaro@wikimedia.org>"]
+homepage = "https://github.com/david-caro/bats-core-pkg"
+repository = "https://github.com/david-caro/bats-core-pkg"
+license = "MIT"
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+readme = "README.md"
+packages = [{include = "bats_core_pkg"}]
+include = [
+    "bats_core_pkg/dist/*/*/*/*",
+    "bats_core_pkg/dist/*/*/*",
+    "bats_core_pkg/dist/*/*",
+    "bats_core_pkg/dist/*",
+]
+
+[tool.poetry.scripts]
+bats_core_pkg = 'bats_core_pkg:main'
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

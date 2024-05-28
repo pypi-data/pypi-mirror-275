@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: bats-core-pkg
+Version: 0.1.11.post1
+Summary: Python wrapper on tops of bats-core
+Home-page: https://github.com/david-caro/bats-core-pkg
+License: MIT
+Author: David Caro
+Author-email: dcaro@wikimedia.org
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Repository, https://github.com/david-caro/bats-core-pkg
+Description-Content-Type: text/markdown
+
+# bats-core-pkg
+Simple wrapper to bats-core to be able to pull it from pypi.
+
