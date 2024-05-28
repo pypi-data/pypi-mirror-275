@@ -1,0 +1,9 @@
+README.md
+setup.py
+OpenDocument/__init__.py
+OpenDocument/preprocessing.py
+OpenDocument.egg-info/PKG-INFO
+OpenDocument.egg-info/SOURCES.txt
+OpenDocument.egg-info/dependency_links.txt
+OpenDocument.egg-info/requires.txt
+OpenDocument.egg-info/top_level.txt
