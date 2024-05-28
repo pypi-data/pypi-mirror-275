@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: absolutely-not-scikit-video
+Version: 1.1.12
+Summary: Video Processing in Python
+Home-page: http://scikit-video.org/
+Download-URL: https://github.com/scikit-video/scikit-video
+Maintainer: ('Todd Goodall',)
+Maintainer-email: ('info@scikit-video.org',)
+License: BSD
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Scientific/Engineering
+License-File: LICENSE.txt
+License-File: COPYING
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pillow
+
+This library provides easy access to common as well as
+state-of-the-art video processing routines. Check out the
+website for more details.
+
