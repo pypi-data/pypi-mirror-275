@@ -1,0 +1,17 @@
+mate/__init__.py,sha256=fzTNJnsS9ecjurFb4l5nPxANkLcXRABBe4zoDyIBRng,71
+mate/mate.py,sha256=DJSP6wdZugaqnTxtGS6F40J2Zz8tdsJl83vFRxPVukg,10766
+mate/matelightning.py,sha256=VSkt-YE6wB2C_0sVA5l31dmZpx-PJTUKf7IokxRnNXg,2898
+mate/array/__init__.py,sha256=eOkztG4-Jr5W69YOZQbt0FJu6-JznhDLxGlySPCQ5Ao,89
+mate/array/module.py,sha256=vJ0G0SZ5BBZ_i3EfFJbFgkcf1If8rdQ-8To3pt6LRG4,21390
+mate/dataset/__init__.py,sha256=HM65Qg7CllhW3WnVKHa1yZSVDYDkxqwZfXMHDWzWA6E,44
+mate/dataset/dataset.py,sha256=KtdFVDJc1oSjSQubvlFy3aZ5y7PG12AzxXBAHQ5AxLE,840
+mate/transferentropy/__init__.py,sha256=tqooApLKzbjLmJGYvDlcq6l7wihkYXekPyv58PzjNso,122
+mate/transferentropy/telightning.py,sha256=PcIzD2GPhT6A78d-N4caj7-69Nh7liKTM23cm9Kt6WI,7795
+mate/transferentropy/transferentropy.py,sha256=ewnsjEqRsKk3UU_zapYuHlhs3XVa3G_2jZsKgAj_-jM,11758
+mate/utils/__init__.py,sha256=AhOcBf9ftSSLW9ZvRD10ihjsQyHpVxtwFXcM-czrXZU,44
+mate/utils/utils.py,sha256=xFtkYIUdEmnZebco_yXzOdM6t3y9DeSqdKdmdeTOz-4,510
+mate_cxinsys-1.0.3.dist-info/LICENSE,sha256=aj-lG7ymkGiGMKn8VvTVn03GqRm0VnNGn-PFFjA0v2I,1519
+mate_cxinsys-1.0.3.dist-info/METADATA,sha256=3stu2Y3fUPlVnvty-OGg6j4T5Zfss6SUGX_AELwCcqI,5302
+mate_cxinsys-1.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mate_cxinsys-1.0.3.dist-info/top_level.txt,sha256=8MbbljRcpvvt23MxSBuzV2mESGOXJ6Tgi1l2e-H_SXU,5
+mate_cxinsys-1.0.3.dist-info/RECORD,,
