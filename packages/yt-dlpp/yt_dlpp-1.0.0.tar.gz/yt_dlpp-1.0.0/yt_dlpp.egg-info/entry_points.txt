@@ -1,0 +1,2 @@
+[console_scripts]
+yt-dlpp = yt_dlpp.main:main
