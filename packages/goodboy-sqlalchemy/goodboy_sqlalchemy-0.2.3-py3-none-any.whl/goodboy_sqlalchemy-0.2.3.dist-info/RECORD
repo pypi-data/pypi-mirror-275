@@ -1,0 +1,11 @@
+goodboy_sqlalchemy/__init__.py,sha256=DIqLVxBNjHH_PqoQ6XM6jREK_RVRSVLai0GJwkqeeR8,707
+goodboy_sqlalchemy/column.py,sha256=CgSD21CJOdIOYy5lRdK08tU1O0ZmJxpAv3uvV4PqrQQ,2955
+goodboy_sqlalchemy/column_schemas.py,sha256=MsAY5BQyWdP8orfLt3ki7B7TSCwHHN2EQtOOIbXdPQ8,2643
+goodboy_sqlalchemy/mapped.py,sha256=4rl4h3rziCpq1qh6CMm2hr0aJPAR-dgJ3qZND66sXDE,5024
+goodboy_sqlalchemy/mapped_key.py,sha256=10rFq3i_t7SGSZ8FmSiE0x5VlPL9elfKW_TKJ3DYwEc,5660
+goodboy_sqlalchemy/messages.py,sha256=d2ke2e1FLBUsKld04G2nNw18MYFF5ENNCODEr5BN8Yg,110
+goodboy_sqlalchemy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+goodboy_sqlalchemy-0.2.3.dist-info/LICENSE,sha256=JW373QlTn0e5_caYK6oc92OGBruApegQ9E-RuJN6_Lc,1058
+goodboy_sqlalchemy-0.2.3.dist-info/METADATA,sha256=Ntt4eEjznt6_DLKdOqe3MxFOCkJk9EISp2rxUcR0JVU,925
+goodboy_sqlalchemy-0.2.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+goodboy_sqlalchemy-0.2.3.dist-info/RECORD,,
