@@ -1,0 +1,9 @@
+# environment
+/.venv
+/.vscode
+/.vs
+/.idea
+
+# build
+/build/
+__pycache__/

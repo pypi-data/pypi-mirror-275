@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gongsf"
+version = "0.1.1"
+authors = [
+	{ name = "BeetMacol", website = "https://beetmacol.com" },
+]
+description = "Python bindings for the GSF Libary using ctypes"
+requires-python = ">=3.10"
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://bitrium.games/gsf"
