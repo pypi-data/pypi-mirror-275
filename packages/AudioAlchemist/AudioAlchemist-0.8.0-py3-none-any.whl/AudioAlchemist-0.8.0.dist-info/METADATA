@@ -1,0 +1,162 @@
+Metadata-Version: 2.1
+Name: AudioAlchemist
+Version: 0.8.0
+Summary: Convert all files directly under the directory to any music file.
+Home-page: https://github.com/Ryomo0797/AudioAlchemist.git
+Download-URL: https://github.com/Ryomo0797/AudioAlchemist.git
+Author: Kohki Suto
+Author-email: s2222019@stu.musashino-u.ac.jp
+Maintainer: Kohki Suto
+Maintainer-email: s2222019@stu.musashino-u.ac.jp
+License: MIT
+Keywords: audio,pydub,glob,mp3,wav,flac,m4a,audio_convert,converter,audio_converter
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pydub >=0.25.1
+Requires-Dist: ffmpeg >=1.4
+
+# 日本語の説明
+
+AudioAlchemistは、Pydubを利用した音声変換ツールです。WAVやm4aをMP3ファイルなどの形式に変換することができます。
+
+## 機能
+
+- WAVやm4aをMP3ファイルなどの形式に変換
+- 複数のファイルをまとめて変換
+- 変換後のファイル名をそのまま、もしくは連番で出力（処理を選択可能）
+- 変換前のファイルはすべて残る
+
+※連番で出力するか、拡張子だけ変更して名前を保持する方式を選べるように更新しました。
+
+## インストール
+
+```bash
+pip3 install AudioAlchemist
+```
+
+## 使い方
+
+### ライブラリのインポート
+
+```python
+import AudioAlchemist as aa
+```
+
+### 処理の設定
+
+- `input_extension`: 変換したいファイルの拡張子（'.'は不要）
+- `output_extension`: 変換後のファイルの拡張子（'.'は不要）
+- `input_folder`: フォルダーの場所
+  - 単一ファイルの場合: パスを 'C:/Users/data/melody/music.wav' のように設定
+  - 複数ファイルの場合: パスを 'C:/Users/data/melody/*.wav' と設定（'*'はワイルドカード）
+- `output_folder`: 出力先のフォルダー場所
+  - 新規フォルダーを指定すると自動生成される
+- `audio_alchemist.process_files_index()`  :連番で出力したい場合
+- `audio_alchemist.process_files_namekeep()`  :変換前の名前を残して出力したい場合
+### 処理の実行
+
+```python
+# フォルダパスを設定
+input_folder = 'C:/Users/data/melody/*.wav'
+output_folder = 'C:/Users/data/melody/'
+input_extension = "wav"
+output_extension = "mp3"
+
+# 変換処理を実行
+audio_alchemist = aa.AudioAlchemist(input_folder, output_folder, input_extension, output_extension)
+audio_alchemist.process_files_index()  # 連番で出力したい場合
+audio_alchemist.process_files_namekeep()  # 変換前の名前を残して出力したい場合
+```
+
+このコマンドは、`C:/Users/data/melody` フォルダ内のすべてのWAVファイルをMP3ファイルに変換し、同じフォルダに出力します。
+
+## 変換後の注意点
+
+- 変換するファイルが存在していることを確認してください。
+- 出力フォルダが存在していることを確認してください。
+- 入力ファイルと出力ファイルの拡張子が一致していることを確認してください。
+
+## サポート
+
+バグ報告や機能リクエストは、GitHubのIssueトラッカーまたはメールにてご連絡ください。
+
+## ライセンス
+
+このプログラムは[MIT License](https://choosealicense.com/licenses/mit/)でライセンスされています。
+
+## バージョン
+
+0.8.0
+
+# English explane
+
+AudioAlchemist is a sound conversion tool that utilizes Pydub. It allows you to convert WAV and m4a files to various formats, including MP3.
+
+## Features
+
+- Convert WAV and m4a files to MP3 and other formats.
+- Batch conversion for multiple files.
+- Choose between output filenames with sequential numbering or preserving the original names.
+- Original files remain untouched.
+
+※Updated to allow selection between sequential numbering and preserving original names.
+
+## Installation
+
+```bash
+pip3 install AudioAlchemist
+```
+
+## Usage
+
+### Import the Library
+
+```python
+import AudioAlchemist as aa
+```
+
+### Configuration
+
+- `input_extension`: Extension of the files to be converted (without the dot).
+- `output_extension`: Extension for the converted files (without the dot).
+- `input_folder`: Location of the folder.
+  - For a single file: Specify the complete path, e.g., 'C:/Users/data/melody/music.wav'.
+  - For multiple files: Use a wildcard, e.g., 'C:/Users/data/melody/*.wav'.
+- `output_folder`: Destination folder.
+  - If specifying a new folder, it will be automatically created.
+
+### Execution
+
+```python
+# Set folder paths
+input_folder = 'C:/Users/data/melody/*.wav'
+output_folder = 'C:/Users/data/melody/'
+input_extension = "wav"
+output_extension = "mp3"
+
+# Execute conversion process
+audio_alchemist = aa.AudioAlchemist(input_folder, output_folder, input_extension, output_extension)
+audio_alchemist.process_files_index()  # For sequential numbering
+audio_alchemist.process_files_namekeep()  # To preserve original names
+```
+
+This command will convert all WAV files in the `C:/Users/data/melody` folder to MP3 files and output them in the same folder.
+
+## Post-Conversion Notes
+
+- Ensure that the files to be converted exist.
+- Confirm that the output folder exists.
+- Verify that the input and output file extensions match.
+
+## Support
+
+For bug reports or feature requests, please reach out via GitHub or email.
+
+## License
+
+This program is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+
+## Version
+
+0.8.0
