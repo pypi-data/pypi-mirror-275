@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: abl-library
+Version: 0.1.0
+Summary: My reusable library with FastAPI and resiliency features
+Author: Anushil Nandan
+Author-email: nandananushil1@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: alembic (>=1.13.1,<2.0.0)
+Requires-Dist: autopep8 (>=2.1.1,<3.0.0)
+Requires-Dist: casbin (>=1.36.1,<2.0.0)
+Requires-Dist: detect-secrets (>=1.5.0,<2.0.0)
+Requires-Dist: fastapi (>=0.111.0,<0.112.0)
+Requires-Dist: google-cloud-pubsub (>=2.21.1,<3.0.0)
+Requires-Dist: httpx[http2] (>=0.27.0,<0.28.0)
+Requires-Dist: hyx (>=0.0.2,<0.0.3)
+Requires-Dist: mypy (>=1.10.0,<2.0.0)
+Requires-Dist: opentelemetry-api (>=1.24.0,<2.0.0)
+Requires-Dist: opentelemetry-exporter-otlp-proto-grpc (>=1.24.0,<2.0.0)
+Requires-Dist: opentelemetry-instrumentation-fastapi (>=0.45b0,<0.46)
+Requires-Dist: opentelemetry-sdk (>=1.24.0,<2.0.0)
+Requires-Dist: psycopg2-binary (>=2.9.9,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.2.1,<3.0.0)
+Requires-Dist: pydantic[email] (>=2.7.1,<3.0.0)
+Requires-Dist: pylint (>=3.2.2,<4.0.0)
+Requires-Dist: pytest (>=8.2.1,<9.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: redis (>=5.0.4,<6.0.0)
+Requires-Dist: safety (>=3.2.0,<4.0.0)
+Requires-Dist: sqlalchemy (>=2.0.30,<3.0.0)
+Description-Content-Type: text/markdown
+
+Yayy readme
+

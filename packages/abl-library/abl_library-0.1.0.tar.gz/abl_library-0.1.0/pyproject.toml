@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "abl-library"
+version = "0.1.0"
+description = "My reusable library with FastAPI and resiliency features"
+authors = ["Anushil Nandan <nandananushil1@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "app" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+pydantic = {extras = ["email"], version = "^2.7.1"}
+sqlalchemy = "^2.0.30"
+alembic = "^1.13.1"
+httpx = {extras = ["http2"], version = "^0.27.0"}
+hyx = "^0.0.2"
+redis = "^5.0.4"
+casbin = "^1.36.1"
+pytest = "^8.2.1"
+google-cloud-pubsub = "^2.21.1"
+detect-secrets = "^1.5.0"
+safety = "^3.2.0"
+pylint = "^3.2.2"
+autopep8 = "^2.1.1"
+mypy = "^1.10.0"
+python-dotenv = "^1.0.1"
+opentelemetry-api = "^1.24.0"
+opentelemetry-sdk = "^1.24.0"
+opentelemetry-instrumentation-fastapi = "^0.45b0"
+opentelemetry-exporter-otlp-proto-grpc = "^1.24.0"
+psycopg2-binary = "^2.9.9"
+pydantic-settings = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
