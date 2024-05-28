@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/crewlog/__init__.py
+src/crewlog/cli.py
+src/crewlog/controller.py
+src/crewlog.egg-info/PKG-INFO
+src/crewlog.egg-info/SOURCES.txt
+src/crewlog.egg-info/dependency_links.txt
+src/crewlog.egg-info/entry_points.txt
+src/crewlog.egg-info/not-zip-safe
+src/crewlog.egg-info/requires.txt
+src/crewlog.egg-info/top_level.txt
