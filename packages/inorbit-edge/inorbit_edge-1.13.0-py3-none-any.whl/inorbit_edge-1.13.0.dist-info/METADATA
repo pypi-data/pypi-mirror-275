@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: inorbit-edge
+Version: 1.13.0
+Summary: InOrbit Edge SDK for Python
+Home-page: https://github.com/inorbit-ai/edge-sdk-python
+Download-URL: https://github.com/inorbit-ai/edge-sdk-python/archive/refs/tags/v1.13.0.zip
+Author: InOrbit, Inc.
+Author-email: support@inorbit.ai
+Maintainer: Leandro Pineda
+Maintainer-email: leandro@inorbit.ai
+License: MIT
+Project-URL: CI/CD, https://inorbit.teamcity.com/project/Engineering_Development_DeveloperPortal_EdgeSdkPython
+Project-URL: Tracker, https://inorbit.youtrack.cloud/issues/ESP/?q=State:%20-Resolved%20
+Project-URL: Contributing, https://github.com/inorbit-ai/edge-sdk-python/blob/v1.14.0/CONTRIBUTING.md
+Project-URL: Code of Conduct, https://github.com/inorbit-ai/edge-sdk-python/blob/v1.14.0/CODE_OF_CONDUCT.md
+Project-URL: Changelog, https://github.com/inorbit-ai/edge-sdk-python/blob/v1.14.0/CHANGELOG.md
+Project-URL: Issue Tracker, https://github.com/inorbit-ai/edge-sdk-python/issues
+Project-URL: License, https://github.com/inorbit-ai/edge-sdk-python/blob/n1.14.0/LICENSE
+Project-URL: About, https://www.inorbit.ai/company
+Project-URL: Contact, https://www.inorbit.ai/contact
+Project-URL: Blog, https://www.inorbit.ai/blog
+Project-URL: Twitter, https://twitter.com/InOrbitAI
+Project-URL: LinkedIn, https://www.linkedin.com/company/inorbitai
+Project-URL: GitHub, https://github.com/inorbit-ai
+Project-URL: Website, https://www.inorbit.ai/
+Project-URL: Source, https://github.com/inorbit-ai/edge-sdk-python
+Keywords: inorbit,robops,robotics
+Platform: Linux
+Platform: Mac OS-X
+Platform: Windows
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8, <3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests <3.0,>=2.31
+Requires-Dist: paho-mqtt <2.0,>=1.6.1
+Requires-Dist: pillow <11.0,>=10.3
+Requires-Dist: pyaml <24.0,>=23.12
+Requires-Dist: pydantic <3.0,>=2.6
+Requires-Dist: pysocks <2.0,>=1.7
+Requires-Dist: protobuf <4.0,>=3.20
+Requires-Dist: certifi >=2024.2
+Requires-Dist: deprecated <2.0,>=1.2
+Provides-Extra: video
+Requires-Dist: opencv-python-headless <5.0,>=4.9 ; extra == 'video'
+
