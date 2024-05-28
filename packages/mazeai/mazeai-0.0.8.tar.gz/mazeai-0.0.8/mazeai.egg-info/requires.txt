@@ -1,0 +1,9 @@
+rich
+ipykernel
+tqdm
+loguru
+hydra-core
+
+[chem]
+jpype1
+molvs
