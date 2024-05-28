@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}Авторизация{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2 class="mt-5">Авторизация</h2>
+    <form method="post" id="loginForm">
+        <div class="mb-3">
+            <label for="username" class="form-label">Логин</label>
+            <input type="text" class="form-control" id="username" name="username" pattern="[A-Za-z]+" title="Логин должен содержать только английские буквы." required>
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Пароль</label>
+            <input type="password" class="form-control" id="password" name="password" pattern="(?=.*[!@#$%^&*])(?=.*[0-9]).{8,}" title="Пароль должен содержать минимум 8 символов и 1 специальный символ." required>
+        </div>
+        <button type="submit" class="btn btn-primary">Войти</button>
+    </form>
+</div>
+
+<script>
+document.getElementById('loginForm').addEventListener('submit', function(event) {
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    const usernamePattern = /^[A-Za-z]+$/;
+    const passwordPattern = /^(?=.*[!@#$%^&*])(?=.*[0-9]).{8,}$/;
+
+    if (!usernamePattern.test(username)) {
+        alert('Логин должен содержать только английские буквы.');
+        event.preventDefault();
+    } else if (!passwordPattern.test(password)) {
+        alert('Пароль должен содержать минимум 8 символов и 1 специальный символ.');
+        event.preventDefault();
+    }
+});
+</script>
+{% endblock %}
