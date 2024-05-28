@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: multiply-internship-2024
+Version: 0.1
+Summary: Description of your package
+Author: Abdallah Abdelsameia
+Author-email: aabdelsameia1@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+A small demo library for a Medium publication about publishing libraries.
+
+## Installation 
+
+```python
+pip3 install multiply_internship_2024
+```
+## Get Started
+How to multiply one number by another with this lib:
+```python
+from multiply_internship_2024 import multiplication
+
+multiplication = Multiplication(2)
+
+result = multiplication.multiply(5)
+```

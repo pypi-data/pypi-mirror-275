@@ -1,0 +1,8 @@
+README.md
+setup.py
+multiply_internship_2024.egg-info/PKG-INFO
+multiply_internship_2024.egg-info/SOURCES.txt
+multiply_internship_2024.egg-info/dependency_links.txt
+multiply_internship_2024.egg-info/top_level.txt
+tests/__init__.py
+tests/test_multiplication.py
