@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "earendil_mail"
+version = "0.2.0"
+description = "A Markdown-based HTML email API."
+authors = ["Alex Steele <45648397+ADSteele916@users.noreply.github.com>"]
+readme = "README.md"
+homepage = "https://github.com/ADSteele916/earendil"
+repository = "https://github.com/ADSteele916/earendil"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Operating System :: OS Independent",
+]
+packages = [
+    { include = "earendil" },
+]
+
+[tool.poetry.urls]
+"Issue Tracker" = "https://github.com/ADSteele916/earendil/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Markdown = "^3.6"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.0"
+pytest-mock = "^3.14.0"
+ruff = "^0.4.4"
+black = "^24.4.2"
+isort = "^5.13.2"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
