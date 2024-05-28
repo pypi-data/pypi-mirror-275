@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+cerebrumscanner.egg-info/PKG-INFO
+cerebrumscanner.egg-info/SOURCES.txt
+cerebrumscanner.egg-info/dependency_links.txt
+cerebrumscanner.egg-info/not-zip-safe
+cerebrumscanner.egg-info/requires.txt
+cerebrumscanner.egg-info/top_level.txt
+test/test.py
