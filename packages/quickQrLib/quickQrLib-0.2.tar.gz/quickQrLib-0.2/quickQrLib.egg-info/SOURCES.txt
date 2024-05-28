@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+quickQrLib/__init__.py
+quickQrLib.egg-info/PKG-INFO
+quickQrLib.egg-info/SOURCES.txt
+quickQrLib.egg-info/dependency_links.txt
+quickQrLib.egg-info/requires.txt
+quickQrLib.egg-info/top_level.txt
