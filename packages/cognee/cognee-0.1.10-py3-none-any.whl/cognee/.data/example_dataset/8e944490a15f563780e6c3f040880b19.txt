@@ -1,0 +1,11 @@
+import subprocess
+                def show_all_processes():
+                    process = subprocess.Popen(['ps', 'aux'], stdout=subprocess.PIPE)
+                    output, error = process.communicate()
+                
+                    if error:
+                        print(f"Error: {error}")
+                    else:
+                        print(output.decode())
+                
+                show_all_processes()
