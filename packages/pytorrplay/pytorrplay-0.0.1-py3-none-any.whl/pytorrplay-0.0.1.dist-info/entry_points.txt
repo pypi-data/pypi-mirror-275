@@ -1,0 +1,3 @@
+[console_scripts]
+pytorr-play=pytorr_play.__main__:main
+
