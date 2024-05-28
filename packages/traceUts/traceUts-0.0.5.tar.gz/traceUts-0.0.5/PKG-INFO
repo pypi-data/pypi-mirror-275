@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: traceUts
+Version: 0.0.5
+Summary: Trace Functions package
+Home-page: 
+Author: Melque Lima
+Author-email: melque_ex@yahoo.com.br
+License: MIT
+Keywords: traceUts
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+# TraceUts
+#
+
+Change Log
+==========
+
+0.0.1 (2022-11-14)
+------------------
+- First Release
+
+0.0.3 (2022-11-14)
+------------------
+- Time count function execution
