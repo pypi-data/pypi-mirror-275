@@ -1,0 +1,62 @@
+from setuptools import setup, find_packages
+
+with open("README.md", "r") as arq:
+    readme = arq.read()
+
+setup(
+    name='fastapi_starter',
+    version='0.1.2',
+    license='MIT License',
+    long_description=readme,
+    long_description_content_type="text/markdown",
+    description='A biblioteca fastapi_starter é uma ferramenta projetada para facilitar a criação rápida e eficiente de projetos baseados no framework FastAPI. Ele automatiza a criação da estrutura básica do projeto, incluindo diretórios, arquivos de configuração e rotas iniciais, além de instalar automaticamente todas as dependências necessárias. Com o fastapi_starter, os desenvolvedores podem iniciar novos projetos FastAPI com apenas alguns comandos, economizando tempo e esforço.',
+    author='Jose Guilherme Lins Filho',
+    author_email='zeguilhermelins@hotmail.com',
+    keywords='fastapi starter',
+    packages=['fastapi_starter'],
+    python_requires='>=3.6',
+    entry_points={
+        "console_scripts": [
+            "fastapi_starter=fastapi_starter.cli:main",
+        ],
+    },
+    install_requires=[
+        "annotated-types",  
+        "anyio",
+        "certifi",
+        "click",
+        "colorama",
+        "dnspython",
+        "email_validator",
+        "fastapi",
+        "fastapi-cli",
+        "greenlet",
+        "h11",
+        "httpcore",
+        "httptools",
+        "httpx",
+        "idna",
+        "Jinja2",
+        "markdown-it-py",
+        "MarkupSafe",
+        "mdurl",
+        "orjson",
+        "pydantic",
+        "pydantic_core",
+        "Pygments",
+        "python-dotenv",
+        "python-multipart",
+        "PyYAML",
+        "rich",
+        "shellingham",
+        "sniffio",
+        "SQLAlchemy",
+        "starlette",
+        "typer",
+        "typing_extensions",
+        "ujson",
+        "uvicorn",
+        "watchfiles",
+        "websockets"
+    ],
+)
