@@ -1,0 +1,10 @@
+LICENSE
+README.md
+conditional_parser.py
+pyproject.toml
+setup.cfg
+setup.py
+conditional_parser.egg-info/PKG-INFO
+conditional_parser.egg-info/SOURCES.txt
+conditional_parser.egg-info/dependency_links.txt
+conditional_parser.egg-info/top_level.txt
