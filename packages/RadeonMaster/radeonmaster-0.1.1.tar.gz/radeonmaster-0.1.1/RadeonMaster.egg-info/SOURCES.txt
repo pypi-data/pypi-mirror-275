@@ -1,0 +1,8 @@
+LICENSE
+README.md
+RadeonMaster.py
+setup.py
+RadeonMaster.egg-info/PKG-INFO
+RadeonMaster.egg-info/SOURCES.txt
+RadeonMaster.egg-info/dependency_links.txt
+RadeonMaster.egg-info/top_level.txt
