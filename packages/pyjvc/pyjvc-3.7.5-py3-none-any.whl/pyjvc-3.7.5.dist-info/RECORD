@@ -1,0 +1,11 @@
+jvc_projector/__init__.py,sha256=quoOOerqxBds7o12X5YsKJJP-Oynjz3grBP0va1_KuQ,151
+jvc_projector/commands.py,sha256=6svh0xjDjK0h_K3CZ_Ff_zXwyi0BSip0DCxHo4I5RRE,10030
+jvc_projector/errors.py,sha256=Hsfuips3wJx2fuACoI3gCYmnXGKD8tN1vqkN51FBJ48,250
+jvc_projector/jvc_projector.py,sha256=psKLUdfwnDOCkDy40F1hcLFAan0kzeOAXGO8ZTlqOCY,21724
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/testLowLatency.py,sha256=vDEv7PkQnH6-1BqzLnyKuRuQgUaF2F6vXT2xz4dxY1s,1950
+pyjvc-3.7.5.dist-info/LICENSE,sha256=v8MmCiXdP_s8e9Bcck0Yqeu1xcRGdh92r4pjKAh-JSk,1074
+pyjvc-3.7.5.dist-info/METADATA,sha256=DGXwLxWVc5L3WG_mzccjR8DTRu0T1qHa1vfnFvhaoxk,6066
+pyjvc-3.7.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyjvc-3.7.5.dist-info/top_level.txt,sha256=K48RJnMZEJ1kehTnOKokX4xopmmPAfwHpgeczfOkmBI,20
+pyjvc-3.7.5.dist-info/RECORD,,
