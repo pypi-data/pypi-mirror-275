@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "data-manager-library"
+version = "0.0.2"
+description = ""
+authors = ["Aafaq Rana <m.aafaq.rana@gmail.com>"]
+readme = "read_me.md"
+packages = [
+    { include = "models" },
+]
+
+include = [
+    "settings.py"
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+alembic = "^1.13.1"
+sqlalchemy = "^2.0.30"
+pydantic = "^2.7.1"
+pydantic-settings = "^2.2.1"
+psycopg2 = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
