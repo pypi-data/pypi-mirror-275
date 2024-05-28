@@ -1,0 +1,2 @@
+[console_scripts]
+bddsync = bddsync.__main__:main
