@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: data-manager-library
+Version: 0.0.1
+Summary: 
+Author: Aafaq Rana
+Author-email: m.aafaq.rana@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: alembic (>=1.13.1,<2.0.0)
+Requires-Dist: psycopg2 (>=2.9.9,<3.0.0)
+Requires-Dist: pydantic (>=2.7.1,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.2.1,<3.0.0)
+Requires-Dist: sqlalchemy (>=2.0.30,<3.0.0)
+Description-Content-Type: text/markdown
+
+# data-library
+
+Project Setup
+1. Install Python - 3.12
+2. Install Poetry - 1.7.1
+3. Run command: "poetry shell" to enable virtual environment
+4. Run command "poetry install" to install all the dependencies
+5. Setup a .env file with original values as given in .dev.env
+6. Alternatively, you can also set env variables using the command: "export VARIABLE=value" where VARIABLE is the variable name and value is its value
+
+Run Migrations:
+1. Run command to create a migration script:
+    poetry run alembic revision --autogenerate -m "profile migration"
+    (Use this command when there are no migration scripts in migrations/version folder or new models are defined and we need to generate the latest scripts)
+2. Run command to apply the latest migrations on database
+    poetry run alembic upgrade head
+
+Some Alembic commands that can be used:
+1. Check current migrations:
+    poetry run alembic current
+2. Revert all migrations:
+    poetry run alembic downgrade base
+3. Revert to last migration:
+    poetry run alembic downgrade -1
+4. Revert to a specific migrations:
+    poetry run alembic downgrade <revision_name>
+
+Add seed data, Run seed.py file to add dummy data:
+1. "python seeds/seed.py" -> Run this command only if dummy data is required 
