@@ -1,0 +1,9 @@
+nanababa/__init__.py,sha256=HXF7aPHJ1wZrRYs4mfq3fVLcNHy3HJLgbLBBeQEcVPY,32
+nanababa/something.py,sha256=HICp-hepdNff6cQgzUWCXLARz8Ga7OfQHq_-raCz580,47
+something/__init__.py,sha256=HXF7aPHJ1wZrRYs4mfq3fVLcNHy3HJLgbLBBeQEcVPY,32
+something/something.py,sha256=HICp-hepdNff6cQgzUWCXLARz8Ga7OfQHq_-raCz580,47
+nanababa-0.1.3.dist-info/METADATA,sha256=SR6ZbiMmjOtkXVphIUZgNatqPBE0HG40uxzUMwUJ4Sg,433
+nanababa-0.1.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+nanababa-0.1.3.dist-info/entry_points.txt,sha256=ElpE5J__TGc73VXqmaOLhGZNhpP96RUJBJQTnrJWTIM,62
+nanababa-0.1.3.dist-info/top_level.txt,sha256=WdlQ5LLDaxiBdX8PJ9hm-ON9a_Uw1M4gFjQ9mM6UEcE,9
+nanababa-0.1.3.dist-info/RECORD,,
