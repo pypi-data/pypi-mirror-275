@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+src/cerebrumscanner/__init__.py
+src/cerebrumscanner/_global_paths.py
+src/cerebrumscanner.egg-info/PKG-INFO
+src/cerebrumscanner.egg-info/SOURCES.txt
+src/cerebrumscanner.egg-info/dependency_links.txt
+src/cerebrumscanner.egg-info/not-zip-safe
+src/cerebrumscanner.egg-info/requires.txt
+src/cerebrumscanner.egg-info/top_level.txt
+src/cerebrumscanner/configs/resnet50_classification_hemorrhage.py
+src/cerebrumscanner/lib/database_manager.py
+src/cerebrumscanner/lib/image_processor.py
+src/cerebrumscanner/lib/processor.py
