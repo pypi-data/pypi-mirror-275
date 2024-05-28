@@ -1,0 +1,2 @@
+graft openbot-training-frontend
+recursive-exclude * *.py[co]
