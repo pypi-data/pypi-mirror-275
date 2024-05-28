@@ -1,0 +1,8 @@
+allnc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allnc/app.py,sha256=q464tXA0D26UGKONkgfRH6-nznY_oTdyvwckywCFOhs,3749
+allnc/middleware.py,sha256=JAoA7vZ8P7M3fQfPi1f4qloBnEqUY3k4A22HuyDZ-lM,675
+allnc/response.py,sha256=d7F0yaE-Tiu3JeFp7mJ2nFx2b3zNkjbUHw2-0nOZxY0,944
+allnc-0.1.2.dist-info/METADATA,sha256=n7ipNmVDGdTBj7nylweILONmBmK42SrxfLrOubAfgCs,7236
+allnc-0.1.2.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+allnc-0.1.2.dist-info/top_level.txt,sha256=H2SotQusXs4rW6M8D8XVFkczqVpTn0D02wE3MCHx49k,6
+allnc-0.1.2.dist-info/RECORD,,
