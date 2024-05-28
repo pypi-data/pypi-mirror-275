@@ -1,0 +1,25 @@
+import os
+
+from plotly_helper.shapes import line, circle
+
+PATH = os.path.dirname(__file__)
+
+def test_shapes():
+    assert (line(0, 0, 1, 1, color=2, width=4) ==
+                      {'line': {'color': 2, 'width': 4},
+                       'type': 'line',
+                       'x0': 0,
+                       'x1': 1,
+                       'y0': 0,
+                       'y1': 1})
+
+    assert (circle(0, 0, 10, color=2, width=4) ==
+                      {'fillcolor': 'rgba(50, 171, 96, 0.7)',
+                       'line': {'color': 2, 'width': 4},
+                       'type': 'circle',
+                       'x0': -10,
+                       'x1': 10,
+                       'xref': 'x',
+                       'y0': -10,
+                       'y1': 10,
+                       'yref': 'y'})
