@@ -1,0 +1,13 @@
+yc_aws_wrapper/__about__.py,sha256=mw3El5_pwpDxpWnAMQWuQWg8KxMKJUwrKJjfGQk-PcQ,1966
+yc_aws_wrapper/__init__.py,sha256=S0__DkRjkYrBZsEMre2YYMy4jyxdayluv74mdyOBIUY,1703
+yc_aws_wrapper/base.py,sha256=wcsvg-S50yZZEkcYAd4bf2Xa2i-maokus-JPkMGFbus,4001
+yc_aws_wrapper/kinesis/__init__.py,sha256=-AS6pAflg20dNfsyy-fBgKs62hRZoI5HA8A86h6zgY0,600
+yc_aws_wrapper/s3/__init__.py,sha256=GQIjGCCqKbar46BK8xHEoVBnY_slkteDopL1J_57unk,1696
+yc_aws_wrapper/sqs/__init__.py,sha256=N81EZScpdnbMS1vGGaru74Ja0Cvrff2buBtyNAbd1t4,3108
+yc_aws_wrapper-0.0.2.data/data/COPYRIGHT,sha256=ROPd-Qtu2Yknx7webmCrrdQikHDbA1SxMKMzY04A5zg,1226
+yc_aws_wrapper-0.0.2.data/data/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+yc_aws_wrapper-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+yc_aws_wrapper-0.0.2.dist-info/METADATA,sha256=eHci3QKTrldyBVqdvjD9HEB49dzRGVAYGhazrRSW6FI,3206
+yc_aws_wrapper-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+yc_aws_wrapper-0.0.2.dist-info/top_level.txt,sha256=RkHbZxaCVdLjPpJlom4hGxXaIjUDzWsavrHhn0EVg7g,15
+yc_aws_wrapper-0.0.2.dist-info/RECORD,,
