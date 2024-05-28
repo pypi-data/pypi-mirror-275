@@ -1,0 +1,8 @@
+README.md
+setup.py
+pip_hello_japan/__init__.py
+pip_hello_japan/main.py
+pip_hello_japan.egg-info/PKG-INFO
+pip_hello_japan.egg-info/SOURCES.txt
+pip_hello_japan.egg-info/dependency_links.txt
+pip_hello_japan.egg-info/top_level.txt
