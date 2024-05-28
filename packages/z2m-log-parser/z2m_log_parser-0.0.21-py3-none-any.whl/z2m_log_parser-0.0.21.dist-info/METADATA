@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: z2m_log_parser
+Version: 0.0.21
+Summary: Parser for Zigbee2Mqtt logs to python object for further processing
+Project-URL: Homepage, https://github.com/st0yanDimitrov/z2m_log_parser
+Project-URL: Issues, https://github.com/st0yanDimitrov/z2m_log_parser/issues
+Author-email: Stoyan Dimitrov <stdimitrov@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Zigbee2mqtt log parser
+
+A simple log parser for zigbee2mqtt logs.
