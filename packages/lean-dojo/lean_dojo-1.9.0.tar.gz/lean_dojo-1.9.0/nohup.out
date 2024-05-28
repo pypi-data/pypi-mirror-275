@@ -1,0 +1,143 @@
+2024-04-29 18:54:39.203 | DEBUG    | lean_dojo.data_extraction.lean:<module>:36 - Using GitHub personal access token for authentication
+============================= test session starts ==============================
+platform darwin -- Python 3.9.18, pytest-8.0.2, pluggy-1.4.0
+rootdir: /Users/yangky/Desktop/dev/LeanDojo
+configfile: pyproject.toml
+plugins: anyio-4.3.0, hydra-core-1.3.2
+collected 39 items
+
+tests/data_extraction/test_trace.py 2024-04-29 18:54:48.767 | INFO     | lean_dojo.data_extraction.trace:get_traced_repo_path:79 - Tracing LeanGitRepo(url='https://github.com/leanprover/std4', commit='d9822056f5ae3579acbd9af5c8d0ee5fd06c85dc')
+Traceback (most recent call last):
+  File "/private/var/folders/w6/dykbxqxx6m30kpfhcymr1yzr0000gn/T/tmppn817qge/workspace/build_lean4_repo.py", line 12, in <module>
+    from tqdm import tqdm
+  File "/Users/yangky/miniconda3/envs/lean/lib/python3.9/site-packages/tqdm/__init__.py", line 3, in <module>
+    from .cli import main  # TODO: remove in v5.0.0
+  File "/Users/yangky/miniconda3/envs/lean/lib/python3.9/site-packages/tqdm/cli.py", line 7, in <module>
+    from ast import literal_eval as numeric
+  File "/Users/yangky/Desktop/dev/LeanDojo/src/lean_dojo/data_extraction/ast.py", line 1, in <module>
+    from lxml import etree
+  File "src/lxml/parsertarget.pxi", line 5, in init lxml.etree
+  File "/Users/yangky/miniconda3/envs/lean/lib/python3.9/inspect.py", line 778, in <module>
+    class _ClassFinder(ast.NodeVisitor):
+AttributeError: partially initialized module 'ast' has no attribute 'NodeVisitor' (most likely due to a circular import)
+E
+
+==================================== ERRORS ====================================
+_______ ERROR at setup of test_trace[https://github.com/leanprover/std4] _______
+
+request = <SubRequest 'traced_repo' for <Function test_trace[https://github.com/leanprover/std4]>>
+
+    @pytest.fixture(scope="session", params=URLS)
+    def traced_repo(request):
+        url = request.param
+        commit = get_latest_commit(url)
+        repo = LeanGitRepo(url, commit)
+>       traced_repo = trace(repo)
+
+tests/conftest.py:59: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/lean_dojo/data_extraction/trace.py:115: in trace
+    cached_path = get_traced_repo_path(repo, build_deps)
+src/lean_dojo/data_extraction/trace.py:82: in get_traced_repo_path
+    _trace(repo, build_deps)
+src/lean_dojo/data_extraction/trace.py:57: in _trace
+    raise ex
+src/lean_dojo/data_extraction/trace.py:45: in _trace
+    container.run(
+src/lean_dojo/container.py:197: in run
+    execute(cmd, capture_output=capture_output)
+src/lean_dojo/utils.py:116: in execute
+    raise ex
+src/lean_dojo/utils.py:111: in execute
+    res = subprocess.run(cmd, shell=True, capture_output=capture_output, check=True)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+input = None, capture_output = False, timeout = None, check = True
+popenargs = ('NUM_PROCS=11 python build_lean4_repo.py std4',)
+kwargs = {'shell': True}
+process = <Popen: returncode: 1 args: 'NUM_PROCS=11 python build_lean4_repo.py std4'>
+stdout = None, stderr = None, retcode = 1
+
+    def run(*popenargs,
+            input=None, capture_output=False, timeout=None, check=False, **kwargs):
+        """Run command with arguments and return a CompletedProcess instance.
+    
+        The returned instance will have attributes args, returncode, stdout and
+        stderr. By default, stdout and stderr are not captured, and those attributes
+        will be None. Pass stdout=PIPE and/or stderr=PIPE in order to capture them.
+    
+        If check is True and the exit code was non-zero, it raises a
+        CalledProcessError. The CalledProcessError object will have the return code
+        in the returncode attribute, and output & stderr attributes if those streams
+        were captured.
+    
+        If timeout is given, and the process takes too long, a TimeoutExpired
+        exception will be raised.
+    
+        There is an optional argument "input", allowing you to
+        pass bytes or a string to the subprocess's stdin.  If you use this argument
+        you may not also use the Popen constructor's "stdin" argument, as
+        it will be used internally.
+    
+        By default, all communication is in bytes, and therefore any "input" should
+        be bytes, and the stdout and stderr will be bytes. If in text mode, any
+        "input" should be a string, and stdout and stderr will be strings decoded
+        according to locale encoding, or by "encoding" if set. Text mode is
+        triggered by setting any of text, encoding, errors or universal_newlines.
+    
+        The other arguments are the same as for the Popen constructor.
+        """
+        if input is not None:
+            if kwargs.get('stdin') is not None:
+                raise ValueError('stdin and input arguments may not both be used.')
+            kwargs['stdin'] = PIPE
+    
+        if capture_output:
+            if kwargs.get('stdout') is not None or kwargs.get('stderr') is not None:
+                raise ValueError('stdout and stderr arguments may not be used '
+                                 'with capture_output.')
+            kwargs['stdout'] = PIPE
+            kwargs['stderr'] = PIPE
+    
+        with Popen(*popenargs, **kwargs) as process:
+            try:
+                stdout, stderr = process.communicate(input, timeout=timeout)
+            except TimeoutExpired as exc:
+                process.kill()
+                if _mswindows:
+                    # Windows accumulates the output in a single blocking
+                    # read() call run on child threads, with the timeout
+                    # being done in a join() on those threads.  communicate()
+                    # _after_ kill() is required to collect that and add it
+                    # to the exception.
+                    exc.stdout, exc.stderr = process.communicate()
+                else:
+                    # POSIX _communicate already populated the output so
+                    # far into the TimeoutExpired exception.
+                    process.wait()
+                raise
+            except:  # Including KeyboardInterrupt, communicate handled that.
+                process.kill()
+                # We don't call process.wait() as .__exit__ does that for us.
+                raise
+            retcode = process.poll()
+            if check and retcode:
+>               raise CalledProcessError(retcode, process.args,
+                                         output=stdout, stderr=stderr)
+E               subprocess.CalledProcessError: Command 'NUM_PROCS=11 python build_lean4_repo.py std4' returned non-zero exit status 1.
+
+../../../miniconda3/envs/lean/lib/python3.9/subprocess.py:528: CalledProcessError
+=============================== warnings summary ===============================
+../../../miniconda3/envs/lean/lib/python3.9/site-packages/jupyter_client/connect.py:22
+  /Users/yangky/miniconda3/envs/lean/lib/python3.9/site-packages/jupyter_client/connect.py:22: DeprecationWarning: Jupyter is migrating its paths to use standard platformdirs
+  given by the platformdirs library.  To remove this warning and
+  see the appropriate new directories, set the environment variable
+  `JUPYTER_PLATFORM_DIRS=1` and then run `jupyter --paths`.
+  The use of platformdirs will be the default in `jupyter_core` v6
+    from jupyter_core.paths import jupyter_data_dir, jupyter_runtime_dir, secure_write
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+ERROR tests/data_extraction/test_trace.py::test_trace[https://github.com/leanprover/std4]
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+========================= 1 warning, 1 error in 10.26s =========================

@@ -1,0 +1,141 @@
+# Copyright (c) 2018 Simon Hudon. All rights reserved.
+# Released under Apache 2.0 license as described in the file LICENSE.
+# Authors: Simon Hudon, Sebastian Ullrich, Leonardo de Moura
+
+# We compile all source files in $PKG/ as well as $PKG.lean. $PKG is also used for naming binary files.
+ifndef PKG
+  PKG = $(strip $(subst .lean,, $(wildcard *.lean)))
+  ifneq ($(words $(PKG)), 1)
+    $(error no unique .lean file found in current directory, please specify PKG)
+  endif
+endif
+
+LEAN = lean
+LEANC = leanc
+LEAN_AR = /Applications/Xcode_14.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar
+OUT = build
+OLEAN_OUT = $(OUT)
+TEMP_OUT = $(OUT)/temp
+C_OUT = $(TEMP_OUT)
+BC_OUT = $(TEMP_OUT)
+BIN_OUT = $(OUT)/bin
+LIB_OUT = $(OUT)/lib
+BIN_NAME = $(PKG)
+STATIC_LIB_NAME = lib$(PKG).a
+LEAN_OPTS = -DwarningAsError=true -s40000
+LEANC_OPTS = -O3 -DNDEBUG
+LINK_OPTS =
+
+# more FS entries to build SRCS from, for parallel build of .oleans (but not .os)
+EXTRA_SRC_ROOTS =
+
+# ignore error messages from missing parts, e.g. Leanc/
+SRCS = $(shell find $(PKG) $(PKG).lean $(EXTRA_SRC_ROOTS) -name '*.lean' 2> /dev/null)
+DEPS = $(addprefix $(TEMP_OUT)/,$(SRCS:.lean=.depend))
+export LEAN_PATH += :$(OLEAN_OUT)
+OBJS = $(addprefix $(OLEAN_OUT)/, $(SRCS:.lean=.olean))
+ifdef C_ONLY
+# There are no .lean files in stage0/src/
+REL_OS = $(patsubst %.c,%.o,$(shell cd $(C_OUT); find $(PKG) $(PKG).c -name '*.c' 2> /dev/null))
+else
+REL_OS = $(patsubst %.lean,%.o,$(shell find $(PKG) $(PKG).lean -name '*.lean' 2> /dev/null))
+endif
+
+SHELL = /usr/bin/env bash -euo pipefail
+
+.PHONY: all bin lib depends clean
+# Disable all default make rules
+.SUFFIXES:
+
+objs: $(OBJS)
+
+bin: $(BIN_OUT)/$(BIN_NAME)
+
+lib: $(LIB_OUT)/$(STATIC_LIB_NAME)
+
+depends: $(DEPS)
+
+$(OLEAN_OUT)/$(PKG) $(LIB_OUT) $(BIN_OUT):
+	@mkdir -p "$@"
+
+# Make sure the .olean output directory exists so that `lean --deps` knows where this package's
+# .olean files will be located even before any of them are actually built.
+$(TEMP_OUT)/%.depend: %.lean | $(OLEAN_OUT)/$(PKG)
+	@mkdir -p "$(TEMP_OUT)/$(*D)"
+# convert path separators and newlines on Windows
+	deps=`$(LEAN) --deps $<` || (echo "$(LEAN) --deps $< failed ($$?): $$deps"; exit 1); \
+  deps=`echo "$$deps" | tr '\\\\' / | tr -d '\\r'`; \
+  echo $(OLEAN_OUT)/$*.olean: $$deps > $@
+
+$(OLEAN_OUT)/%.olean: %.lean $(TEMP_OUT)/%.depend $(MORE_DEPS)
+ifdef CMAKE_LIKE_OUTPUT
+	@echo "[    ] Building $<"
+endif
+	@mkdir -p $(OLEAN_OUT)/$(*D)
+	LEAN_OPTS="$(LEAN_OPTS)"; \
+	[[ -z "$(LLVM)" ]] || LEAN_OPTS+=" --bc=$(TEMP_OUT)/$*.bc.tmp"; \
+	$(LEAN) $$LEAN_OPTS -o "$@" -i "$(OLEAN_OUT)/$*.ilean" --c="$(TEMP_OUT)/$*.c.tmp" "$<"
+# create the .c file atomically
+	@mv "$(TEMP_OUT)/$*.c.tmp" "$(C_OUT)/$*.c"
+ifdef LLVM
+	@mv "$(TEMP_OUT)/$*.bc.tmp" "$(BC_OUT)/$*.bc"
+endif
+
+$(OLEAN_OUT)/%.ilean: $(OLEAN_OUT)/%.olean
+	@
+
+ifndef C_ONLY
+$(C_OUT)/%.c: $(OLEAN_OUT)/%.olean
+	@
+
+$(BC_OUT)/%.bc: $(OLEAN_OUT)/%.olean
+	@
+endif
+
+ifdef LLVM
+$(TEMP_OUT)/%.o: $(BC_OUT)/%.bc
+else
+$(TEMP_OUT)/%.o: $(C_OUT)/%.c
+endif
+ifdef CMAKE_LIKE_OUTPUT
+	@echo "[    ] Building $<"
+endif
+	@mkdir -p "$(@D)"
+ifdef PROFILE
+ifdef LLVM
+	\time -f "%U %S" $(LEANC) -c -o $@ $< $(LEANC_OPTS) 2>&1 > /dev/null | awk '{ printf "LLVM bitcode compilation %fs\n", $$1 + $$2 }' > /dev/stderr
+else
+	\time -f "%U %S" $(LEANC) -c -o $@ $< $(LEANC_OPTS) 2>&1 > /dev/null | awk '{ printf "C compilation %fs\n", $$1 + $$2 }' > /dev/stderr
+endif
+else
+	$(LEANC) -c -o $@ $< $(LEANC_OPTS)
+endif
+
+$(BIN_OUT)/$(BIN_NAME): $(addprefix $(TEMP_OUT)/,$(REL_OS)) | $(BIN_OUT)
+ifdef CMAKE_LIKE_OUTPUT
+	@echo "[    ] Linking $@"
+endif
+# on Windows, must remove binary before writing a new one (since the old one may be in use)
+	@rm -f $@
+ifdef PROFILE
+	\time -f "%U %S" $(LEANC) -o "$@" $^ $(LEANC_OPTS) $(LINK_OPTS) 2>&1 > /dev/null | awk '{ printf "C linking %fs\n", $$1 + $$2 }' > /dev/stderr
+else
+	$(LEANC) -o "$@" $^ $(LEANC_OPTS) $(LINK_OPTS)
+endif
+
+$(LIB_OUT)/$(STATIC_LIB_NAME): $(addprefix $(TEMP_OUT)/,$(REL_OS)) | $(LIB_OUT)
+	@rm -f $@
+	@$(LEAN_AR) rcs $@ $^
+
+clean:
+	rm -rf $(OUT)
+
+ifdef LLVM
+.PRECIOUS: $(C_OUT)/%.c $(BC_OUT)/%.bc
+else
+.PRECIOUS: $(C_OUT)/%.c
+endif
+
+ifndef C_ONLY
+include $(DEPS)
+endif
