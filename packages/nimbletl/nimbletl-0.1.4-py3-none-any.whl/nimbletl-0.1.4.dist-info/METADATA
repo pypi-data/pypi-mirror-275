@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nimbletl
+Version: 0.1.4
+Summary: Make your ETL easier and more nimble
+Author: Ma Xiaoqiang
+Author-email: 851788096@qq.com
+Description-Content-Type: text/markdown
+Requires-Dist: click ==8.1.7
+Requires-Dist: mysql-connector-python ==8.4.0
+Requires-Dist: pyyaml ==6.0.1
+
+# NimbleTL
+
+NimbleTL is a Python package to facilitate ETL development with a focus on quick and easy initialization of MySQL database tables.
+
+## Installation
+
+To install NimbleTL, run:
+
+```bash
+pip install nimbletl
