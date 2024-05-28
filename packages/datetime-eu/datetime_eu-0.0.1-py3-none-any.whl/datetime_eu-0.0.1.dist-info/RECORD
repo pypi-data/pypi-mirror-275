@@ -1,0 +1,11 @@
+datetime-eu/DateTime.py,sha256=65LbTcnrCSsDPGoGLVkk7NC3H8Kq-PjkC1fQVR33gE8,71364
+datetime-eu/__init__.py,sha256=trlFzEmNkmUpxZT7krPSVDayDK1bRxToccg3CcCF8wg,714
+datetime-eu/interfaces.py,sha256=n47sexf1eQ6YMdYB_60PgHtSzYIj4FND-RmHFiNpm1E,12187
+datetime-eu/pytz.py,sha256=05d_3SrTx73sYonwaNccI6-yV0CPGgs9y2lBeRnWGmM,12427
+datetime-eu/pytz_support.py,sha256=inR1SO0X17fp9C2GsRw99S_MhxKiEt5dOV3-TGsBxDI,11853
+datetime-eu/request.py,sha256=GCrah-EFSqUBHiTX7Ib1gXlb59R8k3yH4UsDUyV4wNI,40870
+datetime-eu/settings.py,sha256=YRaJ-SyJEKxrm4nfsnZhjtMoDavpzp0nWh1YEvDdlL8,31311
+datetime_eu-0.0.1.dist-info/METADATA,sha256=-heUEgxeqtqArpdFvunaGYTERWVIVzaKEYBUr9Pffb4,606
+datetime_eu-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+datetime_eu-0.0.1.dist-info/top_level.txt,sha256=fwFgrRf-9XQmY5sp3XG2C5xS7mEL-o5wwvIG7T_cRPw,12
+datetime_eu-0.0.1.dist-info/RECORD,,
