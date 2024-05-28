@@ -1,0 +1,11 @@
+opengateway_sandbox_sdk/__init__.py,sha256=etVIUF2xtL6BDzzIx2hALEozqrZ-AGSdc6-I6rVJ6V0,122
+opengateway_sandbox_sdk/clientcredentials.py,sha256=h7C0pqjELAzW52_g9PICxueWEJnOEicaYo7cKuZd8iU,2288
+opengateway_sandbox_sdk/httpclient.py,sha256=xCqnMboK-BkvrUvnc1ocqHK1DIt3CU1Mfn-5BcG2vPU,2526
+opengateway_sandbox_sdk/purposes.py,sha256=MD0IXapa4KaCOz-bU6ljMs0Qp8-bmwFAUMm-cSosEVk,271
+opengateway_sandbox_sdk/qodhome.py,sha256=3396msyj1Es8PeMGLXv7wHUAcV2KEESRokkqDyIywOE,1385
+opengateway_sandbox_sdk/settings.py,sha256=R5ihLczwxttB3SHCWNTCgh2T-Qrk0QVbPMd0KDejuOw,117
+opengateway_sandbox_sdk/simswap.py,sha256=qqcMIPXRX-H7ARdtCbEcC9xL5utnjfxyozQTNGSTdCc,1370
+opengateway_sandbox_sdk-1.0.1.dist-info/METADATA,sha256=AhUgBI0RFuqUezb_Rursrg0xn_pyBZk8bwXBAbl1kZ4,18020
+opengateway_sandbox_sdk-1.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+opengateway_sandbox_sdk-1.0.1.dist-info/licenses/LICENSE-2.0.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+opengateway_sandbox_sdk-1.0.1.dist-info/RECORD,,
