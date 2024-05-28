@@ -1,0 +1,4 @@
+requests
+pip-licenses
+pip-licenses-lib
+pip
