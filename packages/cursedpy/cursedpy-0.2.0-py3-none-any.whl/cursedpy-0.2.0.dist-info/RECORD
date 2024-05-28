@@ -1,0 +1,10 @@
+cursedpy/__init__.py,sha256=VG9pJwRKSlYqOlwFg4okVv3nW2dVdxM2Esxjyd7WWQQ,511
+cursedpy/cursed.py,sha256=o6VfImkBlxvdSBczpk_akB-C3SF2Ct9gzo3xkvs0WWY,13289
+cursedpy/http/__init__.py,sha256=21KDXPbv6AWgp4bS9MQzzyMwy0pP2rWLRMC5Lz_9Sug,61
+cursedpy/http/abc.py,sha256=cabvEbrPfTo92egZIUoJWzYNCUAkSiz8UcU23r2Y-0U,946
+cursedpy/http/aiohttp_client.py,sha256=x9Jf5ZaYb8M28kN3xt-pnOGEv2FpnByfc6Zg_rBbhLc,1390
+cursedpy/http/cursed_client.py,sha256=8UwqMp65EEPkPIZdmkdienZQ48iw2yvISEgEpeEJ90k,2188
+cursedpy/types.py,sha256=8FSeSvsB_whK3qXIDqiv4Ruazl_BOtpwEm2YtGC0GUo,11388
+cursedpy-0.2.0.dist-info/METADATA,sha256=iUtnLt0ia2H-ObZLasRKRz1RkhZ8oMoEMoMOY02rX1g,2414
+cursedpy-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cursedpy-0.2.0.dist-info/RECORD,,
