@@ -1,0 +1,2 @@
+[console_scripts]
+litpy = litpy.module:hello_world
