@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+jaanca_utils_os/__init__.py
+jaanca_utils_os.egg-info/PKG-INFO
+jaanca_utils_os.egg-info/SOURCES.txt
+jaanca_utils_os.egg-info/dependency_links.txt
+jaanca_utils_os.egg-info/requires.txt
+jaanca_utils_os.egg-info/top_level.txt
+jaanca_utils_os/utils/__init__.py
+jaanca_utils_os/utils/helpers/__init__.py
+jaanca_utils_os/utils/helpers/environment_parser_loader.py
+jaanca_utils_os/utils/helpers/file_folder_management.py
+jaanca_utils_os/utils/helpers/file_properties.py
+jaanca_utils_os/utils/helpers/parse_bool.py
+jaanca_utils_os/utils/helpers/parse_types.py
