@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+bash-pip2deb
+pip2deb-bash
+pip2deb-python
+python-pip2deb
+setup.py
+pip2deb.egg-info/PKG-INFO
+pip2deb.egg-info/SOURCES.txt
+pip2deb.egg-info/dependency_links.txt
+pip2deb.egg-info/top_level.txt
