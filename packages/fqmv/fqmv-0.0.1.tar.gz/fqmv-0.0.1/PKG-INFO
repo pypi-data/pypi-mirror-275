@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: fqmv
+Version: 0.0.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: MIT License
+Summary: Fast quantification of morphological variation
+Keywords: morphological-variation,morphological-profiling,bio-imaging,phenotypic-screening,microscopy,image-analysis
+License: MIT or Apache-2.0
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/tomouellette/fqmv
+Project-URL: Source, https://github.com/tomouellette/fqmv
+
+

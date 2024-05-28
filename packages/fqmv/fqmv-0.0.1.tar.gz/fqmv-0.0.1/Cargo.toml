@@ -1,0 +1,29 @@
+[workspace]
+members = ["fqmv-pyo3"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+description = "Fast quantification of morphological variation"
+repository = "https://github.com/tomouellette/fqmv"
+categories = ["science"]
+license = "MIT or Apache-2.0"
+keywords = [
+    "morphological-variation",
+    "morphological-profiling",
+    "bio-imaging",
+    "phenotypic-screening",
+    "microscopy",
+    "image-analysis",
+]
+
+[workspace.dependencies]
+serde = { version = "1.0.190", features = ["derive"] }
+serde_json = { version = "1.0" }
+nalgebra = { version = "0.32.3" }
+image = { version = "0.25.1" }
+
+[profile.release-with-debug]
+inherits = "release"
+debug = true

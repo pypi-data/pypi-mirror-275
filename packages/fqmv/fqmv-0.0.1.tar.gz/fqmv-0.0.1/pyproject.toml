@@ -1,0 +1,26 @@
+[build-system]
+requires = ["maturin>=1.5,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "fqmv"
+version = "0.0.01"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "License :: OSI Approved :: MIT License",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = 'https://github.com/tomouellette/fqmv'
+Source = 'https://github.com/tomouellette/fqmv'
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+cargo-extra-args = "--features extension-module"
+sdist-include = ["README.md"]
+compatibility = "linux"
+manifest-path = "fqmv-pyo3/Cargo.toml"
