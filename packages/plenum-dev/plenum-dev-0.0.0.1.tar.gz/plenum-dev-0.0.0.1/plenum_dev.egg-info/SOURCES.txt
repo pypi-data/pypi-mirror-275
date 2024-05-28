@@ -1,0 +1,7 @@
+README.md
+setup.py
+plenum-dev/__init__.py
+plenum_dev.egg-info/PKG-INFO
+plenum_dev.egg-info/SOURCES.txt
+plenum_dev.egg-info/dependency_links.txt
+plenum_dev.egg-info/top_level.txt
