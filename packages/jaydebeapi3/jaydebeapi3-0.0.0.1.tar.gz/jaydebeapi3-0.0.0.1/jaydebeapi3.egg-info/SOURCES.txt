@@ -1,0 +1,7 @@
+README.md
+setup.py
+jaydebeapi3/__init__.py
+jaydebeapi3.egg-info/PKG-INFO
+jaydebeapi3.egg-info/SOURCES.txt
+jaydebeapi3.egg-info/dependency_links.txt
+jaydebeapi3.egg-info/top_level.txt
