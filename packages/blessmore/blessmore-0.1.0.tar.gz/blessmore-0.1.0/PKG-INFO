@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: blessmore
+Version: 0.1.0
+Summary: A package to load Shona FastText embeddings from Hugging Face
+Home-page: https://github.com/Blessmore2/blessmore
+Author: Blessmore Majongwe
+Author-email: blessmoremajongwe@gmail.com
+License: Apache 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: gensim
+Requires-Dist: huggingface_hub
+
+# blessmore
+
+`blessmore` is a package to load Shona FastText embeddings from Hugging Face.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install blessmore

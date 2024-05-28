@@ -1,0 +1,9 @@
+README.md
+setup.py
+blessmore/__init__.py
+blessmore/shonaembeddings.py
+blessmore.egg-info/PKG-INFO
+blessmore.egg-info/SOURCES.txt
+blessmore.egg-info/dependency_links.txt
+blessmore.egg-info/requires.txt
+blessmore.egg-info/top_level.txt
