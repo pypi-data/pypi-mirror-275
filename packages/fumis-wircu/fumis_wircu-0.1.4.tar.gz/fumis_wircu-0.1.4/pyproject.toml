@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fumis_wircu"
+dynamic = [
+    "version",
+    "license",
+    "authors",
+    "maintainers",
+    "description",
+    "classifiers",
+    "readme",
+    "requires-python",
+    "dependencies",
+    "keywords",
+]
+
+[project.urls]
+Homepage = "https://github.com/aaronmunsters/fumis_wircu"
+Issues = "https://github.com/aaronmunsters/fumis_wircu/issues"
+
+[tool.hatch.metadata.hooks.custom]
+
+[tool.hatch.envs.hatch-test]
+parallel = true
+extra-dependencies = [
+    "aresponses==3.0.0",
+    "coverage==7.5.1",
+    "flake8==7.0.0",
+    "flake8-docstrings==1.7.0",
+    "isort==5.13.2",
+    "mypy==1.10.0",
+    "pylint==3.2.2",
+    "pytest==8.2.1",
+    "pytest-asyncio==0.23.7",
+    "pytest-cov==5.0.0",
+    "tox==4.15.0",
+]
