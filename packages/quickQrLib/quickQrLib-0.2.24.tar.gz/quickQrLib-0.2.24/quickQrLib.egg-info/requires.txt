@@ -1,0 +1,5 @@
+djangorestframework-simplejwt
+django
+boto3
+python-dateutil
+pytz
