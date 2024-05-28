@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: timelined_array
+Version: 0.0.3
+Summary: Manage easily 1 or multidimensionnal samples numpy arrays that are time related. Extends numpy without removing any of it's abilities on such arrays.
+Author-Email: Timothe Jost <timothe.jost@wanadoo.fr>
+License: MIT
+Requires-Python: >=3.11
+Requires-Dist: numpy
+Description-Content-Type: text/markdown
+
+# timelined_array
