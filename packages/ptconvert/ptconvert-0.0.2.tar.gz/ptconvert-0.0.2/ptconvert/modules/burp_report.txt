@@ -1,0 +1,23 @@
+                """
+                print(
+                    f"TYPE: {issue_type}",
+                    f"PT-VULN-CODE: {penterep_vuln_code}",
+                    f"PT-ROOT-NODE: {penterep_root_node}",
+                    f"PT-TARGET-NODE: {penterep_target_node}",
+                    f"NAME: {issue_name}",
+                    f"PATH: {issue_path}",
+                    f"LOCATION: {issue_location}",
+                    f"SEVERITY: {issue_severity}",
+                    f"BACKGROUND: {issue_background}",
+                    f"REMEDIATION: {issue_remediation}",
+                    f"DETAIL: {issue_detail}",
+                    f"DETAIL_ITEMS: {issue_detail_items}",
+                    f"REQUEST: ...",
+                    f"REQUEST METHOD: {issue_request_method}",
+                    f"RESPONSE: ...",
+                    f"REFERENCES: {issue_references}",
+                    f"VULN CLASSIFICATION: {issue_vulnerability_classifications}",
+                    sep="\n",
+                    end="\n---------------\n\n"
+                )
+                """
