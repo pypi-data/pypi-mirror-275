@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+dicio_py.egg-info/PKG-INFO
+dicio_py.egg-info/SOURCES.txt
+dicio_py.egg-info/dependency_links.txt
+dicio_py.egg-info/top_level.txt
