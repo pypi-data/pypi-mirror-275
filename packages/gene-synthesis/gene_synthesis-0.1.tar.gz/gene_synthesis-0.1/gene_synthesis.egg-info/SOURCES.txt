@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+bin/gene_synthesis
+gene_synthesis/__init__.py
+gene_synthesis/lib.py
+gene_synthesis.egg-info/PKG-INFO
+gene_synthesis.egg-info/SOURCES.txt
+gene_synthesis.egg-info/dependency_links.txt
+gene_synthesis.egg-info/not-zip-safe
+gene_synthesis.egg-info/requires.txt
+gene_synthesis.egg-info/top_level.txt
