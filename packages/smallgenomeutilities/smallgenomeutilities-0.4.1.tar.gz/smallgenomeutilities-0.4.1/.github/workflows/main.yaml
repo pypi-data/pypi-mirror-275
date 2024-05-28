@@ -1,0 +1,64 @@
+name: Tests
+
+on:
+  push:
+  #pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+jobs:
+  runtime_tests:
+    strategy:
+      max-parallel: 5
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest] #, macos-latest]
+        python-version: ["3.10"] #, "3.9"]
+
+    runs-on: ${{ matrix.os }}
+
+    defaults:
+      run:
+        # NOTE login shell: to force loading conda profile
+        shell: bash -l {0}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+            lfs: false
+            # NOTE to save on bandwidth costs, GitHub Action will not use GitHub's own LFS
+
+      - name: Fetch test-data
+        # NOTE to save on bandwidth costs, pull data from BSSE's GitLab LFS instead
+        run: |
+          git config --file .lfsconfig lfs.url "https://git.bsse.ethz.ch/cbg/viruses/smallgenomeutilities.git/info/lfs"
+          git lfs install
+          git lfs pull
+          git lfs checkout
+
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+          miniforge-version: latest
+          miniforge-variant: Mambaforge
+          python-version: ${{ matrix.python-version }}
+          mamba-version: "*"
+          channels: conda-forge,bioconda #,defaults # see: https://github.com/conda-forge/status/issues/144
+          channel-priority: strict
+          activate-environment: testsmgu
+          auto-update-conda: false
+          environment-file: tests/conda_testsgmu_env.yaml
+
+      - name: Build package
+        run: |
+          pip install --no-deps .
+
+      - name: dummy run
+        run: |
+          frameshift_deletions_checks --version
+
+      - name: Test package
+        run: |
+          pytest -v
