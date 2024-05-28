@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "nestipy-peewee"
+version = "0.2.1"
+description = ""
+authors = ["tsiresymila <tsiresymila@gmail.com>"]
+readme = "README.md"
+packages = [{include = "nestipy_peewee", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+peewee = "^3.17.3"
+nestipy-config = "^0.1.2"
+nestipy = "^0.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+nestipy-cli = "^0.2.2"
+pymysql = "^1.1.0"
+nestipy-config = "^0.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
