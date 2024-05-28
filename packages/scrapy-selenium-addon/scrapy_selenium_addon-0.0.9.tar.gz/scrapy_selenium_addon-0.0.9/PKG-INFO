@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: scrapy-selenium-addon
+Version: 0.0.9
+Summary: Scrapy with selenium
+Home-page: https://github.com/sakarimov/scrapy-selenium-addon
+Description-Content-Type: text/plain
+License-File: LICENCE
+Requires-Dist: scrapy>=1.0.0
+Requires-Dist: selenium>=3.9.0
+
+scrapy middleware addon to use scrapy with selenium
