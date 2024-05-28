@@ -1,0 +1,4 @@
+earthpy
+matplotlib
+numpy
+rasterio
