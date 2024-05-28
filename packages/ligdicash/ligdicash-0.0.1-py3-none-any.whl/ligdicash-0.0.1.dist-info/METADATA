@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ligdicash
+Version: 0.0.1
+Summary: Une bibliothèque Python pour manipuler l'API de Ligdicash.
+Home-page: https://developers.ligdicash.com
+Author: LigdiCash
+Author-email: info@ligdicash.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Librairie Python LigdiCash
+
+Ce projet est un SDK Python qui permet de manipuler l'API de LigdiCash.
+Vous pourrez éffectuer des Payins, Payouts, des vérifications de transactions et des retraits.
+
+Vous retrouverez la documentation de l'API de LigdiCash sur [https://developers.ligdicash.com/](https://developers.ligdicash.com/).
+
+## Installation
+
+```bash
+pip install ligdicash
+```
+
+## Initialisation
+
+L'initialisation de la librairie LigdiCash nécessite une clé API et un jeton d'authentification.
+Vous pouvez obtenir ces informations en créant un projet API sur la plateforme LigdiCash.
