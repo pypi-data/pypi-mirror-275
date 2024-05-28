@@ -1,0 +1,10 @@
+scikit-learn
+pandas
+seaborn
+matplotlib
+numpy
+scipy
+yfinance
+ccxt
+forex_python
+datetime
