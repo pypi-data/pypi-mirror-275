@@ -1,0 +1,2 @@
+[console_scripts]
+GCS_xml_csv_transformer = GCS_xml_csv_transformer:gcs_xml_csv_transformer

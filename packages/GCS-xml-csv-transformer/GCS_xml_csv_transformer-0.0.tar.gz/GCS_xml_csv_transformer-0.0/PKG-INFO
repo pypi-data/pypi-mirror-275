@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: GCS_xml_csv_transformer
+Version: 0.0
+Description-Content-Type: text/markdown
+
+GCS XML CSV Transformer is a Python library designed to convert XML files stored in Google Cloud Storage (GCS) into CSV files. This library leverages the Google Cloud Storage client to facilitate the download and upload processes.
+
+
+
+**Features**
+1. Downloads XML files from a specified GCS bucket.
+2. Converts the XML data into CSV format.
+3. Uploads the resulting CSV file back to the specified GCS bucket.
+
+
+**Requirements**
+1. Python 3.x
+2. Google Cloud Storage client library
+
+
+**Installation**
+Install the package via pip:
+
+```Bash
+pip install gcs_xml_csv_transformer
+```
+
+**Dependencies**
+
+Make sure to have these installed using:
+
+```Bash
+pip install google-cloud-storage
+```
+
+
+*Example Usage:*
+
+```Python
+
+from gcs_xml_csv_transformer import gcs_xml_csv_transformer
+
+gcs_xml_csv_transformer(
+    BUCKET_NAME='your-bucket-name',
+    XML_FILE_NAME='path/to/your/file.xml',
+    CSV_FILE_NAME='path/to/your/file.csv'
+)
+
+```
+
+**Parameters:**
+
+1. BUCKET_NAME (str): The name of the GCS bucket.
+2. XML_FILE_NAME (str): The name of the XML file in the GCS bucket.
+3. CSV_FILE_NAME (str): The name of the CSV file to be created in the GCS bucket.
+
+
+**Acknowledgements**
+1. Google Cloud Storage Python Client Library
+
+
+For any issues or questions, please open an issue in this repository.S

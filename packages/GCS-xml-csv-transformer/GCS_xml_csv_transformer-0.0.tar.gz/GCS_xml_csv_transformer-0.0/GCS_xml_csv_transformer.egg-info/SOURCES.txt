@@ -1,0 +1,10 @@
+README.md
+setup.py
+GCS_xml_csv_transformer/__init__.py
+GCS_xml_csv_transformer/main.py
+GCS_xml_csv_transformer.egg-info/PKG-INFO
+GCS_xml_csv_transformer.egg-info/SOURCES.txt
+GCS_xml_csv_transformer.egg-info/dependency_links.txt
+GCS_xml_csv_transformer.egg-info/entry_points.txt
+GCS_xml_csv_transformer.egg-info/requires.txt
+GCS_xml_csv_transformer.egg-info/top_level.txt
