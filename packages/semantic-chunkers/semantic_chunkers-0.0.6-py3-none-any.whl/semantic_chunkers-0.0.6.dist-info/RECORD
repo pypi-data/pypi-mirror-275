@@ -1,0 +1,17 @@
+semantic_chunkers/__init__.py,sha256=Cm6y8fKOPVFyHrSjSFflsXFTWPZpKeebbhe4Otxb6AA,374
+semantic_chunkers/chunkers/__init__.py,sha256=xP8gBpwO9-nY_Xr-dUgDv9ors9rhQ89sCOjy9ReMODY,375
+semantic_chunkers/chunkers/base.py,sha256=iSsr0G1MF8wEGn9Zxyuq7jEGuKXi4CINCJ_0NzDmShg,1541
+semantic_chunkers/chunkers/consecutive.py,sha256=x-UCbqMKSrIJuG3dgkcbFLOO0d2dHg-thyFJI7eaKmQ,2924
+semantic_chunkers/chunkers/cumulative.py,sha256=8S8ch-bN4ByS5od6yXVCyMtF-gyKdm48jph4xdpMuwA,3772
+semantic_chunkers/chunkers/statistical.py,sha256=O6zjGlWwhRl-iqZC_AFI7mKrS1JmtpVxi3HPwsfvUJc,20812
+semantic_chunkers/schema.py,sha256=gqpmOppRC_Jt-goYtD9dtse0iAbGsoFOCATy1sMi5lk,353
+semantic_chunkers/splitters/__init__.py,sha256=MfvfyCQDJZcaCkqJpt8xEe6IMwIlN0w_CRLvv1U0kf8,178
+semantic_chunkers/splitters/base.py,sha256=_n8TF0mBrYv0lURiPEf0b_O7QniTbrmJtXP7tKTJ048,268
+semantic_chunkers/splitters/sentence.py,sha256=Z4YnjsZTrQZpzh5_73NZ0GV0LRmZTJW827n4SP9P1VA,2004
+semantic_chunkers/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semantic_chunkers/utils/logger.py,sha256=0m68y-cSFtTXj-N5d8U6A8OJmfVCevUSwRAaU7O8YHk,1008
+semantic_chunkers/utils/text.py,sha256=gOyDHhXSH6Wlmxj_OsMOa2vydZuHD6HZql4PH-SYcTw,192
+semantic_chunkers-0.0.6.dist-info/LICENSE,sha256=EZNW17kGbZmUnlBvdk7q9Y4dXOquIbAZRMuOWcx99jI,1067
+semantic_chunkers-0.0.6.dist-info/METADATA,sha256=hLp97J-kANmA8786jgLToDROYXutjxhr9OO3VpiNcKU,2256
+semantic_chunkers-0.0.6.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+semantic_chunkers-0.0.6.dist-info/RECORD,,
