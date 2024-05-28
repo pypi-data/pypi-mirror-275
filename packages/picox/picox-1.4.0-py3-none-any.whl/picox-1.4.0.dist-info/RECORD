@@ -1,0 +1,16 @@
+picox/__init__.py,sha256=PCd1YnxXKA54YezaVb1HMEjppsgU-hEBhCbpVvLSDFs,21
+picox/cli.py,sha256=UPMi38dl-z1eoM7mMrJWYhuNT05JbKFlq0ZDFOGkzOk,4338
+picox/compiler.py,sha256=0Jy4zXuY0JLXbo2b3MFWhfGtfDPQHyBh7L9HHkOkBY0,4786
+picox/detect.py,sha256=3HAcD8hKhqm_DRqw4oogmsow5FnndaUpY5L17u1DpEw,2282
+picox/exceptions.py,sha256=XV-GnB_BMgbSHU7Q6gTtC3jPVHc7BmYcU0irn9CAtX4,709
+picox/logconfig.py,sha256=F2qCpS8TwiqRvA9gkqFQJr-SVEvrbjkSRyHlaOMR9FE,1044
+picox/upy.py,sha256=94bXQfK6_cL-su5fjXq9x7uScxtwuXxVLsrmXmN4dkc,14190
+picox/commands/compiled.py,sha256=gqa5LHGMAl7XsMmhXPINrV8bJDh5mGtXj2llcPimsfY,733
+raw_commands/DOWNLOAD_FILE.py,sha256=NCyGXY81GCcdQjWZRoAidbOYWo1kc4UM8oEiMZVyuEw,67
+raw_commands/UPLOAD_FILE.py,sha256=yG3dbwJRUzqEvTs_VO1zvx7kNfUBWHnM2MgtOIPmGEo,111
+picox-1.4.0.dist-info/LICENCE,sha256=KNAADYhXKAIGySYjfCVq6P4ZDhIUFfHxeZFYa3-32ec,1055
+picox-1.4.0.dist-info/METADATA,sha256=5Oeh8c_oDNkyQOmf5Mui27wR2ZIncb9bcRtNEfzY7AQ,5211
+picox-1.4.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+picox-1.4.0.dist-info/entry_points.txt,sha256=L9ob7IZ8P9PMGsr7vCpqDrLM_W5vKYdImVZZZuGLMrM,41
+picox-1.4.0.dist-info/top_level.txt,sha256=T_-z--0yp6mGLDbqP6q2t5bPn-zHBdY2e0Frs6gBpls,19
+picox-1.4.0.dist-info/RECORD,,
