@@ -1,0 +1,10 @@
+academia_tts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+academia_tts/tts.py,sha256=okzj3f2pymoqZcM0JpbyAs4qasjWosE27sqFiGUS2R4,3285
+academia_tts/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+academia_tts/scripts/tts_output_wav.py,sha256=TVhTcGXKMJQnrgsFrC3VBHXUed5v-7AZN_3u5g6GmLc,605
+academia_tts/scripts/tts_pptx.py,sha256=Xj1GheM7VoaLzWVBmz-QmZFrdBJeLbv3Hvqa7Rcnvco,716
+academia_tts-0.2.3.dist-info/METADATA,sha256=BJgdgSBt_lR_OBMq8KO898qnQbdJe1EjTHQm9gUx2oE,594
+academia_tts-0.2.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+academia_tts-0.2.3.dist-info/entry_points.txt,sha256=kTbhvxKsPDUvead6pYZK2DxF8OXHwYae79g80jRTbOQ,122
+academia_tts-0.2.3.dist-info/top_level.txt,sha256=ISHY2aw_uQJiZG0kzfLb8BrHdyqlaPp0RUT9KpadsYQ,13
+academia_tts-0.2.3.dist-info/RECORD,,

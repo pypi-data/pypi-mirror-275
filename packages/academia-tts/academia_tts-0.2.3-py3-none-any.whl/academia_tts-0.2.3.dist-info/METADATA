@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: academia_tts
+Version: 0.2.3
+Summary: A package to convert PPTX slide notes to audio and embed them into the slides
+Home-page: https://github.com/l1997i/academia_tts
+Author: Li (Luis) Li
+Author-email: li.li4@durham.ac.uk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: torch
+Requires-Dist: python-pptx
+Requires-Dist: whisperspeech
+Requires-Dist: pydub
+
+A package to convert PPTX slide notes to audio and embed them into the slides
