@@ -1,0 +1,7 @@
+README.md
+setup.py
+aristotle-metadata-registry/__init__.py
+aristotle_metadata_registry.egg-info/PKG-INFO
+aristotle_metadata_registry.egg-info/SOURCES.txt
+aristotle_metadata_registry.egg-info/dependency_links.txt
+aristotle_metadata_registry.egg-info/top_level.txt
