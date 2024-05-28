@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "react-i18next-lint"
+version = "0.1.0"
+description = "A small lint tool for react-i18next phrases and usage"
+authors = ["Jiayu Liu <jiayu@hey.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/jimexist/react-i18next-lint"
+repository = "https://github.com/jimexist/react-i18next-lint"
+keywords = ["react", "i18next", "lint", "i18n"]
+classifiers = ["Topic :: Software Development :: Build Tools"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+duckdb = "^0.10.3"
+typer = "^0.12.3"
+rich = "^13.7.1"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.5"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# scripts
+[tool.poetry.scripts]
+react_i18next_lint = "react_i18next_lint.main:app"
