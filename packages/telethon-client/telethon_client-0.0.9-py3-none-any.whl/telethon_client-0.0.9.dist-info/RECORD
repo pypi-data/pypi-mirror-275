@@ -1,0 +1,8 @@
+TeleClient/__init__.py,sha256=eOo2G-Oj2v69wrkDVO3YW4cOyHO51o1XLmur3qXlwIE,30
+TeleClient/client.py,sha256=VWsyS8aDV720iMiwZ_VXYlC757RVzmlS5fOT3IdC0xM,1833
+TeleClient/env.py,sha256=i0LaQ0U0hcJSoTS-gwwP_2EghBSowJZUwyAFk6Y9SL8,98
+TeleClient/errors.py,sha256=sNW1t8pkMJpLD-8OQgH2ngAuumUwdsLK4LukToi237I,29
+telethon_client-0.0.9.dist-info/METADATA,sha256=YiXHrGMf3TiAPC_U4VJvQvI_hsKsAVUG_AabOdqKAhU,441
+telethon_client-0.0.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+telethon_client-0.0.9.dist-info/top_level.txt,sha256=C1cSJZRlnTZQONPfKWWWajqOyLWUsVkxwLfhPLt8-is,11
+telethon_client-0.0.9.dist-info/RECORD,,
