@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+src/QuizEngine4Trivia/__init__.py
+src/QuizEngine4Trivia/models/__init__.py
+src/QuizEngine4Trivia_TirsvadCLI.egg-info/PKG-INFO
+src/QuizEngine4Trivia_TirsvadCLI.egg-info/SOURCES.txt
+src/QuizEngine4Trivia_TirsvadCLI.egg-info/dependency_links.txt
+src/QuizEngine4Trivia_TirsvadCLI.egg-info/requires.txt
+src/QuizEngine4Trivia_TirsvadCLI.egg-info/top_level.txt
+tests/test_quiz_engine.py
