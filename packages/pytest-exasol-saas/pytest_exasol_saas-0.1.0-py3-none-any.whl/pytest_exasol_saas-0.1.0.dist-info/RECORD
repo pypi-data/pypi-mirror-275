@@ -1,0 +1,7 @@
+exasol/pytest_saas/__init__.py,sha256=vMKSGtPaeyi6Es5F-hHrWRiYJWIraxC_bQkV3fJfT8M,2840
+exasol/pytest_saas/project_short_tag.py,sha256=1bqxapRXriCxTnVFPMnHuaBC6xpWTMEkz6-LBBLgkh0,861
+exasol/pytest_saas/version.py,sha256=4nqSPlb5zgkyYIODu1QrqRckkyoRUBp7vS7rvymvQ0k,404
+pytest_exasol_saas-0.1.0.dist-info/METADATA,sha256=FPB3Q-aaEQdsIxHbOjYwaqPoFQ39fKWxEWB90QEcKcE,3181
+pytest_exasol_saas-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pytest_exasol_saas-0.1.0.dist-info/entry_points.txt,sha256=ffHSq-8jWG4V4bnVD30kKheMkhRapKtL5yUqHw-WJIU,36
+pytest_exasol_saas-0.1.0.dist-info/RECORD,,
