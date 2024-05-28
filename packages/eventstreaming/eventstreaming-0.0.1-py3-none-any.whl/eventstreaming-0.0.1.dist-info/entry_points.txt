@@ -1,0 +1,2 @@
+[console_scripts]
+events = eventstreaming.websocket.server:run_main
