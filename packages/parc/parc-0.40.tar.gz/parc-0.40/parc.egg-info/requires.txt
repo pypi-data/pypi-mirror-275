@@ -1,0 +1,12 @@
+pybind11
+numpy
+scipy
+pandas
+hnswlib
+igraph
+leidenalg>=0.7.0
+umap-learn
+
+[dev]
+pytest
+scikit-learn
