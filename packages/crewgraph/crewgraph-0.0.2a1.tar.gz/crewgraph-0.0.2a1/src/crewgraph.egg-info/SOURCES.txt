@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/crewgraph/__init__.py
+src/crewgraph/cli.py
+src/crewgraph/commander.py
+src/crewgraph.egg-info/PKG-INFO
+src/crewgraph.egg-info/SOURCES.txt
+src/crewgraph.egg-info/dependency_links.txt
+src/crewgraph.egg-info/entry_points.txt
+src/crewgraph.egg-info/not-zip-safe
+src/crewgraph.egg-info/requires.txt
+src/crewgraph.egg-info/top_level.txt
