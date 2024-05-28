@@ -1,0 +1,106 @@
+#!/bin/bash
+
+name="$1"
+distro="$2"
+
+# Define Colors
+# But without Tput
+green="\033[01;32m"
+red="\033[01;31m"
+blue="\033[01;34m"
+cyan="\033[01;36m"
+reset="\033[0m"
+cursive="\033[01;33m"
+bold="\033[01m"
+
+msg() {
+    echo "${green}[${red}*${green}]${cyan} ${@:1} ${reset}" 2>&1
+}
+
+if [ "$#" -ne 2 ]; then
+    msg "Usage: $0 <name> <distro>"
+    exit 1
+fi
+
+case "${distro}" in
+    debian|ubuntu)
+        prefix="/usr"
+        pythonpath="/usr/lib/python3/dist-packages"
+        depends="python3, python3-venv, python-is-python3"
+        ;;
+    termux)
+        prefix="/data/data/com.termux/files/usr"
+        pythonpath="/data/data/com.termux/files/usr/lib/python3.11/site-packages"
+        depends="python, python"
+        ;;
+    *)
+        msg "Unsupported distribution: ${distro}"
+        exit 1
+        ;;
+esac
+
+# Creating Virtual Environment and install Module there
+msg "Setting up Venv ..."
+python -m venv .tmp-venv &>/dev/null
+source .tmp-venv/bin/activate
+pip install ${name} &>/dev/null
+
+# Grep Meta Data from Module
+msg "Grep Meta Data from Module"
+package=$(pip show ${name} | grep -E '^Name: ' | cut -d' ' -f2)
+version=$(pip show ${name} | grep -E '^Version: ' | cut -d' ' -f2)
+summary=$(pip show ${name} | grep -E '^Summary: ' | cut -d' ' -f2)
+author=$(pip show ${name} | grep -E '^Author: ' | cut -d' ' -f2)
+email=$(pip show ${name} | grep -E '^Author-email: ' | cut -d' ' -f2)
+pip_depends=$(pip show ${name} | grep -E '^Requires: ' | cut -d' ' -f2)
+arch=$(dpkg --print-architecture)
+
+#Struct Package
+msg "Struct Package"
+build_dir="${name}${pythonpath}"
+build_prefix="${name}${prefix}"
+debian_dir="${name}/DEBIAN"
+control_file="${debian_dir}/control"
+
+# Create Folder and Build distribution
+mkdir -p ${build_dir} ${debian_dir}
+touch ${control_file}
+
+# Install PIP Module to build_dir
+msg "Install PIP Module to build_dir"
+pip install ${name} --target ${build_dir} &>/dev/null
+
+# Check for Bin in build_dir
+msg "Check for Bin in build_dir"
+if [ -d "${build_dir}/bin" ]; then
+    msg "${green}Bin Folder Found"
+    mkdir -p ${build_prefix}/bin
+    cp -rf ${build_dir}/bin/* ${build_prefix}/bin
+    rm -rf ${build_dir}/bin
+else
+    msg "${red}Bin Folder Not Found"
+fi
+
+# Create Control File and Give him Correct Rights
+msg "Create Control File and Give Rights"
+cat <<EOF > ${control_file}
+Package: ${name}
+Version: ${version}
+Architecture: ${arch}
+Maintainer: ${author} <${email}>
+Depends: ${depends}
+Description: ${summary}
+EOF
+
+# Create Debian Package
+msg "Create Debian Package"
+chmod -R 755 ${name}
+dpkg-deb --build ${name} &>/dev/null
+package_name="${name}_${version}_${arch}_${distro}.deb"
+mv ${name}.deb ${package_name}
+
+msg "Package Created: ${package_name}, for distro: ${distro}:${arch}"
+msg "Cleaning Up"
+rm -rf ${name} .tmp-venv
+
+msg "${green}Done"
