@@ -1,0 +1,8 @@
+README.md
+setup.py
+hashall/__init__.py
+hashall.egg-info/PKG-INFO
+hashall.egg-info/SOURCES.txt
+hashall.egg-info/dependency_links.txt
+hashall.egg-info/requires.txt
+hashall.egg-info/top_level.txt
