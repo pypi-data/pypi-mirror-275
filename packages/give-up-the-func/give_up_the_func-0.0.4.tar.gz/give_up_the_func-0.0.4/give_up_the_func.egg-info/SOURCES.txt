@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+give_up_the_func/__init__.py
+give_up_the_func/core.py
+give_up_the_func.egg-info/PKG-INFO
+give_up_the_func.egg-info/SOURCES.txt
+give_up_the_func.egg-info/dependency_links.txt
+give_up_the_func.egg-info/requires.txt
+give_up_the_func.egg-info/top_level.txt
