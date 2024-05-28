@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: OpenDocument
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: scikit-image (==0.18.3)
+Requires-Dist: numpy (==1.20.0)
+Requires-Dist: opencv-python (==4.9.0.80)
+
+UNKNOWN
+
