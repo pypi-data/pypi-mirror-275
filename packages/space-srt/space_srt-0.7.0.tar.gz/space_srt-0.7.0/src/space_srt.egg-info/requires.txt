@@ -1,0 +1,14 @@
+build
+packaging
+pyparsing
+tomli
+numpy
+pandas
+scipy
+scikit-learn
+scanpy
+tqdm
+matplotlib
+leidenalg
+squidpy
+networkx
