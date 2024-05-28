@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/crewserve/__init__.py
+src/crewserve/cli.py
+src/crewserve/controller.py
+src/crewserve.egg-info/PKG-INFO
+src/crewserve.egg-info/SOURCES.txt
+src/crewserve.egg-info/dependency_links.txt
+src/crewserve.egg-info/entry_points.txt
+src/crewserve.egg-info/not-zip-safe
+src/crewserve.egg-info/requires.txt
+src/crewserve.egg-info/top_level.txt
