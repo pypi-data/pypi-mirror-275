@@ -1,0 +1,8 @@
+docker
+flask
+GitPython
+
+[test]
+types-docker
+mypy
+pytest

@@ -1,0 +1,32 @@
+[project]
+name = "dc2host"
+version = "1.0.0"
+dependencies = ["docker", "flask", "GitPython"]
+authors = [
+  { name="Vlad Folts", email="vladfolts@gmail.com" },
+]
+description = "VS Code Dev Containers integration with a host system"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/vladfolts/dc2host"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+test = [
+    "types-docker",
+    "mypy",
+    "pytest",
+]
+
+[tool.mypy]
+check_untyped_defs = true
