@@ -1,0 +1,3 @@
+[console_scripts]
+weather = simple_weather_cli.weather:get_weather
+

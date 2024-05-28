@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: beautiful-weather-cli
+Version: 0.1
+Summary: A simple CLI for getting the weather information
+Home-page: https://github.com/yourusername/simple-weather-cli
+Author: Your Name
+Author-email: your.email@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: requests
+
+UNKNOWN
+
