@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pyscanasdk
+Version: 1.0.9
+Summary: 123
+Home-page: https://github.com/scanasdk/scana-sdk-python
+Author: scana
+Author-email: 
+License: MIT
+Requires-Dist: requests (>=2.24.0)
+
