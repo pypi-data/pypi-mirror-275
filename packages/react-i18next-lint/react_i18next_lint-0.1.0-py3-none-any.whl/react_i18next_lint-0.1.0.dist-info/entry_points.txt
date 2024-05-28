@@ -1,0 +1,3 @@
+[console_scripts]
+react_i18next_lint=react_i18next_lint.main:app
+

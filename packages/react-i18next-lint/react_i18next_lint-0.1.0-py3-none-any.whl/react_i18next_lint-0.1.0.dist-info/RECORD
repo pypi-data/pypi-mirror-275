@@ -1,0 +1,11 @@
+react_i18next_lint/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+react_i18next_lint/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+react_i18next_lint/commands/extract_keys.py,sha256=Y8KPwtu5_5zIxk5MMEuL-uAI_cFlLDbT8ntg24LmGAY,977
+react_i18next_lint/commands/group_key_locales.py,sha256=szNhQ1MUnkbQRT2MM8a8_rcyfIH6YguPvCa_zLMMw7w,543
+react_i18next_lint/commands/validate_keys.py,sha256=qtiuGd48U6cugK45_fKQK5htA4qNJvNB_yhryTlgBmc,1980
+react_i18next_lint/main.py,sha256=escxx2pSq0mLqcZlBsvuFIzt5gcCamIoTheHn30NoWM,3698
+react_i18next_lint-0.1.0.dist-info/LICENSE,sha256=HGzLOwnCk7zdM1EIyqApv9-LX4uWwyuOXx81dr40tvw,1066
+react_i18next_lint-0.1.0.dist-info/METADATA,sha256=chIo3u96iWeX7hGdcVzIQqj8rgUzIbS9EriTBg78nrw,1423
+react_i18next_lint-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+react_i18next_lint-0.1.0.dist-info/entry_points.txt,sha256=7KR0ST_1hpstbReAWR1piSGOvzaeIaXtJyIUzgvJcXs,66
+react_i18next_lint-0.1.0.dist-info/RECORD,,

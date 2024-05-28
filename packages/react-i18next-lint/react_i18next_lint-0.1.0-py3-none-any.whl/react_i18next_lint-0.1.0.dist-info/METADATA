@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: react-i18next-lint
+Version: 0.1.0
+Summary: A small lint tool for react-i18next phrases and usage
+Home-page: https://github.com/jimexist/react-i18next-lint
+License: MIT
+Keywords: react,i18next,lint,i18n
+Author: Jiayu Liu
+Author-email: jiayu@hey.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Dist: duckdb (>=0.10.3,<0.11.0)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Requires-Dist: typer (>=0.12.3,<0.13.0)
+Project-URL: Repository, https://github.com/jimexist/react-i18next-lint
+Description-Content-Type: text/markdown
+
+# react-i18next-lint
+
+A small lint tool for [react-i18next][18n].
+
+[18n]: https://react.i18next.com/
+
+## Install
+
+```bash
+poetry install
+```
+
+## Execution
+
+### Extract phrase keys from i18n directory
+
+```bash
+poetry run react_i18next_lint extract-keys [i18n resources dir] > resources.tsv
+```
+
+### Group phrase key and aggregate locales
+
+```bash
+poetry run react_i18next_lint group-key-locales resources.tsv by-locales.tsv
+```
+
+### Validate against source code files
+
+```bash
+poetry run react_i18next_lint validate-keys by-locales.tsv [source code files]
+```
+
+## Development
+
+### Running pytest
+
+```bash
+poetry run pytest
+```
+
