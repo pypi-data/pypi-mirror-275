@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: physities
+Version: 0.1.0
+Summary: 
+Author: M4tus4l3m
+Author-email: lucas.sievers@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: kobject (>=0.6.1,<0.7.0)
+Requires-Dist: pytest (>=7.4.0,<8.0.0)
+Description-Content-Type: text/markdown
+
+# Physities
+Represent physical quantities
+

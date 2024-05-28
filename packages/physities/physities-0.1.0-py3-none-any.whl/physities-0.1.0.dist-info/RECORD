@@ -1,0 +1,14 @@
+physities/__init__.py,sha256=qVCbDG6ysLP8rzpxiAyVR6Ry0LHw_aBInnaGKMe33b8,23
+physities/main.py,sha256=xpR7nHZSsLmIqdPUe9IzSlgG0YUDXiLOLEFp3zBpQrY,703
+physities/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+physities/src/dimension/__init__.py,sha256=Ns24zSJjVN3VvBJtCrHNdUJMauBRn3UT8oJqjCFK9LI,76
+physities/src/dimension/base_dimensions.py,sha256=pjZQDCe43F-uQACw0mNqY-v0KnsgSvSJh38F_zx-T44,185
+physities/src/dimension/dimension.py,sha256=fSXkUDHQOckuc1ZzVfpl9TN2loPTVbet73iPwOPgq40,7535
+physities/src/scale/__init__.py,sha256=WxWDMc35MXUGiz69qSqphTJuCc2Ss4UhCET5hD7fv8E,25
+physities/src/scale/scale.py,sha256=lXFn46kqrFko_rs1A2zACHEeiQ5tRUer_kzfV_x-iJs,8997
+physities/src/unit/__init__.py,sha256=oaKSvEP6vweQm29p5QjQHR9WBG3VjkeZ2BOmKALynIY,4621
+physities/src/unit/unit.py,sha256=tn_rMvTOOelJ7_4_UCmIP1T7WnrtNU6bDzk-2P9g4Ic,7395
+physities-0.1.0.dist-info/LICENSE,sha256=0w-XoE8nVSw3aGO765G3ttPulEEaS8GCdThpNkyT5_Q,11339
+physities-0.1.0.dist-info/METADATA,sha256=s1z9jDpu7CGKJ-_-OI6y0NO3betUUSQIHMN_50p5NkQ,410
+physities-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+physities-0.1.0.dist-info/RECORD,,
