@@ -1,0 +1,7 @@
+README.md
+setup.py
+silverbot/__init__.py
+silverbot.egg-info/PKG-INFO
+silverbot.egg-info/SOURCES.txt
+silverbot.egg-info/dependency_links.txt
+silverbot.egg-info/top_level.txt
