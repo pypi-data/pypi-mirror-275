@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/OGRePy.egg-info/PKG-INFO
+src/OGRePy.egg-info/SOURCES.txt
+src/OGRePy.egg-info/dependency_links.txt
+src/OGRePy.egg-info/requires.txt
+src/OGRePy.egg-info/top_level.txt

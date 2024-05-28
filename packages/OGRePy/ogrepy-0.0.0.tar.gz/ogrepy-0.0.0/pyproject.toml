@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "OGRePy"
+authors = [{ name = "Barak Shoshany", email = "baraksh@gmail.com" }]
+maintainers = [{ name = "Barak Shoshany", email = "baraksh@gmail.com" }]
+description = "An Object-Oriented General Relativity Package for Python"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = [
+    "differential geometry",
+    "general relativity",
+    "mathematics",
+    "physics",
+    "scientific computing",
+    "tensor",
+    "tensors",
+]
+license = { file = "LICENSE.txt" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = ["ipykernel", "sympy"]
+version = "0.0.0"
+
+[project.urls]
+homepage = "https://github.com/bshoshany/OGRePy"
+documentation = "https://github.com/bshoshany/OGRePy"
+repository = "https://github.com/bshoshany/OGRePy"
+
+[tool.setuptools.packages.find]
+include = ["OGRePy"]
+
+[tool.setuptools.package-data]
+"*" = ["py.typed"]
