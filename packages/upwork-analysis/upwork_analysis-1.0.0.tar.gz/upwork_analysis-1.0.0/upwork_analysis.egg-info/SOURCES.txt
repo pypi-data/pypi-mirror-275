@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+upwork_analysis/__init__.py
+upwork_analysis/analyze_data.py
+upwork_analysis/data_analysis.ipynb
+upwork_analysis/py.typed
+upwork_analysis/scrape_data.py
+upwork_analysis.egg-info/PKG-INFO
+upwork_analysis.egg-info/SOURCES.txt
+upwork_analysis.egg-info/dependency_links.txt
+upwork_analysis.egg-info/entry_points.txt
+upwork_analysis.egg-info/requires.txt
+upwork_analysis.egg-info/top_level.txt

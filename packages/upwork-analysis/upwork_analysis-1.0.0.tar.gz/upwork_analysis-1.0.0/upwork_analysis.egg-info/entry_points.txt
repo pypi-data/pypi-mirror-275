@@ -1,0 +1,3 @@
+[console_scripts]
+analyze-upwork = upwork_analysis:analyze_data.analysis_cli_entry_point
+scrape-upwork = upwork_analysis:scrape_data.scraping_cli_entry_point

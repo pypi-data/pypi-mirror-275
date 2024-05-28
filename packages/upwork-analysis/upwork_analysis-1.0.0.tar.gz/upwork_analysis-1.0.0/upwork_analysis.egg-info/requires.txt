@@ -1,0 +1,6 @@
+seleniumbase
+beautifulsoup4
+scikit-learn
+pandas
+scipy
+seaborn
