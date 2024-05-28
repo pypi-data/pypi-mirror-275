@@ -1,0 +1,15 @@
+chess_transformer/__init__.py,sha256=2r8ape8U97LrWJkXEmNi9XSqNlH5lySRAQTLzaWWHN0,125
+chess_transformer/__init__.pyi,sha256=gxQ8UawAarURe-19Y4jOWkV-30bD6nySJUD_rhRAItg,302
+chess_transformer/_vocab.py,sha256=NAxJuRM48xDti9t8A0PA1USLB8W2cpNV3PEXlSiT698,342
+chess_transformer/samples.py,sha256=NnXCtl_xd762StjFSxHTKTIoJ7Q6IiOLEtHfVTYbGIc,1484
+chess_transformer/pytorch/__init__.py,sha256=mF4M_d6EiHbB9U9W_oKlKXYIyh8ZFn3gxe_382VXiLI,95
+chess_transformer/pytorch/__init__.pyi,sha256=P5DK_t51NmQVDMkdXPg62IMBHTyWhxIgoqJxoYxwsxI,378
+chess_transformer/pytorch/_loss.py,sha256=DY2XhlF6k4NWmayUjrWQYA51_X4ZE0MO0AvZP3XnY6c,250
+chess_transformer/pytorch/data.py,sha256=RDbEQOXu6qXjFafZ8ZnIkqdlGCzdfPXJGldpu_a-Bdc,1326
+chess_transformer/pytorch/decode.py,sha256=PVqNe-4T89Jc50ftH_5iD4TcYzJfd_xyoire3tlv-Eg,1166
+chess_transformer/pytorch/model.py,sha256=AKl1jODB7ADmHQS_WhKnqE9eL597sfTq4ddQB-n-z-Q,1375
+chess_transformer/pytorch/pos_enc.py,sha256=oWGwsDTJtpX1436xYU8YRzX8tsn7kHs_Rs7A7ttlkFU,909
+chess_transformer-0.1.8.dist-info/METADATA,sha256=zNTfXsCbHLJ6mqBW_Ds5IPljDZGfM8oYKlgdX0Iw_QQ,436
+chess_transformer-0.1.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+chess_transformer-0.1.8.dist-info/top_level.txt,sha256=5C85I08hVwC3DNr25b3NYzit2oMYJs7R3AJoP-183NI,18
+chess_transformer-0.1.8.dist-info/RECORD,,
