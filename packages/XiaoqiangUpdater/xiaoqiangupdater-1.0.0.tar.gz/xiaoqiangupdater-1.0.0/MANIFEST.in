@@ -1,0 +1,14 @@
+include README.md
+include LICENSE
+include setup.py
+include requirements.txt
+include MANIFEST.in
+
+recursive-include XiaoqiangUpdater *.py
+recursive-include tests *.py
+
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude *~
+global-exclude *.bak
+global-exclude .DS_Store
