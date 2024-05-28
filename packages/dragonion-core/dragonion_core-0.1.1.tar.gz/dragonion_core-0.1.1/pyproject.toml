@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "dragonion-core"
+version = "0.1.1"
+description = ""
+authors = ["BarsTiger <zxcbarstiger@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dragonion_core"}]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.12"
+dataclasses-json = "^0.5.13"
+sqlitedict = "^2.1.0"
+cryptography = "^42.0.7"
+attrs = "^23.1.0"
+
+
+[tool.poetry.dev-dependencies]
+rich = "^13.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

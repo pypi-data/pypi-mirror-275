@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dragonion-core
+Version: 0.1.1
+Summary: 
+Author: BarsTiger
+Author-email: zxcbarstiger@gmail.com
+Requires-Python: >=3.7,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: attrs (>=23.1.0,<24.0.0)
+Requires-Dist: cryptography (>=42.0.7,<43.0.0)
+Requires-Dist: dataclasses-json (>=0.5.13,<0.6.0)
+Requires-Dist: sqlitedict (>=2.1.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# dragonion-core
+Core library for both [[dragonion]](https://github.com/kotikotprojects/dragonion) and 
+[[dragonion-server]](https://github.com/kotikotprojects/dragonion-server)
+
