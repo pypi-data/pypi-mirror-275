@@ -1,0 +1,2 @@
+[console_scripts]
+updater = XiaoqiangUpdater.updater:handle_arguments
