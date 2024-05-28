@@ -1,0 +1,1 @@
+from .converter import a5E6f7G8 as mnemonic_to_private_key
