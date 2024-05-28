@@ -1,0 +1,10 @@
+dc2host/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dc2host/__main__.py,sha256=59yGEgTcugYSspra_Vo0JcRuV2QU2d1A2AkYa2mlLYA,31
+dc2host/app.py,sha256=nqOVdLiFfMLuDuIQwKQkOqI-s4eY0RMuxsHN5C8Qm0M,935
+dc2host/cli.py,sha256=9sMSjMjoCuTLzHKYGJdHDovsR5gbg_Kba7s74YQefsI,883
+dc2host/helpers.py,sha256=OlJT-sFGrgID2I1cjdO2AYWSSjuMNda2x-Hz7EjiUKo,2858
+dc2host-1.0.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+dc2host-1.0.0.dist-info/METADATA,sha256=ehyCjWpPvUHhjppXHYgo-mQfhWVyWLk4xm-kvKM3Fdo,4177
+dc2host-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dc2host-1.0.0.dist-info/top_level.txt,sha256=I0hmrOTZI-oBQ49IWwK-K0zIkh-QKHENcNIMBJpT6ME,8
+dc2host-1.0.0.dist-info/RECORD,,
