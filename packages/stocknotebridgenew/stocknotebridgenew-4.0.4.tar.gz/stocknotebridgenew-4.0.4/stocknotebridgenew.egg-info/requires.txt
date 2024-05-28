@@ -1,0 +1,5 @@
+future
+requests
+websocket
+websocket_client
+six
