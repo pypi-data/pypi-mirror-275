@@ -1,0 +1,10 @@
+setup.py
+single_ins/__init__.py
+single_ins/equalable_si.py
+single_ins/hashable_si.py
+single_ins/si.py
+single_ins.egg-info/PKG-INFO
+single_ins.egg-info/SOURCES.txt
+single_ins.egg-info/dependency_links.txt
+single_ins.egg-info/not-zip-safe
+single_ins.egg-info/top_level.txt
