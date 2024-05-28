@@ -1,0 +1,7 @@
+mia_vgg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mia_vgg/mia.py,sha256=MH0jHE8oY6zAEHlaFS4r3lWZp4yH91b62VMLU43dlNg,396
+mia_vgg/train_target.py,sha256=yKL01LVJzlPw6Xb1YtC34xk88ioV_yX-KDA2uyJsjac,4699
+mia_vgg-0.0.18.dist-info/METADATA,sha256=Ptm9XJBGXAmvYRbfyhXOLYRyDi39Gf1v3m4dck58yaQ,560
+mia_vgg-0.0.18.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mia_vgg-0.0.18.dist-info/top_level.txt,sha256=2mqMcdbKD00t5JIc9ZDraWwJYLlCdlTUrZzJdsL9SUk,8
+mia_vgg-0.0.18.dist-info/RECORD,,
