@@ -1,0 +1,8 @@
+dlqhandler/__ini__.py,sha256=TMRvkS5LeFVJcuOt46nlUBCMOlBq3QSDWzdAnR9PqIw,31
+dlqhandler/process.py,sha256=63n5I-yhjEgJbj1biFyWId5M0fe7Xg5fHdrYgx6nI00,1647
+dlqhandler/sqs_queue.py,sha256=lc_gOSA9EVIVexj8xMw44EYGlBR-OZRuAX6u7zj6g2Q,1611
+dlqhandler-0.1.6.dist-info/LICENSE,sha256=QmDloPTnUKEo0i-C1XQi9Ph0JaH-oKMDqTgCdWyUp3I,1064
+dlqhandler-0.1.6.dist-info/METADATA,sha256=2dIjgcc3ndcR_aO8l-8qchvZb3-zXpXn8HTGg0EC3qk,1269
+dlqhandler-0.1.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dlqhandler-0.1.6.dist-info/top_level.txt,sha256=uAWGu6HZR6CwRpsQYJqwQq4rAffhrxKoeM1loIMWGA0,11
+dlqhandler-0.1.6.dist-info/RECORD,,
