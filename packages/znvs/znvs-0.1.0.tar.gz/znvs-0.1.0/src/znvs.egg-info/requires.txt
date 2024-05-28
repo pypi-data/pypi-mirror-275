@@ -1,0 +1,5 @@
+crc~=6.1
+
+[dev]
+PyYAML~=6.0
+pytest~=7.2
