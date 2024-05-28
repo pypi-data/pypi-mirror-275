@@ -1,0 +1,9 @@
+README.md
+setup.py
+chatgpt_interface/__init__.py
+chatgpt_interface/chatgpt_interface.py
+chatgpt_interface.egg-info/PKG-INFO
+chatgpt_interface.egg-info/SOURCES.txt
+chatgpt_interface.egg-info/dependency_links.txt
+chatgpt_interface.egg-info/requires.txt
+chatgpt_interface.egg-info/top_level.txt
