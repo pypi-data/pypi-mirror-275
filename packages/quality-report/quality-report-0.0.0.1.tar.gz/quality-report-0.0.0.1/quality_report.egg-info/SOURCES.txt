@@ -1,0 +1,7 @@
+README.md
+setup.py
+quality-report/__init__.py
+quality_report.egg-info/PKG-INFO
+quality_report.egg-info/SOURCES.txt
+quality_report.egg-info/dependency_links.txt
+quality_report.egg-info/top_level.txt
