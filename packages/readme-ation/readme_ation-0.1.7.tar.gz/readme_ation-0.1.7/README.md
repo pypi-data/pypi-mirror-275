@@ -1,0 +1,26 @@
+# Overview
+
+This repository contains scripts to automate the process of generating a `README.md` file with setup and run instructions for a Python project. The main script scans Python files for imported packages, determines their versions, and updates the README with environment setup instructions. It also allows adding detailed project descriptions.
+
+## Features
+
+- **Automated README Generation**: Scans Python files to identify imported packages and their versions, then generates setup instructions for a Mamba environment.
+- **Project Description Section**: Adds a detailed project description to the README, including overview, motivation, technologies used, approach, challenges, key takeaways, and acknowledgments.
+
+## Functions
+
+### `find_all_py_files(directory)`
+
+Finds all Python files in the specified directory and its subdirectories.
+
+### `open_or_create_readme(readme_path)`
+
+Opens an existing README file or prompts to create a new one if it doesn't exist.
+
+### `add_setup_with_versions(file_paths, readme_path)`
+
+Adds setup and run instructions to the README file based on the identified packages and their versions.
+
+### `add_project_description(readme_path, project_details)`
+
+Adds a detailed project description to the README file.
