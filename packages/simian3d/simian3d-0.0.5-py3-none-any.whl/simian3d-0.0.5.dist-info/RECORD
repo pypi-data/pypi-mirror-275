@@ -1,0 +1,16 @@
+simian/__init__.py,sha256=nCiq1dwM5ihBFU0y9drHl5r791EcDr5LC2AUMvSRBP0,254
+simian/background.py,sha256=s2VgDcGO6HjX9VKT67ETs9wHv-Gsb6f3Vm8vhm3_v_0,6680
+simian/batch.py,sha256=y3XI-wBkZ4rW-o0X5KKulMfklVptL7gDNEl7BB0MZ_4,5066
+simian/camera.py,sha256=EgC289mxb8aBDFVf_u4Xa-C3cIQmI6sbS-7J3qOk2Bg,12577
+simian/cli.py,sha256=0jGDv0R1gke7lcpHo8mOM72afLCY-ulAdV4karoUu20,9567
+simian/combiner.py,sha256=h8wtsqycIPlLUOMHvcr4JNt0V7Cv3EKJN4q2A_XQGqo,32949
+simian/object.py,sha256=TrO8N1zgVvgiHxC5biQto_ulE7V6CKfjXH_FmSelXsg,17335
+simian/postprocessing.py,sha256=2RXyTEPcI-5_TI5sn7l5qpR6b2JRGdXSTKiGFeDHOAs,8899
+simian/render.py,sha256=WlWY7b7fP4NenghIVf6eP1SGfwCuIBX91o2adLmYd1Q,7921
+simian/scene.py,sha256=JCtHE0Ex07yJUNDhXFNxRrwblYVno_1adVPeiBmIN7k,11112
+simian/transform.py,sha256=R4YwpHdJSHuE6G4JmLWi6wNyZ8twa6bYF6_Iu5FV9vg,9638
+simian/worker.py,sha256=j1VQukxRoUPIuBOAZ30JXAAf_6-R0K8Z-lGBWb-XFtU,3860
+simian3d-0.0.5.dist-info/METADATA,sha256=YmCfmkaXh9nQZr39NkPs5lLXASdRR3GgOM_00o7AdvU,7514
+simian3d-0.0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+simian3d-0.0.5.dist-info/top_level.txt,sha256=NX1HbXRe0mG1ivNTkBZNI0KZ0YhaYST44mJXVj1KgKE,7
+simian3d-0.0.5.dist-info/RECORD,,
