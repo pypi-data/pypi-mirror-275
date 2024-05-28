@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: opthub_runner
+Version: 1.0.1
+Summary: Library for running OptHub problems locally.
+Home-page: https://github.com/opthub-org/opthub-runner-python
+License: MIT
+Keywords: opthub,runner,evaluator
+Author: Opthub Inc.
+Author-email: dev@opthub.ai
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: docker (>=7.1.0,<8.0.0)
+Project-URL: Documentation, https://github.com/opthub-org/opthub-runner-python
+Project-URL: Repository, https://github.com/opthub-org/opthub-runner-python
+Description-Content-Type: text/markdown
+
+# opthub-runner-python
+
