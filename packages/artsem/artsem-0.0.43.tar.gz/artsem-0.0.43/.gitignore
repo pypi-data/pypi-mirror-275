@@ -1,0 +1,4 @@
+.idea
+dataset/*
+artsem/tests/samples/coreutils/*
+**/__pycache__
