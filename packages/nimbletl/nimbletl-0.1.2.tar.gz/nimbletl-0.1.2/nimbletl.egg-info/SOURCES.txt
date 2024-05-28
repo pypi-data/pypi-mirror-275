@@ -1,0 +1,8 @@
+README.md
+setup.py
+nimbletl.egg-info/PKG-INFO
+nimbletl.egg-info/SOURCES.txt
+nimbletl.egg-info/dependency_links.txt
+nimbletl.egg-info/entry_points.txt
+nimbletl.egg-info/requires.txt
+nimbletl.egg-info/top_level.txt
