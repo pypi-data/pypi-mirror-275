@@ -1,0 +1,3 @@
+[console_scripts]
+dragonion=dragonion:main
+
