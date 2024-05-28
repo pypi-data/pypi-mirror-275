@@ -1,0 +1,9 @@
+alertpix/__init__.py,sha256=CdsWXEXKPpRBOGj5Bov6eF5AZ3DqO9H2GBZOxQwqfH8,122
+alertpix/src/account.py,sha256=R0mJetfwnPPs5OdEs7IM2DB_jp2hDiJjCvYgCU6JnUk,1192
+alertpix/src/brcode.py,sha256=cfxlkmDE0aa8rptAPQO6rAggmxHXFYE205AvsNRy0t4,164
+alertpix/src/charges.py,sha256=eZXDaS7uMOcijB1YopKBWvmSa3QyQKVy7IAeHRhC6a8,2002
+alertpix/src/statics.py,sha256=1St97lkb7loUA6tBujnrkDjWdcA5a86nF5x14N2yXkI,787
+alertpix-0.3.6.dist-info/METADATA,sha256=NREfDTCyAwD5LBDsbb2QqSEJ--pSS5h_QITUgfXnZPo,891
+alertpix-0.3.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+alertpix-0.3.6.dist-info/top_level.txt,sha256=R-j2EhQTX9L07tSoR9EL0dTAR9m-vhB6_89tH6BC5SA,9
+alertpix-0.3.6.dist-info/RECORD,,
