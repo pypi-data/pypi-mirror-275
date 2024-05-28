@@ -1,0 +1,29 @@
+{
+  "name": "megickfilebrowse",
+  "version": "0.0.2",
+  "description": "Gradio UI packages",
+  "type": "module",
+  "author": "",
+  "license": "apache-2.0",
+  "private": true,
+  "dependencies": {
+    "@gradio/atoms": "0.7.4",
+    "@gradio/checkbox": "0.3.5",
+    "@gradio/client": "0.19.4",
+    "@gradio/file": "0.7.5",
+    "@gradio/icons": "0.4.1",
+    "@gradio/statustracker": "0.5.5",
+    "@gradio/upload": "0.10.5",
+    "@gradio/utils": "0.4.2",
+    "dequal": "^2.0.2"
+  },
+  "devDependencies": {
+    "@gradio/preview": "0.9.0"
+  },
+  "main_changeset": true,
+  "exports": {
+    ".": "./Index.svelte",
+    "./example": "./Example.svelte",
+    "./package.json": "./package.json"
+  }
+}
