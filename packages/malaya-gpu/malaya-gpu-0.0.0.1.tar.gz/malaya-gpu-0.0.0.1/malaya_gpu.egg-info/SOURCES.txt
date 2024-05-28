@@ -1,0 +1,7 @@
+README.md
+setup.py
+malaya-gpu/__init__.py
+malaya_gpu.egg-info/PKG-INFO
+malaya_gpu.egg-info/SOURCES.txt
+malaya_gpu.egg-info/dependency_links.txt
+malaya_gpu.egg-info/top_level.txt
