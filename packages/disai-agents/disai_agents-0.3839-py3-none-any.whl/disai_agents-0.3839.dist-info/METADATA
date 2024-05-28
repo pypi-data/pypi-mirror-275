@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: disai-agents
+Version: 0.3839
+Summary: A Python library for Easy LLM Agent functionalities.
+Home-page: https://github.com/raaasin/digiotai
+Author: DISAI Community
+Author-email: nisarvskp@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: openai
+Requires-Dist: python-dotenv
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
+UNKNOWN
+
