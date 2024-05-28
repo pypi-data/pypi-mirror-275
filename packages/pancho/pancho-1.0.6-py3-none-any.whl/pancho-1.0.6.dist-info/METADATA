@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pancho
+Version: 1.0.6
+Summary: Commands and queries processor
+Home-page: https://github.com/smairon/pancho
+Author: Smairon
+Author-email: man@smairon.ru
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: zodchy (>=0.3.0,<0.4.0)
+Project-URL: Repository, https://github.com/smairon/pancho
+Description-Content-Type: text/markdown
+
+# Pancho
+Commands and queries processor
