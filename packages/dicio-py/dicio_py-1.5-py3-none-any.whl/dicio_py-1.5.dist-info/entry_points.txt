@@ -1,0 +1,2 @@
+[console_scripts]
+dicio-py = dicio_py.__main__:main
