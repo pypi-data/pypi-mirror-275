@@ -1,0 +1,13 @@
+steam_web_api/__init__.py,sha256=MsPebT95GWwyRvOiCe9bF1aoHFMSfSgI93L5ejfdS9s,162
+steam_web_api/_version.py,sha256=A6WLCBqq26CHUajOW-_tVk-BoZ5WrC_pMli36YnOkac,429
+steam_web_api/apps.py,sha256=Qx8fYZagVIo5XyNtB16WreyUqlnMPRRu8F5gvrSBS8E,6146
+steam_web_api/client.py,sha256=J1damQSoOfOrwRKSHn8pCR1Es_04Fu99W2K4l49LPsY,1577
+steam_web_api/constants.py,sha256=FDjDyU6Trh4bFF5mi5mzUjPMsad-Y9OW2oN6M7S6Ge8,188
+steam_web_api/steam.py,sha256=gz7HF64X_-HAdmUUpivoLo0XjG36vAJTFm4-iPYFmfI,479
+steam_web_api/users.py,sha256=bbfy29Lx9AS134zKtltslXOQUC7zUx09kT_nQCKnZEk,5818
+steam_web_api/utils.py,sha256=-fSlT1RgFSMRErILiWRhJlMu-fuJsB-RzQQC0GcEkTk,2043
+python_steam_api-2.0.1.dist-info/LICENCE,sha256=M4eLlOTVYi24k_qy3XANCmR8CI2VQiXfs-iYhPPF9EM,1101
+python_steam_api-2.0.1.dist-info/METADATA,sha256=NrzZA2Kdgr_LYSLPrPPhQN58Q7faDfvkpXQGyKkqwvs,19346
+python_steam_api-2.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+python_steam_api-2.0.1.dist-info/top_level.txt,sha256=AbglA7Ot93lbnMMyvAIa4OR96Acda1MVarmI6vvvQqc,14
+python_steam_api-2.0.1.dist-info/RECORD,,
