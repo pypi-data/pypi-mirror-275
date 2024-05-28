@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dpet
+Version: 1.0.0
+Summary: A Python package for analysing disordered protein ensembles based on MDTraj
+Home-page: https://github.com/hamidrgh/EnsembleTools
+Author: Nikola Ivanovic
+Author-email: nikola.iv.99@gmail.com
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy >=1.15.4
+Requires-Dist: pandas
+Requires-Dist: mdtraj
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: umap-learn
+Requires-Dist: requests
+
