@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/kscorer/__init__.py
+src/kscorer/kscorer.py
+src/kscorer/pmixin.py
+src/kscorer.egg-info/PKG-INFO
+src/kscorer.egg-info/SOURCES.txt
+src/kscorer.egg-info/dependency_links.txt
+src/kscorer.egg-info/requires.txt
+src/kscorer.egg-info/top_level.txt
