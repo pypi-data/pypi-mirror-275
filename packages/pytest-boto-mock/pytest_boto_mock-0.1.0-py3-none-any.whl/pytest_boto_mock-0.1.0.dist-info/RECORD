@@ -1,0 +1,9 @@
+pytest_boto_mock/__init__.py,sha256=shfL0Djo4fozTFfr05W8Rc57oRdUqyZOmFr4WJm0ISo,409
+pytest_boto_mock/plugin.py,sha256=xuiv63iOr4u7xHKJ_il90RfDiHWvABR7xeBMZVjFa3I,2490
+pytest_boto_mock/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_boto_mock-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pytest_boto_mock-0.1.0.dist-info/METADATA,sha256=z8y_fEBRuHlwM3aBY37iJc5uGfzf97g76FcxYvCS0Ow,14255
+pytest_boto_mock-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pytest_boto_mock-0.1.0.dist-info/entry_points.txt,sha256=9m9zDcTXUC4EhLSFZ-txW5HN9-VOFY8pQOb1jrIjUQ4,47
+pytest_boto_mock-0.1.0.dist-info/top_level.txt,sha256=NZw6eeoAKrVNWe2893bCioyiCKgPEijxUIH4dzH2A-w,17
+pytest_boto_mock-0.1.0.dist-info/RECORD,,
