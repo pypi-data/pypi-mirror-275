@@ -1,0 +1,7 @@
+requests
+pandas
+numpy
+ta
+mplfinance
+ccxt
+scikit-learn
