@@ -1,0 +1,7 @@
+README.md
+setup.py
+threatconnect/__init__.py
+threatconnect.egg-info/PKG-INFO
+threatconnect.egg-info/SOURCES.txt
+threatconnect.egg-info/dependency_links.txt
+threatconnect.egg-info/top_level.txt
