@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/kossou_hillshade_base/__init__.py
+src/kossou_hillshade_base/kossou_hillshade_base.py
+src/kossou_hillshade_base/version.py
+src/kossou_hillshade_base.egg-info/PKG-INFO
+src/kossou_hillshade_base.egg-info/SOURCES.txt
+src/kossou_hillshade_base.egg-info/dependency_links.txt
+src/kossou_hillshade_base.egg-info/entry_points.txt
+src/kossou_hillshade_base.egg-info/requires.txt
+src/kossou_hillshade_base.egg-info/top_level.txt
+src/kossou_hillshade_base/static/n07_w006_3arc_v2.tif
