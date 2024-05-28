@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyregression_package_GonenRaveh"
+version = "1.0.0"
+dependencies = [
+  "numpy",
+  "scikit-learn",
+  "matplotlib"
+]
+authors = [
+  { name="Gonen Raveh", email="gonen.raveh@gmail.com" },
+]
+description = "A small package for Mathematical Regression Solver from Multi Features to a single Target feature"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/gonenraveh/pyregression"
+
