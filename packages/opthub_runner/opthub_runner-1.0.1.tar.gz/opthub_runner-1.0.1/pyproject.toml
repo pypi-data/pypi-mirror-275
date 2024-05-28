@@ -1,0 +1,83 @@
+[project]
+name = "opthub_runner"
+version = "1.0.1"
+description = "Library for running OptHub problems locally."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT License"}
+keywords = ["opthub", "runner", "evaluator"]
+authors = [
+  {email = "dev@opthub.ai", name = "Opthub Inc."}
+]
+maintainers = [
+  {email = "dev@opthub.ai", name = "Opthub Inc."}
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "python >= 3.8",
+    "docker >= 7.1.0",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/opthub-org/opthub-runner-python"
+Documentation = "https://github.com/opthub-org/opthub-runner-python"
+Repository = "https://github.com/opthub-org/opthub-runner-python"
+
+
+[tool.poetry]
+name = "opthub_runner"
+version = "1.0.1"
+description = "Library for running OptHub problems locally."
+authors = ["Opthub Inc. <dev@opthub.ai>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/opthub-org/opthub-runner-python"
+repository = "https://github.com/opthub-org/opthub-runner-python"
+documentation = "https://github.com/opthub-org/opthub-runner-python"
+keywords = ["opthub", "runner", "evaluator"]
+
+
+[tool.ruff]
+target-version = "py312"
+line-length = 120
+select = ["ALL"]
+ignore = [
+    "ANN101",   # Don't require type hints for self.
+    "D104",     # Don't require docstrings for public packages.
+    "RET504",   # Allow assignment before return
+    "FBT001",   # Allow bool type positional arguments
+    "TD002",    # Allow unassigned todos
+    "TD003",    # Allow todos without issue
+    "TRY301",   # Allow abstract `raise` to an inner function
+    "DTZ005",   # Allow timezone naive datetime
+    "BLE001",   # Allow builtin exceptions
+]
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+docker = "^7.1.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.3"
+mypy = "^1.9.0"
+pytest = "^8.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+
