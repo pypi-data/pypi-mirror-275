@@ -1,0 +1,3 @@
+import Kratos
+
+def CreateSphereTriangularMesh(arg0: Kratos.ModelPart, arg1: str, arg2: float, arg3: list[float[3]]) -> None: ...
