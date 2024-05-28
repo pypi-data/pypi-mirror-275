@@ -1,0 +1,10 @@
+licenselib/__init__.py,sha256=b0rdOvSTgJKOpsRxG58iAmCejbwhqlHSxQp_YawAt2E,149
+licenselib/github.py,sha256=deGXrzxMBO0BUT9KfK661TwZ1T2djx8aKlIPKUAtRmA,3576
+licenselib/license.py,sha256=PV0mcaFIHPG9XFatuXL4oewv9gZ6cUSAVk3WUx3qgzs,704
+licenselib/pypi.py,sha256=x6CJqV6af-rLr9fXC9bWSOTqj2wFJsYFmiG4NwjhwNU,5130
+licenselib/utils.py,sha256=W5qiMxrI4RVageMVqsPTwrss1CcVO1yVYkxlCmZ7XTA,1028
+licenselib-1.0.0.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+licenselib-1.0.0.dist-info/METADATA,sha256=ImbNkhojOGaHkRX0jYLcuQYavDLf5NRIDPBi1X5yv30,1771
+licenselib-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+licenselib-1.0.0.dist-info/top_level.txt,sha256=8nGm3usl0vD66U6pmqWHladYInUl9bF-H802iJqRA1s,11
+licenselib-1.0.0.dist-info/RECORD,,
