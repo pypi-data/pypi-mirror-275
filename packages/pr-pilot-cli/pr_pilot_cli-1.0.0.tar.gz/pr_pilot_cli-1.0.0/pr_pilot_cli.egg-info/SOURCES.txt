@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pr_pilot_cli.egg-info/PKG-INFO
+pr_pilot_cli.egg-info/SOURCES.txt
+pr_pilot_cli.egg-info/dependency_links.txt
+pr_pilot_cli.egg-info/entry_points.txt
+pr_pilot_cli.egg-info/requires.txt
+pr_pilot_cli.egg-info/top_level.txt
