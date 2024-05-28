@@ -1,0 +1,17 @@
+soccerdata/__init__.py,sha256=8LdDDz11W0dNUh_onBzzUP54q8WGeVw2dGhtnKsEWFc,598
+soccerdata/_common.py,sha256=_LxhNt6j9VtIRtjISnM8TpC6eKz3pHkDs7LZbLi4SwE,22380
+soccerdata/_config.py,sha256=AR5_sVHx8TGiQ4Ya95dIY_Ev9OCSZowlT3peyoxKlM8,5910
+soccerdata/clubelo.py,sha256=q704d3IRGdBipBchhE5sfyvii8zVR9tpNgVn7pxpSW8,6349
+soccerdata/espn.py,sha256=1SsuZFtJViusLVNvPYYb32h34sa2RzyLQ0XUwtl3V-Q,13855
+soccerdata/fbref.py,sha256=dfIkBg-sy_jkdJIJI_Kf04vCfzoGsxcJcVXzCO7Q14E,48370
+soccerdata/fivethirtyeight.py,sha256=4mHhEaLeB9HdoWU2jglct1eIeWXYZtmfVrF58Bf09SU,8537
+soccerdata/fotmob.py,sha256=o450Vxzq3VvzRD6MR1z33dO4aNvAOOGC8wsidzfXYWI,17171
+soccerdata/match_history.py,sha256=sNzoDlIiJ7j7LNN9Q48n2xJGJK-TBtol2nB9iwkNeiI,4658
+soccerdata/sofascore.py,sha256=t_66vBxDTxxETmw49SjMSyQv0G41Lw3vMKZH7pxOO-4,10406
+soccerdata/sofifa.py,sha256=wcR0LUrF4NUu7HUgYS_SQzLDC7FsgXWCe2T11Or7iZE,17504
+soccerdata/understat.py,sha256=r0L-4DasUT849CgE00czZToB6ziFsLBrCi1-15pk6lk,25962
+soccerdata/whoscored.py,sha256=FG22LmlfdZzrX06ZffvA_rA9k071rkuHLZqomiEcjLw,33575
+soccerdata-1.7.1.dist-info/LICENSE.rst,sha256=5SGA8lq1isUB8EtZD23jtq_R4A5xEsF4CivSK-oRsjg,1384
+soccerdata-1.7.1.dist-info/METADATA,sha256=nodStFHzMJwzqxQBM5ndfjNSJh6kWi57bpP2iy_EDC8,5332
+soccerdata-1.7.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+soccerdata-1.7.1.dist-info/RECORD,,
