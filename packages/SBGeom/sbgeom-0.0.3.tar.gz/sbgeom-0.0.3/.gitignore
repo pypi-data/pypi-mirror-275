@@ -1,0 +1,15 @@
+*__pycache__*
+*.egg-info*
+*.h5
+*.vtk
+*.stl   
+*build/*
+*pybind*/
+*eigen*/
+*vscode*
+*.so
+dist/*
+*build2/*
+cleanup.sh
+wheelhouse/*
+dist/*
