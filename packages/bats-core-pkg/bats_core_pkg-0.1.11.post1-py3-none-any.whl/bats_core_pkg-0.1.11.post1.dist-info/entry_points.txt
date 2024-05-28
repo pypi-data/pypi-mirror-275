@@ -1,0 +1,3 @@
+[console_scripts]
+bats_core_pkg=bats_core_pkg:main
+
