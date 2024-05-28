@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}Новое заявление{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2 class="mt-5">Новое заявление</h2>
+    <form method="post">
+        <div class="mb-3">
+            <label for="car_number" class="form-label">Номер автомобиля</label>
+            <input type="text" class="form-control" id="car_number" name="car_number" required>
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Описание нарушения</label>
+            <textarea class="form-control" id="description" name="description" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Отправить заявление</button>
+    </form>
+</div>
+{% endblock %}
