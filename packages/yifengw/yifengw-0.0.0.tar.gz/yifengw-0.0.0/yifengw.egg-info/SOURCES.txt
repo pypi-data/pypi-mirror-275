@@ -1,0 +1,11 @@
+README.md
+setup.py
+Yifengw/__init__.py
+Yifengw/dataAugmentation.py
+Yifengw/fun_1.py
+Yifengw/pj2DataGeneratorE27.py
+Yifengw/train_test.pkl
+yifengw.egg-info/PKG-INFO
+yifengw.egg-info/SOURCES.txt
+yifengw.egg-info/dependency_links.txt
+yifengw.egg-info/top_level.txt
