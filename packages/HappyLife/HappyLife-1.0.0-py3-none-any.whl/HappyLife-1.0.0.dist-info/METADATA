@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: HappyLife
+Version: 1.0.0
+Summary: 圖色識別，自動操作滑鼠/鍵盤(可後臺運行)，將一切重複的事，抽象為函數，自動運行。
+Author: 宇宙中的塵埃
+Author-email: yqnacfmh9@gmail.com
+Requires-Dist: numpy ==1.23.1
+Requires-Dist: opencv-python ==4.6.0.66
+Requires-Dist: Pillow ==9.2.0
+Requires-Dist: pywin32 ==304
+
