@@ -1,0 +1,5 @@
+setup.py
+congreso_records_utils.egg-info/PKG-INFO
+congreso_records_utils.egg-info/SOURCES.txt
+congreso_records_utils.egg-info/dependency_links.txt
+congreso_records_utils.egg-info/top_level.txt

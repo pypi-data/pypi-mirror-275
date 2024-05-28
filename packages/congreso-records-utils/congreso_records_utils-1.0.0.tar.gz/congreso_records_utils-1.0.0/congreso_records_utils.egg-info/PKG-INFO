@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: congreso-records-utils
+Version: 1.0.0
+Summary: A Python library containing document processing functions
+Author: Paula Mateos Marin
+Author-email: paulamateosm@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+
+This library provides functions for tasks such as counting document mentions, filtering documents based on various criteria, and analyzing document content with the porpuse of helping on the usage of the database https://zenodo.org/records/11212304.
