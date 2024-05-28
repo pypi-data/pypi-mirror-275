@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+XtraMLTools/Classification.py
+XtraMLTools/Preprocessing.py
+XtraMLTools/Regression.py
+XtraMLTools/__init__.py
+XtraMLTools.egg-info/PKG-INFO
+XtraMLTools.egg-info/SOURCES.txt
+XtraMLTools.egg-info/dependency_links.txt
+XtraMLTools.egg-info/top_level.txt
+tests/test_Classification.py
+tests/test_Preprocessing.py
+tests/test_Regression.py
