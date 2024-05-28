@@ -1,0 +1,3 @@
+[console_scripts]
+pypct=pyproject_creator.cli:create_project
+
