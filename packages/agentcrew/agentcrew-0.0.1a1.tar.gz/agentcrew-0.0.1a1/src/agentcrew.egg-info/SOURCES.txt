@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/agentcrew/__init__.py
+src/agentcrew/cli.py
+src/agentcrew/commander.py
+src/agentcrew.egg-info/PKG-INFO
+src/agentcrew.egg-info/SOURCES.txt
+src/agentcrew.egg-info/dependency_links.txt
+src/agentcrew.egg-info/entry_points.txt
+src/agentcrew.egg-info/not-zip-safe
+src/agentcrew.egg-info/requires.txt
+src/agentcrew.egg-info/top_level.txt
