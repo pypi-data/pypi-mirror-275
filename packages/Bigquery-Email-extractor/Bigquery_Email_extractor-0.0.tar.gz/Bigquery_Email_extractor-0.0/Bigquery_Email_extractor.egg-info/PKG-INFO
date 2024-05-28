@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: Bigquery-Email-extractor
+Version: 0.0
+Description-Content-Type: text/markdown
+
+BigQuery Email Extractor is a Python library designed to extract data from a Google BigQuery table and send it as a CSV attachment via email. This library simplifies the process of exporting data from BigQuery and distributing it through email.
+
+
+**Features**
+1. Extracts data from a specified BigQuery table.
+2. Converts the extracted data to a CSV format.
+3. Sends the CSV data as an email attachment.
+4. Configurable email settings for SMTP server, port, and credentials.
+
+
+**Requirements**
+1. Python 3.x
+2. Google Cloud BigQuery client library
+3. pandas library
+4. smtplib for sending emails
+
+
+**Installation**
+Install the package via pip:
+
+```Bash
+pip install bigquery-email-extractor
+```
+
+**Dependencies**
+
+Make sure to have these installed using:
+
+```Bash
+pip install google-cloud-bigquery pandas
+```
+
+
+*Example Usage:*
+
+```Python
+
+from bigquery_email_extractor import bigquery_email_extractor
+
+bigquery_email_extractor(
+    BQ_PROJECT_ID='your-project-id',
+    BQ_DATASET_ID='your-dataset-id',
+    BQ_TABLE_ID='your-table-id',
+    RECIPIENT_EMAIL='recipient@example.com',
+    SMTP_SERVER='smtp.example.com',
+    SMTP_PORT=587,
+    SMTP_USER='your-smtp-user',
+    SMTP_PASSWORD='your-smtp-password',
+    EMAIL_SUBJECT='BigQuery Data',
+    EMAIL_BODY='Please find the attached BigQuery data.',
+    ATTACHMENT_FILENAME='data.csv'
+)
+
+```
+
+**Parameters:**
+
+1. BQ_PROJECT_ID (str): The BigQuery project ID.
+2. BQ_DATASET_ID (str): The BigQuery dataset ID.
+3. BQ_TABLE_ID (str): The BigQuery table ID.
+4. RECIPIENT_EMAIL (str): The recipient email address.
+5. SMTP_SERVER (str): The SMTP server for sending emails.
+6. SMTP_PORT (int): The port for the SMTP server.
+7. SMTP_USER (str): The SMTP server user.
+8. SMTP_PASSWORD (str): The SMTP server password.
+9. EMAIL_SUBJECT (str): The subject of the email.
+10. EMAIL_BODY (str): The body of the email.
+11. ATTACHMENT_FILENAME (str): The filename for the CSV attachment.
+
+
+**Acknowledgements**
+1. Google Cloud BigQuery Python Client Library
+2. pandas for data manipulation
+3. smtplib for email handling
+
+For any issues or questions, please open an issue in this repository.
