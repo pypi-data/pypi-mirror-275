@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+Leakfinder.egg-info/PKG-INFO
+Leakfinder.egg-info/SOURCES.txt
+Leakfinder.egg-info/dependency_links.txt
+Leakfinder.egg-info/top_level.txt

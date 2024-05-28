@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Leakfinder
+Version: 2
+Summary: Subdomain Finder
+Home-page: https://github.com/Jhonsonwannaa/subfinder-by-leakix
+Author: Votre Nom
+Author-email: wannaajhonson@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This tool allows you to extract the subdomains of a given domain. A subdomain is a part of a domain name that is before the main domain. For example, in the domain name "www.example.com", "www" is a subdomain
+Leakfinder.py -h 
