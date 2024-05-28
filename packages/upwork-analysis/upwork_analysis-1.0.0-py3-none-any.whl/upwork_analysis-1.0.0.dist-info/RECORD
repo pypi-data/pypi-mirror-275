@@ -1,0 +1,11 @@
+upwork_analysis/__init__.py,sha256=ETLvcWddO7bKvmta0RO5r8eR3NNPaEcMHXgxRQF8Gqo,265
+upwork_analysis/analyze_data.py,sha256=EkfimDw5ssFcxogPRt17PQK9hbHvOfmeKZuC-4sNeNk,15229
+upwork_analysis/data_analysis.ipynb,sha256=oL_WfYnQPMAJ8t0yBFOFjvWk1h9o1IOTWzqAUIK3KTc,10503
+upwork_analysis/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upwork_analysis/scrape_data.py,sha256=iZcoYV27EGwSM1XX8I9ph0J3q7Qn1ShTQDOeJD6KpY4,32007
+upwork_analysis-1.0.0.dist-info/LICENSE,sha256=Ov-ryB2i7zzf1mJgS5poyp_MGpQL7g1PaarvVKw4rB0,1091
+upwork_analysis-1.0.0.dist-info/METADATA,sha256=TkFpvQVwjUohIC6_Oog9GNKNmgOWdYttZbICy8DTaVw,12577
+upwork_analysis-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+upwork_analysis-1.0.0.dist-info/entry_points.txt,sha256=7gKEPU8XI-lHTCgwXoogbZ4xCGHM5W5dL6tJSMbAePo,158
+upwork_analysis-1.0.0.dist-info/top_level.txt,sha256=YNWnu1doqnUiRrmFkVmBdxaVQm1CPkLqT5eqSzzKuVA,16
+upwork_analysis-1.0.0.dist-info/RECORD,,
