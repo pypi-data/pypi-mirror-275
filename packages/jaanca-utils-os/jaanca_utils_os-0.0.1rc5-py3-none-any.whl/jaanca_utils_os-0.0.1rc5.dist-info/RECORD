@@ -1,0 +1,13 @@
+jaanca_utils_os/__init__.py,sha256=maH6xP8N5iuhQ9ErtZXQFv1LGou6YXUgj2v5PzBHVBQ,575
+jaanca_utils_os/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jaanca_utils_os/utils/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jaanca_utils_os/utils/helpers/environment_parser_loader.py,sha256=tAZRw57gMeF9qkUFlKHtCWu0XIFPB8xkBfVz0kY8Pcs,2130
+jaanca_utils_os/utils/helpers/file_folder_management.py,sha256=y_eK7m4kivBoqnUuG7svD425DxBbkSc52kyoLPISo4k,6786
+jaanca_utils_os/utils/helpers/file_properties.py,sha256=pj5-8WlZ9eAZFQhHhe0MGFMUd_vxiqzwHfF-3nl6wDY,3213
+jaanca_utils_os/utils/helpers/parse_bool.py,sha256=FLQiMsgILAsNgAOWuJZTIzXcErhHZ9q5BVBipkzfUYU,1083
+jaanca_utils_os/utils/helpers/parse_types.py,sha256=gB_Nw8noBUxzR6ES6ygvPj440-ZuBF3Cf3EAnn9lE58,1223
+jaanca_utils_os-0.0.1rc5.dist-info/LICENSE.txt,sha256=eiJn2bYU_UqD42z86_x6NjjnrgJmicDn_cGeiMWzANk,1092
+jaanca_utils_os-0.0.1rc5.dist-info/METADATA,sha256=O2h9x6NXbp-saXjT0DviBdiqISmTTzUj8vT3C49AWoU,3980
+jaanca_utils_os-0.0.1rc5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+jaanca_utils_os-0.0.1rc5.dist-info/top_level.txt,sha256=MITDeQ8UnIEZ-WCCCnWiwyHTjGIyYIvZpp_uOW2y-20,16
+jaanca_utils_os-0.0.1rc5.dist-info/RECORD,,
