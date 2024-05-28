@@ -1,0 +1,3 @@
+include LICENSE
+include README.rst
+recurrsive-include djnago_blog/templates *
