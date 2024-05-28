@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/aokitools.py
+src/aokitools.egg-info/PKG-INFO
+src/aokitools.egg-info/SOURCES.txt
+src/aokitools.egg-info/dependency_links.txt
+src/aokitools.egg-info/entry_points.txt
+src/aokitools.egg-info/not-zip-safe
+src/aokitools.egg-info/requires.txt
+src/aokitools.egg-info/top_level.txt
