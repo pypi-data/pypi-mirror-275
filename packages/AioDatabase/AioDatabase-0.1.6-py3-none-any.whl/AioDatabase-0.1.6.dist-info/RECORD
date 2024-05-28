@@ -1,0 +1,9 @@
+Manager/ConfigManager.py,sha256=d9hbEXnF-L_aHKyAj_BKxZkU7KSIWKfwwxoPGXs0kuo,2524
+Manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlite3/SqlLoader.py,sha256=8DoKjeJotynF85-EpqEV_vOsfrfUCXBR6Tu0N-SSLk0,1164
+sqlite3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+AioDatabase-0.1.6.dist-info/LICENSE,sha256=ZYDApbp_LaKTmoD46ug1y1GbmaUSTYNSwsYEf5nAZqM,1079
+AioDatabase-0.1.6.dist-info/METADATA,sha256=5FHafeN3blx4ezH7VU6Loa3GJeldmLyJ66Ckaz6XPuE,482
+AioDatabase-0.1.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+AioDatabase-0.1.6.dist-info/top_level.txt,sha256=E1bArNs9_IKygMzyOVmmjM4COkJ8Zcnx_9puHoCwl98,16
+AioDatabase-0.1.6.dist-info/RECORD,,
