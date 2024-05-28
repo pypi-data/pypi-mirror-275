@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: gongsf
+Version: 0.1.1
+Summary: Python bindings for the GSF Libary using ctypes
+Project-URL: Homepage, https://bitrium.games/gsf
+Author: BeetMacol
+License: BSD-3-Clause
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
