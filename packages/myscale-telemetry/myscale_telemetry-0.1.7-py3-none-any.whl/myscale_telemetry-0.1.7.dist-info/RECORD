@@ -1,0 +1,10 @@
+myscale_telemetry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+myscale_telemetry/consumer.py,sha256=i5hd9gBe6_CZmRpVxeA6EROVbfbZsMvFK-v-sCOvgi0,5569
+myscale_telemetry/handler.py,sha256=slz-4rfKDnV3g0Rccqm92Sp87hhyT3po0NicaJbzbMo,24046
+myscale_telemetry/span_data.py,sha256=pafvKml6qFO7rAZaHGTbRLxdgTwsPRfoBo_6SCMcKmg,3671
+myscale_telemetry/task_manager.py,sha256=Muy-llctaqMRPJ5yfYhldpa3EqJ3Pfc9aNGHoeREPpI,6815
+myscale_telemetry-0.1.7.dist-info/LICENSE,sha256=v5qjGUsy2MfgN6sMr1Cgy0-ab15_4__v9SBWGXOfmRo,1064
+myscale_telemetry-0.1.7.dist-info/METADATA,sha256=MzrpazhrHGw19W7UBZiCN9Lm6j5KXqc3QNj5XO0oXFQ,8029
+myscale_telemetry-0.1.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+myscale_telemetry-0.1.7.dist-info/top_level.txt,sha256=DAUIziiTLuOeZLwVGGyRDcew-wtOwRnK4hKiYQzX9YA,18
+myscale_telemetry-0.1.7.dist-info/RECORD,,
