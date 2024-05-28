@@ -1,0 +1,2 @@
+[console_scripts]
+nimbletl = src.log_driver.init.cli:main
