@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+dpdcyconfusion/pre_install.py
+dpdcyconfusion.egg-info/PKG-INFO
+dpdcyconfusion.egg-info/SOURCES.txt
+dpdcyconfusion.egg-info/dependency_links.txt
+dpdcyconfusion.egg-info/top_level.txt
