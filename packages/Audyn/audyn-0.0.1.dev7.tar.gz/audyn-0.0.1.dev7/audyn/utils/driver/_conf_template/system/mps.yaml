@@ -1,0 +1,11 @@
+seed: 0
+distributed:
+  enable: false
+  backend:
+  init_method:
+cudnn:
+  benchmark:
+  deterministic:
+amp:
+  enable: false
+accelerator: mps
