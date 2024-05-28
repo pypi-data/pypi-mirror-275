@@ -1,0 +1,8 @@
+facify/__init__.py,sha256=sTnzon3vBJkYD7dIu2W8H9U5eb56XbuBVhR-yAU7uMk,52
+facify/detect.py,sha256=DZbqQLOIHcTVf8FJS1CKsdDBs46WKtOStCGWLgWgo58,1036
+facify/show.py,sha256=7PWoZKN8CBgJGO8NyjiEm9ZEBtzu4WjkkhRUkOHuUYk,341
+facify/data/haarcascade_frontalface_default.xml,sha256=WTx7lr_t-ATaoKNl1zo1UYUxViiJtA2tFyXVrZ22H_Y,1290445
+facify-0.1.dist-info/METADATA,sha256=h63h-r9td0vKIm4ahqQG6bOcoqLR-oIyje490yWEVU4,735
+facify-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+facify-0.1.dist-info/top_level.txt,sha256=mGTXlup0ksZma4GMOQS2bfMA0EzZ0pZOFKQ0Up_IsAs,7
+facify-0.1.dist-info/RECORD,,
