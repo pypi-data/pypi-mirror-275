@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: horizon-beyond
+Version: 0.1.1
+Summary: A Python package with hip-hop and Gen Z-inspired function names for NumPy and TensorFlow operations.
+Home-page: https://github.com/msnabiel/horizon
+Author: Syed Nabiel Hasaan M
+Author-email: msyednabiel@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Horizon
+
+Horizon is a simple hello world module.
