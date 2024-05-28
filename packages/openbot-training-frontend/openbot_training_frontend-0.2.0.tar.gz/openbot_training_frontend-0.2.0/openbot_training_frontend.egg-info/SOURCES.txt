@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+openbot_training_frontend.egg-info/PKG-INFO
+openbot_training_frontend.egg-info/SOURCES.txt
+openbot_training_frontend.egg-info/dependency_links.txt
+openbot_training_frontend.egg-info/not-zip-safe
+openbot_training_frontend.egg-info/top_level.txt
