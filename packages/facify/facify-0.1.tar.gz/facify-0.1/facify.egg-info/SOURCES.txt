@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+facify/__init__.py
+facify/detect.py
+facify/show.py
+facify.egg-info/PKG-INFO
+facify.egg-info/SOURCES.txt
+facify.egg-info/dependency_links.txt
+facify.egg-info/requires.txt
+facify.egg-info/top_level.txt
+facify/data/haarcascade_frontalface_default.xml
