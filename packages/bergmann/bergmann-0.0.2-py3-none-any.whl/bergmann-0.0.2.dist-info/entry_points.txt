@@ -1,0 +1,3 @@
+[console_scripts]
+bergmann=bergmann.main:main
+
