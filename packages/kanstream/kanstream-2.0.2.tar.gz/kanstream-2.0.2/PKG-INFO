@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: kanstream
+Version: 2.0.2
+Summary: pull and push stream
+Home-page: UNKNOWN
+Author: flinzhao
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# kanstream
+
+`kanstream` 是一个媒体流处理库，提供创建流接收器和流发送器的功能。
+
+## 安装
+
+可以使用 pip 安装 `kanstream`：
+
+```bash
+pip install kanstream
+```
+
+## 示例
+
+1. 使用 KanStream.create_stream 创建流接收器和流发送器
+
+```python
+from kanstream import KanStream, StreamType
+
+# 创建一个新的流接收器
+receiver = KanStream.create_stream("127.0.0.1", 8080, "my_client_id", stream_type=StreamType.RECEIVER)
+for frame in receiver.receive():
+    # 处理帧
+
+# 创建一个新的流发送器
+sender = KanStream.create_stream("127.0.0.1", 8080, "my_client_id", stream_type=StreamType.SENDER)
+sender.send(frame)
+```
+
+2. 使用 KanStream.create_receiver 和 KanStream.create_sender 创建流接收器和流发送器
+
+```python
+from kanstream import KanStream, StreamType
+
+# 创建一个新的流接收器
+receiver = KanStream.create_receiver("127.0.0.1", 8080, "my_client_id", codec_type=CodecType.H264)
+for frame in receiver.receive():
+    # 处理帧
+
+# 创建一个新的流发送器
+sender = KanStream.create_sender("127.0.0.1", 8080, "my_client_id", codec_type=CodecType.H264)
+sender.send(frame)
+```
+
+## API参考
+### KanStream
+KanStream 类提供了创建流对象的功能。
+
+**create_stream**(host, port, client_id, *, codec_type=CodecType.H264, stream_type)
+创建一个新的流对象。
+
+* host (str): 服务器主机地址。
+* port (int): 服务器端口号。
+* client_id (str): 流的客户端 ID。
+* codec_type (CodecType): 流的编解码类型。
+* stream_type (StreamType): 流的类型 (RECEIVER 或 SENDER)。
+* 返回: 一个流对象 (StreamReceiver 或 StreamSender)。
+
+**create_receiver**(host, port, client_id, *, codec_type=CodecType.H264)
+创建一个新的接收器流对象。
+
+* host (str): 服务器主机地址。
+* port (int): 服务器端口号。
+* client_id (str): 流的客户端 ID。
+* codec_type (CodecType): 流的编解码类型。
+* 返回: 一个接收器流对象。
+
+**create_sender**(host, port, client_id, codec_type=CodecType.H264)
+创建一个新的发送器流对象。
+
+* host (str): 服务器主机地址。
+* port (int): 服务器端口号。
+* client_id (str): 流的客户端 ID。
+* codec_type (CodecType): 流的编解码类型。
+* 返回: 一个发送器流对象。
+
+### StreamType
+StreamType 是一个枚举类，表示流的类型。
+
+* RECEIVER: 表示流是接收器。
+* SENDER: 表示流是发送器。
+
+### CodecType
+CodecType
+CodecType 是一个枚举类，表示流的编解码类型。
+* H264: 表示流的编解码类型是 H.264。
+* VP9: 表示流的编解码类型是 VP9。
+
+## 许可证
+本项目基于 MIT 许可证。
+
