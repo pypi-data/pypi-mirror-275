@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}Заявления{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2 class="mt-5">Мои заявления</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Номер</th>
+                <th>Номер автомобиля</th>
+                <th>Описание нарушения</th>
+                <th>Статус</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for application in applications %}
+            <tr>
+                <td>{{ application[0] }}</td>
+                <td>{{ application[2] }}</td>
+                <td>{{ application[3] }}</td>
+                <td>{{ application[4] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
