@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: sodoku_detection
+Version: 1.0.2
+Summary: first package for test
+Author: Sajedeh Gharabadiyan
+Author-email: gharabadiyansajedeh@gmail.com
+Description-Content-Type: text/markdown
+
+this package for sodoku detection

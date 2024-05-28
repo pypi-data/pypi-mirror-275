@@ -1,0 +1,10 @@
+MANIFEST.in
+readme.md
+requirements.txt
+setup.py
+sodoku_detection/__init__.py
+sodoku_detection/sodoku_detection.py
+sodoku_detection.egg-info/PKG-INFO
+sodoku_detection.egg-info/SOURCES.txt
+sodoku_detection.egg-info/dependency_links.txt
+sodoku_detection.egg-info/top_level.txt
