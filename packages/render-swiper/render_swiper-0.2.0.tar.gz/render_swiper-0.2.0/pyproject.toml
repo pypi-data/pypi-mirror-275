@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "render-swiper"
+version = "0.2.0"
+description = ""
+authors = ["fdv1 <francois@pytek.io>"]
+readme = "README.md"
+packages = [{include = "render_swiper"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
