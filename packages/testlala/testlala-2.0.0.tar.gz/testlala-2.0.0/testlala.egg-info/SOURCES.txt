@@ -1,0 +1,7 @@
+setup.py
+testlala/__init__.py
+testlala/testlala.py
+testlala.egg-info/PKG-INFO
+testlala.egg-info/SOURCES.txt
+testlala.egg-info/dependency_links.txt
+testlala.egg-info/top_level.txt
