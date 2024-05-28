@@ -1,0 +1,16 @@
+dir_wand/_version.py,sha256=DGJ4pj32xs3_DRJhSzQwCiRNnAQrMgo09USYpyMZsKc,411
+dir_wand/art.py,sha256=kArJEWg4oSDBL2fV7J1vWdiNM20USmEagna50NGfthU,1064
+dir_wand/command_runner.py,sha256=LmHsH5idKtFuBu_OeiPLQSwb61QcdCRFPjKLBcwJjRQ,4911
+dir_wand/directory.py,sha256=AYdSMvom1eQqMtwgrDl492FqIj1w8G1gbYsfwUB6YVg,5722
+dir_wand/file.py,sha256=3LFT5FHm7dvcscZEfHhdiAA-FC2j9R4O76FQ8iZgTzU,7598
+dir_wand/logger.py,sha256=YrGFm0j1Ja7mcbItmsEl1o6phndgZZgtiGMTLCPAuHE,5620
+dir_wand/main.py,sha256=Vgpl3b2GMoJBIqE_ZmszUwilJL6GqDvZAPqUgOGZYJc,2080
+dir_wand/parser.py,sha256=P6Dpt7npyVY-6mIKkIBysLTxL46iymvYMdDkMRvpSNU,9753
+dir_wand/template.py,sha256=pTy700gUqT_Js98s81nht_ezOex5gb031lA0vKAW5jM,4414
+dir_wand/utils.py,sha256=Cfp0q3N2ArZRjmqVGkLL3Yr3MyNQnmezs6fuQEMUgFE,963
+dir_wand-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+dir_wand-1.0.0.dist-info/METADATA,sha256=weotKW9vjj9gWmy6P1wJXoKcHBWXtoupqfbr_EM114s,51456
+dir_wand-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dir_wand-1.0.0.dist-info/entry_points.txt,sha256=GegjH45Db7xLqOBfqKs2h8qOxA0c9GWm-PIVDOAk1Dc,48
+dir_wand-1.0.0.dist-info/top_level.txt,sha256=3UAEhJLQ1dUA5I3RTJcTE5KSzuaOT6u5tOADYulODoA,9
+dir_wand-1.0.0.dist-info/RECORD,,
