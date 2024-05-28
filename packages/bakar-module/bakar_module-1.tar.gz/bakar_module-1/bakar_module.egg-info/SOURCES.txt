@@ -1,0 +1,6 @@
+README.md
+setup.py
+bakar_module.egg-info/PKG-INFO
+bakar_module.egg-info/SOURCES.txt
+bakar_module.egg-info/dependency_links.txt
+bakar_module.egg-info/top_level.txt
