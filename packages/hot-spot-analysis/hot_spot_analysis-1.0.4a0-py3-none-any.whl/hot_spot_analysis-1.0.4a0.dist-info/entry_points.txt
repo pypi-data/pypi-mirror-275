@@ -1,0 +1,2 @@
+[console_scripts]
+hot_spot_analysis = hot_spot_analysis.hot_spot_analysis:HotSpotAnalysis
