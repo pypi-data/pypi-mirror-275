@@ -1,0 +1,132 @@
+# audio-reads
+
+[![PyPI](https://img.shields.io/pypi/v/audio-reads.svg)](https://pypi.org/project/audio-reads/)
+[![Changelog](https://img.shields.io/github/release/ivankovnatsky/audio-reads.svg)](https://github.com/ivankovnatsky/audio-reads/releases)
+[![Tests](https://github.com/ivankovnatsky/audio-reads/workflows/Test/badge.svg)](https://github.com/ivankovnatsky/audio-reads/actions?query=workflow%3ATest)
+[![License](https://img.shields.io/github/license/ivankovnatsky/audio-reads)](https://github.com/ivankovnatsky/audio-reads/blob/main/LICENSE.md)
+
+CLI tool for converting articles to podcasts using AI Text-to-Speech APIs. I
+have added ElevenLabs basic functionanlity, but it's very simple, and I still
+use OpenAI more for it's cheapness.
+
+## Requirements
+
+You need to have ffmpeg installed before running this CLI tool.
+
+```console
+brew install ffmpeg
+```
+
+Since JS based articles can't be rendered with requests we're using playwright and chromium web driver to tackle that:
+
+```console
+pip install playwright
+playwright install chromium
+```
+
+## Usage
+
+Install audio-reads with:
+
+```console
+pipx install audio-reads
+```
+
+```console
+audio-reads --help                                                                                                                   
+Usage: python -m audio_reads [OPTIONS]
+
+Options:
+  --url TEXT                      URL of the article to be fetched.
+  --file-url-list FILE            Path to a file with URLs placed on every new
+                                  line.
+  --directory DIRECTORY           Directory where the output audio file will
+                                  be saved. The filename will be derived from
+                                  the article title.
+  --audio-format [mp3|opus|aac|flac|pcm]
+                                  The audio format for the output file.
+                                  Default is mp3.
+  --model [tts-1|tts-1-hd]        The model to be used for text-to-speech
+                                  conversion.
+  --voice [alloy|echo|fable|onyx|nova|shimmer]
+                                  The voice to be used for the text-to-speech
+                                  conversion. Voice options: alloy:   A
+                                  balanced and neutral voice. echo:    A more
+                                  dynamic and engaging voice. fable:   A
+                                  narrative and storytelling voice. onyx:    A
+                                  deep and resonant voice. nova:    A bright
+                                  and energetic voice. shimmer: A soft and
+                                  soothing voice. Experiment with different
+                                  voices to find one that matches your desired
+                                  tone and audience. The current voices are
+                                  optimized for English.
+  --strip INTEGER RANGE           By what number of chars to strip the text to
+                                  send to OpenAI.  [5<=x<=2000]
+  --help                          Show this message and exit.
+```
+
+```console
+export OPENAI_API_KEY="your-api-key"
+audio-reads \
+    --url 'https://blog.kubetools.io/kopylot-an-ai-powered-kubernetes-assistant-for-devops-developers'
+```
+
+ElevenLabs:
+
+```console
+export ELEVEN_API_KEY="your-api-key"
+audio-reads \
+  --url 'https://incident.io/blog/psychological-safety-in-incident-management' \
+  --vendor elevenlabs \
+  --directory ~/Downloads/Podcasts
+```
+
+## Development
+
+If you're using Nix you can start running the tool by entering:
+
+```console
+nix develop
+```
+
+```console
+export OPENAI_API_KEY="your-api-key"
+python \
+    -m audio_reads \
+    --model tts-1-hd \
+    --voice nova \
+    --directory . \
+    --url 'https://blog.kubetools.io/kopylot-an-ai-powered-kubernetes-assistant-for-devops-developers'
+```
+
+## Testing
+
+If you used `nix develop` all necessary dependencies should have already 
+been installed, so you can just run:
+
+```console
+pytest
+```
+
+## TODO
+
+- [ ] Bypass Cloudflare block
+- [ ] Minimize costs on tests
+- [ ] Add ability to render images to text and send over to text to speech as well
+- [ ] Shorten filename created
+- [ ] Shorten article title printed to console
+- [ ] Send to device right away
+- [ ] Replace print with logger
+- [ ] Remove redundant warnings in pytest
+- [ ] Make sure pytest shows quota errors
+
+## Manual configurations
+
+- OPENAI_API_KEY secret was added to repository secrets
+- PYPI_TOKEN was added to release environment secrets
+- Elevenlabs test do not require api key for small size requests
+
+## Inspired by
+
+* Long frustration of unread articles
+* https://github.com/simonw/ospeak

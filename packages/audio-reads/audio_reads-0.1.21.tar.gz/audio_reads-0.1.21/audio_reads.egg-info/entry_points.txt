@@ -1,0 +1,2 @@
+[console_scripts]
+audio-reads = audio_reads.cli:cli
