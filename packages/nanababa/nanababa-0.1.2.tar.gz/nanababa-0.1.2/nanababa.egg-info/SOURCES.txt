@@ -1,0 +1,9 @@
+README.md
+setup.py
+nanababa.egg-info/PKG-INFO
+nanababa.egg-info/SOURCES.txt
+nanababa.egg-info/dependency_links.txt
+nanababa.egg-info/entry_points.txt
+nanababa.egg-info/top_level.txt
+something/__init__.py
+something/something.py
