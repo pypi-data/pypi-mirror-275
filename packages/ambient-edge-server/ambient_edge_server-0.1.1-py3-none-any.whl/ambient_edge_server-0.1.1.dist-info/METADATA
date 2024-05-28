@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ambient-edge-server
+Version: 0.1.1
+Requires-Dist: fastapi ==0.111.0
+Requires-Dist: pydantic ==2.7.1
+Requires-Dist: ambient-event-bus-client ==0.1.4
+Requires-Dist: ambient-backend-api-client ==0.1.11
+
