@@ -1,0 +1,10 @@
+fastapi
+pydantic
+httpx
+uvicorn
+liteLLM
+pydbantic
+databases[sqlite]
+pytest
+pytest-asyncio
+sqlalchemy
