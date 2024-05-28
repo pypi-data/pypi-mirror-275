@@ -1,0 +1,16 @@
+COPYING
+COPYING.LESSER
+README.rst
+pyproject.toml
+netbits/__init__.py
+netbits/buffer.py
+netbits/handler.py
+netbits/packet.py
+netbits/sockets.py
+netbits.egg-info/PKG-INFO
+netbits.egg-info/SOURCES.txt
+netbits.egg-info/dependency_links.txt
+netbits.egg-info/top_level.txt
+netbits/registries/__init__.py
+netbits/registries/identifier.py
+netbits/registries/registry.py
