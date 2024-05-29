@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+scscipy/scscipy.py
+scscipy.egg-info/PKG-INFO
+scscipy.egg-info/SOURCES.txt
+scscipy.egg-info/dependency_links.txt
+scscipy.egg-info/not-zip-safe
+scscipy.egg-info/top_level.txt
