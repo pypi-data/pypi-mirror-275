@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+__init__.py
+client.py
+requirements.txt
+setup.cfg
+setup.py
+prototwin.egg-info/PKG-INFO
+prototwin.egg-info/SOURCES.txt
+prototwin.egg-info/dependency_links.txt
+prototwin.egg-info/requires.txt
+prototwin.egg-info/top_level.txt
