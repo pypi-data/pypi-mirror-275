@@ -1,0 +1,11 @@
+README.md
+setup.py
+mailengine/__init__.py
+mailengine/client.py
+mailengine/models.py
+mailengine_sdk.egg-info/PKG-INFO
+mailengine_sdk.egg-info/SOURCES.txt
+mailengine_sdk.egg-info/dependency_links.txt
+mailengine_sdk.egg-info/requires.txt
+mailengine_sdk.egg-info/top_level.txt
+tests/test_client.py
