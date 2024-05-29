@@ -1,0 +1,10 @@
+pyQuadriFlow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyQuadriFlow/pyQuadriFlow.py,sha256=lWqWx5AKGC-pD02k9ougvU6iGu4C8am3MrVzyRWj2kc,3249
+pyQuadriFlow/clib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyQuadriFlow/clib/ctypes_QuadriFlow.dll,sha256=y8bbP1pMIstsCEBXPbSBEo0gBLeNtTZYn5UthkbGcyA,540672
+pyQuadriFlow/clib/ctypes_QuadriFlow.so,sha256=08biZPp__DUooq7vzXVYzEOf-qM7dkP2ZfxHapL_z3Y,1635432
+pyQuadriFlow/clib/load_library.py,sha256=XMDneOLqLmj35mUj-V2RmrbQ0Ss3ah4hQm-EywGdRj0,576
+pyquadriflow-0.0.4.dist-info/METADATA,sha256=z6KBBv_lHrGVIQZpRIeQBeKYA_ZYoFbIcVrGGvMJUFI,1304
+pyquadriflow-0.0.4.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+pyquadriflow-0.0.4.dist-info/licenses/LICENSE,sha256=5dz_6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x-o7c,3
+pyquadriflow-0.0.4.dist-info/RECORD,,
