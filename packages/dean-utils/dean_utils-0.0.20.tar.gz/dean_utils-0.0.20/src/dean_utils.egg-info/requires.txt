@@ -1,0 +1,9 @@
+polars
+pyarrow
+azure-storage-blob
+adlfs
+fsspec
+azure-storage-queue
+python-multipart
+azure-cosmos
+azure-communication-email
