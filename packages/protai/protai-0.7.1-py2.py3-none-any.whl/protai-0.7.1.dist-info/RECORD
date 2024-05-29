@@ -1,0 +1,10 @@
+protai/VERSION,sha256=7BenVYDE6svgPJs-oo_l13tXFhe1ZwTu42PWhZXTUTc,5
+protai/__init__.py,sha256=RWxGo59ZWVxiStUpqIpgHBtpQKHyJ3lBAGsbnxgcfSI,612
+protai/auth.py,sha256=TuviUMLO1acTVaP4KUBPUaHqmwlORJPqF8tesIM-aHk,4919
+protai/protai.py,sha256=SxrUV-IQKx4CnVDcSodfnenYptOG98eZOwIAMkK6BYI,2971
+protai-0.7.1.dist-info/LICENSE,sha256=V0DB0c9j20wyFqTjy5MNXQZzhhy73-zBrYeHds7MGuA,1107
+protai-0.7.1.dist-info/METADATA,sha256=XDY_rj7ciuUELFWMZn34-mByrdz71zIWGT_etZO3an8,5162
+protai-0.7.1.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+protai-0.7.1.dist-info/entry_points.txt,sha256=eDas8vHDp0f22lOxZ6T-XKEiGAxqxiLZ3938-RF4rQM,46
+protai-0.7.1.dist-info/top_level.txt,sha256=-zQG3aFfH8_PHt9_S9b_qljxNVdcwpHdDKVQJErDk64,7
+protai-0.7.1.dist-info/RECORD,,
