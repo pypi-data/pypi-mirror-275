@@ -1,0 +1,5 @@
+pyproj
+scipy
+# for testing
+pytest
+pytest-cov
