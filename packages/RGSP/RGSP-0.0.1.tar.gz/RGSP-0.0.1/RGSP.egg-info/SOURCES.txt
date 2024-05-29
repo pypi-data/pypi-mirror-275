@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+RGSP.egg-info/PKG-INFO
+RGSP.egg-info/SOURCES.txt
+RGSP.egg-info/dependency_links.txt
+RGSP.egg-info/requires.txt
+RGSP.egg-info/top_level.txt
