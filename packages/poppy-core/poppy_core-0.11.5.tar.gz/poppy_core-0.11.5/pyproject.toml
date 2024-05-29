@@ -1,0 +1,38 @@
+[build-system]
+requires = [ "setuptools<60", "wheel", "poetry", "poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+skip-string-normalization = true
+line-length = 79
+include = "\\.pyi?$"
+exclude = "/(\n    \\.git\n  | \\.hg\n  | \\.mypy_cache\n  | \\.tox\n  | \\.venv\n  | _build\n  | buck-out\n  | build\n  | dist\n)/\n"
+
+[tool.poetry]
+name = "poppy-core"
+version = "0.11.5"
+readme = "README.md"
+license = "CeCILL-C"
+repository = "https://gitlab.obspm.fr/POPPy/POPPyCore"
+description = "POPPy: Plugin-Oriented Pipeline for Python"
+authors = [ "ROC Team <roc.support@sympa.obspm.fr>"]
+exclude = [ "bump_version.py",]
+[[tool.poetry.packages]]
+include = "poppy"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4"
+psycopg2-binary = "^2.8.4"
+SQLAlchemy = "^1.3"
+alembic = "^1.4"
+declic = "^1.0"
+jsonschema = "^4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-cov = "^2.10.1"
+pytest-timeout = "^1.4"
+pre-commit = "^2.8"
+
+[tool.poetry.scripts]
+poppy = "poppy.core.management.commands:poppy_cli"
