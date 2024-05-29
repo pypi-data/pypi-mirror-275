@@ -1,0 +1,16 @@
+tqdm
+lxml
+pystow
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx_automodapi
+
+[process]
+pyobo
+gilda
+
+[tests]
+pytest
+coverage
