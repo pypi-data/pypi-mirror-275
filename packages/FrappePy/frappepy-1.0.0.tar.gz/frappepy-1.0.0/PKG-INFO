@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: FrappePy
+Version: 1.0.0
+Summary: This is math base 
+Home-page: https://github.com/twoj_username/nazwa_twojego_pakietu
+Author: FrappePy Developers
+Author-email: twoj_email@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.19.2
+Requires-Dist: requests>=2.24.0
+
+# Package of simple mathematical operations
+
+## Description
+
+This package provides simple math functions for integer and floating-point operations. Includes functions for adding, subtracting, multiplying and dividing both integers and floating point numbers.
+
+## Installation
+
+You can install this package with `pip`:
+
+```bash
+pip install FrappePy
+```
+Use
+Functions on integers
+Addition
+python
+```Copy the code
+from FrappePy import add_int
+
+result = add_int(5, 3)
+print(result) # Output: 8
+```
+Subtraction
+```python
+Copy the code
+from FrappePy import minus_int
+
+result = minus_int(5, 3)
+print(result) # Output: 2
+```
+Multiplication
+```python
+Copy the code
+from FrappePy import multiply_int
+
+result = multiply_int(5, 3)
+print(result) # Output: 15
+```
+Division
+```python
+Copy the code
+from FrappePy import divide_int
+
+result = divide_int(5, 3)
+print(result) # Output: 1.6666666666666667
+```
+Functions on floating-point numbers
+Addition
+Copy the code
+```py
+from FrappePy import add_float
+result = add_float(5.0, 3.0)
+print(result) # Output: 8.0```
+
+Subtraction
+Copy the code
+```python
+from FrappePy import minus_float
+result = minus_float(5.0, 3.0)
+print(result) # Output: 2.0
+```
+Multiplication
+```python
+Copy the code
+from FrappePy import multiply_float
+
+result = multiply_float(5.0, 3.0)
+print(result) # Output: 15.0
+```
+Division
+```python
+Copy the code
+from FrappePy import divide_float
+
+result = divide_float(5.0, 3.0)
+print(result) # Output: 1.6666666666666667```

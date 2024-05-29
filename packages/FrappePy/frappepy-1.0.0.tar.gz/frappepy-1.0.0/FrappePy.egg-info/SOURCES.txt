@@ -1,0 +1,9 @@
+README.md
+setup.py
+FrappePy.egg-info/PKG-INFO
+FrappePy.egg-info/SOURCES.txt
+FrappePy.egg-info/dependency_links.txt
+FrappePy.egg-info/requires.txt
+FrappePy.egg-info/top_level.txt
+frappe_framework/__init__.py
+frappe_framework/framework.py
