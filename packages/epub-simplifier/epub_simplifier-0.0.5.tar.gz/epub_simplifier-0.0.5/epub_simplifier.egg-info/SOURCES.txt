@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+epub_simplifier/__init__.py
+epub_simplifier/simplifier.py
+epub_simplifier.egg-info/PKG-INFO
+epub_simplifier.egg-info/SOURCES.txt
+epub_simplifier.egg-info/dependency_links.txt
+epub_simplifier.egg-info/entry_points.txt
+epub_simplifier.egg-info/requires.txt
+epub_simplifier.egg-info/top_level.txt
+tests/test_main.py
