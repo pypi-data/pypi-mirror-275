@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: AmazonTicoTool
+Version: 0.1
+Summary: Tico package to extrack the following tables Buyablility_Status, General_information, Hazmat, Recall
+Home-page: UNKNOWN
+Author: Vijaykumar Raman
+Author-email: ramaviji@amazon.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENCE.txt
+
+UNKNOWN
+
