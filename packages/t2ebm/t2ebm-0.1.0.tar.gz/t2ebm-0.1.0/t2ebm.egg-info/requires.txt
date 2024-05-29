@@ -1,0 +1,7 @@
+numpy
+matplotlib
+tiktoken
+openai>=1.8.0
+tenacity
+scipy
+interpret
