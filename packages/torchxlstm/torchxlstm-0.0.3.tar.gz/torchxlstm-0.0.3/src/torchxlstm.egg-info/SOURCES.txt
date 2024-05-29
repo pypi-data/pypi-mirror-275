@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/torchxlstm/__init__.py
+src/torchxlstm/xlstm.py
+src/torchxlstm.egg-info/PKG-INFO
+src/torchxlstm.egg-info/SOURCES.txt
+src/torchxlstm.egg-info/dependency_links.txt
+src/torchxlstm.egg-info/requires.txt
+src/torchxlstm.egg-info/top_level.txt
