@@ -1,0 +1,3 @@
+[console_scripts]
+deng=abhishekverma142_de_toolkit.main:cli
+
