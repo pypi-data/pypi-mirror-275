@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: GOALS-Football
+Version: 1.0.0
+Summary: The GOALS package facilitates game outcome analysis using statistical learning techniques. It is designed for modeling and predicting football match results based on various statistical features.
+Home-page: https://github.com/salvnetto/GOALS
+Maintainer: Salvador Netto
+Maintainer-email: salvv.netto@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/salvnetto/GOALS/issues
+Project-URL: Source Code, https://github.com/salvnetto/GOALS
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Database
+Classifier: Topic :: Internet
+Requires-Python: >3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+
+# GOALS - Game Outcome Analysis using Learning Statistics
+
+## Overview
+
+The `GOALS` package facilitates game outcome analysis using statistical learning techniques. It is designed for modeling and predicting football match results based on various statistical features.
+
+## Features
+
+- Web scraping techniques to gather football data.
+- Preprocessing functions for cleaning and transforming data.
+
+## Usage
+
+To use the `GOALS` package, install it via pip:
+
+```
+pip install GOALS-
+```
+
+### Example: Loading Data
+
+```python
+from GOALS import loadData
+
+# Load processed match history data for BrasileirÃ£o
+df = loadData('br', 'match_history')
+print(df.head())
+
+# Load raw standings data for the Premier League
+df = loadData('en', 'standings', raw=True)
+print(df.head())
+```

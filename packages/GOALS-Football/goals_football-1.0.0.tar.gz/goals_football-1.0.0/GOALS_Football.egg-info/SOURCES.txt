@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+GOALS_Football.egg-info/PKG-INFO
+GOALS_Football.egg-info/SOURCES.txt
+GOALS_Football.egg-info/dependency_links.txt
+GOALS_Football.egg-info/not-zip-safe
+GOALS_Football.egg-info/requires.txt
+GOALS_Football.egg-info/top_level.txt
+goals-football/__init__.py
+goals-football/load_data.py
+tests/test_load_data.py
