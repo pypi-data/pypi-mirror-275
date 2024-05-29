@@ -1,0 +1,60 @@
+# blessmore
+
+`blessmore` is a package to load Shona FastText embeddings from Hugging Face.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install blessmore
+
+
+Usage
+Loading Pre-trained FastText Models
+The package allows you to load pre-trained FastText models of different dimensions (50, 100, 300, and 500 dimensions).
+
+from blessmore import load_fasttext_model
+
+# Load a 50-dimensional FastText model
+model = load_fasttext_model(50)
+#you do the same when loading 100,300and 500 dimensional
+-----------------------------
+Training FastText Models
+You can also train new FastText embeddings using your own Shona text data. The train_fasttext_model function will clean the text data and train a FastText model with the specified dimensions.
+
+from blessmore import train_fasttext_model
+
+corpus_file_path = 'shona_corpus.txt'
+vector_size = 50  # Specify the dimension you want to train
+model = train_fasttext_model(corpus_file_path, vector_size)
+
+--------------------------
+Cleaning Shona Text Data
+The package provides functionality to clean Shona text data. This involves tokenizing the text, removing non-letter symbols, and lowercasing the text.
+
+Cleaning Text Data from a File
+The package can be used to clean text data from a file and save the cleaned text to a new file.
+
+from blessmore import clean_text_from_file
+
+input_file = 'shona_corpus.txt'
+output_file = 'cleaned_shona_corpus.txt'
+clean_text_from_file(input_file, output_file)
+
+--------------------------
+shonaembeddings.py
+This module contains the function to load pre-trained FastText models.
+
+train_embedding.py
+This module contains functions to clean text data and train FastText models.
+
+License
+This project is licensed under the Apache 2.0 License - see the LICENSE file for details.
+
+Author
+Blessmore Majongwe - blessmoremajongwe@gmail.com
+
+Acknowledgments
+Hugging Face
+Gensim
