@@ -1,0 +1,9 @@
+aznum2words/__init__.py,sha256=V_WCjXNFDp1GAU0LWz52DCrj1moJN_LbXyOeJ2DeFF8,50
+aznum2words/converter.py,sha256=q1saqhBWGVaLNBzvIAU_TCOHiURmMkyJvTCzMWdas5Y,2607
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_converter.py,sha256=c3pqEa3E8J2F0QPxKivqpcrdPU_vt0fHPOWCw1eMDMQ,1064
+aznum2words-0.1.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+aznum2words-0.1.dist-info/METADATA,sha256=x35yQ_4cY5aj1Ghwv1px59aT4Yb9269F_d2-TgWInkY,2471
+aznum2words-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+aznum2words-0.1.dist-info/top_level.txt,sha256=uRiO-IgCCP8lnut7MlKfCYLaz3n-THAG47gjizSoLi8,18
+aznum2words-0.1.dist-info/RECORD,,
