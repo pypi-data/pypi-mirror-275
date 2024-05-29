@@ -1,0 +1,17 @@
+relari/__init__.py,sha256=nAdcsTwEkpjIE9RxwTRwsWawApynuxx5Gj6lSbE9L8c,113
+relari/__main__.py,sha256=V7WeDYOO8oON6AK1aGkO04H8ISgicn9JBgCx9xboY3s,5621
+relari/client.py,sha256=MqH3whUNMTwcArsv1_xU_XkkTPFpet6BM7Tb8gz0hzQ,1998
+relari/clients/__init__.py,sha256=62_DqhLIr4_uDa3SQvY46bKMJIHazJt7-CpL2wM4opY,206
+relari/clients/datasets.py,sha256=jPyxhIDYo42lrfxLZ4E0KePeBwplLqn6OD_A72iB1FA,1604
+relari/clients/evaluations.py,sha256=3fV-hB056W_R4YAjy7buj-7QqrZilLyNQGNbXdij0EI,1540
+relari/clients/metrics.py,sha256=Nc_skP6oJuk_1iq9ochEQ3VNif28AkTJwWR5feLyzrM,3233
+relari/clients/projects.py,sha256=nzZ9nYokP7HfIWcaAS6A7RjRvZbOCf5Z0MW6Cy7pY3Q,697
+relari/core/dataset.py,sha256=3h62ljL5px1i4RgE1VtoOrhtbFPOKgrSjGDaRTYZNu8,7950
+relari/core/experiment.py,sha256=99RVVBVH3GSBmBP5HzhusgxcM1W_efXUTxG1SEk9tpM,176
+relari/core/types.py,sha256=h-IdwO-vxO6Un3PW6zJ6ifoVGSPvNHaZMyyDBmSEMOU,647
+relari/core/utils.py,sha256=xxL3e1bVeb7X2Wn6-xDeo5nuWbaPZqHeUbgafazrnNo,1107
+relari/metrics.py,sha256=zslsI_0863Ck5LrFGq-PgS_BUZyjYDL4Ix1z2Wp2fU8,873
+relari-0.2.0a0.dist-info/METADATA,sha256=G6sowq4souSElpnrkW_BvieXPDHZsjti6Tvbls5SqLk,1008
+relari-0.2.0a0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+relari-0.2.0a0.dist-info/entry_points.txt,sha256=lK7rpqoe33cYN0jnXoAKFoQAjnXRF_Kr-o62JDKh72k,50
+relari-0.2.0a0.dist-info/RECORD,,
