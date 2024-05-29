@@ -1,0 +1,2 @@
+[console_scripts]
+pynet_scanner = pynet_scanner.scanner:main
