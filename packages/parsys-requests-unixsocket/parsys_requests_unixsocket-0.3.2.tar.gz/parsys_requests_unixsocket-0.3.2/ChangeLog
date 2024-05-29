@@ -1,0 +1,109 @@
+CHANGES
+=======
+
+0.3.2
+-----
+
+* feat(package): rename package
+* style(global): accept longer lines for readability
+* style(imports): isort
+* feat(deps): just use urllib3 directly
+* feat(deps): update requests and urllib3 requirements
+* fix(adapters): bug in 177deceb69a6fb3064a04ae50cbdc15b61fcea5e
+* feat(git): ignore pycharm files
+* feat(setup): put the real homepage link for pypi
+* fix(adapters): requests 2.32.2 needs get\_connection\_with\_tls\_context
+
+0.3.1
+-----
+
+* fix(adapter): inherit httpconnection through urllib3.connection, not httplib
+* test: add test\_use\_UnixAdapter\_directly
+* Remove urllib3 dep
+* Update setup.cfg metadata - => \_
+* Remove Vagrantfile
+* Remove .travis.yml
+* Update tox to work
+* README.rst: Update badge from Travis => GH
+* Fix warning from waitress
+* Add GitHub Actions tests
+* Remove --pep8 option to pytest
+* Bump waitress from 1.4.2 to 1.4.3
+* Bump py from 1.4.32 to 1.10.0
+* Bump waitress from 0.9.0 to 1.4.2
+* Allow UnixAdapter to accept max\_retries parameter
+* .travis.yml: Switch to only matrix.include
+* .travis.yml: Add Python 3.7
+* tox.ini: Test py37
+* examples/docker-info.py: Make executable (#33)
+* Add examples/simple-http.py (#32)
+* Add Makefile (#31)
+* Move examples to separate directory
+* README.rst: Give up on linking to file
+* README.rst: Fix links
+* Example for abstract namespace sockets
+* Vagrantfile: Add socat
+* Vagrantfile: xenial64 and install all Pythons
+* .gitignore: Add .vagrant
+* Vagrantfile: Remove unnecessary comments
+* README.rst: Fix HTTPie link
+* README.rst: See also: httpie-unixsocket
+* README.rst: Make examples use docker.sock
+* Add Vagrantfile
+* Add sample.py
+* test-requirements.txt: Get rid of pytest warnings
+* tox.ini: Add py26 back
+* test-requirements.txt: Remove redundancy
+* .travis.yml: Remove py36
+* Revert ".travis.yml: Try another way"
+* .travis.yml: Try another way
+* Pin test-requirements
+* .travis.yml: Add sudo: false
+* Add support for Python 3.6
+* Remove support for Python 2.6
+* Close socket on deletion
+* Non case sensitive url comparison in tests
+* Pull in more recent code from docker-py
+* Fix PyPI badge
+* Override HTTPAdapter.request\_url
+* Fix test\_unix\_domain\_adapter\_connection\_proxies\_error
+* .travis.yml tweaks
+* Remove py32; Add py35
+* Only reject proxies if they are relevant (which should be never)
+* Add urllib3 requirement
+* Add basic tests for all supported methods
+* More PEP8 compliance refactoring
+* Fix up some oversights in method parsing
+* Tweak a few things in PR 12
+* Make PEP8 compliant with autopep8
+* Improve the monkey-patching library to replicate requests more closely
+* README.rst: Add PyPI badge
+* Monkeypatch requests.request
+* Fix #6 ("GET parameters stripped from URL")
+* GH-7: Fallback to import from urllib3
+* Tweak monkeypatch code
+* Move/expose testutils like UnixSocketServerThread
+* Make monkeypatch url\_scheme arg optional
+* Remove :class: role from README.rst
+* Doc tweaks
+* Expose Session and monkeypatch
+* Add Travis CI build badge
+* Test Python 3.2 with tox and Travis CI
+* Use threading.Event to less chance of race cond
+* Add .travis.yml for Travis CI
+* Change process => thread for test UnixSocketServer
+* Make WSGIApp use server attribute for shutdown
+* Use WSGIApp callable instead of closure
+* In tests, try to gracefully kill waitress server
+* Display text coverage report in tox coverage env
+* Add test for proxies error
+* Use b literal in test; fix py3 test failures
+* tox.ini: Correct name of env pep8 => flake8
+* tox.ini: Rename pep8 => flake8
+* .gitignore: Add AUTHORS and ChangeLog
+* Add pytest-pep8
+* Improve tests
+* Yay, tests are passing
+* .gitignore: Add .eggs/ for setuptools==7.0
+* Rename README.md -> README.rst
+* Initial commit
