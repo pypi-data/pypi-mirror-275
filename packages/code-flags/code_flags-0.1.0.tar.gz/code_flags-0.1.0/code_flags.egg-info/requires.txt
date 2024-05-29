@@ -1,0 +1,16 @@
+lazy-fields>=1.0.1
+gyver-attrs>=0.9.3
+typing-extensions>=4.12.0
+
+[env]
+env-star>=2.4.4
+
+[stores]
+redis>=5.0.4
+sqlalchemy>=2.0.30
+
+[toml]
+tomlkit>=0.12.5
+
+[yaml]
+yamllib>=0.0.1
