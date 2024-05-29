@@ -1,0 +1,13 @@
+src/__init__.py,sha256=slqxbGDxcZtY6SXbJAJYrngL04bfklaMGTx1eiKnLZU,54
+src/credentials_ring.py,sha256=gi7rzm5fAXelOTAuXrzNwaT2PR0kmdiDeNFgS6ZKWk0,477
+src/default_values.py,sha256=OrVFm_RvZd-IiOgo4hWaPbnLKmhEZz0k0aUxfGTUujA,202
+src/dependency_builder.py,sha256=l_4_Q5qgsf7VWOO-6v5W96W9wkgu2XvJJ9qowintlHk,3110
+src/entities.py,sha256=GNIZ2n3uT9ZikMRI6eEymhHMevCO8kians6UuXiFWvg,3933
+src/error_dict.py,sha256=FaDdpVrZvpEAIxyaeuHC7-chMfzowGOGt3Jr-L4_kfs,727
+src/scraper.py,sha256=JViZa4SlTfi-2fXdWPSTxLfQzeBKbJkttsaFQs1LS5s,2429
+src/stop_conditions.py,sha256=znQmYK9kdt3K_zIq_Ptg0j935tpUOhctaPmDxIyxbu4,2878
+facebook_simple_scraper-0.1.5.dist-info/LICENCE,sha256=2M1bAYgyta7BkgS3DaznqdAHqTkOhs2VVczzHRplMrU,1055
+facebook_simple_scraper-0.1.5.dist-info/METADATA,sha256=7IkrO3O5ndPku40R4IR1laRbdLk0V4tqKUX-bH1738Y,2120
+facebook_simple_scraper-0.1.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+facebook_simple_scraper-0.1.5.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+facebook_simple_scraper-0.1.5.dist-info/RECORD,,
