@@ -1,0 +1,7 @@
+README.md
+setup.py
+django-aparnik/__init__.py
+django_aparnik.egg-info/PKG-INFO
+django_aparnik.egg-info/SOURCES.txt
+django_aparnik.egg-info/dependency_links.txt
+django_aparnik.egg-info/top_level.txt
