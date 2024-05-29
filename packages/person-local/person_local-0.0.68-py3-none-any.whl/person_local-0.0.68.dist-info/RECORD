@@ -1,0 +1,7 @@
+person_local/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+person_local/person.py,sha256=5ETbFomSZ8IkCBrB2WOsJJAsKmlyTbaQqlO8p5d0dns,3600
+person_local/persons_local.py,sha256=QX58waZtNa1nd3zQvinsKWHxO1i7dM7m6kNfIjY7dHA,19765
+person_local-0.0.68.dist-info/METADATA,sha256=Je4UTND2jPl0ArOpnLMRStPI3lxSeefWrJB6b1e98t0,797
+person_local-0.0.68.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+person_local-0.0.68.dist-info/top_level.txt,sha256=vxcDDXdpe-m-hoNX4AhSClh_txluDaG3GSl20nIJElw,13
+person_local-0.0.68.dist-info/RECORD,,
