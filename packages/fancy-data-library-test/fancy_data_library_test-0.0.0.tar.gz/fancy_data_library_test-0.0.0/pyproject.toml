@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fancy-data-library-test"
+version = "0.1.0"
+description = "To be updated by some developer."
+authors = ["dd <78930706+mityadu@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.26.4"
+
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"

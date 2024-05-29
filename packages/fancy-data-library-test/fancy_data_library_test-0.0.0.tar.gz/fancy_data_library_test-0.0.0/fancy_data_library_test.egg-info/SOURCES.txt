@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+fancy_data_library_test/__init__.py
+fancy_data_library_test/lib.py
+fancy_data_library_test.egg-info/PKG-INFO
+fancy_data_library_test.egg-info/SOURCES.txt
+fancy_data_library_test.egg-info/dependency_links.txt
+fancy_data_library_test.egg-info/top_level.txt
+tests/test_transpose2d.py
