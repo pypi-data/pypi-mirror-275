@@ -1,0 +1,11 @@
+apiverve_wordstonumbers/__init__.py,sha256=neCATpuKOgYfdFMOR4eM4UuBjEf9OUnhv4zop3MB4Qg,46
+apiverve_wordstonumbers/apiClient.py,sha256=-V7ND-pTyZ5hylY2RR2NTjKN78Hf-Ms9xNJENUEuC7s,1224
+apiverve_wordstonumbers/exceptions.py,sha256=MDG6XTpKLP06qALyScB9Kqb_s8mTOL0EwDQlNJWaQIQ,111
+apiverve_wordstonumbers/setup.py,sha256=PIb7UVAERyRSwp-7v9laASzLdKqosH5PzV7bHT_7nrM,625
+apiverve_wordstonumbers/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_wordstonumbers/tests/test_api.py,sha256=36WASbWfAYw0rmujZ4BdqUlBxiNhTHH8AyAHFU8U_fQ,626
+apiverve_wordstonumbers-1.0.11.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_wordstonumbers-1.0.11.dist-info/METADATA,sha256=0yry704ZArhJFIIC0X0YY_6K_NudjEOycEi4XEckJ6Q,5460
+apiverve_wordstonumbers-1.0.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apiverve_wordstonumbers-1.0.11.dist-info/top_level.txt,sha256=7On_JnViAbIE6wW9J0xRzFZUQPoGG4m6trCacFLQ5yg,24
+apiverve_wordstonumbers-1.0.11.dist-info/RECORD,,
