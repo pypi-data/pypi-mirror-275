@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: notkinopoiskapi
+Version: 1.0.0
+Summary: Неофициальная библиотека для Kinopoisk API Unofficial
+Home-page: https://devcraft.club/downloads/notkinopoiskapi.28/
+Author: Maxim Harder
+Author-email: dev@devcraft.club
+License: UNKNOWN
+Keywords: api kinopoisk python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+Requires-Dist: python-decouple
+Requires-Dist: requests
+
+# Неофициальная библиотека для Kinopoisk API Unofficial
+
+Простая библиотека для взаимодействия с Kinopoisk API Unofficial. Полная документация для работы с библиотекой по этому
+адресу: [NotKinoPoiskAPI (GitHub)](https://devcraftclub.github.io/NotKinoPoiskAPI/NotKinoPoiskAPI/)
+
+## Установка
+
+Устанавливается через pip
+
+```python3
+pip install notkinopoiskapi
+```
+
+## Использование
+
+Пакет был разделён на четыре эндпоинта.
+
+### Фильмы и сериалы
+```python3
+kp = KpFilms(API_USER_KEY)
+```
+
+### Персонал и сотрудники
+```python3
+kp = KpStaff(API_USER_KEY)
+```
+
+### Медия новости
+```python3
+kp = KpMedia(API_USER_KEY)
+```
+
+### Пользователи кинопоиска
+```python3
+kp = KpUser(API_USER_KEY)
+```
+
+## Окружение и переменные
+Ключ к API можно указывать напрямую, либо при помощи переменных окружения в вашем файле .env. Пример в env.default.
+
+| Переменная окружения | Описание                                                                                                                                                                           | Пример                                                                  |
+|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+|NKPA_API_KEY| Ключ API из панели профиля. Возможно использовать несколько разных ключей через двойной пайп (\|\|).                                                                               | key1\|\|key2\|\|key3                                                    |
+|NKPA_PROXY| Прокси подключения. Возможно использовать несколько разных прокси через двойной пайп (\|\|). Нужно указать тип прокси через одиночный пайп (http \| или socks5 \|) и адрес прокси. | http\|user:pass@url.com:port \|\|socks5\|user:pass@ip:port\|\|https\|ip |
+|NKPA_USER_AGENT|User-Agent. Возможно использовать несколько разных агентов через двойной пайп (\|\|)|Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36\|\|Mozilla/5.0 (Linux; Android 13; SM-S901U) |
+|NKPA_CACHE_DIR|Пользовательская папка с кешем|/home/user/.cache/notkinopoiskapi|
+|NKPA_CACHE_LIFE|Продолжительность жизни кеша в днях, по умолчанию 7 дней|7|
+
+
