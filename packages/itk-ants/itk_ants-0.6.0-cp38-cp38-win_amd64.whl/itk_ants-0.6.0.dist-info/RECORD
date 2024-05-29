@@ -1,0 +1,15 @@
+itk/ANTsWasmPython.py,sha256=cS2XoxL87Guh7m31TFnFX3iwqlrJJNv9cMG0B3vfWVM,2429
+itk/_ANTsWasmPython.pyd,sha256=6t6El_g7AYpufbo7D2UJLN8pliBTx5pNMZezPah2Xvs,13094400
+itk/__init_ants__.py,sha256=iB9z5B7tgGIDOf7CcbfKuKVS_LjlCBDqz1S_gCHBohw,1372
+itk/itkANTSRegistrationPython.py,sha256=HKepj-V8ClrbWymLk-Nr1wNr-vkeX_pKjIuFIqVZ91o,504177
+itk/Configuration/ANTsWasmConfig.py,sha256=xWglwc6t7cYP4mM9HPQAOgzqrzQZpMvT_xqG-COJbXA,4697
+itk/Configuration/ANTsWasm_snake_case.py,sha256=UY305DO4aiZ6-ybXvtN30K4eRqRcdkBnK4zvfSbMhfE,48
+itk_ants-0.6.0.dist-info/licenses/LICENSE,sha256=Pd-b5cKP4n2tFDpdx27qJSIq0d1ok0oEcGTlbtL6QMU,11560
+itk_ants.libs/.load-order-itk_ants-0.6.0,sha256=QDSyI7ZtkBm6kg5VX7ne4-VjbN746MENJHrWNlURQGU,42
+itk_ants.libs/msvcp140.dll,sha256=0hLSH-7MyA0P38uPgVsm771QUL8bmjUlEbWrzd9f_R0,573552
+itk_ants.libs/tbb12.dll,sha256=uAYeUFrGU4BfPGbeEDcO5SoBUd0xLQeYCBIUMYGAUwA,313344
+itk_ants.libs/vcruntime140_1.dll,sha256=g8ez3lhVHG2sn__tdT0lPjoW2SAiEPi32M37srpNP-k,49776
+itk_ants-0.6.0.dist-info/DELVEWHEEL,sha256=owS6ehI4mTgr8ksO11r_LgxEkp-IkVuHROhtSdJlfgw,269
+itk_ants-0.6.0.dist-info/METADATA,sha256=EXjZypWDD1F0OLjGm4EU0eiefFxlJtXZ7NMpGsn2d78,15127
+itk_ants-0.6.0.dist-info/WHEEL,sha256=Sicxqcpid3-ewtBKxVbEEV7k6SwuTpSJhAHVTZKu77Y,103
+itk_ants-0.6.0.dist-info/RECORD,,
