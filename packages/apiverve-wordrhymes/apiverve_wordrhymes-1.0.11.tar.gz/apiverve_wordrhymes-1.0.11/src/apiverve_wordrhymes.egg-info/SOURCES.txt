@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_wordrhymes/__init__.py
+src/apiverve_wordrhymes/apiClient.py
+src/apiverve_wordrhymes/exceptions.py
+src/apiverve_wordrhymes/setup.py
+src/apiverve_wordrhymes.egg-info/PKG-INFO
+src/apiverve_wordrhymes.egg-info/SOURCES.txt
+src/apiverve_wordrhymes.egg-info/dependency_links.txt
+src/apiverve_wordrhymes.egg-info/top_level.txt
+src/apiverve_wordrhymes/tests/__init__.py
+src/apiverve_wordrhymes/tests/test_api.py
+tests/test_api.py
