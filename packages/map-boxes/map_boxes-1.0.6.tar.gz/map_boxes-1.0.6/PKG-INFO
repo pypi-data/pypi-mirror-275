@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: map_boxes
+Version: 1.0.6
+Summary: Function to calculate mean average precision (mAP) for set of boxes.
+Home-page: https://github.com/ZFTurbo/Mean-Average-Precision-for-Boxes
+Author: Roman Sol (ZFTurbo)
+
+Function to calculate mean average precision (mAP) for set of boxes. Useful for object detection pipelines.
