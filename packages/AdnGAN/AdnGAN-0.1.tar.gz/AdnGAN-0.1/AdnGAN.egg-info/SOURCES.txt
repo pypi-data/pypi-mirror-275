@@ -1,0 +1,13 @@
+README.md
+setup.py
+AdnGAN/Discriminator.py
+AdnGAN/Generator.py
+AdnGAN/ProGAN.py
+AdnGAN/__init__.py
+AdnGAN/dataset.py
+AdnGAN/tools.py
+AdnGAN.egg-info/PKG-INFO
+AdnGAN.egg-info/SOURCES.txt
+AdnGAN.egg-info/dependency_links.txt
+AdnGAN.egg-info/requires.txt
+AdnGAN.egg-info/top_level.txt
