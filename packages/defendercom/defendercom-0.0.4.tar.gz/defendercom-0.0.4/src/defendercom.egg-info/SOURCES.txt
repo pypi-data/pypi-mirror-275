@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/arithmetics.py
+src/defendercom.egg-info/PKG-INFO
+src/defendercom.egg-info/SOURCES.txt
+src/defendercom.egg-info/dependency_links.txt
+src/defendercom.egg-info/top_level.txt
