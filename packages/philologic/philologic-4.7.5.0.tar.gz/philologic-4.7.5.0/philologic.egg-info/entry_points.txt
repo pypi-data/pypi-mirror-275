@@ -1,0 +1,2 @@
+[console_scripts]
+philoload4 = philologic.loadtime:philoload

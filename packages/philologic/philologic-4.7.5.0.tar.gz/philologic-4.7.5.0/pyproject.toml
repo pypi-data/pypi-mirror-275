@@ -1,0 +1,43 @@
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "philologic"
+version = "4.7.5.0"
+authors = [
+    { name = "Clovis Gladstone", email = "clovisgladstone@artfl.uchicago.edu" },
+]
+license = { file = "LICENSE" }
+description = "A concordance search engine for TEI-XML"
+readme = "README"
+urls = { Homepage = "https://github.com/ARTFL-Project/PhiloLogic4" }
+
+requires-python = ">=3.10"
+dependencies = [
+    "regex",
+    "lxml",
+    "python-levenshtein",
+    "natsort",
+    "multiprocess",
+    "tqdm",
+    "orjson",
+    "black",
+    "msgpack",
+    "unidecode",
+    "lz4",
+]
+
+[project.scripts]
+philoload4 = "philologic.loadtime:philoload"
+
+
+[tool.setuptools]
+packages = [
+    "philologic",
+    "philologic.runtime",
+    "philologic.utils",
+    "philologic.runtime.reports",
+    "philologic.loadtime",
+]

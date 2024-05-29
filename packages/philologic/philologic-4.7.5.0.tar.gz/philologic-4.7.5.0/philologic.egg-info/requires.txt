@@ -1,0 +1,11 @@
+regex
+lxml
+python-levenshtein
+natsort
+multiprocess
+tqdm
+orjson
+black
+msgpack
+unidecode
+lz4
