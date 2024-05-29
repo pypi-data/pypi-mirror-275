@@ -1,0 +1,7 @@
+mailengine/__init__.py,sha256=mb5ojANDk2dT2jTp_V5ssIXXF-xEA38W-zR69vf0p1M,31
+mailengine/client.py,sha256=U0oV-1FTn3aIANEMqwdxSEvlVaRAN5hGPge6nlWf-8Y,1876
+mailengine/models.py,sha256=8wjQe4g56hpqP2LkF24YltMBStWTFyWBDQvCDWvFAwo,726
+mailengine_sdk-0.1.0.dev0.dist-info/METADATA,sha256=DvIDmXa0xS1JvfCICYGw4hEwU0Wy7DCmmerFc-Svkl4,384
+mailengine_sdk-0.1.0.dev0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mailengine_sdk-0.1.0.dev0.dist-info/top_level.txt,sha256=TlHyKU-SJV4ZhiyYj1h0WvYKfLxR1aS_LitvApeCDrw,11
+mailengine_sdk-0.1.0.dev0.dist-info/RECORD,,
