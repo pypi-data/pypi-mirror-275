@@ -1,0 +1,73 @@
+TITLE     MDANALYSIS FRAME 0: Created by PDBWriter
+CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
+REMARK     285 UNITARY VALUES FOR THE UNIT CELL AUTOMATICALLY SET
+REMARK     285 BY MDANALYSIS PDBWRITER BECAUSE UNIT CELL INFORMATION
+REMARK     285 WAS MISSING.
+REMARK     285 PROTEIN DATA BANK CONVENTIONS REQUIRE THAT
+REMARK     285 CRYST1 RECORD IS INCLUDED, BUT THE VALUES ON
+REMARK     285 THIS RECORD ARE MEANINGLESS.
+ATOM      1  Co  UNK X   1      25.786  29.483  -3.082  1.00  0.00      SYSTCO  
+ATOM      2  N   UNK X   1      26.688  28.042  -1.750  1.00  0.00      SYST N  
+ATOM      3  C   UNK X   1      26.534  26.758  -2.111  1.00  0.00      SYST C  
+ATOM      4  C   UNK X   1      27.136  25.723  -1.408  1.00  0.00      SYST C  
+ATOM      5  H   UNK X   1      26.993  24.698  -1.723  1.00  0.00      SYST H  
+ATOM      6  C   UNK X   1      27.914  26.023  -0.305  1.00  0.00      SYST C  
+ATOM      7  H   UNK X   1      28.392  25.232   0.259  1.00  0.00      SYST H  
+ATOM      8  C   UNK X   1      28.075  27.351   0.063  1.00  0.00      SYST C  
+ATOM      9  H   UNK X   1      28.677  27.631   0.916  1.00  0.00      SYST H  
+ATOM     10  C   UNK X   1      27.446  28.324  -0.690  1.00  0.00      SYST C  
+ATOM     11  H   UNK X   1      27.550  29.373  -0.442  1.00  0.00      SYST H  
+ATOM     12  N   UNK X   1      24.419  27.103  -4.893  1.00  0.00      SYST N  
+ATOM     13  N   UNK X   1      25.131  27.585  -3.875  1.00  0.00      SYST N  
+ATOM     14  C   UNK X   1      25.694  26.529  -3.277  1.00  0.00      SYST C  
+ATOM     15  C   UNK X   1      25.325  25.348  -3.931  1.00  0.00      SYST C  
+ATOM     16  H   UNK X   1      25.610  24.335  -3.704  1.00  0.00      SYST H  
+ATOM     17  C   UNK X   1      24.507  25.763  -4.957  1.00  0.00      SYST C  
+ATOM     18  H   UNK X   1      23.987  25.205  -5.719  1.00  0.00      SYST H  
+ATOM     19  C   UNK X   1      23.564  27.957  -5.701  1.00  0.00      SYST C  
+ATOM     20  H   UNK X   1      24.053  28.927  -5.761  1.00  0.00      SYST H  
+ATOM     21  H   UNK X   1      23.545  27.531  -6.704  1.00  0.00      SYST H  
+ATOM     22  C   UNK X   1      22.165  28.073  -5.130  1.00  0.00      SYST C  
+ATOM     23  N   UNK X   1      27.656  29.391  -4.163  1.00  0.00      SYST N  
+ATOM     24  C   UNK X   1      28.597  30.253  -3.744  1.00  0.00      SYST C  
+ATOM     25  C   UNK X   1      29.877  30.254  -4.282  1.00  0.00      SYST C  
+ATOM     26  H   UNK X   1      30.616  30.958  -3.924  1.00  0.00      SYST H  
+ATOM     27  C   UNK X   1      30.188  29.346  -5.277  1.00  0.00      SYST C  
+ATOM     28  H   UNK X   1      31.180  29.330  -5.710  1.00  0.00      SYST H  
+ATOM     29  C   UNK X   1      29.214  28.460  -5.709  1.00  0.00      SYST C  
+ATOM     30  H   UNK X   1      29.415  27.735  -6.485  1.00  0.00      SYST H  
+ATOM     31  C   UNK X   1      27.964  28.518  -5.121  1.00  0.00      SYST C  
+ATOM     32  H   UNK X   1      27.176  27.840  -5.423  1.00  0.00      SYST H  
+ATOM     33  N   UNK X   1      26.837  32.050  -1.290  1.00  0.00      SYST N  
+ATOM     34  N   UNK X   1      26.935  31.110  -2.231  1.00  0.00      SYST N  
+ATOM     35  C   UNK X   1      28.187  31.180  -2.699  1.00  0.00      SYST C  
+ATOM     36  C   UNK X   1      28.896  32.191  -2.040  1.00  0.00      SYST C  
+ATOM     37  H   UNK X   1      29.919  32.497  -2.181  1.00  0.00      SYST H  
+ATOM     38  C   UNK X   1      27.993  32.723  -1.150  1.00  0.00      SYST C  
+ATOM     39  H   UNK X   1      28.090  33.524  -0.436  1.00  0.00      SYST H  
+ATOM     40  C   UNK X   1      25.576  32.349  -0.632  1.00  0.00      SYST C  
+ATOM     41  H   UNK X   1      25.803  32.582   0.409  1.00  0.00      SYST H  
+ATOM     42  H   UNK X   1      24.990  31.433  -0.650  1.00  0.00      SYST H  
+ATOM     43  C   UNK X   1      24.839  33.493  -1.298  1.00  0.00      SYST C  
+ATOM     44  N   UNK X   1      24.864  30.916  -4.386  1.00  0.00      SYST N  
+ATOM     45  C   UNK X   1      23.643  31.337  -4.018  1.00  0.00      SYST C  
+ATOM     46  C   UNK X   1      22.957  32.308  -4.735  1.00  0.00      SYST C  
+ATOM     47  H   UNK X   1      21.974  32.627  -4.417  1.00  0.00      SYST H  
+ATOM     48  C   UNK X   1      23.554  32.861  -5.854  1.00  0.00      SYST C  
+ATOM     49  H   UNK X   1      23.040  33.621  -6.428  1.00  0.00      SYST H  
+ATOM     50  C   UNK X   1      24.820  32.433  -6.223  1.00  0.00      SYST C  
+ATOM     51  H   UNK X   1      25.325  32.843  -7.087  1.00  0.00      SYST H  
+ATOM     52  C   UNK X   1      25.436  31.460  -5.459  1.00  0.00      SYST C  
+ATOM     53  H   UNK X   1      26.424  31.096  -5.710  1.00  0.00      SYST H  
+ATOM     54  N   UNK X   1      23.133  29.399  -1.136  1.00  0.00      SYST N  
+ATOM     55  N   UNK X   1      23.853  29.808  -2.181  1.00  0.00      SYST N  
+ATOM     56  C   UNK X   1      23.103  30.715  -2.819  1.00  0.00      SYST C  
+ATOM     57  C   UNK X   1      21.880  30.885  -2.161  1.00  0.00      SYST C  
+ATOM     58  H   UNK X   1      21.063  31.538  -2.417  1.00  0.00      SYST H  
+ATOM     59  C   UNK X   1      21.942  30.021  -1.092  1.00  0.00      SYST C  
+ATOM     60  H   UNK X   1      21.229  29.806  -0.312  1.00  0.00      SYST H  
+ATOM     61  C   UNK X   1      23.581  28.327  -0.263  1.00  0.00      SYST C  
+ATOM     62  H   UNK X   1      24.667  28.379  -0.227  1.00  0.00      SYST H  
+ATOM     63  H   UNK X   1      23.203  28.551   0.735  1.00  0.00      SYST H  
+ATOM     64  C   UNK X   1      23.106  26.967  -0.735  1.00  0.00      SYST C  
+END
