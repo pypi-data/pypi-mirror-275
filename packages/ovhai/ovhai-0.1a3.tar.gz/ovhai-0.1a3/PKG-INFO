@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ovhai
+Version: 0.1a3
+Summary: A client library for accessing OVHcloud's AI Solutions
+Home-page: UNKNOWN
+License: Apache-2.0
+Project-URL: Repository, https://github.com/ovh/ovhai-python-sdk
+Description: ovhai Package - Development Version
+Keywords: ovhai ovh AI
+Platform: UNKNOWN
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
