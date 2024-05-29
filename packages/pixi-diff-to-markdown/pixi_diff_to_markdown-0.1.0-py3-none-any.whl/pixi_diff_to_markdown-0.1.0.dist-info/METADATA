@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: pixi-diff-to-markdown
+Version: 0.1.0
+Summary: Tool for converting `pixi update` diffs to markdown
+Project-URL: repository, https://github.com/pavelzw/pixi-diff-to-markdown
+Author-email: Pavel Zwerschke <pavelzw@gmail.com>
+License-File: LICENSE
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.12
+Requires-Dist: ordered-enum<0.1,>=0.0.8
+Requires-Dist: py-rattler<0.6,>=0.5.0
+Requires-Dist: pydantic-settings<3,>=2.2.1
+Requires-Dist: pydantic<3,>=2.7.1
+Requires-Dist: typer<0.13,>=0.12.3
