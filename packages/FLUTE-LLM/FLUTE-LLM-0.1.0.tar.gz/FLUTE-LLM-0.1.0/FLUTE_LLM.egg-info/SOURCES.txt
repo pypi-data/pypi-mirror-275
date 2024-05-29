@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+FLUTE_LLM.egg-info/PKG-INFO
+FLUTE_LLM.egg-info/SOURCES.txt
+FLUTE_LLM.egg-info/dependency_links.txt
+FLUTE_LLM.egg-info/requires.txt
+FLUTE_LLM.egg-info/top_level.txt
+flute/__init__.py
+flute/Modules/AbstractPromptProcessor.py
+flute/Modules/ClaudePromptProcessor.py
+flute/Modules/GPTPromptProcessor.py
+flute/Modules/GeminiPromptProcessor.py
+flute/Modules/PromptProcessorFactory.py
+flute/Modules/__init__.py
+flute/Test/__init__.py
+flute/Test/test_prompt_processors.py
