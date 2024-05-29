@@ -1,0 +1,8 @@
+README.md
+setup.py
+tobiasocula_project/__init__.py
+tobiasocula_project/main.py
+tobiasocula_project.egg-info/PKG-INFO
+tobiasocula_project.egg-info/SOURCES.txt
+tobiasocula_project.egg-info/dependency_links.txt
+tobiasocula_project.egg-info/top_level.txt
