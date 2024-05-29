@@ -1,0 +1,7 @@
+   likelihood  NUM_CHILD  CHECKALL_STRICT  NUM_CLONE
+0    -833.043          4            False          4
+1    -881.250          4            False          5
+2   -1012.989          3            False          3
+3        -inf          0            False          1
+4        -inf          0            False          2
+
