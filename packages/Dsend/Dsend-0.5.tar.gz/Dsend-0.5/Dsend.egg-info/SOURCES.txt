@@ -1,0 +1,9 @@
+README.md
+setup.py
+Dsend/__init__.py
+Dsend/dsend.py
+Dsend.egg-info/PKG-INFO
+Dsend.egg-info/SOURCES.txt
+Dsend.egg-info/dependency_links.txt
+Dsend.egg-info/requires.txt
+Dsend.egg-info/top_level.txt
