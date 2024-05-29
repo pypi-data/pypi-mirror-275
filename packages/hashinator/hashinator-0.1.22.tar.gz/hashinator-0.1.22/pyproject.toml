@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name="hashinator"
+version="0.1.22"
+requires-python = ">=3.8"
+dependencies = [
+    'pillow',
+    'numpy',
+    'scipy',
+    'PyWavelets'
+]
+
+[project.urls]
+Homepage = "https://github.com/AndrewSergienko/hashinator"
