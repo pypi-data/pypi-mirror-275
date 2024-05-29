@@ -1,0 +1,10 @@
+HiggsML/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+HiggsML/datasets.py,sha256=UkgIKx1ggtdRgco3QmzhIDo6y70YuQqC1766iZqMtps,9247
+HiggsML/ingestion.py,sha256=27K9yj_PK06XfJitTzsXrsTn30GJR8l4lPmzuHXq_Hw,6464
+HiggsML/score.py,sha256=_XeTSVJGqrmLDNyo6zuZAJgoM7Ac-A1srBl-uymjSoA,9772
+HiggsML/systematics.py,sha256=j6st-B_QZylwuahcdf2vwPPW160AGBDzFqy8_iHrrfU,19932
+HiggsML/visualization.py,sha256=4Vl1m4zGe4DM-GneNsUvqI-C44HUR4jhpyogVaFxFF4,12366
+higgsml-0.0.8.dist-info/METADATA,sha256=-TbNFNMRVF5mDqHp-sGTW85k4Ma9TWU2OOMompA1rQ8,1798
+higgsml-0.0.8.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+higgsml-0.0.8.dist-info/licenses/LICENSE,sha256=9wl-AFPzsi2aFrGMUxKpntHb6pgwQiX-UmWjW-PWZtw,1068
+higgsml-0.0.8.dist-info/RECORD,,
