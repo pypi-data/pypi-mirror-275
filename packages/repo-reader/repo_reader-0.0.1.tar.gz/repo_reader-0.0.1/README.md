@@ -1,0 +1,69 @@
+# Repo Reader
+
+Repo Reader is a Python package that allows you to read GitHub repositories and convert them into a format that can be easily processed by a long context Language Model (LLM). It provides functionality to count files, map directory structures, join files, and count tokens.
+
+## Installation
+
+You can install Repo Reader using pip:
+
+pip install repo_reader
+
+## Usage
+
+Here's an example of how to use Repo Reader:
+
+```python
+from repo_reader.file_counter import count_files
+from repo_reader.directory_mapper import map_directory_structure
+from repo_reader.file_joiner import join_files, join_text_files
+from repo_reader.token_counter import count_tokens
+
+# Count files in a directory
+folder_path = '/path/to/github/repo/folder'
+count_files(folder_path)
+
+# Map directory structure
+directory_path = '/path/to/directory'
+output_file = 'repo_directory_structure.txt'
+map_directory_structure(directory_path, file_handler=open(output_file, 'w'))
+
+# Join files in a directory
+directory_path = '/path/to/directory'
+output_file = 'joined_files.txt'
+excluded_extensions = ['.png', '.jpg', '.git']
+ignored_folders = ['/path/to/ignored/folder']
+encoding_name = 'cl100k_base'
+join_files(directory_path, output_file, excluded_extensions, ignored_folders, encoding_name)
+
+# Count tokens in a file
+file_path = 'path/to/your/file.txt'
+encoding_name = 'cl100k_base'
+total_tokens = count_tokens(file_path, encoding_name)
+
+# Join text files
+input_files = ['file1.txt', 'file2.txt']
+output_file = 'joined_files.txt'
+join_text_files(input_files, output_file)
+```
+
+Functions
+count_files(folder_path)
+Counts the number of files and file types in a given folder.
+
+map_directory_structure(directory, level=0, include_hidden=False, include_git=False, file_handler=None)
+Maps out the structure of folders and files in a directory. Optionally includes hidden files and the .git folder.
+
+join_files(directory, output_file, excluded_extensions, ignored_folders, encoding_name)
+Joins the files in a directory into a single file, excluding specified file extensions and folders. Counts the number of tokens in each file.
+
+count_tokens(file_path, encoding_name)
+Counts the number of tokens in a text file using the specified encoding.
+
+join_text_files(input_files, output_file)
+Joins multiple text files into a single file.
+
+Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request on the GitHub repository.
+
+License
+This project is licensed under the MIT License.

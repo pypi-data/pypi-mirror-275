@@ -1,0 +1,8 @@
+README.md
+setup.py
+repo_reader.egg-info/PKG-INFO
+repo_reader.egg-info/SOURCES.txt
+repo_reader.egg-info/dependency_links.txt
+repo_reader.egg-info/requires.txt
+repo_reader.egg-info/top_level.txt
+src/__init__.py
