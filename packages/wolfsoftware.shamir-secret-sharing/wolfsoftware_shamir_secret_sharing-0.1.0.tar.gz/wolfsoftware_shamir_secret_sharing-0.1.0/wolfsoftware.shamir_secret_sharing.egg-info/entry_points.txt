@@ -1,0 +1,2 @@
+[console_scripts]
+shamir-secret-sharing = wolfsoftware.shamir_secret_sharing.main:main
