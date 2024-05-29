@@ -1,0 +1,16 @@
+jupyterlab_unfold/__init__.py,sha256=Gab08gg0BRnJFzo1GbyQ7H1tCmm5AHQT7_wkRMRJdb0,318
+jupyterlab_unfold/_version.py,sha256=nv5Uu2MLyzABY2us1cUpHarfkJSnoHk_O__p5VGTBUc,171
+jupyterlab_unfold-0.3.1.data/data/share/jupyter/labextensions/jupyterlab-unfold/package.json,sha256=FGyF4H_32WILtNWa2j0nhA2maXKMlhCY7qpNKIyaeQA,5963
+jupyterlab_unfold-0.3.1.data/data/share/jupyter/labextensions/jupyterlab-unfold/schemas/jupyterlab-unfold/jupyterlab-unfold-settings.json,sha256=UCOufPym3ldA1rIfIjJLpcxMjq8IFCxqj5GunYMAbGQ,345
+jupyterlab_unfold-0.3.1.data/data/share/jupyter/labextensions/jupyterlab-unfold/schemas/jupyterlab-unfold/package.json.orig,sha256=Q0CLaULxe2L3xEWpC3KIoGLhMOT5Be4725PriJK5MpQ,6743
+jupyterlab_unfold-0.3.1.data/data/share/jupyter/labextensions/jupyterlab-unfold/schemas/jupyterlab-unfold/plugin.json,sha256=x9Kvlpm0RuhZ5-b77PsGNV4M-NKGpZYbx1Ycon3gdyI,187
+jupyterlab_unfold-0.3.1.data/data/share/jupyter/labextensions/jupyterlab-unfold/static/747.85bcc3e88490fafaddb5.js,sha256=hbzD6ISQ-vrdtcTQr7FQxWyD6r9y6nrg9vAZ5s1OLQU,4277
+jupyterlab_unfold-0.3.1.data/data/share/jupyter/labextensions/jupyterlab-unfold/static/874.2dab0411ca57be43f175.js,sha256=LasEEcpXvkPxdcHCPqLY3RXlNvx218BPsUum-MdB-yw,7919
+jupyterlab_unfold-0.3.1.data/data/share/jupyter/labextensions/jupyterlab-unfold/static/remoteEntry.51e9d38969fad5feb467.js,sha256=UenTiWn61f60Zw8O_1tgl2XoO1IgJDPliaR6V2vNJ6Y,6981
+jupyterlab_unfold-0.3.1.data/data/share/jupyter/labextensions/jupyterlab-unfold/static/style.js,sha256=xtHArQg3N44GASRj0MN3ghwQYeFAmjqxymEyNN8UHRw,160
+jupyterlab_unfold-0.3.1.data/data/share/jupyter/labextensions/jupyterlab-unfold/static/third-party-licenses.json,sha256=5z5gY0sStbT_P2WqbrAlmEtTHDPn0-v6dtp4O8CCBTs,2452
+jupyterlab_unfold-0.3.1.data/data/share/jupyter/labextensions/jupyterlab-unfold/install.json,sha256=yrnIw_28cgEuirlN8A4_MVEHfgxkNeB35qgE1_8QahE,195
+jupyterlab_unfold-0.3.1.dist-info/METADATA,sha256=qmm6iDIg9AyrGoSxC3a5K-h4UJshfnInDNcJbsEUapw,6069
+jupyterlab_unfold-0.3.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+jupyterlab_unfold-0.3.1.dist-info/licenses/LICENSE,sha256=4NdNPMZMaDZMg2l0w0WRkV_9DiDGUTgxHpnRCvnTxuk,1520
+jupyterlab_unfold-0.3.1.dist-info/RECORD,,
