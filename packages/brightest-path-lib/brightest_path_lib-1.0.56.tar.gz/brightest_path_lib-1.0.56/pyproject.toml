@@ -1,0 +1,22 @@
+[build-system]
+# as this 20240527, removing transonic
+#requires = ["setuptools", "wheel", "numpy"]
+requires = ["setuptools", "wheel", "numpy", "transonic"]
+#requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2", "wheel", "numpy", "transonic"]
+build-backend = "setuptools.build_meta"
+
+#[project]
+#name = "brightest_path_lib"
+#dynamic = ['version']
+
+#[tool.setuptools_scm]
+#write_to = "brightest_path_lib/_version.py"
+#version_scheme = "post-release"
+#version_scheme = "release-branch-semver"
+#local_scheme = "dirty-tag"
+#local_scheme = "no-local-version"
+
+#[tool.setuptools.dynamic]
+#version = { attr = 'mlsgrid_api.version' }
+#version = { attr = "setuptools_scm.get_version" }
+#version = { attr = 'brightest_path_lib.__version__' }
