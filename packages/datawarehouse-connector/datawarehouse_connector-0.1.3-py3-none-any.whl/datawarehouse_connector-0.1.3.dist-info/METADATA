@@ -1,0 +1,161 @@
+Metadata-Version: 2.1
+Name: datawarehouse-connector
+Version: 0.1.3
+Summary: A package for database session management
+Home-page: https://github.com/Chandani7250/datawarehouse_connector
+Author: Chandani Kumari
+Author-email: Chandani@coditation.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: psycopg2-binary
+Requires-Dist: redshift-connector
+Requires-Dist: snowflake-connector-python
+Requires-Dist: snowflake-sqlalchemy
+Requires-Dist: SQLAlchemy
+Requires-Dist: sqlalchemy-redshift
+Requires-Dist: urllib3
+
+# Data Warehouse Connector
+A Python module to establish connections to various data warehouses like Snowflake, Redshift, and PostgreSQL.
+
+# Overview
+
+This `README.md` file provides comprehensive instructions for installing, setting up, and using the `Data Warehouse Connector` module, ensuring users can easily establish connections to their data warehouses.
+
+---
+
+# Data Warehouses
+
+## Snowflake
+
+Requires `DB_SOURCE`, `USERNAME`, `HOST`, `PASSWORD`, `ROLE`, `WAREHOUSE`, and `DATABASE`.
+
+```python
+from datawarehouse_connector.connector import get_session
+
+snowflake_creds = {
+   "db_source": "snowflake",
+   "user": "user",
+   "password": "password",
+   "role": "role",
+   "warehouse": "warehouse",
+   "database": "database",
+   "host": "host",
+}
+
+session = get_session(snowflake_creds)
+session.close()
+```
+
+### Whitelisting
+If network policy is activated in the snowflake account and incoming ips are not allowed or restricted then need to whitelist our StepFunction IP : 
+
+Please follow the below steps for the same :
+1. Navigate to the Admin->Security section by clicking on "Admin" in the left navigation panel
+2. Switch to Network Rules. Create a new rule by clicking on + Network Rule button
+   a. Name: SFN_RULE
+   b. Choose Type: IPv4 and Mode: Ingress
+   c. Under Identifiers -> Add IP 18.210.244.167
+3. Switch to Network Policy. Create a new policy by clicking on + Network Policy button
+   a. Name: SFN_POLICY
+   b. Under Allowed Section & Under Select Rule Dropdown select SFN_RULE then click on Create button to create the policy.
+   c. Click on the dotted icon(...) at the end of the policy name and click Activate to start the policy. 
+4.   Navigate back to the worksheet and replace placeholder <IP> with the StepFunctions public IP address.
+
+     ALTER NETWORK POLICY SFN_POLICY SET ALLOWED_IP_LIST=('18.210.244.167')
+
+## Redshift
+
+Requires `DB_SOURCE`, `USERNAME`, `HOST`, `PASSWORD`, and `DATABASE`.
+
+```python
+### Direct Connection (Redshift in Public Subnet)
+from datawarehouse_connector.connector import get_session
+
+**Database Connection Configuration**
+   redshift_creds = {
+   "db_source": "redshift",
+   "user": "user",
+   "password": "password",
+   "database": "database",
+   "host": "host"
+   }
+
+session = get_session(redshift_creds)
+session.close()
+
+### SSH Tunnel Connection (Redshift in Private Subnet)
+#### Purpose
+Connect to Amazon Redshift via an SSH tunnel when it's located in a private subnet, and the connecting instance (EC2) is in a public subnet.
+you need to provide the SSH details and private key content to establish an SSH tunnel. 
+#### Prerequisites
+SSH Host: The hostname or IP address of the EC2 instance that has access to the Redshift cluster.
+SSH Username: The username to log into the EC2 instance.
+SSH PEM File Content: The content of the PEM file (private key) used to authenticate the SSH connection.
+
+redshift_creds = {
+   "db_source": "redshift",
+   "user": "user",
+   "password": "password",
+   "database": "database",
+   "host": "host",
+   'ssh_host': 'ssh_host',
+   'ssh_username': 'ssh_username',
+   'ssh_pem_file_content': '''ssh_pem_file_content'''
+}
+
+session = get_session(redshift_creds)
+session.close()
+```
+
+## PostgreSQL
+
+Requires `DB_SOURCE`, `USERNAME`, `HOST`, `PASSWORD`, and `DATABASE`.
+
+```python
+from datawarehouse_connector.connector import get_session
+
+postgresql_creds = {
+   "db_source": "postgresql",
+   "user": "user",
+   "password": "password",
+   "database": "database",
+   "host": "host",
+}
+
+session = get_session(postgresql_creds)
+session.close()
+```
+
+---
+
+# Handling Connection
+
+Once the session is established, you can interact with your data warehouse using SQLAlchemy's ORM capabilities.
+
+---
+
+# Troubleshooting
+
+## Common Issues
+
+- Invalid Credentials: Ensure that the USERNAME and PASSWORD are correct.
+- Host Unreachable: Verify the HOST address and network connectivity.
+- Unsupported Data Source: Check if the DB_SOURCE is among the supported ones (snowflake, redshift, postgresql).
+
+## Error Handling
+
+The `get_session` method prints exceptions to help identify issues during the connection process. Ensure that the provided connection details are accurate and the data warehouse is accessible.
+
+---
+
+# Conclusion
+
+This module simplifies the process of connecting to various data warehouses. Follow the setup instructions carefully, and refer to the examples for guidance on using the `get_session` function. For further assistance, check the documentation or raise an issue on the project's GitHub repository.
+```
+
