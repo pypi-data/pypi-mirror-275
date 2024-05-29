@@ -1,0 +1,6 @@
+stance_llm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stance_llm/base.py,sha256=Zgq3uOnb8NQUVWC8jA6-JqS6zsPzdSaHGza1KC-93U0,38960
+stance_llm/process.py,sha256=SxUushx3SzoSLAredpUt7G-IkZbiutMGD8byldZeGss,16415
+stance_llm-0.1.0.dist-info/METADATA,sha256=-RetgVM7k4YLvc5b_k3xCKUgFr6CE_aAD4pUsm8L3OY,910
+stance_llm-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+stance_llm-0.1.0.dist-info/RECORD,,
