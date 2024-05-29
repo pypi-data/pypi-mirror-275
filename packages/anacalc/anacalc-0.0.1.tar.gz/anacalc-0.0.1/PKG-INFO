@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: anacalc
+Version: 0.0.1
+Summary: A very basic calculator
+Home-page: 
+Author: A K Ghosh
+Author-email: anantafcs@gmail.com
+License: MIT
+Keywords: simple_anacalc
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+This is a very simple calculator providing addition,substraction,divison , multiplication and modulus operations. 
+

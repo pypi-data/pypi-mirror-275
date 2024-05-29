@@ -1,0 +1,7 @@
+README.txt
+setup.py
+anacalc/__init__.py
+anacalc.egg-info/PKG-INFO
+anacalc.egg-info/SOURCES.txt
+anacalc.egg-info/dependency_links.txt
+anacalc.egg-info/top_level.txt
