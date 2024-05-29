@@ -1,0 +1,72 @@
+# Meta Queries
+# WF 2025-05-06
+'query_count':
+    sql: |
+      SELECT COUNT(*)
+      FROM NamedQuery
+'query_success':
+    sql: |
+        SELECT 
+           COUNT(*) AS count,
+           endpoint_name
+        
+        FROM "QueryStats"
+        WHERE records>0
+        GROUP BY endpoint_name
+        ORDER BY 1 DESC
+'query_success_by_namespace':
+    sql: |
+        SELECT 
+           COUNT(*) AS count,
+           nq.namespace,
+           qs.endpoint_name
+           
+        FROM QueryStats qs
+        JOIN NamedQuery nq on qs.query_id=nq.query_id
+        WHERE records>0
+        GROUP BY endpoint_name,namespace
+        ORDER BY 2 ASC,1 DESC
+'all_queries':
+    sql: |
+      SELECT * FROM NamedQuery
+'error_histogram':
+    sql: |
+      SELECT COUNT(*), query_id
+      FROM QueryStats
+      WHERE error_msg is not null
+      GROUP BY query_id
+      ORDER BY 1 DESC
+'query_stats':
+    sql: |
+      SELECT query_id,
+        COUNT(duration) AS count,
+        MIN(duration) AS min_time,
+        MAX(duration) AS max_time,
+        AVG(duration) AS avg_time,
+        MIN(records) AS min,
+        MAX(records) AS max,
+        AVG(records) AS avg
+      FROM QueryStats
+        GROUP by query_id
+        ORDER BY 1 DESC;
+'params_stats':
+    sql: |
+        SELECT count(*),
+            params 
+        FROM "QueryDetails" 
+        GROUP BY params 
+        ORDER BY 1 desc
+'query_details_stats':
+    sql: |
+      SELECT 
+        MIN(param_count) AS min_param_count,
+        MAX(param_count) AS max_param_count,
+        AVG(param_count) AS avg_param_count,
+        MIN(lines) AS min_lines,
+        MAX(lines) AS max_lines,
+        AVG(lines) AS avg_lines,
+        MIN(size) AS min_size,
+        MAX(size) AS max_size,
+        AVG(size) AS avg_size
+      FROM 
+        QueryDetails;
