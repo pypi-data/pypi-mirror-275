@@ -1,0 +1,5 @@
+setup.py
+eazy_patex.egg-info/PKG-INFO
+eazy_patex.egg-info/SOURCES.txt
+eazy_patex.egg-info/dependency_links.txt
+eazy_patex.egg-info/top_level.txt
