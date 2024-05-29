@@ -1,0 +1,7 @@
+drisk_api-0.0.3.dist-info/METADATA,sha256=u44ZWgJy3_AeG4YGLZCP1EIYcmydVz90ySGRZvgJ6Ew,5802
+drisk_api-0.0.3.dist-info/WHEEL,sha256=L1Tkegwu8uMXPg6lTo_4CyiZAhCqy5i6JBPreNSuRzo,138
+drisk_api-0.0.3.dist-info/license_files/LICENSE,sha256=dT8L22exTrgwQ0Ptp1jVFSdi8IUX0syIYD5aNDEXb7o,1062
+drisk_api/__init__.py,sha256=PUCCXzyme355cMGN-Fkn5yMWDconLxG4FB2LLbUmA5g,59
+drisk_api/graph_client.py,sha256=atInaaU5ytN55InHvlifozh4IJmjkJqXxIquX5R2GhA,17167
+drisk_api/drisk_api.pypy310-pp73-ppc_64-linux-gnu.so,sha256=7KTI8g6L-aTciX5McjO5FBXpxvW4ngSKOCtJ83VwK7I,4483144
+drisk_api-0.0.3.dist-info/RECORD,,
