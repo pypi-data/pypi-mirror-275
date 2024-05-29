@@ -1,0 +1,8 @@
+blessmore/__init__.py,sha256=iVzmf5cdBSXPsuSjuVECnEEfGvHZ6mgGB_n7dlTiaNM,211
+blessmore/clean_data.py,sha256=-ib5zSNDH9evcU9nGeTDzBeZMKwKwWJEfAI1tY5zTNs,1540
+blessmore/shonaembeddings.py,sha256=fNg0gXVDNItpLef4JpgDnBJTUUyyMEQpSZWB2x2cKjw,1584
+blessmore/train_embedding.py,sha256=c9MbGtL2E_maIDmVWCMtI2cqvKIuHwE0Gxc8OVb2jlk,3056
+blessmore-3.0.3.dist-info/METADATA,sha256=8fYeP6FhHtvmww_y4kW0men12KZTbUKTFHrpYXUdoYw,3003
+blessmore-3.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+blessmore-3.0.3.dist-info/top_level.txt,sha256=qjFlXZqhHKFAP7wpCEdnyz4q6CLVNhgwP1Nma6PaAjg,10
+blessmore-3.0.3.dist-info/RECORD,,
