@@ -1,0 +1,15 @@
+romanspec/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+romanspec/ann.py,sha256=JcA6YJIUr8k6Br7_y-df0yHDiUHYtPZWV1shlkmafJE,23329
+romanspec/monte.py,sha256=Z_TGvtAB9EPRf14Vayn2U3H0xiSiBz2xqTv7WlxqKMQ,31020
+romanspec/utils.py,sha256=5ADMxcrWNGzQ5JtKw0hG36QQPVRM-sdhokIEf5KyU0U,9582
+romanspec/data/ann_29pars_3500-4200.pkl,sha256=nSAoFtRV_LoFNDoqB1vo8uUOMArkg1jRU6bA88GhkjU,32456257
+romanspec/data/ann_29pars_4000-5000.pkl,sha256=vslvnOExEWyq9Lm-nL_WNrFowLgrCjjtCVlPG6nelKo,32455793
+romanspec/data/ann_29pars_4900-6000.pkl,sha256=545g54ZGZMtq9c_DmYMa6Sisvsq7X9lQ4PPyG3ZsIZg,32457881
+romanspec/data/apogeedr17_rgb_feh_ann.npz,sha256=0GU4RLSEFf3Av8kUUXqTCyVF_hqyOxJ4HkhuH2Fhe2c,2327450
+romanspec/data/apogeedr17_rgb_logg_ann.npz,sha256=_9reOZbcjGNU3Ga8PyEZDpNRpWXz9tlqZ7kOYv5Vl3Y,2382482
+romanspec-1.0.0.dist-info/LICENSE,sha256=LRamqR_uIfvwVrbTYm2bi2UWwT9-5DIEoSzhu6vNEvc,1070
+romanspec-1.0.0.dist-info/METADATA,sha256=dy-fwmMZQ7NFbD6V-rvdsJeCrxrqJgoxpe-nGsygJwY,2002
+romanspec-1.0.0.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+romanspec-1.0.0.dist-info/entry_points.txt,sha256=-_iUji9R5Xz_nYNo-FYjtJYGzWd1EuB6DWY9Y6_5kMk,89
+romanspec-1.0.0.dist-info/top_level.txt,sha256=fvv5x8Jo_lCfv4nqR6OWs4D2dQCBeowLmjf54f1-11I,10
+romanspec-1.0.0.dist-info/RECORD,,
