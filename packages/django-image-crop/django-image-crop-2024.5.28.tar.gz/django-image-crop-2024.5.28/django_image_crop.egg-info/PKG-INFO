@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: django-image-crop
+Version: 2024.5.28
+Summary: Image cropping plugin, can be directly applied to django admin.
+Author: bj.tr
+Author-email: bj.t@foxmail.com
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 5.0
+Description-Content-Type: text/markdown
+License-File: LICENSE

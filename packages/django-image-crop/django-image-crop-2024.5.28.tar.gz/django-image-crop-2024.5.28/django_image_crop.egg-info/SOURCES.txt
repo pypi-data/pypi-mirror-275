@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+django_image_crop/__init__.py
+django_image_crop/apps.py
+django_image_crop/fields.py
+django_image_crop/widgets.py
+django_image_crop.egg-info/PKG-INFO
+django_image_crop.egg-info/SOURCES.txt
+django_image_crop.egg-info/dependency_links.txt
+django_image_crop.egg-info/top_level.txt
