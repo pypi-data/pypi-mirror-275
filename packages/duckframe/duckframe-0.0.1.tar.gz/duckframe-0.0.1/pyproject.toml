@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "duckframe"
+version = "0.0.1"
+authors = [{ name = "Cody", email = "cody@dkdc.dev" }]
+description = "coming soon?"
+readme = "readme.md"
+requires-python = ">=3.11"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  'ibis-framework[duckdb]',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ibis-project/duckframe"
+"Bug Tracker" = "https://github.com/ibis-project/duckframe"
+
