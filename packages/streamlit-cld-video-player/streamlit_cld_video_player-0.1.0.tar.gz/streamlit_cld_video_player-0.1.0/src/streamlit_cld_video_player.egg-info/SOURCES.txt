@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/streamlit_cld_video_player/__init__.py
+src/streamlit_cld_video_player.egg-info/PKG-INFO
+src/streamlit_cld_video_player.egg-info/SOURCES.txt
+src/streamlit_cld_video_player.egg-info/dependency_links.txt
+src/streamlit_cld_video_player.egg-info/requires.txt
+src/streamlit_cld_video_player.egg-info/top_level.txt
+src/streamlit_cld_video_player/frontend/index.html
+src/streamlit_cld_video_player/frontend/main.js
+src/streamlit_cld_video_player/frontend/streamlit-component-lib.js
+src/streamlit_cld_video_player/frontend/style.css
