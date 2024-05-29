@@ -1,0 +1,8 @@
+py_distance_transforms/__init__.py,sha256=T1AgZvb0mIA-KS8Us4m5jvqmbRurGMjakaDB_uzZmio,214
+py_distance_transforms/julia_import.py,sha256=VJMBYs9E0ZT31E6H9FovlJIGLZp99es4HdDD6m7zvBA,297
+py_distance_transforms/juliapkg.json,sha256=k529q5QEa-CUkVFS3UlvDyaOXZPCWGDLH9ZphSl6VhM,368
+py_distance_transforms/transform.py,sha256=mhgVIdoJtQjOjAMo-GIh1HG4uEGrr6f-C2p6SPEuP_Y,273
+py_distance_transforms/transform_cuda.py,sha256=Zc3pOYoAAUImhqarhkRk6aMR8wN3DKPX-IdlpR1zo14,333
+py_distance_transforms-0.2.0.dist-info/METADATA,sha256=RxXJk2LOza7nhxwf8Ltj4TtnwZa0lMcqWG8LaOWgq0Q,2435
+py_distance_transforms-0.2.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+py_distance_transforms-0.2.0.dist-info/RECORD,,
