@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+test_module_teorver/test_module_teorver.py
+test_module_teorver.egg-info/PKG-INFO
+test_module_teorver.egg-info/SOURCES.txt
+test_module_teorver.egg-info/dependency_links.txt
+test_module_teorver.egg-info/not-zip-safe
+test_module_teorver.egg-info/top_level.txt
