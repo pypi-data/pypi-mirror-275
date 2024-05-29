@@ -1,0 +1,6 @@
+[gwpopulation.other]
+wcosmo-utils = wcosmo.utils:scipy.linalg.toeplitz
+
+[gwpopulation.xp]
+wcosmo = wcosmo.wcosmo
+wcosmo-utils = wcosmo.utils
