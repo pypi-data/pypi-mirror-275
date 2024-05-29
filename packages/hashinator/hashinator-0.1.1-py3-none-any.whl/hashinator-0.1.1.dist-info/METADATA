@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hashinator
+Version: 0.1.1
+Project-URL: Homepage, https://github.com/AndrewSergienko/hashinator
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: pillow
+Requires-Dist: numpy
+Requires-Dist: scipy
+
