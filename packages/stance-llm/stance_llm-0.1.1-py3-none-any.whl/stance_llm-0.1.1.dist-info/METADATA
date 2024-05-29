@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: stance-llm
+Version: 0.1.1
+Summary: Classify stances of entities related to a statement in German text using large language models through guidance-llm
+Home-page: https://github.com/urban-sustainability-lab-zurich/stance-llm
+Author: Mario Angst
+Author-email: mario.angst@uzh.ch
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: guidance (>=0.1.10,<0.2.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: polars (>=0.20.15,<0.21.0)
+Requires-Dist: scikit-learn (>=1.4.2,<2.0.0)
+Requires-Dist: tdqm (>=0.0.1,<0.0.2)
+Requires-Dist: wonderwords (>=2.2.0,<3.0.0)
+Project-URL: Repository, https://github.com/urban-sustainability-lab-zurich/stance-llm
+Description-Content-Type: text/markdown
+
+# stance_llm
+
+A python package to classify stances of entities related to a statement in German text using large language models built on top of guidance-llm
