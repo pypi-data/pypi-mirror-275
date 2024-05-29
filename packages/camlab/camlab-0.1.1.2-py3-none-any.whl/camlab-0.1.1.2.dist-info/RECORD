@@ -1,0 +1,8 @@
+camlab/__init__.py,sha256=97QmIOZnCJw_Pjxi23CqN_14iqpA7NduObmZwCWvDQg,2365
+camlab/camera.py,sha256=nDFREQBteHOPt8PQweDN8DbJ4dM3wF3LSQj6GxkajSM,6974
+camlab/camera_torch.py,sha256=xN0MwCk0av90E2wju0_HG7bgH_mHNqtrE3ZOZwSFOIo,3435
+camlab-0.1.1.2.dist-info/LICENSE,sha256=sw5R9x7YiaESz--wct2pp-gEY_aBiJlnEMnoPHzU0m4,1075
+camlab-0.1.1.2.dist-info/METADATA,sha256=rpyWlQphcLg-KIe9b81HZOVkMJqvn-PqmYqzmf25DgE,2030
+camlab-0.1.1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+camlab-0.1.1.2.dist-info/top_level.txt,sha256=DKQBvw0B8EBnMFuGyzfoacGfYE3phUt0YYbuyAiKY-g,7
+camlab-0.1.1.2.dist-info/RECORD,,
