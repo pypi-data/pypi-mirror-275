@@ -1,0 +1,10 @@
+screen_games/__init__.py,sha256=RcnOc5OOzG41f1Q4nB3MWipFuMH9xXc8UmJjPrwOF90,143
+screen_games/config.py,sha256=KS3XoZPUUf81A_8JNrMY85dchdK0R92qxTEgot0lpvc,2143
+screen_games/envs/__init__.py,sha256=pqTHnBawW9pBiXmE906MI0UfgTkMm2KmiCYUsdcIGJ4,47
+screen_games/envs/dino.py,sha256=Kx8RK7wU15NUwYPaltINso8L5Uuk29nI2mHz4TXldJw,3100
+screen_games/envs/dino_slow.py,sha256=1vc026wDRlTT5QPn657an9K9-Gdkn4rg9x0WPxKu0SI,3357
+screen_games/envs/screen.py,sha256=vzsN9r9TrQ6RRzsZ2Z-eoDIXw-jktMyLpqpXwualwnU,3434
+screen_games-0.0.2.dist-info/METADATA,sha256=U6obt9t_6tN-ogVkNK60jAYsVyeHGO6pDnNN9tJ3HwM,720
+screen_games-0.0.2.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+screen_games-0.0.2.dist-info/licenses/LICENSE,sha256=7fdVnQO-nWp-1O4KiBWnDwMGTjJeJLdFj8aSzrYlehk,1067
+screen_games-0.0.2.dist-info/RECORD,,

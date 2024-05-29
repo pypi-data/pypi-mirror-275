@@ -1,0 +1,20 @@
+Metadata-Version: 2.3
+Name: screen_games
+Version: 0.0.2
+Summary: Connect your PC screen and keyboard, mouse event to OpenAI Gym!
+Project-URL: Homepage, https://github.com/timcsy/screen_games
+Project-URL: Bug Tracker, https://github.com/timcsy/screen_games/issues
+Author-email: timcsy <timocsy@yahoo.com.tw>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: eventstreaming>=0.0.2
+Requires-Dist: gymnasium>=0.28
+Requires-Dist: python-dotenv>=0.19
+Description-Content-Type: text/markdown
+
+# ScreenGames
+
+Connect your PC screen and keyboard, mouse event to OpenAI Gym!
