@@ -1,0 +1,22 @@
+Metadata-Version: 2.3
+Name: lynxy
+Version: 0.0.5
+Summary: A LAN package made for easy communication and sending of data across the same network.
+Project-URL: Homepage, https://github.com/SketchedDoughnut/lynxy
+Project-URL: Issues, https://github.com/SketchedDoughnut/lynxy/issues
+Author-email: Sketched Doughnut <sketcheddoughnut@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# **lynxy**
+Local (yielding?) Network (eXchange?) (the y is cosmetic)
+
+# **Introduction**
+lynxy, also known as lynx, is a LAN server-client system coded in Python. It allows for easy setup of a server, as well as easy setup for clients on the same network as the server. 
+Check out the github below to learn how to use this module.
+- Github: https://github.com/SketchedDoughnut/lynxy
