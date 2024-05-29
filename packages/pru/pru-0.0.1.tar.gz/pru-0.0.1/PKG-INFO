@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: pru
+Version: 0.0.1
+Summary: Update and resolve requirements.txt based on the Python environment and pip used.
+Author-email: Muhammad Yasirroni <muhammadyasirroni@gmail.com>
+Maintainer-email: Muhammad Yasirroni <muhammadyasirroni@gmail.com>
+Project-URL: Documentation, https://github.com/yasirroni/pru#readme
+Project-URL: Issues, https://github.com/yasirroni/pru/issues
+Project-URL: Source, https://github.com/yasirroni/pru
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.7.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest>=7.2.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.1.0; extra == "dev"
+Requires-Dist: pytest-xdist>=3.1.0; extra == "dev"
+Requires-Dist: pre-commit>=2.21.0; extra == "dev"
+Requires-Dist: ruff>=0.0.254; extra == "dev"
+Requires-Dist: setuptools>=68.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.1.0; extra == "dev"
+Requires-Dist: pytest-dependency>=0.5.1; extra == "dev"
+
+# Python Requirements Updater
+
+Not a [`pur`](https://github.com/alanhamlett/pip-update-requirements), but [`pru`](https://github.com/yasirroni/pru). Update and resolve `requirements.txt` based on the Python environment and pip used.
+
+## Installation
+
+```shell
+pip install pru
+```
+
+## Usage
+
+Using CLI:
+
+```shell
+pru "requirements.txt" upgrade_requirements --cmd "pip install --upgrade"
+```
+
+Using python:
+
+```python
+from pru import (
+    get_installed_requirements_packages_and_version,
+    get_installed_packages_name_and_version,
+    replace_requirements_packages_versions,
+    upgrade_requirements,
+)
+
+
+file_path = 'requirements.txt'
+# print(get_installed_requirements_packages_and_version(file_path))
+# print(get_installed_packages_name_and_version())
+# replace_requirements_packages_versions(file_path)
+upgrade_requirements(file_path, command='pip install --upgrade')
+```
+
+## Known Issue
+
+In python3.7, pru "sometimes" can't install and update requirements using a single call
+of `upgrade_requirements`. To fix this, simply run two times.
