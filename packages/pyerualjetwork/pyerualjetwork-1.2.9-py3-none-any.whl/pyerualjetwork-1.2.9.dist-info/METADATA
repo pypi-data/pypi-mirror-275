@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyerualjetwork
+Version: 1.2.9
+Summary: Advanced python deep learning library. New Visualize parameter added ('y' or 'n') for TrainPlan and TestPLAN funcs. (Documentation in desc. Examples in GİTHUB: https://github.com/HCB06/PyerualJetwork)
+Author: Hasan Can Beydili
+Author-email: tchasancan@gmail.com
+Keywords: model evaluation,classifcation,pruning learning artficial neural networks
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: time
+Requires-Dist: math
+Requires-Dist: colorama
+Requires-Dist: typing
+Provides-Extra: visualization
+Requires-Dist: matplotlib ; extra == 'visualization'
+Requires-Dist: seaborn ; extra == 'visualization'
+
