@@ -1,0 +1,143 @@
+{
+  "src/lib/components/CheckTreePicker.react.js": {
+    "description": "",
+    "displayName": "CheckTreePicker",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "appearance": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The appearance of the component. Can be `default` or `subtle`.",
+        "defaultValue": {
+          "value": "'default'",
+          "computed": false
+        }
+      },
+      "block": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to take up the full width of the parent container.",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "cascade": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to enable cascade selection.",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "cleanable": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to display the clear button",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "countable": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to display the count of selected items",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "data": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "The Tree Data",
+        "defaultValue": {
+          "value": "[\n    {\n        label: 'A',\n        value: 'a',\n        children: [\n            {label: 'A1', value: 'a1'},\n            {label: 'A2', value: 'a2'},\n        ],\n    },\n    {\n        label: 'B',\n        value: 'b',\n        children: [\n            {\n                label: 'B1',\n                value: 'b1',\n                children: [\n                    {label: 'B11', value: 'b11'},\n                    {label: 'B12', value: 'b12'},\n                ],\n            },\n            {label: 'B2', value: 'b2'},\n        ],\n    },\n]",
+          "computed": false
+        }
+      },
+      "custom_locale": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Custom locale for component",
+        "defaultValue": {
+          "value": "nl_NL",
+          "computed": true
+        }
+      },
+      "defaultExpandAll": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to expand all nodes by default",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "placement": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The placement of the popup. Can be 'bottomStart', 'bottomEnd', 'topStart', 'topEnd'.",
+        "defaultValue": {
+          "value": "'bottomStart'",
+          "computed": false
+        }
+      },
+      "selected": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "string"
+          }
+        },
+        "required": false,
+        "description": "Selected value(s)",
+        "defaultValue": {
+          "value": "[]",
+          "computed": false
+        }
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Custom styling of the component."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}
