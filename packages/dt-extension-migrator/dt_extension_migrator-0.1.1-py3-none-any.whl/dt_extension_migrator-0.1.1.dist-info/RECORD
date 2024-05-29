@@ -1,0 +1,8 @@
+dt_extension_migrator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dt_extension_migrator/extension_apps/generic_commands.py,sha256=FQ8BPiUSE9NQ1ykhTcGi5HviAu1lQQqhDigWhtltjxs,11173
+dt_extension_migrator/extension_apps/remote_unix.py,sha256=MNMHEY_iJxiJuhzMQDh30L6Q9-17-_aTr6QCQlkMPLI,9107
+dt_extension_migrator/main.py,sha256=uj34DpyEs3MBbP3s88UttPwI5X5Z9B4R4wpO9D8cIVE,2178
+dt_extension_migrator-0.1.1.dist-info/entry_points.txt,sha256=MH_sBU81_6JtHyUW6s9Zu_sEMLhaFag7X0JCb_qLtEA,66
+dt_extension_migrator-0.1.1.dist-info/METADATA,sha256=LKRpgFEQXPUSJrKJ1sQ_XpgT4BNGUy9xNny7DLNmTeI,2729
+dt_extension_migrator-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dt_extension_migrator-0.1.1.dist-info/RECORD,,
