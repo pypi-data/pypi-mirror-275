@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+QubitChem.egg-info/PKG-INFO
+QubitChem.egg-info/SOURCES.txt
+QubitChem.egg-info/dependency_links.txt
+QubitChem.egg-info/requires.txt
+QubitChem.egg-info/top_level.txt
+qubitchem/__init__.py
+qubitchem/__version__.py
