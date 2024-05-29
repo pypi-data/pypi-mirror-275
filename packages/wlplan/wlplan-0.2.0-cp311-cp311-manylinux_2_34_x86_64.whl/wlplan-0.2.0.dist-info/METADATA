@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: wlplan
+Version: 0.2.0
+Summary: WLPlan: Relational Features for PDDL Planning
+Author: Dillon Z. Chen
+Author-email: dillon.chen1@gmail.com
+License: MIT License
+Project-URL: GitHub, https://github.com/DillonZChen/wlplan
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: networkx >=3.0
+Requires-Dist: numpy >=1.26
+
