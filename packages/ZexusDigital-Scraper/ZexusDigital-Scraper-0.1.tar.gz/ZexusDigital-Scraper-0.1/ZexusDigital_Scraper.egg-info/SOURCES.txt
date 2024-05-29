@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ZexusDigital_Scraper.egg-info/PKG-INFO
+ZexusDigital_Scraper.egg-info/SOURCES.txt
+ZexusDigital_Scraper.egg-info/dependency_links.txt
+ZexusDigital_Scraper.egg-info/requires.txt
+ZexusDigital_Scraper.egg-info/top_level.txt

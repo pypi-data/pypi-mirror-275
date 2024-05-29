@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: ZexusDigital-Scraper
+Version: 0.1
+Summary: Instagram Scraping
+Home-page: https://github.com/ZexusDigital/instagram-scraper
+Author: Zexus
+Author-email: zexusdigital@zexusdigital.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: loguru
+Requires-Dist: jmespath
+
+# Instagram Scraper
+
+This project contains a simple Python application that scrapes data from Instagram. This application retrieves posts of a specific user and displays basic information about those posts.
+
+## Installation
+
+To run the project, you need to have Python installed. Then, you can follow these steps to run the project:
+
+1. Clone the repository:
+```bash
+git clone https://github.com/ZexusDigital/instagram-scraper.git
+```
+
+3. Navigate to the project directory:
+```bash
+cd instagram-scraper
+```
+
+5. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+6. Run the main script:
+```bash
+python main.py
+```
