@@ -1,0 +1,10 @@
+dilcher_configuration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dilcher_configuration/apps.py,sha256=hLk1cV1YyNZzaOeL9ldZi9ZD21sKKS8AGe6nbapWKHo,773
+dilcher_configuration/mixins.py,sha256=xzWkVCUv4PgoWsJ0cf5vWpBHzZsTWUrihCXwATjBicw,2804
+dilcher_configuration/models.py,sha256=TSF1RzuLGMv2BBdYLygTpHOaigd2r_7m0Yeku3d7Rl0,6920
+dilcher_configuration/test_models.py,sha256=u2rQTV303SqCdRO9jATLHiQoxS2p9cwPpzCVUxNmNjg,22822
+dilcher_configuration-0.6.5.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+dilcher_configuration-0.6.5.dist-info/METADATA,sha256=7smahvlu_VKCZ4jXrW02cuhNfocyWuBoS2QUcnmr4KM,1180
+dilcher_configuration-0.6.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dilcher_configuration-0.6.5.dist-info/top_level.txt,sha256=HIUJAJ-BCh6YTyqmWZlzh6XJn_Iou2ye8Sr8r8l33bA,22
+dilcher_configuration-0.6.5.dist-info/RECORD,,
