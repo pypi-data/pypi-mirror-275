@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: sneko
+Version: 0.0.1
+Summary: Terminal GUI for Ethereum smart contracts
+Author-email: Marc Garreau <marc@ethereum.org>
+Requires-Python: >=3.8
+Requires-Dist: py-solc-x
+Requires-Dist: pyperclip
+Requires-Dist: textual
+Description-Content-Type: text/markdown
+
+# sneko
+
+Describe your project here.
