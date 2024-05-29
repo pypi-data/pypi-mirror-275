@@ -1,0 +1,10 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/person_endpoint.py,sha256=mSXIPtjnWo8694t6yqfItM0P30wAFWiNt0ib0igI2jk,698
+lightapi/__init__.py,sha256=vEPUsHJU4pn2-NjpXfAbbAKFQAQH6JgQ9RUZy47aWOY,121
+lightapi/base_endpoint.py,sha256=44WzN7nHJYSCd_oGR9mFdGj0L2ON5eb0l0YfW1f5FV0,1166
+lightapi/handlers.py,sha256=rhOqJedNbyTriQGsOPwBke2ZyqIbqFzSZoxNGvnZ6PQ,2400
+lightapi/light_api.py,sha256=3uyJMAPUoclugBi8AFXzFagz5gnLwxXMfpGCpgi-4D4,2372
+LightApi-0.1.0.dist-info/METADATA,sha256=IDEbbsE92Ps9ItOCRmXz-31sUWAOvW57IqjI-GpjCtg,4414
+LightApi-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+LightApi-0.1.0.dist-info/top_level.txt,sha256=SH5xZNIAJeMyBK9SniYVBCPkTS3v2Zgx2Y5YPAz24KQ,18
+LightApi-0.1.0.dist-info/RECORD,,
