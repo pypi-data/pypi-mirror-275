@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: eventstreaming
+Version: 0.0.3
+Summary: Event streaming library.
+Project-URL: Homepage, https://github.com/timcsy/eventstreaming
+Project-URL: Bug Tracker, https://github.com/timcsy/eventstreaming/issues
+Author-email: timcsy <timocsy@yahoo.com.tw>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: av>=9
+Requires-Dist: mss
+Requires-Dist: pillow
+Requires-Dist: pyautogui
+Requires-Dist: pynput>=1.7
+Requires-Dist: websockets>=10.1
+Description-Content-Type: text/markdown
+
+# EventStreaming
+
+Streaming the screen, keyboard and mouse evnts.
