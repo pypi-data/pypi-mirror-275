@@ -1,0 +1,13 @@
+friendly_name: Firefox Event Types
+description: |
+  A materialized view of the most recent day of event_types data. Deprecated per https://bugzilla.mozilla.org/show_bug.cgi?id=1805722#c10
+owners:
+- wlachance@mozilla.com
+- akomar@mozilla.com
+labels:
+  application: telemetry
+  schedule: daily
+  owner1: wlachance
+  owner2: akomar
+bigquery: null
+references: {}

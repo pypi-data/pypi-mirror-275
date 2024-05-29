@@ -1,0 +1,21 @@
+friendly_name: FxA Users Services Last Seen
+description: |-
+  Usage aggregations per FxA user per FxA service per day over a 28-day window
+owners:
+- kik@mozilla.com
+labels:
+  application: fxa
+  incremental: true
+  schedule: daily
+  owner1: kik
+bigquery:
+  time_partitioning:
+    type: day
+    field: submission_date
+    require_partition_filter: false
+    expiration_days: null
+  clustering:
+    fields:
+    - service
+    - user_id
+references: {}
