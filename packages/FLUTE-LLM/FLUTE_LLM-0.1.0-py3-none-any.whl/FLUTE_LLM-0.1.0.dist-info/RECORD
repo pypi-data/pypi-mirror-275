@@ -1,0 +1,14 @@
+flute/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flute/Modules/AbstractPromptProcessor.py,sha256=Db97Xjkt3y-Y-NbyB_vbinrYiZlEtbDmX0CKIjeAmk0,2606
+flute/Modules/ClaudePromptProcessor.py,sha256=l_i7mdB81ASzcTgMBJdWRHMWAcKu1YvOF4dcIZ0kRkY,2450
+flute/Modules/GPTPromptProcessor.py,sha256=RfHtrnG_U_48tE3LbzHUj24lkgVZT0vZycWtF9cvLQg,2992
+flute/Modules/GeminiPromptProcessor.py,sha256=MUnm8kZOwMryWwSKBiJL8-yR6ZVknYoHZuPd04hPHAo,3662
+flute/Modules/PromptProcessorFactory.py,sha256=_zYRWkK5WPY2XyEITPn-b6zWlsk82NxBYXjFXELPGYA,1567
+flute/Modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flute/Test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flute/Test/test_prompt_processors.py,sha256=3cnLNbbM2tL5rA5c6Vg0IHW8TM9ZXusVQDdobxN3cXE,1427
+FLUTE_LLM-0.1.0.dist-info/LICENSE,sha256=J-nZu6ut3GePKJteF2yH6bAmiNRANlhH7m9C9QVw1ko,3774
+FLUTE_LLM-0.1.0.dist-info/METADATA,sha256=RPWO34lCiFH7_OHXbHoBqeChecLKI6OcydOCbpjTOXI,3843
+FLUTE_LLM-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+FLUTE_LLM-0.1.0.dist-info/top_level.txt,sha256=3xVRgyj1dKFKJmPPCm-_XfWzYhT-988YvEc755H5Ud8,6
+FLUTE_LLM-0.1.0.dist-info/RECORD,,
