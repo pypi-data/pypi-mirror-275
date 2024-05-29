@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+dilcher_configuration/__init__.py
+dilcher_configuration/apps.py
+dilcher_configuration/mixins.py
+dilcher_configuration/models.py
+dilcher_configuration/test_models.py
+dilcher_configuration.egg-info/PKG-INFO
+dilcher_configuration.egg-info/SOURCES.txt
+dilcher_configuration.egg-info/dependency_links.txt
+dilcher_configuration.egg-info/requires.txt
+dilcher_configuration.egg-info/top_level.txt
