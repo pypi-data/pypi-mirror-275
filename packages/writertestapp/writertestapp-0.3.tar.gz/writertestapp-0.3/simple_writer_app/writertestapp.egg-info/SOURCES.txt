@@ -1,0 +1,6 @@
+LICENSE.txt
+setup.py
+simple_writer_app/writertestapp.egg-info/PKG-INFO
+simple_writer_app/writertestapp.egg-info/SOURCES.txt
+simple_writer_app/writertestapp.egg-info/dependency_links.txt
+simple_writer_app/writertestapp.egg-info/top_level.txt
