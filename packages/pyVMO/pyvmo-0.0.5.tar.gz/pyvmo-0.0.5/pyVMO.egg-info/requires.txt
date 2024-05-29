@@ -1,0 +1,4 @@
+toolbiox>=0.0.44
+scikit-allel>=1.3.7
+cyvcf2>=0.30.28
+h5py>=3.10.0
