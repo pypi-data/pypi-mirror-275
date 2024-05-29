@@ -1,0 +1,14 @@
+grpc_client_wrapper_kessel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grpc_client_wrapper_kessel/client.py,sha256=jQxgMu2wujV5-EV7SIHDYnIfEhmJAzxyn2XKqYliCB0,43
+rebac/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rebac/v1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rebac/v1/check_pb2.py,sha256=pX_5uTXx8Rd5fL0ditMOEl4dUcxUrA-xX9myfNbzDqA,2502
+rebac/v1/check_pb2.pyi,sha256=rxgvXUrwKjeviual_vIIss7PYgGponJVkSb6Aj2YW1Q,1632
+rebac/v1/check_pb2_grpc.py,sha256=RGfEsn8EiHLLqEBIN0pB8Erzc0c5Aj4iGL1CM7l-RRU,2471
+rebac/v1/relationships_pb2.py,sha256=gOUPV0Xe2cAbfaaOoTF-wQmiPAyjUeODNUQO0FPvCn4,5233
+rebac/v1/relationships_pb2.pyi,sha256=C4r4GLUYwxz5I63nkzaDTc1WTf84p4qSIkbIUdAYO8s,3934
+rebac/v1/relationships_pb2_grpc.py,sha256=UAjWeBwQHHFacgBCzthinDTRO3dgMkn5Btm21wJO7Yo,6323
+relations_grpc_clients_python_kessel_project-0.0.4.dist-info/METADATA,sha256=f7atZkXbTxBN-6wh4SkIqq9s1-uiCg1jifmvz3m6wHY,908
+relations_grpc_clients_python_kessel_project-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+relations_grpc_clients_python_kessel_project-0.0.4.dist-info/top_level.txt,sha256=F6rsBegcGRjfiufLXtBy2iCR-WUNMByAm7UekYyslLc,33
+relations_grpc_clients_python_kessel_project-0.0.4.dist-info/RECORD,,
