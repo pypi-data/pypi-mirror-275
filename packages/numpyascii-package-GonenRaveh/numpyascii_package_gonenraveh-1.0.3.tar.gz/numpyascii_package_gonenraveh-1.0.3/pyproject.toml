@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "numpyascii_package_GonenRaveh"
+version = "1.0.3"
+dependencies = [
+  "numpy"
+]
+authors = [
+  { name="Gonen Raveh", email="gonen.raveh@gmail.com" },
+]
+description = "Helper Python packages for 1D, 2D and 3D numpy matrices"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/gonenraveh/numpyascii"
+
