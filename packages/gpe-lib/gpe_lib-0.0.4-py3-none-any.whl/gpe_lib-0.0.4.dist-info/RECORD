@@ -1,0 +1,9 @@
+gpe_lib/__init__.py,sha256=q5PuSfPW3vIuW_2TrZgNn86yTZwoRSzJgyFjL7L89GM,2741
+gpe_lib/imports.py,sha256=0sgUi2xhQgPdoGfRahl_wZ3pKMuw-4hw9dDbLDiSr10,116
+gpe_lib/notebook/__init__.py,sha256=9e4B-k_4zKHyRKoaC9n7fT6mL5oa68k6Huw98puMV8E,342
+gpe_lib/notebook/colab.py,sha256=nxp7W3irSoPgWU97b38LpNO4Ng-ln3pnpaN6Z2jhjEY,625
+gpe_lib/notebook/jupyter.py,sha256=8qxY_CJlxaXsRGZcyHZmJk3paktRM9Urz67RRhSr_dA,395
+gpe_lib-0.0.4.dist-info/METADATA,sha256=zvWJ1CyZFxcHDHjKSc3Kh3_Id1oYr636ydyp1HAi4JI,173
+gpe_lib-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gpe_lib-0.0.4.dist-info/top_level.txt,sha256=5skBuTtZQFyRnJy6zYefBDKPbjEN5n7p0WfsouOBM9k,25
+gpe_lib-0.0.4.dist-info/RECORD,,
