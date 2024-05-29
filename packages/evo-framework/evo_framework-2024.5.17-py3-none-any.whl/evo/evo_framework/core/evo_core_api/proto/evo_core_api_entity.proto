@@ -1,0 +1,151 @@
+//------------------------------------------------------------------------------------------
+//CC BY-NC-ND 4.0 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International       
+//https://github.com/cyborg-ai-git
+//------------------------------------------------------------------------------------------
+syntax = "proto3";
+package evo_core_api_entity;
+
+import "google/protobuf/descriptor.proto";
+
+extend google.protobuf.MessageOptions {
+  uint32 version = 20240518;
+}
+
+enum EnumApiCryptoPb{
+  ECC = 0;
+  PQ = 1;
+}
+
+enum EnumApiTypePb{
+  NONE = 0;
+  ERROR = 1;
+  TEXT = 2;
+  IMAGE = 3;
+  AUDIO = 4;
+  VIDEO = 5;
+  FILE = 6;
+  LANGUAGE = 7;
+  INT = 8;
+  LONG = 9;
+  FLOAT = 10;
+  DOUBLE = 11;
+  BYTE = 12;
+  BYTES = 13;
+  BOOL = 14;
+  EOBJECT = 15;
+}
+
+enum EnumApiVisibilityPb{
+  PUBLIC = 0;
+  PRIVATE = 1;
+}
+
+enum EnumApiTunnelPb{
+  LOCAL = 0;
+  CYBORGAI = 1;
+  NGROK = 2;
+  PINGGY = 3;
+}
+
+message ERequestPb {
+
+  string id = 1;    
+  int64 time = 2;     
+  uint32 version = 3;
+  EnumApiCryptoPb enumCrypto = 4;
+  bytes pk_hash = 5;
+  bytes cipher= 6;
+  bytes sign= 7;
+  bytes hash= 8;
+  int32 chunk= 9;
+  int32 chunkTotal= 10;
+  int64 length = 11;
+  bytes data = 12;
+}
+
+message EResponsePb {
+  string id = 1;    
+  int64 time = 2;     
+  uint32 version = 3;
+  bytes sign = 4;
+  bytes hash = 5;
+  int32 chunk= 6;
+  int32 chunkTotal= 7;
+  int64 length= 8;
+  bytes data= 9;
+}
+/*
+message EApiItemPb {
+  string id = 1;    
+  int64 time = 2;     
+  uint32 version = 3;
+  EnumApiTypePb enumApiType = 4;
+}
+
+message MapEApiItemPb {
+  map<string, EApiItemPb> map = 1;
+}
+
+message EApiPb {
+  string id = 1;    
+  int64 time = 2;     
+  uint32 version = 3;
+  string description = 4; 
+  bool isStream = 5;
+  MapEApiItemPb mapInput = 6; 
+  MapEApiItemPb mapOutput = 7; 
+}
+
+message MapEApiPb {
+  map<string, EApiPb> map = 1;
+}
+
+message EApiConfigPb {
+  string id = 1;
+  int64 time = 2;
+  uint32 version = 3;
+  EnumApiCryptoPb enumApiCrypto = 4;
+  EnumApiVisibilityPb enumApiVisibility = 5;
+  EnumApiTunnelPb enumApiTunnel = 6;
+  string label = 7;
+  string description = 8;
+  string urlLogo = 9;
+  string remoteUrl = 10;
+  int32 remotePort = 11; 
+  string os = 12;
+  MapEApiPb mapEApi = 13;
+}
+*/
+
+message EActionItemPb {
+  string id = 1;    
+  int64 time = 2;     
+  uint32 version = 3;
+  EnumApiTypePb enumApiType = 4;
+  bool isOutput = 5;
+  bool isUrl = 6;
+  string typeExt = 7;  
+  bytes data = 8;  
+  MapEActionItemPb mapEActionItem = 9; //for  pattern
+}
+
+message MapEActionItemPb {
+  map<string, EActionItemPb> map = 1;
+}
+
+message EActionPb {
+
+  enum EnumActionStatus{
+    NONE = 0;
+    ERROR = 1;
+    PARTIAL = 2;
+    COMPLETE = 3;
+  }
+
+  string id = 1;    
+  int64 time = 2;     
+  uint32 version = 3;
+  string action = 4;  
+  EnumActionStatus enumActionStatus = 5;
+  MapEActionItemPb mapEActionItem = 6;
+}
