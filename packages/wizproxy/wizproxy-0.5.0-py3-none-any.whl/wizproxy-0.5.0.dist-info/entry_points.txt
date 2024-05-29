@@ -1,0 +1,3 @@
+[console_scripts]
+wizproxy=wizproxy.__main__:run
+
