@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_wordstonumbers/__init__.py
+src/apiverve_wordstonumbers/apiClient.py
+src/apiverve_wordstonumbers/exceptions.py
+src/apiverve_wordstonumbers/setup.py
+src/apiverve_wordstonumbers.egg-info/PKG-INFO
+src/apiverve_wordstonumbers.egg-info/SOURCES.txt
+src/apiverve_wordstonumbers.egg-info/dependency_links.txt
+src/apiverve_wordstonumbers.egg-info/top_level.txt
+src/apiverve_wordstonumbers/tests/__init__.py
+src/apiverve_wordstonumbers/tests/test_api.py
+tests/test_api.py
