@@ -1,0 +1,42 @@
+[build-system]
+build-backend = 'poetry.core.masonry.api'
+requires = ['poetry-core']
+
+[project]
+[project.urls]
+homepage = 'https://github.com/SonarSource/sonar-scanner-python'
+repository = 'https://github.com/SonarSource/sonar-scanner-python'
+
+[tool]
+[tool.black]
+line-length = 120
+target-version = ['py38', 'py39', 'py310', 'py311', 'py312']
+
+[tool.coverage]
+[tool.coverage.run]
+branch = true
+relative_files = true
+
+[tool.poetry]
+authors = ['Python Squad <analysis.python@sonarsource.com>']
+classifiers = ['Environment :: Console', 'Intended Audience :: Developers', 'Operating System :: OS Independent', 'Programming Language :: Python', 'Programming Language :: Python :: 3', 'Programming Language :: Python :: 3 :: Only', 'Programming Language :: Python :: 3.8', 'Programming Language :: Python :: 3.9', 'Programming Language :: Python :: 3.10', 'Programming Language :: Python :: 3.11', 'Programming Language :: Python :: 3.12', 'Topic :: Software Development :: Quality Assurance']
+description = 'Sonar Scanner for the Python Ecosystem'
+keywords = ['sonar', 'sonarqube', 'sonarcloud', 'cleancode']
+license = 'LGPL-3.0-only'
+name = 'pysonar-scanner'
+version = '0.0.1'
+
+
+[[tool.poetry.packages]]
+from = 'src'
+include = 'pysonar-scanner'
+
+
+[[tool.poetry.source]]
+name = 'jfrog-server'
+url = 'https://repox.jfrog.io/artifactory/api/pypi/sonarsource-pypi/simple'
+
+[tool.pytest]
+[tool.pytest.ini_options]
+addopts = ['--import-mode=importlib']
+pythonpath = ['src']
