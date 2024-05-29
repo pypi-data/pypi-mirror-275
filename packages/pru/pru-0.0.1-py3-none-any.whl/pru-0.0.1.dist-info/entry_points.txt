@@ -1,0 +1,2 @@
+[console_scripts]
+pru = pru.cli:main
