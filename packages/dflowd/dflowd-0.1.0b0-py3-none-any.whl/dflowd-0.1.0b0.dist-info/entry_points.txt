@@ -1,0 +1,3 @@
+[console_scripts]
+dflowd=app.cli:cli
+
