@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: five_1
+Version: 0.1.0
+Summary: 加减乘除和幂运算
+Home-page: https://github.com/yourusername/your_package
+Author: 0o0o
+Author-email: 2712919346@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
