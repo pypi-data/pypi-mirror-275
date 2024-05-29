@@ -1,0 +1,11 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+
+[dev]
+tox
+black
+isort
+pytest
