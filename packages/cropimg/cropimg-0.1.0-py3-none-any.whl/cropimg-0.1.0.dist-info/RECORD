@@ -1,0 +1,10 @@
+crop_image/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crop_image/crop_image.py,sha256=P6gs4mvVTU-B9UUZhu8MoxmcaklSML6ITIGlvqDaLj0,3380
+crop_image/update_image.py,sha256=PD7OsbCu7IF-giHM9xZ7HScKpm0c12I-2ZMEGafbck0,647
+crop_image/update_image_adb.py,sha256=esrU9JPFSgnsEL4CQ6_HcjrSRmwWCJDDaGTdvLW5hTk,660
+cropimg-0.1.0.dist-info/LICENSE,sha256=76oYS0IsdciJh_uXaZqKIwhpUfNO9GSFs6h61uVwHZA,1068
+cropimg-0.1.0.dist-info/METADATA,sha256=evWyxRTAkuTL1wVftYFQgB0XHibEQds8EP4FadGS2xE,440
+cropimg-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cropimg-0.1.0.dist-info/entry_points.txt,sha256=nj8nSHrurBGR4v-mm_s4yISEs7niTctnOE8ysUo6QtI,55
+cropimg-0.1.0.dist-info/top_level.txt,sha256=7MUzP-Ey_KEvW1essoqN5eBW0-bZDnz6V_zTm9cQaM0,11
+cropimg-0.1.0.dist-info/RECORD,,
