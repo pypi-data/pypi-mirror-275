@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: Dsend
+Version: 0.5
+Summary: until testing
+Home-page: https://github.com/Danyalss/my_library
+Author: Danyal
+Author-email: danyalsoltani87@gmail.com
+Requires-Dist: requests
+
