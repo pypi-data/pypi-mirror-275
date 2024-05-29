@@ -1,0 +1,77 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "md-lab-tools"
+dynamic = ["version"]
+requires-python = ">=3.8"
+authors = [
+  {name = "Jakub Krajniak", email = "jkrajniak@gmail.com"},
+  {name = "Zidan Zhang", email = "zidan.zhang@utexas.edu"},
+]
+description = "Basic molecular dynamics tools"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+classifiers = [
+  "Programming Language :: Python"
+]
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "networkx>=3.0",
+    "click>=8.0",
+    "h5py>=2.6",
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "md_tools._version.VERSION"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false
+
+[project.scripts]
+md_tools = "md_tools:cli.main"
+h5md_bond_list = "h5mdtools:h5md_bond_list.main"
+h5md_info = "h5mdtools:h5md_info.main"
+h5md_merge = "h5mdtools:h5md_merge.main"
+h5md_shrink = "h5mdtools:h5md_shrink.main"
+h5md_sort = "h5mdtools:h5md_sort.main"
+h5md_plot_data = "h5mdtools:h5md_plot_data.main"
+
+[tool.ruff]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pyenv",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages",
+    "venv",
+    "*.pyi",
+    "tests/*",
+    "scripts/*"
+]
+
+line-length = 120
