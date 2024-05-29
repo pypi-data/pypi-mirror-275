@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+assets/data-preprocessing-cover.png
+autoDATA-prep/__init__.py
+autoDATA-prep/python_code.py
+autoDATA_prep.egg-info/PKG-INFO
+autoDATA_prep.egg-info/SOURCES.txt
+autoDATA_prep.egg-info/dependency_links.txt
+autoDATA_prep.egg-info/not-zip-safe
+autoDATA_prep.egg-info/top_level.txt
