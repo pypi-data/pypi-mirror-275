@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_wordsextractor/__init__.py
+src/apiverve_wordsextractor/apiClient.py
+src/apiverve_wordsextractor/exceptions.py
+src/apiverve_wordsextractor/setup.py
+src/apiverve_wordsextractor.egg-info/PKG-INFO
+src/apiverve_wordsextractor.egg-info/SOURCES.txt
+src/apiverve_wordsextractor.egg-info/dependency_links.txt
+src/apiverve_wordsextractor.egg-info/top_level.txt
+src/apiverve_wordsextractor/tests/__init__.py
+src/apiverve_wordsextractor/tests/test_api.py
+tests/test_api.py
