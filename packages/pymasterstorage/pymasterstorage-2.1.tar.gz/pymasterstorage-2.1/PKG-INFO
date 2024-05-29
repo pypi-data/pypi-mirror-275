@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pymasterstorage
+Version: 2.1
+Summary: Master Storage checker
+Author: Fouad (Fouad Jabri)
+Author-email: <fouad.jabri@proton.me>
+Keywords: python,storage
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pywin32
