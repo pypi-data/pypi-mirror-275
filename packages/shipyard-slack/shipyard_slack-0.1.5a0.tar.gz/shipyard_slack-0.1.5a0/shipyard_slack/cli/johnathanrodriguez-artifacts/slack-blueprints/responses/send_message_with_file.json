@@ -1,0 +1,117 @@
+[
+    {
+        "ok": true,
+        "files": [
+            {
+                "id": "F075A83PPHC",
+                "created": 1716928020,
+                "timestamp": 1716928020,
+                "name": "test.txt",
+                "title": "test.txt",
+                "mimetype": "text/plain",
+                "filetype": "text",
+                "pretty_type": "Plain Text",
+                "user": "UTXQMB49E",
+                "user_team": "TJPTGTRGB",
+                "editable": true,
+                "size": 20,
+                "mode": "snippet",
+                "is_external": false,
+                "external_type": "",
+                "is_public": false,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https://files.slack.com/files-pri/TJPTGTRGB-F075A83PPHC/test.txt",
+                "url_private_download": "https://files.slack.com/files-pri/TJPTGTRGB-F075A83PPHC/download/test.txt",
+                "permalink": "https://shipyardapp.slack.com/files/UTXQMB49E/F075A83PPHC/test.txt",
+                "permalink_public": "https://slack-files.com/TJPTGTRGB-F075A83PPHC-b1517c546c",
+                "edit_link": "https://shipyardapp.slack.com/files/UTXQMB49E/F075A83PPHC/test.txt/edit",
+                "preview": "this is a newer test",
+                "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\">\n<div class=\"CodeMirror-code\">\n<div><pre>this is a newer test</pre></div>\n</div>\n</div>\n",
+                "lines": 1,
+                "lines_more": 0,
+                "preview_is_truncated": false,
+                "comments_count": 0,
+                "is_starred": false,
+                "shares": {
+                    "private": {
+                        "D05SQ863MUM": [
+                            {
+                                "reply_users": [],
+                                "reply_users_count": 0,
+                                "reply_count": 0,
+                                "ts": "1716928021.108479",
+                                "share_user_id": "UTXQMB49E",
+                                "source": "UNKNOWN"
+                            }
+                        ]
+                    }
+                },
+                "channels": [],
+                "groups": [],
+                "ims": [
+                    "D05SQ863MUM"
+                ],
+                "has_more_shares": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "file": {
+            "id": "F075A83PPHC",
+            "created": 1716928020,
+            "timestamp": 1716928020,
+            "name": "test.txt",
+            "title": "test.txt",
+            "mimetype": "text/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "UTXQMB49E",
+            "user_team": "TJPTGTRGB",
+            "editable": true,
+            "size": 20,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": false,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/TJPTGTRGB-F075A83PPHC/test.txt",
+            "url_private_download": "https://files.slack.com/files-pri/TJPTGTRGB-F075A83PPHC/download/test.txt",
+            "permalink": "https://shipyardapp.slack.com/files/UTXQMB49E/F075A83PPHC/test.txt",
+            "permalink_public": "https://slack-files.com/TJPTGTRGB-F075A83PPHC-b1517c546c",
+            "edit_link": "https://shipyardapp.slack.com/files/UTXQMB49E/F075A83PPHC/test.txt/edit",
+            "preview": "this is a newer test",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\">\n<div class=\"CodeMirror-code\">\n<div><pre>this is a newer test</pre></div>\n</div>\n</div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "comments_count": 0,
+            "is_starred": false,
+            "shares": {
+                "private": {
+                    "D05SQ863MUM": [
+                        {
+                            "reply_users": [],
+                            "reply_users_count": 0,
+                            "reply_count": 0,
+                            "ts": "1716928021.108479",
+                            "share_user_id": "UTXQMB49E",
+                            "source": "UNKNOWN"
+                        }
+                    ]
+                }
+            },
+            "channels": [],
+            "groups": [],
+            "ims": [
+                "D05SQ863MUM"
+            ],
+            "has_more_shares": false,
+            "has_rich_preview": false,
+            "file_access": "visible"
+        }
+    }
+]
