@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "pyadalight"
+version = "1.0.0b3"
+description = "Simple adalight (ambient light) software written in python."
+authors = ["RuslanUC <dev_ruslan_uc@protonmail.com>"]
+readme = "README.md"
+classifiers=[
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Topic :: Software Development :: Libraries',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Topic :: Utilities',
+]
+
+[tool.poetry.urls]
+Homepage = "https://github.com/pyAdaLight/pyadalight"
+Repository = "https://github.com/pyAdaLight/pyadalight"
+
+[tool.poetry.scripts]
+pyadalight = "pyadalight.main:main"
+pyada = "pyadalight.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyserial = "^3.5"
+mss = "^9.0.1"
+numpy = "^1.26.4"
+opencv-python = "^4.9.0.80"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
