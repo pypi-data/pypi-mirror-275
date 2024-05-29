@@ -1,0 +1,11 @@
+apiverve_wordpronunciation/__init__.py,sha256=rkCrHULZasVRPmW2lgwvQo_Ck79M172JsuidPT-jkO8,49
+apiverve_wordpronunciation/apiClient.py,sha256=Lo2hnYhFBHxv6tNDO8l4sfCLZXZcc3JXwVcGRoemmEQ,1233
+apiverve_wordpronunciation/exceptions.py,sha256=OjpxIOT7GrCyKod_Kv3LXWzM7Vfzu0Ni_HhJfibSIHo,117
+apiverve_wordpronunciation/setup.py,sha256=-kOodTvhpQDVlkMSiNCZAhPU2FPW4VXtWa6y1PV9HEQ,656
+apiverve_wordpronunciation/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_wordpronunciation/tests/test_api.py,sha256=9bX7eCD44lgbomXOD4xzcU7UZjBQ2RfddjpYeEA3WyM,635
+apiverve_wordpronunciation-1.0.11.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_wordpronunciation-1.0.11.dist-info/METADATA,sha256=t2y_wXZLZBzuIBgZZCQJQRTi-dGardcuLSKFBTcwH94,5310
+apiverve_wordpronunciation-1.0.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apiverve_wordpronunciation-1.0.11.dist-info/top_level.txt,sha256=2VfBgXvqB9hbqbfPlHxBn9squ2SdtTCkzeRKFO7K4K8,27
+apiverve_wordpronunciation-1.0.11.dist-info/RECORD,,
