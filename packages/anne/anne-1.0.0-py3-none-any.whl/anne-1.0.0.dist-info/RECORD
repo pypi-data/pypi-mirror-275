@@ -1,0 +1,13 @@
+anne/__init__.py,sha256=C1DJYetSn458Evo4jmXcHLyhAsYrZlPyA5UI3F81FDU,64
+anne/browser/__init__.py,sha256=BW-RlcWDk5Vr8BmL39f3hN0o0z08JJrUpW919VXsXnc,42
+anne/browser/src/AnneBrowser.py,sha256=6YnRUxvv091HTEEVoGZGRU9RBV1vqyG-ASaT0niu6NA,16592
+anne/browser/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anne/browser/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anne/browser/test/test_AnneBrowser.py,sha256=YE6s2QjWQE2v8FIj9caED4C-8hzs1GhatMVXpoJjxkQ,875
+anne/proxy/AnneProxy.py,sha256=kcCCuGqZbSTebEwSVf9eTDd6PTk7S4m9o2reKMIOM0Y,83
+anne/proxy/__init__.py,sha256=T4kztVIIyx1UOB0OZ_3VNYQ_MCJocxhcLxsLXaSqGQA,26
+anne-1.0.0.dist-info/LICENSE,sha256=3Um27ThQ_5sjfIkmvXPKtZp6xm6Ruow8w9IXo_XSm_A,1090
+anne-1.0.0.dist-info/METADATA,sha256=ZdUQhSUDg8ShBZ-1So_0o0oKoRlPsIWyRIe5yrk1n7A,1627
+anne-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+anne-1.0.0.dist-info/top_level.txt,sha256=icvSYSl7cikKk5zAC0XRwEtg3R8CkoDYv2LXrEfL9Yo,5
+anne-1.0.0.dist-info/RECORD,,
