@@ -1,0 +1,11 @@
+apiverve_usernameprofanitychecker/__init__.py,sha256=oaza7VTIukifXS8q3csHOajTsW87CHXTCIUP1843sZo,49
+apiverve_usernameprofanitychecker/apiClient.py,sha256=QdjMcefcIki-uYgK8SOcyBh4EbYM6CdTkamdUmvLxyc,1233
+apiverve_usernameprofanitychecker/exceptions.py,sha256=rSqk7u0cc9n6jsj6N9zrh_Z8VnZQeeSHcEVz_BCqS-k,124
+apiverve_usernameprofanitychecker/setup.py,sha256=U7pm_CVDMixf7GzBzL6nbdkbRl_WOwow8RhK3-FLdYI,691
+apiverve_usernameprofanitychecker/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_usernameprofanitychecker/tests/test_api.py,sha256=-srlwnrl-b9XpjaY9azTEKFpAjL6EYt0pE-mGCVop0U,642
+apiverve_usernameprofanitychecker-1.0.11.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_usernameprofanitychecker-1.0.11.dist-info/METADATA,sha256=ERab6noda9-M9Rh6ttQQ1XaCr3F6G9uYQ9Ope4HIu2k,5444
+apiverve_usernameprofanitychecker-1.0.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apiverve_usernameprofanitychecker-1.0.11.dist-info/top_level.txt,sha256=ft2-yqskamUUwgaiv5uHAUl7TgkiknVr9setvcegJLM,34
+apiverve_usernameprofanitychecker-1.0.11.dist-info/RECORD,,
