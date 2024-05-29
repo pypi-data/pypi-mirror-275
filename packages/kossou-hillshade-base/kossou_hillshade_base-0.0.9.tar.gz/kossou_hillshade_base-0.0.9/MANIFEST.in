@@ -1,0 +1,2 @@
+graft src/kossou_hillshade_base/static
+global-exclude *.pyc
