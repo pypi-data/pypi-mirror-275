@@ -1,0 +1,9 @@
+setuptools==69.5.1
+cryptography==36.0.1
+click==8.0.4
+intelhex==2.3.0
+python-jose==3.3.0
+jsonschema<=4.22.0,>=4.0.0
+cbor==1.0.0
+packaging==21.3
+lief==0.14.1
