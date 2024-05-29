@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+aiodatabase/__init__.py
+aiodatabase/dataConnector.py
+aiodatabase/database.py
+aiodatabase.egg-info/PKG-INFO
+aiodatabase.egg-info/SOURCES.txt
+aiodatabase.egg-info/dependency_links.txt
+aiodatabase.egg-info/requires.txt
+aiodatabase.egg-info/top_level.txt
+aiodatabase/manager/__init__.py
+aiodatabase/manager/configManager.py
+aiodatabase/sqlite3/__init__.py
+aiodatabase/sqlite3/sqlLoader.py
