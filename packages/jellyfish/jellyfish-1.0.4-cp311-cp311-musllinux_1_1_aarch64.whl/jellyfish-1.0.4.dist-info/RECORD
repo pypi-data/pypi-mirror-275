@@ -1,0 +1,10 @@
+jellyfish-1.0.4.dist-info/METADATA,sha256=IPTBI-rQ38lvSSHwnKpiDbjNZLqtqSUIoJ9tskmTi7M,2544
+jellyfish-1.0.4.dist-info/WHEEL,sha256=53bkjCd1U4Eq2vi2mkJdRNe_AdzwODqCOHLTcJKQFpU,108
+jellyfish-1.0.4.dist-info/license_files/LICENSE,sha256=aEvaTwAJKvu1SGNW0ODpW3kJ0XSWER0yJo5DjsXWGOA,1067
+jellyfish.libs/libgcc_s-60abea67.so.1,sha256=5Ymeh-PwFBkI5B-deNMLyVYu2EYmgIu7iQGitm7d2t4,724137
+jellyfish/__init__.py,sha256=YjNVQBPjxvPaF9VDDFc-wOiEiWBb_sQ4XszEn0CcOtM,68
+jellyfish/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jellyfish/_jellyfish.py,sha256=8Sl_wlLa-60JZvmrXVXhtQ_3ACR0mxhEQjXR4aHTm2A,13253
+jellyfish/__init__.pyi,sha256=9NHA4mJaDfi7Cd89ROwxL20_w19A9QDgcGsLZy1yBAo,508
+jellyfish/_rustyfish.cpython-311-aarch64-linux-musl.so,sha256=4oLruEEibOtVWIEPMp8k74OYTAsqaVSU3DPYLMdEDAA,4393209
+jellyfish-1.0.4.dist-info/RECORD,,
