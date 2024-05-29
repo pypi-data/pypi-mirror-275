@@ -1,0 +1,8 @@
+flask
+jinja2
+requests
+diffusers
+torch
+GPUtil
+numba
+flask-cors
