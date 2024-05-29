@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: numpyascii_package_GonenRaveh
+Version: 1.0.2
+Summary: Helper Python packages for 1D, 2D and 3D numpy matrices
+Author-email: Gonen Raveh <gonen.raveh@gmail.com>
+License: Copyright (c) 2018 The Python Packaging Authority
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/gonenraveh/numpyascii
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# pyregression Package
+
+Logistic Regression (aka logit, MaxEnt) classifier.
+In the multiclass case, the training algorithm uses the one-vs-rest (OvR) 
+scheme if the ‘multi_class’ option is set to ‘ovr’, and uses the 
+cross-entropy loss if the ‘multi_class’ option is set to ‘multinomial’. 
+(Currently the ‘multinomial’ option is supported only by the ‘lbfgs’, ‘sag’, ‘saga’ and ‘newton-cg’ solvers.)
+This class implements regularized logistic regression using the ‘liblinear’ 
+library, ‘newton-cg’, ‘sag’, ‘saga’ and ‘lbfgs’ solvers. Note that regularization 
+is applied by default. It can handle both dense and sparse input. Use C-ordered 
+arrays or CSR matrices containing 64-bit floats for optimal performance; any other 
+input format will be converted (and copied).
+The ‘newton-cg’, ‘sag’, and ‘lbfgs’ solvers support only L2 regularization with 
+primal formulation, or no regularization. The ‘liblinear’ solver supports both 
+L1 and L2 regularization, with a dual formulation only for the L2 penalty. 
+The Elastic-Net regularization is only supported by the ‘saga’ solver.
