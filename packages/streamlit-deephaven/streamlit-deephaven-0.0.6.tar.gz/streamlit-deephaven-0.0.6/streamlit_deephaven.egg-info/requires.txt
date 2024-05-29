@@ -1,0 +1,2 @@
+deephaven-server>=0.23.0
+streamlit>=0.63

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: streamlit-deephaven
+Version: 0.0.6
+Summary: Streamlit Deephaven Component
+Home-page: https://github.com/deephaven/streamlit-deephaven
+Author: Deephaven Data Labs
+Author-email: support@deephaven.io
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+License-File: LICENSE
+
+Use Deephaven within Streamlit and display widgets
+
