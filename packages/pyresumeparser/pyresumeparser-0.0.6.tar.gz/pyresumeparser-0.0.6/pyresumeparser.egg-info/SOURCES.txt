@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyresumeparser/__init__.py
+pyresumeparser/main.py
+pyresumeparser.egg-info/PKG-INFO
+pyresumeparser.egg-info/SOURCES.txt
+pyresumeparser.egg-info/dependency_links.txt
+pyresumeparser.egg-info/entry_points.txt
+pyresumeparser.egg-info/requires.txt
+pyresumeparser.egg-info/top_level.txt
