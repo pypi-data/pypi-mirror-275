@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: dokku-py
+Version: 0.1.0
+Summary: Python version of the Dokku CLI
+Home-page: https://github.com/search5/dokku-py
+License: BSD-3-Clause
+Keywords: dokku
+Author: lee ji-ho
+Author-email: search5@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: System Shells
+Classifier: Topic :: Utilities
+Project-URL: Repository, https://github.com/search5/dokku-py
+Description-Content-Type: text/markdown
+
+# Dokku CLI Python
+
+This program is a Python reimplementation of dokku's CLI program.
+
+We expect it to work on the following operating systems:
+
+1. Windows 10 or later
+1. macOS
+1. Debian/Ubuntu, RHEL/Cent/Rocky, etc.
+
+This program requires Python 3.10 or later. 
+
+And you should be able to use ssh and git commands.
+
+## Installation
+
+We recommend pipx as the method for installing this program. This assumes that you have pipx installed.
+
+```shell
+$ pipx install dokku-py
+```
+
+## Usage
+
+Simply run the dokku command in your shell. For the available commands, see the documentation on the dokku homepage.
+
+```shell
+$ dokku command
+```
+
+## Contributing
+
+If you find a bug in this program or a feature you'd like to see added, please write an issue.
+
