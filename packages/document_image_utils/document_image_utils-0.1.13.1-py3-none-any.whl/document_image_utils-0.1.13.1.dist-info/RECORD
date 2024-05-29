@@ -1,0 +1,12 @@
+document_image_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+document_image_utils/box.py,sha256=DBZqd-4uzxRK0UD1p-Xgl1KiauuOe4Bh7UmHtBE8rSc,11098
+document_image_utils/image.py,sha256=xclt_uLyQXpZ1ydrU88nIwtur-_ej6YJgRsFDwucWR8,29976
+document_image_utils/leptonica_lib/tempCodeRunnerFile.sh,sha256=t3NJvx-psm1F1UXX1k2tlnN-nPuzy7X10Q-3ew_MRK0,3
+document_image_utils/scripts/auto_crop/__init__.py,sha256=QBG4gCMOomp08ahykfd8yI1VaC-NrToAQclJWqilRxk,2051
+document_image_utils/scripts/binarize/__init__.py,sha256=qXH4hSeZusUSjBvz9liUVpIyDsLKYfQZFB4JCnhxQkQ,1811
+document_image_utils/scripts/rotate_document/__init__.py,sha256=y_hwoYXItYK_lWl9yTlxuNhlVWjkSFP2uyXpL1wGXWI,2936
+document_image_utils/scripts/split_columns/__init__.py,sha256=gh9jC59yvKCtNWDO4BTytEAMv-PTDImiuwGc53F0MFw,1903
+document_image_utils-0.1.13.1.dist-info/entry_points.txt,sha256=LyCugLLC2Yod4GiSDGoBYMTePlzfjoPs5jHvp4tdrJw,253
+document_image_utils-0.1.13.1.dist-info/METADATA,sha256=8T2bGIfsQmkYnYMcnRV0-V_ZCMVoZg9LxlQglhtpdPQ,1354
+document_image_utils-0.1.13.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+document_image_utils-0.1.13.1.dist-info/RECORD,,
