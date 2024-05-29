@@ -1,0 +1,8 @@
+aggregate_root/__init__.py,sha256=PDY2fTnaYVgOC-m7t7M72agni7ecqzaXbSIek6ED_s4,173
+aggregate_root/aggregate_root.py,sha256=onMN1KMXsuc6TpErw8V43MKnLCuHe3lkU9LAV7ZFnI0,12751
+aggregate_root/domain_event.py,sha256=3_j7oeMBuY3m8ge3cukneDWvHRjyCCLgKd6p5YDr4fY,3217
+aggregate_root/repository.py,sha256=KVHbtwlYvzOn8avvkeIY6o9Wt6SN9tJt6LHo0qOOXRA,1437
+aggregate_root-0.0.5.dist-info/METADATA,sha256=MyVlATkIiXvtaaHGFAq3h5oHoo6X-MZxqf28s0Xl0oc,11352
+aggregate_root-0.0.5.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+aggregate_root-0.0.5.dist-info/licenses/LICENSE,sha256=Wbu5BTaztYtomQy202l2CGPbO1Fm-qEGFIcIiqmcIbY,1072
+aggregate_root-0.0.5.dist-info/RECORD,,
