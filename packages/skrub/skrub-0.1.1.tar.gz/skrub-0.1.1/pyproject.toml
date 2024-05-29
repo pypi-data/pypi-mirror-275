@@ -1,0 +1,55 @@
+[build-system]
+# Minimum requirements for the build system to execute.
+requires = [
+    "setuptools",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 88
+target_version = ['py310', 'py311']
+preview = true
+# Exclude irrelevant directories for formatting
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.mypy_cache
+  | \.vscode
+  | \.pytest_cache
+  | \.idea
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    # Turn deprecation warnings into errors
+    "error::FutureWarning",
+    "error::DeprecationWarning",
+    "error::numpy.VisibleDeprecationWarning",
+
+    # Ignore warning from np.in1d since the future behavior is already the desired
+    # behavior. TODO remove when numpy min version >= 1.25.
+    'ignore:elementwise\ comparison\ failed:FutureWarning',
+    # TODO remove when pandas min version >= 2.2.0
+    'ignore:.*utcfromtimestamp\(\) is deprecated.*:DeprecationWarning',
+    # TODO remove when joblib min version >= 1.4.0
+    'ignore:.*ast\.Num is deprecated.*:DeprecationWarning',
+    # TODO remove when joblib min version >= 1.4.0
+    'ignore:.*ast\.NameConstant is deprecated.*:DeprecationWarning',
+    # TODO remove when joblib min version >= 1.4.0
+    'ignore:.*Attribute n is deprecated.*:DeprecationWarning',
+    # FIXME we need to decided what to do with pyarrow that is required by pandas >= 3.0
+    'ignore:(?s).*Pyarrow will become a required dependency of pandas.*:DeprecationWarning',
+    # accessing .values on a pandas dataframe raises this warning after numpy 1.25;
+    # should be addressed in pandas
+    'ignore:np.find_common_type is deprecated.*:DeprecationWarning'
+]
+addopts = "--doctest-modules"
+doctest_optionflags = "NORMALIZE_WHITESPACE ELLIPSIS"
