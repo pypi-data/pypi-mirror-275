@@ -1,0 +1,14 @@
+gisco_geodata/__init__.py,sha256=3M1KzjK2T83_4XZI7Q4auaCd3MpNR5zy0ibaY6iRfsk,593
+gisco_geodata/parser.py,sha256=EAF-xDHAq8GrWbgZM1hQr3Ydnxhwlm-N-LDEU6G7n1k,1993
+gisco_geodata/theme.py,sha256=UfdOORKEBMgztHyibHYCROQQFT7uqp356fBEp5_bkj8,26850
+gisco_geodata/utils.py,sha256=XtDVjXDNgicUqHXquZMIdN4yWS0XLDKN3QTDqhTcdm8,1918
+gisco_geodata/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gisco_geodata/tests/test_examples.py,sha256=7rN3lKML2z36-0s3r4K_RFam5cCKlEoCWKrtnHtrHoA,1044
+gisco_geodata/tests/test_properties.py,sha256=vYd-uyVuHw-VApGWQz1gcBLp4SYuRvnjX6lRTO28OIs,1605
+gisco_geodata/tests/test_set.py,sha256=Y6zlxGkfHhPPiPViV_yYshG2GtkysQeP4gYTkmqa3Lk,898
+gisco_geodata/tests/test_units.py,sha256=CZgCOD3rcBuc-gfly0mRc5Rz5C2LXlCWoBbLxROgMTI,1222
+gisco_geodata-0.1.0.dist-info/LICENSE,sha256=3otsbo5KBU0TfKlxcfCRcjYVKA9IWZ5Ow6F8fGR5U5E,1077
+gisco_geodata-0.1.0.dist-info/METADATA,sha256=l28jGWNANL-psy1op5mwsOOWh1tyPVjWl0HSTP8k4z0,4656
+gisco_geodata-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gisco_geodata-0.1.0.dist-info/top_level.txt,sha256=eCPwsaQL2vo930_4a_oluqquXH7mIFAJ9DPLEeyED3g,14
+gisco_geodata-0.1.0.dist-info/RECORD,,
