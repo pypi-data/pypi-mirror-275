@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: differentiable-voronoi
+Version: 0.0.1
+Summary: differentiable Voronoi tessellation
+Home-page: https://github.com/SergeiShumilin/differentiable-voronoi
+Author: Sergei Shumilin
+Author-email: ishumili@gmail.com
+
