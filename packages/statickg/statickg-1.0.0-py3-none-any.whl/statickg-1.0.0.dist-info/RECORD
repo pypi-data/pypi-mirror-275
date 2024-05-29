@@ -1,0 +1,17 @@
+statickg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+statickg/__main__.py,sha256=zLWEcUb2QtcsS6VP7zoINDjoGUJxhD1KMruagE_UkD8,1860
+statickg/helper.py,sha256=xKZ8Sa5a-l7rHhCdap1_H5iVJ8e0P_eqOGuPP9tTOww,4857
+statickg/main.py,sha256=qe5---P6QDVTqaq-Sa8lLelqspcIXE4mne7lj3X93Io,2203
+statickg/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+statickg/models/etl.py,sha256=MxkkILU7kqX_VpxdoI2gqSWlkcxiUCfjoJZxd20WQME,2812
+statickg/models/input_file.py,sha256=4QDH_nqSJNEcZeLDsQhWTAsCnE95BICpz4-Lfkoz4to,897
+statickg/models/prelude.py,sha256=yDaQDKu0bCNMjSGi82DEdRXTKEpp9uunfh2MV8s-osU,438
+statickg/models/repository.py,sha256=hFJ0Om2IBstMp8j3yXLa09hs6Fy_gQnuP2RBdoALMAE,2318
+statickg/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+statickg/services/copy.py,sha256=tY6UD9zAZCCI6LlYHshJjC_biNqiJtZlMIfZVgUsE9M,1588
+statickg/services/drepr.py,sha256=7vr6gwRCzq-q1V6DuA8-g0a1B-n4pe5I7PSjDGuyx5Q,5384
+statickg/services/interface.py,sha256=eEkevAp7g2qvWjEj-W3lmIZNF-xtSez1QifgO_ms4Dg,3697
+statickg/services/sh.py,sha256=ZoQjGlTzPbvqrZegXSPNFdPOD2AzJ45zyRNLSb2a4-E,2091
+statickg-1.0.0.dist-info/METADATA,sha256=8x5h4E-8JehxyD6sjtLk8HdV3G-11lKWjZE9VoW34lM,685
+statickg-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+statickg-1.0.0.dist-info/RECORD,,
