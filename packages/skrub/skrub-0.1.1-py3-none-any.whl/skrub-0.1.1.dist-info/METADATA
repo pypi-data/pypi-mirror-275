@@ -1,0 +1,176 @@
+Metadata-Version: 2.1
+Name: skrub
+Version: 0.1.1
+Summary: Prepping tables for machine learning
+Author: Patricio Cerda
+Author-email: patricio.cerda@inria.fr
+License: BSD
+Project-URL: Homepage, https://skrub-data.org/
+Project-URL: Source, https://github.com/skrub-data/skrub
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: scikit-learn >=1.2.1
+Requires-Dist: numpy >=1.23.5
+Requires-Dist: scipy >=1.9.3
+Requires-Dist: pandas >=1.5.3
+Requires-Dist: packaging >=23.1
+Provides-Extra: benchmarks
+Requires-Dist: numpy ; extra == 'benchmarks'
+Requires-Dist: pandas ; extra == 'benchmarks'
+Requires-Dist: matplotlib ; extra == 'benchmarks'
+Requires-Dist: seaborn ; extra == 'benchmarks'
+Requires-Dist: tqdm ; extra == 'benchmarks'
+Requires-Dist: thefuzz ; extra == 'benchmarks'
+Requires-Dist: autofj ; extra == 'benchmarks'
+Requires-Dist: pyarrow ; extra == 'benchmarks'
+Requires-Dist: loguru ; extra == 'benchmarks'
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-xdist ==2.5.0 ; extra == 'dev'
+Requires-Dist: pytest-xdist[psutil] ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: numpydoc ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: openml ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx-gallery ; extra == 'doc'
+Requires-Dist: pydata-sphinx-theme ; extra == 'doc'
+Requires-Dist: sphinxext-opengraph ; extra == 'doc'
+Requires-Dist: sphinx-copybutton ; extra == 'doc'
+Requires-Dist: matplotlib ; extra == 'doc'
+Requires-Dist: seaborn ; extra == 'doc'
+Requires-Dist: statsmodels ; extra == 'doc'
+Requires-Dist: numpydoc ; extra == 'doc'
+Requires-Dist: jupyterlite-sphinx ; extra == 'doc'
+Requires-Dist: jupyterlite-pyodide-kernel ; extra == 'doc'
+Requires-Dist: pyarrow ; extra == 'doc'
+Provides-Extra: min-py310
+Requires-Dist: scikit-learn ==1.2.1 ; extra == 'min-py310'
+Requires-Dist: numpy ==1.23.5 ; extra == 'min-py310'
+Requires-Dist: scipy ==1.9.3 ; extra == 'min-py310'
+Requires-Dist: pandas ==1.5.3 ; extra == 'min-py310'
+Provides-Extra: polars
+Requires-Dist: pyarrow ; extra == 'polars'
+Requires-Dist: polars ; extra == 'polars'
+Provides-Extra: pyarrow
+Requires-Dist: pyarrow ; extra == 'pyarrow'
+
+`skrub`
+=======
+
+.. image:: https://skrub-data.github.io/stable/_static/skrub.svg
+   :align: center
+   :width: 50 %
+   :alt: skrub logo
+
+
+|py_ver| |pypi_var| |pypi_dl| |codecov| |circleci| |black|
+
+.. |py_ver| image:: https://img.shields.io/pypi/pyversions/skrub
+.. |pypi_var| image:: https://img.shields.io/pypi/v/skrub?color=informational
+.. |pypi_dl| image:: https://img.shields.io/pypi/dm/skrub
+.. |codecov| image:: https://img.shields.io/codecov/c/github/skrub-data/skrub/main
+.. |circleci| image:: https://img.shields.io/circleci/build/github/skrub-data/skrub/main?label=CircleCI
+.. |black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
+
+
+`skrub <https://skrub-data.github.io/>`_ (formerly *dirty_cat*) is a Python
+library that facilitates prepping your tables for machine learning.
+
+If you like the package, spread the word and ⭐ this repository!
+
+What can `skrub` do?
+--------------------
+
+`skrub` provides data assembling tools (``TableVectorizer``, ``fuzzy_join``...) and
+encoders (``GapEncoder``, ``MinHashEncoder``...) for **morphological similarities**,
+for which we usually identify three common cases: **similarities, typos and variations**
+
+See our `examples <https://skrub-data.org/stable/auto_examples>`_.
+
+What `skrub` cannot do
+~~~~~~~~~~~~~~~~~~~~~~
+
+`Semantic similarities <https://en.wikipedia.org/wiki/Semantic_similarity>`_
+are currently not supported.
+For example, the similarity between *car* and *automobile* is outside the reach
+of the methods implemented here.
+
+This kind of problem is tackled by
+`Natural Language Processing <https://en.wikipedia.org/wiki/Natural_language_processing>`_
+methods.
+
+`skrub` can still help with handling typos and variations in this kind of setting.
+
+For a detailed description of the problem of encoding dirty categorical data, see
+`Similarity encoding for learning with dirty categorical variables <https://hal.inria.fr/hal-01806175>`_ [1]_
+and `Encoding high-cardinality string categorical variables <https://hal.inria.fr/hal-02171256v4>`_ [2]_.
+
+Installation
+------------
+
+The easiest way to install skrub is via `pip`:
+
+.. code-block:: shell
+
+    pip install skrub -U
+
+
+or `conda`:
+
+.. code-block:: shell
+
+    conda install -c conda-forge skrub
+
+
+The documentation includes more detailed `installation instructions <https://skrub-data.github.io/install.html>`_.
+
+
+
+Dependencies
+~~~~~~~~~~~~
+
+Dependencies and minimal versions are listed in the `setup <https://github.com/skrub-data/skrub/blob/main/setup.cfg#L27>`_ file.
+
+Related projects
+----------------
+
+Are listed on the `skrub's website <https://skrub-data.github.io/stable/#related-projects>`_
+
+Contributing
+------------
+
+The best way to support the development of skrub is to spread the word!
+
+Also, if you already are a skrub user, we would love to hear about your use cases and challenges in the `Discussions <https://github.com/skrub-data/skrub/discussions>`_ section.
+
+To report a bug or suggest enhancements, please
+`open an issue <https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue>`_ and/or
+`submit a pull request <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request>`_.
+
+Additional resources
+--------------------
+
+* `Introductory video (YouTube) <https://youtu.be/_GNaaeEI2tg>`_
+* `JupyterCon 2023 talk (YouTube) <https://youtu.be/lvDN0wgTpeI>`_
+* `EuroSciPy 2023 poster (Dropbox) <https://www.dropbox.com/scl/fi/89tapbshxtw0kh5uzx8dc/Poster-Euroscipy-2023.pdf?rlkey=u4ycpiyftk7rzttrjll9qlrkx&dl=0>`_
+
+References
+----------
+
+.. [1] Patricio Cerda, Gaël Varoquaux, Balázs Kégl. Similarity encoding for learning with dirty categorical variables. 2018. Machine Learning journal, Springer.
+.. [2] Patricio Cerda, Gaël Varoquaux. Encoding high-cardinality string categorical variables. 2020. IEEE Transactions on Knowledge & Data Engineering.
