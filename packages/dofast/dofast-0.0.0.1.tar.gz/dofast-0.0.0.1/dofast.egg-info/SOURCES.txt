@@ -1,0 +1,7 @@
+README.md
+setup.py
+dofast/__init__.py
+dofast.egg-info/PKG-INFO
+dofast.egg-info/SOURCES.txt
+dofast.egg-info/dependency_links.txt
+dofast.egg-info/top_level.txt
