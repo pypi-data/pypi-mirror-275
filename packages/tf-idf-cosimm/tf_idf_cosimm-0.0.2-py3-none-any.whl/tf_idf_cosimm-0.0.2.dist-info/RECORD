@@ -1,0 +1,9 @@
+tf_idf/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+tf_idf/_modidx.py,sha256=OZuhXgPRncDs9RRQ2frX_W-X-mNpFxUcfpTV7AulETw,613
+tf_idf/core.py,sha256=QQwIJfzNqXEdVOQSU1ZnpDnICMMN5nie5MN0FbhdMis,3448
+tf_idf_cosimm-0.0.2.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+tf_idf_cosimm-0.0.2.dist-info/METADATA,sha256=DRJhE3YcZViNAwxTLvsE6et3n47thjCVGo72q5KjQ-E,11629
+tf_idf_cosimm-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tf_idf_cosimm-0.0.2.dist-info/entry_points.txt,sha256=nF0ZptFQr_oZY8Bc-CCAmyU-NtG-2SzsdkjMehoUXU8,34
+tf_idf_cosimm-0.0.2.dist-info/top_level.txt,sha256=13D7wzCevA0GxOTjPHFT1As0M02_bqEKnT4a10IxPUA,7
+tf_idf_cosimm-0.0.2.dist-info/RECORD,,
