@@ -1,0 +1,1 @@
+from pymasterstorage.main import initstorage

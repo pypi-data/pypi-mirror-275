@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+pymasterstorage/DataTypes.py
+pymasterstorage/__init__.py
+pymasterstorage/main.py
+pymasterstorage/storage.py
+pymasterstorage.egg-info/PKG-INFO
+pymasterstorage.egg-info/SOURCES.txt
+pymasterstorage.egg-info/dependency_links.txt
+pymasterstorage.egg-info/requires.txt
+pymasterstorage.egg-info/top_level.txt
