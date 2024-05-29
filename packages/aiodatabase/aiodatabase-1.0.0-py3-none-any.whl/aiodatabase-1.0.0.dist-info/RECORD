@@ -1,0 +1,12 @@
+aiodatabase/__init__.py,sha256=lX2Pm_DzlOwFsO4q2-Jlrd7cdZtCLM9kXElyFWbtPlg,89
+aiodatabase/dataConnector.py,sha256=BLt_XcBVMGglGzwBZjR2TrcWL52f-Rh3UPpaAf61V1k,1849
+aiodatabase/database.py,sha256=HLb9O60WoLOJswiudKbJVtHUJwbXnvuMFu6stkw_JuM,4604
+aiodatabase/manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiodatabase/manager/configManager.py,sha256=FQh7proiD8T-mMUAIlJnLIGkb0WhfOBF6-jgnZotbc0,2724
+aiodatabase/sqlite3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiodatabase/sqlite3/sqlLoader.py,sha256=NBd1IX0kdXyzqSYA_naXoQ0uVoT8JX9NbTYa76mY3fk,1323
+aiodatabase-1.0.0.dist-info/LICENSE,sha256=etwDNN4u-66E6PELoaSdcxEbDvqOfgDqKGIy4jpYyOg,1100
+aiodatabase-1.0.0.dist-info/METADATA,sha256=ZeFu6iSu-MikH3LXZozJ3VZ0p78OJVo-dkE62n4Yd9o,1658
+aiodatabase-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+aiodatabase-1.0.0.dist-info/top_level.txt,sha256=imUqnBrgMN9P-eYx0p9arwRTq1iv6nwRX8-VArXv0WY,12
+aiodatabase-1.0.0.dist-info/RECORD,,
