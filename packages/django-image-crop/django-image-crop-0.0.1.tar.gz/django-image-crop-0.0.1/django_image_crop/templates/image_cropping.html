@@ -1,0 +1,199 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static "admin/css/base.css" %}">
+
+<div class="image-field">
+  <label for="image-input"></label>
+  <input
+      id="image-input"
+      type="{{ widget.type }}"
+      name="{{ widget.name }}"
+      accept="image/*"
+  >
+  <label for="{{ widget.checkbox_id }}"></label>
+  <input type="checkbox" name="{{ widget.checkbox_name }}" id="{{ widget.checkbox_id }}"/>
+</div>
+
+<div id="add-image">
+  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus-lg"
+       viewBox="0 0 16 16">
+    <path fill-rule="evenodd"
+          d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"></path>
+  </svg>
+</div>
+
+<div id="show-image">
+  <div id="mask">
+    <i id="deleteBtn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-trash3"
+           viewBox="0 0 16 16">
+        <path
+            d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z"></path>
+      </svg>
+    </i>
+  </div>
+  <img id="crop-image" src="" alt="{{ widget.name }}">
+</div>
+
+<!-- Modal -->
+<div class="modal fade"
+     id="cropperModal"
+     tabindex="-1"
+     aria-labelledby="cropperModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="cropperModalLabel">图片裁剪</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img id="proto-image" src="" alt="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">取消</button>
+        <button id="confirmBtn" type="button" class="btn btn-primary">确认</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  /**
+   * 上传图片input实例
+   */
+  const imageInput = $("#image-input")
+
+  /**
+   * 清除按钮实例
+   */
+  const clearInput = $("#{{ widget.checkbox_id }}")
+
+  /**
+   * 图片显示容器实例
+   */
+  const showImage = $("#show-image")
+  showImage.hide()
+
+  /**
+   * 裁剪前的图片实例
+   */
+  const protoImage = $("#proto-image")
+
+  /**
+   * 裁剪后的图片实例
+   */
+  const cropImage = $("#crop-image")
+
+  // 模态框实例
+  const cropperModal = $("#cropperModal")
+
+  /**
+   * 添加图片按钮实例
+   */
+  const addImage = $("#add-image")
+  addImage.hide()
+
+  /**
+   * 打开文件管理器
+   */
+  addImage.on("click", () => imageInput && imageInput.click())
+
+  /**
+   * 选择图片后，显示图片裁剪模态框
+   */
+  let cropper
+  imageInput.on("change", () => {
+    // cropper存在则销毁
+    cropper && cropper.destroy()
+
+    const files = imageInput.prop("files")
+
+    if (files.length > 0) {
+      const image = files[0]
+
+      protoImage.attr("alt", image.name)
+      protoImage.attr("src", URL.createObjectURL(image))
+
+      setTimeout(() => {
+        cropper = new Cropper(protoImage[0])
+      }, 250)
+
+      cropperModal.modal("show")
+    }
+  })
+
+  /**
+   * 模态框确认按钮事件
+   */
+  $("#confirmBtn").on("click", () => cropper && saveImage())
+
+  /**
+   * base64转files
+   */
+  const base64ToFile = (base64, fileName) => {
+    const arr = base64.split(",");
+    const mime = arr[0].match(/:(.*?);/)[1];
+    const bStr = atob(arr[1]);
+    let n = bStr.length;
+    const u8arr = new Uint8Array(n);
+    while (n--) {
+      u8arr[n] = bStr.charCodeAt(n);
+    }
+    return new File([u8arr], fileName, {type: mime});
+  }
+
+  // 创建definePropertyFn来挟持数据
+  function definePropertyFn() {
+    let obj = {}
+    let val = null
+
+    Object.defineProperties(obj, {
+      val: {
+        set(newV) {
+          if (newV.indexOf('data:image/png;base64') !== -1 || newV === '') {
+            val = newV
+          } else if (newV === "None") {
+            val = ''
+          } else {
+            val = `/media/${newV}`
+          }
+
+          // 图片显示状态
+          if (val) {
+            showImage.show()
+            addImage.hide()
+            clearInput[0].checked = false
+          } else {
+            showImage.hide()
+            addImage.show()
+            clearInput[0].checked = true
+          }
+
+          cropImage.attr("src", val)
+        }
+      }
+    })
+
+    return obj
+  }
+
+  let cropImageObj = definePropertyFn()
+  cropImage[0].src = cropImageObj.val
+
+  cropImageObj.val = "{{ widget.value }}"
+
+  /**
+   * 保存裁剪的图片，待上传
+   */
+  const saveImage = () => {
+    cropImageObj.val = cropper.getCroppedCanvas().toDataURL()
+    const imageFile = base64ToFile(cropImage[0].src, protoImage.prop("alt"))
+    let fileList = new DataTransfer()
+    fileList.items.add(imageFile)
+    imageInput[0].files = fileList.files
+    cropperModal.modal("hide")
+  }
+
+  $("#deleteBtn").on("click", () => cropImageObj.val = '')
+</script>
