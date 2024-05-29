@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+cbar_currency_rates/__init__.py
+cbar_currency_rates/rates.py
+cbar_currency_rates.egg-info/PKG-INFO
+cbar_currency_rates.egg-info/SOURCES.txt
+cbar_currency_rates.egg-info/dependency_links.txt
+cbar_currency_rates.egg-info/requires.txt
+cbar_currency_rates.egg-info/top_level.txt
+tests/test_rates.py
