@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+cli_gitpage/__init__.py
+cli_gitpage/cli.py
+cli_gitpage.egg-info/PKG-INFO
+cli_gitpage.egg-info/SOURCES.txt
+cli_gitpage.egg-info/dependency_links.txt
+cli_gitpage.egg-info/entry_points.txt
+cli_gitpage.egg-info/requires.txt
+cli_gitpage.egg-info/top_level.txt
