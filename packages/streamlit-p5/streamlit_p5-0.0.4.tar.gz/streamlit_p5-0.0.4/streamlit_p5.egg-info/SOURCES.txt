@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+streamlit_p5/__init__.py
+streamlit_p5.egg-info/PKG-INFO
+streamlit_p5.egg-info/SOURCES.txt
+streamlit_p5.egg-info/dependency_links.txt
+streamlit_p5.egg-info/requires.txt
+streamlit_p5.egg-info/top_level.txt
+streamlit_p5/p5/index.html
+streamlit_p5/p5/p5.min.js

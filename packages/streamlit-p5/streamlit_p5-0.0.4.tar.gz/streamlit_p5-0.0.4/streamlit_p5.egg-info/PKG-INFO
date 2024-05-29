@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: streamlit_p5
+Version: 0.0.4
+Summary: Bring the power of ProcessingJS (aka P5) to Streamlit. This module allows you to create Processing sketches, interact with those sketches using the mouse and keyboard, and share data between your Processing Sketch and Stremalit.
+Home-page: https://streamlit-p5-examples.fly.dev/
+Author: Neal Riley
+Author-email: neal.riley@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit>=0.63
+Provides-Extra: devel
+Requires-Dist: wheel; extra == "devel"
+Requires-Dist: pytest==7.4.0; extra == "devel"
+Requires-Dist: playwright==1.39.0; extra == "devel"
+Requires-Dist: requests==2.31.0; extra == "devel"
+Requires-Dist: pytest-playwright-snapshot==1.0; extra == "devel"
+Requires-Dist: pytest-rerunfailures==12.0; extra == "devel"
+
+# streamlit_p5
+
+Embed your processing sketches in Streamlit! Check out the demo [here](https://streamlit-p5-examples.fly.dev/)
+
+You can find the source code at: [https://github.com/salable/streamlit-p5](https://github.com/salable/streamlit-p5)
+
+## Installation instructions
+
+```sh
+pip install streamlit streamlit_p5
+```
+
+## Quickstart
+
+```python
+streamlit run example.py
+```
+
+## Usage instructions
+
+The `sketch` object takes a few arguments: 
+
+- sketch : a string representing your P5js sketch
+- width : width of the element in Streamlit
+- height : height of the element in Streamlit (make sure to match these with your sketch!)
+- data : a Python dict to pass to the p5 sketch
+
+### Example:
+
+#### Basic 
+
+```python
+import streamlit as st
+from streamlit_p5 import sketch
+
+p5_sketch = sketch("""
+function setup() {
+   createCanvas(700, 500);
+}
+
+// The background function is a statement that tells the computer
+// which color (or gray value) to make the background of the display window 
+function draw() {
+   background(204, 153, 0);
+}
+""", width=700, height=500)
+```
+
+#### Advanced
+
+```python
+import streamlit as st
+from streamlit_p5 import sketch
+
+value = sketch("""
+let word=""
+function setup() { 
+  createCanvas(700, 500);
+  noStroke();
+  word=dataToPass.name. // get value passed from Streamlit
+}
+
+function draw() {
+  background(204, 120);
+  fill(0)
+  textFont('Courier New')
+  textSize(50)
+  text(word, mouseX, mouseY)
+}
+
+function mousePressed() {
+  sendDataToPython({  //Send data to Streamlit - causes a re-render
+          value: {
+            mouseX: mouseX,
+            mouseY: mouseY
+          },
+          dataType: "json",
+        })
+}
+""", data={
+  "name" : "Bob the Builder"
+}, width=700, height=500)
+```
+
+Wanna build this from source? just run: 
+
+```sh
+python setup.py sdist bdist_wheel && twine upload dist/*
+```
