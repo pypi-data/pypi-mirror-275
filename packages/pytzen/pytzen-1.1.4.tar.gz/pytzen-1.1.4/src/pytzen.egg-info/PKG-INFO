@@ -1,0 +1,833 @@
+Metadata-Version: 2.1
+Name: pytzen
+Version: 1.1.4
+Summary: Data Pipeline Framework
+Home-page: https://www.pytzen.com
+Author: PYTZEN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# pytzen usage
+
+Source code: [https://github.com/pytzen/pytzen/blob/main/pypi/src/pytzen/\_\_init\_\_.py](https://github.com/pytzen/pytzen/blob/main/pypi/src/pytzen/__init__.py)
+
+```python
+from dataclasses import dataclass
+import pydoc
+import os
+import sys
+sys.path.append('/home/p/pytzen/pypi/src')
+import pytzen
+pytzen.DIR = '/home/p/pytzen/pypi/docs'
+```
+
+
+```python
+extract = pytzen.new_namespace('extract')
+transform = pytzen.new_namespace('transform')
+load = pytzen.new_namespace('load')
+```
+
+
+```python
+doc_string = pydoc.render_doc('pytzen')
+print(doc_string)
+```
+
+    Python Library Documentation: package pytzen
+    
+    NAME
+        pytzen - PYTZEN is designed to sketch out data pipelines.
+    
+    PACKAGE CONTENTS
+    
+    
+    CLASSES
+        builtins.object
+            ProtoType
+            SharedData
+        builtins.type(builtins.object)
+            MetaType
+        
+        class MetaType(builtins.type)
+         |  MetaType(name, bases, attrs) -> type
+         |  
+         |  Metaclass for ProtoType class. It is responsible for adding the 
+         |  meta_attr attribute to the class and initializing the ProtoType 
+         |  class.
+         |  
+         |  Method resolution order:
+         |      MetaType
+         |      builtins.type
+         |      builtins.object
+         |  
+         |  Methods defined here:
+         |  
+         |  __call__(self, *args, **kwargs) -> object
+         |      Initializes an instance of a derived class within a 
+         |      prototype-based design.
+         |  
+         |  ----------------------------------------------------------------------
+         |  Class methods defined here:
+         |  
+         |  close() -> None from builtins.type
+         |      Finalizes operations by persistently storing class data.
+         |  
+         |  log(message, stdout=True, write=True) -> None from builtins.type
+         |      Records a log message with an optional display and storage 
+         |      behavior.
+         |  
+         |  store(name, value) -> None from builtins.type
+         |      Stores a named value within the class's shared data store.
+         |  
+         |  ----------------------------------------------------------------------
+         |  Static methods defined here:
+         |  
+         |  __new__(cls, name, bases, attrs) -> type
+         |      Enriches a class with logging, data storage, and closure 
+         |      capabilities.
+         |  
+         |  ----------------------------------------------------------------------
+         |  Data and other attributes defined here:
+         |  
+         |  NAMESPACE = None
+         |  
+         |  __annotations__ = {'NAMESPACE': <class 'str'>}
+         |  
+         |  ----------------------------------------------------------------------
+         |  Methods inherited from builtins.type:
+         |  
+         |  __delattr__(self, name, /)
+         |      Implement delattr(self, name).
+         |  
+         |  __dir__(self, /)
+         |      Specialized __dir__ implementation for types.
+         |  
+         |  __getattribute__(self, name, /)
+         |      Return getattr(self, name).
+         |  
+         |  __init__(self, /, *args, **kwargs)
+         |      Initialize self.  See help(type(self)) for accurate signature.
+         |  
+         |  __instancecheck__(self, instance, /)
+         |      Check if an object is an instance.
+         |  
+         |  __repr__(self, /)
+         |      Return repr(self).
+         |  
+         |  __setattr__(self, name, value, /)
+         |      Implement setattr(self, name, value).
+         |  
+         |  __sizeof__(self, /)
+         |      Return memory consumption of the type object.
+         |  
+         |  __subclasscheck__(self, subclass, /)
+         |      Check if a class is a subclass.
+         |  
+         |  __subclasses__(self, /)
+         |      Return a list of immediate subclasses.
+         |  
+         |  mro(self, /)
+         |      Return a type's method resolution order.
+         |  
+         |  ----------------------------------------------------------------------
+         |  Class methods inherited from builtins.type:
+         |  
+         |  __prepare__(...) from builtins.type
+         |      __prepare__() -> dict
+         |      used to create the namespace for the class statement
+         |  
+         |  ----------------------------------------------------------------------
+         |  Data descriptors inherited from builtins.type:
+         |  
+         |  __abstractmethods__
+         |  
+         |  __dict__
+         |  
+         |  __text_signature__
+         |  
+         |  ----------------------------------------------------------------------
+         |  Data and other attributes inherited from builtins.type:
+         |  
+         |  __base__ = <class 'type'>
+         |      type(object) -> the object's type
+         |      type(name, bases, dict, **kwds) -> a new type
+         |  
+         |  
+         |  __bases__ = (<class 'type'>,)
+         |  
+         |  __basicsize__ = 880
+         |  
+         |  __dictoffset__ = 264
+         |  
+         |  __flags__ = 2148292096
+         |  
+         |  __itemsize__ = 40
+         |  
+         |  __mro__ = (<class 'pytzen.MetaType'>, <class 'type'>, <class 'object'>...
+         |  
+         |  __weakrefoffset__ = 368
+        
+        class ProtoType(builtins.object)
+         |  ProtoType(*args, **kwargs) -> object
+         |  
+         |  The `ProtoType` class serves as a foundational component in a 
+         |  dynamic class creation and configuration management system, 
+         |  leveraging a custom metaclass `MetaType` to control instantiation 
+         |  behavior.
+         |  
+         |  Methods defined here:
+         |  
+         |  __init__(self) -> None
+         |      Initializes a new instance of the `ProtoType` class, 
+         |      orchestrated under the controlled instantiation behavior 
+         |      enforced by the `MetaType` metaclass.
+         |  
+         |  __setattr__(self, key, value) -> None
+         |      Overrides the default behavior for setting attributes to ensure 
+         |      that every new attribute added to an instance of `ProtoType` or 
+         |      its derived classes is registered in a shared data structure.
+         |  
+         |  close() -> None from builtins.type
+         |      Finalizes operations by persistently storing class data.
+         |  
+         |  log(message, stdout=True, write=True) -> None from builtins.type
+         |      Records a log message with an optional display and storage 
+         |      behavior.
+         |  
+         |  store(name, value) -> None from builtins.type
+         |      Stores a named value within the class's shared data store.
+         |  
+         |  ----------------------------------------------------------------------
+         |  Data descriptors defined here:
+         |  
+         |  __dict__
+         |      dictionary for instance variables (if defined)
+         |  
+         |  __weakref__
+         |      list of weak references to the object (if defined)
+        
+        class SharedData(builtins.object)
+         |  SharedData(classes: dict = <factory>, log: dict = <factory>, store: dict = <factory>) -> None
+         |  
+         |  A data class for storing and managing shared pipeline information in 
+         |  an immutable structure.
+         |  
+         |  Methods defined here:
+         |  
+         |  __eq__(self, other)
+         |  
+         |  __init__(self, classes: dict = <factory>, log: dict = <factory>, store: dict = <factory>) -> None
+         |  
+         |  __repr__(self)
+         |  
+         |  __setattr__(self, key, value) -> None
+         |      Overrides the default attribute setting behavior specifically to 
+         |      enforce immutability for attributes once they have been set.
+         |  
+         |  ----------------------------------------------------------------------
+         |  Data descriptors defined here:
+         |  
+         |  __dict__
+         |      dictionary for instance variables (if defined)
+         |  
+         |  __weakref__
+         |      list of weak references to the object (if defined)
+         |  
+         |  ----------------------------------------------------------------------
+         |  Data and other attributes defined here:
+         |  
+         |  __annotations__ = {'classes': <class 'dict'>, 'log': <class 'dict'>, '...
+         |  
+         |  __dataclass_fields__ = {'classes': Field(name='classes',type=<class 'd...
+         |  
+         |  __dataclass_params__ = _DataclassParams(init=True,repr=True,eq=True,or...
+         |  
+         |  __hash__ = None
+    
+    FUNCTIONS
+        new_namespace(namespace: str)
+            Creates and returns a new namespace as a module, isolated from 
+            the original pytzen package.
+    
+    DATA
+        DIR = '/home/p/pytzen/src/pytzen/docs'
+    
+    FILE
+        /home/p/pytzen/src/pytzen/__init__.py
+    
+    
+
+
+
+```python
+print(f'Extract namespace sample: {extract.__doc__}')
+print(f'Transform namespace sample: {transform.__doc__}')
+print(f'Load namespace sample: {load.__doc__}')
+```
+
+    Extract namespace sample: PYTZEN is designed to sketch out data pipelines.
+    
+    Transform namespace sample: PYTZEN is designed to sketch out data pipelines.
+    
+    Load namespace sample: PYTZEN is designed to sketch out data pipelines.
+    
+
+
+
+```python
+try:
+    path_json = os.path.join(pytzen.DIR, 'config.json')
+    with open(path_json, 'r') as f:
+        print("Contents of 'config.json':\n")
+        print(f.read())
+except FileNotFoundError:
+    print("Error: 'config.json' file not found in the pytzen.DIR directory.",
+          "You MUST create a 'config.json' file in the pytzen.DIR directory.",
+          sep='\n')
+```
+
+    Contents of 'config.json':
+    
+    {
+        "str_input": "some_input",
+        "int_input": 10,
+        "list_input": [
+            "item1",
+            "item2"
+        ],
+        "dict_input": {
+            "key1": "value1",
+            "key2": "value2"
+        }
+    }
+    
+
+
+
+```python
+@dataclass
+class DerivedClass(extract.ProtoType):
+    number: int = 137
+
+    def do(self):
+        print("I am using a '@dataclass' attribute in the 'ProtoType' way.")
+        print(f'I am calling it (self.data.number): {self.data.number}')
+
+derived = DerivedClass()
+derived.do()
+```
+
+    I am using a '@dataclass' attribute in the 'ProtoType' way.
+    I am calling it (self.data.number): 137
+
+
+
+```python
+help(derived)
+```
+
+    Help on DerivedClass in module __main__ object:
+    
+    class DerivedClass(pytzen.ProtoType)
+     |  DerivedClass(*args, **kwargs) -> object
+     |  
+     |  DerivedClass(*args, **kwargs) -> object
+     |  
+     |  Method resolution order:
+     |      DerivedClass
+     |      pytzen.ProtoType
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  __eq__(self, other)
+     |  
+     |  __init__(self, number: int = 137) -> None
+     |  
+     |  __repr__(self)
+     |  
+     |  close() -> None from builtins.type
+     |      Finalizes operations by persistently storing class data.
+     |  
+     |  do(self)
+     |  
+     |  log(message, stdout=True, write=True) -> None from builtins.type
+     |      Records a log message with an optional display and storage 
+     |      behavior.
+     |  
+     |  store(name, value) -> None from builtins.type
+     |      Stores a named value within the class's shared data store.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes defined here:
+     |  
+     |  __annotations__ = {'number': <class 'int'>}
+     |  
+     |  __dataclass_fields__ = {'number': Field(name='number',type=<class 'int...
+     |  
+     |  __dataclass_params__ = _DataclassParams(init=True,repr=True,eq=True,or...
+     |  
+     |  __hash__ = None
+     |  
+     |  class_path = '__main__.DerivedClass'
+     |  
+     |  number = 137
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from pytzen.ProtoType:
+     |  
+     |  __setattr__(self, key, value) -> None
+     |      Overrides the default behavior for setting attributes to ensure 
+     |      that every new attribute added to an instance of `ProtoType` or 
+     |      its derived classes is registered in a shared data structure.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from pytzen.ProtoType:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes inherited from pytzen.ProtoType:
+     |  
+     |  config = <class 'pytzen.ConfigurationFile'>
+     |  
+     |  data = SharedData(classes={'__main__.DerivedClass': {'a...o', 'log', '...
+    
+
+
+
+```python
+@dataclass
+class DynamicAttribute(extract.ProtoType):
+    # There is no '@dataclass' defined attribute.
+
+    def set_dynamically(self):
+        # Lets set the attribute on the fly.
+        print("I am setting an attribute using 'self.n = 137'.")
+        self.n = 137
+
+    def get_data(self):
+        print('I am retrieving the data from the object.')
+        print(f'I am calling it (self.data.number): {self.data.n}\n')
+        try:
+            print(self.n)
+        except AttributeError as e:
+            print(f"I cannot call 'self.number' directly.\n{e}.")
+
+dynamic = DynamicAttribute()
+dynamic.set_dynamically()
+dynamic.get_data()
+print("Conclusion: all attributes are stored in the 'data' object.",
+      'There is no way to access it directly.',
+      'But, why would you want to do that?',
+      sep='\n')
+```
+
+    I am setting an attribute using 'self.n = 137'.
+    I am retrieving the data from the object.
+    I am calling it (self.data.number): 137
+    
+    I cannot call 'self.number' directly.
+    'DynamicAttribute' object has no attribute 'n'.
+    Conclusion: all attributes are stored in the 'data' object.
+    There is no way to access it directly.
+    But, why would you want to do that?
+
+
+
+```python
+@dataclass
+class DataClassSample(extract.ProtoType):
+    # This is the '@dataclass' way to define a class attribute.
+    # The attribute must be declared in the initialization.
+    m: int
+
+@dataclass
+class RetrieveSharedData(extract.ProtoType):
+
+    def get_data(self):
+        print("Objects in 'data' are shared among classes and instances:",
+              data_sample.data.m)
+
+    def change_attribute(self):
+        try:
+            print('I am trying to reset an attribute directly.')
+            self.m = 137
+        except AttributeError as e:
+            print(f"I cannot call 'self.m = 137'.\n{e}")
+            print("The attribute also cannot be redefined using '@dataclass'.")
+
+data_sample = DataClassSample(m=100)
+get_data_sample = RetrieveSharedData()
+get_data_sample.get_data()
+get_data_sample.change_attribute()
+
+```
+
+    Objects in 'data' are shared among classes and instances: 100
+    I am trying to reset an attribute directly.
+    I cannot call 'self.m = 137'.
+    Attribute 'm' already exists and cannot be changed.
+    The attribute also cannot be redefined using '@dataclass'.
+
+
+
+```python
+@dataclass
+class Nested:
+    nested_attr:str
+    pre_defined:str = 'I am a pre-defined attribute.'
+
+
+class AnotherNested:
+
+    def __init__(self, nested_attr:str):
+        self.nested_attr = nested_attr
+        self.pre_defined = 'I am a pre-defined attribute with the same name.'
+
+
+@dataclass
+class Container(extract.ProtoType):
+
+    def print_nested(self):
+        self.nested = Nested('I am a nested attribute.')
+        self.another_nested = AnotherNested('Here I am again.')
+        print(self.data.nested.nested_attr)
+        print(self.data.another_nested.nested_attr)
+
+
+@dataclass
+class UseNested(extract.ProtoType):
+
+    def print_nested(self):
+        # The nested attribute is shared among classes and instances.
+        print(self.data.nested.pre_defined)
+        print(self.data.another_nested.pre_defined)
+        # Attributes from the nested class can be redefined.
+        self.data.nested.pre_defined = 'Changed by UseNested.'
+        self.data.another_nested.pre_defined = 'I changed too.'
+        print(self.data.nested.pre_defined)
+        print(self.data.another_nested.pre_defined)
+
+container = Container()
+container.print_nested()
+use_nested = UseNested()
+use_nested.print_nested()
+```
+
+    I am a nested attribute.
+    Here I am again.
+    I am a pre-defined attribute.
+    I am a pre-defined attribute with the same name.
+    Changed by UseNested.
+    I changed too.
+
+
+
+```python
+@dataclass
+class ConfigVariableSample(extract.ProtoType):
+
+    def print_configuration_variable(self):
+        print("\nConfiguration Variables:")
+        print(f"String Input: {self.config.str_input}")
+        print(f"Integer Input: {self.config.int_input}")
+        print(f"List Input: {self.config.list_input}")
+        print(f"Dictionary Input: {self.config.dict_input}")
+
+config = ConfigVariableSample()
+config.print_configuration_variable()
+```
+
+    
+    Configuration Variables:
+    String Input: some_input
+    Integer Input: 10
+    List Input: ['item1', 'item2']
+    Dictionary Input: {'key1': 'value1', 'key2': 'value2'}
+
+
+
+```python
+@dataclass
+class KeepLog(extract.ProtoType):
+
+    some_message: str = 'I am a log message.'
+
+    def log_it(self):
+        self.log(self.data.some_message)
+        self.log("If you don't want it to be printed, set 'stdout' to 'False'.",
+                 stdout=False)
+        self.log("If you don't want it to be exported, set 'write' to 'False'.",
+                 write=False)
+
+@dataclass
+class KeepLog2(extract.ProtoType):
+
+    some_message2: str = 'I am a log message again.'
+
+    def log_it(self):
+        self.log(self.data.some_message2)
+        self.log('My pipeline did something.')
+
+kl = KeepLog()
+kl.log_it()
+kl2 = KeepLog2()
+kl2.log_it()
+```
+
+    2024-05-20 08:35:26.125196: I am a log message.
+    2024-05-20 08:35:26.125389: If you don't want it to be exported, set 'write' to 'False'.
+    2024-05-20 08:35:26.125634: I am a log message again.
+    2024-05-20 08:35:26.125681: My pipeline did something.
+
+
+
+```python
+kl.data.log
+```
+
+
+
+
+    {'2024-05-20 08:35:26.125196': 'I am a log message.',
+     '2024-05-20 08:35:26.125361': "If you don't want it to be printed, set 'stdout' to 'False'.",
+     '2024-05-20 08:35:26.125634': 'I am a log message again.',
+     '2024-05-20 08:35:26.125681': 'My pipeline did something.'}
+
+
+
+
+```python
+@dataclass
+class KeepResultsStored(extract.ProtoType):
+
+    def store_results(self):
+        self.store('some_results', {'result':3, 'diff':4})
+
+@dataclass
+class KeepResultsStored2(extract.ProtoType):
+
+    def store_results(self):
+        self.store('some_results2', {'result2':3, 'diff2':4})
+
+krs = KeepResultsStored()
+krs.store_results()
+krs2 = KeepResultsStored2()
+krs2.store_results()
+krs2.data.store
+```
+
+
+
+
+    {'some_results': {'result': 3, 'diff': 4},
+     'some_results2': {'result2': 3, 'diff2': 4}}
+
+
+
+
+```python
+krs2.data.classes
+```
+
+
+
+
+    {'__main__.DerivedClass': {'attributes': {'number': 'int'},
+      'methods': ['do', 'log', 'store', 'close']},
+     '__main__.DynamicAttribute': {'attributes': {'n': 'int'},
+      'methods': ['set_dynamically', 'get_data', 'log', 'store', 'close']},
+     '__main__.DataClassSample': {'attributes': {'m': 'int'},
+      'methods': ['log', 'store', 'close']},
+     '__main__.RetrieveSharedData': {'attributes': {},
+      'methods': ['get_data', 'change_attribute', 'log', 'store', 'close']},
+     '__main__.Container': {'attributes': {'nested': 'Nested',
+       'another_nested': 'AnotherNested'},
+      'methods': ['print_nested', 'log', 'store', 'close']},
+     '__main__.UseNested': {'attributes': {},
+      'methods': ['print_nested', 'log', 'store', 'close']},
+     '__main__.ConfigVariableSample': {'attributes': {},
+      'methods': ['print_configuration_variable', 'log', 'store', 'close']},
+     '__main__.KeepLog': {'attributes': {'some_message': 'str'},
+      'methods': ['log_it', 'log', 'store', 'close']},
+     '__main__.KeepLog2': {'attributes': {'some_message2': 'str'},
+      'methods': ['log_it', 'log', 'store', 'close']},
+     '__main__.KeepResultsStored': {'attributes': {},
+      'methods': ['store_results', 'log', 'store', 'close']},
+     '__main__.KeepResultsStored2': {'attributes': {},
+      'methods': ['store_results', 'log', 'store', 'close']}}
+
+
+
+
+```python
+# Lets close
+krs2.close()
+
+# Lets inspect the exported results.
+def inspect_json(path):
+    import json
+    with open(path, 'r') as f:
+        print(f"\nContents of '{path}':\n")
+        print(json.dumps(json.load(f), indent=4))
+
+inspect_json(os.path.join(pytzen.DIR, 'extract_dataclasses.json'))
+inspect_json(os.path.join(pytzen.DIR, 'extract_log.json'))
+inspect_json(os.path.join(pytzen.DIR, 'extract_store.json'))
+```
+
+    
+    Contents of '/home/p/pytzen/src/pytzen/docs/extract_dataclasses.json':
+    
+    {
+        "__main__.DerivedClass": {
+            "attributes": {
+                "number": "int"
+            },
+            "methods": [
+                "do",
+                "log",
+                "store",
+                "close"
+            ]
+        },
+        "__main__.DynamicAttribute": {
+            "attributes": {
+                "n": "int"
+            },
+            "methods": [
+                "set_dynamically",
+                "get_data",
+                "log",
+                "store",
+                "close"
+            ]
+        },
+        "__main__.DataClassSample": {
+            "attributes": {
+                "m": "int"
+            },
+            "methods": [
+                "log",
+                "store",
+                "close"
+            ]
+        },
+        "__main__.RetrieveSharedData": {
+            "attributes": {},
+            "methods": [
+                "get_data",
+                "change_attribute",
+                "log",
+                "store",
+                "close"
+            ]
+        },
+        "__main__.Container": {
+            "attributes": {
+                "nested": "Nested",
+                "another_nested": "AnotherNested"
+            },
+            "methods": [
+                "print_nested",
+                "log",
+                "store",
+                "close"
+            ]
+        },
+        "__main__.UseNested": {
+            "attributes": {},
+            "methods": [
+                "print_nested",
+                "log",
+                "store",
+                "close"
+            ]
+        },
+        "__main__.ConfigVariableSample": {
+            "attributes": {},
+            "methods": [
+                "print_configuration_variable",
+                "log",
+                "store",
+                "close"
+            ]
+        },
+        "__main__.KeepLog": {
+            "attributes": {
+                "some_message": "str"
+            },
+            "methods": [
+                "log_it",
+                "log",
+                "store",
+                "close"
+            ]
+        },
+        "__main__.KeepLog2": {
+            "attributes": {
+                "some_message2": "str"
+            },
+            "methods": [
+                "log_it",
+                "log",
+                "store",
+                "close"
+            ]
+        },
+        "__main__.KeepResultsStored": {
+            "attributes": {},
+            "methods": [
+                "store_results",
+                "log",
+                "store",
+                "close"
+            ]
+        },
+        "__main__.KeepResultsStored2": {
+            "attributes": {},
+            "methods": [
+                "store_results",
+                "log",
+                "store",
+                "close"
+            ]
+        }
+    }
+    
+    Contents of '/home/p/pytzen/src/pytzen/docs/extract_log.json':
+    
+    {
+        "2024-05-20 08:35:26.125196": "I am a log message.",
+        "2024-05-20 08:35:26.125361": "If you don't want it to be printed, set 'stdout' to 'False'.",
+        "2024-05-20 08:35:26.125634": "I am a log message again.",
+        "2024-05-20 08:35:26.125681": "My pipeline did something."
+    }
+    
+    Contents of '/home/p/pytzen/src/pytzen/docs/extract_store.json':
+    
+    {
+        "some_results": {
+            "result": 3,
+            "diff": 4
+        },
+        "some_results2": {
+            "result2": 3,
+            "diff2": 4
+        }
+    }
+
+
+
+```python
+
+```
