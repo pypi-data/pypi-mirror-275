@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "STTT"
+version = "1.0.0"
+description = 'CLI implementation of the game "Super Tic Tac Toe" written in python'
+authors = ["Zamiul, Proyas <zamiulrashid1@gmail.com>", "Proyas <abyashrirproyas@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/Zamiul-rashid/Super-Tic-Tac-Toe"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+sttt = 'sttt.__main__:playgame'
