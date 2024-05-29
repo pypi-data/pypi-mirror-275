@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+src/grpc_client_kessel/__init__.py
+src/grpc_client_kessel/relationships_pb2.py
+src/grpc_client_kessel/relationships_pb2.pyi
+src/grpc_client_kessel/relationships_pb2_grpc.py
+src/grpc_client_wrapper_kessel/__init__.py
+src/grpc_client_wrapper_kessel/client.py
+src/relations_grpc_clients_python_kessel_project.egg-info/PKG-INFO
+src/relations_grpc_clients_python_kessel_project.egg-info/SOURCES.txt
+src/relations_grpc_clients_python_kessel_project.egg-info/dependency_links.txt
+src/relations_grpc_clients_python_kessel_project.egg-info/requires.txt
+src/relations_grpc_clients_python_kessel_project.egg-info/top_level.txt
