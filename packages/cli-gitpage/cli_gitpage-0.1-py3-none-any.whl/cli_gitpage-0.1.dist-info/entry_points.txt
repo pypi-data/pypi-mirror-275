@@ -1,0 +1,2 @@
+[console_scripts]
+gitpage = cli_gitpage.cli:cli
