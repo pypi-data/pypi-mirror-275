@@ -1,0 +1,7 @@
+README.md
+setup.py
+ayulexx/__init__.py
+ayulexx.egg-info/PKG-INFO
+ayulexx.egg-info/SOURCES.txt
+ayulexx.egg-info/dependency_links.txt
+ayulexx.egg-info/top_level.txt
