@@ -1,0 +1,7 @@
+README.txt
+setup.py
+fcsSchool/__init__.py
+fcsSchool.egg-info/PKG-INFO
+fcsSchool.egg-info/SOURCES.txt
+fcsSchool.egg-info/dependency_links.txt
+fcsSchool.egg-info/top_level.txt
