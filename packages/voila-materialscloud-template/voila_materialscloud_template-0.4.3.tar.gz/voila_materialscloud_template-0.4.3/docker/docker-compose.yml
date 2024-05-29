@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  voila:
+    container_name: voila-materialscloud-template
+    image: voila-materialscloud-template
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    # restart: always
+    volumes:
+      - ../share/jupyter/voila/templates:/root/.local/share/jupyter/voila/templates
+      - ../share/jupyter/nbconvert/templates:/root/.local/share/jupyter/nbconvert/templates
+      - ../example-notebooks:/home/voila/example-notebooks
+    ports:
+      - "8866:8866"
+    command: "voila  --Voila.ip='0.0.0.0' --Voila.config_file_paths=/home/voila/example-notebooks/ --debug example-notebooks"

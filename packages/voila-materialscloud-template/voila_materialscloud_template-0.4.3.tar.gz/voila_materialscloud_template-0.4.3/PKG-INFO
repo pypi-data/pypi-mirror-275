@@ -1,0 +1,140 @@
+Metadata-Version: 2.3
+Name: voila-materialscloud-template
+Version: 0.4.3
+Summary: Voilà template for Materials Cloud.
+Project-URL: Source, https://github.com/materialscloud-org/voila-materialscloud-template
+Author: The Materials Cloud team
+License: BSD License
+        
+        Copyright (c) 2018 Voila contributors.
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+          a. Redistributions of source code must retain the above copyright notice,
+             this list of conditions and the following disclaimer.
+        
+          b. Redistributions in binary form must reproduce the above copyright
+             notice, this list of conditions and the following disclaimer in the
+             documentation and/or other materials provided with the distribution.
+        
+          c. Neither the name of the authors nor the names of the contributors to
+             this package may be used to endorse or promote products
+             derived from this software without specific prior written
+             permission.
+        
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+        ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR
+        ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+        LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+        OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+        DAMAGE.
+License-File: LICENSE.txt
+Keywords: jupyter,materialscloud,voila
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: jupyter-core~=5.3.1
+Requires-Dist: voila~=0.4.4
+Provides-Extra: dev
+Requires-Dist: invoke~=2.2; extra == 'dev'
+Requires-Dist: ipywidgets~=8.1; extra == 'dev'
+Requires-Dist: jupyterlab~=4.0; extra == 'dev'
+Requires-Dist: pylint~=2.17; extra == 'dev'
+Requires-Dist: widget-periodictable~=4.1; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Voilà template for Materials Cloud
+
+[![PyPI - Version](https://img.shields.io/pypi/v/voila-materialscloud-template?color=4CC61E)](https://pypi.org/project/voila-materialscloud-template/)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/materialscloud-org/voila-materialscloud-template/main?urlpath=%2Fvoila%2Frender%2Fexample-notebooks%2Fexample.ipynb)
+
+This is the Voilà template for Materials Cloud, implements the standard header and CSS.
+
+Three templates are provided:
+
+- `materialscloud-tool` - highlights the [WORK](https://www.materialscloud.org/work)/Tools section in the header/breadcrumbs.
+- `materialscloud-discover` - highlights the [DISCOVER](https://www.materialscloud.org/discover) section in the header/breadcrumbs.
+- `materialscloud-iframe` - just adds a simple "Hosted on Materials Cloud" note at the bottom.
+
+## Installation
+
+```bash
+pip install voila-materialscloud-template
+```
+
+This installs the templates in the correct Jupyter path (using `copy_voila_template.py`).
+
+## Usage
+
+The main way is to use the `voila --template` option, e.g.:
+
+```bash
+voila --template=materialscloud-tool example.ipynb
+```
+
+Alternatively, you can write a `voila.json` file containing
+
+```json
+{
+  "VoilaConfiguration": {
+    "template": "materialscloud-tool"
+  },
+  ...
+}
+```
+
+and passing its path with
+
+```bash
+voila --Voila.config_file_paths=<...> example.ipynb
+```
+
+There are also other options, see [the Voilà documentation](https://voila.readthedocs.io/en/stable/customize.html#controlling-the-nbconvert-template) for more information.
+
+## Development
+
+Option 1:
+
+```bash
+pip install -e .[dev]
+```
+
+Note: this will copy the templates to the jupyter folder, and they need to be modified directly there or re-copied for changes to take effect.
+
+Option 2:
+
+It's more convenient to use a docker container and rebuild after modification:
+
+```bash
+cd docker
+docker compose up --build
+```
+
+and access via `http://localhost:8866/`. The template and other voila configuration is specified in `voila.json`.
+
+Note: maybe there is an easier setup, e.g. with live-reload or similar.
+
+### Making a new release
+
+To release a new version, just make a new release on Github with the correct version tag, without updating any versions manually. This will start the GitHub action that will
+
+- update version numbers in the repo and commits it;
+- tags this new commit with the version, overwriting the tag that was made by the Github release;
+- pushes commit & tag to Github;
+- publishes new version on PYPI.
+
+## License
+
+This repository and all files in it are licensed under the [BSD license](LICENSE), copyright (c) by Voilà contributors.
