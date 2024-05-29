@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jabroni"
+dynamic = ["version"]
+description = "Convert between long and short journal titles."
+authors = [
+  {name = "Remington Mallett", email = "mallett.remy@gmail.com"},
+]
+maintainers = [
+  {name = "Remington Mallett", email = "mallett.remy@gmail.com"},
+]
+requires-python = ">=3.7"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+keywords = ["iso4"]
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "License :: OSI Approved :: The Unlicense (Unlicense)",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering",
+  "Programming Language :: Python",
+]
+
+[project.urls]
+Homepage = "https://github.com/remrama/jabroni"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+namespaces = false
+where = ["src"]
+
+[tool.setuptools.package-data]
+extracts = ["jabroni/data.json"]
+
+[tool.setuptools_scm]
+version_scheme = "python-simplified-semver"
+local_scheme = "no-local-version"
+version_file = "src/jabroni/_version.py"

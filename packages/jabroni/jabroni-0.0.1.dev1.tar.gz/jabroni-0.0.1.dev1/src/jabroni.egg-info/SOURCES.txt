@@ -1,0 +1,12 @@
+.gitignore
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+src/jabroni/__init__.py
+src/jabroni/_version.py
+src/jabroni/data.json
+src/jabroni.egg-info/PKG-INFO
+src/jabroni.egg-info/SOURCES.txt
+src/jabroni.egg-info/dependency_links.txt
+src/jabroni.egg-info/top_level.txt
