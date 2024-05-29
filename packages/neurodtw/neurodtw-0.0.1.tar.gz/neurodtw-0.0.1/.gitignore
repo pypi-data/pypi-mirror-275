@@ -1,0 +1,6 @@
+.DS_Store
+.gitattributes
+.gitignore
+*__pycache__
+*README~.md
+*dist
