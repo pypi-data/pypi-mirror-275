@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: torchxlstm
+Version: 0.0.2
+Summary: A pure pytorch implementation of xLSTM.
+Author-email: Akaash Dash <akaash.dash@gmail.com>
+Maintainer-email: Akaash Dash <akaash.dash@gmail.com>
+Project-URL: Homepage, https://github.com/akaashdash/xlstm
+Project-URL: Source, https://github.com/akaashdash/xlstm/
+Keywords: xlstm,lstm,torch,pytorch
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+
+# xLSTM
+
+A pure pytorch implementation of the [XLSTM paper](https://arxiv.org/abs/2405.04517).
+
+## TODO
+- Ensure correct with paper
+- Create some usage examples
+- Implement paralleization
+- CUDA?
+- Allow for different initializations according to: https://pytorch.org/docs/stable/nn.init.html
+- Allow for flattening of x for greater shape conformity
+- Allow for batching
+- Add tests
+    - https://github.com/catid/audio_prediction/tree/master
+    - other classic RNN/LSTM tasks
+
+## References
+- https://arxiv.org/abs/2405.04517
+- https://discuss.pytorch.org/t/causal-convolution/3456/3
+- https://pytorch.org/docs/stable/generated/torch.nn.RNN.html
+- https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html
