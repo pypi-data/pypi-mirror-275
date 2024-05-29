@@ -1,0 +1,144 @@
+Metadata-Version: 2.1
+Name: optialgo
+Version: 1.0.1
+Summary: OptiAlgo menyediakan solusi cepat dan andal untuk mencari algoritma terbaik bagi pengguna, serta memberikan fleksibilitas dalam menangani berbagai masalah data.
+Home-page: https://github.com/nsandarma/OptiAlgo
+Author: nsandarma
+Author-email: nsandarma@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: asttokens ==2.4.1
+Requires-Dist: backports.tarfile ==1.1.1
+Requires-Dist: black ==24.4.2
+Requires-Dist: category-encoders ==2.6.3
+Requires-Dist: certifi ==2024.2.2
+Requires-Dist: cffi ==1.16.0
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: click ==8.1.7
+Requires-Dist: cryptography ==42.0.7
+Requires-Dist: decorator ==5.1.1
+Requires-Dist: docutils ==0.21.2
+Requires-Dist: exceptiongroup ==1.2.1
+Requires-Dist: executing ==2.0.1
+Requires-Dist: idna ==3.7
+Requires-Dist: imbalanced-learn ==0.12.0
+Requires-Dist: imblearn ==0.0
+Requires-Dist: importlib-metadata ==7.1.0
+Requires-Dist: ipython ==8.24.0
+Requires-Dist: jaraco.classes ==3.4.0
+Requires-Dist: jaraco.context ==5.3.0
+Requires-Dist: jaraco.functools ==4.0.1
+Requires-Dist: jedi ==0.19.1
+Requires-Dist: jeepney ==0.8.0
+Requires-Dist: joblib ==1.3.2
+Requires-Dist: keyring ==25.2.1
+Requires-Dist: markdown-it-py ==3.0.0
+Requires-Dist: matplotlib-inline ==0.1.7
+Requires-Dist: mdurl ==0.1.2
+Requires-Dist: more-itertools ==10.2.0
+Requires-Dist: mypy-extensions ==1.0.0
+Requires-Dist: nh3 ==0.2.17
+Requires-Dist: numpy ==1.26.4
+Requires-Dist: packaging ==24.0
+Requires-Dist: pandas ==2.2.1
+Requires-Dist: parso ==0.8.4
+Requires-Dist: pathspec ==0.12.1
+Requires-Dist: patsy ==0.5.6
+Requires-Dist: pexpect ==4.9.0
+Requires-Dist: pkginfo ==1.10.0
+Requires-Dist: platformdirs ==4.2.2
+Requires-Dist: prompt-toolkit ==3.0.44
+Requires-Dist: ptyprocess ==0.7.0
+Requires-Dist: pure-eval ==0.2.2
+Requires-Dist: pycparser ==2.22
+Requires-Dist: Pygments ==2.18.0
+Requires-Dist: python-dateutil ==2.9.0.post0
+Requires-Dist: pytz ==2024.1
+Requires-Dist: readme-renderer ==43.0
+Requires-Dist: requests ==2.32.2
+Requires-Dist: requests-toolbelt ==1.0.0
+Requires-Dist: rfc3986 ==2.0.0
+Requires-Dist: rich ==13.7.1
+Requires-Dist: scikit-learn ==1.4.1.post1
+Requires-Dist: scipy ==1.12.0
+Requires-Dist: SecretStorage ==3.3.3
+Requires-Dist: six ==1.16.0
+Requires-Dist: skfeature-chappers ==1.1.0
+Requires-Dist: stack-data ==0.6.3
+Requires-Dist: statsmodels ==0.14.2
+Requires-Dist: threadpoolctl ==3.3.0
+Requires-Dist: tokenize-rt ==5.2.0
+Requires-Dist: tomli ==2.0.1
+Requires-Dist: traitlets ==5.14.3
+Requires-Dist: twine ==5.1.0
+Requires-Dist: typing-extensions ==4.12.0
+Requires-Dist: tzdata ==2024.1
+Requires-Dist: urllib3 ==2.2.1
+Requires-Dist: wcwidth ==0.2.13
+Requires-Dist: xgboost ==2.0.3
+Requires-Dist: zipp ==3.19.0
+
+# OptiAlgo
+OptiAlgo menyediakan solusi yang cepat dan andal bagi pengguna yang ingin menemukan algoritma terbaik untuk data mereka tanpa harus melakukan pengujian yang rumit dan memakan waktu secara manual.
+
+![image](https://raw.githubusercontent.com/nsandarma/OptiAlgo/master/images/demo.gif)
+
+## Fitur
+1. Data Prepration
+2. Data Preprocessing
+3. Comparing Model
+4. Set Model
+5. Prediction
+6. HyperParameter Tuning
+
+## Instalasi
+
+**Sebelum install OptiAlgo, disarankan membuat environment terlebih dahulu.**
+
+```bash
+pip install optialgo
+```
+
+## Cara Menggunakan
+```py
+import pandas as pd
+from optialgo import Dataset, Classification
+
+df = pd.read_csv('dataset_ex/drug200.csv')
+features = ['Age','Sex','BP','Cholesterol',"Na_to_K"]
+target = 'Drug'
+
+dataset = Dataset(dataframe=df)
+dataset.fit(features=features,target=target)
+
+clf = Classification()
+result = clf.compare_model(output='table',train_val=True)
+print(result)
+```
+
+![image](images/result.png)
+
+untuk lebih lengkap nya anda bisa temukan pada notebook [example](https://github.com/nsandarma/OptiAlgo/blob/master/examples/classification.ipynb)
+
+
+## Cara Berkontribusi
+Kami sangat menyambut kontribusi dari komunitas untuk meningkatkan dan mengembangkan OptiAlgo. Berikut adalah langkah-langkah umum untuk berkontribusi:
+
+1. **Beri Masukan**: Berikan masukan tentang bagaimana kami dapat meningkatkan OptiAlgo melalui pembuatan *issues*.
+2. **Kode Sumber**: Jika Anda seorang pengembang, Anda dapat berkontribusi dengan menulis kode sumber baru atau memperbaiki yang sudah ada.
+3. **Uji Coba**: Bantu kami dengan menguji OptiAlgo dan memberikan umpan balik tentang pengalaman Anda.
+
+## Lisensi
+
+MIT
+
+## Kontak
+
+email : nsandarma@gmail.com
+
+Terima kasih telah menggunakan OptiAlgo!

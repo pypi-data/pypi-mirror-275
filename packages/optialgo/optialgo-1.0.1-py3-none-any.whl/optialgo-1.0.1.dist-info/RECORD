@@ -1,0 +1,15 @@
+optialgo/__init__.py,sha256=ekD6XChi2r0Vp5yo5IpTPQ-GDi-QcjGF5UWpHInNWwU,159
+optialgo/__parent.py,sha256=gkI-WxSGYnq5jES__4z5EXaT9_Ou7LkSwuQ5LfmpW84,7010
+optialgo/__utils.py,sha256=VKW1s2s9WqNbIFLQ0PZNlpbG0v0asbh43w5SbGflFrE,23375
+optialgo/classification.py,sha256=EBe633jR5etoZmiNw1AZebFs2WKznWzgB5BBPeWm5gg,12336
+optialgo/dataset.py,sha256=ROH3rEyRqoEVw5WVZhU7fS5pQGV2a1DS5qbUWplMe00,15601
+optialgo/regression.py,sha256=Vu4qTqq6XTn6lgYrEfENrBdsrBZT90yukDY8GkTJZVw,10728
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_dataset.py,sha256=NIlBCDmefVJLxeuFLf8wq6zRkY1GkBJCSImRb1GHOts,50
+tests/test_regression.py,sha256=nRmaEDUjw1vzzRJUJkndBd2ynSnL4vxvyEtnOXEY6p4,160
+tests/test_utils.py,sha256=EC6ztSjuwjf78l6nxZn7dQ2PX0GuE4WBhV6jCM_ioBg,644
+optialgo-1.0.1.dist-info/LICENSE,sha256=Y_ggMVmUhGGm3wNnDZwKn7qfnX0pkqDeG8SAa_yTMc8,1086
+optialgo-1.0.1.dist-info/METADATA,sha256=aH3EJ3CuhB1WUNSAgj3vIYEFXujZipMuIP1s0xwxHEg,4693
+optialgo-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+optialgo-1.0.1.dist-info/top_level.txt,sha256=fHeKn05CnucBEOxELvh8nm_BupghC3hN4hlvgt8aCyw,15
+optialgo-1.0.1.dist-info/RECORD,,
