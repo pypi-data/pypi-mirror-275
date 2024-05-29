@@ -1,0 +1,11 @@
+apiverve_wordrhymes/__init__.py,sha256=RgLAOAoIUX6ueVnMoJMz6aclHNWO8Np79OCIEUHmqvc,42
+apiverve_wordrhymes/apiClient.py,sha256=hQZmglwYb93id6a6rjGuDu4fTX2Amsb_xpIpECMQM5o,1212
+apiverve_wordrhymes/exceptions.py,sha256=qFJUEY4HMJJgvvkGEtYZqsKW8TpIyEtB6l2KAtOPVGg,103
+apiverve_wordrhymes/setup.py,sha256=cqFfFyQx15j15j9B-Z6F1fItx-nYJFwmXrZhHBItnvE,611
+apiverve_wordrhymes/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_wordrhymes/tests/test_api.py,sha256=Zz9ICO14NlA6I3Fe9cYpMlmEmKx_oW_Tw1X_N9YheV4,614
+apiverve_wordrhymes-1.0.11.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_wordrhymes-1.0.11.dist-info/METADATA,sha256=vPoadBj5yoLJxpcyTPx48EdkvsKbc_v_YZFdd5GNQ1Y,7008
+apiverve_wordrhymes-1.0.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apiverve_wordrhymes-1.0.11.dist-info/top_level.txt,sha256=25AXLQT3e8tKlFvtFQ-amHScWAb9vfT-_Zp6LGJv1Ss,20
+apiverve_wordrhymes-1.0.11.dist-info/RECORD,,
