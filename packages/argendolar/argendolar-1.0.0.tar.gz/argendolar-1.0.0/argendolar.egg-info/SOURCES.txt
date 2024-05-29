@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+argendolar.egg-info/PKG-INFO
+argendolar.egg-info/SOURCES.txt
+argendolar.egg-info/dependency_links.txt
+argendolar.egg-info/requires.txt
+argendolar.egg-info/top_level.txt
+model/__init__.py
