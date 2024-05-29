@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/prvict_test.egg-info/PKG-INFO
+src/prvict_test.egg-info/SOURCES.txt
+src/prvict_test.egg-info/dependency_links.txt
+src/prvict_test.egg-info/top_level.txt
