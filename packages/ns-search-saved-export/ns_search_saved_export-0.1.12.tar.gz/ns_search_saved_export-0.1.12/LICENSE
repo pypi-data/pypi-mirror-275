@@ -1,0 +1,9 @@
+
+### Publicar la Librería
+
+Para publicar tu librería en PyPI, sigue estos pasos:
+
+1. **Construir el paquete**:
+
+   ```bash
+   python setup.py sdist bdist_wheel
