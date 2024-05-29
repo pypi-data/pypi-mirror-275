@@ -1,0 +1,8 @@
+ftrack-python-api<4,>=2
+future<1,>=0.16.0
+
+[docs]
+sphinx
+sphinx-pyproject
+sphinx_rtd_theme
+lowdown
