@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+bidirectional_cross_attention_jax/__init__.py
+bidirectional_cross_attention_jax/bidirectional_cross_attention_jax.py
+bidirectional_cross_attention_jax.egg-info/PKG-INFO
+bidirectional_cross_attention_jax.egg-info/SOURCES.txt
+bidirectional_cross_attention_jax.egg-info/dependency_links.txt
+bidirectional_cross_attention_jax.egg-info/top_level.txt
