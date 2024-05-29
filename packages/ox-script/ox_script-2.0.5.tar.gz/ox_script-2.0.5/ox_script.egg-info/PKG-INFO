@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ox-script
+Version: 2.0.5
+Summary: The pskfunc.py file details offically supported APIs. The printer have a version of pskfunc.py on the printer with all functions fully implemented.
+Home-page: https://github.com/POSTEK-OX-Script
+Author: Postek Electronics Co., Ltd.
+Author-email: support@postek.com.cn
+License: MIT
+Requires-Dist: pandas
+Requires-Dist: openpyxl
