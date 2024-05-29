@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: duckframes
+Version: 0.0.4
+Summary: coming soon?
+Project-URL: Homepage, https://github.com/lostmygithubaccount/duckframes
+Project-URL: Bug Tracker, https://github.com/lostmygithubaccount/duckframes
+Author-email: Cody <cody@dkdc.dev>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: ibis-framework[duckdb]
+Description-Content-Type: text/markdown
+
+# duckframes
+
+coming soon?
