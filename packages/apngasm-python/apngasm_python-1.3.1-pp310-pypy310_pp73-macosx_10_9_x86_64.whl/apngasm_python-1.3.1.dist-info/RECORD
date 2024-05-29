@@ -1,0 +1,10 @@
+apngasm_python-1.3.1.dist-info/RECORD,,
+apngasm_python-1.3.1.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+apngasm_python-1.3.1.dist-info/WHEEL,sha256=lGZeZQ0wbjsi6I3g-oGAwcO10QkdBfnqYVcEYbSA7-U,109
+apngasm_python-1.3.1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apngasm_python-1.3.1.dist-info/METADATA,sha256=iwX8mibDQS0HpkhrOo2xLZIpR5vnexy_yTXkhrFl3wM,37202
+apngasm_python/_apngasm_python.pypy310-pp73-darwin.so,sha256=quoLx4C9C6VN4l6gwHJ11Arm2L8LYhWyeBR91z0JnO8,959824
+apngasm_python/__init__.py,sha256=COs7As7VLPqSuy0oGmLH6PWFwl9aftMK79PKELzt1Pw,67
+apngasm_python/_apngasm_python.pyi,sha256=1EoBH4TIgYeWXPBRb1BxvedO1DLqUDKKYKF1MTbogYA,17725
+apngasm_python/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apngasm_python/apngasm.py,sha256=zpdvXpm8SfkKnFSoAqgurRawqndQq3IYYXa7XOEL9qg,20648
