@@ -1,0 +1,8 @@
+setup.py
+myPakiPackage/__init__.py
+myPakiPackage/module1.py
+myPakiPackage/module2.py
+myPakipackage.egg-info/PKG-INFO
+myPakipackage.egg-info/SOURCES.txt
+myPakipackage.egg-info/dependency_links.txt
+myPakipackage.egg-info/top_level.txt
