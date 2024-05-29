@@ -1,0 +1,14 @@
+9f1d0c1ff2f7b5712fc3__mypyc.cpython-310-darwin.so,sha256=40E-a9AcSBpzZADVAc-k4SUckYzaBMn1HCj-fWzxG98,203280
+bencode2-0.0.19.dist-info/RECORD,,
+bencode2-0.0.19.dist-info/WHEEL,sha256=Wk3xULbGEfIN8cgLou3mefHTNbAG-7rbu1JDFsi4THA,107
+bencode2-0.0.19.dist-info/METADATA,sha256=ccUg4xH5__mptbpWasIKICTPOqMri__1PgOhHPmSFiE,2163
+bencode2-0.0.19.dist-info/licenses/LICENSE,sha256=WraLL2GWym7_6EnkH1Zi8kU_-2iPhXGv7yegTIEX3E8,1085
+bencode2/_decoder.py,sha256=2hF5qtLt3qYWLQMMfeu41Ewx7MnoHHfty0kGFFe8pJI,4670
+bencode2/_encoder.cpython-310-darwin.so,sha256=wCPkwSkJX5IlOR1BSNkKN__u1OrrDQtvXHAoPJx8zmk,33768
+bencode2/_exceptions.cpython-310-darwin.so,sha256=NRKFJZ0UIR2JIt4zwk474cYQ0CG7xD-GSTr8JEw10Ec,33776
+bencode2/_decoder.cpython-310-darwin.so,sha256=mY3PAB5qVyh6GmF7po4KsNbNo_DywTuoaihRmHsaOes,33768
+bencode2/__init__.py,sha256=8oBL9JcSBYJb8W8-C97TGxAKgo39XnAqwyLBTKEzXWw,640
+bencode2/_encoder.py,sha256=sR6ZDpUbBeeRsIFqNxTx15XV3QhhDTz3j00aXt-nDPY,3539
+bencode2/__init__.cpython-310-darwin.so,sha256=tSOj9w3gpOrW9IvPDMg49FMgOzz32aDGF-RCs_KaZnA,33752
+bencode2/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bencode2/_exceptions.py,sha256=9rZnN69-H4RvQHfeAfrwO8wunWU_V2VibJ65o3yKsPg,140
