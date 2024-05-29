@@ -1,0 +1,15 @@
+trame_jupyter_extension/__init__.py,sha256=WfbfJ3ciRTPaPXxNQH899jhzgM---owPAaNGYG4nHxM,1460
+trame_jupyter_extension/_version.py,sha256=vGQV1i-w-UmBgpJ_u_JfaB0sjrsgZcrLTErWKDAeC04,171
+trame_jupyter_extension/handlers.py,sha256=SYF92abcvM8SOqKHWnPfm3yj3YJz7zzsAwr1lV7HNHw,1765
+trame_jupyter_extension-2.1.1.data/data/etc/jupyter/jupyter_server_config.d/trame_jupyter_extension.json,sha256=VFhulgN0qi4Slxtu7Gaa411mlpEzheDsb7uNTmEHB4g,98
+trame_jupyter_extension-2.1.1.data/data/share/jupyter/labextensions/trame-jupyter-extension/package.json,sha256=ETHLkaRRNHcMCfYUhiQdpQrs6IvXhQlGjrQIVjPsU_o,5884
+trame_jupyter_extension-2.1.1.data/data/share/jupyter/labextensions/trame-jupyter-extension/static/612.f1237fcf4c45cf215a18.js,sha256=8SN_z0xFzyFaGGJQvDx0uE5cvq8QfwM4PXLZyM86DEk,6558
+trame_jupyter_extension-2.1.1.data/data/share/jupyter/labextensions/trame-jupyter-extension/static/728.5b961f2098a059c1e4b9.js,sha256=W5YfIJigWcHkuTyWofk15-xZVWqYKaVf3-fGwP2FrYg,4079
+trame_jupyter_extension-2.1.1.data/data/share/jupyter/labextensions/trame-jupyter-extension/static/remoteEntry.39d7b892ed5465b29a60.js,sha256=Ode4ku1UZbKaYIJhu8HdLzG6RBOXdoPUz3RxuKvaTRY,6540
+trame_jupyter_extension-2.1.1.data/data/share/jupyter/labextensions/trame-jupyter-extension/static/style.js,sha256=9-KftGnaken4Oe8MO_BKphB9bHlSjbTTqSznRKv0UEQ,166
+trame_jupyter_extension-2.1.1.data/data/share/jupyter/labextensions/trame-jupyter-extension/static/third-party-licenses.json,sha256=W6N2sSD7tQihMqQk64F9xMd1Flfr2KO97esAiHUOYdM,2453
+trame_jupyter_extension-2.1.1.data/data/share/jupyter/labextensions/trame-jupyter-extension/install.json,sha256=3K9CWjrhb0MZ2SD2n9ZgewRt0LTE7_eBY_pDt304_OU,207
+trame_jupyter_extension-2.1.1.dist-info/METADATA,sha256=myeXURZv3BLDiw8tQ8Bq-B1QtlBfouTrX0z21c0ZNGM,6224
+trame_jupyter_extension-2.1.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+trame_jupyter_extension-2.1.1.dist-info/licenses/LICENSE,sha256=m3o5FHXKYDARGwlL1IGiTaJrTmvrVPPRI4qEBe7p7gY,1520
+trame_jupyter_extension-2.1.1.dist-info/RECORD,,
