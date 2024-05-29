@@ -1,0 +1,3 @@
+gensim
+huggingface_hub
+regex

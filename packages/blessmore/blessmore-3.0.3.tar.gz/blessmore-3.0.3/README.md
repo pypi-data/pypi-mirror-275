@@ -1,0 +1,91 @@
+
+# blessmore
+
+`blessmore` is a Python package designed to load Pretrained Shona FastText embeddings, train FastText embeddings, and clean text data.
+
+## Installation
+
+Install the package using pip:
+
+```bash
+pip install blessmore
+```
+
+## Usage
+
+### Loading Pre-trained FastText Models
+
+The package allows you to load pre-trained FastText models of different dimensions (50, 100, 300, and 500 dimensions).
+
+```python
+from blessmore import load_fasttext_model
+
+# Load a 50-dimensional FastText model
+model_50 = load_fasttext_model(50)
+
+# Load a 100-dimensional FastText model
+model_100 = load_fasttext_model(100)
+
+# Load a 300-dimensional FastText model
+model_300 = load_fasttext_model(300)
+
+# Load a 500-dimensional FastText model
+model_500 = load_fasttext_model(500)
+```
+
+### Training FastText Models
+
+You can also train new FastText embeddings using your own text data of any language. The `train_fasttext_model` function will clean the text data and train a FastText model with the specified dimensions.
+
+```python
+from blessmore import train_fasttext_model
+
+corpus_file_path = 'shona_corpus.txt'
+vector_size = 50  # Specify the dimension you want to train
+
+# Train a FastText model
+model = train_fasttext_model(corpus_file_path, vector_size)
+```
+
+### Cleaning Shona Text Data
+
+The package provides functionality to clean text data, which involves tokenizing the text, removing non-letter symbols, and lowercasing the text.
+
+#### Cleaning Text Data from a File
+
+Clean text data from a file and save the cleaned text to a new file.
+
+```python
+from blessmore import clean_data
+
+input_file = 'shona_corpus.txt'
+output_file = 'cleaned_shona_corpus.txt'
+
+# Clean text data from the input file and save it to the output file
+clean_data(input_file, output_file)
+```
+
+## Modules
+
+### shonaembeddings.py
+
+This module contains the function to load pre-trained FastText models.
+
+### train_embedding.py
+
+This module contains functions to clean text data and train FastText models.
+
+## License
+
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Blessmore Majongwe - [blessmoremajongwe@gmail.com](mailto:blessmoremajongwe@gmail.com)
+
+## Acknowledgments
+
+- Hugging Face
+- Gensim
+
+This structure provides a clear and organized way for users to understand how to use your package, with code examples correctly formatted and explanations properly laid out.
