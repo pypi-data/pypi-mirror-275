@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+gisco_geodata/__init__.py
+gisco_geodata/parser.py
+gisco_geodata/theme.py
+gisco_geodata/utils.py
+gisco_geodata.egg-info/PKG-INFO
+gisco_geodata.egg-info/SOURCES.txt
+gisco_geodata.egg-info/dependency_links.txt
+gisco_geodata.egg-info/requires.txt
+gisco_geodata.egg-info/top_level.txt
+gisco_geodata/tests/__init__.py
+gisco_geodata/tests/test_examples.py
+gisco_geodata/tests/test_properties.py
+gisco_geodata/tests/test_set.py
+gisco_geodata/tests/test_units.py
