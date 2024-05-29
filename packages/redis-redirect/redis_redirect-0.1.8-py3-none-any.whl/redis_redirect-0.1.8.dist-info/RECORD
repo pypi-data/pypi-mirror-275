@@ -1,0 +1,10 @@
+redis_redirect/__init__.py,sha256=A6rYwwZXv1nX_HlCK57a-W17iR30LmDR_Z28weQXblA,30
+redis_redirect/aioredis_wrapper.py,sha256=yMmdxAP5JTf1ZTdWnm41uXbCtHcRSRKVxdjxzzRjJZU,3420
+redis_redirect/pubsub.py,sha256=iV3ZIw0sT8i6mlJJr3K2ScfpfRYWzyTW7jc8iO_MtuI,1194
+redis_redirect/redis_wrapper.py,sha256=VQV4HXz-E1ST4QN5CXmdlrxy-64tPksgZokh9vxo9iE,3067
+redis_redirect/version.py,sha256=x251-fbcn8rATkvSMLIBz6j535zTcLDxgDQ9A0Ypgyw,18
+redis_redirect-0.1.8.dist-info/LICENSE.txt,sha256=K7Qo03GxW76XAmTtadSOf9QnLDRLpDuI5SyJMoSv_DE,1084
+redis_redirect-0.1.8.dist-info/METADATA,sha256=S10M1RTHkmAtLHm2oyBtU11tR2o7WaYq7SufUb02htg,2956
+redis_redirect-0.1.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+redis_redirect-0.1.8.dist-info/top_level.txt,sha256=ZyUMt_iocgtLp7bUkOoA7nDcN_8R276gjE4cBfxrmmI,15
+redis_redirect-0.1.8.dist-info/RECORD,,
