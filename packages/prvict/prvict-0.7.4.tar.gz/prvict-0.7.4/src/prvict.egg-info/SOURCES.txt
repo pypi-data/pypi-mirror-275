@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/prvict.egg-info/PKG-INFO
+src/prvict.egg-info/SOURCES.txt
+src/prvict.egg-info/dependency_links.txt
+src/prvict.egg-info/top_level.txt
+tests/test_chatbot.py
+tests/test_main.py
+tests/test_prvict.py
