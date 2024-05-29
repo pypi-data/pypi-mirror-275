@@ -1,0 +1,10 @@
+tdrpa/tdworker.cp310-win_amd64.pyd,sha256=X_UvuyqLHK2p9cmdKbh25lHWEpGKAJdi_NNRmN4IRgY,1320448
+tdrpa/tdworker/__init__.pyi,sha256=eo6H_RM9ddvqmxIobBMiQATtrIDrExG31tLOU7AXpPY,138
+tdrpa/tdworker/_w.pyi,sha256=sleUdSrw0lLsBzpTHobCm8sPa0oS-c08XSersrEUBnw,5043
+tdrpa/tdworker/_winE.pyi,sha256=8lBiTZvP1K3LXEgPNdyfpl42x9AK3JiuBdSz3vsdXyo,17514
+tdrpa/tdworker/_winK.pyi,sha256=qHWt3fsjbfokBNnmt30oqJxeNELrCJznhXSNyCECDBs,5419
+tdrpa/tdworker/_winM.pyi,sha256=imb92Y2LGhsy-nXKyOYlcU0TLmEKddZQ4aSyoGWfGwU,7936
+tdrpa.tdworker-1.1.4.22.dist-info/METADATA,sha256=VwHMw2RI0YMhLfNryV_6gT1pIVyjzoLDlgjh9Tc-6UA,709
+tdrpa.tdworker-1.1.4.22.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tdrpa.tdworker-1.1.4.22.dist-info/top_level.txt,sha256=S9UoqmC_cyGqKbGsBkLQPEeQLbDrWD0SRwbxPpQpyyU,6
+tdrpa.tdworker-1.1.4.22.dist-info/RECORD,,
