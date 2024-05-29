@@ -1,0 +1,174 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "anywidget"
+description = "custom jupyter widgets made easy"
+authors = [
+    { name = "Trevor Manz", email = "trevor.j.manz@gmail.com" }
+]
+license = { text = "MIT" }
+dynamic = ["version"]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies =  [
+    "ipywidgets>=7.6.0",
+    "importlib-metadata; python_version < '3.8'",
+    "typing-extensions>=4.2.0",
+    "psygnal>=0.8.1",
+]
+
+[project.optional-dependencies]
+test = [
+    "mypy==1.10.0; python_version > '3.7'",
+    "pydantic",
+    "pytest",
+    "pytest-cov",
+    "ruff",
+    "msgspec; python_version > '3.7'",
+    "ipython<8.13; python_version < '3.9'",
+]
+dev = [
+    "comm>=0.1.0",
+    "watchfiles>=0.18.0",
+]
+
+[project.urls]
+homepage = "https://github.com/manzt/anywidget"
+
+[tool.hatch.build.targets.wheel.shared-data]
+"anywidget/nbextension" = "share/jupyter/nbextensions/anywidget"
+"anywidget/labextension" = "share/jupyter/labextensions/anywidget"
+"anywidget.json" = "etc/jupyter/nbconfig/notebook.d/anywidget.json"
+
+[tool.hatch.build]
+exclude = [
+    ".github",
+]
+artifacts = [
+    "anywidget/nbextension/index.*",
+    "anywidget/labextension/*.tgz",
+    "anywidget/labextension",
+]
+
+[tool.hatch.build.hooks.jupyter-builder]
+build-function = "hatch_jupyter_builder.npm_builder"
+ensured-targets = [
+    "anywidget/nbextension/index.js",
+    "anywidget/labextension/package.json",
+]
+skip-if-exists = [
+    "anywidget/nbextension/index.js",
+    "anywidget/labextension/package.json",
+]
+dependencies = [
+    "hatch-jupyter-builder>=0.5.0",
+]
+
+[tool.hatch.build.hooks.jupyter-builder.build-kwargs]
+npm = "pnpm"
+build_cmd = "build"
+
+[tool.hatch.version]
+path = "packages/anywidget/package.json"
+pattern = "\"version\": \"(?P<version>.+?)\""
+
+[tool.hatch.envs.default]
+features = ["test", "dev"]
+uv = true
+
+[tool.hatch.envs.default.scripts]
+lint = [
+  "ruff check {args:.}",
+  "ruff format --check --diff {args:.}",
+]
+fmt = [
+  "ruff format {args:.}",
+  "ruff check --fix {args:.}",
+]
+typecheck = "mypy anywidget"
+test = "pytest . --cov anywidget --cov-report term-missing"
+
+# https://github.com/charliermarsh/ruff
+[tool.ruff]
+line-length = 88
+src = ["anywidget", "tests"]
+exclude = ["packages"]
+
+[tool.ruff.lint]
+pydocstyle = { convention = "numpy" }
+select = [
+    "E",    # style errors
+    "W",    # style warnings
+    "F",    # flakes
+    "D",    # pydocstyle
+    "D417", # Missing argument descriptions in Docstrings
+    "I",    # isort
+    "UP",   # pyupgrade
+    "C4",   # flake8-comprehensions
+    "B",    # flake8-bugbear
+    "A001", # flake8-builtins
+    "RUF",  # ruff-specific rules
+    "TCH",  # flake8-type-checking
+    "TID",  # flake8-tidy-imports
+]
+ignore = [
+    "D401", # First line should be in imperative mood (remove to opt in)
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*.py" = [
+    "D",    # no docstrings in tests
+    "S101", # use of assert
+    "B018", # "useless expression", for accessing the Foo._repr_mimbundle_ descriptor
+]
+"docs/*.py" = ["D"]
+
+# https://docs.pytest.org/en/latest/customize.html
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = ["tests"]
+filterwarnings = [
+    # this line turns warnings coming from anywidget into test errors
+    # best practice is to use pytest.warns to actually assert warnings happen 
+    "error:::anywidget",
+    "ignore:Jupyter is migrating its paths:DeprecationWarning",
+    "ignore:Deprecated in traitlets 4.1, use the instance .metadata:DeprecationWarning",
+]
+log_cli_level = "INFO"
+xfail_strict = true
+addopts = ["-ra", "--strict-markers", "--strict-config"]
+
+# https://coverage.readthedocs.io/en/6.4/config.html
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "if TYPE_CHECKING:",
+    "@overload",
+    "except ImportError",
+    "\\.\\.\\.",
+    "raise NotImplementedError()"
+]
+
+# https://mypy.readthedocs.io/en/stable/config_file.html
+[tool.mypy]
+files = "anywidget/**/*.py"
+strict = true
+# this one is cumbersome, and not always that useful
+disallow_any_generics = false
+enable_error_code = ["ignore-without-code", "redundant-expr", "truthy-bool"]
+warn_unreachable = true
+
+[[tool.mypy.overrides]]
+module = "anywidget.widget"  # makes heavy use of traitlets, which is not typed
+disallow_untyped_calls = false
+
+[[tool.mypy.overrides]]
+module = "anywidget._cellmagic"  # makes heavy use of IPython, which is not typed
+disallow_untyped_calls = false
+
+[[tool.mypy.overrides]]
+# this might be missing in pre-commit, but they aren't typed anyway
+module = ["ipywidgets", "traitlets.*", "comm", "IPython.*"]
+ignore_missing_imports = true

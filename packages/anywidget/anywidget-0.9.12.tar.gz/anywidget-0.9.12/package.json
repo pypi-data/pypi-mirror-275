@@ -1,0 +1,26 @@
+{
+	"name": "@anywidget/monorepo",
+	"scripts": {
+		"build": "rspack build -c ./packages/anywidget/scripts/jlab.config.cjs",
+		"build:packages": "tsc --build && pnpm -r build && pnpm publint",
+		"clean": "rm -rf anywidget/nbextension/index.js anywidget/labextension && pnpm -r exec rm -rf dist",
+		"version": "changeset version && pnpm install",
+		"release": "pnpm build:packages && python -m build && changeset publish && twine upload --skip-existing dist/*",
+		"test": "vitest --environment=happy-dom --run",
+		"typecheck": "tsc --build && vitest --typecheck.only --run",
+		"fix": "biome check --apply .",
+		"publint": "pnpm --recursive --filter=\"./packages/**\" exec publint"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.7.3",
+		"@changesets/cli": "^2.27.3",
+		"@rspack/cli": "^0.6.5",
+		"@svitejs/changesets-changelog-github-compact": "^1.1.0",
+		"esbuild": "^0.21.4",
+		"happy-dom": "^14.11.1",
+		"publint": "^0.2.8",
+		"typescript": "^5.4.5",
+		"vitest": "^1.6.0"
+	},
+	"packageManager": "pnpm@9.1.0"
+}
