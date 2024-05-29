@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+aznum2words/__init__.py
+aznum2words/converter.py
+aznum2words.egg-info/PKG-INFO
+aznum2words.egg-info/SOURCES.txt
+aznum2words.egg-info/dependency_links.txt
+aznum2words.egg-info/top_level.txt
+tests/__init__.py
+tests/test_converter.py
