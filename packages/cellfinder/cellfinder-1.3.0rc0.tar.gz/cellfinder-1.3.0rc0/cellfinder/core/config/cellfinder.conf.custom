@@ -1,0 +1,3 @@
+[model]
+    model_path = '/home/adam/.cellfinder/model_weights/resnet50_tv.h5'
+    model_type = '50-layer'
