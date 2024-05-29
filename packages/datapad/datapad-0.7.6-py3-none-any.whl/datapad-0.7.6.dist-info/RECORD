@@ -1,0 +1,10 @@
+datapad/__init__.py,sha256=AMtzgSufCwPQocZfE0pctXIaLNbnZf2y91xuRt3JsRw,613
+datapad/fields.py,sha256=L4au8Zc94K3TRpJpG8ZgTRO5EXSANf0DD8dm2mbEhrE,13670
+datapad/io.py,sha256=F_mDLrHk1cby3d7mPLVzZnHK-jwloNIuCpPILfRX61M,9287
+datapad/sequence.py,sha256=RaQXQBO9BL8hYQrx_2rpF2NIpYMW9SMJE7nyNSH5abo,27922
+datapad/tests.py,sha256=8puNh2QmR2wViLjzvUVFOCNaIw32wt1Yc9tb-WWKrsI,2881
+datapad-0.7.6.dist-info/LICENSE,sha256=UlnaxSUe_M0T3XW_7D79sIsD9-2vAax89mXh33W4s6Y,11340
+datapad-0.7.6.dist-info/METADATA,sha256=kRVXkaQvYiRWSqa5pIVT4L3Oao2CmWfWrTV8Wd8M-7E,3468
+datapad-0.7.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+datapad-0.7.6.dist-info/top_level.txt,sha256=S9M_G6pOZK7FFefSa_qJFPRohcNvJDOvmlN3q9zzfAQ,8
+datapad-0.7.6.dist-info/RECORD,,
