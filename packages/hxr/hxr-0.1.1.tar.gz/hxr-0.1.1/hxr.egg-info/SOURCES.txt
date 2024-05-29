@@ -1,0 +1,7 @@
+setup.py
+hxr/__init__.py
+hxr/main.py
+hxr.egg-info/PKG-INFO
+hxr.egg-info/SOURCES.txt
+hxr.egg-info/dependency_links.txt
+hxr.egg-info/top_level.txt
