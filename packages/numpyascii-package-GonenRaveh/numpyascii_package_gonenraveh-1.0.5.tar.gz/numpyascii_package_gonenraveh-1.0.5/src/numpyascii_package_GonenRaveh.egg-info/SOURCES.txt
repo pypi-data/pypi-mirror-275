@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/numpyascii_GonenRaveh/__init__.py
+src/numpyascii_GonenRaveh/numpyascii.py
+src/numpyascii_package_GonenRaveh.egg-info/PKG-INFO
+src/numpyascii_package_GonenRaveh.egg-info/SOURCES.txt
+src/numpyascii_package_GonenRaveh.egg-info/dependency_links.txt
+src/numpyascii_package_GonenRaveh.egg-info/requires.txt
+src/numpyascii_package_GonenRaveh.egg-info/top_level.txt
+tests/test.py
