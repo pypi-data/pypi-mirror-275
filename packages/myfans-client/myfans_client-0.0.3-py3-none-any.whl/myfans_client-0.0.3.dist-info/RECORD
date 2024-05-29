@@ -1,0 +1,11 @@
+LICENSE,sha256=m6D_mQ1BLAogqdLz4a9ziqHSF4F0vCl4WpfWhRugYFM,1067
+myfans_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+myfans_client/client.py,sha256=vhX34uSz_wdz02uMZp1kCKnX0Eq2gjT2OJnksbaYUks,6494
+myfans_client/exceptions.py,sha256=e01BaIYwIgmGF130If2O_yEju5nkuR1p7A1TwPDXhrE,86
+myfans_client/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+myfans_client/models/follow.py,sha256=qNZ6um15gcQTnxBIVvOPC4XJ9CbNC8m0Mc4jl-okKic,311
+myfans_client/models/user.py,sha256=jD6YXERIhEh1gv5CuC8fpWyY6bVho0nIQK8cezG-HJE,1527
+myfans_client-0.0.3.dist-info/LICENSE,sha256=m6D_mQ1BLAogqdLz4a9ziqHSF4F0vCl4WpfWhRugYFM,1067
+myfans_client-0.0.3.dist-info/METADATA,sha256=6Jz8oZhjoAFML0OleWuLvR70CERK5GyoFjMv9cNhOok,793
+myfans_client-0.0.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+myfans_client-0.0.3.dist-info/RECORD,,
