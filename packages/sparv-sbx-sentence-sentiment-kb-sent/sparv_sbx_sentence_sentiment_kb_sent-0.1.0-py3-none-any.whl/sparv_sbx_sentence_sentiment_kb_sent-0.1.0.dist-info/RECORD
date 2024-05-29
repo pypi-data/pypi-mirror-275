@@ -1,0 +1,8 @@
+sbx_sentence_sentiment_kb_sent/__init__.py,sha256=PLpOQ5-19xCZXOLG09r9rpEK6kmCE9t-JM7pv02jalU,540
+sbx_sentence_sentiment_kb_sent/annotations.py,sha256=9jOsS7xXGZpsdC8mA05LSMLbgc0dC6QNUZcdHX-6iyI,1803
+sbx_sentence_sentiment_kb_sent/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sbx_sentence_sentiment_kb_sent/sentiment_analyzer.py,sha256=PbpT6OuU1yLHwnVD2-OYkZwZ19VlyX_w0XVk45LxRIk,4130
+sparv_sbx_sentence_sentiment_kb_sent-0.1.0.dist-info/METADATA,sha256=bS23BEU5GrSKwAsRnq1EVBtPzgHgFg9CdniMakenVSo,4008
+sparv_sbx_sentence_sentiment_kb_sent-0.1.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+sparv_sbx_sentence_sentiment_kb_sent-0.1.0.dist-info/entry_points.txt,sha256=urPlOr9dYLUMgkXtS7Ke2b0qysSaJEyRDTFgLn8HZYs,79
+sparv_sbx_sentence_sentiment_kb_sent-0.1.0.dist-info/RECORD,,
