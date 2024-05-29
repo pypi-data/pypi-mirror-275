@@ -1,0 +1,7 @@
+setup.py
+nltk/__init__.py
+nltk/hello.py
+rd_lab_nltk.egg-info/PKG-INFO
+rd_lab_nltk.egg-info/SOURCES.txt
+rd_lab_nltk.egg-info/dependency_links.txt
+rd_lab_nltk.egg-info/top_level.txt
