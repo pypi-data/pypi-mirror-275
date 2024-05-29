@@ -1,0 +1,4 @@
+[console_scripts]
+pyada=pyadalight.main:main
+pyadalight=pyadalight.main:main
+

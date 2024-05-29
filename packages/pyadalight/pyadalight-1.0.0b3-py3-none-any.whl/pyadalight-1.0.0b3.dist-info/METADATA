@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: pyadalight
+Version: 1.0.0b3
+Summary: Simple adalight (ambient light) software written in python.
+Author: RuslanUC
+Author-email: dev_ruslan_uc@protonmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: mss (>=9.0.1,<10.0.0)
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: opencv-python (>=4.9.0.80,<5.0.0.0)
+Requires-Dist: pyserial (>=3.5,<4.0)
+Project-URL: Homepage, https://github.com/pyAdaLight/pyadalight
+Project-URL: Repository, https://github.com/pyAdaLight/pyadalight
+Description-Content-Type: text/markdown
+
+# pyAdalight
+
+### Installation
+```shell
+$ pip install pyadalight
+```
+
+### Usage
+```shell
+$ pyadalight --help
+Usage: pyadalight [OPTIONS]
+
+Options:
+  -hl, --h-led-count INTEGER  Horizontal LED count.
+  -vl, --v-led-count INTEGER  Vertical LED count.
+  -p, --port TEXT             Serial port.
+  -m, --monitor INTEGER       Monitor index.
+  --list-monitors             Shows monitors list and exits.
+  --list-ports                Shows ports list and exits.
+  --help                      Show this message and exit.
+
+```
+
+### License
+The source is released under MIT-License (see https://opensource.org/licenses/MIT).
+
